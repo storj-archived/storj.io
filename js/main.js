@@ -272,7 +272,7 @@ jQuery(document).ready(function($){
 	var farmersCount = 0;
 	var count2;
 
-	$.getJSON("http://status.driveshare.org/api/total", function(json){
+	$.getJSON("https://status.driveshare.org/api/total", function(json){
 	  storageCount = json.total_TB;
 	  count = new CountUp("storage-count", 0, storageCount, 0, 2.5);
 	  count.start();
@@ -287,7 +287,7 @@ jQuery(document).ready(function($){
 
 	function apiTotal(){
 	    canCallAgain = false;
-	    $.getJSON("http://status.driveshare.org/api/total", function(json){
+	    $.getJSON("https://status.driveshare.org/api/total", function(json){
 	        storageCount = json.total_TB;
 	        count.update(storageCount);
 	        farmersCount = json.total_farmers;
