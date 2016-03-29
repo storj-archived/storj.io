@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="22px" viewBox="0 0 24 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-fast</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-fast" sketch:type="MSLayerGroup" transform="translate(1.000000, 0.458333)" stroke-linejoin="round">
+            <path d="M2.29166667,18.3333333 C2.29166667,17.0683333 3.31741667,16.0416667 4.58333333,16.0416667 L17.4166667,16.0416667 C18.6825833,16.0416667 19.7083333,17.0683333 19.7083333,18.3333333 C19.7083333,19.59925 18.6825833,20.625 17.4166667,20.625 L4.58333333,20.625 C3.31741667,20.625 2.29166667,19.59925 2.29166667,18.3333333 L2.29166667,18.3333333 Z" id="Stroke-536" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M3.00785833,19.9947917 L6.93210833,16.0705417" id="Stroke-537" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M5.12765,20.625 L9.68256667,16.0700833" id="Stroke-538" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M7.87765,20.625 L12.4325667,16.0700833" id="Stroke-539" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M10.62765,20.625 L15.1825667,16.0700833" id="Stroke-540" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M13.37765,20.625 L17.9069,16.0948333" id="Stroke-541" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M16.12765,20.625 L19.4560667,17.2975" id="Stroke-542" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M21.5416667,8.70833333 C21.5416667,6.14533333 19.4241667,4.03608333 16.7933333,4.13325 C15.7648333,1.9635 13.56025,0.458333333 11,0.458333333 C7.5845,0.458333333 4.8015,3.12583333 4.60258333,6.49 C2.464,6.04358333 0.458333333,7.6725 0.458333333,9.85416667 C0.458333333,13.3466667 4.125,13.2916667 4.125,13.2916667 L17.4166667,13.2916667 C17.4166667,13.2916667 21.5416667,12.7545 21.5416667,8.70833333 L21.5416667,8.70833333 Z" id="Stroke-543" stroke="#2684FF" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

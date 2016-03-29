@@ -1,0 +1,1336 @@
+/* -------------------------------- 
+
+Fonts
+
+-------------------------------- */
+
+@font-face {
+	font-family: 'Avenir Next LT Pro Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Regular'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Avenir Next LT Pro Demi';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Demi'), url('../fonts/AvenirNextLTPro-Demi.woff') format('woff');
+}
+@font-face {
+	font-family: 'Avenir Next LT Pro Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Bold'), url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
+}
+
+/* -------------------------------- 
+
+Main
+
+-------------------------------- */
+
+*, *::after, *::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family:'Avenir Next LT Pro Regular';
+}
+
+a {
+	text-decoration: none;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+a:hover {
+	color: #173AE8;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+	-webkit-font-feature-settings: 'kern' 1;
+	-moz-font-feature-settings: 'kern' 1;
+	-ms-font-feature-settings: 'kern' 1;
+	-o-font-feature-settings: 'kern' 1;
+	font-feature-settings: 'kern' 1;
+	text-rendering: optimizelegibility;
+	font-kerning: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Avenir Next LT Pro Regular';
+	color: #555;
+	letter-spacing: -1px;
+	margin-bottom: 0.6em;
+}
+.home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
+	font-family: 'Avenir Next LT Pro Demi';
+	color: #2683FF;
+}
+.title {
+	margin-bottom: 1em;
+}
+p {
+	font-family: 'Avenir Next LT Pro Regular';
+}
+b {
+	font-family:'Avenir Next LT Pro Demi';
+}
+img {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.blue {
+	color: #2683ff;
+}
+
+.spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer10 { height: 10px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer15 { height: 15px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer20 { height: 20px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer25 { height: 25px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer30 { height: 30px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer35 { height: 35px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+
+.mb0 { margin-bottom: 0 !important; }
+.mt0 { margin-top: 0 !important; }
+.ml0 { margin-left: 0 !important; }
+.mr0 { margin-right: 0 !important; }
+
+
+/* -------------------------------- 
+
+Buttons
+
+-------------------------------- */
+
+.btn {
+	font-family: 'Avenir Next LT Pro Demi';
+	font-size: 14px;
+	background: #2683FF;
+	color: #FFF;
+	padding: 14px 60px 12px;
+	z-index: 2;
+	border: 2px solid #2683ff;
+	border-radius: 3px;
+	outline: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
+.btn:hover, .btn:focus {
+	color: #fff;
+	background: #173AE8;
+	border-color: #173AE8;
+	outline: 0;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: 0;
+}
+
+.btn-transparent {
+	background: transparent;
+    border-color: #eee;
+    color: #555;
+}
+.btn-transparent:hover {
+	background: #fff;
+	color: #333;
+	border-color: #555;
+}
+
+.btn-green {
+	border-color: #88C425;
+	color: #fff;
+	background: #88C425;
+}
+.btn-green:hover, .btn-green:focus {
+	background: #91D127;
+	border-color: #91D127;
+}
+
+.btn-orange {
+	background: #FF7F00;
+	border-color: #FF7F00;
+	color: #fff;
+}
+.btn-orange:hover, .btn-orange:focus {
+	background: #FF6600;
+	border-color: #FF6600;
+}
+
+.btn-red {
+  background: transparent;
+  border-color: #fa6e50;
+  color: #fa6e50;
+}
+.btn-red:hover, .btn-red:focus {
+    background: #fa6e50;
+    border-color: #fa6e50;
+    color: #fff;
+}
+
+.btn-menu {
+	margin: 18px 6px;
+	padding: 12px 32px 10px;
+}
+
+.btn-action {
+	margin-top: 18px;
+    padding: 12px 36px 10px;
+}
+
+.btn-block {
+	margin-top: 1.6em;
+	margin-bottom: 1.4em;
+}
+
+.subscribe {
+    margin-top: 0;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+/* -------------------------------- 
+
+Navigation
+
+-------------------------------- */
+
+.navbar-brand {
+	padding: 0;
+}
+.logo {
+    display: inline-block;
+    margin: 0 20px;
+    width: 140px;
+}
+
+.menu {
+	padding: 60px 0 40px;
+    z-index: 3;
+    background: none;
+    border: none;
+    margin: 0;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px solid #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+    border-radius: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: 0;
+}
+.navbar-default .navbar-toggle:focus {
+	background: none;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
+    background-color: #2683ff;
+}
+.navbar-default .navbar-collapse.in{
+    border-color: transparent;
+}
+.navbar-collapse.in li {
+	border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.navbar-nav {
+    margin: 0 -15px;
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 22px;
+    text-align: center;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background: none; 
+    box-shadow: 0 2px #2683ff;
+}
+
+.navbar-default .navbar-nav>li>a {
+	display: inline-block;
+	color: #fff !important;
+	padding: 16px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #fff;
+}
+
+.navbar .dropdown {
+	display: inline-block;
+}
+
+.navbar-page {
+	border: 0;
+	border-bottom: 2px solid #eee;
+	border-radius: 0;
+	background: #fff;
+}
+.navbar-page .navbar-nav>li>a {
+	padding: 30px 16px;
+	width: 100%;
+    color: #8492a6;
+}
+.navbar-page .navbar-nav>li>a:hover {
+	color: #2683ff;
+}
+.navbar-page .navbar-nav>li>a.active {
+	font-family: 'Avenir Next LT Pro Demi';
+	color: #2683ff;
+	box-shadow: 0 2px #2683ff;
+}
+.navbar-page .navbar-brand {
+	margin: 15px 25px 15px 15px;
+}
+.navbar-page .logo {
+	margin-left: 15px;
+}
+.navbar-page .navbar-toggle {
+	margin-top: 22px;
+    margin-right: 22px;
+    border: 2px solid #2683ff;
+}
+.navbar-page .navbar-toggle .icon-bar {
+	background: #2683ff;
+}
+
+
+/* -------------------------------- 
+
+Inputs
+
+-------------------------------- */
+
+input, select {
+	display: block;
+	background: #fbfbfb;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	color: #2683FF;
+	padding: 12px 18px 10px;
+	margin: 25px auto;
+	width: 100%;
+	max-width: 320px;
+    font-size: 16px;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+input:focus, select:focus {
+    outline: 0;
+    border-color: #2D86fb;
+}
+.page input, .page select {
+	margin: 10px 0;
+    border-width: 1px;
+    max-width: 100%;
+}
+#publicKeys input {
+	margin-top: 20px;
+}
+
+select {
+	height: 46px;
+	text-indent: 10px;
+	color: #444;
+}
+
+.email {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {
+    color: #444;
+}
+:focus::-webkit-input-placeholder {
+    color: #BAD7FE;
+}
+:-moz-placeholder {
+    color: #444;
+}
+:focus:-moz-placeholder {
+    color: #BAD7FE;
+}
+::-moz-placeholder {
+    color: #444;
+}
+:focus::-moz-placeholder {
+    color: #BAD7FE;
+}
+:-ms-input-placeholder {
+    color: #444;
+}
+:focus:-ms-input-placeholder {
+    color: #BAD7FE;
+}
+
+
+
+/* -------------------------------- 
+
+Animated Headlines
+
+-------------------------------- */
+
+.cd-title {
+  position: relative;
+  height: 160px;
+  line-height: 230px;
+  text-align: center;
+}
+
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+.no-js .cd-words-wrapper b {
+  opacity: 0;
+}
+.no-js .cd-words-wrapper b.is-visible {
+  opacity: 1;
+}
+
+
+.cd-headline.type .cd-words-wrapper {
+  vertical-align: top;
+  overflow: hidden;
+}
+.cd-headline.type .cd-words-wrapper::after {
+  /* vertical bar */
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 90%;
+    width: 3px;
+    display: inline-block;
+    margin-left: 15px;
+    background-color: #fff;
+}
+.cd-headline.type .cd-words-wrapper.waiting::after {
+  -webkit-animation: cd-pulse 1s infinite;
+  -moz-animation: cd-pulse 1s infinite;
+  animation: cd-pulse 1s infinite;
+}
+.cd-headline.type .cd-words-wrapper.selected {
+  background-color: #fff;
+}
+.cd-headline.type .cd-words-wrapper.selected::after {
+  visibility: hidden;
+}
+.cd-headline.type .cd-words-wrapper.selected b {
+  color: #2683FF;
+}
+.cd-headline.type b {
+  visibility: hidden;
+}
+.cd-headline.type b.is-visible {
+  visibility: visible;
+}
+.cd-headline.type i {
+  position: absolute;
+  visibility: hidden;
+  font-style: normal;
+}
+.cd-headline.type i.in {
+  position: relative;
+  visibility: visible;
+}
+
+@-webkit-keyframes cd-pulse {
+  0% {
+    -webkit-transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+@-moz-keyframes cd-pulse {
+  0% {
+    -moz-transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  40% {
+    -moz-transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -moz-transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+@keyframes cd-pulse {
+  0% {
+    -webkit-transform: translateY(-50%) scale(1);
+    -moz-transform: translateY(-50%) scale(1);
+    -ms-transform: translateY(-50%) scale(1);
+    -o-transform: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
+    opacity: 1;
+  }
+  40% {
+    -webkit-transform: translateY(-50%) scale(0.9);
+    -moz-transform: translateY(-50%) scale(0.9);
+    -ms-transform: translateY(-50%) scale(0.9);
+    -o-transform: translateY(-50%) scale(0.9);
+    transform: translateY(-50%) scale(0.9);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(-50%) scale(0);
+    -moz-transform: translateY(-50%) scale(0);
+    -ms-transform: translateY(-50%) scale(0);
+    -o-transform: translateY(-50%) scale(0);
+    transform: translateY(-50%) scale(0);
+    opacity: 0;
+  }
+}
+
+/* -------------------------------- 
+
+Homepage
+
+-------------------------------- */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	height: 100vh;
+	top: 0;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+/*@keyframes animatedBackground {
+	0% { background-position: 0 0; }
+	50% { background-position: 0 100%; }
+	100% { background-position: 0 0; }
+}*/
+
+.header {
+	min-height: 600px;
+	background-color: #144EBC;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	/*animation: animatedBackground 24s ease-in-out;
+	-webkit-animation-direction: alternate;
+    animation-direction: alternate;
+	transform: translateZ(0);*/
+	position: relative;
+	height: 100vh;
+	max-height: 900px;
+	overflow: hidden;
+}
+.thankyou .header {
+	max-height: 520px;
+	min-height: 520px;
+	background: #144EBC;
+}
+.thankyou .btn {
+	position: relative;
+	z-index: 2;
+	font-size: 18px;
+	max-width: 360px;
+	line-height: 1.8em;
+	border-radius: 5px;
+	margin-top: 0.6em;
+}
+.header-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: url("../img/bg.jpg") center center no-repeat;
+	background-size: cover;
+}
+.header-content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+.headlines {
+	display: table-cell;
+	vertical-align: middle;
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+	padding: 1em;
+}
+.headlines h1 {
+	font-family: 'Avenir Next LT Pro Demi';
+	font-size:48px;
+	color: #fff;
+}
+.headlines p {
+	padding-bottom: 24px;
+	max-width: 600px;
+	line-height: 1.8em;
+	font-size: 21px;
+	margin: 0 auto;
+	color: #fff;
+}
+.home .btn {
+	position: relative;
+	z-index: 2;
+	font-size: 18px;
+	max-width: 360px;
+	border-radius: 5px;
+}
+.home input {
+	max-width: 360px;
+	line-height: 1.8em;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+
+/* -------------------------------- 
+
+Value Propositions
+
+-------------------------------- */
+
+.value {
+	padding: 1.5em 0;
+	z-index: 3;
+	position: relative;
+}
+.value h4 {
+	font-family: 'Avenir Next LT Pro Bold';
+	letter-spacing: 0;
+	margin-top: 1.2em;
+}
+.value p {
+	padding-bottom: 0.4em;
+	color: #003366;
+}
+.value img {
+	height: 52px;
+	margin-top: 1em;
+}
+
+/* -------------------------------- 
+
+Traction
+
+-------------------------------- */
+
+.traction {
+	padding: 3em 0;
+	z-index: 3;
+	position: relative;
+}
+.traction h2 {
+	color: #003366;
+	display: inline-block;
+}
+.traction span{
+	font-family: 'Avenir Next LT Pro Bold';
+	letter-spacing: 0;
+	color: #2683ff;
+}
+.traction img {
+	height: 52px;
+	margin-bottom: 1em;
+	margin-right: 1.5em;
+	display: inline-block;
+}
+.storage-tb {
+	display: none;
+}
+
+
+
+/* -------------------------------- 
+
+Pricing
+
+-------------------------------- */
+
+.section {
+	padding: 4em 0 5em;
+	/*background-color: #f8f8f8;*/ 
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+
+.plans {
+	margin: 1em auto;
+}
+.plan {
+	background: #fff;
+	border: 2px solid #eee;
+	margin: 2em 0;
+	border-radius: 4px;
+}
+.plan-icon {
+	margin-top: 2em;
+	margin-bottom: 0.2em;
+	width: 52px;
+	height: 52px;
+}
+.plan-title {
+	line-height: 4em;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+	margin-bottom: 0;
+	border-bottom: 2px solid #eee;
+	font-family: 'Avenir Next LT Pro Bold';
+	color: #2683ff;
+}
+.plan-pricing {
+    letter-spacing: 0;
+    line-height: 2em;
+    font-size: 42px;
+    margin-top: 16px;
+    padding-bottom: 42px;
+    font-family: 'Avenir Next LT Pro Bold';
+    color: #2683ff;
+}
+.home .plan-pricing {
+	margin-top: 0;
+}
+.plan-pricing span {
+	display: block;
+	letter-spacing: 0;
+	font-size: 18px;
+	line-height: 0;
+	background: #fff;
+	color: #003366;
+}
+
+.plan h4 {
+    line-height: 1.5em;
+    padding-top: 2px;
+    color: #333;
+    letter-spacing: 0;
+}
+.plan-currency {
+	font-family: 'Avenir Next LT Pro Demi';
+	font-size: 36px;
+	vertical-align: top;
+}
+.plan-feature-number, .plan-select-storage, .plan-select-transfer {
+	font-family: 'Avenir Next LT Pro Demi';
+    margin-bottom: 1.5em;
+}
+
+.compare {
+	background: #fff;
+	border: 0;
+}
+.compare-table {
+	margin: 2em auto;
+}
+.compare-logo {
+    width: auto;
+    height: 64px;
+    margin-top: 1.4em;
+}
+.compare-product {
+	height: 7em;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-bottom: 2px solid #f2f2f2;
+}
+.compare-metadisk {
+    border: 2px solid #2683ff;
+    border-radius: 10px;
+}
+.compare-metadisk .compare-logo {
+	max-width: 184px;
+}
+.compare-metadisk .compare-pricing {
+	color: #2683ff;
+}
+.compare-pricing {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 22px;
+    letter-spacing: 0;
+    line-height: 2em;
+    font-size: 34px;
+    font-family: 'Avenir Next LT Pro Bold';
+    color: #003366;
+}
+.compare-pricing span {
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#getStarted {
+	margin-bottom: 1em;
+}
+.get-started-form {
+	display: none;
+}
+.get-started-form input {
+	display: inline-block;
+	margin: 0;
+}
+.get-started-form .btn {
+	margin: 0;
+	margin-left: 10px;
+	width: auto;
+	padding-top: 10px;
+	padding-bottom: 8px;
+}
+.get-started-form .email {
+	padding: 11px 20px;
+	margin-bottom: 1em;
+}
+
+
+/* -------------------------------- 
+
+Upload Section
+
+-------------------------------- */
+
+.upload {
+    margin: 2.5em auto;
+    padding: 0 1em;
+}
+.upload-icons {
+	display: inline-block;
+	width: 52px;
+	margin: 0.75em;
+}
+.upload-text {
+	display: inline-block;
+}
+.upload h4 {
+    font-family: 'Avenir Next LT Pro Bold';
+    letter-spacing: 0;
+}
+.upload-metadisk {
+	width: 100%;
+	max-width: 460px;
+	margin-bottom: 1em;
+}
+
+.upload-intro {
+	margin-bottom: 3em;
+}
+
+/* -------------------------------- 
+
+C2A
+
+-------------------------------- */
+
+.c2a {
+	background-color: #144EBC;
+	background: url("../img/bg.jpg") center center no-repeat;
+	background-size: cover;
+	padding: 8em 0;
+}
+.c2a h1 {
+	font-family: 'Avenir Next LT Pro Demi';
+	font-size: 48px;
+	margin-bottom: 0.5em;
+	color: #fff;
+}
+.c2a p {
+	margin-bottom: 2em;
+	font-size: 18px;
+	color: #fff;
+}
+
+
+/* -------------------------------- 
+
+Footer
+
+-------------------------------- */
+
+footer {
+	padding: 2em 0;
+}
+.footer-logo:hover, .footer-logo:focus {
+	text-decoration: none;
+}
+.footer-logo {
+	display: block;
+	margin-bottom: 0.75em;
+}
+.footer-logo img {
+	width: 112px;
+	display: block;
+    margin: 0.8em 0 0.5em;
+}
+footer a {
+    padding-bottom: 2px;
+    line-height: 34px;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: #003366;
+}
+footer p {
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+footer h5 {
+    letter-spacing: 0;
+    padding-bottom: 0.5em;
+    margin-top: 1em;
+    font-family: 'Avenir Next LT Pro Bold';
+}
+footer .connect {
+	margin: 2em auto 1em;
+}
+footer .connect a {
+	padding-right: 1.2em;
+	border: 0;
+}
+.social-link {
+    height: 22px;
+    width: 22px;
+    margin-right: 0.6em;
+    opacity: 1;
+}
+
+
+/* -------------------------------- 
+
+Buckets
+
+-------------------------------- */
+
+body.page {
+	background: #f9f9f9;
+	padding-bottom: 3em;
+}
+.content {
+	border: 1px solid #eee;
+    background: #fff;
+    border-radius: 5px;
+    padding: 2em;
+    margin-bottom: 2em;
+}
+label {
+	margin-bottom: 0.8em;
+}
+.table {
+	margin-bottom: 0;
+}
+.table-responsive.content {
+	padding: 0;
+}
+tr {
+	-webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+}
+th, td {
+	padding: 1.8em !important;
+}
+
+.table>thead>tr>th {
+    border-bottom: 1px solid #eee;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+    border-top: 1px solid #eee;
+}
+.bucket-plan a {
+	font-family: 'Avenir Next LT Pro Demi';
+	text-decoration: none;
+}
+.bucket-icon {
+	padding: 22px 0 0 26px !important;
+    margin: 0;
+    width: 70px;
+}
+.bucket-icon img {
+	width: 42px;
+    padding: 0;
+    margin: 0;
+}
+.clickable-row {
+	cursor: pointer;
+}
+.btn-create-bucket {
+	margin-bottom: 2em;
+}
+.bucket-pricing-icon {
+	height: 50px;
+	width: 50px;
+	margin: 15px;
+}
+
+.page .btn-block {
+    font-size: 16px;
+    margin: 0.5em auto;
+    padding: 0.9em 0 0.8em;
+}
+
+input.parent-code {
+	margin: 1.2em auto;
+	line-height: 1.8em;
+}
+#code {
+	display: none;
+}
+
+
+/* -------------------------------- 
+
+Modals
+
+-------------------------------- */
+
+.modal {
+	top: 120px;
+}
+.modal-body {
+	padding: 1.5em 1em 1em
+}
+.modal-footer {
+	padding: 1.5em;
+}
+
+#loginModal .modal-body {
+	padding: 10px 30px;
+}
+#loginModal .btn {
+	margin: 0;
+	margin-bottom: 2em;
+}
+
+/* -------------------------------- 
+
+Sign Up
+
+-------------------------------- */
+
+
+.signup .logo {
+	margin: 3em auto;
+	width: 200px;
+}
+.signup .btn {
+	margin-bottom: 1.5em;
+	font-size: 16px;
+}
+.signup .content {
+	padding: 2em 3em;
+}
+.signup input {
+	min-width: 100%;
+}
+.signup .forgot-password {
+	display: block;
+	margin-top: 8px;
+}
+.password .title {
+	margin-bottom: 0.6em;
+}
+.password .content p {
+	margin-bottom: 2.5em;
+}
+.checkbox label {
+    padding-left: 24px;
+}
+.checkbox input {
+    margin: 3px 0 0 -26px !important;
+}
+
+
+/* -------------------------------- 
+
+API
+
+-------------------------------- */
+
+.api {
+	height: calc(100% - 44px);
+}
+
+.api .navbar {
+	margin-bottom: 0;
+}
+
+.api-iframe {
+	width: 100%;
+	height: 100%;
+}
+
+
+/* -------------------------------- 
+
+Media Queries
+
+-------------------------------- */
+
+
+
+@media (min-width: 1200px) {
+	body.page .container {
+    	width: 1020px;
+	}
+    .text-left-lg {
+      text-align: left;
+    }
+    .text-right-lg {
+      text-align: right;
+    }
+    .text-center-lg {
+      text-align: center;
+    }
+    .navbar-page {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.home .plan {
+		margin: 2em 1em;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text-left-md {
+      text-align: left;
+    }
+    .text-right-md {
+      text-align: right;
+    }
+    .text-center-md {
+      text-align: center;
+    }
+    .value p {
+    	font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .text-left-sm {
+      text-align: left;
+    }
+    .text-right-sm {
+      text-align: right;
+    }
+    .text-center-sm {
+      text-align: center;
+    }
+    .upload {
+		padding: 0;
+		margin: 1em auto;
+    }
+    .upload-metadisk {
+    	margin-top: 1em;
+    }
+    .navbar-page .navbar-brand {
+		margin-right: 0;
+	}
+	.btn-menu {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.value p {
+    	font-size: 15px;
+    }
+    .value h4 {
+    	font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text-left-xs {
+      text-align: left;
+    }
+    .text-right-xs {
+      text-align: right;
+    }
+    .text-center-xs {
+      text-align: center;
+    }
+    .header {
+    	height: auto;
+    	padding-bottom: 5em;
+    }
+    .header-content {
+    	position: relative;
+    }
+    .navbar-page .logo {
+		margin-left: 0;
+	}
+	.navbar-right {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	.navbar-page .navbar-nav>li>a {
+		padding: 16px;
+	}
+	.btn-menu {
+		width: 100%;
+		margin: 0.5em 0;
+	}
+	.compare-product {
+		padding: 0;
+	}
+	.compare-pricing {
+		font-size: 24px;
+		margin-top: 1.2em;
+	}
+	.compare-pricing span {
+    	margin-left: 6px;
+	}
+	.compare-logo {
+		max-width: 150px;
+		height: auto;
+	}
+	.compare-metadisk .compare-logo {
+		height: 25px;
+		width: auto;
+		margin-top: 2.5em;
+	}
+	footer {
+		text-align: center;
+	}
+	.footer-logo img {
+		margin: 1em auto 0.1em;
+	}
+}
+
+@media (max-width: 480px) {
+	.section {
+		padding: 2em 0;
+	}
+	.logo {
+    	width: 160px;
+	}
+	.btn-action {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.page .btn-block {
+		font-size: 16px;
+	}
+	.menu {
+		padding: 30px 0 20px;
+	}
+	.pricing {
+    	padding: 2em 0 4em;
+	}
+	.plans {
+    	margin: 0 auto 1em;
+	}
+	.traction img {
+	    margin-top: 0.6em;
+	    margin-bottom: 1.5em;
+	}
+	.traction h2 {
+    	font-size: 21px;
+	}
+	.c2a {
+		padding: 4em 1.5em;
+	}
+	.compare-pricing {
+		font-size: 18px;
+		margin-top: 1em;
+	}
+	.compare-pricing span {
+		font-size: 16px;
+		margin-left: 0;
+		display: block;
+	}
+	.compare-logo {
+		max-width: 130px;
+		height: auto;
+	}
+	.compare-metadisk .compare-logo {
+		height: 22px;
+		width: auto;
+		margin-top: 2.6em;
+	}
+	footer {
+		text-align: center;
+	}
+	footer h4 {
+    	margin-top: 2em;
+    	padding-bottom: 0;
+	}
+	.footer-logo p {
+	    display: block;
+	}
+	.footer-logo img {
+    	margin: 2em auto 0.3em;
+	}
+}

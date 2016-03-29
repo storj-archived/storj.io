@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="17px" viewBox="0 0 24 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-bandwidth</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-bandwidth" sketch:type="MSLayerGroup" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M13.5,12 C13.5,12.828 12.828,13.5 12,13.5 C11.172,13.5 10.5,12.828 10.5,12 C10.5,11.171 11.172,10.5 12,10.5 C12.828,10.5 13.5,11.171 13.5,12 L13.5,12 Z" id="Stroke-866" stroke="#2368FF" sketch:type="MSShapeGroup"></path>
+            <path d="M13.0605,10.939 L18.0105,5.99" id="Stroke-867" stroke="#2368FF" sketch:type="MSShapeGroup"></path>
+            <path d="M2.5,12.5 L4.5,12.5" id="Stroke-868" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M21.5,12.5 L19.5,12.5" id="Stroke-869" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M20.7764,8.3647 L18.9284,9.1297" id="Stroke-870" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M15.6348,3.2231 L14.8698,5.0711" id="Stroke-871" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M12,2.5 L12,4.5" id="Stroke-872" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M8.3652,3.2231 L9.1302,5.0711" id="Stroke-873" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M5.2832,5.2817 L6.6952,6.6967" id="Stroke-874" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M3.2236,8.3647 L5.0706,9.1297" id="Stroke-875" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M12,0.5 C5.648,0.5 0.5,5.649 0.5,12 L0.5,16.5 L23.5,16.5 L23.5,12 C23.5,5.649 18.352,0.5 12,0.5 L12,0.5 Z" id="Stroke-876" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

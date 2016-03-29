@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MetaDisk provides developers and IT teams with high performance, durable object storage.">
+    <meta name="keywords" content="metadisk, meta disk, storj, storj labs, decentralized storage, object storage, decentralized, cloud, storage, secure, private, encrypted">
+
+    <title>MetaDisk - The Most Secure Cloud Storage</title>
+
+    <meta property="og:title" content="MetaDisk - The Most Secure Cloud Storage"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="img/metadisk.png" />
+    <meta property="og:description" content="MetaDisk provides developers and IT teams with high performance, durable object storage."/>
+
+	<link rel="shortcut icon" href="img/favicon//favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon//favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/favicon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="js/modernizr.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="page">
+
+	<nav class="navbar navbar-page">
+	  <div class="container">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <!-- <a class="navbar-brand" href="#">MetaDisk</a> -->
+	      <a href="index.html" class="navbar-brand">
+			<img src="img/logo-blue.svg" alt="MetaDisk" class="logo">
+		  </a>
+	    </div>
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="navbar-menu">
+	      <ul class="nav navbar-nav navbar-left">
+	      	<li><a href="buckets.html">Buckets</a></li>
+			<li><a href="api.html">API</a></li>
+			<li><a href="billing.html">Billing</a></li>
+			<li><a href="">Support</a></li>
+	      </ul>
+	      <div class="navbar-right">
+	      	<a href="create-bucket.html" class="btn btn-green btn-menu">Create Bucket</a>	
+			<li class="dropdown">
+	          <a href="#" class="dropdown-toggle btn btn-menu btn-transparent" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Hi Tome <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="profile.html">Profile</a></li>
+	            <li><a href="billing.html">Billing</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="index.html">Logout</a></li>
+	          </ul>
+	        </li>
+	      </div>
+	    </div>
+	  </div>
+	</nav>
+
+	<section>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-xs-12">
+					<h1>Hi Tome!</h1>
+				</div>
+			</div>
+			<div class="spacer15"></div>
+			<div class="row">
+				<div class="col-sm-12 col-md-6">
+					<div class="content">
+						<h2>1. Welcome</h2>
+						<p>Thank you for signing up for MetaDisk.</p>
+						<p>To start, first you need to download the application.</p>
+						<div class="spacer10"></div>
+						<a href="" class="btn btn-green btn-block">Download MetaDisk</a>
+						<div class="spacer10"></div>						
+					</div>
+	      		</div>
+				<div class="col-sm-12 col-md-6">
+	      			<div class="content">
+						<h2>2. Connect</h2>
+						<p>After downloading, you'll need to enter your code.</p>
+						<p>Click to generate a code to connect your application.</p>
+						<div class="spacer10"></div>
+						<a href="" class="btn btn-block" id="generate">Generate Code</a>	
+						<div class="spacer10"></div>					
+					</div>	
+	      		</div>
+	      	</div>
+			<div class="row" id="code">
+				<div class="col-sm-12 col-md-6">
+					<div class="content">
+						<h2>3. Code</h2>
+						<p>Your code has been generated.</p>
+						<p>Copy and paste your code into the application.</p>
+						<div class="input-group">
+							<input type="text" id="clipboard_text" class="parent-code" value="7uJxq91kzZw4p8hnRTu83" disabled>	
+							<span class="input-group-btn">
+								<button type="button" class="btn" id="copy-button" data-clipboard-target="clipboard_text" title="Copy to Clipboard">Copy</button>
+							</span>
+					    </div>
+					</div>
+	      		</div>
+				<div class="col-sm-12 col-md-6">
+	      			<div class="content">
+						<h2>4. Finish</h2>
+						<p>You have successfully configured MetaDisk.</p>
+						<p>Next step is to learn how to upload your data.</p>
+						<div class="spacer10"></div>
+						<a href="api.html" class="btn btn-block btn-green">Learn More</a>
+						<div class="spacer10"></div>						
+					</div>	
+	      		</div>
+	      	</div>
+		</div>
+	</section>
+
+	<script src="js/jquery-2.1.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/ZeroClipboard.min.js"></script>
+
+	<script>
+		$(document).ready(function() {
+	        $('#generate').on('click', function() {
+	        	$('#code').show();
+	        	return false;
+	        	// Code just for mockup purposes
+	        });
+
+	        // ZeroClipboard
+			var client = new ZeroClipboard( document.getElementById("copy-button") );
+			client.on( "ready", function( readyEvent ) {
+			  // alert( "ZeroClipboard SWF is ready!" );
+			  client.on( "aftercopy", function( event ) {
+			    // `this` === `client`
+			    // `event.target` === the element that was clicked
+			    // event.target.style.display = "none";
+			    // alert("Copied text to clipboard: " + event.data["text/plain"] );
+			    //
+			    // We can add an alert or growl notification after copy.
+			  });
+			});
+	    });
+	</script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-49085346-4', 'auto');
+	  ga('send', 'pageview');
+	</script>
+	
+</body>
+</html>
