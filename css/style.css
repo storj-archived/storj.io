@@ -70,15 +70,16 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 	text-rendering: optimizelegibility;
 	font-kerning: normal;
 }
+// Dashboard
+// h1, h2, h3, h4, h5, h6 {
+// 	font-family: 'Avenir Next LT Pro Regular';
+// 	color: #555;
+// }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir Next LT Pro Regular';
-	color: #555;
+	font-family: 'Avenir Next LT Pro Bold';
+	color: #2683FF;
 	letter-spacing: -1px;
 	margin-bottom: 0.6em;
-}
-.home h1, .home h2, .home h3, .home h4, .home h5, .home h6 {
-	font-family: 'Avenir Next LT Pro Demi';
-	color: #2683FF;
 }
 .title {
 	margin-bottom: 1em;
@@ -281,7 +282,7 @@ Navigation
 
 .navbar-default .navbar-nav>li>a {
 	display: inline-block;
-	color: #fff !important;
+	color: #fff;
 	padding: 16px;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -294,7 +295,7 @@ Navigation
 
 .navbar-page {
 	border: 0;
-	border-bottom: 2px solid #eee;
+	// border-bottom: 2px solid #eee;
 	border-radius: 0;
 	background: #fff;
 }
@@ -604,6 +605,20 @@ canvas {
 	border-radius: 5px;
 	margin-top: 0.6em;
 }
+.page .menu {
+	padding: 20px 0;
+}
+.page .menu a {
+	color: #2683ff;
+}
+.page .title {
+	font-size: 42px;
+	margin-bottom: 0.5em;
+}
+.page .lead {
+	color: #555;
+	margin-bottom: 1em;
+}
 .header-bg {
 	position: absolute;
 	top: 0;
@@ -691,25 +706,37 @@ Traction
 
 -------------------------------- */
 
-.traction {
+.driveshare {
 	padding: 3em 0;
 	z-index: 3;
 	position: relative;
 }
-.traction h2 {
-	color: #003366;
+.driveshare h2 {
 	display: inline-block;
+	text-transform: uppercase;
+	font-size: 24px;
 }
-.traction span{
+.driveshare h2 a:hover {
+	text-decoration: none;
+}	
+.driveshare span{
 	font-family: 'Avenir Next LT Pro Bold';
 	letter-spacing: 0;
-	color: #2683ff;
+	color: #FF7F00;
+	border-bottom: 2px solid #ff7f00;
 }
-.traction img {
+.driveshare-icons {
 	height: 52px;
 	margin-bottom: 1em;
 	margin-right: 1.5em;
 	display: inline-block;
+}
+.driveshare-gui {
+	 max-width:420px;
+	 width:100%;
+	 height:auto;
+	 margin-right:0;
+	 margin-bottom:3em;
 }
 .storage-tb {
 	display: none;
@@ -879,7 +906,7 @@ Upload Section
     font-family: 'Avenir Next LT Pro Bold';
     letter-spacing: 0;
 }
-.upload-metadisk {
+.upload-gui {
 	width: 100%;
 	max-width: 460px;
 	margin-bottom: 1em;
@@ -922,6 +949,7 @@ Footer
 
 footer {
 	padding: 2em 0;
+	background: #fff;
 }
 .footer-logo:hover, .footer-logo:focus {
 	text-decoration: none;
@@ -931,9 +959,8 @@ footer {
 	margin-bottom: 0.75em;
 }
 .footer-logo img {
-	width: 112px;
+	width: 100px;
 	display: block;
-    margin: 0.8em 0 0.5em;
 }
 footer a {
     padding-bottom: 2px;
@@ -944,8 +971,9 @@ footer a {
 }
 footer p {
 	font-size: 14px;
-	line-height: 24px;
-	margin-bottom: 8px;
+    line-height: 28px;
+    margin-bottom: 4px;
+    color: #003366;
 }
 footer h5 {
     letter-spacing: 0;
@@ -976,7 +1004,7 @@ Buckets
 
 body.page {
 	background: #f9f9f9;
-	padding-bottom: 3em;
+	// padding-bottom: 3em;
 }
 .content {
 	border: 1px solid #eee;
@@ -1134,6 +1162,163 @@ API
 }
 
 
+
+/* -------------------------------- 
+
+TEAM
+
+-------------------------------- */
+
+
+.team p {
+  text-align: center;
+}
+.team-member {
+  width: 25%;
+  text-align: center;
+  padding: 30px;
+  margin: 20px auto;
+  display: block;
+  float: left;
+}
+.team-member-image {
+	border-radius: 50%;
+	margin-bottom: 20px;
+	width: 70%;
+	max-width: 180px;
+	height: 70%;
+	box-shadow: 0 2px 9px #ccc;
+}
+.team-member-name {
+	height: 25px;
+	margin-bottom: 10px;
+	font-family: 'Avenir Next LT Pro Bold';
+}
+.team-member-title {
+  height: 40px;
+  line-height: 28px;
+  font-size: 15px;
+  color: #555;
+}
+
+.get-in-touch {
+  margin-top: 20px;
+}
+
+
+
+/* -------------------------------- 
+
+FAQ
+
+-------------------------------- */
+
+.panel-title {
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	background: #2683ff;
+	line-height: 32px;
+	margin-top: 0;
+	font-family: 'Avenir Next LT Pro Demi';
+	letter-spacing: 0;
+}
+.panel-title a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  color: #fff;
+}
+.panel-title [data-toggle="collapse"].collapsed {
+  background: #fff;
+}
+.panel-title a.collapsed {
+  color: #2683ff !important;
+}
+.panel-body {
+  padding: 20px 30px 15px;
+  background: #fff;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.panel-body p {
+  line-height: 32px;
+}
+.panel-body ul {
+  line-height: 32px;
+}
+.panel-body li p {
+  font-weight: bold;
+}
+.panel-heading {
+	padding: 0;
+}
+.panel {
+	border: 0;
+    margin-bottom: 14px;
+}
+
+
+
+/* -------------------------------- 
+
+Press
+
+-------------------------------- */
+
+.press-page-title {
+  margin-bottom: 0;
+}
+.press-title {
+  line-height: 32px;
+  font-size: 18px;
+}
+.press-date {
+  margin-top: 8px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #A8A8A8;
+}
+.press-source {
+  display: block;
+  margin-top: 8px;
+}
+
+.presskit-logo {
+  border: 1px solid #ddd;
+  margin: 2em auto;
+  padding: 1.5em 2em 1em;
+  background: #fff;
+}
+.presskit-logo img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 2em auto;
+  display: block;
+  text-align: center;
+}
+.presskit-logo .link {
+  margin-left: 1em;
+}
+.presskit-logo.blue {
+  background: #2683ff;
+}
+.presskit-logo.orange {
+  background: #FF7F00;
+  color: #fff;
+}
+.presskit-logo.darkblue {
+  background: #173AE8;
+}
+.presskit-logo.darkblue p{
+  color: #fff;
+}
+.blue {
+	color: #fff;
+}
+
 /* -------------------------------- 
 
 Media Queries
@@ -1143,9 +1328,9 @@ Media Queries
 
 
 @media (min-width: 1200px) {
-	body.page .container {
-    	width: 1020px;
-	}
+	// body.page .container {
+ //    	width: 1020px;
+	// }
     .text-left-lg {
       text-align: left;
     }
@@ -1193,7 +1378,7 @@ Media Queries
 		padding: 0;
 		margin: 1em auto;
     }
-    .upload-metadisk {
+    .upload-gui {
     	margin-top: 1em;
     }
     .navbar-page .navbar-brand {

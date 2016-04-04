@@ -4,15 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Storj provides developers and IT teams with high performance, durable object storage.">
-    <meta name="keywords" content="storj, storj labs, decentralized storage, object storage, decentralized cloud, decentralized, storage, secure, private, encrypted, metadisk, driveshare">
+    <meta name="description" content="Blockchain-based, end-to-end encrypted, distributed object storage, where only you have access to your data.">
+    <meta name="keywords" content="storj, storj labs, blockchain-based, zero-knowledge, distributed object storage, decentralized object storage, decentralized storage, object storage, decentralized cloud, decentralized, storage, secure, private, encrypted, metadisk, driveshare">
 
     <title>Storj - The Most Secure Cloud Storage</title>
 
     <meta property="og:title" content="Storj - The Most Secure Cloud Storage"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:image" content="img/metadisk.png" />
-    <meta property="og:description" content="Storj provides developers and IT teams with high performance, durable object storage."/>
+    <meta property="og:image" content="img/storj.png" />
+    <meta property="og:description" content="Blockchain-based, end-to-end encrypted, distributed object storage, where only you have access to your data."/>
 
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
@@ -48,17 +48,18 @@
 		        <span class="icon-bar"></span>
 		      </button>
 		      <a href="index.html" class="navbar-brand">
-				<img src="img/logo-white.svg" alt="MetaDisk" class="logo">
+				<img src="img/logo-white.svg" alt="Storj" class="logo">
 			  </a>
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="navbar-menu">
 		      <ul class="nav navbar-nav navbar-right">
-		      	<li><a href="http://storj.github.io/metadisk-api">API Docs</a></li>
-				<li><a href="http://slack.storj.io/" class="link">Community</a></li>
-				<li><a href="http://slack.storj.io/" class="link">Earn Money</a></li>
-				<!-- <li><a href="#" class="link">Help</a></li> -->
+		      	<li><a href="http://storj.github.io/metadisk-api">Storj API</a></li>
+				<li><a href="http://slack.storj.io/" class="link">Join Community</a></li>
+				<li><a href="http://driveshare.org/" class="link">Earn Money</a></li>
+				<!-- <li><a href="#" class="link">Help</a></li>
 				<li><a href="login.html" class="link">Login</a></li>
+				<li><a href="signup.html" class="link">Signup</a></li> -->
 		      </ul>
 		    </div>
 		  </div>
@@ -82,7 +83,7 @@
 						<br class="visible-xs">
 						<span>Object Storage</span>
 					</h1>
-					<p>Storj provides developers and IT teams with<br class="hidden-xs"> zero knowledge, simple object storage.</p>
+					<p>Blockchain-based, end-to-end encrypted, distributed object storage, where only you have access to your data.</p>
 					<form action="http://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=7384dee0b2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email address" spellcheck="false" required>
 						<div style="position: absolute; left: -5000px;"><input type="text" name="b_edba9fc4ce8b9095a31859cba_7384dee0b2" tabindex="-1" value=""></div>
@@ -223,13 +224,13 @@
 		<div class="container">
 			<div class="row text-center upload-intro">
 				<div class="col-xs-10 col-xs-push-1">
-					<h1>Upload &amp; Download</h1>
+					<h1>User Friendly Interface</h1>
 					<p>Just drag-and-drop with the Storj web interface or use the API to code your app.</p>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-sm-6 text-center">
-					<img src="img/metadisk.png" class="upload-metadisk" alt="">
+					<img src="img/gui.jpg" class="upload-gui" alt="">
 				</div>
 				<div class="col-sm-6">
 					<div class="row upload text-center-xs">
@@ -264,18 +265,30 @@
 		</div>
 	</section>
 
-	<section class="traction text-center">
+	<section class="driveshare text-center">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-6">
-					<img src="img/icon-capacity.svg" alt="">
-					<h2><span id="storage-count" class="storage-count"></span><span class="storage-tb"> TB</span> Storage Online</h2>
-				</div>
-				<div class="col-sm-6">
-					<img src="img/icon-users.svg" alt="">
-					<h2><span id="user-count" class="user-count"></span> Users Online</h2>
+			<div class="row text-center">
+				<img src="img/driveshare.png" alt="" class="driveshare-gui">
+			</div>
+			<div class="row text-center upload-intro">
+				<div class="col-xs-10 col-xs-push-1">
+					<h1>Earn Money by Sharing Your Hard Drive</h1>
+					<p>Just download the Storj desktop application, and choose how much storage to share.</p><br>
+					<a href="http://driveshare.org" class="btn btn-orange">Start Earning Money</a>
 				</div>
 			</div>
+			<div class="spacer20"></div>
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="img/icon-users.svg" class="driveshare-icons" alt="">
+					<h2><a href="http://driveshare.org">Join The <span id="user-count" class="user-count"></span> People</a></h2>
+				</div>
+				<div class="col-sm-6">
+					<img src="img/icon-capacity.svg" class="driveshare-icons" alt="">
+					<h2><a href="http://driveshare.org">Sharing <span id="storage-count" class="storage-count"></span><span class="storage-tb"> TB</span> Storage</a></h2>
+				</div>
+			</div>
+			<div class="spacer20"></div>
 		</div>
 	</section>
 
@@ -298,7 +311,7 @@
 	<footer>
 	 	<div class="container">
 		    <div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-3">
+				<div class="col-xs-12 col-md-3">
 					<a href="" class="footer-logo">
 						<img src="img/logo-blue.svg" alt="MetaDisk">
 					</a>
@@ -306,56 +319,36 @@
 						<li><p>Copyright © <script type="text/javascript">document.write(new Date().getFullYear());</script></p></li>
 						<li><p>Storj Labs Inc.</p></li>
 						<li><a href="http://storj.io/careers.html">We're Hiring!</a></li>
-						<!-- <li><a href="">Privacy & Terms</a></li> -->
+						<li><a href="canary.txt">Canary</a></li>
 					</ul>
 				</div>
-			    <!-- <div class="col-xs-6 col-sm-4 col-md-2">
-			      <h4>Product</h4>
-			      <ul class="list-unstyled">
-					<li><a href="">How It Works</a></li>
-					<li><a href="">Pricing</a></li>
-					<li><a href="">Features</a></li>
-					<li><a href="">API</a></li>
-			      </ul>
-			    </div> -->
-			    <div class="col-xs-12 col-sm-6 col-md-3">
+
+			    <div class="col-xs-12 col-md-3">
 			      <h5>Company</h5>
 			      <ul class="list-unstyled">
 			        <li><a href="http://storj.io/team.html">About Us</a></li>
 			        <li><a href="http://blog.storj.io/">Blog</a></li>
 			        <li><a href="http://storj.io/careers.html">Careers</a></li>
-			        <!-- <li><a href="http://storj.io/press.html">Press</a></li> -->
+			        <li><a href="http://storj.io/press.html">Press</a></li>
 			      </ul>
 			    </div>
-			    <!-- <div class="col-xs-6 col-sm-4 col-md-2">
-			      <h4>Help</h4>
-			      <ul class="list-unstyled">
-			        <li><a href="">Getting Started</a></li>
-			        <li><a href="">Feedback</a></li>
-			        <li><a href="">Referral Program</a></li>
-			        <li><a href="http://storj.io/faq.html">FAQ</a></li>
-			      </ul>
-			    </div> -->
-			    <div class="col-xs-12 col-sm-6 col-md-3">
+
+			    <div class="col-xs-12 col-md-3">
 			      <h5>Product</h5>
 			      <ul class="list-unstyled">
 			      	<li><a href="http://storj.github.io/metadisk-api">API Docs</a></li>
 			      	<li><a href="http://storj.io/faq.html">FAQ</a></li>
 			        <li><a href="http://slack.storj.io">Join Slack</a></li>
-			        <!-- <li><a href="">Tutorials</a></li>
-			        <li><a href="">Questions</a></li>
-			        <li><a href="">Projects</a></li>
-			        <li><a href="">Tutorial Suggestions</a></li>
-			        <li><a href="">Get Paid to Write</a></li> -->
+			        <li><a href="">Help</a></li>
 			      </ul>
 			    </div>
-			    <div class="col-xs-12 col-sm-6 col-md-3">
+			    <div class="col-xs-12 col-md-3">
 			      <ul class="list-unstyled">
 			     	<h5>Connect</h5>
 			        <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="img/social-twitter.svg" alt="">Twitter</a></li>
 			        <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="img/social-github.svg" alt="">GitHub</a></li>
-			        <!-- <li><a href="http://blog.storj.io/" target="_blank"><img class="social-link" src="img/social-tumblr.svg" alt="">Tumblr</a></li> -->
 			        <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="img/social-reddit.svg" alt="">Reddit</a></li>
+			        <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="img/social-facebook.svg" alt="">Facebook</a></li>
 			      </ul>
 			    </div>
 			</div>
