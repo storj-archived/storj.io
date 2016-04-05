@@ -300,7 +300,7 @@ Navigation
 	background: #fff;
 }
 .navbar-page .navbar-nav>li>a {
-	padding: 30px 16px;
+	padding: 40px 16px;
 	width: 100%;
     color: #8492a6;
 }
@@ -313,7 +313,7 @@ Navigation
 	box-shadow: 0 2px #2683ff;
 }
 .navbar-page .navbar-brand {
-	margin: 15px 25px 15px 15px;
+	margin: 25px;
 }
 .navbar-page .logo {
 	margin-left: 15px;
@@ -606,7 +606,7 @@ canvas {
 	margin-top: 0.6em;
 }
 .page .menu {
-	padding: 20px 0;
+	padding: 0;
 }
 .page .menu a {
 	color: #2683ff;
