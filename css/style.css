@@ -319,14 +319,16 @@ Navigation
 	margin-left: 15px;
 }
 .navbar-page .navbar-toggle {
-	margin-top: 22px;
+	margin-top: 34px;
     margin-right: 22px;
     border: 2px solid #2683ff;
 }
 .navbar-page .navbar-toggle .icon-bar {
 	background: #2683ff;
 }
-
+.navbar-page .navbar-toggle:hover .icon-bar {
+	background: #fff;
+}
 
 /* -------------------------------- 
 
@@ -1459,7 +1461,13 @@ Media Queries
 		padding: 2em 0;
 	}
 	.logo {
-    	width: 160px;
+    	width: 134px;
+	}
+	.navbar-page .navbar-brand {
+		margin: 15px;
+	}
+	.navbar-page .navbar-toggle {
+		margin-top: 22px;
 	}
 	.btn-action {
 		padding-left: 10px;
