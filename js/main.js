@@ -267,58 +267,47 @@ jQuery(document).ready(function($){
 
 	// Storage & Users Counters
 
-	var storageCount = 0;
-	var count;
-	var farmersCount = 0;
-	var count2;
+	// var storageCount = 0;
+	// var count;
+	// var farmersCount = 0;
+	// var count2;
 
-	$.getJSON("https://status.driveshare.org/api/total", function(json){
-	  storageCount = json.total_TB;
-	  count = new CountUp("storage-count", 0, storageCount, 0, 2.5);
-	  count.start();
-	  $(".storage-tb").show();
-	  farmersCount = json.total_farmers;
-	  count2 = new CountUp("user-count", 0, farmersCount, 0, 2.5);
-	  count2.start();
-	  apiTotal();
-	});
+	// $.getJSON("https://status.driveshare.org/api/total", function(json){
+	//   storageCount = json.total_TB;
+	//   count = new CountUp("storage-count", 0, storageCount, 0, 2.5);
+	//   count.start();
+	//   $(".storage-tb").show();
+	//   farmersCount = json.total_farmers;
+	//   count2 = new CountUp("user-count", 0, farmersCount, 0, 2.5);
+	//   count2.start();
+	//   apiTotal();
+	// });
 
-	var canCallAgain = true;
+	// var canCallAgain = true;
 
-	function apiTotal(){
-	    canCallAgain = false;
-	    $.getJSON("https://status.driveshare.org/api/total", function(json){
-	        storageCount = json.total_TB;
-	        count.update(storageCount);
-	        farmersCount = json.total_farmers;
-		    count2.update(farmersCount);
-	        canCallAgain = true;
-		  }); 
-		};
-	setInterval(function(){
-	    if(canCallAgain)
-	        apiTotal();
-	},20000);
-
+	// function apiTotal(){
+	//     canCallAgain = false;
+	//     $.getJSON("https://status.driveshare.org/api/total", function(json){
+	//         storageCount = json.total_TB;
+	//         count.update(storageCount);
+	//         farmersCount = json.total_farmers;
+	// 	    count2.update(farmersCount);
+	//         canCallAgain = true;
+	// 	  }); 
+	// 	};
+	// setInterval(function(){
+	//     if(canCallAgain)
+	//         apiTotal();
+	// },20000);
 
     // Smooth Page Scroll
-    $('.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
-
-
-    // Pricing plan update
-    $('#plan-select').change(function(){
-    	var storage = $(this).val();
-    	var transfer = storage*3;
-    	$('#plan-select-storage').html(storage);
-    	$('#plan-select-transfer').html(transfer);
-	});
-
+    // $('.page-scroll').bind('click', function(event) {
+    //     var $anchor = $(this);
+    //     $('html, body').stop().animate({
+    //         scrollTop: $($anchor.attr('href')).offset().top
+    //     }, 1500, 'easeInOutExpo');
+    //     event.preventDefault();
+    // });
 
 	// Get started button transition
 	$('#getStarted').on('click', function(){
@@ -332,5 +321,43 @@ jQuery(document).ready(function($){
 		$('#getStartedForm2').fadeIn();
 		$('#getStartedEmail2').focus();
 	});
+
+	$(window).scroll(function(){
+	  var x = $(this).scrollTop(),
+	      transY = (x * 0.5), scale = 1 + (x * 0.0003),
+	      transform = 'translateY('+transY+'px) scale('+scale+') translate3d(0,0,0)';
+	  $('.header-bg').css({
+	    opacity: 1 - (x * 0.0008),
+	    WebkitTransform: transform,
+	    MozTransform: transform,
+	    msTransform: transform,
+	    transform: transform
+	  });
+	});
+
+	$('.slider').slick({
+		arrows: true,
+		dots: true,
+		autoplay: true,
+  		autoplaySpeed: 9000,
+		infinite: true,
+		speed: 300
+	});
+
+	//  $('.slider-for').slick({
+	//   slidesToShow: 1,
+	//   slidesToScroll: 1,
+	//   arrows: false,
+	//   fade: true,
+	//   asNavFor: '.slider-nav'
+	// });
+	// $('.slider-nav').slick({
+	//   slidesToShow: 3,
+	//   slidesToScroll: 1,
+	//   asNavFor: '.slider-for',
+	//   dots: true,
+	//   centerMode: true,
+	//   focusOnSelect: true
+	// });
 
 });
