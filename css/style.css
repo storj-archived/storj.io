@@ -710,6 +710,11 @@ canvas {
 	border-radius: 5px;
 }
 
+.white-tooltip + .tooltip > .tooltip-inner {background-color: #fff;color:#333;}
+.tooltip-inner {
+	padding: 10px;
+}
+
 
 /* -------------------------------- 
 

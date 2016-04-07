@@ -344,6 +344,8 @@ jQuery(document).ready(function($){
 		speed: 300
 	});
 
+	$('[data-toggle="tooltip"]').tooltip(); 
+
 	//  $('.slider-for').slick({
 	//   slidesToShow: 1,
 	//   slidesToScroll: 1,
