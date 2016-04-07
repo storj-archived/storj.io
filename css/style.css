@@ -1026,17 +1026,17 @@ Video
 
 -------------------------------- */
 
-.video {
+.storj-video {
   margin-top: 15px;
   padding: 0;
   box-shadow: 0 0 40px #eee;
 }
 
-.video-wrapper {
+.storj-video-wrapper {
 	border-bottom: 0;
 }
 
-.video-container {
+.storj-video-container {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
@@ -1045,7 +1045,7 @@ Video
   height: auto;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
+.storj-video-container iframe, .storj-video-container object, .storj-video-container embed {
   position: absolute;
   top: 0;
   left: 0;
