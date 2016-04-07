@@ -237,7 +237,7 @@ Navigation
 }
 
 .menu {
-	padding: 60px 0 40px;
+	padding: 40px 0;
     z-index: 3;
     background: none;
     border: none;
@@ -1004,7 +1004,7 @@ C2A
 	background-color: #144EBC;
 	background: url("../img/bg.jpg") center center no-repeat;
 	background-size: cover;
-	padding: 8em 0;
+	padding: 6em 0;
 }
 .c2a h1 {
 	font-family: 'Avenir Next LT Pro Demi';
