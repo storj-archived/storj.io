@@ -507,6 +507,7 @@ Animated Headlines
 }
 .cd-headline.type b {
   visibility: hidden;
+  font-family: "Avenir Next LT Pro Bold";
 }
 .cd-headline.type b.is-visible {
   visibility: visible;
@@ -681,7 +682,6 @@ canvas {
 	padding: 1em;
 }
 .headlines h1 {
-	font-family: 'Avenir Next LT Pro Demi';
 	font-size:48px;
 	color: #fff;
 }
@@ -1007,7 +1007,6 @@ C2A
 	padding: 6em 0;
 }
 .c2a h1 {
-	font-family: 'Avenir Next LT Pro Demi';
 	font-size: 48px;
 	margin-bottom: 0.5em;
 	color: #fff;
