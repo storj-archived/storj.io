@@ -269,6 +269,7 @@ Navigation
 
 .navbar-nav {
     margin: 0 -15px;
+    text-align: center;
 }
 .navbar-nav>li>a {
     padding-top: 15px;
@@ -878,14 +879,14 @@ Pricing
 	padding-right: 1em;
 	border-bottom: 2px solid #f2f2f2;
 }
-.compare-metadisk {
+.compare-storj {
     border: 2px solid #2683ff;
     border-radius: 10px;
 }
-.compare-metadisk .compare-logo {
+.compare-storj .compare-logo {
 	max-width: 184px;
 }
-.compare-metadisk .compare-pricing {
+.compare-storj .compare-pricing {
 	color: #2683ff;
 }
 .compare-pricing {
@@ -1630,7 +1631,7 @@ Media Queries
 		max-width: 150px;
 		height: auto;
 	}
-	.compare-metadisk .compare-logo {
+	.compare-storj .compare-logo {
 		height: 25px;
 		width: auto;
 		margin-top: 2.5em;
@@ -1669,6 +1670,21 @@ Media Queries
 	.menu {
 		padding: 30px 0 20px;
 	}
+	.headlines {
+		padding: 0;
+	}
+	h1 {
+		font-size: 32px;
+	}
+
+	.headlines h1 {
+	    font-size: 32px;
+	    line-height: 46px;
+	}
+	.headlines p {
+    	padding-bottom: 16px;
+    	font-size: 16px;
+	}
 	.pricing {
     	padding: 2em 0 4em;
 	}
@@ -1682,9 +1698,22 @@ Media Queries
 	.traction h2 {
     	font-size: 21px;
 	}
-	.c2a {
-		padding: 4em 1.5em;
+	.slick-next {
+    	right: -9px !important;
 	}
+	.slick-prev {
+		left: -9px !important;
+	}
+	.c2a {
+		padding: 3em 0;
+	}
+	.c2a h1 {
+    	font-size: 42px;
+    	line-height: 46px;
+    }
+    .c2a p {
+    	font-size: 16px;
+    }
 	.compare-pricing {
 		font-size: 18px;
 		margin-top: 1em;
@@ -1698,7 +1727,7 @@ Media Queries
 		max-width: 130px;
 		height: auto;
 	}
-	.compare-metadisk .compare-logo {
+	.compare-storj .compare-logo {
 		height: 22px;
 		width: auto;
 		margin-top: 2.6em;
