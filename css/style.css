@@ -1019,6 +1019,41 @@ C2A
 }
 
 
+
+/* -------------------------------- 
+
+Video
+
+-------------------------------- */
+
+.video {
+  margin-top: 15px;
+  padding: 0;
+  box-shadow: 0 0 40px #eee;
+}
+
+.video-wrapper {
+	border-bottom: 0;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 /* -------------------------------- 
 
 Footer
