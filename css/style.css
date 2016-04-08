@@ -279,8 +279,11 @@ Navigation
 }
 .nav>li>a:hover, .nav>li>a:focus {
     background: none; 
-    box-shadow: 0 2px #fff;
+    // box-shadow: 0 2px #fff;
     color: #fff;
+}
+.home .nav>li>a:hover, .home .nav>li>a:focus {
+    border-bottom: 1px solid #fff;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #fff;
@@ -1616,10 +1619,30 @@ Media Queries
 	}
 	.navbar-page .navbar-nav>li>a {
 		padding: 16px;
+		width: 90%;
+	}
+	.navbar-page .navbar-nav>li>a.active {
+		background: #2683ff;
+		color: #fff;
+		box-shadow: none;
+	}
+	.navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus  {
+		box-shadow: none;
+		background: #f2f2f2;
+	}
+	.navbar-page .navbar-nav>li>a.active:hover, .navbar-page .navbar-nav>li>a.active:focus {
+		background: #2683ff;
 	}
 	.btn-menu {
 		width: 100%;
 		margin: 0.5em 0;
+	}
+	.navbar-page .btn-rent {
+    	width: 90% !important;
+    	margin-top: 18px;
+	}
+	.navbar-page .btn-rent:hover {
+		background: #fff !important;
 	}
 	.compare-product {
 		padding: 0;
