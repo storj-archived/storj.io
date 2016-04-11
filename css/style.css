@@ -1644,6 +1644,9 @@ Media Queries
 	.navbar-page .btn-rent:hover {
 		background: #fff !important;
 	}
+	.home .nav>li>.link:hover, .home .nav>li>.link:focus {
+    	border-bottom: 0;
+	}
 	.compare-product {
 		padding: 0;
 	}
