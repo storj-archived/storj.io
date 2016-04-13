@@ -1,3 +1,3 @@
-# storj.io-site
+# storj.io
 
 It's awesome.
