@@ -611,7 +611,14 @@ canvas {
 
 .header {
 	min-height: 600px;
-	background-color: #144EBC;
+	background: #020307;
+	background: -moz-linear-gradient(top, #020307 0%, #144fbc 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #020307), color-stop(100%, #144fbc));
+	background: -webkit-linear-gradient(top, #020307 0%, #144fbc 100%);
+	background: -o-linear-gradient(top, #020307 0%, #144fbc 100%);
+	background: -ms-linear-gradient(top, #020307 0%, #144fbc 100%);
+	background: linear-gradient(to bottom, #020307 0%, #144fbc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020307', endColorstr='#144fbc', GradientType=0 );
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
