@@ -699,6 +699,8 @@ canvas {
 .headlines h1 {
 	font-size:48px;
 	color: #fff;
+	line-height: 68px;
+	margin-bottom: 18px;
 }
 .headlines p {
 	padding-bottom: 24px;
