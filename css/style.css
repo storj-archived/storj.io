@@ -282,7 +282,7 @@ Navigation
     // box-shadow: 0 2px #fff;
     color: #fff;
 }
-.home .nav>li>a:hover, .home .nav>li>a:focus {
+.home .nav>li>a.link:hover, .home .nav>li>a.link:focus {
     border-bottom: 1px solid #fff;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
