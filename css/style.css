@@ -1,27 +1,3 @@
-/* -------------------------------- 
-
-Fonts
-
--------------------------------- */
-
-@font-face {
-	font-family: 'Avenir Next LT Pro Regular';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Avenir Next LT Pro Regular'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
-}
-@font-face {
-	font-family: 'Avenir Next LT Pro Demi';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Avenir Next LT Pro Demi'), url('../fonts/AvenirNextLTPro-Demi.woff') format('woff');
-}
-@font-face {
-	font-family: 'Avenir Next LT Pro Bold';
-	font-style: normal;
-	font-weight: normal;
-	src: local('Avenir Next LT Pro Bold'), url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
-}
 
 /* -------------------------------- 
 
@@ -47,7 +23,7 @@ html {
 
 body {
 	font-size: 1.6rem;
-	font-family:'Avenir Next LT Pro Regular';
+	font-family:'AvenirNextLTW01-Regular';
 }
 
 a {
@@ -72,11 +48,11 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 // Dashboard
 // h1, h2, h3, h4, h5, h6 {
-// 	font-family: 'Avenir Next LT Pro Regular';
+// 	font-family: 'AvenirNextLTW01-Regular';
 // 	color: #555;
 // }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir Next LT Pro Bold';
+	font-family: 'Avenir Next LT W01 Bold';
 	color: #2683FF;
 	letter-spacing: -1px;
 	margin-bottom: 0.6em;
@@ -85,10 +61,10 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1em;
 }
 p {
-	font-family: 'Avenir Next LT Pro Regular';
+	font-family: 'AvenirNextLTW01-Regular';
 }
 b {
-	font-family:'Avenir Next LT Pro Demi';
+	font-family:'Avenir Next LT W01 Demi';
 }
 img {
 	-webkit-user-select: none;
@@ -128,7 +104,7 @@ Buttons
 -------------------------------- */
 
 .btn {
-	font-family: 'Avenir Next LT Pro Demi';
+	font-family: 'Avenir Next LT W01 Demi';
 	font-size: 14px;
 	background: #2683FF;
 	color: #FFF;
@@ -322,7 +298,7 @@ Navigation
     color: #2683ff;
 }
 .navbar-page .navbar-nav>li>a.active {
-	font-family: 'Avenir Next LT Pro Demi';
+	font-family: 'Avenir Next LT W01 Demi';
 	color: #2683ff;
 	box-shadow: 0 2px #2683ff;
 }
@@ -511,7 +487,7 @@ Animated Headlines
 }
 .cd-headline.type b {
   visibility: hidden;
-  font-family: "Avenir Next LT Pro Bold";
+  font-family: "Avenir Next LT W01 Bold";
 }
 .cd-headline.type b.is-visible {
   visibility: visible;
@@ -745,7 +721,7 @@ Value Propositions
 	position: relative;
 }
 .value h4 {
-	font-family: 'Avenir Next LT Pro Bold';
+	font-family: 'Avenir Next LT W01 Bold';
 	letter-spacing: 0;
 	margin-top: 1.2em;
 }
@@ -778,7 +754,7 @@ Traction
 	text-decoration: none;
 }	
 .driveshare span{
-	font-family: 'Avenir Next LT Pro Bold';
+	font-family: 'Avenir Next LT W01 Bold';
 	letter-spacing: 0;
 	color: #FF7F00;
 	border-bottom: 2px solid #ff7f00;
@@ -837,7 +813,7 @@ Pricing
 	letter-spacing: 0.5px;
 	margin-bottom: 0;
 	border-bottom: 2px solid #eee;
-	font-family: 'Avenir Next LT Pro Bold';
+	font-family: 'Avenir Next LT W01 Bold';
 	color: #2683ff;
 }
 .plan-pricing {
@@ -846,7 +822,7 @@ Pricing
     font-size: 42px;
     margin-top: 16px;
     padding-bottom: 42px;
-    font-family: 'Avenir Next LT Pro Bold';
+    font-family: 'Avenir Next LT W01 Bold';
     color: #2683ff;
 }
 .home .plan-pricing {
@@ -868,12 +844,12 @@ Pricing
     letter-spacing: 0;
 }
 .plan-currency {
-	font-family: 'Avenir Next LT Pro Demi';
+	font-family: 'Avenir Next LT W01 Demi';
 	font-size: 36px;
 	vertical-align: top;
 }
 .plan-feature-number, .plan-select-storage, .plan-select-transfer {
-	font-family: 'Avenir Next LT Pro Demi';
+	font-family: 'Avenir Next LT W01 Demi';
     margin-bottom: 1.5em;
 }
 
@@ -912,7 +888,7 @@ Pricing
     letter-spacing: 0;
     line-height: 2em;
     font-size: 34px;
-    font-family: 'Avenir Next LT Pro Bold';
+    font-family: 'Avenir Next LT W01 Bold';
     color: #003366;
 }
 .compare-pricing span {
@@ -962,7 +938,7 @@ Upload Section
 	display: inline-block;
 }
 .upload h4 {
-    font-family: 'Avenir Next LT Pro Bold';
+    font-family: 'Avenir Next LT W01 Bold';
     letter-spacing: 0;
 }
 .upload-gui {
@@ -1113,7 +1089,7 @@ footer h5 {
     letter-spacing: 0;
     padding-bottom: 0.5em;
     margin-top: 1em;
-    font-family: 'Avenir Next LT Pro Bold';
+    font-family: 'Avenir Next LT W01 Bold';
 }
 footer .connect {
 	margin: 2em auto 1em;
@@ -1173,7 +1149,7 @@ th, td {
     border-top: 1px solid #eee;
 }
 .bucket-plan a {
-	font-family: 'Avenir Next LT Pro Demi';
+	font-family: 'Avenir Next LT W01 Demi';
 	text-decoration: none;
 }
 .bucket-icon {
@@ -1355,7 +1331,7 @@ TEAM
 .team-member-name {
 	height: 25px;
 	margin-bottom: 10px;
-	font-family: 'Avenir Next LT Pro Bold';
+	font-family: 'Avenir Next LT W01 Bold';
 }
 .team-member-title {
   height: 40px;
@@ -1382,7 +1358,7 @@ FAQ
 	background: #2683ff;
 	line-height: 32px;
 	margin-top: 0;
-	font-family: 'Avenir Next LT Pro Demi';
+	font-family: 'Avenir Next LT W01 Demi';
 	letter-spacing: 0;
 }
 .panel-title a {
