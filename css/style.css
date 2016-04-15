@@ -1444,6 +1444,9 @@ Press
 .presskit-logo.blue {
   background: #2683ff;
 }
+.presskit-logo.blue .link {
+  color: #fff;
+}
 .presskit-logo.orange {
   background: #FF7F00;
   color: #fff;
