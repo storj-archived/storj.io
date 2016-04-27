@@ -467,21 +467,18 @@
       // });
 
       var os = $.pgwBrowser().os.group;
-      if (os = "Mac OS") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.osx64.dmg");
-        $("#download").addClass('btn-osx');
-        $("#download").html('<i class="fa fa-apple" aria-hidden="true"></i>Download Storj Share for Mac');
-
-      } else if (os = "Windows") {
+      if (os == "Windows") {
         $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.win32.exe");
         $("#download").addClass('btn-win');
         $("#download").html('Download Storj Share for Windows');
-        
-      } else if (os = "Linux") {
+      } else if (os == "Mac OS") {
+        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.osx64.dmg");
+        $("#download").addClass('btn-osx');
+        $("#download").html('<i class="fa fa-apple" aria-hidden="true"></i>Download Storj Share for Mac');
+      } else if (os == "Linux") {
         $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.amd64.deb");
         $("#download").addClass('btn-linux');
         $("#download").html('Download Storj Share for Linux');
-
       } else {
         $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/");
         $("#download").html('Download Storj Share');
