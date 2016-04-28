@@ -1689,8 +1689,15 @@ Media Queries
   	.storjshare-intro {
   		padding: 2em 0;
   	}
+  	.storjshare-intro .title {
+  		font-size: 36px;
+  	}
+  	.storjshare-intro .lead {
+  		font-size: 19px;
+  	}
   	.storjshare-gui {
-  		margin: 0 0 3em;
+  		margin-top: -4em;
+  		margin-bottom: 1em;
   	}
 }
 
