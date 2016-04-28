@@ -82,8 +82,14 @@ img {
 	user-select: none;
 }
 
-.blue {
-	color: #2683ff;
+.section {
+	padding: 4em 0 5em;
+}
+.white {
+	background: #fff;
+}
+.grey {
+	background: #f9f9f9;
 }
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -178,6 +184,15 @@ Buttons
     background: #fa6e50;
     border-color: #fa6e50;
     color: #fff;
+}
+
+.btn-white {
+	background: #fff;
+	color: #003366;
+}
+.btn-white:hover, .btn-white:focus {
+    background: #fff;
+    color: #2683ff;
 }
 
 .btn-menu {
@@ -343,8 +358,8 @@ Navigation
 	box-shadow: none !important;
 }
 .btn-rent.active {
-	border-color: #2683ff !important;
-	color: #2683ff !important;
+	border-color: #fff !important;
+	color: #fff !important;
 	box-shadow: none !important;
 }
 .navbar-page .btn-rent:hover, .navbar-page .btn-rent:focus, .navbar-page .btn-rent:active {
@@ -745,13 +760,41 @@ Storj Share
 
 -------------------------------- */
 
+.storjshare {
+	background: #2175e5;
+}
+.storjshare-intro h1 {
+	color: #fff;
+	letter-spacing: 0;
+	text-shadow: 0 4px 9px rgba(0, 0, 0, 0.2)
+}
+.storjshare-intro p {
+	color: #fff;
+}
+.storjshare-intro p.lead {
+	color: #f2f2f2;
+}
+.storjshare-intro .link {
+	color: #fff;
+	border-color: #fff;
+}
+.storjshare-intro .link:hover {
+	border-color: #fff;
+}
+.storjshare-intro .btn-white {
+	font-size: 21px;
+	padding: 24px 42px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	margin-bottom: 0.9em;
+}
+.storjshare-intro .btn:hover {
+	box-shadow: none;
+}
 .storjshare-gui {
-	 max-width:320px;
 	 width:100%;
+	 max-width: 500px;
 	 height:auto;
-	 margin-right:0;
-	 margin-bottom:1em;
-	 margin-top: -2em;
+	 margin: 2em 0em 2em 5em;
 }
 .icon-storjshare {
 	height: 42px;
@@ -773,7 +816,7 @@ Exchanges
   margin: 30px 20px 20px;
   background: #fff;
   border-radius: 5px;
-  border: 2px solid #f2f2f2;
+  border: 1px solid #ddd;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
@@ -790,6 +833,9 @@ Calculator
 
 -------------------------------- */
 
+.calculator-section {
+	padding-bottom: 0;
+}
 .calculator input,
 .calculator select {
   display: inline-block;
@@ -837,33 +883,41 @@ Calculator
   border-right: 0;
 }
 
-.calculator .promise {
+.promise {
   color: #aaa;
   font-size: 11px;
 }
 
-.calculator .nav-tabs {
-    margin-bottom: 2em;
-    margin-top: 2.5em;
+.calculator.form-group {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+    padding: 3em;
+    background: #fff;
+    margin-bottom: 0;
 }
 
-.calculator .nav>li>a:hover, .calculator .nav>li>a:focus {
+.calculator-intro .nav-tabs {
+    margin-top: 2.5em;
+    border-bottom: 0;
+    text-align: center;
+}
+.calculator-intro .nav>li>a {
+    padding: 1em 2em;
+}
+.calculator-intro .nav>li>a:hover, .calculator .nav>li>a:focus {
     background: #f9f9f9;
     color: #2683ff;
 }
-
-.calculator .nav-tabs>li.active>a, .calculator .nav-tabs>li.active>a:hover, .calculator .nav-tabs>li.active>a:focus {
+.calculator-intro .nav-tabs>li.active>a, .calculator .nav-tabs>li.active>a:hover, .calculator .nav-tabs>li.active>a:focus {
     background-color: #fff;
     color: #333;
+    z-index: 2;
 }
-
-.calculator.form-group {
-    border: 4px solid #eee;
-    border-radius: 4px;
-    padding: 3em;
-    box-shadow: 0 0 40px #eee;
-    background: #fff;
-    margin-bottom: 0;
+.calculator-intro .nav {
+	padding-left: 2em;
+}
+.calculator-price, .adv-calculator-price {
+	font-family: 'Avenir Next LT W01 Demi';
 }
 
 
@@ -873,17 +927,6 @@ Pricing
 
 -------------------------------- */
 
-.section {
-	padding: 4em 0 5em;
-	// border-top: 1px solid #eee;
-	// border-bottom: 1px solid #eee;
-}
-.white {
-	background: #fff;
-}
-.grey {
-	background: #f9f9f9;
-}
 
 .plans {
 	margin: 1em auto;
@@ -1618,6 +1661,13 @@ Media Queries
 	.home .plan {
 		margin: 2em 1em;
 	}
+	.storjshare-intro {
+		padding-top: 4em;
+	}
+	.storjshare-gui {
+		margin-top: -6em;	
+		max-width: 800px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1635,6 +1685,12 @@ Media Queries
     }
 	.team-member {
     	padding: 30px 0;
+  	}
+  	.storjshare-intro {
+  		padding: 2em 0;
+  	}
+  	.storjshare-gui {
+  		margin: 0 0 3em;
   	}
 }
 
@@ -1712,6 +1768,10 @@ Media Queries
 	}
 	.navbar-page .navbar-nav>li>a.active:hover, .navbar-page .navbar-nav>li>a.active:focus {
 		background: #2683ff;
+	}
+	.navbar-default .navbar-toggle {
+    	margin-top: 2em;
+    	margin-right: 2em;
 	}
 	.btn-menu {
 		width: 100%;
