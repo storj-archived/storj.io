@@ -246,9 +246,9 @@
         </div>
         <div class="col-md-4">
           <img src="img/icon-opensource.svg" alt="" class="icon-storjshare">
-          <p><small class="text-uppercase">MIT Licence</small></p>
+          <p><small class="text-uppercase">GPL Licence</small></p>
           <h2>Open-Source</h2>
-          <p>Storj Share is open source software. You can contribute to the development on <a href="http://github.com/Storj/" class="link">GitHub</a> or share ideas with the community on <a href="community.html" class="link">Slack</a>.
+          <p>Storj Share is free and open source software. You can contribute to the development on <a href="http://github.com/Storj/" class="link">GitHub</a> or share ideas with the community on <a href="community.html" class="link">Slack</a>.
           </p>
         </div>
       </div>
@@ -460,15 +460,15 @@
 
       var os = $.pgwBrowser().os.group;
       if (os == "Windows") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.win32.exe");
+        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.1/storj-farmer-gui_0.7.1.win32.exe");
         $("#download").addClass('btn-win');
         $("#download").html('Download Storj Share for Windows');
       } else if (os == "Mac OS") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.osx64.dmg");
+        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.1/storj-farmer-gui_0.7.1.osx64.dmg");
         $("#download").addClass('btn-osx');
         $("#download").html('<i class="fa fa-apple" aria-hidden="true"></i>Download Storj Share for Mac');
       } else if (os == "Linux") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.0/storj-farmer-gui_0.7.0.amd64.deb");
+        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.1/storj-farmer-gui_0.7.1.amd64.deb");
         $("#download").addClass('btn-linux');
         $("#download").html('Download Storj Share for Linux');
       } else {
