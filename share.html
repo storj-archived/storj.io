@@ -92,7 +92,7 @@
             <img src="img/storjshare-gui.png" alt="" class="storjshare-gui">
           </div>
         </div>
-      </div>    
+      </div>
     </div>
   </section>
 
@@ -202,7 +202,7 @@
       </div>
       <div class="spacer20"></div>
       <p class="text-center promise">*Not a guarantee. Earnings are based on full network availability and demand.</p>
-    </div>  
+    </div>
   </section>
 
 <!--   <section class="section white">
@@ -458,23 +458,55 @@
       //   $('.storage-count').html(storageCount);
       // });
 
-      var os = $.pgwBrowser().os.group;
-      if (os == "Windows") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.4/storj-farmer-gui_0.7.3.win32.exe");
-        $("#download").addClass('btn-win');
-        $("#download").html('Download Storj Share for Windows');
-      } else if (os == "Mac OS") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.4/storj-farmer-gui_0.7.3.osx64.dmg");
-        $("#download").addClass('btn-osx');
-        $("#download").html('<i class="fa fa-apple" aria-hidden="true"></i>Download Storj Share for Mac');
-      } else if (os == "Linux") {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/download/v0.7.4/storj-farmer-gui_0.7.3.amd64.deb");
-        $("#download").addClass('btn-linux');
-        $("#download").html('Download Storj Share for Linux');
-      } else {
-        $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/");
-        $("#download").html('Download Storj Share');
-      };
+      var windowsReleaseURL = "";
+      var linuxReleaseURL = "";
+      var osxReleaseURL = "";
+
+      // Build the latest release links for download
+      function buildLatestReleases() {
+        // Get the latest release JSON blob from the GitHub API
+        $.getJSON("https://api.github.com/repos/Storj/farmer-gui/releases/latest").done(function (json) {
+          // The release asset data is stored in assets
+          releases = json.assets;
+
+          // Assign the appropriate download URL for its respective OS
+          releases.forEach(function(release) {
+            if (release.name.match('win32')) {
+              windowsReleaseURL = release.browser_download_url;
+            };
+            if (release.name.match('osx64')) {
+              osxReleaseURL = release.browser_download_url;
+            };
+            if (release.name.match('amd64')) {
+              linuxReleaseURL = release.browser_download_url;
+            };
+          });
+
+          // Find the users OS
+          var os = $.pgwBrowser().os.group;
+
+          // Set the correct link for each type of OS and default to the latest releases page if we cannot derive the OS
+          if (os == "Windows") {
+            $("#download").attr("href", windowsRelaseURL);
+            $("#download").addClass('btn-win');
+            $("#download").html('Download Storj Share for Windows');
+          } else if (os == "Mac OS") {
+            $("#download").attr("href", osxReleaseURL);
+            $("#download").addClass('btn-osx');
+            $("#download").html('<i class="fa fa-apple" aria-hidden="true"></i>Download Storj Share for Mac');
+          } else if (os == "Linux") {
+            $("#download").attr("href", linuxReleaseURL);
+            $("#download").addClass('btn-linux');
+            $("#download").html('Download Storj Share for Linux');
+          } else {
+            $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/latest");
+            $("#download").html('Download Storj Share');
+          };
+        });
+      }
+
+      buildLatestReleases();
+
 
     });
   </script>
