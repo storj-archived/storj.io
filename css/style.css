@@ -1720,6 +1720,9 @@ Media Queries
   		margin-top: -4em;
   		margin-bottom: 1em;
   	}
+  	.btn-download {
+  	    font-size: 18px;
+  	}
 }
 
 @media (max-width: 991px) {
