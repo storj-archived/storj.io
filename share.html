@@ -84,7 +84,7 @@
             <h1 class="title">Earn money by sharing<br> your hard drive space</h1>
             <p class="lead">Just download the Storj desktop application,<br> and choose how much storage to share.</p>
             <div class="spacer15"></div>
-            <a href="https://github.com/Storj/farmer-gui/releases/" class="btn btn-white btn-lg btn-download" id="download">Download StorjShare</a>
+            <a href="https://github.com/Storj/farmer-gui/releases/" class="btn btn-white btn-lg btn-download" id="download">Download StorjShare <span class="label beta">Beta</span></a>
             <div class="spacer15"></div>
             <p><a href="https://github.com/Storj/farmer-gui/releases/" class="link">Other Platforms</a> or <a href="https://github.com/Storj/farmer-gui/releases/" class="link">Source Code</a></p>
           </div>
@@ -375,18 +375,18 @@
           if (os == "Windows") {
             $("#download").attr("href", windowsReleaseURL);
             $("#download").addClass('btn-win');
-            $("#download").html('Download Storj Share for Windows');
+            $("#download").html('Download Storj Share for Windows <span class="label beta">Beta</span>');
           } else if (os == "Mac OS") {
             $("#download").attr("href", osxReleaseURL);
             $("#download").addClass('btn-osx');
-            $("#download").html('Download Storj Share for Mac');
+            $("#download").html('Download Storj Share for Mac <span class="label beta">Beta</span>');
           } else if (os == "Linux") {
             $("#download").attr("href", linuxReleaseURL);
             $("#download").addClass('btn-linux');
-            $("#download").html('Download Storj Share for Linux');
+            $("#download").html('Download Storj Share for Linux <span class="label beta">Beta</span>');
           } else {
             $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/latest");
-            $("#download").html('Download Storj Share');
+            $("#download").html('Download Storj Share <span class="label beta">Beta</span>');
           };
         });
       }

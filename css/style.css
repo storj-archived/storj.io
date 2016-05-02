@@ -801,6 +801,12 @@ Storj Share
 	margin-bottom: 1em;
 	margin-top: 2em;
 }
+.label.beta {
+    color: #fff;
+    background: #88C425;
+    left: 10px;
+    top: -3px;
+}
 
 
 /* -------------------------------- 
