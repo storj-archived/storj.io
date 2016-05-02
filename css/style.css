@@ -846,19 +846,13 @@ Calculator
   max-width: 100%;
 }
 
-.calculator-price, .adv-calculator-price {
-  background-color: #fff !important;
-  cursor: default !important;
-}
-
 .calculator .input-group {
   margin: 9px 0;
   width: 100%;
 }
 
-.calculator .subtitle {
+.calculator .lead {
   line-height: 36px;
-  margin: 7px 0;
 }
 
 .calculator .input-group-addon:last-child {
@@ -889,11 +883,12 @@ Calculator
 }
 
 .calculator.form-group {
-	border: 1px solid #ddd;
-	border-radius: 5px;
     padding: 3em;
     background: #fff;
-    margin-bottom: 0;
+    border: 2px solid #eee;
+    margin: 2em 0;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px #eee;
 }
 
 .calculator-intro .nav-tabs {
@@ -916,8 +911,28 @@ Calculator
 .calculator-intro .nav {
 	padding-left: 2em;
 }
-.calculator-price, .adv-calculator-price {
-	font-family: 'Avenir Next LT W01 Demi';
+.calculator-price {
+	font-family: 'Avenir Next LT W01 Bold';
+	background: #fff !important;
+}
+
+#calculatorInput {
+    font-size: 32px;
+    line-height: 52px;
+    height: 77px;
+    padding-left: 20px;
+    font-family: 'Avenir Next LT W01 Bold';
+}
+#calculatorUnit, .calculator .dropdown-toggle  {
+    font-family: 'Avenir Next LT W01 Bold';
+    background: none;
+    border: 0;
+    font-size: 32px;
+    color: #555;
+    outline: 0;
+}
+.calculator .btn-group.open .dropdown-toggle {
+    box-shadow: none;
 }
 
 
