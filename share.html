@@ -96,61 +96,6 @@
     </div>
   </section>
 
-  <section class="section calculator-section">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 text-center calculator-intro">
-          <img src="img/icon-calculator.svg" alt="" class="icon-storjshare">
-          <p><small class="text-uppercase">Earnings Calculator *</small></p>
-          <h1>How much could you make?</h1>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 text-center calculator form-group">
-          <div id="calc-simple" class="text-left">
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 calculator-text">
-                <p class="lead">If you share:</p>
-                <div class="input-group">
-                  <input class="form-control calculator-value calculator-space" type="number" min="0" value="10" id="calculatorInput">
-                  <div class="input-group-addon">
-                    <div class="btn-group">
-                      <button type="button" class="" id="calculatorUnit">TB</button>
-                      <button type="button" class="dropdown-toggle" data-toggle="dropdown">
-                        <span class="caret"></span>
-                      </button>
-                      <ul class="dropdown-menu" id="calculatorDropdown">
-                        <li><a>TB</a></li>
-                        <li><a>GB</a></li>
-                        <li><a>MB</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="spacer30 visible-xs"></div>
-                <p class="lead">You could earn:</p>
-                <div class="input-group">
-                  <div class="input-group-addon">$</div>
-                  <input class="form-control calculator-value calculator-price" type="number" min="0" value="36.00" id="month" readonly>
-                  <div class="input-group-addon">monthly</div>
-                </div>
-                <div class="input-group">
-                  <div class="input-group-addon">$</div>
-                  <input class="form-control calculator-value calculator-price" type="number" min="0" value="432.00" id="year" readonly>
-                  <div class="input-group-addon">yearly</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="spacer20"></div>
-      <p class="text-center promise">*Not a guarantee. Earnings are based on full network availability and demand.</p>
-    </div>
-  </section>
-
 <!--   <section class="section white">
     <div class="features">
       <div class="container">
@@ -300,46 +245,6 @@
 
   <script>
     $(function() {
-
-      // StorjShare Calculator
-
-      var calculatorInput = $('#calculatorInput');
-      var calculatorButton = $("#calculatorUnit");
-
-      calculatorInput.bind("keyup change", function() {
-        var salary = $(this).val();
-        
-        if (calculatorButton.text() === "TB") {  
-          // calculate salaries and limit to 2 decimal places
-          var month = (salary*3.6).toFixed(2);
-          var year = (salary*3.6*12).toFixed(2);
-          $("#month").val(month);
-          $("#year").val(year);
-        }
-
-        else if (calculatorButton.text() === "GB") {
-          var month = (salary*0.0036).toFixed(2);
-          var year = (salary*0.0036*12).toFixed(2);
-          $("#month").val(month);
-          $("#year").val(year);
-        }
-          
-        else if (calculatorButton.text() === "MB") {
-          var month = (salary*0.0000036).toFixed(2);
-          var year = (salary*0.0000036*12).toFixed(2);
-          $("#month").val(month);
-          $("#year").val(year);
-        }
-      });
-
-      $("#calculatorDropdown li").on("click", function(event){
-          var getSelection = $(this).text();
-          $(calculatorButton).text(getSelection);
-          $("#calculatorDropdown").children("li").show();
-          $(this).hide();
-          calculatorInput.keyup();
-      });
-
 
       // StorjShare Download
 
