@@ -1721,7 +1721,7 @@ Media Queries
   		margin-bottom: 1em;
   	}
   	.btn-download {
-  	    font-size: 18px;
+  	    font-size: 18px !important;
   	}
 }
 
