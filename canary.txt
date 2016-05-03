@@ -21,29 +21,31 @@ Special note should be taken if these messages ever cease being updated, or are 
 
 The current message is here:
 
+
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of 3/15/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would seek to let the public know it existed.
+As of 5/3/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would seek to let the public know it existed.
 
-- - Races in 5 states could breathe life into lagging campaigns
-- - Will Rubio, Kasich still be in the race after today?
-- - How Sanders is hijacking the Democratic Party to be elected as an independent
-- - Trump just hit a critical threshold for the nomination
-- - Rose’s lawyer: 'We do not know how Mr. Trump got the ball’
+- - Metro’s ‘ineffective’ practices led to deadly smoke incident, NTSB finds
+- - Hijacked Metrobus fatally strikes pedestrian in Northeast D.C.
+- - Indiana primary could bring the demise of Cruz and Kasich
+- - Melania Trump: From professional pretty person to potential first lady
+- - American killed as U.S. troops get closer to Islamic State battle in Iraq
 -----BEGIN PGP SIGNATURE-----
 Version: Mailvelope v1.3.6
 Comment: https://www.mailvelope.com
 
-wsBcBAEBCAAQBQJW6GxTCRDA5Ck6vGbuXAAAl+0H/jy7+0TaAaqeGK6R3qqL
-6pGuSQV66N9wPVPXp94SR9xSGUApZHXKkk1c9tseEPGF8T1YH4gexIsKHgjq
-DtzMiGbLoy3oYKI9hESvE9v6+Rz1AAPi4M8rNzbSOpTvlABEKCYMI81Oceql
-76zPfIZ0EqdPUBeDVxvL6jz3LlvgCYK9oe313dViyet3XyIZ0qXYL+KTGBQv
-PJVRS1hER7j2xTktwP01RQmzi/5Wsbalwvmcd/tmUSJ6e5FnWvto4pJVl5KL
-uN9mxWSZL1ARjEG3wZlyC7GNtWVIJ3xNjUgw5V+IMIdUeDfEog5m69qrh16l
-AaqXUy9Pv8p3iU7X3lACKXk=
-=zRiu
+wsBcBAEBCAAQBQJXKPjKCRDA5Ck6vGbuXAAAWJkH/0RkYCyhmCKErwq4sSn7
+IrPEhSEK8kQQw2E8LxyQ0WOUrYXwskK4feUFpJrivowBli381WCUQpPWibp0
+56vmvPt+LI4YVFpQnaPaLCnOXSsgJlKDZ9a5wnZ655LLcWG8CVa6N9YfW0Hr
+Dbta6aE68YNMFUDoP7K1y1G3FworCgU5e6UFTzVkpD7pIh+SSU4DacgWJlS7
+SnpSDwORSGDqNeE44atmRLeiqhcBgWIAUmO8/5AzhAgqFFqsP/RUgDnpIF3H
+QfvMqCtITkjGR29nrnED9LrKtCQUmUUjdRmyPn2TIiNEdtSr761JCsDFmsVw
+ugEA7s6SMhjgkU1XNNv+p1s=
+=U9z2
 -----END PGP SIGNATURE-----
+
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
 arbitrary declarations, it does not prevent them from using force to coerce Storj Labs Inc. to produce false
