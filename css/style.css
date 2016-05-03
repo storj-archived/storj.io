@@ -782,7 +782,6 @@ Storj Share
 	border-color: #fff;
 }
 .storjshare-intro .btn-white {
-	font-size: 21px;
 	padding: 24px 42px;
 	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 	margin-bottom: 0.9em;
@@ -1719,9 +1718,6 @@ Media Queries
   	.storjshare-gui {
   		margin-top: -4em;
   		margin-bottom: 1em;
-  	}
-  	.btn-download {
-  	    font-size: 18px !important;
   	}
 }
 
