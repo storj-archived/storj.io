@@ -21,7 +21,6 @@ Special note should be taken if these messages ever cease being updated, or are 
 
 The current message is here:
 
-
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
