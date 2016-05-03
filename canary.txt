@@ -24,9 +24,11 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of 5/3/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would seek to let the public know it existed.
+As of 5/3/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+ Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
+ seek to let the public know it existed.
 
-- - Metro’s ‘ineffective’ practices led to deadly smoke incident, NTSB finds
+- - Metroâ€™s â€˜ineffectiveâ€™ practices led to deadly smoke incident, NTSB finds
 - - Hijacked Metrobus fatally strikes pedestrian in Northeast D.C.
 - - Indiana primary could bring the demise of Cruz and Kasich
 - - Melania Trump: From professional pretty person to potential first lady
@@ -35,15 +37,16 @@ As of 5/3/2016, Storj Labs Inc. has never received a National Security Letter, a
 Version: Mailvelope v1.3.6
 Comment: https://www.mailvelope.com
 
-wsBcBAEBCAAQBQJXKPjKCRDA5Ck6vGbuXAAAWJkH/0RkYCyhmCKErwq4sSn7
-IrPEhSEK8kQQw2E8LxyQ0WOUrYXwskK4feUFpJrivowBli381WCUQpPWibp0
-56vmvPt+LI4YVFpQnaPaLCnOXSsgJlKDZ9a5wnZ655LLcWG8CVa6N9YfW0Hr
-Dbta6aE68YNMFUDoP7K1y1G3FworCgU5e6UFTzVkpD7pIh+SSU4DacgWJlS7
-SnpSDwORSGDqNeE44atmRLeiqhcBgWIAUmO8/5AzhAgqFFqsP/RUgDnpIF3H
-QfvMqCtITkjGR29nrnED9LrKtCQUmUUjdRmyPn2TIiNEdtSr761JCsDFmsVw
-ugEA7s6SMhjgkU1XNNv+p1s=
-=U9z2
+wsBcBAEBCAAQBQJXKPlOCRDA5Ck6vGbuXAAAc9cIAIPDiIMagH5sekR0crD1
+iyDDk1kkKxfeWEqLfD1DSBiPmdNG7Myy7k+pBuht+hUXlVWooi7gSiheBcGQ
+spnQAzg5vgCiBECeU2bhM3VIQq7Qq2KDIehtHrWmTIkVH6QRopjC3yLwH0CO
+KwTF9UURy9/CPq1LYhcVfwbAxr2GLnQfdziUKUiZgRoLIQId6nYNg7VH75Hs
+0svX3YKhR5UMD+6NfuY4pe2gYhm080JCWzk9cvZhUwYS8Z+VnBsEicYnIx0c
+iFOrNcWAaK6JgfkC+SVeR3mOVkuWjTNlGuc+9oDxN2btxCoG8KrxzEXbM4/q
+6HJz1PviSagZgqJH74dIWIs=
+=Ve8h
 -----END PGP SIGNATURE-----
+
 
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
