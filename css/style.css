@@ -1861,6 +1861,10 @@ Media Queries
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+	.btn-download {
+		padding: 22px;
+    	font-size: 16px;
+	}
 	.page .btn-block {
 		font-size: 16px;
 	}
@@ -1871,6 +1875,9 @@ Media Queries
 		padding: 0;
 	}
 	h1 {
+		font-size: 32px;
+	}
+	.page .title {
 		font-size: 32px;
 	}
 	.btn {
