@@ -1416,16 +1416,17 @@ API
 
 -------------------------------- */
 
+.api {
+	height: calc(100% - 110px);
+}
+
 .api .navbar {
 	margin-bottom: 0;
 }
 
-.api-iframe {
+.api-wrapper, .api-iframe {
 	width: 100%;
-	min-height: 500px;
-	height: calc(100vh - 110px);
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	height: 100%;
 }
 
 .api .section {
