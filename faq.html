@@ -108,7 +108,7 @@
 
 					<p>To best protect your data, files are encrypted client-side on users’ computers before they are uploaded. Each file is split up into chunks which are first encrypted and then distributed for storage across the Storj network. The network is comprised of DriveShare nodes run by users around the world who rent out their unused hard drive space in return for <b>Storjcoin X (SJCX)</b>.</p>
 
-					<p>The decentralized aspect of Storj means there are no central servers to be compromised, and because of the use of client-side encryption, only the end-users have access to their unencrypted files and encryption keys.</p>
+					<p>The decentralized aspect of Storj means there are no central servers to be compromised, and with client-side encryption, the users are in control of their keys.</p>
 			      </div>
 			    </div>
 			  </div>
@@ -381,7 +381,7 @@
 			    </div>
 			    <div id="collapse-2-10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-2-10">
 			      <div class="panel-body">
-			        <p>Yes. Your files will be encrypted, copied, and distributed around the world, rendering them immune to censorship and natural disasters.</p>
+			        <p>Yes. Your files will be encrypted, copied, and distributed around the world, rendering them resistant to censorship and natural disasters.</p>
 			      </div>
 			    </div>
 			  </div>
@@ -422,7 +422,7 @@
 			    <div id="collapse-3-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-2">
 			      <div class="panel-body">
 			        <p>Drive Farming is the term used to describe the act of selling or renting out extra hard drive space. This is most comparable to traditional crypto-currency mining. Users allocate a portion of their available hard drive space and specify a folder on their drive to store network data.</p>
-			        <p>This space stores small encrypted shards of MetaDisk users’ files. This means that no farmer holds the entire file that a user uploaded, and, because of the encryption, they couldn’t read it anyway.</p>
+			        <p>This space stores small encrypted shards of MetaDisk users’ files. This means that no farmer holds the entire file that a user uploaded, and because the file is encrypted, it's unlikely that the farmer could read it anyway.</p>
 			        <p>If someone attempts to access and alter the files that they are storing, the shard will fail the next challenge issued by the owner of the data. This will result in the malicious node being dropped, and the network will select another location to store the shard. And of course, the network doesn’t pay cheating nodes.</p>
 			      </div>
 			    </div>
@@ -517,7 +517,7 @@
 			    </div>
 			    <div id="collapse-3-9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-9">
 			      <div class="panel-body">
-			        <p>Because Storj provides secure zero-knowledge encrypted storage, it’s not possible to know what type of data is being stored. However third-party service providers, developers, and apps wishing to utilize the Storj network can restrict the types of files and uploads that maybe stored on the network through their front-end.</p>
+			        <p>Because Storj provides secure zero-knowledge encrypted storage, it's almost impossible to know what type of data is being stored. However third-party service providers, developers, and apps wishing to utilize the Storj network can restrict the types of files and uploads that maybe stored on the network through their front-end.</p>
 			      </div>
 			    </div>
 			  </div>
@@ -1078,7 +1078,9 @@
 			    </div>
 			    <div id="collapse-5-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-5-3">
 			      <div class="panel-body">
-			        <p>The only way a shard could be associated with its decrypted content is if someone publicly distributed the download information and the decryption keys, thus giving up the privacy of the content to make it publicly accessible. Content that is kept private will always be private. When someone posts the download information and the public keys online for mass distribution, they are voluntarily giving up the privacy of their content by letting the public at large be able to access it and decrypt it. Hashes and keys are completely different things. Deriving the hash of a file or a chunk in no way allows you to determine the contents of the chunk.</p><p>For someone to put something on a graylist, you'd have to know how to download all the chunks, how they were encrypted and have decryption keys to see what content was. If a farmer only has a small chunk of an encrypted file, let's say, then even if you had the keys you would not be able to decrypt unless you had all the chunks and knew how to reassemble them and in what order. So users could share ANYTHING they want because it's private. But if they post it on a message board then it can be greylisted.</p>
+			        <p>It's very hard to associate a shard with its decrypted content without the decryption key. Because the user is in control of the keys, content that is private will tend to stay private. When a user distributes the download information and the keys online they are giving up the privacy of their content by letting the public access it and decrypt it.</p>
+					<p>Calculating the hash of a file in no way lets you determine the content of the file. If a farmer only has a small chunk of an encrypted file, then even if he had the keys he would still need to know about and collect all the other chunks before being able to read the content of the file.</p>
+					<p>So users can store anything they want in private, and potentially distribute it to people they trust, but as soon as a shard's content is made public, it can be greylisted.</p>
 			      </div>
 			    </div>
 			  </div>
