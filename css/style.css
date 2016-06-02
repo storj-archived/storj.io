@@ -214,12 +214,15 @@ Buttons
 	max-width: 100%;
 }
 
+.btn-signup {
+	margin: 10px auto 20px;
+	display: block;
+	max-width: 360px;
+}
+
 .subscribe {
     margin-top: 0;
-    // padding-top: 12px;
-    // padding-bottom: 10px;
     margin-bottom: 15px;
-    // font-size: 16px;
 }
 
 
@@ -351,6 +354,7 @@ Navigation
 	border: 2px solid #eee !important;
 	padding: 14px 24px !important;
 	margin-top: 24px;
+	margin-left: 15px;
 }
 .btn-rent:focus, .btn-rent:active, .btn-rent:hover {
 	border-color: #fff;
@@ -1740,6 +1744,10 @@ Media Queries
     }
     .navbar-page .navbar-brand {
 		margin-right: 0;
+	}
+	.navbar-nav>li>a {
+    	padding: 40px 10px;
+    	font-size: 14px;
 	}
 	.btn-menu {
 		padding-left: 15px;
