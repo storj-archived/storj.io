@@ -1220,7 +1220,7 @@ Footer
 -------------------------------- */
 
 footer {
-	padding: 2em 0;
+	padding-top: 2em;
 	background: #fff;
 }
 .footer-logo:hover, .footer-logo:focus {
@@ -1259,6 +1259,16 @@ footer .connect {
 footer .connect a {
 	padding-right: 1.2em;
 	border: 0;
+}
+footer .address {
+	padding: 2em 0 2em;
+    margin-top: 2em;
+    background: #f9f9f9;
+}
+footer .address address {
+	margin: 0;
+	color: #999;
+	font-size: 14px;
 }
 .social-link {
     height: 22px;
