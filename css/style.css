@@ -355,6 +355,7 @@ Navigation
 	padding: 14px 24px !important;
 	margin-top: 24px;
 	margin-left: 15px;
+	width: auto !important;
 }
 .btn-rent:focus, .btn-rent:active, .btn-rent:hover {
 	border-color: #fff;
@@ -608,12 +609,6 @@ canvas {
 	background-position: 50% 50%;
 }
 
-/*@keyframes animatedBackground {
-	0% { background-position: 0 0; }
-	50% { background-position: 0 100%; }
-	100% { background-position: 0 0; }
-}*/
-
 .header {
 	min-height: 600px;
 	background: #020307;
@@ -629,10 +624,6 @@ canvas {
 	-moz-user-select: none;
 	-o-user-select: none;
 	user-select: none;
-	/*animation: animatedBackground 24s ease-in-out;
-	-webkit-animation-direction: alternate;
-    animation-direction: alternate;
-	transform: translateZ(0);*/
 	position: relative;
 	height: 100vh;
 	max-height: 900px;
@@ -646,15 +637,7 @@ canvas {
 .thankyou .headlines {
 	padding-top: 3em;
 }
-.thankyou .btn {
-	position: relative;
-	z-index: 2;
-	font-size: 18px;
-	max-width: 360px;
-	line-height: 1.8em;
-	border-radius: 5px;
-	margin-top: 0.6em;
-}
+
 .page .menu {
 	padding: 0;
 }
@@ -727,9 +710,13 @@ canvas {
 	padding-bottom: 14px;
 }
 
-.white-tooltip + .tooltip > .tooltip-inner {background-color: #fff;color:#333;}
+.white-tooltip + .tooltip > .tooltip-inner {
+	background-color: #fff;
+	color:#333;
+}
 .tooltip-inner {
 	padding: 10px;
+	max-width: 154px;
 }
 
 
