@@ -61,7 +61,6 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Avenir Next LT W01 Bold';
 	color: #2683FF;
-	letter-spacing: -1px;
 	margin-bottom: 0.6em;
 }
 .title {
@@ -733,7 +732,6 @@ Value Propositions
 }
 .value h4 {
 	font-family: 'Avenir Next LT W01 Bold';
-	letter-spacing: 0;
 	margin-top: 1.2em;
 }
 .value p {
@@ -756,7 +754,6 @@ Storj Share
 }
 .storjshare-intro h1 {
 	color: #fff;
-	letter-spacing: 0;
 	text-shadow: 0 4px 9px rgba(0, 0, 0, 0.2)
 }
 .storjshare-intro p {
@@ -958,14 +955,12 @@ Pricing
 .plan-title {
 	line-height: 4em;
 	text-transform: uppercase;
-	letter-spacing: 0.5px;
 	margin-bottom: 0;
 	border-bottom: 2px solid #eee;
 	font-family: 'Avenir Next LT W01 Bold';
 	color: #2683ff;
 }
 .plan-pricing {
-    letter-spacing: 0;
     line-height: 2em;
     font-size: 42px;
     margin-top: 16px;
@@ -978,7 +973,6 @@ Pricing
 }
 .plan-pricing span {
 	display: block;
-	letter-spacing: 0;
 	font-size: 18px;
 	line-height: 0;
 	background: #fff;
@@ -989,7 +983,6 @@ Pricing
     line-height: 1.5em;
     padding-top: 2px;
     color: #333;
-    letter-spacing: 0;
 }
 .plan-currency {
 	font-family: 'Avenir Next LT W01 Demi';
@@ -1033,7 +1026,6 @@ Pricing
     padding-bottom: 0;
     margin-bottom: 0;
     margin-top: 22px;
-    letter-spacing: 0;
     line-height: 2em;
     font-size: 34px;
     font-family: 'Avenir Next LT W01 Bold';
@@ -1085,7 +1077,6 @@ Upload Section
 }
 .upload h4 {
     font-family: 'Avenir Next LT W01 Bold';
-    letter-spacing: 0;
 }
 .upload-gui {
 	width: 100%;
@@ -1224,7 +1215,6 @@ footer {
 footer a {
     padding-bottom: 2px;
     line-height: 34px;
-    letter-spacing: 0;
     font-size: 14px;
     color: #003366;
 }
@@ -1235,7 +1225,6 @@ footer p {
     color: #003366;
 }
 footer h5 {
-    letter-spacing: 0;
     padding-bottom: 0.5em;
     margin-top: 1em;
     font-family: 'Avenir Next LT W01 Bold';
@@ -1517,7 +1506,6 @@ FAQ
 	line-height: 32px;
 	margin-top: 0;
 	font-family: 'Avenir Next LT W01 Demi';
-	letter-spacing: 0;
 }
 .panel-title a {
   display: block;
