@@ -117,14 +117,12 @@ Buttons
 -------------------------------- */
 
 .btn {
-	font-family: 'Avenir Next LT W01 Demi';
-	// font-size: 14px;
+	font-family: 'Avenir Next LT W01 Bold';
 	background: #2683FF;
 	color: #FFF;
 	padding: 14px 50px;
+	border-radius: 4px;
 	z-index: 2;
-	// border: 2px solid #2683ff;
-	// border-radius: 3px;
 	outline: 0;
 	-webkit-backface-visibility: hidden;
 	-moz-osx-font-smoothing: grayscale;
@@ -136,7 +134,6 @@ Buttons
 .btn:hover, .btn:focus {
 	color: #fff;
 	background: #173AE8;
-	// border-color: #173AE8;
 	outline: 0;
 }
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
@@ -155,23 +152,19 @@ Buttons
 }
 
 .btn-green {
-	// border-color: #88C425;
 	color: #fff;
 	background: #88C425;
 }
 .btn-green:hover, .btn-green:focus {
 	background: #91D127;
-	// border-color: #91D127;
 }
 
 .btn-orange {
 	background: #FF7F00;
-	// border-color: #FF7F00;
 	color: #fff;
 }
 .btn-orange:hover, .btn-orange:focus {
 	background: #FF6600;
-	// border-color: #FF6600;
 }
 
 .btn-red {
@@ -697,10 +690,16 @@ canvas {
 	margin: 0 auto;
 	color: #fff;
 }
+.beta-notice {
+	color: #fff;
+	opacity: 0.4;
+	font-family: 'Avenir Next LT W01 Demi';
+}
 .home .btn {
 	position: relative;
 	z-index: 2;
 	max-width: 360px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.14);
 }
 .home input {
 	max-width: 360px;
