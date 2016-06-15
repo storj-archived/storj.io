@@ -742,6 +742,87 @@ Value Propositions
 	margin-top: 1em;
 }
 
+
+/* -------------------------------- 
+
+Developers
+
+-------------------------------- */
+
+.terminal-wrapper {
+	width: 100%;
+	max-width: 420px;
+    margin: 0 auto;
+    background: #2b3e50;
+    border-radius: 6px;
+    height: 260px;
+    margin-top: 2em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.terminal-header {
+	background: #d7d7d7;
+    width: 100%;
+    height: 26px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: left;
+    padding: 3px 7px;
+}
+.terminal-content {
+	text-align: left;
+    padding: 1.4em;
+}
+.terminal-button {
+	width: 12px;
+    height: 12px;
+    border-radius: 6px;
+    display: inline-block;
+    text-align: left;
+}
+.terminal-button-close {
+	background: #c33620;
+}
+.terminal-button-min {
+	background: #FF7F00;
+}
+.terminal-button-max {
+	background: #88C425;
+}
+.terminal-content code {
+    font-size: 19px;
+    background: none;
+    font-weight: bold;
+    color: #ffffff;
+}
+.terminal-content .comment {
+	opacity: 0.4;
+}
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	cursor: default;
+}
+.terminal-content .noselect {
+	color: #88C425;
+}
+.contributor-profile {
+	width: 70px;
+	height: 70px;
+	border-radius: 35px;
+	margin: 0.8em 0.4em;
+	display: inline-block;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28);
+}
+.github-card {
+	margin: 2em auto;
+}
+
+
+
 /* -------------------------------- 
 
 Storj Share
