@@ -4,4 +4,3 @@ wget https://raw.githubusercontent.com/creationix/nvm/v0.31.1/install.sh
 sh install.sh
 source ~/.nvm/nvm.sh
 nvm install 4.4.5
-npm install -g storj --unsafe-perm
