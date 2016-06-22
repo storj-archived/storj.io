@@ -78,7 +78,7 @@
             <h1 class="title">Earn money by sharing<br class="hidden-xs"> your hard drive space</h1>
             <p class="lead">Just download the Storj desktop application,<br> and choose how much storage to share.</p>
             <div class="spacer15"></div>
-            <a href="https://github.com/Storj/farmer-gui/releases/" class="btn btn-white btn-lg btn-download" id="download">Download Storj Share <span class="label beta">Beta</span></a>
+            <a href="https://github.com/Storj/storjshare-gui/releases/" class="btn btn-white btn-lg btn-download" id="download">Download Storj Share <span class="label beta">Beta</span></a>
             <div class="spacer15"></div>
             <p><a href="https://github.com/Storj/storjshare-cli/" class="link">Prefer using the command line?</a></p>
           </div>
@@ -262,7 +262,7 @@
         var releaseURL;
 
         // Get the latest release download link from the smartypants service running locally
-        $.getJSON("https://storj.io/release/?os=" + encodeURIComponent(os) + "&project=farmer-gui").done(function (json) {
+        $.getJSON("https://storj.io/release/?os=" + encodeURIComponent(os) + "&project=storjshare-gui").done(function (json) {
           // Grab the release url from the returned JSON
           if (json) {
             releaseURL = json.url;
@@ -271,7 +271,7 @@
           if (releaseURL) {
             $("#download").attr("href", releaseURL);
           } else {
-            $("#download").attr("href", "https://github.com/Storj/farmer-gui/releases/latest");
+            $("#download").attr("href", "https://github.com/Storj/storjshare-gui/releases/latest");
           }
 
           // Set the correct link for each type of OS and default to the latest releases page if we cannot derive the OS
