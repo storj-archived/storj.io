@@ -191,14 +191,14 @@
             </div>
 
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="job-4">
+              <div class="panel-heading" role="tab" id="job-3">
                 <h4 class="panel-title">
-                  <a class="collapse collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                  <a class="collapse collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
                     Technical Content + Community Manager
                   </a>
                 </h4>
               </div>
-              <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="job-4">
+              <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="job-3">
                 <div class="panel-body">
                   <h4>Intro</h4>
                   <p>At Storj Labs, our mission is to provide the simplest experience to manage object storage infrastructure online. We are looking for an experienced community leader to build an active and engaged membership that will embody the company’s philosophy and mission.</p>
@@ -254,15 +254,16 @@
                 </div>
               </div>
             </div>
+
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="job-5">
+              <div class="panel-heading" role="tab" id="job-4">
                 <h4 class="panel-title">
-                  <a class="collapse collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
+                  <a class="collapse collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
                     Growth Marketing Manager
                   </a>
                 </h4>
               </div>
-              <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="job-5">
+              <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="job-4">
                 <div class="panel-body">
                   <h4>Intro</h4>
                   <p>At Storj Labs, our mission is to provide the simplest experience to manage object storage infrastructure online. We are looking for a growth marketing manager to kickstart our growth engine and help the company scale to a wider audience.</p>
@@ -311,14 +312,14 @@
             </div>
 
             <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="job-6">
+              <div class="panel-heading" role="tab" id="job-5">
                 <h4 class="panel-title">
-                  <a class="collapse collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-6" aria-expanded="false" aria-controls="collapse-6">
+                  <a class="collapse collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-5" aria-expanded="false" aria-controls="collapse-5">
                     Developer Evangelist
                   </a>
                 </h4>
               </div>
-              <div id="collapse-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="job-6">
+              <div id="collapse-5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="job-5">
                 <div class="panel-body">
                   <h4>Intro</h4>
                   <p>At Storj Labs, our mission is to provide the simplest experience to manage object storage infrastructure online. We are looking for an experienced company evangelist to build an active and engaged community that will embody the company’s philosophy and mission.</p>
@@ -445,7 +446,15 @@
 
   <script>
     jQuery(document).ready(function($){
-      $('[data-toggle="tooltip"]').tooltip(); 
+      $('[data-toggle="tooltip"]').tooltip();
+
+      $('.panel').on('click', function() {
+        var hash = $(this).attr('id');
+        var scr = document.body.scrollTop;
+        location.hash = hash;
+        document.body.scrollTop = scr;
+      });
+
     });
   </script>
 
