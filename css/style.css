@@ -150,6 +150,11 @@ Buttons
 	color: #333;
 	border-color: #555;
 }
+.btn-transparent:focus {
+    color: #2683ff;
+    border-color: #2683ff;
+    background: #fff;
+}
 
 .btn-green {
 	color: #fff;
@@ -188,7 +193,7 @@ Buttons
 }
 
 .btn-menu {
-	margin: 18px 6px;
+	margin: 28px 0 28px 6px;
 	padding: 12px 32px 10px;
 }
 
