@@ -448,7 +448,7 @@
     jQuery(document).ready(function($){
       $('[data-toggle="tooltip"]').tooltip();
 
-      $('.panel').on('click', function() {
+      $('.panel-heading').on('click', function() {
         var hash = $(this).attr('id');
         var scr = document.body.scrollTop;
         location.hash = hash;
