@@ -1834,6 +1834,12 @@ Media Queries
 	}
 }
 
+@media (min-width: 767px) and (max-width: 991px) {
+    .logo {
+    	margin: 0;
+    }
+}
+
 @media (max-width: 767px) {
     .text-left-xs {
       text-align: left;
