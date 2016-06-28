@@ -455,6 +455,13 @@
         document.body.scrollTop = scr;
       });
 
+      if (window.location.hash !== '') {
+       var jobHash = window.location.hash.match(/job-(\d+)$/)
+       if (jobHash && jobHash[1]) {
+         $('a[href="#' + 'collapse-' + jobHash[1] + '"]').click()
+       }
+      }
+
     });
   </script>
 
