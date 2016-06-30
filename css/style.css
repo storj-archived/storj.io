@@ -222,6 +222,12 @@ Buttons
     margin-bottom: 15px;
 }
 
+.home .btn-lg:hover {
+	-webkit-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    transform: scale(1.02);
+}
+
 
 /* -------------------------------- 
 
