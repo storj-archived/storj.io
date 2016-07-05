@@ -53,11 +53,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 	text-rendering: optimizelegibility;
 	font-kerning: normal;
 }
-// Dashboard
-// h1, h2, h3, h4, h5, h6 {
-// 	font-family: 'AvenirNextLTW01-Regular';
-// 	color: #555;
-// }
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Avenir Next LT W01 Bold';
 	color: #2683FF;
@@ -1297,7 +1293,8 @@ footer {
 }
 .footer-logo {
 	display: block;
-	margin-bottom: 0.75em;
+	margin-bottom: 2px;
+    margin-top: 4px;
 }
 .footer-logo img {
 	width: 80px;
