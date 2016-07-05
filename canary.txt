@@ -1,55 +1,25 @@
-Storj Labs Inc. Warrant Canary
-
-Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide for secret warrants,
-searches and seizures of data, such as library records.
-
-Some such laws provide for criminal penalties for revealing the warrant, search or seizure, disallowing the
-disclosure of events that would materially affect the users of a service such as Storj Labs Inc.
-
-Storj Labs Inc. and its principals and employees will in fact comply with such warrants and their provisions
-for secrecy.
-
-Storj Labs Inc. will also make available, monthly, a "warrant canary" in the form of a cryptographically signed
-message containing the following:
-
-- a declaration that, up to that point, no warrants have been served, nor have any searches or seizures
-  taken place
-
-- a cut and paste headline from a major news source, establishing date
-
-Special note should be taken if these messages ever cease being updated, or are removed from this page.
-
-The current message is here:
-
 
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of 6/9/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 7/5/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - American ISIS fighter who ‘found it hard’ returns to face criminal charges
-- - Former Guantanamo detainees tied to attacks on Americans after release
-- - Israel revokes 83,000 Palestinian entry permits, seals off village after deadly attack
-- - We narrowed Trump’s VP possibilities. Now you pick.
+- - FBI recommends no criminal charges in Clinton email probe
+- - Trump’s anti-trade rhetoric rattles Clinton, unions
+- - Trump campaign continues to defend tweet that drew charges of anti-Semitism
+- - ‘NASA did it again’: Juno orbiter enters a dangerous dance with Jupiter
 -----BEGIN PGP SIGNATURE-----
 Version: Mailvelope v1.4.0
 Comment: https://www.mailvelope.com
 
-wsBcBAEBCAAQBQJXWXvbCRDA5Ck6vGbuXAAAYoYH/jJi6qyNXnCLkJ+a6g7b
-GrdNo1DtkdpV16TJpCwBZ9Vh5SYQNWOta6lbXqWXDa18eS0uNnVKr0aUPG3N
-UDB26qR8IxiKyPBJxomZUF6Tx88f17iFXYezzwP4Ram2OhjbAtQjglUB8C26
-00OkwnHPlGQwJV1nIvibY6FYATN4ubi04u6grNTUGLUtB80lCCQZcqbal18P
-pA+WhOT7d7dKHB9lyI3X7KyaZyjhtE40Rmm8TiB503xGLXP1mD1azTuJCoko
-1i2nTUGbIbYA7z/+rceFAORtJSk75XdjykJ+iayXnJLtyCbQinFCGQqbss4M
-sCTqExxLu3G85j+KIV9EXCI=
-=kM6B
+wsBcBAEBCAAQBQJXe+ChCRDA5Ck6vGbuXAAAXAMH/ivPI3yh3KtmkLTGe/MP
+5pd/TwaHIPNzoy/ew6jlluHHaePYNSerQb1rGAc5XQZnYhHrPj8f2yu/JZoA
+UzgJ+j88kx8CMSon1gPNDO/E25VCZy/UqDkYqbv807uARad/NR9nfWpAZFaF
+va50gec13Fa2+gGfLoGS+vdncXcoS+zVLU2NmrG3WN9wG75z52osZbfOPqUV
+xn21ZWZoPQFPjH2fzfszGu3TUJg3NKpOUy+8N1bW6r8LEvNYGXHzjgbHVOE4
+4QvUR/5rJ+WhPZqEEjdbZMsYQmPLp/Rb6I+xIbYp+Dn5NnYaSEelWgopGBIk
+O93u3PewkBlYyuNW5OiGs0M=
+=Zxbz
 -----END PGP SIGNATURE-----
-
-
-This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
-arbitrary declarations, it does not prevent them from using force to coerce Storj Labs Inc. to produce false
-declarations. The news clip in the signed message serves to demonstrate that that update could not have been
-created prior to that date.  It shows that a series of these updates were not created in advance and posted
-on this page.
