@@ -1229,6 +1229,8 @@ C2A
 	background-color: #144EBC;
 	background: url("../img/bg.jpg") center center no-repeat;
 	background-size: cover;
+}
+.c2a-wrapper {
 	padding: 6em 0;
 }
 .c2a h1 {
@@ -1285,8 +1287,14 @@ Footer
 -------------------------------- */
 
 footer {
-	padding-top: 2em;
+	padding-top: 3em;
 	background: #0e2338;
+	background: url("../img/bg.jpg") center top no-repeat;
+	background-size: cover;
+	text-align: left;
+}
+.home footer {
+	background: rgba(5, 21, 37, 0.91);
 }
 .footer-logo:hover, .footer-logo:focus {
 	text-decoration: none;
@@ -1329,8 +1337,6 @@ footer .connect a {
 }
 footer .address {
 	padding: 2em 0 2em;
-    margin-top: 2em;
-    background: #051525;
 }
 footer .address address {
 	margin: 0;
@@ -1933,12 +1939,6 @@ Media Queries
 	.team-member {
     	padding: 30px 8px;
   	}
-	footer {
-		text-align: center;
-	}
-	.footer-logo img {
-		margin: 1em auto 0.1em;
-	}
 }
 
 @media (max-width: 480px) {
@@ -2008,7 +2008,7 @@ Media Queries
 	.slick-prev {
 		left: -9px !important;
 	}
-	.c2a {
+	.c2a-wrapper {
 		padding: 3em 0;
 	}
 	.c2a h1 {
@@ -2043,17 +2043,11 @@ Media Queries
     	width: 100%;
     	padding: 10px 20px;
   	}
-	footer {
-		text-align: center;
-	}
 	footer h4 {
     	margin-top: 2em;
     	padding-bottom: 0;
 	}
 	.footer-logo p {
 	    display: block;
-	}
-	.footer-logo img {
-    	margin: 2em auto 0.3em;
 	}
 }
