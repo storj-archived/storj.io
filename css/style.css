@@ -1948,6 +1948,9 @@ Media Queries
   	.c2a {
 		background: url("../img/bg.jpg") center bottom no-repeat;
 	}
+	footer .address address {
+	    color: #fff;
+	}
 }
 
 @media (max-width: 480px) {
