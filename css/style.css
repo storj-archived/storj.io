@@ -1939,6 +1939,9 @@ Media Queries
 	.team-member {
     	padding: 30px 8px;
   	}
+  	.c2a {
+		background: url("../img/bg.jpg") center bottom no-repeat;
+	}
 }
 
 @media (max-width: 480px) {
@@ -2012,7 +2015,7 @@ Media Queries
 		padding: 3em 0;
 	}
 	.c2a h1 {
-    	font-size: 42px;
+    	font-size: 34px;
     	line-height: 46px;
     }
     .c2a p {
