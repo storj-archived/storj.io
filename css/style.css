@@ -2056,6 +2056,9 @@ Media Queries
     	width: 100%;
     	padding: 10px 20px;
   	}
+  	.terminal-wrapper {
+    	height: 290px;
+	}
 	footer h4 {
     	margin-top: 2em;
     	padding-bottom: 0;
