@@ -1917,6 +1917,12 @@ Media Queries
 	.home .nav>li>.link:hover, .home .nav>li>.link:focus {
     	border-bottom: 0;
 	}
+	.navbar-nav>li>a {
+    	padding: 20px 10px;
+	}
+	.btn-rent {
+		margin: 1em auto;
+	}
 	.compare-product {
 		padding: 0;
 	}
@@ -1951,11 +1957,15 @@ Media Queries
 	.logo {
     	width: 134px;
 	}
+	.home .navbar-brand {
+		margin: 25px 0;
+	}
 	.navbar-page .navbar-brand {
 		margin: 15px;
 	}
 	.navbar-page .navbar-toggle {
 		margin-top: 22px;
+		margin-right: 1em;
 	}
 	.btn-action {
 		padding-left: 10px;
@@ -1967,9 +1977,6 @@ Media Queries
 	}
 	.page .btn-block {
 		font-size: 16px;
-	}
-	.menu {
-		padding: 30px 0 20px;
 	}
 	.headlines {
 		padding: 0;
