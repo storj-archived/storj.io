@@ -628,14 +628,6 @@ canvas {
 	max-height: 900px;
 	overflow: hidden;
 }
-.thankyou .header {
-	max-height: 620px;
-	min-height: 620px;
-	background: #144EBC;
-}
-.thankyou .headlines {
-	padding-top: 3em;
-}
 
 .page .menu {
 	padding: 0;
