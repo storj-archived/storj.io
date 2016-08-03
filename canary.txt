@@ -24,26 +24,27 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of 7/5/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 8/3/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - FBI recommends no criminal charges in Clinton email probe
-- - Trump’s anti-trade rhetoric rattles Clinton, unions
-- - Trump campaign continues to defend tweet that drew charges of anti-Semitism
-- - ‘NASA did it again’: Juno orbiter enters a dangerous dance with Jupiter
+ - Campaign  2016 For Trump, a new ‘rigged’ system: The election itself
+ - Paul Ryan’s Trump dilemma has gotten much, much worse
+ - Republican Meg Whitman endorses Clinton, calls Trump ‘authoritarian’
+ - An oil boom made this the most expensive city in the world. Now it’s in crisis.
+ - North Korean missile lands perilously close to Japan
 -----BEGIN PGP SIGNATURE-----
-Version: Mailvelope v1.4.0
+Version: Mailvelope v1.5.1
 Comment: https://www.mailvelope.com
 
-wsBcBAEBCAAQBQJXe+ChCRDA5Ck6vGbuXAAAXAMH/ivPI3yh3KtmkLTGe/MP
-5pd/TwaHIPNzoy/ew6jlluHHaePYNSerQb1rGAc5XQZnYhHrPj8f2yu/JZoA
-UzgJ+j88kx8CMSon1gPNDO/E25VCZy/UqDkYqbv807uARad/NR9nfWpAZFaF
-va50gec13Fa2+gGfLoGS+vdncXcoS+zVLU2NmrG3WN9wG75z52osZbfOPqUV
-xn21ZWZoPQFPjH2fzfszGu3TUJg3NKpOUy+8N1bW6r8LEvNYGXHzjgbHVOE4
-4QvUR/5rJ+WhPZqEEjdbZMsYQmPLp/Rb6I+xIbYp+Dn5NnYaSEelWgopGBIk
-O93u3PewkBlYyuNW5OiGs0M=
-=Zxbz
+wsBcBAEBCAAQBQJXogThCRDA5Ck6vGbuXAAAhEcH/2NHaASZqcplnjLHMMBx
+V7Eu0ghbwT6VpkQTZhVJZucvcr1vTnVonXjshv4JZGbNcJNcz80rQ/TdUeyb
+jQ7PN5HQXkDJ+1hNa4q9+HcNAxZZjPb3Nm/YnpRIzjwCVKWV9Wnwuxo+wXld
+8WIcLeVX3lcvBXMZ40BPL6lizQQBbwySQlTpqq7dkEjDA3Ijih4KQmQIDGlg
+3roZMyQOBWTIWJuBZG+66YTphbhyheiYaXKuZV1E7YIA4+FIHc+/wcuBSxRR
+yzrfkYUV6c/28mExC2tfYjKT3NIhxAJ42lnpf+tNezsUSAQ1zjCCBJyoGWCy
+rBIA3k2OGabTiPYuM7Jzkgk=
+=JkZ/
 -----END PGP SIGNATURE-----
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
