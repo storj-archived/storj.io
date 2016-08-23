@@ -819,7 +819,10 @@ Developers
 .github-card {
 	margin: 2em auto;
 }
-
+.code-example {
+	padding-top: 14px;
+	padding-bottom: 9px;
+}
 
 
 /* -------------------------------- 
