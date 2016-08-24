@@ -1773,8 +1773,7 @@ Media Queries
 		padding-top: 4em;
 	}
 	.storjshare-gui {
-		margin-top: -6em;	
-		max-width: 800px;
+		margin-top: -6em;
 	}
 }
 
@@ -1804,8 +1803,10 @@ Media Queries
   		font-size: 19px;
   	}
   	.storjshare-gui {
-  		margin-top: -4em;
-  		margin-bottom: 1em;
+		margin-top: -4em;
+    	margin-bottom: 1em;
+    	margin-left: 0;
+    	margin-right: -4em;
   	}
 }
 
