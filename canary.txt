@@ -24,27 +24,27 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA256
 
-As of 8/3/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 9/1/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
- - Campaign  2016 For Trump, a new ‘rigged’ system: The election itself
- - Paul Ryan’s Trump dilemma has gotten much, much worse
- - Republican Meg Whitman endorses Clinton, calls Trump ‘authoritarian’
- - An oil boom made this the most expensive city in the world. Now it’s in crisis.
- - North Korean missile lands perilously close to Japan
+- - Ultra-low cost Allegiant Air draws FAA’s attention over safety concerns
+- - More than 6 million immigrants could be deported under latest Trump plan
+- - Fact-checking Trump’s speech
+- - In Rio, did some Olympic swimmers have an unfair advantage?
+- - A hurricane hasn’t made Florida landfall in over 10 years. Hermine may end that streak.
 -----BEGIN PGP SIGNATURE-----
 Version: Mailvelope v1.5.1
 Comment: https://www.mailvelope.com
 
-wsBcBAEBCAAQBQJXogThCRDA5Ck6vGbuXAAAhEcH/2NHaASZqcplnjLHMMBx
-V7Eu0ghbwT6VpkQTZhVJZucvcr1vTnVonXjshv4JZGbNcJNcz80rQ/TdUeyb
-jQ7PN5HQXkDJ+1hNa4q9+HcNAxZZjPb3Nm/YnpRIzjwCVKWV9Wnwuxo+wXld
-8WIcLeVX3lcvBXMZ40BPL6lizQQBbwySQlTpqq7dkEjDA3Ijih4KQmQIDGlg
-3roZMyQOBWTIWJuBZG+66YTphbhyheiYaXKuZV1E7YIA4+FIHc+/wcuBSxRR
-yzrfkYUV6c/28mExC2tfYjKT3NIhxAJ42lnpf+tNezsUSAQ1zjCCBJyoGWCy
-rBIA3k2OGabTiPYuM7Jzkgk=
-=JkZ/
+wsBcBAEBCAAQBQJXyGzJCRDA5Ck6vGbuXAAALWgH/j5KMwdqL2jn0j2zVjoi
+IWH52f/LWLK73uShkxic+z00dYKPiSuFtSMyB/p0g33+G7Ja23vpqlqH90kt
+w03lJNUUu2zhlheY7P+BiBHnnwWWwbPoUlq7nicCb/ywUixRerVP7Seql6ul
+LdR93qNF+crdEmMFp9latfi3c1pHo2iMe+7DYm7AShU4OtXaiw6qaGa/4DdS
+I96fs+BeokZKyG52lmOrvpv54MHk4C8chMctIuMDHV09ac8Y+6sFdUu8f6C9
+ynGnzVyBHIvE7bHhs42DwgDbUHAgSI8tCXzVdsXnT6i8yaVgNKHzEnacDUMB
+kgzutz/f6oN9Okuy1WBHBqM=
+=UP7S
 -----END PGP SIGNATURE-----
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
