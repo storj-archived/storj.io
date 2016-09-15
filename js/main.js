@@ -377,33 +377,31 @@ jQuery(document).ready(function($){
 							$(".terminal-login-wrapper").delay(1400).hide('fast', function() {
 								var typeWritingBuckets = new TypeWriting({
 								    targetElement   : document.getElementsByClassName('terminal-type-buckets')[0],
-								    inputString     : '$ storj list buckets',
+								    inputString     : '$ storj add-bucket cats',
 								    typing_interval : 90,
 								    blink_interval  : '1s',
 								    cursor_color    : '#91D127',
 								}, function() {
 									$(".terminal-type-buckets").removeClass('typingCursor');
-									$(".terminal-text-buckets").show('300', function() {
-										$(".terminal-buckets-wrapper").delay(1900).hide('fast', function() {
-											var typeWritingUpload = new TypeWriting({
-											    targetElement   : document.getElementsByClassName('terminal-type-upload')[0],
-											    inputString     : '$ storj upload-file 573b4ce25da55fc8715b4c5a cat.jpg',
-											    typing_interval : 90,
-											    blink_interval  : '1s',
-											    cursor_color    : '#91D127',
-											}, function() {
-												$(".terminal-type-upload").removeClass('typingCursor');
-												$(".terminal-text-upload-password").delay('300').show('300', function() {
-													var typeWritingUploadPassword = new TypeWriting({
-													    targetElement   : document.getElementsByClassName('terminal-type-upload-password')[0],
-													    inputString     : '*********',
-													    typing_interval : 90,
-													    blink_interval  : '1s',
-													    cursor_color    : '#91D127',
-													}, function() {
-														$(".terminal-type-upload-password").removeClass('typingCursor');
-														$(".terminal-text-upload").delay('400').show('300', function() {
-														});
+									$(".terminal-text-buckets").delay('300').show('300', function() {
+										var typeWritingUpload = new TypeWriting({
+										    targetElement   : document.getElementsByClassName('terminal-type-upload')[0],
+										    inputString     : '$ storj upload-file 573b4ce25da55fc8715b4c5a cat.jpg',
+										    typing_interval : 90,
+										    blink_interval  : '1s',
+										    cursor_color    : '#91D127',
+										}, function() {
+											$(".terminal-type-upload").removeClass('typingCursor');
+											$(".terminal-text-upload-password").delay('300').show('300', function() {
+												var typeWritingUploadPassword = new TypeWriting({
+												    targetElement   : document.getElementsByClassName('terminal-type-upload-password')[0],
+												    inputString     : '*********',
+												    typing_interval : 90,
+												    blink_interval  : '1s',
+												    cursor_color    : '#91D127',
+												}, function() {
+													$(".terminal-type-upload-password").removeClass('typingCursor');
+													$(".terminal-text-upload").delay('400').show('300', function() {
 													});
 												});
 											});
