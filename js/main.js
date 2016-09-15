@@ -393,7 +393,7 @@ jQuery(document).ready(function($){
 											    cursor_color    : '#91D127',
 											}, function() {
 												$(".terminal-type-upload").removeClass('typingCursor');
-												$(".terminal-text-upload-password").show('300', function() {
+												$(".terminal-text-upload-password").delay('300').show('300', function() {
 													var typeWritingUploadPassword = new TypeWriting({
 													    targetElement   : document.getElementsByClassName('terminal-type-upload-password')[0],
 													    inputString     : '*********',
@@ -402,7 +402,7 @@ jQuery(document).ready(function($){
 													    cursor_color    : '#91D127',
 													}, function() {
 														$(".terminal-type-upload-password").removeClass('typingCursor');
-														$(".terminal-text-upload").show('300', function() {
+														$(".terminal-text-upload").delay('400').show('300', function() {
 														});
 													});
 												});
