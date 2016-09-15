@@ -737,8 +737,12 @@ canvas {
 }
 .terminal-text {
 	display: none;
+	color: #fff !important;
 }
 
+.terminal span {
+	color: #91D127 !important;
+}
 
 /* -------------------------------- 
 
