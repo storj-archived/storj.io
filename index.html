@@ -102,6 +102,49 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-8 col-md-push-2">
+					<div class="terminal">
+						<div class="terminal-login-wrapper">
+							<p class="terminal-type-login"></p>
+							<p class="terminal-text terminal-text-login-email">
+								[...] > Enter your email address > <span class="terminal-type-login-email"></span><br>
+							</p>
+							<p class="terminal-text terminal-text-login-password">
+			   					[...] > Enter your password > <span class="terminal-type-login-password"></span>
+							</p>
+							<p class="terminal-text terminal-text-login-paired">
+			   					[info] This device has been successfully paired.<br><br>
+							</p>
+						</div>
+						<div class="terminal-buckets-wrapper">
+							<p class="terminal-type-buckets"></p>
+							<p class="terminal-text terminal-text-buckets">
+								[info] ID: 573b4ce25da55fc8715b4c5a, Name: Test Bucket, Storage: 10, Transfer: 30
+							</p>	
+						</div>
+						<div class="terminal-upload-wrapper">
+							<p class="terminal-type-upload"></p>
+							<p class="terminal-text terminal-text-upload-password">
+								[...]  > Enter your passphrase to unlock your keyring  > <span class="terminal-type-upload-password"></span>
+							</p>
+							<p class="terminal-text terminal-text-upload">
+								[info]   Generating encryption key...<br>
+								[info]   Encrypting file \"cat.jpg\"<br>
+								[info]   Encryption complete!<br>
+								[info]   Creating storage token...<br>
+								[info]   Storing file, hang tight!<br>
+								[info]   Encryption key saved to keyring.<br>
+								[info]   File successfully stored in bucket.<br>
+								[info]   Name: cat.jpg, Type: image/jpeg, Size: 8388624 bytes, ID: 574733fb705cbc353c48eef7
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<section class="value text-center grey" id="features">
@@ -321,20 +364,21 @@
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<!-- <script src="js/countUp.min.js"></script> -->
-	<script src="js/main.js"></script>
 	<!-- <script src="js/jquery.easing.min.js"></script> -->
 	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/typewriting.min.js"></script>
+	<script src="js/main.js"></script>
 	<script type="text/javascript" src="js/segment.js"></script>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-49085346-1', 'storj.io');
-    ga('send', 'pageview');
-  </script>
+		ga('create', 'UA-49085346-1', 'storj.io');
+		ga('send', 'pageview');
+	</script>
 
 </body>
 </html>

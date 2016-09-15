@@ -346,20 +346,76 @@ jQuery(document).ready(function($){
 
 	$('[data-toggle="tooltip"]').tooltip(); 
 
-	//  $('.slider-for').slick({
-	//   slidesToShow: 1,
-	//   slidesToScroll: 1,
-	//   arrows: false,
-	//   fade: true,
-	//   asNavFor: '.slider-nav'
-	// });
-	// $('.slider-nav').slick({
-	//   slidesToShow: 3,
-	//   slidesToScroll: 1,
-	//   asNavFor: '.slider-for',
-	//   dots: true,
-	//   centerMode: true,
-	//   focusOnSelect: true
-	// });
+	// Terminal animation
+	var typeWriting = new TypeWriting({
+	    targetElement   : document.getElementsByClassName('terminal-type-login')[0],
+	    inputString     : '$ storj login',
+	    typing_interval : 90,
+	    blink_interval  : '1s',
+	    cursor_color    : '#91D127',
+	}, function() {
+		$(".terminal-type-login").removeClass('typingCursor');
+		$(".terminal-text-login-email").show('300', function() {
+			var typeWritingLoginEmail = new TypeWriting({
+			    targetElement   : document.getElementsByClassName('terminal-type-login-email')[0],
+			    inputString     : 'cats@storj.io',
+			    typing_interval : 90,
+			    blink_interval  : '1s',
+			    cursor_color    : '#91D127',
+			}, function() {
+				$(".terminal-type-login-email").removeClass('typingCursor');
+				$(".terminal-text-login-password").show('300', function() {
+					var typeWritingLoginPassword = new TypeWriting({
+					    targetElement   : document.getElementsByClassName('terminal-type-login-password')[0],
+					    inputString     : '*********',
+					    typing_interval : 90,
+					    blink_interval  : '1s',
+					    cursor_color    : '#91D127',
+					}, function() {
+						$(".terminal-type-login-password").removeClass('typingCursor');
+						$(".terminal-text-login-paired").show('300', function() {
+							$(".terminal-login-wrapper").delay(1400).hide('fast', function() {
+								var typeWritingBuckets = new TypeWriting({
+								    targetElement   : document.getElementsByClassName('terminal-type-buckets')[0],
+								    inputString     : '$ storj list buckets',
+								    typing_interval : 90,
+								    blink_interval  : '1s',
+								    cursor_color    : '#91D127',
+								}, function() {
+									$(".terminal-type-buckets").removeClass('typingCursor');
+									$(".terminal-text-buckets").show('300', function() {
+										$(".terminal-buckets-wrapper").delay(1900).hide('fast', function() {
+											var typeWritingUpload = new TypeWriting({
+											    targetElement   : document.getElementsByClassName('terminal-type-upload')[0],
+											    inputString     : '$ storj upload-file 573b4ce25da55fc8715b4c5a cat.jpg',
+											    typing_interval : 90,
+											    blink_interval  : '1s',
+											    cursor_color    : '#91D127',
+											}, function() {
+												$(".terminal-type-upload").removeClass('typingCursor');
+												$(".terminal-text-upload-password").show('300', function() {
+													var typeWritingUploadPassword = new TypeWriting({
+													    targetElement   : document.getElementsByClassName('terminal-type-upload-password')[0],
+													    inputString     : '*********',
+													    typing_interval : 90,
+													    blink_interval  : '1s',
+													    cursor_color    : '#91D127',
+													}, function() {
+														$(".terminal-type-upload-password").removeClass('typingCursor');
+														$(".terminal-text-upload").show('300', function() {
+														});
+													});
+												});
+											});
+										});
+									});
+								});
+							});
+						});
+					});
+				});
+			});
+		});
+	});
 
 });
