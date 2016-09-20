@@ -39,7 +39,7 @@ a:hover {
 .link {
 	border-bottom: 1px solid #2683ff;
 }
-.link:hover {
+.link:hover, .link:focus {
 	text-decoration: none;
 	border-color: #173AE8;
 }
