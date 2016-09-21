@@ -773,51 +773,24 @@ Developers
 
 .terminal-wrapper {
 	width: 100%;
-	max-width: 420px;
+	max-width: 600px;
     margin: 0 auto;
-    background: #2b3e50;
-    border-radius: 6px;
+    background: #020202;
+    border-radius: 9px;
     height: 260px;
-    margin-top: 2em;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.terminal-header {
-	background: #d7d7d7;
-    width: 100%;
-    height: 26px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    text-align: left;
-    padding: 3px 7px;
+    margin-top: 2.1em;
+	box-shadow: 0 2px 4px rgba(50,50,93,.1);
 }
 .terminal-content {
 	text-align: left;
-    padding: 1.4em;
-}
-.terminal-button {
-	width: 12px;
-    height: 12px;
-    border-radius: 6px;
-    display: inline-block;
-    text-align: left;
-}
-.terminal-button-close {
-	background: #c33620;
-}
-.terminal-button-min {
-	background: #FF7F00;
-}
-.terminal-button-max {
-	background: #88C425;
+    padding: 2em;
 }
 .terminal-content code {
-    font-size: 19px;
-    background: none;
+    font-size: 16px;
     font-weight: bold;
-    color: #ffffff;
-}
-.terminal-content .comment {
-	opacity: 0.4;
+    font-family: monospace;
+    background: none;
+    color: #88C425;
 }
 .noselect {
 	-webkit-touch-callout: none;
@@ -846,7 +819,59 @@ Developers
 	padding-top: 14px;
 	padding-bottom: 9px;
 }
-
+.panel-developers {
+	padding: 44px;
+	box-shadow: 0 2px 4px rgba(50,50,93,.1);
+}
+.editor {
+	margin: 20px 0;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(50,50,93,.1);
+}
+pre {
+	border: 0;
+	background: #fff !important;
+}
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+    color: #88C425;
+    font-weight: bold;
+}
+.token.atrule, .token.attr-value, .token.keyword {
+    color: #2683ff;
+    font-weight: bold;
+}
+.token.function {
+    color: #FF7F00;
+    font-weight: bold;
+}
+.line-numbers .line-numbers-rows {
+	border-right: 1px solid #eee;
+}
+.line-numbers-rows > span:before {
+	color: #ddd;
+}
+.nav-stacked li a {
+	border-left: 4px solid #f2f2f2;
+}
+.nav-stacked li.active a {
+    font-weight: bold;
+    color: #2683ff;
+    background: #fff;
+    border-left-color: #2683ff;
+    border-radius: 2px;
+}
+.nav-stacked li a:hover {
+	color: #2683ff;
+	border-left-color: #ddd;
+	background: #f2f2f2;
+}
+.nav-stacked li a:focus {
+	color: #2683ff;
+}
+.nav-stacked li.active a:hover {
+	border-left-color: #2683ff;
+}
 
 /* -------------------------------- 
 

@@ -33,6 +33,7 @@
     <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/27dd46d0-b03f-4756-bc5b-448238cf2b5d.css"/>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <script src="js/modernizr.js"></script>
@@ -43,7 +44,7 @@
     <![endif]-->
 </head>
 
-  <body class="page faq">
+  <body class="page">
 
   <section>
     <nav class="navbar navbar-page navbar-default menu">
@@ -66,7 +67,8 @@
             <li><a href="http://docs.storj.io/" class="link">Quickstart</a></li>
             <li><a href="developers.html" class="link active">Developers</a></li>
             <li><a href="community.html" class="link">Community</a></li>
-            <li><a href="http://blog.storj.io/" class="link">Blog</a></li>          </ul>
+            <li><a href="http://blog.storj.io/" class="link">Blog</a></li>
+          </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://app.storj.io/" class="link">Login</a></li>
             <li><a href="share.html" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
@@ -80,19 +82,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
+          <img src="img/icon-dev.svg" alt="Built for Developers" width="50">
           <h1 class="title">Built for Developers</h1>
-          <p class="text-center">A powerful P2P network, with simple tools for developers.</p>
+          <p class="text-center">We’re dedicated to building better tools so developers can make better products.</p>
           <div class="terminal-wrapper">
-            <div class="terminal-header">
-              <div class="terminal-button terminal-button-close"></div>
-              <div class="terminal-button terminal-button-min"></div>
-              <div class="terminal-button terminal-button-max"></div>
-            </div>
             <div class="terminal-content">
               <p><code><span class="noselect">$ </span>npm install -g storj</code></p>
+              <div class="spacer15"></div>
               <p><code class="comment"># This package provides all of the tools you need to work with the Storj network.</code></p>
-              <div class="spacer5"></div>
-              <a href="https://stacktile.io/org/storj/workflows/8da130b5-04aa-4f7d-be64-198ddc9a660a" class="btn btn-orange btn-block">Try Online Demo</a>
+              <div class="spacer15"></div>
+              <a href="https://stacktile.io/org/storj/workflows/8da130b5-04aa-4f7d-be64-198ddc9a660a" class="btn btn-green btn-block">Try Online Demo</a>
             </div>
           </div>
         </div>
@@ -100,22 +99,35 @@
     </div>
   </section>
 
-  <section class="section white">
+  <section class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 text-center">
-          <h1>Tutorials</h1>
-          <p>Read how to get started with the Storj API.</p>
-          <div class="spacer15"></div>
-          <a href="http://docs.storj.io/" class="btn">View Guides</a>
-          <div class="spacer20"></div>
+        <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+          <div class="panel panel-developers">
+            <img src="img/icon-tutorials.svg" alt="Storj Tutorials" width="50">
+            <h2>Tutorials</h2>
+            <p>Step-by-step tutorial to get started with the Storj API.</p>
+            <div class="spacer15"></div>
+            <a href="http://docs.storj.io/" class="btn">View Guides</a>
+          </div>
         </div>
-        <div class="col-md-6 text-center">
-          <h1>Documentation</h1>
-          <p>Start building on top of Storj.</p>
-          <div class="spacer15"></div>
-          <a href="https://storj.github.io/core/" class="btn btn-green">View Docs</a>
-          <div class="spacer20"></div>
+        <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+          <div class="panel panel-developers">
+            <img src="img/icon-documentation.svg" alt="Storj Documentation" width="50">
+            <h2>Documentation</h2>
+            <p>Start building your app using the Storj platform.</p>
+            <div class="spacer15"></div>
+            <a href="https://storj.github.io/core/" class="btn btn-green">View Docs</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 text-center">
+          <div class="panel panel-developers">
+            <img src="img/icon-api.svg" alt="Storj API" width="50">
+            <h2>Reference</h2>
+            <p>Access the Storj network using simple REST API.</p>
+            <div class="spacer15"></div>
+            <a href="https://storj.io/api.html" class="btn btn-orange">View API</a>
+          </div>
         </div>
       </div>
     </div>
@@ -125,126 +137,208 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 text-center">
+          <img src="img/icon-code-examples.svg" alt="Storj Code Examples" width="60">
           <h1>Code Examples</h1>
           <p>See how easy you can start using Storj for your application.</p>
           <div class="spacer25"></div>
+
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 1<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/1-create-user.js">Creating a User</a></p></div>
+
+            <div class="col-xs-12 visible-xs">
+              <div role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Creating a User <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu nav nav-stacked">
+                  <li class="active"><a data-toggle="tab" href="#example1">Creating a User</a></li>
+                  <li><a data-toggle="tab" href="#example2">Generating a KeyPair</a></li>
+                  <li><a data-toggle="tab" href="#example3">Authenticating with a KeyPair</a></li>
+                  <li><a data-toggle="tab" href="#example4a">Listing Keys</a></li>
+                  <li><a data-toggle="tab" href="#example4b">Add/Remove Keys</a></li>
+                  <li><a data-toggle="tab" href="#example5a">List Buckets</a></li>
+                  <li><a data-toggle="tab" href="#example5b">Add/Remove Bucket</a></li>
+                  <li><a data-toggle="tab" href="#example6a">Upload File</a></li>
+                  <li><a data-toggle="tab" href="#example6b">Download File</a></li>
+                  <li><a data-toggle="tab" href="#example6c">List Bucket Files</a></li>
+                  <li><a data-toggle="tab" href="#example6d">Delete File from Bucket</a></li>
+                </ul>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 2<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/2-generate-keypair.js">Generating a KeyPair</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 3<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/3-authenticate-with-keypair.js">Authenticating with a KeyPair</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 4a<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/4a-list-keys.js">Listing Keys</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 4b<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/4b-add-remove-keys.js">Add/Remove Keys</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 5a<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/5a-list-buckets.js">List Buckets</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 5b<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/5b-add-remove-bucket.js">Add/Remove Bucket</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 6a<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/6a-upload-file.js">Upload File</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 6b<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/6b-download-file.js">Download File</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 6c<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/6c-list-bucket-files.js">List Bucket Files</a></p></div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-              <div class="panel code-example"><p>Example 6d<hr><a target="_blank" href="https://github.com/Storj/core/blob/master/example/6d-delete-file-from-bucket.js">Delete File from Bucket</a></p></div>
+
+            <div class="tab-content col-xs-12 col-sm-8">
+              <div id="example1" class="tab-pane fade in active">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/1-create-user.js"><code class="language-javascript"></code></pre>
+                </div>
+              </div>
+
+              <div id="example2" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/2-generate-keypair.js"><code class="language-javascript"></code></pre>
+                </div>
+              </div>
+
+              <div id="example3" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/3-authenticate-with-keypair.js"><code class="language-javascript"></code></pre>
+                </div>
+              </div>
+
+              <div id="example4a" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/4a-list-keys.js"><code class="language-javascript"></code></pre>
+                </div>
+              </div>
+
+              <div id="example4b" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/4b-add-remove-keys.js"><code class="language-javascript">
+                </code></pre>
+                </div>
+              </div>
+
+              <div id="example5a" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/5a-list-buckets.js"><code class="language-javascript">
+                </code></pre>
+                </div>
+              </div>
+
+              <div id="example5b" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/5b-add-remove-bucket.js"><code class="language-javascript">
+                </code></pre>
+                </div>
+              </div>
+
+              <div id="example6a" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/6a-upload-file.js"><code class="language-javascript">
+                </code></pre>
+                </div>
+              </div>
+
+              <div id="example6b" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/6b-download-file.js"><code class="language-javascript">
+                </code></pre>
+                </div>
+              </div>
+
+              <div id="example6c" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/6c-list-bucket-files.js"><code class="language-javascript">
+                </code></pre>
+                </div>
+              </div>
+
+              <div id="example6d" class="tab-pane fade">
+                <div class="editor"><pre class="line-numbers" data-src="https://raw.githubusercontent.com/Storj/core/master/example/6d-delete-file-from-bucket.js"><code class="language-javascript">
+                </code></pre>
+              </div>
             </div>
           </div>
+
+          <div class="col-xs-12 col-sm-4 hidden-xs">
+            <ul class="nav nav-stacked text-left">
+              <li class="active"><a data-toggle="tab" href="#example1">Creating a User</a></li>
+              <li><a data-toggle="tab" href="#example2">Generating a KeyPair</a></li>
+              <li><a data-toggle="tab" href="#example3">Authenticating with a KeyPair</a></li>
+              <li><a data-toggle="tab" href="#example4a">Listing Keys</a></li>
+              <li><a data-toggle="tab" href="#example4b">Add/Remove Keys</a></li>
+              <li><a data-toggle="tab" href="#example5a">List Buckets</a></li>
+              <li><a data-toggle="tab" href="#example5b">Add/Remove Bucket</a></li>
+              <li><a data-toggle="tab" href="#example6a">Upload File</a></li>
+              <li><a data-toggle="tab" href="#example6b">Download File</a></li>
+              <li><a data-toggle="tab" href="#example6c">List Bucket Files</a></li>
+              <li><a data-toggle="tab" href="#example6d">Delete File from Bucket</a></li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section white">
+  <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-push-3 text-center">
           <h1>Help us Build Storj</h1>
-          <p>Join the distributed group of contributors all over the world</p>
+          <p>Join the distributed group of contributors all over the world.</p>
           <div class="spacer20"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3 text-center">
+        <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 text-center">
           <a href="https://github.com/bookchin"><img src="https://avatars0.githubusercontent.com/u/1188875" alt="Gordon Hall" class="contributor-profile"></a>
           <a href="https://github.com/boshevski"><img src="https://avatars3.githubusercontent.com/u/3217669" alt="Tome Boshevski" class="contributor-profile"></a>
           <a href="https://github.com/bryanchriswhite"><img src="https://avatars3.githubusercontent.com/u/600733" alt="Bryan White" class="contributor-profile"></a>
           <a href="https://github.com/F483"><img src="https://avatars3.githubusercontent.com/u/977605" alt="Fabian Barkhau" class="contributor-profile"></a>
-          <a href="https://github.com/littleskunk"><img src="https://avatars2.githubusercontent.com/u/6333390" alt="skunk" class="contributor-profile"></a>
+          <a href="https://github.com/littleskunk"><img src="https://avatars2.githubusercontent.com/u/6333390" alt="Skunk" class="contributor-profile"></a>
           <a href="https://github.com/frdwrd"><img src="https://avatars0.githubusercontent.com/u/10149425" alt="James Prestwich" class="contributor-profile"></a>
+          <a href="https://github.com/pgerbes1"><img src="https://avatars3.githubusercontent.com/u/7489221" alt="Patrick Gerbes" class="contributor-profile"></a>
           <a href="https://github.com/super3"><img src="https://avatars2.githubusercontent.com/u/60975" alt="Shawn Wilkinson" class="contributor-profile"></a>
           <a href="https://github.com/MrFancyMonocle"><img src="https://avatars0.githubusercontent.com/u/3792257" alt="Ryan Foran" class="contributor-profile"></a>
           <a href="https://github.com/phutchins"><img src="https://avatars2.githubusercontent.com/u/1074345" alt="Philip Hutchins" class="contributor-profile"></a>
-          <a href="https://github.com/niahmiah"><img src="https://avatars3.githubusercontent.com/u/653102" alt="niahmiah" class="contributor-profile"></a>
+          <a href="https://github.com/niahmiah"><img src="https://avatars3.githubusercontent.com/u/653102" alt="Ian Patton" class="contributor-profile"></a>
           <a href="https://github.com/dylanlott"><img src="https://avatars2.githubusercontent.com/u/5915948" alt="Dylan Lott" class="contributor-profile"></a>
           <a href="https://github.com/aleitner"><img src="https://avatars2.githubusercontent.com/u/7276007" alt="Alexander Leitner" class="contributor-profile"></a>
+          <a href="https://github.com/steenzout"><img src="https://avatars3.githubusercontent.com/u/571590" alt="Petro Salgado" class="contributor-profile"></a>
           <div class="spacer40"></div>
           <a href="community.html" class="btn">Join on Slack</a>
         </div>
       </div>
     </div>
   </section>
-  
-  <section class="section">
+
+  <section class="section text-center">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-md-push-3 text-center">
+        <div class="col-md-6 col-md-push-3">
           <h1>Storj on GitHub</h1>
-          <p>Here are some of our code repositories.</p>
+          <p>You are welcome to contribute to the code on <a href="https://github.com/Storj" class="link">GitHub</a>.</p>
           <div class="spacer15"></div>
-          <a href="https://github.com/Storj/" class="btn">Storj on GitHub</a>
+          <div class="github-card" data-user="storj" data-repo="" data-width="100%"></div>
           <div class="spacer40"></div>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+          <h2>Storj Core</h2>
+          <p><a href="https://github.com/Storj/core/blob/master/CONTRIBUTING.md" class="link">Contributing Guidelines</a> &amp; <a href="https://github.com/Storj/core/blob/master/CONTRIBUTING.md#pull-requests-for-swag" class="link">Pull Requests for Swag</a></p>
+          <div class="spacer15"></div>
           <div class="github-card" data-user="storj" data-repo="core" data-width="100%"></div>
+          <div class="spacer40"></div>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+          <h2>Storj Bridge</h2>
+          <p><a href="https://github.com/Storj/bridge/blob/master/CONTRIBUTING.md" class="link">Contributing Guidelines</a> &amp; <a href="https://github.com/Storj/bridge/blob/master/CONTRIBUTING.md#pull-requests-for-swag" class="link">Pull Requests for Swag</a></p>
+          <div class="spacer15"></div>
           <div class="github-card" data-user="storj" data-repo="bridge" data-width="100%"></div>
+          <div class="spacer40"></div>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+          <h2>Storj Bridge GUI</h2>
+          <p><a href="https://github.com/Storj/bridge-gui/blob/master/CONTRIBUTING.md" class="link">Contributing Guidelines</a> &amp; <a href="https://github.com/Storj/bridge-gui/blob/master/CONTRIBUTING.md#pull-requests-for-swag" class="link">Pull Requests for Swag</a></p>
+          <div class="spacer15"></div>
           <div class="github-card" data-user="storj" data-repo="bridge-gui" data-width="100%"></div>
+          <div class="spacer40"></div>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+          <h2>Storj Share GUI</h2>
+          <p><a href="https://github.com/Storj/storjshare-gui/blob/master/CONTRIBUTING.md" class="link">Contributing Guidelines</a> &amp; <a href="https://github.com/Storj/storjshare-gui/blob/master/CONTRIBUTING.md#pull-requests-for-swag" class="link">Pull Requests for Swag</a></p>
+          <div class="spacer15"></div>
           <div class="github-card" data-user="storj" data-repo="storjshare-gui" data-width="100%"></div>
+          <div class="spacer40"></div>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
+          <h2>Storj Share CLI</h2>
+          <p><a href="https://github.com/Storj/storjshare-cli/blob/master/CONTRIBUTING.md" class="link">Contributing Guidelines</a> &amp; <a href="https://github.com/Storj/storjshare-cli/blob/master/CONTRIBUTING.md#pull-requests-for-swag" class="link">Pull Requests for Swag</a></p>
+          <div class="spacer15"></div>
           <div class="github-card" data-user="storj" data-repo="storjshare-cli" data-width="100%"></div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section white">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-push-3 text-center">
-          <h1>Storj Update Notifications</h1>
-          <p>Stay up to date with Storj and join our announcements newsletter.</p>
-          <div class="spacer10"></div>
-          <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=0b1509efa2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-              <input type="email" value="" name="EMAIL" class="email" placeholder="Enter your email here" spellcheck="false" required>
-              <div style="position: absolute; left: -5000px;"><input type="text" name="b_edba9fc4ce8b9095a31859cba_0b1509efa2" tabindex="-1" value=""></div>
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-green subscribe">
-            </form>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <section class="section">
     <div class="container">
@@ -321,11 +415,16 @@
   <script src="js/jquery-2.1.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
+  <script src="js/prism.js"></script>
   <script type="text/javascript" src="js/segment.js"></script>
 
   <script>
     jQuery(document).ready(function($){
       $('[data-toggle="tooltip"]').tooltip();
+      $(".dropdown-menu li a").click(function(){
+        var selText = $(this).text();
+        $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
+      });
     });
   </script>
 
