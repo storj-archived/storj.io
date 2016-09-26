@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Stroke 131 + Stroke 132</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Stroke-131-+-Stroke-132" transform="translate(0.000000, 1.000000)">
+            <path d="M23.5,9.7588 C23.5,14.9398 18.352,19.1398 12,19.1398 C10.582,19.1398 9.225,18.9318 7.971,18.5488 L1.362,21.6248 L3.95,16.4588 C1.82,14.7558 0.5,12.3838 0.5,9.7588 C0.5,4.5758 5.648,0.3758 12,0.3758 C18.352,0.3758 23.5,4.5758 23.5,9.7588 L23.5,9.7588 Z" id="Stroke-131" stroke="#1A5BB0"></path>
+            <path d="M12.5,15.376 C12.5,15.376 18,11.376 18,8.413 C18,4.994 13.5,3.913 12.5,8.071 C11.5,3.913 7,4.994 7,8.413 C7,11.376 12.5,15.376 12.5,15.376 L12.5,15.376 Z" id="Stroke-132" stroke="#2684FF"></path>
+        </g>
+    </g>
+</svg>

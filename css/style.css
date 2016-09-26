@@ -819,10 +819,6 @@ Developers
 	padding-top: 14px;
 	padding-bottom: 9px;
 }
-.panel-developers {
-	padding: 44px;
-	box-shadow: 0 2px 4px rgba(50,50,93,.1);
-}
 .editor {
 	margin: 20px 0;
     background: #fff;
@@ -1574,28 +1570,18 @@ API
 
 /* -------------------------------- 
 
-Community Slack
+Community
 
 -------------------------------- */
 
-.slack {
-	height: calc(100% - 110px);
-}
-
-.slack .navbar {
-	margin-bottom: 0;
-}
-
 .slack-wrapper, .slack-iframe {
 	width: 100%;
-	height: 100%;
+	height: 490px;
 }
-
-.slack .section {
-	padding: 0;
-
+twitterwidget {
+    box-shadow: 0 9px 27px rgba(50,50,93,.1);
+    border-radius: 9px;
 }
-
 
 /* -------------------------------- 
 
@@ -1687,6 +1673,23 @@ FAQ
 .panel-group .panel {
     border: 0;
     margin-bottom: 14px;
+}
+.panel-link:hover {
+	text-decoration: none;
+	border: 0;
+}
+.panel-card {
+	padding: 44px;
+	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+}
+.panel-link:hover .panel-card {
+	box-shadow: 0 4px 8px rgba(50,50,93,.1);
+}
+.panel-link:active .panel-card {
+	box-shadow: 0 1px 2px rgba(50,50,93,.1);
+}
+.panel-link p {
+	color: #333;
 }
 
 
