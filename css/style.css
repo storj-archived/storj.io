@@ -779,7 +779,7 @@ Developers
     border-radius: 9px;
     height: 260px;
     margin-top: 2.1em;
-	box-shadow: 0 2px 4px rgba(50,50,93,.1);
+	box-shadow: 0 9px 27px rgba(50,50,93,.1);
 }
 .terminal-content {
 	text-align: left;
@@ -822,8 +822,8 @@ Developers
 .editor {
 	margin: 20px 0;
     background: #fff;
-    border-radius: 2px;
-    box-shadow: 0 2px 4px rgba(50,50,93,.1);
+    border-radius: 9px;
+    box-shadow: 0 9px 27px rgba(50,50,93,.1);
 }
 pre {
 	border: 0;
@@ -1581,6 +1581,7 @@ Community
 twitterwidget {
     box-shadow: 0 9px 27px rgba(50,50,93,.1);
     border-radius: 9px;
+    margin: 0 auto;
 }
 
 /* -------------------------------- 
