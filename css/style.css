@@ -377,7 +377,7 @@ Inputs
 
 -------------------------------- */
 
-input, select {
+input, select, textarea {
 	display: block;
 	background: #fbfbfb;
 	border: 1px solid #eee;
@@ -393,7 +393,7 @@ input, select {
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
-input:focus, select:focus {
+input:focus, select:focus, textarea:focus {
     outline: 0;
     border-color: #2D86fb;
 }
@@ -1789,6 +1789,20 @@ Press
   opacity: 1;
 }
 
+
+/* -------------------------------- 
+
+Contact
+
+-------------------------------- */
+
+.contact textarea {
+	max-width: 100%;
+    margin-top: 0;
+}
+.contact .submit, .contact input {
+	max-width: 100%;
+}
 
 
 /* -------------------------------- 
