@@ -1581,6 +1581,13 @@ twitterwidget {
     border-radius: 9px;
     margin: 0 auto;
 }
+.typeform {
+	height: calc(100% - 108px);
+}
+.typeform-wrapper {
+	width: 100%;
+	height: 100%;
+}
 
 /* -------------------------------- 
 
