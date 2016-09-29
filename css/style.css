@@ -1923,6 +1923,7 @@ Media Queries
 @media (min-width: 767px) and (max-width: 991px) {
     .logo {
     	margin: 0;
+    	margin-right: 20px;
     }
 }
 
