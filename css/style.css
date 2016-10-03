@@ -1574,7 +1574,7 @@ Community
 
 .slack-wrapper, .slack-iframe {
 	width: 100%;
-	height: 420px;
+	height: 190px;
 }
 twitterwidget {
     box-shadow: 0 9px 27px rgba(50,50,93,.1);
@@ -2140,5 +2140,8 @@ Media Queries
 	}
 	.footer-logo p {
 	    display: block;
+	}
+	.slack-wrapper, .slack-iframe {
+	height: 230px;
 	}
 }
