@@ -168,6 +168,14 @@ Buttons
 	background: #FF6600;
 }
 
+.btn-purple {
+	background: #7056bf;
+	color: #fff;
+}
+.btn-purple:hover, .btn-purple:focus {
+	background: #7016bf;
+}
+
 .btn-red {
 	background: transparent;
 	border-color: #fa6e50;
