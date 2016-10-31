@@ -46,7 +46,7 @@
   <body class="page faq">
 
   <section>
-    <nav class="navbar navbar-page navbar-default menu">
+    <nav class="navbar navbar-page navbar-default navbar-heroku menu">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -172,6 +172,13 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://s3.amazonaws.com/assets.heroku.com/boomerang/boomerang.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      Boomerang.init({app: 'foo', addon: 'bar'});
+    });
+  </script>
 
   <script src="js/jquery-2.1.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
