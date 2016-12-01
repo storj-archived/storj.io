@@ -1328,6 +1328,21 @@ Video
 	height: 100%;
 }
 
+.video-thumbnail {
+	background: url('../img/video-thumbnail.png') no-repeat center;
+	background-size: 100%;
+	cursor:pointer;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	-webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.video-thumbnail:hover {
+	border-color: #2683ff;
+	background-size: 110%;
+}
 
 /* --------------------------------
 
