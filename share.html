@@ -148,9 +148,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-push-2">
-          <div class='storj-video storj-video-container video-thumbnail' onclick="play();" id="vidwrap">
-          </div>
-          <script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = '<iframe src="https://www.youtube.com/embed/-eTinrwIl4Y?autoplay=1&rel=0&showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';}</script>
+          <div class='storj-video storj-video-container video-thumbnail' id="vidwrap"></div>
         </div>
       </div>
     </div>
@@ -357,6 +355,29 @@
       }
 
       buildLatestReleases();
+
+
+      // Storj Share how-to video
+
+      function play(){
+        // Check the OS
+        var os = $.pgwBrowser().os.group;
+        // Set video based on OS
+          if (os == "Windows") {
+            document.getElementById('vidwrap').innerHTML = '<iframe src="https://www.youtube.com/embed/-eTinrwIl4Y?autoplay=1&rel=0&showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+          } else if (os == "Mac OS") {
+            document.getElementById('vidwrap').innerHTML = '<iframe src="https://www.youtube.com/embed/9Rp-VFvqjvw?autoplay=1&rel=0&showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+          } else if (os == "Linux") {
+            document.getElementById('vidwrap').innerHTML = '<iframe src="https://www.youtube.com/embed/9Rp-VFvqjvw?autoplay=1&rel=0&showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+          } else {
+            document.getElementById('vidwrap').innerHTML = '<iframe src="https://www.youtube.com/embed/-eTinrwIl4Y?autoplay=1&rel=0&showinfo=0" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>';
+          };
+      }
+
+      $("#vidwrap").on('click', function(event) {
+        event.preventDefault();
+        play();
+      });
 
     });
   </script>
