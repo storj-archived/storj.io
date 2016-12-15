@@ -1837,10 +1837,30 @@ Contact
 
 /* --------------------------------
 
-Media Queries
+News
 
 -------------------------------- */
 
+.news {
+	background: #fff;
+}
+.news-content {
+	padding-top: 0.2em;
+	padding-bottom: 1em;
+}
+.news-content h3 {
+	color: #111;
+}
+.news-content h4 {
+	color: #777;
+}
+
+
+/* --------------------------------
+
+Media Queries
+
+-------------------------------- */
 
 
 @media (min-width: 1200px) {
