@@ -346,6 +346,11 @@ jQuery(document).ready(function($){
 
 	$('[data-toggle="tooltip"]').tooltip(); 
 
+	// News counter
+	jQuery("time.timeago").timeago();
+	$.timeago.settings.allowFuture = true;
+    $(".hangout-counter").timeago();
+
 	// Terminal animation
 	var typeWriting = new TypeWriting({
 	    targetElement   : document.getElementsByClassName('terminal-type-login')[0],
