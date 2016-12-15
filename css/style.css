@@ -1842,17 +1842,15 @@ News
 -------------------------------- */
 
 .news {
-	background: #fff;
+	background: #000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .news-content {
-	padding-top: 0.2em;
-	padding-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
 }
-.news-content h3 {
-	color: #111;
-}
-.news-content h4 {
-	color: #777;
+.news p {
+	color: #fff;
 }
 
 
