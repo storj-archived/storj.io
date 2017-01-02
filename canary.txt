@@ -22,29 +22,30 @@ Special note should be taken if these messages ever cease being updated, or are 
 The current message is here:
 
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
-As of 12/1/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 1/2/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - In a race to the finish, Obama presses ahead with ambitious rules
-- - Trump picks would form the wealthiest administration in modern American history
-- - President-elect's nominees map plan for tax cuts, trade and Carrier-style negotiations
-- - She says she was harassed at TSA. Now she protests outside the agency for hours.
-- - Let God handle it: Villagers pick and choose which of their children to save
------BEGIN PGP SIGNATURE-----
-Version: Mailvelope v1.5.2
-Comment: https://www.mailvelope.com
+- - GOP Congress maps plans for sweeping conservative agenda
+- - Trump’s doubts about cybersecurity alarm experts
+- - At least 60 inmates killed in prison riot in northern Brazil
+- - Trump’s chief of staff faces daunting task of bringing order to White House
+- - lslamic State says it carried out deadly New Year’s Eve attack at nightclub in Istanbul
 
-wsBcBAEBCAAQBQJYQGZqCRDA5Ck6vGbuXAAAgRYIAJMOAJyu9aTi28r+No/T
-lQNn1Vhfeo5HF7pHQu7IVEnsCpqATP0o6eIvGEFPawkqpJ/XXEEdFq+9mYvS
-NEC6dYf/Ji4jLLH6R6xXrZfl1KJGD2e4cjpLTUJ0xbliRtvFhreMxDLoGiOM
-loWVJCkgWFgyvLSfY+fEioEfHYuxRARmhD29HodhDRlYjgDrR9IsyLdaijUX
-+zZsdhs69wqClGBlNyoz2DuQwcU1Dp0R8CY/DniIWLqrwJeDD8LFu0d6zMTI
-NlorUrRrxwHPXPPzSXpfNr6RkGGrNm3URe1pXyqf8LCslQFCRTd+rCOIRWxx
-GuBa+nkXHc701tPv7ALp7zY=
-=pEFc
+Note that the signing key has been changed. You may visit https://keybase.io/super3 for proof that the key is valid. We plan to add other parties to the canary in the future for better authenticity. 
+-----BEGIN PGP SIGNATURE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+wsBcBAABCgAGBQJYanzdAAoJEPQrujgXjffwFV4IALW1mdLxwVH5fu1LBVn8S+E0
+QS2trUi2Jdh90kmrz/iCtcmIQ/IKLjrm1OO0Sa1tD+nLiCdWhhgrzQBUE5GTeMvp
+ktgrYOJ44dtHOhjLqfBUfVzI3dSAQ7UngAYxzWFercMr8TDMLZNE8Eh5C2N4cex3
+hdLrbf5eFCVD6XuaWfqk8CFPAJVOMDAlZobN5cbD2hMfZ/Ev6hVFly9HVNqfmLot
+RufZCjsskMtXTgMNqDcJttXjzUeC6QkxeoYuClw5oQ52c95eXwnqRPoGiKb0Wm6Y
+e8CUO1msKqUqYPExfO7iBYY8+ZqYDSlMQj/Ei+QEV19tqBI26rZ3nDkuH51jA5g=
+=9EoT
 -----END PGP SIGNATURE-----
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
