@@ -1,26 +1,3 @@
-Storj Labs Inc. Warrant Canary
-
-Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide for secret warrants,
-searches and seizures of data, such as library records.
-
-Some such laws provide for criminal penalties for revealing the warrant, search or seizure, disallowing the
-disclosure of events that would materially affect the users of a service such as Storj Labs Inc.
-
-Storj Labs Inc. and its principals and employees will in fact comply with such warrants and their provisions
-for secrecy.
-
-Storj Labs Inc. will also make available, monthly, a "warrant canary" in the form of a cryptographically signed
-message containing the following:
-
-- a declaration that, up to that point, no warrants have been served, nor have any searches or seizures
-  taken place
-
-- a cut and paste headline from a major news source, establishing date
-
-Special note should be taken if these messages ever cease being updated, or are removed from this page.
-
-The current message is here:
-
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
@@ -34,22 +11,18 @@ As of 1/2/2016, Storj Labs Inc. has never received a National Security Letter, a
 - - Trump’s chief of staff faces daunting task of bringing order to White House
 - - lslamic State says it carried out deadly New Year’s Eve attack at nightclub in Istanbul
 
-Note that the signing key has been changed. You may visit https://keybase.io/super3 for proof that the key is valid. We plan to add other parties to the canary in the future for better authenticity. 
+Note that the signing key has been changed. You may visit https://keybase.io/super3
+ for proof that the key is valid. We plan to add other parties to the canary in the future
+ for better authenticity. 
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.0.61
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJYanzdAAoJEPQrujgXjffwFV4IALW1mdLxwVH5fu1LBVn8S+E0
-QS2trUi2Jdh90kmrz/iCtcmIQ/IKLjrm1OO0Sa1tD+nLiCdWhhgrzQBUE5GTeMvp
-ktgrYOJ44dtHOhjLqfBUfVzI3dSAQ7UngAYxzWFercMr8TDMLZNE8Eh5C2N4cex3
-hdLrbf5eFCVD6XuaWfqk8CFPAJVOMDAlZobN5cbD2hMfZ/Ev6hVFly9HVNqfmLot
-RufZCjsskMtXTgMNqDcJttXjzUeC6QkxeoYuClw5oQ52c95eXwnqRPoGiKb0Wm6Y
-e8CUO1msKqUqYPExfO7iBYY8+ZqYDSlMQj/Ei+QEV19tqBI26rZ3nDkuH51jA5g=
-=9EoT
+wsBcBAABCgAGBQJYan1KAAoJEPQrujgXjffwdGQIAIRV1/HASTunXPehrRQidcg0
+WY/2GVzLcyO+QElwq6v/gSzXZUZBr0rxmyyQiPNo7KSXxfEuiqmesRJGA1G9XdAd
+AwHLA4HtDECF3QmqTVTq51Vcc++ycFUlBJ1uWPw2B7H02SC0rYmyJjqvPu41GFeu
+TsSYDOdGTdLRNKnV6N573+Kqi14eS7RX586bdnvxPP/2aPFpU/pk6rPZqaE+CTLf
+GOQ1KBtEgdAYcK7l0QnY2MGns8baj+0dT/2HR8CY8zvM9vP6LJ2tmyGFk7Y67cPU
+FO4I6n0FnBrXFCMj7ek4Q/ou0AwW1t5JapbrX9Y/x/etKG+UrWPKbr3ojjN+ngY=
+=A1Qu
 -----END PGP SIGNATURE-----
-
-This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
-arbitrary declarations, it does not prevent them from using force to coerce Storj Labs Inc. to produce false
-declarations. The news clip in the signed message serves to demonstrate that that update could not have been
-created prior to that date.  It shows that a series of these updates were not created in advance and posted
-on this page.
