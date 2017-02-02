@@ -24,7 +24,7 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 2/1/2016, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 2/1/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
@@ -37,13 +37,13 @@ As of 2/1/2016, Storj Labs Inc. has never received a National Security Letter, a
 Version: Keybase OpenPGP v2.0.62
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJYkgEMAAoJEPQrujgXjffwBrUIAJp9UhiAtVSiDSZnhPgYPNdb
-FRXv/jA+s7EfXfWee/p85jLlU/ZH3Rlc8NXdQNO+dZa7atswihMhMoiiuKAxYMy6
-xKFRflwxAMnYsiBVnBO2Q0yNrcMsI46YXVXHXdZvINHjxwCHz6tyaeja0e6IUXak
-QpT0MGy5sdSPe5aAoUiQy2RNfgXYASd6LOx+HztY/15YVomaRsrQF+y7xI0fTYjf
-ykMNTTFNeDofWYD9akoLYR7fOTief8JwjUx5k7pjnAP4WleOzn8g2iiZ0EeB+pPC
-WAdLakW1L/e/SHL0Xl/Wt442MwgkTPscYpNDLqwbtNtLiIKGNvbXn6iSvj5N0is=
-=3q5H
+wsBcBAABCgAGBQJYk5p9AAoJEPQrujgXjffwMr0H/iO8AqjldCNUfQRfcp4aQ4U3
+XMaNODOiZWPKqxuO2WttTP3O8O8Fj7b2kWrH87DUrc6FcDBrvhfBovUdwOXqJMH5
+aZagfAAERhnNeQL2lwPJBZdEKgHMk+liZRFI1Sh7+kNc9KYKkDTvqs/c4UEmCJAM
+hFFDFRfh6qOJf19OkCQ2q2JF0QJXuFAP8q9msWK8aSFcsPp0eoCCuZW6jR9X1ja8
+7fDcD+2EnGEXBII5DkwGa4Y9wlkVzP2iDo1HZlUKVng1kpCmKwtBRWXMMG3yw5Ml
+QNXSH8jbSQuQ7zI/vgDybQldlj/abh8KSkxfWkctNEj+KiYAx0W8kuWQUIKSv6A=
+=Hmnp
 -----END PGP SIGNATURE-----
 
 
