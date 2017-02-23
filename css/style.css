@@ -1132,7 +1132,6 @@ Pricing
 }
 
 .compare {
-	background: #fff;
 	border: 0;
 }
 .compare-table {
@@ -1150,8 +1149,10 @@ Pricing
 	border-bottom: 2px solid #f2f2f2;
 }
 .compare-storj {
-    border: 2px solid #2683ff;
     border-radius: 10px;
+    background: #fff;
+    border: 0;
+    box-shadow: 0 9px 27px rgba(50,50,93,.1);
 }
 .compare-storj .compare-logo {
 	max-width: 184px;
@@ -1166,7 +1167,7 @@ Pricing
     line-height: 2em;
     font-size: 34px;
     font-family: 'Avenir Next LT W01 Bold';
-    color: #003366;
+    color: #999;
 }
 .compare-pricing span {
     font-size: 18px;
