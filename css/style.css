@@ -1245,9 +1245,6 @@ Quotes
 .slick-slider {
 	margin-bottom: 0 !important;
 }
-// .slider-for blockquote {
-// 	border-left: 0;
-// }
 .slick-slide {
 	cursor: move;
 	opacity: 0.5;
@@ -1258,14 +1255,17 @@ Quotes
 .slick-slide:focus {
     outline: 0;
 }
-// .slider-for .slick-slide {
-// 	cursor: text;
-// }
 .slick-prev:before, .slick-next:before {
     color: #2683ff !important;
 }
 .slick-slide p {
 	line-height: 1.5;
+}
+blockquote {
+	background: #fff;
+	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	border-radius: 5px;
+	border: 0;
 }
 
 
@@ -1275,23 +1275,16 @@ C2A
 
 -------------------------------- */
 
-.c2a {
-	background-color: #144EBC;
-	background: url("../img/bg.jpg") center center no-repeat;
-	background-size: cover;
-}
 .c2a-wrapper {
-	padding: 6em 0;
+	padding: 4em 0 5em;
 }
 .c2a h1 {
-	font-size: 48px;
+	font-size: 42px;
 	margin-bottom: 0.5em;
-	color: #fff;
 }
 .c2a p {
 	margin-bottom: 2em;
 	font-size: 18px;
-	color: #fff;
 }
 
 
@@ -1356,9 +1349,6 @@ footer {
 	background: url("../img/bg.jpg") center top no-repeat;
 	background-size: cover;
 	text-align: left;
-}
-.home footer {
-	background: rgba(5, 21, 37, 0.91);
 }
 .footer-logo:hover, .footer-logo:focus {
 	text-decoration: none;
@@ -2058,9 +2048,6 @@ Media Queries
 	.team-member {
     	padding: 30px 8px;
   	}
-  	.c2a {
-		background: url("../img/bg.jpg") center bottom no-repeat;
-	}
 	footer .address address {
 	    color: #fff;
 	}
