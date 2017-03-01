@@ -24,26 +24,26 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 2/1/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 3/1/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Supreme Court nominee Neil Gorsuch seen as similar to Scalia
-- - Colorado federal appeals court judge is favorite of conservative legal establishment
-- - It’s still Justice Kennedy’s court — but for how long?
-- - How Trump kept Gorsuch’s nomination a secret
-- - Gorsuch wrote the book on assisted suicide. Here’s what he said.
+- - Trump seeks to build on momentum from speech that invigorated GOP
+- - President wins high marks from Republicans for agenda, tone
+- - White House eyes plan to cut EPA staff by one-fifth, eliminate key programs
+- - Newly discovered 3.77-billion-year-old fossils could be earliest evidence of life on Earth
+- - ‘I must fundamentally change and grow up’: Uber CEO Travis Kalanick’s big apology
 -----BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.0.62
+Version: Keybase OpenPGP v2.0.64
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJYk5p9AAoJEPQrujgXjffwMr0H/iO8AqjldCNUfQRfcp4aQ4U3
-XMaNODOiZWPKqxuO2WttTP3O8O8Fj7b2kWrH87DUrc6FcDBrvhfBovUdwOXqJMH5
-aZagfAAERhnNeQL2lwPJBZdEKgHMk+liZRFI1Sh7+kNc9KYKkDTvqs/c4UEmCJAM
-hFFDFRfh6qOJf19OkCQ2q2JF0QJXuFAP8q9msWK8aSFcsPp0eoCCuZW6jR9X1ja8
-7fDcD+2EnGEXBII5DkwGa4Y9wlkVzP2iDo1HZlUKVng1kpCmKwtBRWXMMG3yw5Ml
-QNXSH8jbSQuQ7zI/vgDybQldlj/abh8KSkxfWkctNEj+KiYAx0W8kuWQUIKSv6A=
-=Hmnp
+wsBcBAABCgAGBQJYty4hAAoJEPQrujgXjffwK1QIAMuJ+vMj2Ol8yxM8KnJCrRxU
+fwpHH7A/11J8aUPYczpgIT4D+tgnqiJsSkpSFiuDWwWA6Xyirv1MOQFi3+4gAga0
+if2BrsBAGW8gwAgwJgeTtzfGoMW8zXIuSDL5EuwlKM2D0FwdLRge3r+uB+SCmhjg
+HBoyaf4NsFtshEtQxNnxlCn2X4jWGLsBOq1rHvL6f6Wb7+lQgYF1+64DAneIWOZc
+lENmFVdJqK8njThaFa3KKf5SS/Go7T7mw5gFxQHv/NSyreVHvic6yG/nlvHehqar
+dlWgJe2pK88wxv7EGOFxixx5hG1pTcgkBurxMOZPttgd7KIyxB2dfPUoBrzOeqI=
+=pr4J
 -----END PGP SIGNATURE-----
 
 
