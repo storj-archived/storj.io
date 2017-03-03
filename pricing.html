@@ -413,6 +413,14 @@
     jQuery(document).ready(function($){
       $('[data-toggle="tooltip"]').tooltip();
 
+      // FAQ Links
+      $('.panel-heading').on('click', function() {
+        var hash = $(this).attr('id');
+        var scr = document.body.scrollTop;
+        location.hash = hash;
+        document.body.scrollTop = scr;
+      });
+
       // Storj Pricing Calculator
       var calculatorInput = $('.calculator-input');
       var calculatorStorage = $('#calculatorStorage');
