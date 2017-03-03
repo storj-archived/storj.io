@@ -965,105 +965,94 @@ Calculator
 -------------------------------- */
 
 .calculator-section {
-	padding-bottom: 0;
+  padding-top: 0;
 }
-.calculator input,
-.calculator select {
+.calculator.form-group {
+  padding: 2em 4em 2.5em;
+  background: #fff;
+  margin: 2em 0;
+  border-radius: 8px;
+  box-shadow: 0 9px 27px rgba(50,50,93,.1);
+}
+.calculator input {
   display: inline-block;
-  width: auto;
   border: 1px solid #E4E4E4;
   border-radius: 3px;
   margin: 0;
   max-width: 100%;
 }
-
+.calculator-select {
+  background: none;
+  border: 0;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  cursor: pointer;
+  font-size: 28px;
+  color: #555;
+}
+.calculator-unit {
+  padding: 0;
+}
 .calculator .input-group {
   margin: 9px 0;
   width: 100%;
 }
-
 .calculator .lead {
   line-height: 36px;
+  margin-bottom: 0;
+  padding-top: 0.5em;
+  font-size: 19px;
 }
-
+.calculator .btn-signup {
+  max-width: 100%;
+}
 .calculator .input-group-addon:last-child {
   width: 100px;
-  color: #333;
+  color: #555;
   background: #f9f9f9;
-  padding-left: 14px;
   border: 1px solid #E4E4E4;
   border-radius: 3px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-left: 0;
   text-align: left;
+  font-size: 28px;
+  font-family: 'Avenir Next LT W01 Bold';
 }
-
 .calculator .input-group-addon:first-child {
-  background: #f9f9f9;
+  background: #fff;
   border: 1px solid #E4E4E4;
   border-radius: 3px;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
   border-right: 0;
+  font-size: 28px;
+  font-family: 'Avenir Next LT W01 Bold';
+  color: #88C425;
 }
-
 .promise {
   color: #aaa;
   font-size: 11px;
 }
-
-.calculator.form-group {
-    padding: 3em;
-    background: #fff;
-    border: 2px solid #eee;
-    margin: 2em 0;
-    border-radius: 5px;
-    box-shadow: 0 10px 20px #eee;
+input.calculator-price {
+  font-family: 'Avenir Next LT W01 Bold';
+  color: #88C425;
+  font-size: 28px;
+  background: #fff !important;
+  height: 60px;
+  box-shadow: none;
 }
-
-.calculator-intro .nav-tabs {
-    margin-top: 2.5em;
-    border-bottom: 0;
-    text-align: center;
+input.calculator-price:focus {
+  border: 1px solid #ddd;
+  box-shadow: none;
 }
-.calculator-intro .nav>li>a {
-    padding: 1em 2em;
-}
-.calculator-intro .nav>li>a:hover, .calculator .nav>li>a:focus {
-    background: #f9f9f9;
-    color: #2683ff;
-}
-.calculator-intro .nav-tabs>li.active>a, .calculator .nav-tabs>li.active>a:hover, .calculator .nav-tabs>li.active>a:focus {
-    background-color: #fff;
-    color: #333;
-    z-index: 2;
-}
-.calculator-intro .nav {
-	padding-left: 2em;
-}
-.calculator-price {
-	font-family: 'Avenir Next LT W01 Bold';
-	background: #fff !important;
-}
-
-#calculatorInput {
-    font-size: 32px;
-    line-height: 52px;
-    height: 77px;
-    padding-left: 20px;
-    font-family: 'Avenir Next LT W01 Bold';
-}
-#calculatorUnit, .calculator .dropdown-toggle  {
-    font-family: 'Avenir Next LT W01 Bold';
-    background: none;
-    border: 0;
-    font-size: 32px;
-    color: #555;
-    outline: 0;
-}
-.calculator .btn-group.open .dropdown-toggle {
-    box-shadow: none;
+.calculator-storage, .calculator-bandwidth {
+  font-size: 28px;
+  height: 60px;
+  padding-left: 20px;
+  font-family: 'Avenir Next LT W01 Bold';
 }
 
 

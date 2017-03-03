@@ -121,7 +121,7 @@
     </div>
   </section>
 
-    <section class="section grey compare">
+  <section class="section grey compare">
     <div class="container">
       <div class="row text-center">
         <div class="col-xs-10 col-xs-push-1">
@@ -162,6 +162,65 @@
           <a href="https://app.storj.io/#/signup" class="btn btn-lg btn-signup">Sign Up Now</a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section calculator-section">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 text-center calculator-intro">
+          <img src="img/icon-calculator.svg" alt="" class="icon-storjshare">
+          <h1>Pricing Calculator</h1>
+          <p>You can estimate your monthly bill using the Storj monthly calculator.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-push-2 col-xs-12 text-center calculator form-group">
+          <div id="calc-simple" class="text-left">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6">
+                <p class="lead">Storage</p>
+                <div class="input-group">
+                  <input class="form-control calculator-value calculator-input calculator-storage" type="number" min="0" value="10" id="calculatorStorage">
+                  <div class="input-group-addon calculator-unit">
+                    <select name="" id="" class="calculator-select">
+                      <option value="GB">GB</option>
+                      <option value="TB">TB</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6">
+                <p class="lead">Bandwidth</p>
+                <div class="input-group">
+                  <input class="form-control calculator-value calculator-input calculator-bandwidth" type="number" min="0" value="30" id="calculatorBandwidth">
+                  <div class="input-group-addon calculator-unit">
+                    <select name="" id="" class="calculator-select">
+                      <option value="GB">GB</option>
+                      <option value="TB">TB</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="spacer10"></div>
+                <p class="lead">Price per month</p>
+                <div class="input-group">
+                  <div class="input-group-addon">$</div>
+                  <input class="form-control calculator-value calculator-price" type="number" min="0" value="1.65" id="month" readonly>
+                </div>
+                <div class="spacer25"></div>
+              </div>
+            </div>
+            <div class="row text-center">
+              <div class="col-xs-12">
+                <a href="https://app.storj.io/#/signup" class="btn btn-lg btn-green btn-signup">Sign Up Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </section>
 
@@ -236,6 +295,33 @@
   <script>
     jQuery(document).ready(function($){
       $('[data-toggle="tooltip"]').tooltip();
+
+      // Storj Pricing Calculator
+      var calculatorInput = $('.calculator-input');
+      var calculatorStorage = $('#calculatorStorage');
+      var calculatorBandwidth = $('#calculatorBandwidth');
+      var calculatorSelect = $('.calculator-select');
+
+      calculatorInput.bind("keyup change click", function() {
+        if (calculatorSelect.val() === "TB") {  
+          var calculatorStorageVal = calculatorStorage.val();
+          var calculatorBandwidthVal = calculatorBandwidth.val();
+          var month = (calculatorStorageVal*15+calculatorBandwidthVal*50).toFixed(2);
+          $("#month").val(month);
+        }
+        else if (calculatorSelect.val() === "GB") {
+          var calculatorStorageVal = calculatorStorage.val();
+          var calculatorBandwidthVal = calculatorBandwidth.val();
+          var month = (calculatorStorageVal*0.015+calculatorBandwidthVal*0.05).toFixed(2);
+          $("#month").val(month);
+        }
+      });
+
+      calculatorSelect.change(function () {
+          calculatorSelect.not(this).val(this.value);
+          calculatorInput.keyup();
+      });
+
     });
   </script>
 
