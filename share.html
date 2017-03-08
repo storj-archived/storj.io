@@ -417,6 +417,14 @@
         play();
       });
 
+      // FAQ Links
+      $('.panel-heading').on('click', function() {
+        var hash = $(this).attr('id');
+        var scr = document.body.scrollTop;
+        location.hash = hash;
+        document.body.scrollTop = scr;
+      });
+
     });
   </script>
 
