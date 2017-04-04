@@ -24,26 +24,26 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 3/1/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 4/4/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Trump seeks to build on momentum from speech that invigorated GOP
-- - President wins high marks from Republicans for agenda, tone
-- - White House eyes plan to cut EPA staff by one-fifth, eliminate key programs
-- - Newly discovered 3.77-billion-year-old fossils could be earliest evidence of life on Earth
-- - ‘I must fundamentally change and grow up’: Uber CEO Travis Kalanick’s big apology
+- - Blackwater founder held secret meeting to establish Trump-Putin back channel
+- - Ryan says rekindled health-care talks in 'conceptual stage'
+- - She voted illegally. But was the 8-year prison sentence fair?
+- - Suspected gas attack kills 58 in Syria as victims foam at the mouth, activists say
+- - 'It went off the rails almost immediately': How Trump’s messy transition led to a chaotic presidency
 -----BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.0.64
+Version: Keybase OpenPGP v2.0.68
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJYty4hAAoJEPQrujgXjffwK1QIAMuJ+vMj2Ol8yxM8KnJCrRxU
-fwpHH7A/11J8aUPYczpgIT4D+tgnqiJsSkpSFiuDWwWA6Xyirv1MOQFi3+4gAga0
-if2BrsBAGW8gwAgwJgeTtzfGoMW8zXIuSDL5EuwlKM2D0FwdLRge3r+uB+SCmhjg
-HBoyaf4NsFtshEtQxNnxlCn2X4jWGLsBOq1rHvL6f6Wb7+lQgYF1+64DAneIWOZc
-lENmFVdJqK8njThaFa3KKf5SS/Go7T7mw5gFxQHv/NSyreVHvic6yG/nlvHehqar
-dlWgJe2pK88wxv7EGOFxixx5hG1pTcgkBurxMOZPttgd7KIyxB2dfPUoBrzOeqI=
-=pr4J
+wsBcBAABCgAGBQJY48gsAAoJEPQrujgXjffw2HoIAJo5n5VKGLjXomrG19stkg4g
+i6LPuB0Avubv5uAP9mceQ8eMV9ZdOgr3xjxg9nQMmg6DqwCIpQJlT0Uw4b/n7S4Q
+/Jxls1KJDubeRtdML9LsyWaJamIjKySAfQqyqJxJoRRb2hpmx1P8owZwLJU2WxQc
+9A9MJEA/NPBTsJ2qys5TkA6rF3eXFGKhbWrHGSY3o/dUnuQRBZ6cSi+MJV2S+EVx
+tGNM724WKivxyWI3J8085hIuVa+wqB4t2L8CNAnEVCoBtP8GeOFJ6ixBn1yf14S+
+DD6y8EQ0BL9KRVLIJMbkctnhhPpm3U/4RVJLbFJpZKIwjlBsSQMSONxwVqzLt5c=
+=ZUNS
 -----END PGP SIGNATURE-----
 
 
