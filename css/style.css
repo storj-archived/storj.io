@@ -932,6 +932,10 @@ Storj Share
 
 .storjshare {
 	background: #2175e5;
+	background: -moz-radial-gradient(top, ellipse cover, #076caf 0%, #102166 50%);
+    background: -webkit-radial-gradient(top, ellipse cover, #076caf 0%, #102166 50%);
+    background: radial-gradient(at top, #076caf 0%, #102166 50%);
+    background-repeat: no-repeat;
 }
 .storjshare-intro h1 {
 	color: #fff;
