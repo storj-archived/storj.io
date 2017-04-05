@@ -1301,8 +1301,12 @@ Quotes
 .slick-prev:before, .slick-next:before {
     color: #2683ff !important;
 }
+.slick-prev, .slick-next {
+    z-index: 99;
+}
 .slick-slide p {
 	line-height: 1.5;
+	font-size: 16px;
 }
 blockquote {
 	background: #fff;
