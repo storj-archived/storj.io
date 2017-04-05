@@ -1181,7 +1181,7 @@ Pricing
 	height: 7em;
 	padding-left: 1em;
 	padding-right: 1em;
-	border-bottom: 2px solid #f2f2f2;
+	border-bottom: 1px solid #ddd;
 }
 .compare-storj {
     border-radius: 10px;
