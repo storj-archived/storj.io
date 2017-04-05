@@ -1279,10 +1279,11 @@ Quotes
 	padding: 4em 0;
 }
 .quote-image {
-	width: 110px;
-	height: 110px;
+	width: 134px;
+	height: 134px;
 	border-radius: 50%;
-	margin: 0 auto 1em;
+	margin: 0 auto 1.4em;
+	box-shadow: 0 9px 27px rgba(50,50,93,.1);
 }
 
 .slick-slider {
