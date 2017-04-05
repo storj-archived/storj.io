@@ -821,7 +821,7 @@ Developers
 	width: 100%;
 	max-width: 600px;
     margin: 0 auto;
-    background: #020202;
+    background: #fff;
     border-radius: 9px;
     height: 260px;
     margin-top: 2.1em;
@@ -836,7 +836,7 @@ Developers
     font-weight: bold;
     font-family: monospace;
     background: none;
-    color: #88C425;
+    color: #333;
 }
 .noselect {
 	-webkit-touch-callout: none;
@@ -848,7 +848,7 @@ Developers
 	cursor: default;
 }
 .terminal-content .noselect {
-	color: #88C425;
+	color: #333;
 }
 .contributor-profile {
 	width: 70px;
