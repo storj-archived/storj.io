@@ -2030,9 +2030,9 @@ Media Queries
 		height: auto;
 	}
 	.compare-storj .compare-logo {
-		height: 25px;
-		width: auto;
-		margin-top: 2.5em;
+		height: 62px;
+	    width: auto;
+	    margin-top: 1.5em;
 	}
 	.team-member {
     	padding: 30px 8px;
@@ -2137,9 +2137,9 @@ Media Queries
 		height: auto;
 	}
 	.compare-storj .compare-logo {
-		height: 22px;
-		width: auto;
-		margin-top: 2.6em;
+		height: 54px;
+	    width: auto;
+	    margin-top: 1.5em;
 	}
 	.team {
     	padding-top: 50px !important;
