@@ -257,22 +257,23 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2 text-center">
-          <a href="https://github.com/bookchin"><img src="https://avatars0.githubusercontent.com/u/1188875" alt="Gordon Hall" class="contributor-profile"></a>
-          <a href="https://github.com/boshevski"><img src="https://avatars3.githubusercontent.com/u/3217669" alt="Tome Boshevski" class="contributor-profile"></a>
-          <a href="https://github.com/bryanchriswhite"><img src="https://avatars3.githubusercontent.com/u/600733" alt="Bryan White" class="contributor-profile"></a>
-          <a href="https://github.com/barbaraliau"><img src="https://avatars2.githubusercontent.com/u/10275927" alt="Barbara Liau" class="contributor-profile"></a>
-          <a href="https://github.com/braydonf"><img src="https://avatars3.githubusercontent.com/u/544777" alt="Braydon Fuller" class="contributor-profile"></a>
-          <a href="https://github.com/retrohacker"><img src="https://avatars2.githubusercontent.com/u/1081565" alt="William Blankenship" class="contributor-profile"></a>
-          <a href="https://github.com/littleskunk"><img src="https://avatars2.githubusercontent.com/u/6333390" alt="Skunk" class="contributor-profile"></a>
-          <a href="https://github.com/frdwrd"><img src="https://avatars0.githubusercontent.com/u/10149425" alt="James Prestwich" class="contributor-profile"></a>
-          <a href="https://github.com/pgerbes1"><img src="https://avatars3.githubusercontent.com/u/7489221" alt="Patrick Gerbes" class="contributor-profile"></a>
-          <a href="https://github.com/super3"><img src="https://avatars2.githubusercontent.com/u/60975" alt="Shawn Wilkinson" class="contributor-profile"></a>
-          <a href="https://github.com/MrFancyMonocle"><img src="https://avatars0.githubusercontent.com/u/3792257" alt="Ryan Foran" class="contributor-profile"></a>
-          <a href="https://github.com/phutchins"><img src="https://avatars2.githubusercontent.com/u/1074345" alt="Philip Hutchins" class="contributor-profile"></a>
-          <a href="https://github.com/niahmiah"><img src="https://avatars3.githubusercontent.com/u/653102" alt="Ian Patton" class="contributor-profile"></a>
-          <a href="https://github.com/dylanlott"><img src="https://avatars2.githubusercontent.com/u/5915948" alt="Dylan Lott" class="contributor-profile"></a>
-          <a href="https://github.com/aleitner"><img src="https://avatars2.githubusercontent.com/u/7276007" alt="Alexander Leitner" class="contributor-profile"></a>
-          <a href="https://github.com/steenzout"><img src="https://avatars3.githubusercontent.com/u/571590" alt="Petro Salgado" class="contributor-profile"></a>
+          <div class="developers">
+            <a href="https://github.com/bookchin"><img src="https://avatars0.githubusercontent.com/u/1188875" alt="Gordon Hall" class="contributor-profile"></a>
+            <a href="https://github.com/boshevski"><img src="https://avatars3.githubusercontent.com/u/3217669" alt="Tome Boshevski" class="contributor-profile"></a>
+            <a href="https://github.com/bryanchriswhite"><img src="https://avatars3.githubusercontent.com/u/600733" alt="Bryan White" class="contributor-profile"></a>
+            <a href="https://github.com/barbaraliau"><img src="https://avatars2.githubusercontent.com/u/10275927" alt="Barbara Liau" class="contributor-profile"></a>
+            <a href="https://github.com/braydonf"><img src="https://avatars3.githubusercontent.com/u/544777" alt="Braydon Fuller" class="contributor-profile"></a>
+            <a href="https://github.com/retrohacker"><img src="https://avatars2.githubusercontent.com/u/1081565" alt="William Blankenship" class="contributor-profile"></a>
+            <a href="https://github.com/littleskunk"><img src="https://avatars2.githubusercontent.com/u/6333390" alt="Skunk" class="contributor-profile"></a>
+            <a href="https://github.com/frdwrd"><img src="https://avatars0.githubusercontent.com/u/10149425" alt="James Prestwich" class="contributor-profile"></a>
+            <a href="https://github.com/pgerbes1"><img src="https://avatars3.githubusercontent.com/u/7489221" alt="Patrick Gerbes" class="contributor-profile"></a>
+            <a href="https://github.com/super3"><img src="https://avatars2.githubusercontent.com/u/60975" alt="Shawn Wilkinson" class="contributor-profile"></a>
+            <a href="https://github.com/MrFancyMonocle"><img src="https://avatars0.githubusercontent.com/u/3792257" alt="Ryan Foran" class="contributor-profile"></a>
+            <a href="https://github.com/phutchins"><img src="https://avatars2.githubusercontent.com/u/1074345" alt="Philip Hutchins" class="contributor-profile"></a>
+            <a href="https://github.com/dylanlott"><img src="https://avatars2.githubusercontent.com/u/5915948" alt="Dylan Lott" class="contributor-profile"></a>
+            <a href="https://github.com/aleitner"><img src="https://avatars2.githubusercontent.com/u/7276007" alt="Alexander Leitner" class="contributor-profile"></a>
+            <a href="https://github.com/steenzout"><img src="https://avatars3.githubusercontent.com/u/571590" alt="Petro Salgado" class="contributor-profile"></a>
+          </div>
           <div class="spacer40"></div>
           <a href="community.html" class="btn">Join our Community</a>
         </div>
@@ -429,6 +430,11 @@
         var selText = $(this).text();
         $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
       });
+
+      var ul = document.querySelector('.developers');
+      for (var i = ul.children.length; i >= 0; i--) {
+          ul.appendChild(ul.children[Math.random() * i | 0]);
+      }
     });
   </script>
 
