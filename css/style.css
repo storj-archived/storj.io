@@ -965,9 +965,10 @@ Storj Share
 	 margin: 2em 0em 2em 5em;
 }
 .icon-storjshare {
-	height: 42px;
-	margin-bottom: 1em;
-	margin-top: 2em;
+	height: 62px;
+}
+.icon-storjshare-opensource {
+	height: 67px;
 }
 .label.beta {
     color: #fff;
@@ -1351,6 +1352,7 @@ Video
 .video-thumbnail {
 	background: url('../img/video-thumbnail.png') no-repeat center;
 	background-size: 100%;
+	background-color: #fff;
 	cursor:pointer;
 	border: 1px solid #ddd;
 	border-radius: 4px;
