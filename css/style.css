@@ -990,7 +990,8 @@ Exchanges
   margin: 30px 20px 20px;
   background: #fff;
   border-radius: 5px;
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
+  box-shadow: 0 9px 27px rgba(50,50,93,.1);
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
@@ -998,6 +999,7 @@ Exchanges
 }
 .exchange-logo:hover {
   border-color: #2683ff;
+  box-shadow: none;
 }
 
 
