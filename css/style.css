@@ -1972,10 +1972,7 @@ Media Queries
     .upload-gui {
     	margin-top: 1em;
     }
-    .navbar-page .navbar-brand {
-		margin-right: 0;
-	}
-	.navbar-nav>li>a {
+	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
     	padding: 40px 8px;
     	font-size: 14px;
 	}
