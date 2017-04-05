@@ -1950,7 +1950,7 @@ Media Queries
 		margin-right: 0;
 	}
 	.navbar-nav>li>a {
-    	padding: 40px 10px;
+    	padding: 40px 8px;
     	font-size: 14px;
 	}
 	.btn-menu {
@@ -1971,7 +1971,7 @@ Media Queries
 @media (min-width: 767px) and (max-width: 991px) {
     .logo {
     	margin: 0;
-    	margin-right: 20px;
+    	margin-right: 8px;
     }
 }
 
