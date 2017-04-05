@@ -61,7 +61,7 @@ body {
 	font-size: 1.6rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	background: #f2f4f6;
+	background: #fff;
 }
 b, strong {
 	font-weight: 800;
@@ -362,7 +362,7 @@ Navigation
 
 .navbar-page {
 	border: 0;
-	border-bottom: 2px solid #eee;
+	// border-bottom: 2px solid #eee;
 	border-radius: 0;
 	background: #fff;
 }
@@ -375,15 +375,17 @@ Navigation
 .navbar-page .navbar-nav>li>a:hover {
 	color: #2683ff;
 }
-.navbar-page .nav>li>a:hover, .navbar-page .nav>li>a:focus {
-    box-shadow: 0 2px #2683ff;
+.navbar-page .nav>li>a.link:hover, .navbar-page .nav>li>a.link:focus {
+    // box-shadow: 0 2px #2683ff;
+    text-decoration: underline;
 }
+.
 .navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
     color: #2683ff;
 }
 .navbar-page .navbar-nav>li>a.active {
 	color: #2683ff;
-	box-shadow: 0 2px #2683ff;
+	// box-shadow: 0 2px #2683ff;
 }
 .navbar-page .navbar-toggle {
 	margin-top: 34px;
@@ -812,6 +814,7 @@ Value Propositions
 .value-icon {
 	background: #fff;
 	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	border: 1px solid #eee;
 	padding: 2.7em 2em;
 	margin: 2em auto;
 	width: 150px;
@@ -835,6 +838,7 @@ Developers
     height: 260px;
     margin-top: 2.1em;
 	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	border: 1px solid #eee;
 }
 .terminal-content {
 	text-align: left;
@@ -879,6 +883,7 @@ Developers
     background: #fff;
     border-radius: 9px;
     box-shadow: 0 9px 27px rgba(50,50,93,.1);
+    border: 1px solid #eee;
 }
 pre {
 	border: 0;
@@ -995,7 +1000,7 @@ Exchanges
   margin: 30px 20px 20px;
   background: #fff;
   border-radius: 5px;
-  border: 1px solid #fff;
+  border: 1px solid #eee;
   box-shadow: 0 9px 27px rgba(50,50,93,.1);
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
@@ -1003,7 +1008,6 @@ Exchanges
   transition: all 200ms ease-in-out;
 }
 .exchange-logo:hover {
-  border-color: #2683ff;
   box-shadow: none;
 }
 
@@ -1023,6 +1027,7 @@ Calculator
   margin: 2em 0;
   border-radius: 8px;
   box-shadow: 0 9px 27px rgba(50,50,93,.1);
+  border: 1px solid #eee;
 }
 .calculator input {
   display: inline-block;
@@ -1118,6 +1123,7 @@ Pricing
 .plan {
 	background: #fff;
 	margin: 2em 0;
+	border: 1px solid #eee;
 	border-radius: 5px;
 	box-shadow: 0 9px 27px rgba(50,50,93,.1);
 }
@@ -1130,7 +1136,7 @@ Pricing
 	line-height: 4em;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	border-bottom: 2px solid #eee;
+	border-bottom: 1px solid #eee;
 	font-weight: 800;
 	color: #2683ff;
 }
@@ -1181,12 +1187,12 @@ Pricing
 	height: 7em;
 	padding-left: 1em;
 	padding-right: 1em;
-	border-bottom: 1px solid #ddd;
+	border-bottom: 1px dashed #eee;
 }
 .compare-storj {
     border-radius: 10px;
     background: #fff;
-    border: 0;
+    border: 1px solid #eee;
     box-shadow: 0 9px 27px rgba(50,50,93,.1);
 }
 .compare-storj .compare-logo {
@@ -1297,7 +1303,7 @@ blockquote {
 	background: #fff;
 	box-shadow: 0 9px 27px rgba(50,50,93,.1);
 	border-radius: 5px;
-	border: 0;
+	border: 1px solid #eee;
 }
 
 
@@ -1452,9 +1458,6 @@ Buckets
 
 -------------------------------- */
 
-body.page {
-	background: #f2f4f6;
-}
 .content {
 	border: 1px solid #eee;
     background: #fff;
@@ -1658,7 +1661,6 @@ TEAM
 	width: 70%;
 	max-width: 180px;
 	height: 70%;
-	box-shadow: 0 4px 10px #999;
 }
 .team-member-name {
 	height: 25px;
@@ -1684,6 +1686,7 @@ FAQ
 
 .panel {
 	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	border: 1px solid #eee;
 }
 .panel-title {
 	border-top-right-radius: 3px;
@@ -1725,8 +1728,10 @@ FAQ
     border-radius: 4px;
     padding: 0;
 }
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #eee;
+}
 .panel-group .panel {
-    border: 0;
     margin-bottom: 14px;
 }
 .panel-link:hover {
