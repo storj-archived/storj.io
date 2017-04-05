@@ -354,10 +354,11 @@ Navigation
 }
 
 .home .nav>li>a {
-	border-bottom: 2px transparent;
+	// border-bottom: 2px transparent;
 }
 .home .nav>li>a.link:hover, .home .nav>li>a.link:focus {
-    border-bottom: 2px solid #fff;
+    // border-bottom: 2px solid #fff;
+    text-decoration: underline;
 }
 
 .navbar-page {
