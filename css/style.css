@@ -61,6 +61,7 @@ body {
 	font-size: 1.6rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
+	background: #f2f4f6;
 }
 b, strong {
 	font-weight: 800;
@@ -1436,8 +1437,7 @@ Buckets
 -------------------------------- */
 
 body.page {
-	background: #f9f9f9;
-	// padding-bottom: 3em;
+	background: #f2f4f6;
 }
 .content {
 	border: 1px solid #eee;
