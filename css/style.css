@@ -1,3 +1,39 @@
+// Storj - The Future of Cloud Storage
+
+
+/* --------------------------------
+
+Fonts
+
+-------------------------------- */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/Montserrat-300/Montserrat-300.eot');
+  src: url('../fonts/Montserrat-300/Montserrat-300.eot?#iefix') format('embedded-opentype'),
+       local('Montserrat Light'),
+       local('Montserrat-300'),
+       url('../fonts/Montserrat-300/Montserrat-300.woff2') format('woff2'),
+       url('../fonts/Montserrat-300/Montserrat-300.woff') format('woff'),
+       url('../fonts/Montserrat-300/Montserrat-300.ttf') format('truetype'),
+       url('../fonts/Montserrat-300/Montserrat-300.svg#Montserrat') format('svg');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/Montserrat-800/Montserrat-800.eot');
+  src: url('../fonts/Montserrat-800/Montserrat-800.eot?#iefix') format('embedded-opentype'),
+       local('Montserrat ExtraBold'),
+       local('Montserrat-800'),
+       url('../fonts/Montserrat-800/Montserrat-800.woff2') format('woff2'),
+       url('../fonts/Montserrat-800/Montserrat-800.woff') format('woff'),
+       url('../fonts/Montserrat-800/Montserrat-800.ttf') format('truetype'),
+}
+
 
 /* --------------------------------
 
@@ -23,9 +59,12 @@ html {
 
 body {
 	font-size: 1.6rem;
-	font-family:'AvenirNextLTW01-Regular';
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
-
+b, strong {
+	font-weight: 800;
+}
 a {
 	text-decoration: none;
     -webkit-transition: all 0.15s ease-in-out;
@@ -55,7 +94,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Avenir Next LT W01 Bold';
+	font-weight: 800;
 	color: #2683FF;
 	margin-bottom: 0.6em;
 }
@@ -63,11 +102,8 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 1em;
 }
 p {
-	font-family: 'AvenirNextLTW01-Regular';
+	font-weight: 300;
 	line-height: 1.6em;
-}
-b {
-	font-family:'Avenir Next LT W01 Demi';
 }
 img {
 	-webkit-user-select: none;
@@ -84,7 +120,7 @@ img {
 	background: #fff;
 }
 .grey {
-	background: #f9f9f9;
+	background: #f2f4f6;
 }
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -113,7 +149,8 @@ Buttons
 -------------------------------- */
 
 .btn {
-	font-family: 'Avenir Next LT W01 Bold';
+	font-weight: 800;
+	text-transform: uppercase;
 	background: #2683FF;
 	color: #FFF;
 	padding: 14px 50px;
@@ -331,7 +368,7 @@ Navigation
 .navbar-page .navbar-nav>li>a {
 	padding: 40px 16px;
 	width: 100%;
-    color: #8492a6;
+    color: #333;
     border: 0;
 }
 .navbar-page .navbar-nav>li>a:hover {
@@ -344,7 +381,6 @@ Navigation
     color: #2683ff;
 }
 .navbar-page .navbar-nav>li>a.active {
-	font-family: 'Avenir Next LT W01 Demi';
 	color: #2683ff;
 	box-shadow: 0 2px #2683ff;
 }
@@ -529,7 +565,7 @@ Animated Headlines
 }
 .cd-headline.type b {
   visibility: hidden;
-  font-family: "Avenir Next LT W01 Bold";
+  font-weight: 800;
 }
 .cd-headline.type b.is-visible {
   visibility: visible;
@@ -653,7 +689,7 @@ canvas {
 	margin-bottom: 0.5em;
 }
 .page .lead {
-	color: #555;
+	color: #333;
 	margin-bottom: 1em;
 }
 .header-bg {
@@ -705,7 +741,6 @@ canvas {
 .notice {
 	color: #fff;
 	opacity: 0.4;
-	font-family: 'Avenir Next LT W01 Demi';
 }
 .home .btn {
 	position: relative;
@@ -764,7 +799,6 @@ Value Propositions
 	position: relative;
 }
 .value h4 {
-	font-family: 'Avenir Next LT W01 Bold';
 	margin-top: 1.2em;
 }
 .value p {
@@ -863,7 +897,7 @@ pre {
 	border-left: 4px solid #f2f2f2;
 }
 .nav-stacked li.active a {
-    font-weight: bold;
+    font-weight: 800;
     color: #2683ff;
     background: #fff;
     border-left-color: #2683ff;
@@ -990,6 +1024,7 @@ Calculator
   text-indent: 0;
   cursor: pointer;
   font-size: 28px;
+  font-weight: 800;
   color: #555;
 }
 .calculator-unit {
@@ -1019,7 +1054,6 @@ Calculator
   border-left: 0;
   text-align: left;
   font-size: 28px;
-  font-family: 'Avenir Next LT W01 Bold';
 }
 .calculator .input-group-addon:first-child {
   background: #fff;
@@ -1029,7 +1063,6 @@ Calculator
   border-bottom-right-radius: 0;
   border-right: 0;
   font-size: 28px;
-  font-family: 'Avenir Next LT W01 Bold';
   color: #88C425;
 }
 .promise {
@@ -1037,7 +1070,7 @@ Calculator
   font-size: 11px;
 }
 input.calculator-price {
-  font-family: 'Avenir Next LT W01 Bold';
+  font-weight: 800;
   color: #88C425;
   font-size: 28px;
   background: #fff !important;
@@ -1052,7 +1085,7 @@ input.calculator-price:focus {
   font-size: 28px;
   height: 60px;
   padding-left: 20px;
-  font-family: 'Avenir Next LT W01 Bold';
+  font-weight: 800;
 }
 
 
@@ -1082,7 +1115,7 @@ Pricing
 	text-transform: uppercase;
 	margin-bottom: 0;
 	border-bottom: 2px solid #eee;
-	font-family: 'Avenir Next LT W01 Bold';
+	font-weight: 800;
 	color: #2683ff;
 }
 .plan-pricing {
@@ -1090,7 +1123,7 @@ Pricing
     font-size: 42px;
     margin-top: 16px;
     padding-bottom: 42px;
-    font-family: 'Avenir Next LT W01 Bold';
+    font-weight: 800;
     color: #2683ff;
 }
 .plan-pricing {
@@ -1110,12 +1143,10 @@ Pricing
     color: #333;
 }
 .plan-currency {
-	font-family: 'Avenir Next LT W01 Demi';
 	font-size: 36px;
 	vertical-align: top;
 }
 .plan-feature-number, .plan-select-storage, .plan-select-transfer {
-	font-family: 'Avenir Next LT W01 Demi';
     margin-bottom: 1.5em;
 }
 
@@ -1154,7 +1185,7 @@ Pricing
     margin-top: 22px;
     line-height: 2em;
     font-size: 34px;
-    font-family: 'Avenir Next LT W01 Bold';
+    font-weight: 800;
     color: #999;
 }
 .compare-pricing span {
@@ -1201,15 +1232,11 @@ Upload Section
 .upload-text {
 	display: inline-block;
 }
-.upload h4 {
-    font-family: 'Avenir Next LT W01 Bold';
-}
 .upload-gui {
 	width: 100%;
 	max-width: 460px;
 	margin-bottom: 1em;
 }
-
 .upload-intro {
 	margin-bottom: 3em;
 }
@@ -1333,7 +1360,7 @@ Footer
 -------------------------------- */
 
 footer {
-	padding-top: 3em;
+	padding-top: 3.5em;
 	background: #0e2338;
 	background: url("../img/bg.jpg") center top no-repeat;
 	background-size: cover;
@@ -1345,10 +1372,10 @@ footer {
 .footer-logo {
 	display: block;
 	margin-bottom: 2px;
-    margin-top: 4px;
+    margin-top: 1px;
 }
 .footer-logo img {
-	width: 80px;
+	width: 90px;
 	display: block;
 }
 footer a {
@@ -1364,15 +1391,15 @@ footer p {
 	font-size: 14px;
     line-height: 28px;
     margin-bottom: 4px;
-    color: #003366;
+    color: #fff;
 }
 footer h5 {
     padding-bottom: 0.5em;
     margin-top: 1em;
-    font-family: 'Avenir Next LT W01 Bold';
+    color: #fff;
+    text-transform: uppercase;
 }
 footer .connect {
-	margin: 2em auto 1em;
 }
 footer .connect a {
 	padding-right: 1.2em;
@@ -1384,6 +1411,7 @@ footer .address {
 footer .address address {
 	margin: 0;
 	color: #525d69;
+	color: rgba(255,255,255,0.4);
 	font-size: 14px;
 }
 footer .list-unstyled {
@@ -1395,7 +1423,7 @@ footer .list-unstyled {
     width: 22px;
     margin-right: 0.6em;
     opacity: 1;
-    background: #2683ff;
+    background: #fff;
     border-radius: 3px;
     padding: 4px;
 }
@@ -1444,7 +1472,6 @@ th, td {
     border-top: 1px solid #eee;
 }
 .bucket-plan a {
-	font-family: 'Avenir Next LT W01 Demi';
 	text-decoration: none;
 }
 .bucket-icon {
@@ -1620,12 +1647,11 @@ TEAM
 .team-member-name {
 	height: 25px;
 	margin-bottom: 10px;
-	font-family: 'Avenir Next LT W01 Bold';
+	font-weight: 800;
 }
 .team-member-title {
   height: 40px;
   font-size: 15px;
-  color: #555;
 }
 
 .get-in-touch {
@@ -1646,7 +1672,7 @@ FAQ
 	background: #2683ff;
 	line-height: 32px;
 	margin-top: 0;
-	font-family: 'Avenir Next LT W01 Demi';
+	font-weight: 300;
 }
 .panel-title a {
   display: block;
@@ -1659,7 +1685,7 @@ FAQ
   background: #fff;
 }
 .panel-title a.collapsed {
-  color: #2683ff !important;
+  color: #333 !important;
 }
 .panel-body {
   padding: 20px 30px 15px;
@@ -1673,7 +1699,7 @@ FAQ
   margin-bottom: 10px;
 }
 .panel-body li p {
-  font-weight: bold;
+  font-weight: 800;
 }
 .panel-heading {
 	padding: 0;
@@ -1715,6 +1741,8 @@ Press
   line-height: 32px;
   font-size: 18px;
   border: 0;
+  font-weight: 300;
+  border-bottom: 1px solid;
 }
 .press-date {
   margin-top: 8px;
