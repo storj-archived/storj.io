@@ -795,7 +795,7 @@ Value Propositions
 -------------------------------- */
 
 .value {
-	padding: 1.5em 0;
+	padding: 4em 0 1em;
 	z-index: 3;
 	position: relative;
 }
@@ -807,8 +807,16 @@ Value Propositions
 	color: #003366;
 }
 .value img {
-	height: 52px;
-	margin-top: 1em;
+	height: 62px;
+}
+.value-icon {
+	background: #fff;
+	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	padding: 2.7em 2em;
+	margin: 2em auto;
+	width: 150px;
+	height: 150px;
+	border-radius: 75px;
 }
 
 
@@ -1957,12 +1965,6 @@ Media Queries
 		padding-left: 15px;
 		padding-right: 15px;
 	}
-	.value p {
-    	font-size: 15px;
-    }
-    .value h4 {
-    	font-size: 14px;
-    }
 	.team-member {
     	width: 50%;
 	}
