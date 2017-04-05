@@ -822,6 +822,10 @@ Value Propositions
 	height: 150px;
 	border-radius: 75px;
 }
+.icon-opensource {
+	height: 80px;
+	margin-top: -12px;
+}
 
 
 /* --------------------------------
