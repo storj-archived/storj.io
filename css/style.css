@@ -1075,8 +1075,7 @@ Pricing
 .plan-icon {
 	margin-top: 2em;
 	margin-bottom: 0.2em;
-	width: 52px;
-	height: 52px;
+	height: 62px;
 }
 .plan-title {
 	line-height: 4em;
@@ -1094,15 +1093,15 @@ Pricing
     font-family: 'Avenir Next LT W01 Bold';
     color: #2683ff;
 }
-.home .plan-pricing {
+.plan-pricing {
 	margin-top: 0;
 }
 .plan-pricing span {
 	display: block;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 0;
 	background: #fff;
-	color: #003366;
+	text-transform: uppercase;
 }
 
 .plan h4 {
