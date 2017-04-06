@@ -154,6 +154,7 @@ Buttons
 	text-transform: uppercase;
 	background: #2683FF;
 	color: #FFF;
+	font-size: 16px;
 	padding: 14px 50px;
 	border-radius: 4px;
 	z-index: 2;
@@ -1530,7 +1531,6 @@ th, td {
 }
 
 .page .btn-block {
-    font-size: 16px;
     margin: 0.5em auto;
     padding: 0.9em 0 0.8em;
 }
