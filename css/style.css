@@ -752,7 +752,7 @@ canvas {
 	position: relative;
 	z-index: 2;
 	max-width: 360px;
-    box-shadow: 0 9px 27px rgba(50,50,93,.1);
+    box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .home input {
 	max-width: 360px;
@@ -816,7 +816,7 @@ Value Propositions
 }
 .value-icon {
 	background: #fff;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 	padding: 2.7em 2em;
 	margin: 2em auto;
@@ -844,7 +844,7 @@ Developers
     border-radius: 9px;
     height: 260px;
     margin-top: 2.1em;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 }
 .terminal-content {
@@ -876,7 +876,7 @@ Developers
 	border-radius: 35px;
 	margin: 0.8em 0.4em;
 	display: inline-block;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.28);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .github-card {
 	margin: 2em auto;
@@ -889,7 +889,7 @@ Developers
 	margin: 20px 0;
     background: #fff;
     border-radius: 9px;
-    box-shadow: 0 9px 27px rgba(50,50,93,.1);
+    box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
     border: 1px solid #eee;
 }
 pre {
@@ -968,7 +968,7 @@ Storj Share
 }
 .storjshare-intro .btn-white {
 	padding: 24px 42px;
-	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	margin-bottom: 0.9em;
 }
 .storjshare-intro .btn:hover {
@@ -1008,7 +1008,7 @@ Exchanges
   background: #fff;
   border-radius: 5px;
   border: 1px solid #eee;
-  box-shadow: 0 9px 27px rgba(50,50,93,.1);
+  box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
   -o-transition: all 200ms ease-in-out;
@@ -1033,7 +1033,7 @@ Calculator
   background: #fff;
   margin: 2em 0;
   border-radius: 8px;
-  box-shadow: 0 9px 27px rgba(50,50,93,.1);
+  box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
   border: 1px solid #eee;
 }
 .calculator input {
@@ -1135,7 +1135,7 @@ Pricing
 	margin: 2em 0;
 	border: 1px solid #eee;
 	border-radius: 5px;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .plan-icon {
 	margin-top: 2em;
@@ -1203,7 +1203,7 @@ Pricing
     border-radius: 10px;
     background: #fff;
     border: 1px solid #eee;
-    box-shadow: 0 9px 27px rgba(50,50,93,.1);
+    box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .compare-storj .compare-logo {
 	max-width: 184px;
@@ -1288,7 +1288,7 @@ Quotes
 	height: 134px;
 	border-radius: 50%;
 	margin: 0 auto 1.4em;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 
 .slick-slider {
@@ -1316,7 +1316,7 @@ Quotes
 }
 blockquote {
 	background: #fff;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border-radius: 5px;
 	border: 1px solid #eee;
 }
@@ -1350,7 +1350,7 @@ Video
 .storj-video {
 	margin-top: 15px;
 	padding: 0;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 
 .storj-video-wrapper {
@@ -1640,7 +1640,7 @@ Community
 
 .newsletter {
 	padding: 24px;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 	border-radius: 10px;
 	background: repeating-linear-gradient(135deg, #F29B91 0px, #F09290 30px, transparent 30px, transparent 50px, #83B3DB 50px, #84ADCB 80px, transparent 80px, transparent 100px)
@@ -1650,7 +1650,7 @@ Community
 	padding: 48px 32px 42px;
 }
 twitterwidget {
-    box-shadow: 0 9px 27px rgba(50,50,93,.1);
+    box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
     border-radius: 9px;
     margin: 0 auto;
 }
@@ -1686,6 +1686,7 @@ TEAM
 	width: 70%;
 	max-width: 180px;
 	height: 70%;
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .team-member-name {
 	height: 25px;
@@ -1710,7 +1711,7 @@ FAQ
 -------------------------------- */
 
 .panel {
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 }
 .panel-title {
@@ -1765,13 +1766,13 @@ FAQ
 }
 .panel-card {
 	padding: 44px;
-	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .panel-link:hover .panel-card {
-	box-shadow: 0 4px 8px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .panel-link:active .panel-card {
-	box-shadow: 0 1px 2px rgba(50,50,93,.1);
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .panel-link p {
 	color: #333;
