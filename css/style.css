@@ -1966,6 +1966,9 @@ Media Queries
     	margin-left: 0;
     	margin-right: -4em;
   	}
+  	.panel-card {
+  		padding: 44px 22px;
+  	}
 }
 
 @media (max-width: 991px) {
