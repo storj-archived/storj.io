@@ -7,32 +7,34 @@ Fonts
 
 -------------------------------- */
 
-@font-face {
-  font-family: 'Montserrat';
-  font-weight: 300;
-  font-style: normal;
-  src: url('../fonts/Montserrat-300/Montserrat-300.eot');
-  src: url('../fonts/Montserrat-300/Montserrat-300.eot?#iefix') format('embedded-opentype'),
-       local('Montserrat Light'),
-       local('Montserrat-300'),
-       url('../fonts/Montserrat-300/Montserrat-300.woff2') format('woff2'),
-       url('../fonts/Montserrat-300/Montserrat-300.woff') format('woff'),
-       url('../fonts/Montserrat-300/Montserrat-300.ttf') format('truetype'),
-       url('../fonts/Montserrat-300/Montserrat-300.svg#Montserrat') format('svg');
-}
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-weight: 300;
+//   font-style: normal;
+//   src: url('../fonts/Montserrat-300/Montserrat-300.eot');
+//   src: url('../fonts/Montserrat-300/Montserrat-300.eot?#iefix') format('embedded-opentype'),
+//        local('Montserrat Light'),
+//        local('Montserrat-300'),
+//        url('../fonts/Montserrat-300/Montserrat-300.woff2') format('woff2'),
+//        url('../fonts/Montserrat-300/Montserrat-300.woff') format('woff'),
+//        url('../fonts/Montserrat-300/Montserrat-300.ttf') format('truetype'),
+//        url('../fonts/Montserrat-300/Montserrat-300.svg#Montserrat') format('svg');
+// }
 
-@font-face {
-  font-family: 'Montserrat';
-  font-weight: 800;
-  font-style: normal;
-  src: url('../fonts/Montserrat-800/Montserrat-800.eot');
-  src: url('../fonts/Montserrat-800/Montserrat-800.eot?#iefix') format('embedded-opentype'),
-       local('Montserrat ExtraBold'),
-       local('Montserrat-800'),
-       url('../fonts/Montserrat-800/Montserrat-800.woff2') format('woff2'),
-       url('../fonts/Montserrat-800/Montserrat-800.woff') format('woff'),
-       url('../fonts/Montserrat-800/Montserrat-800.ttf') format('truetype'),
-}
+// @font-face {
+//   font-family: 'Montserrat';
+//   font-weight: 800;
+//   font-style: normal;
+//   src: url('../fonts/Montserrat-800/Montserrat-800.eot');
+//   src: url('../fonts/Montserrat-800/Montserrat-800.eot?#iefix') format('embedded-opentype'),
+//        local('Montserrat ExtraBold'),
+//        local('Montserrat-800'),
+//        url('../fonts/Montserrat-800/Montserrat-800.woff2') format('woff2'),
+//        url('../fonts/Montserrat-800/Montserrat-800.woff') format('woff'),
+//        url('../fonts/Montserrat-800/Montserrat-800.ttf') format('truetype'),
+// }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,800');
 
 
 /* --------------------------------
