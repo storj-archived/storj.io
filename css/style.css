@@ -799,7 +799,7 @@ Value Propositions
 -------------------------------- */
 
 .value {
-	padding: 4em 0 1em;
+	padding: 4em 0 2em;
 	z-index: 3;
 	position: relative;
 }
@@ -1122,7 +1122,9 @@ Pricing
 
 -------------------------------- */
 
-
+.pricing.section {
+	padding-bottom: 4em;
+}
 .plans {
 	margin: 1em auto;
 }
@@ -1325,7 +1327,7 @@ C2A
 -------------------------------- */
 
 .c2a-wrapper {
-	padding: 4em 0 5em;
+	padding: 5em 0 6em;
 }
 .c2a h1 {
 	font-size: 42px;
