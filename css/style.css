@@ -1015,7 +1015,7 @@ Exchanges
   transition: all 200ms ease-in-out;
 }
 .exchange-logo:hover {
-  box-shadow: none;
+  border-color: #2683ff;
 }
 
 
