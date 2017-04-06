@@ -662,7 +662,7 @@ canvas {
 }
 
 .header {
-	min-height: 840px;
+	min-height: 600px;
 	background: #020307;
 	background: -moz-linear-gradient(top, #020307 0%, #144fbc 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, #020307), color-stop(100%, #144fbc));
@@ -724,7 +724,8 @@ canvas {
 	max-width: 800px;
 	margin: 0 auto;
 	position: relative;
-	top: 140px;
+	top: 190px;
+	top: 25vh;
 	z-index: 2;
 	padding: 1em;
 }
@@ -744,7 +745,7 @@ canvas {
 }
 .notice {
 	color: #fff;
-	opacity: 0.4;
+	opacity: 0.7;
 }
 .home .btn {
 	position: relative;
