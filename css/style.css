@@ -1093,8 +1093,9 @@ Calculator
   color: #88C425;
 }
 .promise {
-  color: #aaa;
-  font-size: 11px;
+  color: #999;
+  font-size: 10px;
+  margin-top: 14px;
 }
 input.calculator-price {
   font-weight: 800;
@@ -1637,6 +1638,17 @@ Community
 
 -------------------------------- */
 
+.newsletter {
+	padding: 24px;
+	box-shadow: 0 9px 27px rgba(50,50,93,.1);
+	border: 1px solid #eee;
+	border-radius: 10px;
+	background: repeating-linear-gradient(135deg, #F29B91 0px, #F09290 30px, transparent 30px, transparent 50px, #83B3DB 50px, #84ADCB 80px, transparent 80px, transparent 100px)
+}
+.newsletter-inner {
+	background: #fff;
+	padding: 48px 32px 42px;
+}
 twitterwidget {
     box-shadow: 0 9px 27px rgba(50,50,93,.1);
     border-radius: 9px;
