@@ -349,9 +349,15 @@ Navigation
 }
 .navbar-default .navbar-nav>li>a:hover {
 	color: #fff;
+	text-decoration: underline;
 }
 .navbar .dropdown {
 	display: inline-block;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: transparent;
+    color: #fff;
 }
 
 .home .nav>li>a {
@@ -401,6 +407,46 @@ Navigation
 	background: #fff;
 }
 
+.navbar .dropdown-menu {
+    background: rgba(0,0,0,0.4);
+    top: 80px;
+    padding: 0;
+}
+.home .navbar .dropdown-menu {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.navbar .dropdown-menu>li>a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom: 0;
+    border: 0;
+    padding: 1em;
+}
+.navbar .dropdown-menu>li>a:hover {
+	color: #333;
+    text-decoration: underline;
+}
+
+.navbar-page .navbar-nav>.open>a, .navbar-page .navbar-nav>.open>a:hover, .navbar-page .navbar-nav>.open>a:focus {
+    color: #2683ff;
+}
+.navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
+    color: #2683ff;
+}
+.navbar-page .dropdown-menu {
+	background: #fff;
+}
+.navbar-page .dropdown-menu>li>a {
+	color: #333;
+}
+.navbar-page .dropdown-menu>li>a:hover {
+	color: #2683ff;
+}
+.navbar-page .dropdown-menu>li>a:active {
+	color: #2683ff;
+}
+
 .btn-rent {
 	background: transparent;
 	border: 2px solid #eee !important;
@@ -413,6 +459,7 @@ Navigation
 	border-color: #fff;
 	color: #fff !important;
 	box-shadow: none !important;
+	text-decoration: none !important;
 }
 .btn-rent.active {
 	border-color: #fff !important;
@@ -2070,6 +2117,48 @@ Media Queries
 	.navbar-default .navbar-toggle {
     	margin-top: 2em;
     	margin-right: 2em;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    color: #fff;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	    color: #fff;
+	    font-size: 14px;
+	}
+	..navbar-page .navbar-nav .open .dropdown-menu>li>a {
+	    color: #333;
+	    font-size: 14px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+    	color: #fff;
+    	text-decoration: underline;
+	}
+	.navbar-page .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-page .navbar-nav .open .dropdown-menu>li>a:focus {
+    	color: #2683ff;
+    	text-decoration: underline;
+    	background: #f2f2f2;
+	}
+	.navbar .dropdown.open {
+		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+	.home .navbar .dropdown-menu {
+	    border: 1px solid rgba(255, 255, 255, 0.2);
+	    background: rgba(0,0,0,0.4);
+	    border: 0;
+	    text-indent: -8px;
+	}
+	.navbar-page .dropdown-menu {
+		text-indent: -8px;
+	}
+	.navbar li.dropdown {
+	    width: 100%;
+	}
+	.navbar .dropdown {
+		box-shadow: none;
+	}
+	.navbar-nav .open .dropdown-menu>li>a {
+	    line-height: 42px;
+	    text-align: center;
 	}
 	.btn-menu {
 		width: 100%;
