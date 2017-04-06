@@ -752,7 +752,9 @@ canvas {
 	position: relative;
 	z-index: 2;
 	max-width: 360px;
-    box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
+}
+.open-source .btn {
+	margin: 1.4em auto 0;
 }
 .home input {
 	max-width: 360px;
@@ -1336,7 +1338,7 @@ C2A
 	margin-bottom: 0.5em;
 }
 .c2a p {
-	margin-bottom: 2em;
+	margin-bottom: 1.8em;
 	font-size: 18px;
 }
 
