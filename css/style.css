@@ -728,7 +728,6 @@ canvas {
 	user-select: none;
 	position: relative;
 	height: 100vh;
-	max-height: 900px;
 	overflow: hidden;
 }
 
