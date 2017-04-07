@@ -1105,6 +1105,7 @@ Calculator
   font-size: 28px;
   font-weight: 800;
   color: #555;
+  height: 58px;
 }
 .calculator-unit {
   padding: 0;
