@@ -2123,8 +2123,8 @@ Media Queries
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	    color: #fff;
 	}
-	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
-	    color: #fff;
+	.navbar-page .navbar-nav .open .dropdown-menu>li>a {
+	    color: #333;
 	    font-size: 14px;
 	}
 	..navbar-page .navbar-nav .open .dropdown-menu>li>a {
@@ -2142,6 +2142,12 @@ Media Queries
 	}
 	.navbar .dropdown.open {
 		border-bottom: 1px solid rgba(0,0,0,0.2);
+	}
+	.navbar-page .dropdown.open {
+	    border-bottom: 0;
+	}
+	.navbar-page .open .dropdown-menu {
+    	background-color: #f9f9f9;
 	}
 	.home .navbar .dropdown-menu {
 	    border: 1px solid rgba(255, 255, 255, 0.2);
