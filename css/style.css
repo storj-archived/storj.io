@@ -1157,6 +1157,7 @@ input.calculator-price {
   background: #fff !important;
   height: 60px;
   box-shadow: none;
+  -moz-appearance:textfield;
 }
 input.calculator-price:focus {
   border: 1px solid #ddd;
