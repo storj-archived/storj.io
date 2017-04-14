@@ -1881,6 +1881,10 @@ Press
   background: #FF7F00;
   color: #fff;
 }
+.presskit-logo.green {
+  background: #88C425;
+  color: #fff;
+}
 .presskit-logo.darkblue {
   background: #173AE8;
 }
