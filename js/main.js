@@ -264,64 +264,7 @@ jQuery(document).ready(function($){
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
 
-
-	// Storage & Users Counters
-
-	// var storageCount = 0;
-	// var count;
-	// var farmersCount = 0;
-	// var count2;
-
-	// $.getJSON("https://status.driveshare.org/api/total", function(json){
-	//   storageCount = json.total_TB;
-	//   count = new CountUp("storage-count", 0, storageCount, 0, 2.5);
-	//   count.start();
-	//   $(".storage-tb").show();
-	//   farmersCount = json.total_farmers;
-	//   count2 = new CountUp("user-count", 0, farmersCount, 0, 2.5);
-	//   count2.start();
-	//   apiTotal();
-	// });
-
-	// var canCallAgain = true;
-
-	// function apiTotal(){
-	//     canCallAgain = false;
-	//     $.getJSON("https://status.driveshare.org/api/total", function(json){
-	//         storageCount = json.total_TB;
-	//         count.update(storageCount);
-	//         farmersCount = json.total_farmers;
-	// 	    count2.update(farmersCount);
-	//         canCallAgain = true;
-	// 	  }); 
-	// 	};
-	// setInterval(function(){
-	//     if(canCallAgain)
-	//         apiTotal();
-	// },20000);
-
-    // Smooth Page Scroll
-    // $('.page-scroll').bind('click', function(event) {
-    //     var $anchor = $(this);
-    //     $('html, body').stop().animate({
-    //         scrollTop: $($anchor.attr('href')).offset().top
-    //     }, 1500, 'easeInOutExpo');
-    //     event.preventDefault();
-    // });
-
-	// Get started button transition
-	$('#getStarted').on('click', function(){
-		$('#getStarted').hide();
-		$('#getStartedForm').fadeIn();
-		$('#getStartedEmail').focus();
-	});
-	// Get started button transition
-	$('#getStarted2').on('click', function(){
-		$('#getStarted2').hide();
-		$('#getStartedForm2').fadeIn();
-		$('#getStartedEmail2').focus();
-	});
-
+	// Homepage header background animation
 	$(window).scroll(function(){
 	  var x = $(this).scrollTop(),
 	      transY = (x * 0.5), scale = 1 + (x * 0.0003),
@@ -335,6 +278,7 @@ jQuery(document).ready(function($){
 	  });
 	});
 
+	// Slider
 	$('.slider').slick({
 		arrows: true,
 		dots: true,
@@ -344,77 +288,7 @@ jQuery(document).ready(function($){
 		speed: 300
 	});
 
+	// Tooltips
 	$('[data-toggle="tooltip"]').tooltip(); 
-
-
-	// Terminal animation
-	var typeWriting = new TypeWriting({
-	    targetElement   : document.getElementsByClassName('terminal-type-login')[0],
-	    inputString     : '$ storj login',
-	    typing_interval : 90,
-	    blink_interval  : '1s',
-	    cursor_color    : '#91D127',
-	}, function() {
-		$(".terminal-type-login").removeClass('typingCursor');
-		$(".terminal-text-login-email").show('300', function() {
-			var typeWritingLoginEmail = new TypeWriting({
-			    targetElement   : document.getElementsByClassName('terminal-type-login-email')[0],
-			    inputString     : 'cats@storj.io',
-			    typing_interval : 90,
-			    blink_interval  : '1s',
-			    cursor_color    : '#91D127',
-			}, function() {
-				$(".terminal-type-login-email").removeClass('typingCursor');
-				$(".terminal-text-login-password").show('300', function() {
-					var typeWritingLoginPassword = new TypeWriting({
-					    targetElement   : document.getElementsByClassName('terminal-type-login-password')[0],
-					    inputString     : '*********',
-					    typing_interval : 90,
-					    blink_interval  : '1s',
-					    cursor_color    : '#91D127',
-					}, function() {
-						$(".terminal-type-login-password").removeClass('typingCursor');
-						$(".terminal-text-login-paired").show('300', function() {
-							$(".terminal-login-wrapper").delay(1400).hide('fast', function() {
-								var typeWritingBuckets = new TypeWriting({
-								    targetElement   : document.getElementsByClassName('terminal-type-buckets')[0],
-								    inputString     : '$ storj add-bucket cats',
-								    typing_interval : 90,
-								    blink_interval  : '1s',
-								    cursor_color    : '#91D127',
-								}, function() {
-									$(".terminal-type-buckets").removeClass('typingCursor');
-									$(".terminal-text-buckets").delay('300').show('300', function() {
-										var typeWritingUpload = new TypeWriting({
-										    targetElement   : document.getElementsByClassName('terminal-type-upload')[0],
-										    inputString     : '$ storj upload-file 573b4ce25da55fc8715b4c5a cat.jpg',
-										    typing_interval : 90,
-										    blink_interval  : '1s',
-										    cursor_color    : '#91D127',
-										}, function() {
-											$(".terminal-type-upload").removeClass('typingCursor');
-											$(".terminal-text-upload-password").delay('300').show('300', function() {
-												var typeWritingUploadPassword = new TypeWriting({
-												    targetElement   : document.getElementsByClassName('terminal-type-upload-password')[0],
-												    inputString     : '*********',
-												    typing_interval : 90,
-												    blink_interval  : '1s',
-												    cursor_color    : '#91D127',
-												}, function() {
-													$(".terminal-type-upload-password").removeClass('typingCursor');
-													$(".terminal-text-upload").delay('400').show('300', function() {
-													});
-												});
-											});
-										});
-									});
-								});
-							});
-						});
-					});
-				});
-			});
-		});
-	});
 
 });
