@@ -751,7 +751,7 @@ canvas {
 	bottom: 0;
 	background: url("../img/bg.jpg") center center no-repeat;
 	background-size: cover;
-	-webkit-transition: transform 0.1s ease-in-out;
+    -webkit-transition: transform 0.1s ease-in-out;
     -moz-transition: transform 0.1s ease-in-out;
     -ms-transition: transform 0.1s ease-in-out;
     transition: transform 0.1s ease-in-out;
@@ -1964,6 +1964,141 @@ News
 	color: #fff;
 }
 
+
+/* --------------------------------
+
+Token Sale
+
+-------------------------------- */
+
+.tokensale {
+  overflow-x: hidden;
+}
+.tokensale-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2683ff;
+  z-index:-1;
+  background-image: -ms-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
+  background-image: -moz-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
+  background-image: -o-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
+  background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #2682FF), color-stop(100, #103BFF));
+  background-image: -webkit-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
+  background-image: radial-gradient(ellipse closest-corner at center, #2682FF 0%, #103BFF 100%);
+}
+.tokensale-stars-left {
+  position: fixed;
+  top: 42px;
+  left: 10px;
+  width: 280px;
+  z-index: -1;
+}
+.tokensale-stars-right {
+  position: fixed;
+  top: 42px;
+  right: 10px;
+  width: 280px;
+  z-index: -1;
+}
+
+.tokensale-clouds {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9;
+  bottom: -20px;
+  background-image: url("../img/clouds.png");
+  background-size: contain;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  pointer-events:none;
+}
+.tokensale .header {
+  background: none;
+}
+// .tokensale .headlines {
+//   top: 140px;
+//   top: 19vh;
+// }
+.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a {
+  color: #fff;
+}
+.tokensale .link {
+  border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+.tokensale .link:hover {
+  border-color: #fff;
+}
+.tokensale blockquote p {
+  color: #333;
+}
+.tokensale .btn {
+  box-shadow: 0 0 15px rgba(0,0,0,.25);
+}
+.tokensale .token-symbol {
+  background: #fff;
+  border-radius: 80px;
+  margin: 0 auto 2em;
+  width: 160px;
+  height: 160px;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  background-clip: content-box; 
+  box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
+}
+.token-symbol img {
+  position: relative;
+  top: 20px;
+}
+.tokensale .value-icon, .tokensale .storj-video, .tokensale blockquote, .tokensale .quote-image {
+  box-shadow: 0 0 15px rgba(0,0,0,.25);
+}
+.tokensale footer {
+  background: none;
+  padding-bottom: 5em;
+} 
+.tokensale .exchange-logo {
+  box-shadow: 0 0 15px rgba(0,0,0,.25);
+  border-radius: 90px;
+}
+.tokensale .sjcx-chart {
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,.25);
+  margin: 1.5em auto 0.5em;
+}
+.tokensale-partner {
+  padding: 3em;
+  background: #fff;
+  border-radius: 10px;
+  max-width: 480px;
+  box-shadow: 0 0 15px rgba(0,0,0,.25);
+  margin: 2em auto 1.5em;
+}
+.tokensale .email {
+  display: inline-block;
+  height: 54px;
+}
+.tokensale .subscribe {
+  display: inline-block;
+  margin: 0;
+  height: 54px;
+  top: -2px;
+  border: 0;
+  position: relative;
+}
+.tokensale .newsletter {
+  background: repeating-linear-gradient(135deg, #F29B91 0px, #F09290 30px, transparent 30px, transparent 50px, #f9f9f9 50px, #f9f9f9 80px, rgba(0, 0, 0, 0) 80px, transparent 100px)
+}
+.tokensale .newsletter h1 {
+  color: #2683ff;
+  margin-bottom: 0.4em;
+}
+.tokensale .newsletter p {
+  color: #333;
+  margin-bottom: 0.2em;
+}
 
 /* --------------------------------
 
