@@ -2464,4 +2464,7 @@ Media Queries
 	.footer-logo p {
 	    display: block;
 	}
+  .token-advisors .tokensale-partner {
+      padding: 1em;
+  }
 }
