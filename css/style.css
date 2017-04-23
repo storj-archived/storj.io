@@ -2026,6 +2026,9 @@ Token Sale
 .tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a {
   color: #fff;
 }
+.tokensale .headlines h1 {
+  margin-top: 0;
+}
 .tokensale .link {
   border-bottom: 2px solid rgba(255,255,255,0.5);
 }
