@@ -2019,6 +2019,11 @@ Token Sale
 .tokensale .header {
   background: none;
 }
+.tokensale-counter {
+  width: 90%;
+  max-width: 674px;
+  margin: 0.5em auto;
+}
 // .tokensale .headlines {
 //   top: 140px;
 //   top: 19vh;
