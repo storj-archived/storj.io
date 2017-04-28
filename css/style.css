@@ -2121,6 +2121,18 @@ Token Sale
 .tokensale .team-member {
     margin: 10px auto;
 }
+.tokensale #social h4 {
+  color: #2683ff;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.tokensale #social .panel {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(0,0,0,.25);
+  width: 160px;
+  height: 160px;
+  margin: 1em auto;
+}
 
 /* --------------------------------
 
@@ -2488,5 +2500,8 @@ Media Queries
 	}
   .token-advisors .tokensale-partner {
       padding: 1em;
+  }
+  .tokensale #social .panel-card {
+    padding: 44px;
   }
 }
