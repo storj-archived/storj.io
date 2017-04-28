@@ -2009,7 +2009,6 @@ Token Sale
   height: 100%;
   position: fixed;
   z-index: 9;
-  bottom: -20px;
   background-image: url("../img/clouds.png");
   background-size: contain;
   background-position: bottom center;
@@ -2109,6 +2108,18 @@ Token Sale
 }
 .tokensale .promise {
   color: rgba(255, 255, 255, 0.5);
+}
+.tokensale .team-member-image {
+    margin-bottom: 10px;
+    width: 60%;
+    max-width: 180px;
+    height: 60%;
+}
+.tokensale .team-member-name {
+    margin-bottom: 5px;
+}
+.tokensale .team-member {
+    margin: 10px auto;
 }
 
 /* --------------------------------
