@@ -69,12 +69,12 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="navbar-menu">
 	      <ul class="nav navbar-nav navbar-left">
-            <li><a href="#whitepaper" class="link">Whitepaper</a></li>
-            <li><a href="#traction" class="link">Traction</a></li>
-            <li><a href="#team" class="link">Team</a></li>
-            <li><a href="#community" class="link">Community</a></li>
-            <li><a href="#advisors" class="link">Advisors</a></li>
-            <li><a href="#partners" class="link">Partners</a></li>
+            <li><a href="#whitepaper" class="link page-scroll">Whitepaper</a></li>
+            <li><a href="#traction" class="link page-scroll">Traction</a></li>
+            <li><a href="#team" class="link page-scroll">Team</a></li>
+            <li><a href="#community" class="link page-scroll">Community</a></li>
+            <li><a href="#advisors" class="link page-scroll">Advisors</a></li>
+            <li><a href="#partners" class="link page-scroll">Partners</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -697,7 +697,7 @@
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<!-- <script src="js/countUp.min.js"></script> -->
-	<!-- <script src="js/jquery.easing.min.js"></script> -->
+	<script src="js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/TimeCircles/TimeCircles.js"></script>
 	<script type="text/javascript" src="js/segment.js"></script>
@@ -745,6 +745,16 @@
 			infinite: true,
 			speed: 300
 		});
+	</script>
+
+	<script>
+		$('.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top
+            }, 1500, 'easeInOutExpo');
+            event.preventDefault();
+        });
 	</script>
 
 	<script>
