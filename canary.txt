@@ -24,26 +24,26 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 4/4/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 5/1/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Blackwater founder held secret meeting to establish Trump-Putin back channel
-- - Ryan says rekindled health-care talks in 'conceptual stage'
-- - She voted illegally. But was the 8-year prison sentence fair?
-- - Suspected gas attack kills 58 in Syria as victims foam at the mouth, activists say
-- - 'It went off the rails almost immediately': How Trump’s messy transition led to a chaotic presidency
+- - Congress reaches deal to keep government open through Sept.
+- - After hard-left turn, Britain’s Labour Party is on course for a historic defeat
+- - At the border, Trump’s tactics of fear appear to be working
+- - God, guns and Russia: How the GOP right found allies in Moscow
+- - During President Trump’s first 100 days, he made 488 false or misleading claims
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.0.68
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJY48gsAAoJEPQrujgXjffw2HoIAJo5n5VKGLjXomrG19stkg4g
-i6LPuB0Avubv5uAP9mceQ8eMV9ZdOgr3xjxg9nQMmg6DqwCIpQJlT0Uw4b/n7S4Q
-/Jxls1KJDubeRtdML9LsyWaJamIjKySAfQqyqJxJoRRb2hpmx1P8owZwLJU2WxQc
-9A9MJEA/NPBTsJ2qys5TkA6rF3eXFGKhbWrHGSY3o/dUnuQRBZ6cSi+MJV2S+EVx
-tGNM724WKivxyWI3J8085hIuVa+wqB4t2L8CNAnEVCoBtP8GeOFJ6ixBn1yf14S+
-DD6y8EQ0BL9KRVLIJMbkctnhhPpm3U/4RVJLbFJpZKIwjlBsSQMSONxwVqzLt5c=
-=ZUNS
+wsBcBAABCgAGBQJZBzH2AAoJEPQrujgXjffwYUIH/0PEqjGJRgGgGSDiwM5IwmMF
+8p8OsBB4a6ijM4WIhTkgEasqI2ehTyXKekgDp8lwCcssj0D6D2povhcy/iuAtNm/
+eMXzxWF1jKSYuENSJko2T7JMy9hse1fsPXuu8USKhk3OCcKLSOfz7FGIVPjCUUT2
+ej1Vzbr7ennEZO5wWU9NpTsn9jtXMy/PV750dFo2umNrw/QqfJrJtj4H0cGJdPkM
+i/tE5FenvKX7ntRrDwqvLMXZAR09MZHxYGGJdfFO/UoX7Qs2HXrN+7ZPLIEue5dt
+DI4JPiskfqEN1a8NvWeoANvoK1/m/CtR1jXhYSWTSA/calsI9+BYlpjTy2UxLMw=
+=oGLu
 -----END PGP SIGNATURE-----
 
 
