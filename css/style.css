@@ -886,11 +886,10 @@ Developers
 .terminal-wrapper {
 	width: 100%;
 	max-width: 642px;
-    margin: 0 auto;
-    background: #fff;
-    border-radius: 9px;
-    height: 260px;
-    margin-top: 2.1em;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 9px;
+  margin-top: 2.1em;
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 }
@@ -2457,12 +2456,12 @@ Media Queries
 		padding: 3em 0 3.5em;
 	}
 	.c2a h1 {
-    	font-size: 32px;
-    	line-height: 46px;
-    }
-    .c2a p {
-    	font-size: 16px;
-    }
+  	font-size: 32px;
+  	line-height: 46px;
+  }
+  .c2a p {
+  	font-size: 16px;
+  }
 	.compare-pricing {
 		font-size: 18px;
 		margin-top: 1em;
@@ -2483,14 +2482,11 @@ Media Queries
 	}
 	.team {
     	padding-top: 50px !important;
-  	}
+  }
 	.team-member {
     	width: 100%;
     	padding: 10px 20px;
-  	}
-  	.terminal-wrapper {
-    	height: 290px;
-	}
+  }
 	footer h4 {
     	margin-top: 2em;
     	padding-bottom: 0;
