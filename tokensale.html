@@ -197,12 +197,12 @@
 
     <div class="section storj-video-wrapper text-center">
       <div class="container">
-		<div class="row">
-			<div class="col-xs-10 col-xs-push-1">
-				<h1>How does it work?</h1>
-				<p>Watch this simple one-minute video explainer for Storj.</p>
-			</div>
-		</div>
+    		<div class="row">
+    			<div class="col-xs-10 col-xs-push-1">
+    				<h1>How does it work?</h1>
+    				<p>Watch this simple one-minute video explainer for Storj.</p>
+    			</div>
+    		</div>
         <div class="row">
           <div class="col-xs-12 col-md-8 col-md-push-2">
             <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
@@ -485,7 +485,7 @@
           </div>
         </div>
 
-		<div class="spacer20"></div>
+		    <div class="spacer20"></div>
 
         <div class="row text-center" id="advisors">
           <h1>Storj Advisors</h1>
@@ -552,29 +552,29 @@
 
     <div class="section text-center open-source" id="partners">
       <div class="container">
-		<div class="row">
-			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
-				<h1>Partners</h1>
-				<div class="row">
-					<div class="col-xs-12 col-sm-6">
-						<h2>Heroku</h2>
-						<p><a href="http://blog.storj.io/post/154251496573/using-the-storj-add-on-with-heroku" target="_blank" class="link">Using Storj with Heroku</a></p>
-						<a href="https://elements.heroku.com/addons/storj" target="_blank">
-							<div class="tokensale-partner">
-								<img src="img/heroku.jpg" target="_blank" alt="Heroku" class="img-responsive">
-							</div>
-						</a>
-					</div>
-					<div class="col-xs-12 col-sm-6">
-						<h2>Surprise</h2>
-						<p>Stay tuned, coming soon!</p>
-						<div class="tokensale-partner">
-							<img src="img/surprise.jpg" target="_blank" alt="Surprise" class="img-responsive">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+  		<div class="row">
+  			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+  				<h1>Partners</h1>
+  				<div class="row">
+  					<div class="col-xs-12 col-sm-6">
+  						<h2>Heroku</h2>
+  						<p><a href="http://blog.storj.io/post/154251496573/using-the-storj-add-on-with-heroku" target="_blank" class="link">Using Storj with Heroku</a></p>
+  						<a href="https://elements.heroku.com/addons/storj" target="_blank">
+  							<div class="tokensale-partner">
+  								<img src="img/heroku.jpg" target="_blank" alt="Heroku" class="img-responsive">
+  							</div>
+  						</a>
+  					</div>
+  					<div class="col-xs-12 col-sm-6">
+  						<h2>Surprise</h2>
+  						<p>Stay tuned, coming soon!</p>
+  						<div class="tokensale-partner">
+  							<img src="img/surprise.jpg" target="_blank" alt="Surprise" class="img-responsive">
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
       </div>
     </div>
 
@@ -703,6 +703,51 @@
 		</div>
 	</section>
 
+
+  <div id="confirmation-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #444">
+            <span aria-hidden="true">&times;</span>
+            X
+          </button>
+          <h4 class="modal-title" style="color: #444">Token Purchase Amount</h4>
+        </div>
+        <div class="modal-body">
+          <form name="tokenAmount">
+            <div class="form-group text-center">
+              <div>
+                <label for="intendedPurchaseAmount">Please indicate the amount of tokens you plan to purchase.
+                  Larger orders will get priority as the offering demand is high and allocation may be limited.
+                </label>
+                <small>Amounts in USD</small>
+              </div>
+
+              <div class="btn-group-vertical">
+                <button type="button" class="btn btn-default invest1" disabled="disabled">Up to $1k</button>
+                <button type="button" class="btn btn-default invest2" disabled="disabled">$1-10k</button>
+                <button type="button" class="btn btn-default invest3" disabled="disabled">$10-25k</button>
+                <button type="button" class="btn btn-default invest4" disabled="disabled">$25-50k</button>
+                <button type="button" class="btn btn-default invest5" disabled="disabled">$50k+</button>
+              </div>
+            </div>
+            <hr>
+            <div class="form-group text-center">
+              <button class="btn btn-green btn-block confirmation-modal-submit" disabled="disabled">
+                Submit
+              </button>
+              <span class="submission-thankyou" style="color: #444; display: none;">
+                Thank you for your response!
+              </span>
+            </div>
+          </form>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<!-- <script src="js/countUp.min.js"></script> -->
@@ -756,6 +801,7 @@
 		});
 	</script>
 
+  <!-- GA events -->
 	<script>
 		$('.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
@@ -828,6 +874,15 @@
       });
     });
 
+    $('#mc-embedded-subscribe-form').on('submit', function(e) {
+      ga('send', {
+        hitType: 'event',
+        eventCategory: 'submit',
+        eventAction: 'submit',
+        eventLabel: 'lp-top-cta'
+      });
+    });
+
     $('.get-notified-bottom').on('submit', function(e) {
       ga('send', {
         hitType: 'event',
@@ -837,6 +892,126 @@
       });
     });
 	</script>
+
+  <!-- #confirmation Survey Modal -->
+  <script>
+    $('#getStartedEmail').on('keyup', function () {
+      var tokenSaleEmail = $('#getStartedEmail').val();
+      window.localStorage.setItem('tokenSaleEmail', tokenSaleEmail);
+    });
+
+    if (window.location.hash === '#confirmation') {
+      $('.invest1').prop('disabled', false);
+      $('.invest2').prop('disabled', false);
+      $('.invest3').prop('disabled', false);
+      $('.invest4').prop('disabled', false);
+      $('.invest5').prop('disabled', false);
+
+      $('#confirmation-modal').modal('show');
+
+      var tokenSaleEmail = window.localStorage.getItem('tokenSaleEmail');
+      analytics.identify(tokenSaleEmail);
+
+      var amountGroups = [ 'Up to 1k', '1-10k', '10-25k', '25-50k', '50k+' ];
+
+      var selectedGroup;
+
+      $('.invest1').on('click', function (e) {
+        e.preventDefault();
+
+        selectedGroup = amountGroups[0];
+
+        analytics.track('Token Purchase Survey', {
+          category: 'Form',
+          action: 'Intent',
+          label: amountGroups[0]
+        });
+
+        $('.confirmation-modal-submit').prop('disabled', false);
+      });
+
+      $('.invest2').on('click', function (e) {
+        e.preventDefault();
+
+        selectedGroup = amountGroups[1];
+
+        analytics.track('Token Purchase Survey', {
+          category: 'Form',
+          action: 'Intent',
+          label: amountGroups[1]
+        });
+
+        $('.confirmation-modal-submit').prop('disabled', false);
+      });
+
+      $('.invest3').on('click', function (e) {
+        e.preventDefault();
+
+        selectedGroup = amountGroups[2];
+
+        analytics.track('Token Purchase Survey', {
+          category: 'Form',
+          action: 'Intent',
+          label: amountGroups[2]
+        });
+
+        $('.confirmation-modal-submit').prop('disabled', false);
+      });
+
+      $('.invest4').on('click', function (e) {
+        e.preventDefault();
+
+        selectedGroup = amountGroups[3];
+
+        analytics.track('Token Purchase Survey', {
+          category: 'Form',
+          action: 'Intent',
+          label: amountGroups[3]
+        });
+
+        $('.confirmation-modal-submit').prop('disabled', false);
+      });
+
+      $('.invest5').on('click', function (e) {
+        e.preventDefault();
+
+        selectedGroup = amountGroups[4];
+
+        analytics.track('Token Purchase Survey', {
+          category: 'Form',
+          action: 'Intent',
+          label: amountGroups[4]
+        });
+
+        $('.confirmation-modal-submit').prop('disabled', false);
+      });
+
+      $('.confirmation-modal-submit').on('click', function (e) {
+        e.preventDefault();
+
+        $('.confirmation-modal-submit').prop('disabled', true);
+        $('.invest1').prop('disabled', true);
+        $('.invest2').prop('disabled', true);
+        $('.invest3').prop('disabled', true);
+        $('.invest4').prop('disabled', true);
+        $('.invest5').prop('disabled', true);
+
+        analytics.track('Token Purchase Survey', {
+          category: 'Form',
+          action: 'Submit',
+          label: selectedGroup
+        });
+
+        $('.submission-thankyou').css('display', 'inline-block');
+
+        setTimeout(function () {
+          window.location.replace('https://storj.io/tokensale');
+        }, 1500);
+      });
+
+    }
+
+  </script>
 
 </body>
 </html>
