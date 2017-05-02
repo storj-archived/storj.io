@@ -827,8 +827,8 @@ height=“0" width=“0” style=“display:none;visibility:hidden”></iframe><
     $('.get-notified-top').on('submit', function(e) {
       ga('send', {
         hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
+        eventCategory: 'token',
+        eventAction: 'submit',
         eventLabel: 'lp-top-cta'
       });
     });
@@ -836,11 +836,18 @@ height=“0" width=“0” style=“display:none;visibility:hidden”></iframe><
     $('.get-notified-bottom').on('submit', function(e) {
       ga('send', {
         hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
+        eventCategory: 'token',
+        eventAction: 'submit',
         eventLabel: 'lp-bottom-cta'
       });
     });
+    $('#mc-embedded-subscribe-form').on('submit', function(e) {
+     ga('send', {
+       hitType: 'event',
+       eventCategory: 'token',
+       eventAction: 'new',
+     });
+   });
 	</script>
 
 </body>
