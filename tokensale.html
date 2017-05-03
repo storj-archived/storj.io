@@ -135,40 +135,40 @@
             </div>
           </a>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-medium" href="https://t.me/storjsale" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-medium">
+          <a href="https://t.me/storjsale" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-telegram.svg" alt="Storj on Telegram" height="40" width="40">
               <h4>Telegram</h4>
             </div>
           </a>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-reddit" href="https://www.reddit.com/r/Storj" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-reddit">
+          <a href="https://www.reddit.com/r/Storj" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-reddit.svg" alt="Storj on Reddit" height="40" width="40">
               <h4>r/Storj</h4>
             </div>
           </a>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-twitter" href="https://twitter.com/storjproject" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-twitter">
+          <a href="https://twitter.com/storjproject" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-twitter.svg" alt="Storj on Twitter" height="40" width="40">
               <h4>Twitter</h4>
             </div>
           </a>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-facebook" href="https://www.facebook.com/storjproject" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-facebook">
+          <a href="https://www.facebook.com/storjproject" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-facebook.svg" alt="Storj on Facebook" height="40" width="40">
               <h4>Facebook</h4>
             </div>
           </a>
         </div>
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-youtube" href="https://www.youtube.com/channel/UC-cTEqWwZV5Rl-h0RZsp2Qw" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-youtube">
+          <a href="https://www.youtube.com/channel/UC-cTEqWwZV5Rl-h0RZsp2Qw" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-youtube.svg" alt="Storj on Youtube" height="40" width="40">
               <h4>YouTube</h4>
@@ -816,92 +816,53 @@
     });
 
     $('#connect-youtube').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-youtube'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-youtube'
       });
     });
 
     $('#connect-facebook').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-facebook'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-facebook'
       });
     });
 
     $('#connect-twitter').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-twitter'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-twitter'
       });
     });
 
     $('#connect-reddit').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-reddit'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-reddit'
       });
     });
 
     $('#connect-medium').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-medium'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-medium'
       });
     });
 
     $('#connect-blog').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-blog'
-      });
-    });
-
-    $('.get-notified-top').on('submit', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'token',
-        eventAction: 'submit',
-        eventLabel: 'lp-top-cta'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-blog'
       });
     });
 
     $('#mc-embedded-subscribe-form').on('submit', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'submit',
-        eventAction: 'submit',
-        eventLabel: 'lp-top-cta'
+      analytics.track('Get Notified', {
+        category: 'Token Sale',
+        label: 'lp-cta'
       });
     });
-
-    $('.get-notified-bottom').on('submit', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'token',
-        eventAction: 'submit',
-        eventLabel: 'lp-bottom-cta'
-      });
-    });
-    $('#mc-embedded-subscribe-form').on('submit', function(e) {
-     ga('send', {
-       hitType: 'event',
-       eventCategory: 'token',
-       eventAction: 'new',
-     });
-   });
 	</script>
 
   <!-- #confirmation Survey Modal -->
