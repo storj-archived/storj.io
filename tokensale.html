@@ -816,92 +816,53 @@
     });
 
     $('#connect-youtube').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-youtube'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-youtube'
       });
     });
 
     $('#connect-facebook').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-facebook'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-facebook'
       });
     });
 
     $('#connect-twitter').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-twitter'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-twitter'
       });
     });
 
     $('#connect-reddit').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-reddit'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-reddit'
       });
     });
 
     $('#connect-medium').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-medium'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-medium'
       });
     });
 
     $('#connect-blog').on('click', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'button',
-        eventAction: 'click',
-        eventLabel: 'lp-connect-blog'
-      });
-    });
-
-    $('.get-notified-top').on('submit', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'token',
-        eventAction: 'submit',
-        eventLabel: 'lp-top-cta'
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-blog'
       });
     });
 
     $('#mc-embedded-subscribe-form').on('submit', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'submit',
-        eventAction: 'submit',
-        eventLabel: 'lp-top-cta'
+      analytics.track('Get Notified', {
+        category: 'Token Sale',
+        label: 'lp-cta'
       });
     });
-
-    $('.get-notified-bottom').on('submit', function(e) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: 'token',
-        eventAction: 'submit',
-        eventLabel: 'lp-bottom-cta'
-      });
-    });
-    $('#mc-embedded-subscribe-form').on('submit', function(e) {
-     ga('send', {
-       hitType: 'event',
-       eventCategory: 'token',
-       eventAction: 'new',
-     });
-   });
 	</script>
 
   <!-- #confirmation Survey Modal -->
