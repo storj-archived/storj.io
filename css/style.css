@@ -2133,6 +2133,18 @@ Token Sale
   margin: 1em auto;
 }
 
+.tokensale-banner {
+  background: #000;
+  border-bottom: 1px solid #111;
+}
+.tokensale-banner p {
+  margin-top: 12px;
+  color: #fff;
+}
+.tokensale-banner a {
+  color: #fff;
+}
+
 /* --------------------------------
 
 Media Queries
