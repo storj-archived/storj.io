@@ -107,21 +107,19 @@
 					<h1>Join the Storj Token Sale</h1>
 					<p>Storj transitions from Counterparty to the Ethereum platform.</p>
 					<p>Read the <a href="http://blog.storj.io/post/159746056098/token-migration-plan-pt1" class="link">Token Migration Plan</a> and subscribe to receive token sale updates.</p>
-		            <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=9696dfe2a1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank">
+            <form id="mc-embedded-subscribe" class="validate form-inline">
 
-                  <div class="form-group">
-                    <input type="email" value="" name="EMAIL" class="email form-control" id="getStartedEmail" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
+              <div class="form-group">
+                <input type="email" value="" name="EMAIL" class="email form-control" id="getStartedEmail" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
 
-                    <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-block btn-green subscribe get-notified-top form-control" style="min-width: 300px; margin-top: 4px;">
-                      Get Notified
-                    </button>
+                <button type="submit" class="btn btn-block btn-green subscribe get-notified-top form-control" style="min-width: 300px; margin-top: 4px;">
+                  Get Notified
+                </button>
+              </div>
 
-                    <div style="position: absolute; left: -5000px;"><input type="text" name="b_edba9fc4ce8b9095a31859cba_9696dfe2a1" tabindex="-1" value=""></div>
-                  </div>
+              <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
 
-                  <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
-
-		            </form>
+            </form>
 					<div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div>
 				</div>
 			</div>
@@ -706,17 +704,19 @@
 	          <h1>Get notified of token sale launch</h1>
 	          <div id="getStartedForm">
 
-              <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=9696dfe2a1" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-inline" target="_blank">
+              <form id="mc-embedded-subscribe" class="validate form-inline">
 
                 <div class="form-group">
                   <input type="email" value="" name="EMAIL" class="email form-control" id="getStartedEmail" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
 
-                  <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn btn-block btn-green subscribe get-notified-bottom form-control" style="min-width: 300px; margin-top: 4px;">
+                  <button type="submit" class="btn btn-block btn-green subscribe get-notified-top form-control" style="min-width: 300px; margin-top: 4px;">
                     Get Notified
                   </button>
 
-                  <div style="position: absolute; left: -5000px;"><input type="text" name="b_edba9fc4ce8b9095a31859cba_9696dfe2a1" tabindex="-1" value=""></div>
+                  <!-- <div class="utm_campaign" style="position: absolute; left: -5000px;"><input type="text" name="utm_campaign" tabindex="-1" value=""></div> -->
                 </div>
+
+                <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
 
               </form>
 	          </div>
@@ -746,11 +746,13 @@
               </div>
 
               <div class="btn-group-vertical">
-                <button type="button" class="btn btn-default invest1" disabled="disabled">Up to $1k</button>
-                <button type="button" class="btn btn-default invest2" disabled="disabled">$1-10k</button>
-                <button type="button" class="btn btn-default invest3" disabled="disabled">$10-25k</button>
-                <button type="button" class="btn btn-default invest4" disabled="disabled">$25-50k</button>
-                <button type="button" class="btn btn-default invest5" disabled="disabled">$50k+</button>
+                <button type="button" class="btn btn-default invest1" disabled="disabled">< $1k</button>
+                <button type="button" class="btn btn-default invest2" disabled="disabled">$1-5k</button>
+                <button type="button" class="btn btn-default invest3" disabled="disabled">$5-10k</button>
+                <button type="button" class="btn btn-default invest4" disabled="disabled">$10-25k</button>
+                <button type="button" class="btn btn-default invest5" disabled="disabled">$25-100k</button>
+                <button type="button" class="btn btn-default invest6"
+                disabled="disabled">$100k+</button>
               </div>
               <div style="font-size: 12px;">Amounts in USD</div>
             </div>
@@ -760,7 +762,7 @@
               <button class="btn btn-green btn-block confirmation-modal-submit" style="margin-bottom: -10px; margin-top: 0;" disabled="disabled">
                 Submit
               </button>
-              <span class="submission-thankyou" style="color: #444; display: none;">
+              <span class="submission-thankyou" style="color: #444; margin-top: 10px; display: none;">
                 Thank you for your response!
               </span>
             </div>
@@ -777,7 +779,7 @@
 	<script src="js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/TimeCircles/TimeCircles.js"></script>
-	<!-- <script type="text/javascript" src="js/segment.js"></script> -->
+	<script type="text/javascript" src="js/segment.js"></script>
 
 	<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = "<iframe src='https://player.vimeo.com/video/102119715?autoplay=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";}</script>
 
@@ -823,6 +825,34 @@
 			speed: 300
 		});
 	</script>
+
+  <!-- Submit Get Notified -->
+  <script>
+    $('#mc-embedded-subscribe').on('submit', function(e) {
+      e.preventDefault();
+      var email = $('#getStartedEmail').val();
+      var traits = { email };
+
+      if (window.location.search) {
+        $.each(document.location.search.substr(1).split('&'),function(c,q){
+          var i = q.split('=');
+          var utm = i[0].split('_');
+          traits[utm[1].toString().toUpperCase()] = i[1].toString();
+        });
+      }
+
+      analytics.identify(email, traits);
+
+      analytics.track('Get Notified', {
+        category: 'Token Sale',
+        label: 'lp-cta'
+      });
+
+      $('#getStartedEmail').val('');
+
+      $('#confirmation-modal').modal('show');
+    });
+  </script>
 
   <!-- GA events -->
 	<script>
@@ -875,13 +905,6 @@
         label: 'lp-connect-blog'
       });
     });
-
-    $('#mc-embedded-subscribe-form').on('submit', function(e) {
-      analytics.track('Get Notified', {
-        category: 'Token Sale',
-        label: 'lp-cta'
-      });
-    });
 	</script>
 
   <!-- #confirmation Survey Modal -->
@@ -891,110 +914,125 @@
       window.localStorage.setItem('tokenSaleEmail', tokenSaleEmail);
     });
 
-    if (window.location.hash === '#confirmation') {
-      $('.invest1').prop('disabled', false);
-      $('.invest2').prop('disabled', false);
-      $('.invest3').prop('disabled', false);
-      $('.invest4').prop('disabled', false);
-      $('.invest5').prop('disabled', false);
+    $('.invest1').prop('disabled', false);
+    $('.invest2').prop('disabled', false);
+    $('.invest3').prop('disabled', false);
+    $('.invest4').prop('disabled', false);
+    $('.invest5').prop('disabled', false);
+    $('.invest6').prop('disabled', false);
 
-      $('#confirmation-modal').modal('show');
+    var tokenSaleEmail = window.localStorage.getItem('tokenSaleEmail');
+    analytics.identify(tokenSaleEmail);
 
-      var tokenSaleEmail = window.localStorage.getItem('tokenSaleEmail');
-      analytics.identify(tokenSaleEmail);
+    var amountGroups = [ '<1k', '1-5k', '5-10k', '10-25k', '25-100k', '100k+' ];
 
-      var amountGroups = [ 'Up to 1k', '1-10k', '10-25k', '25-50k', '50k+' ];
+    var selectedGroup;
 
-      var selectedGroup;
+    $('.invest1').on('click', function (e) {
+      e.preventDefault();
 
-      $('.invest1').on('click', function (e) {
-        e.preventDefault();
+      selectedGroup = amountGroups[0];
 
-        selectedGroup = amountGroups[0];
-
-        analytics.track('Token Purchase Survey', {
-          category: 'Intent',
-          label: amountGroups[0]
-        });
-
-        $('.confirmation-modal-submit').prop('disabled', false);
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[0]
       });
 
-      $('.invest2').on('click', function (e) {
-        e.preventDefault();
+      $('.confirmation-modal-submit').prop('disabled', false);
+    });
 
-        selectedGroup = amountGroups[1];
+    $('.invest2').on('click', function (e) {
+      e.preventDefault();
 
-        analytics.track('Token Purchase Survey', {
-          category: 'Intent',
-          label: amountGroups[1]
-        });
+      selectedGroup = amountGroups[1];
 
-        $('.confirmation-modal-submit').prop('disabled', false);
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[1]
       });
 
-      $('.invest3').on('click', function (e) {
-        e.preventDefault();
+      $('.confirmation-modal-submit').prop('disabled', false);
+    });
 
-        selectedGroup = amountGroups[2];
+    $('.invest3').on('click', function (e) {
+      e.preventDefault();
 
-        analytics.track('Token Purchase Survey', {
-          category: 'Intent',
-          label: amountGroups[2]
-        });
+      selectedGroup = amountGroups[2];
 
-        $('.confirmation-modal-submit').prop('disabled', false);
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[2]
       });
 
-      $('.invest4').on('click', function (e) {
-        e.preventDefault();
+      $('.confirmation-modal-submit').prop('disabled', false);
+    });
 
-        selectedGroup = amountGroups[3];
+    $('.invest4').on('click', function (e) {
+      e.preventDefault();
 
-        analytics.track('Token Purchase Survey', {
-          category: 'Intent',
-          label: amountGroups[3]
-        });
+      selectedGroup = amountGroups[3];
 
-        $('.confirmation-modal-submit').prop('disabled', false);
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[3]
       });
 
-      $('.invest5').on('click', function (e) {
-        e.preventDefault();
+      $('.confirmation-modal-submit').prop('disabled', false);
+    });
 
-        selectedGroup = amountGroups[4];
+    $('.invest5').on('click', function (e) {
+      e.preventDefault();
 
-        analytics.track('Token Purchase Survey', {
-          category: 'Intent',
-          label: amountGroups[4]
-        });
+      selectedGroup = amountGroups[4];
 
-        $('.confirmation-modal-submit').prop('disabled', false);
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[4]
       });
 
-      $('.confirmation-modal-submit').on('click', function (e) {
-        e.preventDefault();
+      $('.confirmation-modal-submit').prop('disabled', false);
+    });
 
-        $('.confirmation-modal-submit').prop('disabled', true);
-        $('.invest1').prop('disabled', true);
-        $('.invest2').prop('disabled', true);
-        $('.invest3').prop('disabled', true);
-        $('.invest4').prop('disabled', true);
-        $('.invest5').prop('disabled', true);
+    $('.invest6').on('click', function (e) {
+      e.preventDefault();
 
-        analytics.track('Token Purchase Survey', {
-          category: 'Submit',
-          label: selectedGroup
-        });
+      selectedGroup = amountGroups[5];
 
-        $('.submission-thankyou').css('display', 'inline-block');
-
-        setTimeout(function () {
-          window.location.replace('https://storj.io/tokensale');
-        }, 1500);
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[5]
       });
 
-    }
+      $('.confirmation-modal-submit').prop('disabled', false);
+    });
+
+    $('.confirmation-modal-submit').on('click', function (e) {
+      e.preventDefault();
+
+      $('.confirmation-modal-submit').prop('disabled', true);
+      $('.invest1').prop('disabled', true);
+      $('.invest2').prop('disabled', true);
+      $('.invest3').prop('disabled', true);
+      $('.invest4').prop('disabled', true);
+      $('.invest5').prop('disabled', true);
+      $('.invest6').prop('disabled', true);
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Submit',
+        label: selectedGroup
+      });
+
+      analytics.identify(tokenSaleEmail, {
+        email: tokenSaleEmail,
+        purchaseSurveySubmission: selectedGroup
+      });
+
+      $('.submission-thankyou').css('display', 'inline-block');
+
+      setTimeout(function () {
+        window.location.replace('https://storj.io/tokensale');
+      }, 1500);
+    });
 
   </script>
 
