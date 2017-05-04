@@ -910,8 +910,8 @@
   <!-- #confirmation Survey Modal -->
   <script>
     $('#getStartedEmail').on('keyup', function () {
-      var tokenSaleEmail = $('#getStartedEmail').val();
-      window.localStorage.setItem('tokenSaleEmail', tokenSaleEmail);
+      var inputEmail = $('#getStartedEmail').val();
+      window.localStorage.setItem('tokenSaleEmail', inputEmail);
     });
 
     $('.invest1').prop('disabled', false);
@@ -920,8 +920,6 @@
     $('.invest4').prop('disabled', false);
     $('.invest5').prop('disabled', false);
     $('.invest6').prop('disabled', false);
-
-    var tokenSaleEmail = window.localStorage.getItem('tokenSaleEmail');
 
     var amountGroups = [ '<1k', '1-5k', '5-10k', '10-25k', '25-100k', '100k+' ];
 
@@ -1007,6 +1005,7 @@
 
     $('.confirmation-modal-submit').on('click', function (e) {
       e.preventDefault();
+      var tokenSaleEmail = window.localStorage.getItem('tokenSaleEmail');
 
       $('.confirmation-modal-submit').prop('disabled', true);
       $('.invest1').prop('disabled', true);
