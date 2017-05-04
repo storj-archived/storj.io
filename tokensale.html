@@ -733,16 +733,15 @@
             <span aria-hidden="true">&times;</span>
             X
           </button>
-          <h4 class="modal-title" style="color: #444">Token Purchase Amount</h4>
+          <h4 class="modal-title" style="color: #444">Desired Allocation</h4>
         </div>
-        <div class="modal-body" style="padding-top: 15px;">
+        <div class="modal-body">
           <form name="tokenAmount">
             <div class="form-group text-center">
-              <div>
-                <label for="intendedPurchaseAmount" style="font-weight: normal;">Please indicate the amount of tokens you plan to purchase.
-                  Larger orders will get priority as the offering demand is high and allocation may be limited.
-                </label>
-              </div>
+              <label for="desiredAllocation" style="font-weight: normal;">
+                Please indicate your desired allocation in USD.
+                Larger orders will receive priority as the offering demand is high and allocation may be limited.
+              </label>
 
               <div class="btn-group-vertical">
                 <button type="button" class="btn btn-default invest1" disabled="disabled">< $1k</button>
@@ -750,10 +749,9 @@
                 <button type="button" class="btn btn-default invest3" disabled="disabled">$5-10k</button>
                 <button type="button" class="btn btn-default invest4" disabled="disabled">$10-25k</button>
                 <button type="button" class="btn btn-default invest5" disabled="disabled">$25-100k</button>
-                <button type="button" class="btn btn-default invest6"
-                disabled="disabled">$100k+</button>
+                <button type="button" class="btn btn-default invest6" disabled="disabled">$100k+</button>
               </div>
-              <div style="font-size: 12px;">Amounts in USD</div>
+              <div style="font-size: 12px; margin-top: 3px;">Amounts in USD</div>
             </div>
 
             <!-- <hr> -->
@@ -766,8 +764,8 @@
               </div>
             </div>
           </form>
+        </div> <!-- First Modal Screen -->
 
-        </div>
       </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
@@ -908,6 +906,8 @@
 
   <!-- #confirmation Survey Modal -->
   <script>
+  // $('#confirmation-modal').modal('show')
+
     $('#getStartedEmail').on('keyup', function () {
       var inputEmail = $('#getStartedEmail').val();
       window.localStorage.setItem('tokenSaleEmail', inputEmail);
@@ -982,11 +982,22 @@
         purchaseSurveySubmission: selectedGroup
       });
 
+      var topGroups = amountGroups.slice(-3);
+
       $('.submission-thankyou').css('display', 'inline-block');
 
       setTimeout(function () {
         window.location.replace('https://storj.io/tokensale');
       }, 1500);
+      // if (topGroups.indexOf(selectedGroup) !== -1) {
+      //   // push to new modal
+      // } else {
+      //   $('.submission-thankyou').css('display', 'inline-block');
+      //
+      //   setTimeout(function () {
+      //     window.location.replace('https://storj.io/tokensale');
+      //   }, 1500);
+      // }
     });
 
   </script>

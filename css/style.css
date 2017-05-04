@@ -2051,7 +2051,7 @@ Token Sale
   width: 160px;
   height: 160px;
   border: 10px solid rgba(255, 255, 255, 0.2);
-  background-clip: content-box; 
+  background-clip: content-box;
   box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1);
 }
 .token-symbol img {
@@ -2064,7 +2064,7 @@ Token Sale
 .tokensale footer {
   background: none;
   padding-bottom: 5em;
-} 
+}
 .tokensale .exchange-logo {
   box-shadow: 0 0 15px rgba(0,0,0,.25);
   border-radius: 90px;
@@ -2145,6 +2145,10 @@ Token Sale
   margin-bottom: 16px;
   color: #fff;
   text-transform: uppercase;
+}
+
+#confirmation-modal .modal-body {
+  padding-top: 15px;
 }
 
 /* --------------------------------
