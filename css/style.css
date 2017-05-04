@@ -2134,15 +2134,21 @@ Token Sale
 }
 
 .tokensale-banner {
-  background: #000;
+  background: #2683ff;
   border-bottom: 1px solid #111;
 }
 .tokensale-banner p {
-  margin-top: 12px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   color: #fff;
+  text-transform: uppercase;
 }
-.tokensale-banner a {
-  color: #fff;
+.tokensale-banner .btn {
+  color: #2683ff;
+  background: #fff;
+  padding: 0.8em 1.9em;
+  margin-top: 6px;
+  margin-bottom: 6px
 }
 
 /* --------------------------------

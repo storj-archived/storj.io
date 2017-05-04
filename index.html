@@ -31,7 +31,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css?v=1.3.4" rel="stylesheet">
+    <link href="css/style.css?v=1.3.4.1" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -57,17 +57,18 @@
 
 <body class="home">
 
-	<a href="tokensale.html">
-		<section class="tokensale-banner">
-			<div class="container">
-				<div class="row text-center">
-					<div class="col-xs-12">
-						<p>Storj Token Sale - Starting on May 19th</p>
-					</div>
+	<section class="tokensale-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-8 col-sm-8">
+					<p class="lead"><strong>Storj</strong> Token Sale starts in <strong id="DateCountdownBanner"></strong></p>
+				</div>
+				<div class="col-xs-4 col-sm-4 text-right">
+					<a href="tokensale.html" class="btn">Subscribe Now</a>
 				</div>
 			</div>
-		</section>
-	</a>
+		</div>
+	</section>
 
 	<section class="header">
 
@@ -437,6 +438,66 @@
 	<script src="js/main.js"></script>
 
 	<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = "<iframe src='https://player.vimeo.com/video/102119715?autoplay=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";}</script>
+
+	<!-- Countdown Timer -->
+	<script>
+		function getTimeRemaining(endtime) {
+		  var t = Date.parse(endtime) - Date.parse(new Date());
+		  var seconds = Math.floor((t / 1000) % 60);
+		  var minutes = Math.floor((t / 1000 / 60) % 60);
+		  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+		  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+		  return {
+		    'total': t,
+		    'days': days,
+		    'hours': hours,
+		    'minutes': minutes,
+		    'seconds': seconds
+		  };
+		}
+		function initializeClock(id, endtime) {
+		  var clock = $(id);
+		  var day1 = $('<span></span>').appendTo(id).addClass('units');
+		  var day2 = $('<span></span>').appendTo(id).addClass('units');
+		  $('<span>:</span>').appendTo(id).addClass('divider');
+		  var hours1 = $('<span></span>').appendTo(id).addClass('units');
+		  var hours2 = $('<span></span>').appendTo(id).addClass('units');
+		  $('<span>:</span>').appendTo(id).addClass('divider');
+		  var minutes1 = $('<span></span>').appendTo(id).addClass('units');
+		  var minutes2 = $('<span></span>').appendTo(id).addClass('units');
+		  $('<span>:</span>').appendTo(id).addClass('divider');
+		  var seconds1 = $('<span></span>').appendTo(id).addClass('units');
+		  var seconds2 = $('<span></span>').appendTo(id).addClass('units');
+		  function updateClock() {
+		    var t = getTimeRemaining(endtime);
+		    var time = {
+		      day1: ('0' + t.days).slice(-2).charAt(0),
+		      day2: ('0' + t.days).slice(-2).charAt(1),
+		      hours1: ('0' + t.hours).slice(-2).charAt(0),
+		      hours2: ('0' + t.hours).slice(-2).charAt(1),
+		      minutes1: ('0' + t.minutes).slice(-2).charAt(0),
+		      minutes2: ('0' + t.minutes).slice(-2).charAt(1),
+		      seconds1: ('0' + t.seconds).slice(-2).charAt(0),
+		      seconds2: ('0' + t.seconds).slice(-2).charAt(1)
+		    };
+		    $(day1).text(time.day1);
+		    $(day2).text(time.day2);
+		    $(hours1).text(time.hours1);
+		    $(hours2).text(time.hours2);
+		    $(minutes1).text(time.minutes1);
+		    $(minutes2).text(time.minutes2);
+		    $(seconds1).text(time.seconds1);
+		    $(seconds2).text(time.seconds2);
+		    if (t.total <= 0) {
+		      clearInterval(timeinterval);
+		    }
+		  }
+		  updateClock();
+		  var timeinterval = setInterval(updateClock, 1000);
+		}
+		var deadline = 'May 19 2017 08:00:00 GMT-0700';
+		initializeClock('#DateCountdownBanner', deadline);
+	</script>
 
 </body>
 </html>
