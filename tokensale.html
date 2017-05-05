@@ -1056,11 +1056,11 @@
         });
       }
 
-      // analytics.identify(email, traits);
-      // analytics.track('Get Notified', {
-      //   category: 'Token Sale',
-      //   label: 'lp-cta'
-      // });
+      analytics.identify(email, traits);
+      analytics.track('Get Notified', {
+        category: 'Token Sale',
+        label: 'lp-cta'
+      });
 
       $(emailInput).val('');
 
@@ -1175,10 +1175,10 @@
     $('.invest1').on('click', function (e) {
       e.preventDefault();
       selectedGroup = amountGroups[0];
-      // analytics.track('Token Purchase Survey', {
-      //   category: 'Intent',
-      //   label: amountGroups[0]
-      // });
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[0]
+      });
 
       $('.confirmation-modal-submit').prop('disabled', false);
     });
@@ -1230,10 +1230,10 @@
     $('.invest6').on('click', function (e) {
       e.preventDefault();
       selectedGroup = amountGroups[5];
-      // analytics.track('Token Purchase Survey', {
-      //   category: 'Intent',
-      //   label: amountGroups[5]
-      // });
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[5]
+      });
 
       $('.confirmation-modal-submit').prop('disabled', false);
     });
@@ -1250,15 +1250,15 @@
       $('.invest5').prop('disabled', true);
       $('.invest6').prop('disabled', true);
 
-      // analytics.track('Token Purchase Survey', {
-      //   category: 'Submit',
-      //   label: selectedGroup
-      // });
-      //
-      // analytics.identify(tokenSaleEmail, {
-      //   email: tokenSaleEmail,
-      //   purchaseSurveySubmission: selectedGroup
-      // });
+      analytics.track('Token Purchase Survey', {
+        category: 'Submit',
+        label: selectedGroup
+      });
+
+      analytics.identify(tokenSaleEmail, {
+        email: tokenSaleEmail,
+        purchaseSurveySubmission: selectedGroup
+      });
 
       if (topGroups.indexOf(selectedGroup) !== -1) {
          $('.firstForm').toggle();
