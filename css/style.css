@@ -2037,37 +2037,30 @@ Token Sale
   right: 0;
   bottom: 0;
   z-index: 1000;
-  display: flex;
-  height: 65px;
 }
 
-.tokensale-clouds-social-toggle {
-  color: #2683FF;
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-}
-
-.tokensale-clouds-social-toggle:hover {
-  cursor: pointer;
+.tokensale-clouds-social-title {
+  margin-left: 10px;
+  margin-bottom: 3px;
 }
 
 .tokensale-clouds-social-icons {
   display: flex;
+  height: 40px;
 }
 
 .tokensale-social-icon {
-  height: 50px;
-  width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 2.5px;
+  margin: 5px 2.5px;
+  height: 30px;
+  width: 30px;
 }
 
 .tokensale-social-icon img {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 .tokensale .header {
