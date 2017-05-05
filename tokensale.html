@@ -138,7 +138,7 @@
           <p>We’re providing the first crowdsourced, end-to-end encrypted cloud storage using blockchain technology and cryptography to secure files.</p>
           <p>We are creating a community to share bandwidth and storage resources that are readily available.</p>
 
-          <div class="section" id="traction">
+          <div id="traction">
           	<div class="container">
           		<div class="row text-center">
           			<div class="col-xs-12 col-md-5">
@@ -167,10 +167,15 @@
     				<h1>How does it work?</h1>
             <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth.</p>
             <p>Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
-    				<p>Watch this simple one-minute video explainer for Storj.</p>
+            <a href="">
+              <button class="btn btn-green" style="min-width: 300px; margin-top: 4px;">
+              Learn More
+              </button>
+            </a>
     			</div>
     		</div>
         <div class="row hidden">
+          <!-- this div needs to be hidden and shown in modal -->
           <div class="col-xs-12 col-md-8 col-md-push-2">
             <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
           </div>
@@ -184,7 +189,8 @@
     			<div class="col-xs-12">
     				<h1 class="title">Storj Whitepaper v2</h1>
     				<a href="https://storj.io/storj.pdf" target="_blank" class="btn btn-green">Read the whitepaper</a>
-    				<a href="https://storj.io/storj.pdf" target="_blank"><img src="img/whitepaper.png" alt="Storj Whitepaper" class="img-responsive"></a>
+    				<a href="https://storj.io/storj.pdf" target="_blank">
+              <img src="img/whitepaper.png" alt="Storj Whitepaper" class="img-responsive"></a>
     			</div>
     		</div>
     	</div>
@@ -212,7 +218,7 @@
     				<div class="spacer20"></div>
     				<p>We designed Storj to be flexible and modular. The whitepaper says this up front: <i>“Storj is payment agnostic. Neither the protocol nor the contract requires a specific payment system.”</i></p>
     				<p>However, we believe that using a token is the best payment system for the foreseeable future. We believe that the future is a vibrant ecosystem of many tokens, and we look forward to being part of it.</p>
-          	</div>
+        	</div>
 	      </div>
 	    </div>
     </div>
@@ -532,7 +538,7 @@
       </div>
     </div>
 
-  <section class="quotes">
+    <section class="quotes">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-lg-8 col-lg-push-2">
@@ -643,20 +649,23 @@
 		<div class="container">
 		  <div class="row text-center">
 		    <div class="col-xs-12 col-md-8 col-md-push-2">
-	          <h1>Keep Current</h1>
-            <h3>Stay up-to-date on the latest news and events related to the Storj Token Sale</h3>
+	          <h1>Get notified of token sale launch</h1>
 	          <div id="getStartedForm">
 
               <form id="mc-embedded-subscribe" class="validate form-inline">
+
                 <div class="form-group">
                   <input type="email" value="" name="EMAIL" class="email form-control" id="getStartedEmail" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
 
                   <button type="submit" class="btn btn-block btn-green subscribe get-notified-top form-control" style="min-width: 300px; margin-top: 4px;">
                     Get Notified
                   </button>
+
+                  <!-- <div class="utm_campaign" style="position: absolute; left: -5000px;"><input type="text" name="utm_campaign" tabindex="-1" value=""></div> -->
                 </div>
 
                 <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
+
               </form>
 	          </div>
 		    </div>
@@ -727,22 +736,22 @@
 
   <div id="confirmation-modal" class="modal fade" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static">
     <div class="modal-dialog" role="document">
-
-      <div class="modal-content firstForm">
+      <div class="modal-content">
         <div class="modal-header text-center">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #444">
             <span aria-hidden="true">&times;</span>
             X
           </button>
-          <h4 class="modal-title" style="color: #444">Desired Allocation</h4>
+          <h4 class="modal-title" style="color: #444">Token Purchase Amount</h4>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" style="padding-top: 15px;">
           <form name="tokenAmount">
             <div class="form-group text-center">
-              <label for="desiredAllocation" style="font-weight: normal;">
-                Please indicate your desired allocation in USD.
-                Larger orders will receive priority as the offering demand is high and allocation may be limited.
-              </label>
+              <div>
+                <label for="intendedPurchaseAmount" style="font-weight: normal;">Please indicate the amount of tokens you plan to purchase.
+                  Larger orders will get priority as the offering demand is high and allocation may be limited.
+                </label>
+              </div>
 
               <div class="btn-group-vertical">
                 <button type="button" class="btn btn-default invest1" disabled="disabled">< $1k</button>
@@ -750,52 +759,25 @@
                 <button type="button" class="btn btn-default invest3" disabled="disabled">$5-10k</button>
                 <button type="button" class="btn btn-default invest4" disabled="disabled">$10-25k</button>
                 <button type="button" class="btn btn-default invest5" disabled="disabled">$25-100k</button>
-                <button type="button" class="btn btn-default invest6" disabled="disabled">$100k+</button>
+                <button type="button" class="btn btn-default invest6"
+                disabled="disabled">$100k+</button>
               </div>
-              <div style="font-size: 12px; margin-top: 3px;">Amounts in USD</div>
+              <div style="font-size: 12px;">Amounts in USD</div>
             </div>
 
             <!-- <hr> -->
-            <div class="form-group text-center">
+            <div class="form-group text-center" >
               <button class="btn btn-green btn-block confirmation-modal-submit" style="margin-bottom: -10px; margin-top: 0;" disabled="disabled">
                 Submit
               </button>
+              <div class="submission-thankyou" style="color: #444; margin-top: 30px; margin-bottom: -10px; display: none;">
+                Thank you for your response!
+              </div>
             </div>
           </form>
-        </div> <!-- First Modal Screen -->
+
+        </div>
       </div><!-- /.modal-content -->
-
-      <div class="modal-content firstFormThankyou text-center" style="padding: 20px; display: none;">
-        <h4 style="color: #444;">Thank you for your response!</h4>
-        <div class="spacer10"></div>
-        <button type="button" class="btn btn-green" data-dismiss="modal" aria-label="Close">Close</button>
-        <div class="spacer10"></div>
-      </div>
-
-      <div class="modal-content secondForm" style="display: none;">
-        <div class="modal-header text-center">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="color: #444">
-            <span aria-hidden="true">&times;</span>
-            X
-          </button>
-          <h4 class="modal-title" style="color: #444">Thank You</h4>
-        </div>
-
-        <div class="modal-body">
-          <div class="contactCopy text-center">
-            <p>We appreciate your interest in the Storj Token Sale.</p>
-            <p>Our support team will be in touch shortly to ensure that we work to accommodate your needs and answer any questions.</p>
-
-            <p>In the meantime, you can reach out to us at: <a href="mailto:storj@argongroup.com?Subject=Storj%20Token%20Sale" style="color: #2683FF; font-weight: bold;">storj@argongroup.com</a>.
-            </p>
-
-            <div class="spacer10"></div>
-            <button type="button" class="btn btn-green" data-dismiss="modal" aria-label="Close">Close</button>
-            <div class="spacer10"></div>
-          </div>
-        </div>
-      </div>
-
     </div><!-- /.modal-dialog -->
   </div><!-- /.modal -->
 
@@ -868,6 +850,7 @@
       }
 
       analytics.identify(email, traits);
+
       analytics.track('Get Notified', {
         category: 'Token Sale',
         label: 'lp-cta'
@@ -952,37 +935,79 @@
 
     $('.invest1').on('click', function (e) {
       e.preventDefault();
+
       selectedGroup = amountGroups[0];
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[0]
+      });
+
       $('.confirmation-modal-submit').prop('disabled', false);
     });
 
     $('.invest2').on('click', function (e) {
       e.preventDefault();
+
       selectedGroup = amountGroups[1];
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[1]
+      });
+
       $('.confirmation-modal-submit').prop('disabled', false);
     });
 
     $('.invest3').on('click', function (e) {
       e.preventDefault();
+
       selectedGroup = amountGroups[2];
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[2]
+      });
+
       $('.confirmation-modal-submit').prop('disabled', false);
     });
 
     $('.invest4').on('click', function (e) {
       e.preventDefault();
+
       selectedGroup = amountGroups[3];
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[3]
+      });
+
       $('.confirmation-modal-submit').prop('disabled', false);
     });
 
     $('.invest5').on('click', function (e) {
       e.preventDefault();
+
       selectedGroup = amountGroups[4];
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[4]
+      });
+
       $('.confirmation-modal-submit').prop('disabled', false);
     });
 
     $('.invest6').on('click', function (e) {
       e.preventDefault();
+
       selectedGroup = amountGroups[5];
+
+      analytics.track('Token Purchase Survey', {
+        category: 'Intent',
+        label: amountGroups[5]
+      });
+
       $('.confirmation-modal-submit').prop('disabled', false);
     });
 
@@ -1008,15 +1033,11 @@
         purchaseSurveySubmission: selectedGroup
       });
 
-      var topGroups = amountGroups.slice(-3);
+      $('.submission-thankyou').css('display', 'inline-block');
 
-      if (topGroups.indexOf(selectedGroup) !== -1) {
-        $('.firstForm').toggle();
-        $('.secondForm').toggle();
-      } else {
-        $('.firstForm').toggle();
-        $('.firstFormThankyou').toggle();
-      }
+      setTimeout(function () {
+        window.location.replace('https://storj.io/tokensale');
+      }, 1500);
     });
 
   </script>
