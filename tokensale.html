@@ -151,6 +151,7 @@
       </div>
     </div>
   </section>
+  <section>
     <div class="section storj-video-wrapper text-center">
       <div class="container">
     		<div class="row">
@@ -158,22 +159,22 @@
     				<h1>How does it work?</h1>
             <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth.</p>
             <p>Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
-            <a href="" class="">
-              <button class="btn btn-green" style="min-width: 300px; margin-top: 4px;" id="learnmore">
-                Learn More
-              </button>
-            </a>
+            <button class="btn btn-green" style="min-width: 300px; margin-top: 4px;" id="learnmore">
+              Learn More
+            </button>
     			</div>
     		</div>
-        <div class="row hidden">
-          <!-- this div needs to be hidden and shown in modal -->
-          <div class="col-xs-12 col-md-8 col-md-push-2">
-            <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
+        <div class="modal" id="learnmoremodal">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="col-xs-12 col-md-8 col-md-push-2">
+                <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
     <div class="section" id="whitepaper">
     	<div class="container">
     		<div class="row text-center">
@@ -821,6 +822,10 @@
       $('#getStartedEmail').val('');
 
       $('#confirmation-modal').modal('show');
+    });
+
+    $('#learnmore').on('click', function(e) {
+      $('#learnmoremodal').modal('toggle');
     });
   </script>
 
