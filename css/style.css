@@ -2183,6 +2183,7 @@ Token Sale
   border: 10px solid rgba(255, 255, 255, 0.2);
   width: 140px;
   height: 140px;
+  margin-bottom: 10px;
 }
 
 .why-token-icon > .glyphicon {
