@@ -2210,6 +2210,24 @@ Token Sale
   color: #2683FF;
 }
 
+.highlight-icon {
+  background-color: #fff;
+  border-radius: 80px;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.highlight-icon > .glyphicon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 75px;
+  color: #2683FF;
+}
+
 /* --------------------------------
 
 Media Queries
