@@ -1973,6 +1973,9 @@ Token Sale
 .tokensale {
   overflow-x: hidden;
 }
+.tokensale-headline {
+  font-size: 44px;
+}
 .tokensale-bg {
   position: fixed;
   top: 0;
