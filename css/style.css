@@ -1984,6 +1984,11 @@ Token Sale
 .tokensale-headline {
   font-size: 44px;
 }
+@media (max-width: 650px) {
+  .tokensale-headline {
+    font-size: 18px;
+  }
+}
 .tokensale-bg {
   position: fixed;
   top: 0;
