@@ -2031,7 +2031,7 @@ Token Sale
   pointer-events:none;
 }
 
-.tokensale-clouds-contact {
+.tokensale-clouds-social {
   position: fixed;
   left: 0;
   right: 0;
@@ -2047,22 +2047,15 @@ Token Sale
 .tokensale-clouds-social-icons {
   display: flex;
   height: 40px;
-  width: 270px;
 }
 
 .tokensale-social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px 2.5px;
+  margin: 5px 2.5px;
   height: 30px;
   width: 30px;
-}
-
-.tokensale-clouds-cta-fields {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 5px;
 }
 
 .tokensale-social-icon img {
@@ -2201,6 +2194,10 @@ Token Sale
   margin-bottom: 16px;
   color: #fff;
   text-transform: uppercase;
+}
+
+#confirmation-modal .modal-body {
+  padding-top: 15px;
 }
 
 #confirmation-modal p, #confirmation-modal label {
