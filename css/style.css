@@ -2170,6 +2170,29 @@ Token Sale
   cursor: pointer;
 }
 
+.why-use-a-token .why-token-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #444;
+}
+
+.why-token-icon {
+  background-color: #fff;
+  border-radius: 80px;
+  border: 10px solid rgba(255, 255, 255, 0.2);
+  width: 140px;
+  height: 140px;
+}
+
+.why-token-icon > .glyphicon {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 75px;
+  color: #2683FF;
+}
+
 /* --------------------------------
 
 Media Queries
