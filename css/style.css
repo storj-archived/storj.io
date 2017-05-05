@@ -2151,6 +2151,25 @@ Token Sale
   padding-top: 15px;
 }
 
+#confirmation-modal p, #confirmation-modal label {
+  color: #444;
+}
+
+.secondForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contactEmail, .contactComments {
+  margin: 0;
+  min-width: 100%;
+}
+
+#confirmation-modal .toggleContactForm {
+  color: #2683FF;
+  cursor: pointer;
+}
+
 /* --------------------------------
 
 Media Queries
