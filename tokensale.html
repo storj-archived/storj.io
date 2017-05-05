@@ -105,25 +105,22 @@
 			<div class="row text-center">
 				<div class="col-xs-12">
 					<h1 class="tokensale-headline">Participate in the Storj Token Sale</h1>
-          <div class="spacer10"></div>
 					<p>Help Storj advance product development and speed the rate of innovation in cloud storage.</p>
-          <form id="mc-embedded-subscribe" class="validate form-inline">
-            <div class="form-group">
-              <input type="email" value="" name="EMAIL" class="email form-control" id="getStartedEmail" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
-              <button type="submit" class="btn btn-block btn-green subscribe get-notified-top form-control" style="min-width: 300px; margin-top: 4px;">
-                Get Notified
-              </button>
-            </div>
-            <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
-            <p style="color: rgba(255, 255, 255, 0.5); font-size: 12px;">*Current Storj token holders will convert into the Ethereum-based token on a one-to-one basis.</p>
-
-          </form>
+		            <form id="mc-embedded-subscribe" class="validate form-inline">
+		              <div class="form-group">
+		                <input type="email" value="" name="EMAIL" class="email form-control" id="getStartedEmail" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
+		                <button type="submit" class="btn btn-block btn-green subscribe get-notified-top form-control" style="min-width: 300px; margin-top: 4px;">
+		                  Get Notified
+		                </button>
+		              </div>
+		              <p class="promise">*Current Storj token holders will convert into the Ethereum-based token on a one-to-one basis.</p>
+		              <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
+		            </form>
 					<div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div>
 				</div>
 			</div>
 		</div>
 	</section>
-
   <section class="section text-center blue">
     <div class="container">
       <div class="row text-center">
@@ -133,55 +130,49 @@
           <div class="spacer50"></div>
         </div>
       </div>
-      <div class="row text-center">
-        <h1>Our Growth</h1>
-      </div>
       <div class="row">
       	<div class="col-xs-12">
           <div id="traction">
           	<div class="container">
           		<div class="row text-center">
-          			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-5 col-lg-offset-1" style="margin-right: 15px;">
-          				<h2>Supply Traction</h2>
+          			<div class="col-xs-12 col-sm-6 col-md-5 col-lg-5 col-lg-push-1">
+          				<h1>Supply Traction</h1>
           				<img src="img/traction-supply.png" alt="Storj Supply Traction Statistics" class="img-responsive">
           				<div class="spacer100"></div>
-                </div>
-              	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-5" style="margin-left: 15px;">
-                 	<h2>Demand Traction</h2>
+                	</div>
+                	<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1 col-lg-5 col-lg-push-1">
+                 		<h1>Demand Traction</h1>
           				<img src="img/traction-demand.png" alt="Storj Demand Traction Statistics" class="img-responsive">
             		</div>
-          		</div>
-          	</div>
+        		</div>
+        	</div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
-
-  <div class="section storj-video-wrapper text-center">
-    <div class="container">
-  		<div class="row">
-  			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
-  				<h1>How does it work?</h1>
-	            <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth. Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
-	            <!-- <a href="">
-	              <button class="btn btn-green" style="min-width: 300px; margin-top: 4px;">
-	              Learn More
-	              </button>
-	            </a> -->
-  			</div>
-  		</div>
-      <div class="row hidden">
-        <!-- this div needs to be hidden and shown in modal -->
-        <div class="col-xs-12 col-md-8 col-md-push-2">
-          <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
+  <section>
+    <div class="section storj-video-wrapper text-center">
+      <div class="container">
+    		<div class="row">
+    			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+    				<h1>How does it work?</h1>
+            <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth.</p>
+            <p>Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
+            <button class="btn btn-green" style="min-width: 300px; margin-top: 4px;" id="learnmore">
+              <span class="glyphicon glyphicon-play-circle" style="padding-top: 3px;"></span> Watch our video
+            </button>
+    			</div>
+    		</div>
+        <div class="modal" id="learnmoremodal">
+          <div class="modal-dialog" role="document">
+            <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-    <div class="section" id="whitepaper">
+    <!-- <div class="section" id="whitepaper">
     	<div class="container">
     		<div class="row text-center">
     			<div class="col-xs-12 col-md-8 col-md-push-2">
@@ -191,141 +182,54 @@
     			</div>
     		</div>
     	</div>
-    </div>
+    </div> -->
 
-    <section class="section why-use-a-token">
+    <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
-            <div class="token-symbol text-center">
-              <img src="img/logo-symbol.svg" alt="Storj" height="100" width="100">
+    		<div class="row">
+          <div class="text-center">
+            <div class="container">
+              <h1>Free and Open Source Software</h1>
             </div>
-            <h1 class="text-center">Why use a token?</h1>
-            <p>
-              We recently <a href="http://blog.storj.io/post/158740607128/migration-from-counterparty-to-ethereum" target="_blank" class="link">announced a migration</a> of Storj cryptocurrency, STORJ (formerly SJCX) to the Ethereum ERC20 standard from the Counterparty protocol on the Bitcoin blockchain. We made this move to help us reduce network transaction fees for the Storj community while also increasing functionality and usability.
-            </p>
-            <p>
-              But why do we use STORJ instead of an established coin like Bitcoin or Ether in the cryptocurrency ecosystem?  Here’s a quick rundown:
-            </p>
-            <div class="spacer20"></div>
+            <div class="container">
+              <p>Storj believes in a transparent and open source approach to creating technology. <br>We welcome your feedback, bug reports, pull requests and feature recommendations.</p>
+              <div class="row">
+          			<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-4"><p><a href="https://github.com/storj" class="btn btn-lg btn-green btn-block">Storj on GitHub</a> </p></div>
+          			<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-4"><p><a href="developers.html" class="btn btn-lg btn-green btn-block">Built For Developers</a></p></div>
+          		</div>
+            </div>
+          </div>
+          <div>
 
-            <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-filter" aria-hidden="true">
-                  </span>
-                </div>
-                <p><b>Granularity</b></p>
-                <p>
-                  Bitcoin isn’t divisible enough to support the <a href="http://blog.storj.io/post/111594471093/why-sjcx-why-not-bitcoin" target="_blank" class="link">granularity needed</a> for micropayments.
-                </p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-signal" aria-hidden="true" style="margin-right: 8px;">
-                  </span>
-                </div>
-                <p><b>Scalability</b></p>
-                <p>Using STORJ helps us identify and fix problems at scale, paving the way for a larger, more stable network.
-                </p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-object-align-vertical" aria-hidden="true" style="margin-left: 3px;">
-                  </span>
-                </div>
-                <p><b>Flexibility</b></p>
-                <p>Using STORJ allows us to migrate to the accepted standard, without being locked into a particular technology.</p>
-              </div>
-            </div>
-            <div class="spacer20"></div>
-
-            <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-book" aria-hidden="true">
-                  </span>
-                </div>
-                <p><b>Stability</b></p>
-                <p>A separate token like STORJ provides a layer of protection from the volatility of larger markets.</p>
-                </p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-usd" aria-hidden="true" style="margin-right: 8px;">
-                  </span>
-                </div>
-                <p><b>Incentivization</b></p>
-                <p>STORJ compensates our community members for their hard work in performing tasks like tier-one tech support, marketing, documentation, and development.
-                </p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-credit-card" aria-hidden="true"  style="margin-top: 5px;">
-                  </span>
-                </div>
-                <p><b>Micropayments</b></p>
-                <p>A network funded hub would allow transactions to be quick and only require low transaction fees for the users.</p>
-              </div>
-            </div>
-            <div class="spacer20"></div>
-
-            <div class="row">
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-globe" aria-hidden="true">
-                  </span>
-                </div>
-                <p><b>Partnerships</b></p>
-                <p>As Storj grows, we are interested in supporting the broader [Ethereum] ecosystem and building long-lasting partnerships.</p>
-                </p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-refresh" aria-hidden="true">
-                  </span>
-                </div>
-                <p><b>Ecosystem</b></p>
-                <p>Our token provides a positive feedback loop within the Storj ecosystem. Farmers can earn STORJ tokens for sharing their disk space, and then use it for renting data storage services themselves.
-                </p>
-              </div>
-              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 why-token-point">
-                <div class="why-token-icon text-center">
-                  <span class="glyphicon glyphicon-leaf" aria-hidden="true">
-                  </span>
-                </div>
-                <p><b>Future Growth</b></p>
-                <p>We plan to use the token in ways raw Bitcoin or Ether can’t be used. For example, the Storj-specific signaling described in <a href="https://github.com/Storj/sips/blob/master/sip-0002.md" class="link">SIP0002</a></p>
-              </div>
-            </div>
-            <div class="spacer20"></div>
-
-            <div class="row">
-              <h4 class="text-center">Storj is designed to be flexible and modular.</h4>
-              <h4 class="text-center">We believe that using a token is the best payment system for the foreseeable future.</h4>
-            </div>
-
-            </div>
+          </div>
         </div>
       </div>
-    </section>
-
-    <div class="section text-center open-source">
+    </div>
+    <div class="section">
       <div class="container">
     		<div class="row">
-    			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3">
-    				<div class="value-icon">
-    					<img src="img/icon-community.svg" alt="Open-Source Software" class="icon-opensource">
+    			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+    				<div class="token-symbol text-center">
+    					<img src="img/logo-symbol.svg" alt="Storj" height="100" width="100">
     				</div>
-    				<h1>Free &amp; Open-Source Software</h1>
-    				<p>We are passionate about decentralization, and we love free and open-source software. Our mission is to rethink cloud storage, to provide the security, privacy, and transparency it’s missing. That's why we are building an open-source cloud platform, that aim to fundamentally change the way people and devices own data. We welcome your feedback, bug reports, and pull requests.</p>
-    			</div>
-    		</div>
-    		<div class="row">
-    			<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="https://github.com/storj" class="btn btn-lg btn-green btn-block">Storj on GitHub</a> </p></div>
-    			<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="developers.html" class="btn btn-lg btn-green btn-block">Get Involved</a></p></div>
-    		</div>
-      </div>
+    				<h1 class="text-center">Why use a token?</h1>
+    				<p>There are many established coins like Bitcoin and Ether in the cryptocurrency ecosystem. We have been asked many times why we chose to issue our own token specifically for Storj. Here are the reasons why we did so, instead of using an existing token or coin:</p>
+    				<div class="spacer20"></div>
+    				<p><b>1. Granularity</b> - Bitcoin isn’t divisible enough to support the granularity needed for micropayments. We described this in a <a href="http://blog.storj.io/post/111594471093/why-sjcx-why-not-bitcoin" target="_blank" class="link">blog post back in 2015</a>.</p>
+    				<p><b>2. Bootstrapping</b> - When we first started the network, Storj was an empty market. No farmers, no renters, and nothing to buy or sell. Storj only works at scale. Using SJCX to bootstrap the Storj network lets us kickstart the system. It helps us identify and fix problems at scale, and paves the way for a larger, more stable network.</p>
+    				<p><b>3. Flexibility</b> - Technology develops and changes over time. Using our own token allows us to migrate to the accepted standard, without being locked into a particular technology.</p>
+    				<p><b>4. Stability</b> - Cryptocurrency markets are volatile. A separate token provides a layer of protection from the volatility of larger markets. Volatility is extremely dangerous for long-term storage contracts. All coins rise and sink with the largest markets, but less violently.</p>
+    				<p><b>5. Incentivization</b> - Our token has been a very important part of incentivizing community members for their hard work, compensating them for performing tasks like tier-one tech support, marketing, documentation, and development. Our early adopters and backers are up 20 times since inception and we love that they have been handsomely rewarded for their contributions to the Storj network.</p>
+    				<p><b>6. Micropayments</b> - Hub based micropayment networks require the lockup of funds in channels. These hubs can be funded by the network, rather than the operators (who would require high fees to maintain those payment hubs). This will allow transactions to be quick and only require low transaction fees for the users.</p>
+    				<p><b>7. Currency</b> - As we grow, we are interested in supporting the broader [ethereum] ecosystem and building long-lasting partnerships. Having our own funding mechanism to align interests and goals will give our strategic partners additional flexibility.</p>
+    				<p><b>8. Ecosystem</b> - Our token allows for a positive feedback loop inside of the Storj ecosystem. Farmers can earn the token for sharing their disk space, and then use it for renting data storage services themselves.</p>
+    				<p><b>9. Future</b> - We plan to use the token in ways raw Bitcoin or Ether can’t be used. For example, the Storj-specific signaling described in <a href="https://github.com/Storj/sips/blob/master/sip-0002.md" target="_blank" class="link">SIP0002</a>.</p>
+    				<div class="spacer20"></div>
+    				<p>We designed Storj to be flexible and modular. The whitepaper says this up front: <i>“Storj is payment agnostic. Neither the protocol nor the contract requires a specific payment system.”</i></p>
+    				<p>However, we believe that using a token is the best payment system for the foreseeable future. We believe that the future is a vibrant ecosystem of many tokens, and we look forward to being part of it.</p>
+        	</div>
+	      </div>
+	    </div>
     </div>
 
     <div class="section team" id="team">
@@ -846,7 +750,7 @@
 	<script src="js/jquery.easing.min.js"></script>
 	<script type="text/javascript" src="slick/slick.min.js"></script>
 	<script type="text/javascript" src="js/TimeCircles/TimeCircles.js"></script>
-	<script type="text/javascript" src="/js/segment.js"></script>
+	<!-- <script type="text/javascript" src="js/segment.js"></script> -->
 
 	<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = "<iframe src='https://player.vimeo.com/video/102119715?autoplay=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";}</script>
 
@@ -918,6 +822,10 @@
       $('#getStartedEmail').val('');
 
       $('#confirmation-modal').modal('show');
+    });
+
+    $('#learnmore').on('click', function(e) {
+      $('#learnmoremodal').modal('toggle');
     });
   </script>
 
