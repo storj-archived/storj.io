@@ -1745,14 +1745,22 @@ TEAM
 .team-member-title {
   height: 40px;
   font-size: 15px;
+  margin-bottom: 0;
 }
 
 .get-in-touch {
   margin-top: 20px;
 }
 
+.team-member-profile-li {
+  margin-top: 20px;
+}
 
-
+.team-member-profile {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
 /* --------------------------------
 
 FAQ
