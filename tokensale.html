@@ -888,6 +888,10 @@
 
   <!-- Submit Get Notified -->
   <script>
+    $('#learnmore').on('click', function(e) {
+      $('#learnmoremodal').modal('toggle');
+    });
+
     $('#mc-embedded-subscribe').on('submit', function(e) {
       e.preventDefault();
       var email = $('#getStartedEmail').val();
