@@ -65,13 +65,20 @@
 	<img src="img/stars-right.svg" alt="" class="tokensale-stars-right visible-lg">
 	<div class="tokensale-clouds"></div>
 
-  <div class="tokensale-clouds-contact row">
-    <div class="tokensale-clouds-social col-sm-6 col-md-6 col-lg-6" style="width: 275px;">
-      <h4 class="tokensale-clouds-social-title" style="color: #2683FF;">Connect with us</h4>
+  <div class="tokensale-clouds-contact">
+    <div class="tokensale-clouds-social" style="margin-left: 5px">
+      <p class="tokensale-clouds-social-title" style="color: #2683FF; margin-left: 5px; margin-bottom: 0; font-weight: bold;">
+        Connect with us
+      </p>
       <div class="tokensale-clouds-social-icons">
-        <div class="tokensale-social-icon" style="background-color: #88C425; border-radius: 50%; margin-left: 10px;">
+        <div class="tokensale-social-icon" style="background-color: #88C425; border-radius: 50%;">
           <a id="connect-blog" href="http://blog.storj.io/" target="_blank">
             <img src="img/icon-blog.svg" alt="The Storj Blog" style="height: 15px; width: 15px;">
+          </a>
+        </div>
+        <div class="tokensale-social-icon">
+          <a href="https://twitter.com/storjproject" target="_blank">
+            <img src="img/icon-twitter-circle.svg" alt="Storj on Twitter">
           </a>
         </div>
         <div class="tokensale-social-icon">
@@ -82,11 +89,6 @@
         <div class="tokensale-social-icon">
           <a href="https://www.reddit.com/r/Storj" target="_blank">
             <img src="img/icon-reddit-circle.png" alt="Storj on Reddit">
-          </a>
-        </div>
-        <div class="tokensale-social-icon">
-          <a href="https://twitter.com/storjproject" target="_blank">
-            <img src="img/icon-twitter-circle.svg" alt="Storj on Twitter">
           </a>
         </div>
         <div class="tokensale-social-icon">
@@ -107,13 +109,13 @@
       </div>
     </div>
 
-    <div class="tokensale-clouds-cta col-sm-6 col-md-6 col-lg-6 pull-right" style="width: 300px;">
+    <!-- <div class="tokensale-clouds-cta pull-right" style="max-width: 300px;">
       <h4 class="tokensale-clouds-cta-title" style="color: #2683FF; margin-right: 10px; text-align: right;">Get notified</h4>
       <form id="subscribe-cloud" class="tokensale-clouds-cta-fields validate form-inline">
         <input id="subscribe-cloud-email" value="" type="email" class="tokensale-clouds-cta-email form-control email" style="height: 30px; width: 225px; margin: 0; padding: 0; text-indent: 10px;" placeholder="Your email address">
         <button type="submit" class="btn btn-green" style="height: 30px; width: 40px; padding: 5px; margin-right: 10px; margin-left: 2.5px;"><i class="glyphicon glyphicon-check"></i></button>
       </form>
-    </div>
+    </div> -->
   </div>
 
 	<nav class="navbar navbar-default menu">
@@ -160,8 +162,8 @@
 					<p>Help Storj advance product development and speed the rate of innovation in cloud storage.</p>
           <form id="subscribe-top" class="validate form-inline">
             <div class="form-group">
-              <input type="email" value="" class="email form-control" id="subscribe-top-email" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
-              <button type="submit" class="btn btn-block btn-green subscribe form-control" style="min-width: 300px; margin-top: 4px;">
+              <input type="email" value="" class="email form-control" id="subscribe-top-email" placeholder="Enter your email address" spellcheck="false" style="width: 300px;" required>
+              <button type="submit" class="btn btn-green subscribe form-control" style="width: 300px; margin-top: 4px;">
                 Get Notified
               </button>
             </div>
@@ -214,11 +216,11 @@
             <h1>How does Storj work?</h1>
             <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth.</p>
             <p>Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
-            <button class="btn btn-green" style="min-width: 300px; margin-top: 4px;" id="learnmore">
+            <button class="btn btn-green" style="width: 300px; margin: 10px 2.5px;" id="learnmore">
               <span class="glyphicon glyphicon-play-circle"></span> Watch our video
             </button>
             <a href="https://storj.io/storj.pdf">
-              <button type="button" class="btn btn-green" name="readourwhitepaper" style="min-width: 300px; margin-top: 4px;">
+              <button type="button" class="btn btn-green" name="readourwhitepaper" style="width: 300px; margin: 10px 2.5px;">
                 <span class="glyphicon glyphicon-file"></span> Read our whitepaper
               </button>
             </a>
@@ -239,6 +241,7 @@
         <div class="row">
           <div class="col-xs-10 col-xs-push-1 col-md-10 col-md-push-1 text-center">
           <h1>Storj Highlights</h1>
+          <div class="spacer20"></div>
             <div class="row">
               <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
                 <div class="highlight-icon text-center">
@@ -283,8 +286,8 @@
             <p>Stay up to date on the latest news and events related to the Storj Token Sale.</p>
             <form id="subscribe-middle" class="validate form-inline">
               <div class="form-group">
-                <input type="email" value="" class="email form-control" id="subscribe-middle-email" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
-                <button type="submit" class="btn btn-block btn-green subscribe form-control" style="min-width: 300px; margin-top: 4px;">
+                <input type="email" value="" class="email form-control" id="subscribe-middle-email" placeholder="Enter your email address" spellcheck="false" style="width: 300px;" required>
+                <button type="submit" class="btn btn-block btn-green subscribe form-control" style="width: 300px; margin-top: 4px;">
                   Get Notified
                 </button>
               </div>
@@ -716,32 +719,31 @@
     <div class="row text-center">
       <h1>Token Advisors</h1>
     </div>
-    <div class="row text-center token-advisors">
-    	<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
-    		<div class="row">
-          <div class="col-xs-4">
-            <a href="https://argongroup.com/" target="blank">
-            	<div class="tokensale-partner">
-            		<img src="img/argongroup.jpg" alt="Argon Group" class="img-responsive">
-            	</div>
-            </a>
-          </div>
-          <div class="col-xs-4">
-            <a href="https://tokenmarket.net/" target="blank">
-            	<div class="tokensale-partner">
-            		<img src="img/tokenmarket.jpg" alt="TokenMarket" class="img-responsive">
-            	</div>
-            </a>
-          </div>
-          <div class="col-xs-4">
-            <a href="https://coinfund.io/" target="blank">
-            	<div class="tokensale-partner">
-            		<img src="img/coinfund.jpg" alt="CoinFund" class="img-responsive">
-            	</div>
-            </a>
-          </div>
-        </div>
+
+    <div class="text-center token-advisors" style="display: flex; justify-content: center; padding: 0 3rem; flex-wrap: wrap;">
+
+      <div class="">
+        <a href="https://argongroup.com/" target="blank">
+        	<div class="tokensale-partner">
+        		<img src="img/argongroup.jpg" alt="Argon Group" class="img-responsive">
+        	</div>
+        </a>
       </div>
+      <div class="" style="margin: 0 3em;">
+        <a href="https://tokenmarket.net/" target="blank">
+        	<div class="tokensale-partner">
+        		<img src="img/tokenmarket.jpg" alt="TokenMarket" class="img-responsive">
+        	</div>
+        </a>
+      </div>
+      <div class="">
+        <a href="https://coinfund.io/" target="blank">
+        	<div class="tokensale-partner">
+        		<img src="img/coinfund.jpg" alt="CoinFund" class="img-responsive">
+        	</div>
+        </a>
+      </div>
+
     </div>
   </section>
 <!--
@@ -888,8 +890,8 @@
             <p>Stay up to date on the latest news and events related to the Storj Token Sale.</p>
             <form id="subscribe-bottom" class="validate form-inline">
               <div class="form-group">
-                <input type="email" value="" class="email form-control" id="subscribe-bottom-email" placeholder="Enter your email address" spellcheck="false" style="min-width: 300px;" required>
-                <button type="submit" class="btn btn-block btn-green subscribe form-control" style="min-width: 300px; margin-top: 4px;">
+                <input type="email" value="" class="email form-control" id="subscribe-bottom-email" placeholder="Enter your email address" spellcheck="false" style="width: 300px;" required>
+                <button type="submit" class="btn btn-block btn-green subscribe form-control" style="width: 300px; margin-top: 4px;">
                   Get Notified
                 </button>
               </div>
@@ -1087,10 +1089,10 @@
       subscribeSubmitted('#subscribe-bottom-email');
     })
 
-    $('#subscribe-cloud').on('submit', function (e) {
-      e.preventDefault();
-      subscribeSubmitted('#subscribe-cloud-email');
-    })
+    // $('#subscribe-cloud').on('submit', function (e) {
+    //   e.preventDefault();
+    //   // subscribeSubmitted('#subscribe-cloud-email');
+    // })
   </script>
 
   <!-- GA events -->
@@ -1162,9 +1164,9 @@
     $('#subscribe-bottom-email').on('keyup', function () {
       setEmail('#subscribe-bottom-email')
     })
-    $('#subscribe-cloud-email').on('keyup', function () {
-      setEmail('#subscribe-cloud-email')
-    })
+    // $('#subscribe-cloud-email').on('keyup', function () {
+      // setEmail('#subscribe-cloud-email')
+    // })
 
     $('.invest1').prop('disabled', false);
     $('.invest2').prop('disabled', false);

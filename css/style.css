@@ -2037,17 +2037,24 @@ Token Sale
   right: 0;
   bottom: 0;
   z-index: 1000;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tokensale-clouds-social-title {
-  margin-left: 10px;
   margin-bottom: 3px;
+}
+
+@media (max-width: 920px) {
+  .tokensale-clouds-social-title {
+    visibility: hidden;
+  }
 }
 
 .tokensale-clouds-social-icons {
   display: flex;
   height: 40px;
-  width: 270px;
+  margin-bottom: 10px;
 }
 
 .tokensale-social-icon {
@@ -2055,8 +2062,10 @@ Token Sale
   align-items: center;
   justify-content: center;
   margin: 10px 2.5px;
-  height: 30px;
-  width: 30px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #D2EBF9;
 }
 
 .tokensale-clouds-cta-fields {
@@ -2268,6 +2277,13 @@ Token Sale
   transform: translateY(-50%);
   font-size: 75px;
   color: #2683FF;
+}
+
+.token-advisors {
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem;
+  flex-wrap: wrap;
 }
 
 /* --------------------------------
@@ -2631,9 +2647,6 @@ Media Queries
 	.footer-logo p {
 	    display: block;
 	}
-  .token-advisors .tokensale-partner {
-    padding: 1em;
-  }
   .tokensale #social .panel-card {
     padding: 44px;
   }
