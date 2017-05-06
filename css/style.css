@@ -1985,11 +1985,6 @@ Token Sale
 .tokensale-headline {
   font-size: 44px;
 }
-@media (max-width: 650px) {
-  .tokensale-headline {
-    font-size: 18px;
-  }
-}
 .tokensale-bg {
   position: fixed;
   top: 0;
@@ -2044,12 +2039,6 @@ Token Sale
 
 .tokensale-clouds-social-title {
   margin-bottom: 3px;
-}
-
-@media (max-width: 920px) {
-  .tokensale-clouds-social-title {
-    visibility: hidden;
-  }
 }
 
 .tokensale-clouds-social-icons {
@@ -2346,7 +2335,7 @@ Media Queries
     .value p {
     	font-size: 14px;
     }
-	.team-member {
+	  .team-member {
     	padding: 30px 0;
   	}
   	.storjshare-intro {
@@ -2662,4 +2651,7 @@ Media Queries
 	.footer-logo p {
 	    display: block;
 	}
+  .tokensale-headline {
+    font-size: 32px;
+  }
 }
