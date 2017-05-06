@@ -2175,6 +2175,8 @@ Token Sale
 }
 .tokensale .promise {
   color: rgba(255, 255, 255, 0.5);
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 .tokensale .team-member-image {
     margin-bottom: 10px;
