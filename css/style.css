@@ -2037,17 +2037,23 @@ Token Sale
   right: 0;
   bottom: 0;
   z-index: 1000;
+  display: flex;
+  justify-content: space-between;
 }
 
 .tokensale-clouds-social-title {
-  margin-left: 10px;
   margin-bottom: 3px;
+}
+
+@media (max-width: 920px) {
+  .tokensale-clouds-social-title {
+    visibility: hidden;
+  }
 }
 
 .tokensale-clouds-social-icons {
   display: flex;
   height: 40px;
-  width: 270px;
 }
 
 .tokensale-social-icon {
@@ -2055,8 +2061,10 @@ Token Sale
   align-items: center;
   justify-content: center;
   margin: 10px 2.5px;
-  height: 30px;
-  width: 30px;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #D2EBF9;
 }
 
 .tokensale-clouds-cta-fields {
