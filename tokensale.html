@@ -109,13 +109,13 @@
       </div>
     </div>
 
-    <div class="tokensale-clouds-cta pull-right" style="max-width: 300px;">
+    <!-- <div class="tokensale-clouds-cta pull-right" style="max-width: 300px;">
       <h4 class="tokensale-clouds-cta-title" style="color: #2683FF; margin-right: 10px; text-align: right;">Get notified</h4>
       <form id="subscribe-cloud" class="tokensale-clouds-cta-fields validate form-inline">
         <input id="subscribe-cloud-email" value="" type="email" class="tokensale-clouds-cta-email form-control email" style="height: 30px; width: 225px; margin: 0; padding: 0; text-indent: 10px;" placeholder="Your email address">
         <button type="submit" class="btn btn-green" style="height: 30px; width: 40px; padding: 5px; margin-right: 10px; margin-left: 2.5px;"><i class="glyphicon glyphicon-check"></i></button>
       </form>
-    </div>
+    </div> -->
   </div>
 
 	<nav class="navbar navbar-default menu">
@@ -1089,10 +1089,10 @@
       subscribeSubmitted('#subscribe-bottom-email');
     })
 
-    $('#subscribe-cloud').on('submit', function (e) {
-      e.preventDefault();
-      subscribeSubmitted('#subscribe-cloud-email');
-    })
+    // $('#subscribe-cloud').on('submit', function (e) {
+    //   e.preventDefault();
+    //   // subscribeSubmitted('#subscribe-cloud-email');
+    // })
   </script>
 
   <!-- GA events -->
@@ -1164,9 +1164,9 @@
     $('#subscribe-bottom-email').on('keyup', function () {
       setEmail('#subscribe-bottom-email')
     })
-    $('#subscribe-cloud-email').on('keyup', function () {
-      setEmail('#subscribe-cloud-email')
-    })
+    // $('#subscribe-cloud-email').on('keyup', function () {
+      // setEmail('#subscribe-cloud-email')
+    // })
 
     $('.invest1').prop('disabled', false);
     $('.invest2').prop('disabled', false);
