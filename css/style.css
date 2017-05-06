@@ -2230,6 +2230,11 @@ Token Sale
   color: #444;
 }
 
+.why-token-point {
+  min-height: 350px;
+  text-align: center;
+}
+
 .why-token-icon {
   background-color: #fff;
   border-radius: 80px;
