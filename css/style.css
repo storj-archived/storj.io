@@ -2270,6 +2270,13 @@ Token Sale
   color: #2683FF;
 }
 
+.token-advisors {
+  display: flex;
+  justify-content: center;
+  padding: 0 3rem;
+  flex-wrap: wrap;
+}
+
 /* --------------------------------
 
 Media Queries
@@ -2631,9 +2638,6 @@ Media Queries
 	.footer-logo p {
 	    display: block;
 	}
-  .token-advisors .tokensale-partner {
-    padding: 1em;
-  }
   .tokensale #social .panel-card {
     padding: 44px;
   }
