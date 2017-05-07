@@ -2027,61 +2027,6 @@ Token Sale
   pointer-events:none;
 }
 
-.tokensale-clouds-contact {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1000;
-  display: flex;
-  justify-content: space-between;
-}
-
-.tokensale-clouds-social-title {
-  margin-bottom: 3px;
-}
-
-.tokensale-clouds-social-icons {
-  display: flex;
-  align-items: center;
-  height: 40px;
-}
-
-.tokensale-social-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 2.5px;
-  border-radius: 50%;
-  height: 40px;
-  width: 40px;
-  background-color: #D2EBF9;
-}
-
-.blog-icon-custom {
-  background-color: #88C425;
-  border-radius: 50%;
-  height: 30px;
-  width: 30px;
-}
-
-#connect-blog {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-
-.tokensale-clouds-cta-fields {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 5px;
-}
-
-.tokensale-social-icon img {
-  height: 30px;
-  width: 30px;
-}
-
 .tokensale .header {
   background: none;
 }
@@ -2214,6 +2159,41 @@ Token Sale
   height: 120px;
   margin: 1em auto;
   padding: 1.4em 0;
+}
+
+.tokensale #social-little {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+}
+/* Portrait and Landscape */
+@media only screen
+  and (max-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .tokensale #social-little {
+    display: none;
+  }
+}
+.tokensale #social-little .link-icon {
+  margin: 10px 2.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1.5px solid #2683FF;
+  height: 40px;
+  width: 40px;
+  background-color: #fff;
+}
+.tokensale #social-little .link-icon:first-child {
+  margin-left: 10px;
+}
+.tokensale #social-little .link-icon img {
+  height: 25px;
+  width: 25px;
 }
 
 .tokensale-banner {
