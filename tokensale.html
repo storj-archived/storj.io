@@ -99,138 +99,90 @@
 	  </div>
 	</nav>
 
-	<section class="section">
+	<section>
 		<div class="container">
+      <div class="lead tokensale-countdown text-center">Starting in <strong id="DateCountdownBanner"></strong></div>
 			<div class="row text-center">
-				<div class="col-xs-12">
+          <!-- <div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div> -->
+          <!-- It's also Alex's birthday! :))) -->
+          <div class="spacer15"></div>
 					<h1 class="tokensale-headline">Participate in the Storj Token Sale</h1>
-					<p>Help Storj advance product development and speed the rate of innovation in cloud storage.</p>
-		          	<form id="subscribe-top" class="validate form-inline">
-		              	<input type="email" value="" class="email" id="subscribe-top-email" placeholder="Enter your email address" spellcheck="false" required>
-		              	<input type="submit" value="Get Notified" class="btn btn-green subscribe">
-			            <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
-		          	</form>
-					<div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1">
+  					  <p>Momentum is building and sale is likely to be oversubscribed.<br>Enter your email below to indicate your desired allocation:</p>
+            </div>
+          </div>
+        	<form id="subscribe-top" class="validate form-inline">
+            	<input type="email" value="" class="email" id="subscribe-top-email" placeholder="Enter your email address" spellcheck="false" required>
+            	<input type="submit" value="Subscribe" class="btn btn-green subscribe">
+        	</form>
+          <span class="promise">*We will never share, rent, or sell your email address to anyone, ever.</span>
 				</div>
 			</div>
 		</div>
 	</section>
 
-  <section class="section text-center blue">
+  <div class="container">
+    <div class="line-space text-center"></div>
+  </div>
+
+  <section class="talking-points container">
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>Full Details <br>Monday, May 8th</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>$30MM sale target</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>$10MM <br> in early demand</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>1:1 exchange from SJCX to STORJ</h4>
+    </div>
+  </section>
+
+  <div class="spacer40"></div>
+
+  <section class="section text-center highlights">
     <div class="container">
-      <div class="row text-center">
-        <div class="col-xs-12 col-md-8 col-md-push-2">
-          <h1>Who We Are</h1>
-          <p>Storj aims to become the world’s largest cloud storage provider without operating a data center. <br> We’re providing the first crowdsourced, end-to-end encrypted cloud storage using blockchain technology and cryptography to secure files. <br> We are creating a community to share bandwidth and storage resources that are readily available, but thus far under-utilized.</p>
-          <div class="spacer50"></div>
-        </div>
-      </div>
-      <div class="row text-center">
-        <h1>Our Growth</h1>
-      </div>
       <div class="row">
-        <div id="traction">
-        	<div class="container">
-        		<div class="row text-center">
-        			<div class="col-xs-12 col-sm-6 col-md-5">
-        				<h2>Supply Traction</h2>
-        				<img src="img/traction-supply-may.png" alt="Storj Supply Traction Statistics" class="img-responsive">
-              		</div>
-            		<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-2">
-               			<h2>Demand Traction</h2>
-        				<img src="img/traction-demand-may.png" alt="Storj Demand Traction Statistics" class="img-responsive">
-          			</div>
-        		</div>
-        	</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="section storj-video-wrapper text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
-            <h1>How does Storj work?</h1>
-            <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth.</p>
-            <p>Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
-            <button class="btn btn-green" style="width: 300px; margin: 10px 2.5px;" id="learnmore">
-              <span class="glyphicon glyphicon-play-circle"></span> Watch our video
-            </button>
-            <a href="https://storj.io/storj.pdf">
-              <button type="button" class="btn btn-green" name="readourwhitepaper" style="width: 300px; margin: 10px 2.5px;">
-                <span class="glyphicon glyphicon-file"></span> Read our whitepaper
-              </button>
-            </a>
-          </div>
-        </div>
-        <div class="modal" id="learnmoremodal">
-          <div class="modal-dialog" role="document">
-            <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="section text-center highlights">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-10 col-xs-push-1 col-md-10 col-md-push-1 text-center">
-          <h1>Storj Highlights</h1>
-          <div class="spacer20"></div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
-                <div class="highlight-icon text-center">
-                  <img src="img/icon-oneclickstart.svg" height="100" width="100" alt="" style="margin-top: 5px;">
-                </div>
-                <p><b>Channel Partnerships</b></p>
-                <p>We've partnered with Microsoft Azure and Heroku to offer Storj integrations with PaaS providers you already use.</p>
+        <div class="col-xs-10 col-xs-push-1 col-md-10 col-md-push-1 text-center">
+        <h1>Our Accomplishments</h1>
+        <p>One of the few token sales backed by a working product</p>
+        <div class="spacer20"></div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
+              <div class="highlight-icon text-center">
+                <img src="img/icon-oneclickstart.svg" height="100" width="100" alt="" style="margin-top: 5px;">
               </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
-                <div class="highlight-icon text-center">
-                  <img src="img/icon-fast.svg" height="100" width="100" alt="" style="margin-top: 5px;">
-                </div>
-                <p><b>Enterprise Ready</b></p>
-                <p>We signed our first service agreement with a Fortune 500 company in 2017 and doubled our developer team.</p>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
-                <div class="highlight-icon text-center">
-                  <img src="img/icon-opensource.svg" alt="Storj Free and Open Source Software" height="100" width="100" style="margin-top: 8px; margin-left: 8px;">
-                </div>
-                <p><b>Free Software</b></p>
-                <p>Storj believes in maintaining a free and open source software model.
-                  <a href="https://github.com/Storj" target="_blank">Check out out Github</a> and see for yourself.</p>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
-                <div class="highlight-icon text-center">
-                  <img src="img/icon-capacity.svg" alt="" height="100" width="100" style="margin-top: 5px;">
-                </div>
-                <p><b>Rapidly Growing</b></p>
-                <p>We have over 20,000 users and almost 19,000 farmers on the Storj network, with steady growth each month in the last year.</p>
-              </div>
+              <p><b>Channel Partnerships</b></p>
+              <p>We've partnered with Microsoft Azure and Heroku to offer Storj integrations with PaaS providers you already use.</p>
             </div>
-        </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
+              <div class="highlight-icon text-center">
+                <img src="img/icon-fast.svg" height="100" width="100" alt="" style="margin-top: 5px;">
+              </div>
+              <p><b>Enterprise Ready</b></p>
+              <p>We signed our first service agreement with a Fortune 500 company in 2017 and doubled our developer team.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
+              <div class="highlight-icon text-center">
+                <img src="img/icon-opensource.svg" alt="Storj Free and Open Source Software" height="100" width="100" style="margin-top: 8px; margin-left: 8px;">
+              </div>
+              <p><b>Free Software</b></p>
+              <p>Storj believes in maintaining a free and open source software model.
+                <a href="https://github.com/Storj" target="_blank">Check out out Github</a> and see for yourself.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 why-token-point">
+              <div class="highlight-icon text-center">
+                <img src="img/icon-capacity.svg" alt="" height="100" width="100" style="margin-top: 5px;">
+              </div>
+              <p><b>Rapidly Growing</b></p>
+              <p>We have over 20,000 users and almost 19,000 farmers on the Storj network, with steady growth each month in the last year.</p>
+            </div>
+          </div>
       </div>
     </div>
-  </section>
-
-  <section class="section">
-  	<div class="container">
-  	  <div class="row text-center">
-  	    <div class="col-xs-12 col-md-8 col-md-push-2">
-            <h1>Get notified of the token sale launch</h1>
-            <p>Stay up to date on the latest news and events related to the Storj Token Sale.</p>
-            <form id="subscribe-middle" class="validate form-inline">
-              <input type="email" value="" class="email" id="subscribe-middle-email" placeholder="Enter your email address" spellcheck="false" required>
-              <input type="submit" value="Get Notified" class="btn btn-block btn-green subscribe">
-              <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
-            </form>
-  	    </div>
-  	  </div>
-  	</div>
   </section>
 
   <section class="section why-use-a-token">
@@ -350,6 +302,80 @@
     </div>
   </section>
 
+  <section class="section text-center blue">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-xs-12 col-md-8 col-md-push-2">
+          <h1>Who We Are</h1>
+          <p>Storj aims to become the world’s largest cloud storage provider without operating a data center. <br> We’re providing the first crowdsourced, end-to-end encrypted cloud storage using blockchain technology and cryptography to secure files. <br> We are creating a community to share bandwidth and storage resources that are readily available, but thus far under-utilized.</p>
+          <div class="spacer50"></div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <h1>Our Growth</h1>
+      </div>
+      <div class="row">
+        <div id="traction">
+        	<div class="container">
+        		<div class="row text-center">
+        			<div class="col-xs-12 col-sm-6 col-md-5">
+        				<h2>Supply Traction</h2>
+        				<img src="img/traction-supply-may.png" alt="Storj Supply Traction Statistics" class="img-responsive">
+              		</div>
+            		<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-2">
+               			<h2>Demand Traction</h2>
+        				<img src="img/traction-demand-may.png" alt="Storj Demand Traction Statistics" class="img-responsive">
+          			</div>
+        		</div>
+        	</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="section storj-video-wrapper text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+            <h1>How Storj Works</h1>
+            <p>Storj is a peer-to-peer network comprised of “farmers,” users who rent out their spare hard drive space and bandwidth.</p>
+            <p>Storj is up to 10x faster and 50% less expensive than traditional data center-based cloud storage solutions. Storj is a platform, a cryptocurrency, and a suite of applications for developers looking to build better tools and applications. By using blockchain technologies, Storj users don’t have to assume the risk of censorship or hacking as with data centers.</p>
+            <button class="btn btn-green" style="width: 300px; margin: 10px 2.5px;" id="learnmore">
+              <span class="glyphicon glyphicon-play-circle"></span> Watch our video
+            </button>
+            <a href="https://storj.io/storj.pdf">
+              <button type="button" class="btn btn-green" name="readourwhitepaper" style="width: 300px; margin: 10px 2.5px;">
+                <span class="glyphicon glyphicon-file"></span> Read our whitepaper
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="modal" id="learnmoremodal">
+          <div class="modal-dialog" role="document">
+            <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+  	<div class="container">
+  	  <div class="row text-center">
+  	    <div class="col-xs-12 col-md-8 col-md-push-2">
+            <h1>Get notified of the token sale launch</h1>
+            <p>Stay up to date on the latest news and events related to the Storj Token Sale.</p>
+            <form id="subscribe-middle" class="validate form-inline">
+              <input type="email" value="" class="email" id="subscribe-middle-email" placeholder="Enter your email address" spellcheck="false" required>
+              <input type="submit" value="Get Notified" class="btn btn-block btn-green subscribe">
+              <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
+            </form>
+  	    </div>
+  	  </div>
+  	</div>
+  </section>
+
   <section class="section team" id="team" style="padding-bottom: 0;">
     <div class="container">
       <div class="row text-center">
@@ -359,155 +385,160 @@
 
       <div class="spacer20"></div>
 
-	  <div class="row">
+  	  <div class="row">
+    		<div class="team-member">
+    			<img src="img/team/shawn.jpg" alt="Shawn Wilkinson" class="team-member-image">
+    			<h4 class="team-member-name">Shawn Wilkinson</h4>
+    			<p class="team-member-title">Founder &amp;<br>CEO &amp; CTO</p>
+    			<a href="https://www.linkedin.com/in/shawn-wilkinson-4b2899b1" target="_blank">
+    			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/shawn.jpg" alt="Shawn Wilkinson" class="team-member-image">
-			<h4 class="team-member-name">Shawn Wilkinson</h4>
-			<p class="team-member-title">Founder &amp;<br>CEO &amp; CTO</p>
-			<a href="https://www.linkedin.com/in/shawn-wilkinson-4b2899b1" target="_blank">
-			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
-			</a>
-		</div>
+    		<div class="team-member">
+    			<img src="img/team/tome.jpg" alt="Tome Boshevski" class="team-member-image">
+    			<h4 class="team-member-name">Tome Boshevski</h4>
+    			<p class="team-member-title">Founder &amp; Chief<br/>Design Officer</p>
+    			<a href="https://www.linkedin.com/in/tomeboshevski" target="_blank">
+    			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/tome.jpg" alt="Tome Boshevski" class="team-member-image">
-			<h4 class="team-member-name">Tome Boshevski</h4>
-			<p class="team-member-title">Founder &amp; Chief<br/>Design Officer</p>
-			<a href="https://www.linkedin.com/in/tomeboshevski" target="_blank">
-			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
-			</a>
-		</div>
+    		<div class="team-member">
+    			<img src="img/team/james.jpg" alt="James Prestwich" class="team-member-image">
+    			<h4 class="team-member-name">James Prestwich</h4>
+    			<p class="team-member-title">Founder &amp;<br/>COO &amp; CFO</p>
+    			<a href="https://www.linkedin.com/in/prestwich" target="_blank">
+    			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/james.jpg" alt="James Prestwich" class="team-member-image">
-			<h4 class="team-member-name">James Prestwich</h4>
-			<p class="team-member-title">Founder &amp;<br/>COO &amp; CFO</p>
-			<a href="https://www.linkedin.com/in/prestwich" target="_blank">
-			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
-			</a>
-		</div>
+    		<div class="team-member">
+    			<img src="img/team/john.jpg" alt="John Quinn" class="team-member-image">
+    			<h4 class="team-member-name">John Quinn</h4>
+    			<p class="team-member-title">Founder &amp; Chief<br/>Development Officer</p>
+    			<a href="https://www.linkedin.com/in/johnquinntech" target="_blank">
+    			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/john.jpg" alt="John Quinn" class="team-member-image">
-			<h4 class="team-member-name">John Quinn</h4>
-			<p class="team-member-title">Founder &amp; Chief<br/>Development Officer</p>
-			<a href="https://www.linkedin.com/in/johnquinntech" target="_blank">
-			  <img src="img/icon-linkedin-light.png" alt="Linkedin" class="team-member-profile-li">
-			</a>
-		</div>
+    		<div class="team-member">
+    			<img src="img/team/gordon.jpg" alt="Gordon Hall" class="team-member-image">
+    			<h4 class="team-member-name">Gordon Hall</h4>
+    			<p class="team-member-title">
+    			  <a href="img/team/gordon-htp.gif">1337 h4x0r</a>
+    			</p>
+    			<a href="https://github.com/bookchin" target="_blank">
+    			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/gordon.jpg" alt="Gordon Hall" class="team-member-image">
-			<h4 class="team-member-name">Gordon Hall</h4>
-			<p class="team-member-title">
-			  <a href="img/team/gordon-htp.gif">1337 h4x0r</a>
-			</p>
-			<a href="https://github.com/bookchin" target="_blank">
-			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-			</a>
-		</div>
+    		<div class="team-member">
+    			<img src="img/team/ryan.jpg" alt="Ryan Foran" class="team-member-image">
+    			<h4 class="team-member-name">Ryan Foran</h4>
+    			<p class="team-member-title">Developer</p>
+    			<a href="https://github.com/mrfancymonocle" target="_blank">
+    			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/ryan.jpg" alt="Ryan Foran" class="team-member-image">
-			<h4 class="team-member-name">Ryan Foran</h4>
-			<p class="team-member-title">Developer</p>
-			<a href="https://github.com/mrfancymonocle" target="_blank">
-			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-			</a>
-		</div>
+    		<div class="team-member">
+    			<img src="img/team/philip.jpg" alt="Philip Hutchins" class="team-member-image">
+    			<h4 class="team-member-name">Philip Hutchins</h4>
+    			<p class="team-member-title">Principal DevOps Architect</p>
+    			<a href="https://github.com/phutchins" target="_blank">
+    			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    			</a>
+    		</div>
 
-		<div class="team-member">
-			<img src="img/team/philip.jpg" alt="Philip Hutchins" class="team-member-image">
-			<h4 class="team-member-name">Philip Hutchins</h4>
-			<p class="team-member-title">Principal DevOps Architect</p>
-			<a href="https://github.com/phutchins" target="_blank">
-			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-			</a>
-		</div>
-
-		<div class="team-member">
-			<img src="img/team/jens.jpg" alt="Jens Heimbürge" class="team-member-image">
-			<h4 class="team-member-name">Jens Heimbürge</h4>
-			<p class="team-member-title">Developer</p>
-			<a href="https://github.com/littleskunk" target="_blank">
-			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-			</a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/bryan.jpg" alt="Bryan White" class="team-member-image">
-		  <h4 class="team-member-name">Bryan White</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/bryanchriswhite" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/alex.jpg" alt="Alexander Leitner" class="team-member-image">
-		  <h4 class="team-member-name">Alexander Leitner</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/aleitner" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/dylan.jpg" alt="Dylan Lott" class="team-member-image">
-		  <h4 class="team-member-name">Dylan Lott</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/dylanlott" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/patrick.jpg" alt="Patrick Gerbes" class="team-member-image">
-		  <h4 class="team-member-name">Patrick Gerbes</h4>
-		  <p class="team-member-title">Lead Data Scientist</p>
-		  <a href="https://github.com/pgerbes1" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/braydon.jpg" alt="Braydon Fuller" class="team-member-image">
-		  <h4 class="team-member-name">Braydon Fuller</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/braydonf" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/barbara.jpg" alt="Barbara Liau" class="team-member-image">
-		  <h4 class="team-member-name">Barbara Liau</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/barbaraliau" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/moby.jpg" alt="Maximillian von Briesen" class="team-member-image">
-		  <h4 class="team-member-name">Maximillian von Briesen</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/mobyvb" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
-		<div class="team-member">
-		  <img src="img/team/will.jpg" alt="Will Blankenship" class="team-member-image">
-		  <h4 class="team-member-name">Will Blankenship</h4>
-		  <p class="team-member-title">Developer</p>
-		  <a href="https://github.com/retrohacker" target="_blank">
-		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
-		  </a>
-		</div>
-
+    		<div class="team-member">
+    			<img src="img/team/jens.jpg" alt="Jens Heimbürge" class="team-member-image">
+    			<h4 class="team-member-name">Jens Heimbürge</h4>
+    			<p class="team-member-title">Developer</p>
+    			<a href="https://github.com/littleskunk" target="_blank">
+    			  <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    			</a>
+    		</div>
       </div>
+
+      <div class="row text-center expand-team">
+        <i class="glyphicon glyphicon-triangle-bottom"></i>
+      </div>
+
+      <div class="row expanded-team">
+    		<div class="team-member">
+    		  <img src="img/team/bryan.jpg" alt="Bryan White" class="team-member-image">
+    		  <h4 class="team-member-name">Bryan White</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/bryanchriswhite" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/alex.jpg" alt="Alexander Leitner" class="team-member-image">
+    		  <h4 class="team-member-name">Alexander Leitner</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/aleitner" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/dylan.jpg" alt="Dylan Lott" class="team-member-image">
+    		  <h4 class="team-member-name">Dylan Lott</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/dylanlott" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/patrick.jpg" alt="Patrick Gerbes" class="team-member-image">
+    		  <h4 class="team-member-name">Patrick Gerbes</h4>
+    		  <p class="team-member-title">Lead Data Scientist</p>
+    		  <a href="https://github.com/pgerbes1" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/braydon.jpg" alt="Braydon Fuller" class="team-member-image">
+    		  <h4 class="team-member-name">Braydon Fuller</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/braydonf" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/barbara.jpg" alt="Barbara Liau" class="team-member-image">
+    		  <h4 class="team-member-name">Barbara Liau</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/barbaraliau" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/moby.jpg" alt="Maximillian von Briesen" class="team-member-image">
+    		  <h4 class="team-member-name">Maximillian von Briesen</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/mobyvb" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+
+    		<div class="team-member">
+    		  <img src="img/team/will.jpg" alt="Will Blankenship" class="team-member-image">
+    		  <h4 class="team-member-name">Will Blankenship</h4>
+    		  <p class="team-member-title">Developer</p>
+    		  <a href="https://github.com/retrohacker" target="_blank">
+    		    <img src="img/icon-github-light.png" alt="Github" class="team-member-profile">
+    		  </a>
+    		</div>
+      </div>
+
     </div>
   </section>
 
@@ -634,7 +665,6 @@
   </section>
  -->
 
-
   <section class="section" id="social">
     <div class="container">
       <div class="row">
@@ -644,8 +674,8 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-blog" href="http://blog.storj.io/" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-blog">
+          <a href="http://blog.storj.io/" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-blog.svg" alt="The Storj Blog" height="40" width="40">
               <h4>Blog</h4>
@@ -693,6 +723,39 @@
           </a>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section id="social-small">
+    <div class="link-icon" id="connect-blog-small">
+      <a href="http://blog.storj.io/" target="_blank">
+        <img src="img/icon-blog.svg" alt="The Storj Blog">
+      </a>
+    </div>
+    <div class="link-icon" id="connect-medium-small">
+      <a href="https://t.me/storjproject" target="_blank">
+        <img src="img/icon-telegram.svg" alt="Storj on Telegram">
+      </a>
+    </div>
+    <div class="link-icon" id="connect-reddit-small">
+      <a href="https://www.reddit.com/r/Storj" target="_blank">
+        <img src="img/icon-reddit.svg" alt="Storj on Reddit">
+      </a>
+    </div>
+    <div class="link-icon" id="connect-twitter-small">
+      <a href="https://twitter.com/storjproject" target="_blank">
+        <img src="img/icon-twitter.svg" alt="Storj on Twitter">
+      </a>
+    </div>
+    <div class="link-icon" id="connect-facebook-small">
+      <a href="https://www.facebook.com/storjproject" target="_blank">
+        <img src="img/icon-facebook.svg" alt="Storj on Facebook">
+      </a>
+    </div>
+    <div class="link-icon" id="connect-youtube-small">
+      <a href="https://www.youtube.com/channel/UC-cTEqWwZV5Rl-h0RZsp2Qw" target="_blank">
+        <img src="img/icon-youtube.svg" alt="Storj on Youtube">
+      </a>
     </div>
   </section>
 
@@ -936,6 +999,66 @@
 		});
 	</script>
 
+  <!-- Countdown Timer -->
+  <script>
+    function getTimeRemaining(endtime) {
+      var t = Date.parse(endtime) - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+        'total': t,
+        'days': days,
+        'hours': hours,
+        'minutes': minutes,
+        'seconds': seconds
+      };
+    }
+    function initializeClock(id, endtime) {
+      var clock = $(id);
+      var day1 = $('<span></span>').appendTo(id).addClass('units');
+      var day2 = $('<span></span>').appendTo(id).addClass('units');
+      $('<span>:</span>').appendTo(id).addClass('divider');
+      var hours1 = $('<span></span>').appendTo(id).addClass('units');
+      var hours2 = $('<span></span>').appendTo(id).addClass('units');
+      $('<span>:</span>').appendTo(id).addClass('divider');
+      var minutes1 = $('<span></span>').appendTo(id).addClass('units');
+      var minutes2 = $('<span></span>').appendTo(id).addClass('units');
+      $('<span>:</span>').appendTo(id).addClass('divider');
+      var seconds1 = $('<span></span>').appendTo(id).addClass('units');
+      var seconds2 = $('<span></span>').appendTo(id).addClass('units');
+      function updateClock() {
+        var t = getTimeRemaining(endtime);
+        var time = {
+          day1: ('0' + t.days).slice(-2).charAt(0),
+          day2: ('0' + t.days).slice(-2).charAt(1),
+          hours1: ('0' + t.hours).slice(-2).charAt(0),
+          hours2: ('0' + t.hours).slice(-2).charAt(1),
+          minutes1: ('0' + t.minutes).slice(-2).charAt(0),
+          minutes2: ('0' + t.minutes).slice(-2).charAt(1),
+          seconds1: ('0' + t.seconds).slice(-2).charAt(0),
+          seconds2: ('0' + t.seconds).slice(-2).charAt(1)
+        };
+        $(day1).text(time.day1);
+        $(day2).text(time.day2);
+        $(hours1).text(time.hours1);
+        $(hours2).text(time.hours2);
+        $(minutes1).text(time.minutes1);
+        $(minutes2).text(time.minutes2);
+        $(seconds1).text(time.seconds1);
+        $(seconds2).text(time.seconds2);
+        if (t.total <= 0) {
+          clearInterval(timeinterval);
+        }
+      }
+      updateClock();
+      var timeinterval = setInterval(updateClock, 1000);
+    }
+    var deadline = 'May 19 2017 08:00:00 GMT-0700';
+    initializeClock('#DateCountdownBanner', deadline);
+  </script>
+
 	<script>
 		// Slider
 		$('.slider').slick({
@@ -953,12 +1076,14 @@
       if ($(this).hasClass('glyphicon-triangle-bottom')) {
         $(this).addClass('glyphicon-triangle-top');
         $(this).removeClass('glyphicon-triangle-bottom');
-        $(this).siblings().html('Close');
       } else {
-        $(this).siblings().html('Expand');
         $(this).addClass('glyphicon-triangle-bottom');
         $(this).removeClass('glyphicon-triangle-top');
       }
+    });
+
+    $('.expand-team').click(function() {
+      $('.expanded-team').toggle();
     });
   </script>
 
@@ -1005,11 +1130,6 @@
       e.preventDefault();
       subscribeSubmitted('#subscribe-bottom-email');
     })
-
-    // $('#subscribe-cloud').on('submit', function (e) {
-    //   e.preventDefault();
-    //   // subscribeSubmitted('#subscribe-cloud-email');
-    // })
   </script>
 
   <!-- GA events -->
@@ -1022,6 +1142,7 @@
         event.preventDefault();
     });
 
+    // Large Social
     $('#connect-youtube').on('click', function(e) {
       analytics.track('Click', {
         category: 'Social Media',
@@ -1061,6 +1182,49 @@
       analytics.track('Click', {
         category: 'Social Media',
         label: 'lp-connect-blog'
+      });
+    });
+
+    // Small Social
+    $('#connect-youtube-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-youtube'
+      });
+    });
+
+    $('#connect-facebook-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-facebook-small'
+      });
+    });
+
+    $('#connect-twitter-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-twitter-small'
+      });
+    });
+
+    $('#connect-reddit-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-reddit-small'
+      });
+    });
+
+    $('#connect-medium-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-medium-small'
+      });
+    });
+
+    $('#connect-blog-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-blog-small'
       });
     });
 	</script>
