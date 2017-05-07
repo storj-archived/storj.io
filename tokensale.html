@@ -726,33 +726,33 @@
     </div>
   </section>
 
-  <section id="social-little">
-    <div class="link-icon" id="connect-blog">
+  <section id="social-small">
+    <div class="link-icon" id="connect-blog-small">
       <a href="http://blog.storj.io/" target="_blank">
         <img src="img/icon-blog.svg" alt="The Storj Blog">
       </a>
     </div>
-    <div class="link-icon" id="connect-medium">
+    <div class="link-icon" id="connect-medium-small">
       <a href="https://t.me/storjproject" target="_blank">
         <img src="img/icon-telegram.svg" alt="Storj on Telegram">
       </a>
     </div>
-    <div class="link-icon" id="connect-reddit">
+    <div class="link-icon" id="connect-reddit-small">
       <a href="https://www.reddit.com/r/Storj" target="_blank">
         <img src="img/icon-reddit.svg" alt="Storj on Reddit">
       </a>
     </div>
-    <div class="link-icon" id="connect-twitter">
+    <div class="link-icon" id="connect-twitter-small">
       <a href="https://twitter.com/storjproject" target="_blank">
         <img src="img/icon-twitter.svg" alt="Storj on Twitter">
       </a>
     </div>
-    <div class="link-icon" id="connect-facebook">
+    <div class="link-icon" id="connect-facebook-small">
       <a href="https://www.facebook.com/storjproject" target="_blank">
         <img src="img/icon-facebook.svg" alt="Storj on Facebook">
       </a>
     </div>
-    <div class="link-icon" id="connect-youtube">
+    <div class="link-icon" id="connect-youtube-small">
       <a href="https://www.youtube.com/channel/UC-cTEqWwZV5Rl-h0RZsp2Qw" target="_blank">
         <img src="img/icon-youtube.svg" alt="Storj on Youtube">
       </a>
@@ -1130,11 +1130,6 @@
       e.preventDefault();
       subscribeSubmitted('#subscribe-bottom-email');
     })
-
-    // $('#subscribe-cloud').on('submit', function (e) {
-    //   e.preventDefault();
-    //   // subscribeSubmitted('#subscribe-cloud-email');
-    // })
   </script>
 
   <!-- GA events -->
@@ -1147,6 +1142,7 @@
         event.preventDefault();
     });
 
+    // Large Social
     $('#connect-youtube').on('click', function(e) {
       analytics.track('Click', {
         category: 'Social Media',
@@ -1186,6 +1182,49 @@
       analytics.track('Click', {
         category: 'Social Media',
         label: 'lp-connect-blog'
+      });
+    });
+
+    // Small Social
+    $('#connect-youtube-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-youtube'
+      });
+    });
+
+    $('#connect-facebook-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-facebook-small'
+      });
+    });
+
+    $('#connect-twitter-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-twitter-small'
+      });
+    });
+
+    $('#connect-reddit-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-reddit-small'
+      });
+    });
+
+    $('#connect-medium-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-medium-small'
+      });
+    });
+
+    $('#connect-blog-small').on('click', function(e) {
+      analytics.track('Click', {
+        category: 'Social Media',
+        label: 'lp-connect-blog-small'
       });
     });
 	</script>

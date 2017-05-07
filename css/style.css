@@ -2202,7 +2202,7 @@ Token Sale
   padding: 1.4em 0;
 }
 
-.tokensale #social-little {
+.tokensale #social-small {
   position: fixed;
   left: 0;
   right: 0;
@@ -2214,11 +2214,11 @@ Token Sale
 @media only screen
   and (max-device-width: 768px)
   and (-webkit-min-device-pixel-ratio: 1) {
-  .tokensale #social-little {
+  .tokensale #social-small {
     display: none;
   }
 }
-.tokensale #social-little .link-icon {
+.tokensale #social-small .link-icon {
   margin: 10px 2.5px;
   display: flex;
   justify-content: center;
@@ -2229,10 +2229,10 @@ Token Sale
   width: 40px;
   background-color: #fff;
 }
-.tokensale #social-little .link-icon:first-child {
+.tokensale #social-small .link-icon:first-child {
   margin-left: 10px;
 }
-.tokensale #social-little .link-icon img {
+.tokensale #social-small .link-icon img {
   height: 25px;
   width: 25px;
 }
