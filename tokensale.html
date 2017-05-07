@@ -101,20 +101,45 @@
 
 	<section>
 		<div class="container">
+      <div class="lead tokensale-countdown text-center">Starting in <strong id="DateCountdownBanner"></strong></div>
 			<div class="row text-center">
-				<div class="col-xs-12">
-          <div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div>
+          <!-- <div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div> -->
+          <!-- It's also Alex's birthday! :))) -->
+          <div class="spacer15"></div>
 					<h1 class="tokensale-headline">Participate in the Storj Token Sale</h1>
-					<p>Help Storj advance product development and speed the rate of innovation in cloud storage.</p>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1">
+  					  <p>Momentum is building and sale is likely to be oversubscribed.<br>Enter your email below to indicate your desired allocation:</p>
+            </div>
+          </div>
         	<form id="subscribe-top" class="validate form-inline">
             	<input type="email" value="" class="email" id="subscribe-top-email" placeholder="Enter your email address" spellcheck="false" required>
-            	<input type="submit" value="Get Notified" class="btn btn-green subscribe">
-            <p class="promise">*We will never share, rent, or sell your email address to anyone, ever.</p>
+            	<input type="submit" value="Subscribe" class="btn btn-green subscribe">
         	</form>
+          <span class="promise">*We will never share, rent, or sell your email address to anyone, ever.</span>
 				</div>
 			</div>
 		</div>
 	</section>
+
+  <div class="container">
+    <div class="line-space text-center"></div>
+  </div>
+
+  <section class="talking-points container">
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>Term Sheet <br>Monday, May 8th</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>$30MM offering target</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>$10MM <br> in early demand</h4>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3 talking-point">
+      <h4>1:1 exchange from SJCX to STORJ</h4>
+    </div>
+  </section>
 
   <section class="section text-center blue">
     <div class="container">
@@ -639,7 +664,6 @@
   </section>
  -->
 
-
   <section class="section" id="social">
     <div class="container">
       <div class="row">
@@ -649,8 +673,8 @@
         </div>
       </div>
       <div class="row text-center">
-        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2">
-          <a id="connect-blog" href="http://blog.storj.io/" target="_blank" class="panel-link">
+        <div class="col-xs-6 col-sm-4 col-md-4 col-lg-2" id="connect-blog">
+          <a href="http://blog.storj.io/" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="img/icon-blog.svg" alt="The Storj Blog" height="40" width="40">
               <h4>Blog</h4>
@@ -973,6 +997,66 @@
 		    }
 		});
 	</script>
+
+  <!-- Countdown Timer -->
+  <script>
+    function getTimeRemaining(endtime) {
+      var t = Date.parse(endtime) - Date.parse(new Date());
+      var seconds = Math.floor((t / 1000) % 60);
+      var minutes = Math.floor((t / 1000 / 60) % 60);
+      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+      var days = Math.floor(t / (1000 * 60 * 60 * 24));
+      return {
+        'total': t,
+        'days': days,
+        'hours': hours,
+        'minutes': minutes,
+        'seconds': seconds
+      };
+    }
+    function initializeClock(id, endtime) {
+      var clock = $(id);
+      var day1 = $('<span></span>').appendTo(id).addClass('units');
+      var day2 = $('<span></span>').appendTo(id).addClass('units');
+      $('<span>:</span>').appendTo(id).addClass('divider');
+      var hours1 = $('<span></span>').appendTo(id).addClass('units');
+      var hours2 = $('<span></span>').appendTo(id).addClass('units');
+      $('<span>:</span>').appendTo(id).addClass('divider');
+      var minutes1 = $('<span></span>').appendTo(id).addClass('units');
+      var minutes2 = $('<span></span>').appendTo(id).addClass('units');
+      $('<span>:</span>').appendTo(id).addClass('divider');
+      var seconds1 = $('<span></span>').appendTo(id).addClass('units');
+      var seconds2 = $('<span></span>').appendTo(id).addClass('units');
+      function updateClock() {
+        var t = getTimeRemaining(endtime);
+        var time = {
+          day1: ('0' + t.days).slice(-2).charAt(0),
+          day2: ('0' + t.days).slice(-2).charAt(1),
+          hours1: ('0' + t.hours).slice(-2).charAt(0),
+          hours2: ('0' + t.hours).slice(-2).charAt(1),
+          minutes1: ('0' + t.minutes).slice(-2).charAt(0),
+          minutes2: ('0' + t.minutes).slice(-2).charAt(1),
+          seconds1: ('0' + t.seconds).slice(-2).charAt(0),
+          seconds2: ('0' + t.seconds).slice(-2).charAt(1)
+        };
+        $(day1).text(time.day1);
+        $(day2).text(time.day2);
+        $(hours1).text(time.hours1);
+        $(hours2).text(time.hours2);
+        $(minutes1).text(time.minutes1);
+        $(minutes2).text(time.minutes2);
+        $(seconds1).text(time.seconds1);
+        $(seconds2).text(time.seconds2);
+        if (t.total <= 0) {
+          clearInterval(timeinterval);
+        }
+      }
+      updateClock();
+      var timeinterval = setInterval(updateClock, 1000);
+    }
+    var deadline = 'May 19 2017 08:00:00 GMT-0700';
+    initializeClock('#DateCountdownBanner', deadline);
+  </script>
 
 	<script>
 		// Slider

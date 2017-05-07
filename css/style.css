@@ -2030,6 +2030,24 @@ Token Sale
 .tokensale .header {
   background: none;
 }
+.tokensale .tokensale-countdown {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  font-size: 28px;
+}
+.tokensale .line-space {
+  height: 20px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #fff;
+}
+
 .tokensale-counter {
   width: 40%;
   max-width: 674px;
@@ -2087,6 +2105,29 @@ Token Sale
   box-shadow: 0 0 15px rgba(0,0,0,.25);
   margin: 1.5em auto 0.5em;
 }
+
+.tokensale .talking-points {
+  display: flex;
+  flex-wrap: wrap;
+  align-item: center;
+  justify-content: center;
+}
+.tokensale .talking-point {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1.5px solid #2683FF;
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+  margin: 20px 1em;
+  text-align: center;
+}
+.tokensale .talking-point h4 {
+  color: #2683FF;
+}
+
 .tokensale-partner {
   padding: 1.5em;
   background: #fff;
