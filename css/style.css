@@ -2086,9 +2086,9 @@ Token Sale
   background: none;
 }
 .tokensale-counter {
-  width: 90%;
+  width: 40%;
   max-width: 674px;
-  margin: 0.5em auto;
+  margin: 0 auto;
 }
 // .tokensale .headlines {
 //   top: 140px;
