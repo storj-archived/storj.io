@@ -2184,6 +2184,18 @@ Token Sale
     max-width: 180px;
     height: 60%;
 }
+.tokensale .team {
+  color: #fff;
+}
+.tokensale .expand-team i {
+  font-size: 2em;
+}
+.tokensale .expand-team:hover {
+  cursor: pointer;
+}
+.tokensale .expanded-team {
+  display: none;
+}
 .tokensale .team-member-name {
     margin-bottom: 5px;
 }
