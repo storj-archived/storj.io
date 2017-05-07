@@ -2164,12 +2164,7 @@ Token Sale
   margin-top: 1em;
   margin-bottom: 2em;
 }
-.tokensale .team-member-image {
-    margin-bottom: 10px;
-    width: 60%;
-    max-width: 180px;
-    height: 60%;
-}
+
 .tokensale .team, .tokensale .community {
   color: #fff;
 }
@@ -2184,12 +2179,28 @@ Token Sale
   display: none;
 }
 
+.tokensale .team-member-image {
+  margin-bottom: 10px;
+  width: 60%;
+  height: 60%;
+  max-width: 180px;
+}
+.tokensale .team .founder-member-profile {
+  margin-top: 20px;
+  margin-right: 0;
+  height: 25px;
+  width: 25px;
+}
 .tokensale .team-member-name {
     margin-bottom: 5px;
 }
 .tokensale .team-member {
     margin: 10px auto;
 }
+.tokensale .team-member .team-member-profile {
+  margin: 0 auto;
+}
+
 .tokensale #social h4 {
   color: #2683ff;
   font-size: 14px;
