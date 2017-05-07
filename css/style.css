@@ -2170,18 +2170,20 @@ Token Sale
     max-width: 180px;
     height: 60%;
 }
-.tokensale .team {
+.tokensale .team, .tokensale .community {
   color: #fff;
 }
-.tokensale .expand-team i {
+.tokensale .expand-team i, .tokensale .expand-community i {
+  margin: 0 auto;
   font-size: 2em;
 }
-.tokensale .expand-team:hover {
+.tokensale .expand-team:hover, .tokensale .expand-community:hover {
   cursor: pointer;
 }
-.tokensale .expanded-team {
+.tokensale .expanded-team, .tokensale .expanded-community {
   display: none;
 }
+
 .tokensale .team-member-name {
     margin-bottom: 5px;
 }
