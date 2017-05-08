@@ -2283,36 +2283,51 @@ Token Sale
   cursor: pointer;
 }
 
-.why-use-a-token .why-token-point {
+.tokensale .why-use-points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tokensale .why-use .why-token-point {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #444;
-}
-
-.why-token-point {
-  min-height: 350px;
   text-align: center;
+  height: 350px;
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-
-.why-token-icon {
+.tokensale .why-token-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
-  border-radius: 80px;
+  border-radius: 50%;
   border: 10px solid rgba(255, 255, 255, 0.2);
-  width: 140px;
-  height: 140px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
   margin-bottom: 10px;
 }
-
-.why-token-icon > .glyphicon {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 75px;
-  color: #2683FF;
+.tokensale .why-token-icon img {
+  height: 85px;
+  width: 85px;
+}
+.tokensale .why-use-callout {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.highlight-icon {
+.tokensale .highlight-icon {
   background-color: #fff;
   border-radius: 80px;
   border: 10px solid rgba(255, 255, 255, 0.2);
@@ -2322,7 +2337,7 @@ Token Sale
   margin-bottom: 20px;
 }
 
-.highlight-icon > .glyphicon {
+.tokensale .highlight-icon > .glyphicon {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
