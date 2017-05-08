@@ -2319,8 +2319,8 @@ Token Sale
   width: 85px;
 }
 .tokensale .why-use-callout {
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
+  border-top: 2px solid #2683FF;
+  border-bottom: 2px solid #2683FF;
   width: 70%;
   margin: 0 auto;
   padding-top: 15px;
@@ -2336,7 +2336,6 @@ Token Sale
   margin: 0 auto;
   margin-bottom: 20px;
 }
-
 .tokensale .highlight-icon > .glyphicon {
   position: relative;
   top: 50%;
