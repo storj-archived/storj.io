@@ -2164,23 +2164,32 @@ Token Sale
   margin-top: 1em;
   margin-bottom: 2em;
 }
-.tokensale .team-member-image {
-    margin-bottom: 10px;
-    width: 60%;
-    max-width: 180px;
-    height: 60%;
-}
-.tokensale .team {
+
+.tokensale .team, .tokensale .community {
   color: #fff;
 }
-.tokensale .expand-team i {
+.tokensale .expand-team i, .tokensale .expand-community i {
+  margin: 0 auto;
   font-size: 2em;
 }
-.tokensale .expand-team:hover {
+.tokensale .expand-team:hover, .tokensale .expand-community:hover {
   cursor: pointer;
 }
-.tokensale .expanded-team {
+.tokensale .expanded-team, .tokensale .expanded-community {
   display: none;
+}
+
+.tokensale .team-member-image {
+  margin-bottom: 10px;
+  width: 60%;
+  height: 60%;
+  max-width: 180px;
+}
+.tokensale .team .founder-member-profile {
+  margin-top: 20px;
+  margin-right: 0;
+  height: 25px;
+  width: 25px;
 }
 .tokensale .team-member-name {
     margin-bottom: 5px;
@@ -2188,6 +2197,10 @@ Token Sale
 .tokensale .team-member {
     margin: 10px auto;
 }
+.tokensale .team-member .team-member-profile {
+  margin: 0 auto;
+}
+
 .tokensale #social h4 {
   color: #2683ff;
   font-size: 14px;
@@ -2270,36 +2283,51 @@ Token Sale
   cursor: pointer;
 }
 
-.why-use-a-token .why-token-point {
+.tokensale .why-use-points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.tokensale .why-use .why-token-point {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #444;
-}
-
-.why-token-point {
-  min-height: 350px;
   text-align: center;
+  height: 350px;
+  width: 250px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
-
-.why-token-icon {
+.tokensale .why-token-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
-  border-radius: 80px;
+  border-radius: 50%;
   border: 10px solid rgba(255, 255, 255, 0.2);
-  width: 140px;
-  height: 140px;
-  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.tokensale .why-token-icon img {
+  height: 85px;
+  width: 85px;
+}
+.tokensale .why-use-callout {
+  border-top: 2px solid #2683FF;
+  border-bottom: 2px solid #2683FF;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.why-token-icon > .glyphicon {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 75px;
-  color: #2683FF;
-}
-
-.highlight-icon {
+.tokensale .highlight-icon {
   background-color: #fff;
   border-radius: 80px;
   border: 10px solid rgba(255, 255, 255, 0.2);
@@ -2308,8 +2336,7 @@ Token Sale
   margin: 0 auto;
   margin-bottom: 20px;
 }
-
-.highlight-icon > .glyphicon {
+.tokensale .highlight-icon > .glyphicon {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
