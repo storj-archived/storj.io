@@ -2128,6 +2128,17 @@ Token Sale
   color: #2683FF;
 }
 
+.tokensale .why-token-sale .panel.panel-card {
+  padding: 1em;
+}
+.tokensale .why-token-sale .panel a {
+  color: #2683FF;
+}
+.tokensale .why-token-sale .why-use-callout {
+  width: 100%;
+  font-size: 20px;
+}
+
 .tokensale-partner {
   padding: 1.5em;
   background: #fff;
