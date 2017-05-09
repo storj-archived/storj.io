@@ -2361,6 +2361,10 @@ Token Sale
   font-size: 18px;
 }
 
+.tokensale #upcoming-events a {
+  text-decoration: none;
+}
+
 
 /* --------------------------------
 
