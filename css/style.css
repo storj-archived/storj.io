@@ -2355,6 +2355,12 @@ Token Sale
   color: #2683FF;
 }
 
+.tokensale #upcoming-events .why-token-icon {
+  color: #2683FF;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 
 /* --------------------------------
 
