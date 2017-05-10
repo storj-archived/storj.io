@@ -88,38 +88,49 @@
 	  </div>
 	</nav>
 
-	<section>
-		<div class="container">
-      <div class="lead tokensale-countdown text-center">Starting in <strong id="DateCountdownBanner"></strong></div>
-			<div class="row text-center">
-					<h1 class="tokensale-headline">Time is running out!</h1>
+	<section class="container presale-contents text-center">
+      <div class="lead tokensale-countdown text-center">Pre-Sale Ends in <strong id="DateCountdownBanner"></strong></div>
+      <div class="row">
+        <h1 class="presale-headline">Time is running out!</h1>
+        <h3>Find out how much extra STORJ you could receive</h3>
+      </div>
 
-          <div class="row">
-            <h3>Find out how much you can save</h3>
-            <div class="presale-discounts">
-              <p>Pre-sale > $100k: $0.40/token</p>
-              <p>Pre-sale > $50k: $0.45/token</p>
-              <p>Retail: $0.50/token</p>
-            </div>
-            <div class="presale-calculator">
+      <div class="row">
+        <div class="presale-calculator">
+          <input type="number" id="allocation" placeholder="Purchase Amount (USD)" value=""/>
+        </div>
 
-              [ Insert Calculator ]
-            </div>
+        <div class="presale-calculator-results">
+          <div>
+            <h3><strong>Pre-Sale</strong></h3>
+            <h2 class="presale-input presale-results">0 STORJ<h2>
           </div>
-          <div class="row">
-            <a href="#presale-form">
-              <h3>Fill out <span style="color: #88c425;">this form</span> to participate in the Storj Token Pre-Sale</h3>
-            </a>
+          <div>
+            <h3><strong>Sale</strong></h3>
+            <h2 class="sale-regular presale-results">0 STORJ</h2>
           </div>
-          <div class="row">
-            <a name="presale-form">
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9zTWkkeAh7HeAHKuKmVhyCc0UJ2jc2MQ5e57rbSM9m4P8vw/viewform?embedded=true" width="760" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </a>
+        </div>
+
+        <h3>
+          If you partcipate in the Pre-Sale, you would receive an additional <span class="presale-difference">0</span> STORJ!
+        </h3>
+        <small class="presale-disclaimer">*Calculated values are approximate
+          <br> Pre-sale > $100k: $0.40/token, Pre-sale > $50k: $0.45/token, Retail: $0.50/token
+        </small>
+      </div>
+
+      <div class="row text-center">
+        <a href="#presale-form">
+          <h3>Fill out <span style="color: #88c425;">this form</span> to participate in the Storj Token Pre-Sale</h3>
+        </a>
+        <a name="presale-form">
+          <div class="presale-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9zTWkkeAh7HeAHKuKmVhyCc0UJ2jc2MQ5e57rbSM9m4P8vw/viewform?embedded=true" width="460" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
           </div>
-          <span class="promise">*We will never share, rent, or sell your information to anyone, ever.</span>
-				</div>
-			</div>
-		</div>
+        </a>
+        <span class="promise">*We will never share, rent, or sell your information to anyone, ever.</span>
+      </div>
+
 	</section>
 
   <div class="container">
@@ -200,18 +211,57 @@
     initializeClock('#DateCountdownBanner', deadline);
   </script>
 
-  <!-- Submit Get Notified -->
+  <!-- Allocation Calculator -->
+  <script>
+  $('#allocation').text()
 
-  <!-- GA events -->
-	<script>
+  $('#allocation').on('change keyup blur', function() {
+    var allocation = $('#allocation').val()
+    var retailPrice = 0.5;
+    var coinPrice;
+    var diff;
+    var presaleStorj;
+    var retailStorj;
 
-    $('#connect-blog-small').on('click', function(e) {
-      analytics.track('Click', {
-        category: 'Social Media',
-        label: 'lp-connect-blog-small'
-      });
-    });
-	</script>
+    if (allocation >= 50000 && allocation < 100000) {
+      coinPrice = 0.45;
+      presaleStorj = allocation/coinPrice;
+      retailStorj = allocation/retailPrice;
+      diff = presaleStorj - retailStorj;
+      $(".presale-input").text(`${numberWithCommas(presaleStorj)} STORJ`)
+      $(".sale-regular").text(`${numberWithCommas(retailStorj)} STORJ`)
+      $('.presale-difference').text(`${numberWithCommas(diff)}`);
+    }
+
+    if (allocation >= 100000) {
+      coinPrice = 0.40;
+      presaleStorj = allocation/coinPrice;
+      retailStorj = allocation/retailPrice;
+      diff = presaleStorj - retailStorj;
+      $(".presale-input").text(`${numberWithCommas(presaleStorj)} STORJ`)
+      $(".sale-regular").text(`${numberWithCommas(retailStorj)} STORJ`)
+      $('.presale-difference').text(`${numberWithCommas(diff)}`);
+
+    }
+
+    if (allocation < 50000) {
+      coinPrice = 0.50;
+      presaleStorj = allocation/coinPrice;
+      retailStorj = allocation/retailPrice;
+      diff = presaleStorj - retailStorj;
+      $(".presale-input").text(`${numberWithCommas(presaleStorj)} STORJ`)
+      $(".sale-regular").text(`${numberWithCommas(retailStorj)} STORJ`)
+      $('.presale-difference').text(`${numberWithCommas(diff)}`);
+    }
+  });
+
+  function numberWithCommas(x) {
+    var parts = x.toString().split(".");
+    return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    // parts[1] = "";
+    // return parts[0]
+  }
+  </script>
 
 </body>
 </html>

@@ -2367,6 +2367,45 @@ Token Sale
 .tokensale #upcoming-events a {
   text-decoration: none;
 }
+
+.presale .tokensale-countdown {
+  margin-bottom: 20px;
+}
+
+.presale .presale-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.presale .presale-calculator {
+  display: flex;
+  justify-content: center;
+}
+.presale .presale-calculator-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.presale .presale-calculator-results div {
+  padding: 0 1em;
+  width: 300px;
+}
+.presale .presale-calculator-results div:nth-child(2) {
+  border-left: 1px solid #fff;
+}
+.presale .presale-calculator-results .presale-results {
+  font-weight: bold;
+  color: #88c425
+}
+.presale .presale-difference {
+  color: #88c425;
+}
+.presale .presale-disclaimer {
+  color: #ccc;
+}
 /* --------------------------------
 
 Media Queries
