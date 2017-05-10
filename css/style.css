@@ -2030,7 +2030,7 @@ Token Sale
 .tokensale .header {
   background: none;
 }
-.tokensale .tokensale-countdown {
+.tokensale .tokensale-countdown, .presale .tokensale-countdown {
   color: #fff;
   border-bottom: 2px solid #fff;
   width: 60%;
@@ -2057,7 +2057,7 @@ Token Sale
 //   top: 140px;
 //   top: 19vh;
 // }
-.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a {
+.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a, .presale h1, .presale h2, .presale h3, .presale h4, .presale h5, .presale h6, .presale p {
   color: #fff;
 }
 .tokensale .headlines h1 {
@@ -2367,8 +2367,6 @@ Token Sale
 .tokensale #upcoming-events a {
   text-decoration: none;
 }
-
-
 /* --------------------------------
 
 Media Queries
