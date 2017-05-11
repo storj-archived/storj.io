@@ -2030,7 +2030,7 @@ Token Sale
 .tokensale .header {
   background: none;
 }
-.tokensale .tokensale-countdown {
+.tokensale .tokensale-countdown, .presale .tokensale-countdown {
   color: #fff;
   border-bottom: 2px solid #fff;
   width: 60%;
@@ -2057,7 +2057,7 @@ Token Sale
 //   top: 140px;
 //   top: 19vh;
 // }
-.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a {
+.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a, .presale h1, .presale h2, .presale h3, .presale h4, .presale h5, .presale h6, .presale p {
   color: #fff;
 }
 .tokensale .headlines h1 {
@@ -2368,7 +2368,55 @@ Token Sale
   text-decoration: none;
 }
 
+.presale .tokensale-countdown {
+  margin-bottom: 20px;
+}
 
+.presale .presale-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.presale .presale-calculator {
+  display: flex;
+  justify-content: center;
+}
+.presale .presale-calculator-results {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .presale .presale-calculator-results {
+    flex-direction: column;
+  }
+}
+.presale .presale-calculator-results div {
+  padding: 0 1em;
+  width: 300px;
+}
+.presale .presale-calculator-results div:nth-child(2) {
+  padding: 0 1em;
+  width: 100px;
+}
+.presale .presale-calculator-results .presale-results {
+  font-weight: bold;
+  color: #88c425
+}
+.presale .presale-difference {
+  color: #88c425;
+  font-size: 32px;
+}
+.presale .presale-disclaimer {
+  color: #ccc;
+}
+.presale .presale-form h3 {
+  padding: 1em 1.5em;
+}
 /* --------------------------------
 
 Media Queries
