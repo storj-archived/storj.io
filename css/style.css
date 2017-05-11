@@ -2388,13 +2388,20 @@ Token Sale
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+}
+@media (max-width: 700px) {
+  .presale .presale-calculator-results {
+    flex-direction: column;
+  }
 }
 .presale .presale-calculator-results div {
   padding: 0 1em;
   width: 300px;
 }
 .presale .presale-calculator-results div:nth-child(2) {
-  border-left: 1px solid #fff;
+  padding: 0 1em;
+  width: 100px;
 }
 .presale .presale-calculator-results .presale-results {
   font-weight: bold;
@@ -2405,6 +2412,9 @@ Token Sale
 }
 .presale .presale-disclaimer {
   color: #ccc;
+}
+.presale .presale-form h3 {
+  padding: 1em 1.5em;
 }
 /* --------------------------------
 
