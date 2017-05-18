@@ -2362,9 +2362,23 @@ Token Sale
   font-weight: bold;
   font-size: 18px;
 }
-
 .tokensale #upcoming-events a {
   text-decoration: none;
+}
+
+.tokensale .faqs {
+  color: #FFF;
+}
+.tokensale .faqs .q-a {
+  padding: 20px;
+  padding-bottom: 40px;
+  margin: 20px;
+  border-bottom: 2px solid #2683FF;
+}
+.tokensale .faqs .question {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 5px;
 }
 
 .presale .tokensale-countdown {
