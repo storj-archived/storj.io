@@ -40,7 +40,7 @@
   	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css?v=1.3.4.4" rel="stylesheet">
+    <link href="css/style.css?v=1.3.4.6" rel="stylesheet">
     <link href="css/TimeCircles.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -82,63 +82,63 @@
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="navbar-menu">
 	      <ul class="nav navbar-nav navbar-left">
-            <li><a href="https://storj.io/tokensale.html" class="link" target="_blank">Token Sale</a></li>
+          <li><a href="https://storj.io/tokensale.html" class="link" target="_blank">Token Sale</a></li>
+          <li><a href="#faqs" class="link">FAQs</a></li>
           </ul>
 	    </div>
 	  </div>
 	</nav>
 
-	<section class="container presale-contents text-center">
-      <div class="lead tokensale-countdown text-center">
-        Pre-Sale Ends in <strong id="DateCountdownBanner"></strong>
-      </div>
-      <div class="row">
-        <h1 class="presale-headline">Purchases of $50k+ Eligible</h1>
-        <h3>Find out how much extra STORJ you could receive:</h3>
+	<section class="container presale-contents text-center" id="presale-form">
+    <div class="lead tokensale-countdown text-center">
+      Pre-Sale Ends in <strong id="DateCountdownBanner"></strong>
+    </div>
+    <div class="row">
+      <h1 class="presale-headline">Purchases of $50k+ Eligible</h1>
+      <h3>Find out how much extra STORJ you could receive:</h3>
+    </div>
+
+    <div class="row">
+      <div class="presale-calculator">
+        <input type="number" id="allocation" placeholder="Purchase Amount (USD)" value=""/>
       </div>
 
-      <div class="row">
-        <div class="presale-calculator">
-          <input type="number" id="allocation" placeholder="Purchase Amount (USD)" value=""/>
+      <div class="presale-calculator-results">
+        <div>
+          <h3>Pre-Sale</h3>
+          <h2 class="presale-input presale-results">0 STORJ<h2>
         </div>
-
-        <div class="presale-calculator-results">
-          <div>
-            <h3>Pre-Sale</h3>
-            <h2 class="presale-input presale-results">0 STORJ<h2>
-          </div>
-          <div>
-            <h3>vs.</h3>
-          </div>
-          <div>
-            <h3>Sale</h3>
-            <h2 class="sale-regular presale-results">0 STORJ</h2>
-          </div>
+        <div>
+          <h3>vs.</h3>
         </div>
-
-        <h3>
-          If you participate in the Pre-Sale, you would receive an additional <span class="presale-difference">0</span> STORJ!
-        </h3>
-        <small class="presale-disclaimer">*Calculated values are approximate
-          <br> Pre-sale > $100k: $0.40/token (6 month lock-up), Pre-sale > $50k: $0.45/token (3 month lock-up), Retail: $0.50/token
-        </small>
-      </div>
-
-      <div class="text-center">
-        <div class="presale-form">
-          <a href="#presale-form">
-            <h3>Fill out <span style="color: #88c425;">this form</span> to participate in the Storj Token Pre-Sale</h3>
-          </a>
-
-          <a name="presale-form">
-            <div class="presale-form">
-              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6ZZ_tFkgFk-y5zTfRqRAfZPARmYM2lZ3azH-cMQfLpDpA7Q/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </div>
-          </a>
-          <span class="promise">*We will never share, rent, or sell your information to anyone, ever.</span>
+        <div>
+          <h3>Sale</h3>
+          <h2 class="sale-regular presale-results">0 STORJ</h2>
         </div>
       </div>
 
+      <h3>
+        If you participate in the Pre-Sale, you would receive an additional <span class="presale-difference">0</span> STORJ!
+      </h3>
+      <small class="presale-disclaimer">*Calculated values are approximate
+        <br> Pre-sale > $100k: $0.40/token (6 month lock-up), Pre-sale > $50k: $0.45/token (3 month lock-up), Retail: $0.50/token
+      </small>
+    </div>
+
+    <div class="text-center">
+      <div class="presale-form">
+        <a href="#presale-form">
+          <h3>Fill out <span style="color: #88c425;">this form</span> to participate in the Storj Token Pre-Sale</h3>
+        </a>
+
+        <a name="presale-form">
+          <div class="presale-form">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd6ZZ_tFkgFk-y5zTfRqRAfZPARmYM2lZ3azH-cMQfLpDpA7Q/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+          </div>
+        </a>
+        <span class="promise">*We will never share, rent, or sell your information to anyone, ever.</span>
+      </div>
+    </div>
 	</section>
 
   <div class="container">
@@ -146,6 +146,63 @@
   </div>
 
   <div class="spacer100"></div>
+
+  <section class="section faqs" id="faqs">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 text-center">
+          <h1 class="text-center">Pre-sale FAQs</h1>
+          <div class="spacer20"></div>
+        </div>
+      </div>
+
+      <div class="q-a">
+        <div class="question">What are the details for the Storj Token Pre-sale?</div>
+        <div class="answer">
+          Participation in the pre-sale is based on purchase size, with larger purchase amounts receiving priority. Purchases of the same size are prioritized by date received. Due to high demand, it is likely that the pre-sale will reach its cap and orders smaller than $50k are unlikely to be eligible for participation in the pre-sale.
+          <br><br>
+          During the main token sale, tokens will be priced at $0.50 per token. Discounts are available for the following order types:
+
+          <ul>
+            <li><b>Between $50k-100k:</b> 10% discount, which is $0.45 per token, with a lock-up of 3 months</li>
+            <li><b>Over $100k:</b> 20% discount, which is $0.40 per token, with a lock-up of 6 months
+            </li>
+          </ul>
+          <br/>
+          There is still an opportunity to participate in the main token sale, starting <b>May 19th, 2017 at 11:00 EDT (3:00 PM UTC).</b> The token sale will be held at <a href="https://storj.io/tokensale" class="link" style="color:#FFF;"><b>https://storj.io/tokensale</b></a>
+        </div>
+      </div>
+
+      <div class="q-a">
+        <div class="question">When does the Storj Token Pre-sale end?</div>
+        <div class="answer">The Storj Token Pre-sale will end on <b>May 19th, 2017 at 11:00 AM EDT (3:00 PM UTC),</b> when the main token sale begins.
+        </div>
+      </div>
+
+      <div class="q-a">
+        <div class="question">How will I know if I get to participate in the Storj Token Pre-sale?</div>
+        <div class="answer">We will contact you about participation in the Storj Pre-sale. Please remember that purchase orders are first prioritized by size (larger orders receive priority), then on a first-come, first-serve basis. Interest in the token sale has increased, and orders under $50k may not be eligible for participation.</div>
+      </div>
+
+      <div class="q-a">
+        <div class="question">How do I pay for tokens in the Pre-sale?</div>
+        <div class="answer">If you are participating in the Token Pre-sale, we will send you detailed instructions via email once you confirm your willingness to participate.</div>
+      </div>
+
+      <div class="q-a">
+        <div class="question">When will the Pre-sale requests be processed? When will I see my tokens?</div>
+        <div class="answer">All tokens purchased during the pre-sale will be distributed via time-locked smart contracts simultaneously with the other tokens. Your provided address will have sole control of the smart contract. This means that you will need to wait for the main token sale to start to see your tokens.
+        </div>
+      </div>
+
+      <div class="q-a">
+        <div class="question">Other Storj Token Sale questions?</div>
+        <div class="answer">Check out the FAQs on the <b><a href="tokensale.html#faqs" class="link" style="color: #FFF;">Storj Token Sale page.</a></b>
+      </div>
+      </div>
+
+    </div>
+  </section>
 
 
 	<script src="js/jquery-2.1.1.js"></script>

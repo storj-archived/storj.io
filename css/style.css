@@ -2366,16 +2366,16 @@ Token Sale
   text-decoration: none;
 }
 
-.tokensale .faqs {
+.tokensale .faqs, .presale .faqs {
   color: #FFF;
 }
-.tokensale .faqs .q-a {
+.tokensale .faqs .q-a, .presale .faqs, .q-a {
   padding: 20px;
   padding-bottom: 40px;
   margin: 20px;
   border-bottom: 2px solid #2683FF;
 }
-.tokensale .faqs .question {
+.tokensale .faqs .question, .presale .faqs .question {
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 5px;
