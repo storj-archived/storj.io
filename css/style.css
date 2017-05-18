@@ -2430,6 +2430,22 @@ Token Sale
 .presale .presale-form h3 {
   padding: 1em 1.5em;
 }
+
+/* --------------------------------
+
+Conversion
+
+-------------------------------- */
+.conversion,
+.conversion h1,
+.conversion h2, 
+.conversion h3,
+.conversion h4,
+.conversion h5,
+.conversion h6 {
+  color: #fff;
+}
+
 /* --------------------------------
 
 Media Queries
