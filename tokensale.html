@@ -107,7 +107,8 @@
 	    </div>
 	  </div>
 	</nav>
-	<section>
+
+	<section id="presale-token-info">
 		<div class="container">
       <div class="lead tokensale-countdown text-center">Starting in <strong id="DateCountdownBanner"></strong></div>
 			<div class="row text-center">
@@ -183,6 +184,75 @@
   </section>
 
   <div class="spacer40"></div>
+
+  <section class="section faqs" id="sale-participation">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-push-1 col-md-10 col-md-push-1 text-center">
+          <h1>Token Sale Participation</h1>
+          <h4>You can participate in the Storj Token Sale using either
+            <br><br> BTC or ETH to fund your purchase
+          </h4>
+          <div class="spacer20"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="q-a">
+          <div class="question text-center">
+            BTC participation requirements:
+          </div>
+          <div class="spacer40"></div>
+          <div class="answer">
+            <ol>
+              <li><b>A BTC refund address</b> (for return of your funds, for any reason)
+              </li>
+              <br>
+              <li><b>A receiving Ethereum address</b> - This Ethereum address <em>must</em> be from an ERC20 compatible wallet (such as
+                <a href="https://parity.io/parity.html" class="link" target="_blank">Parity</a>,
+                <a href="https://github.com/ethereum/mist" class="link" target="_blank">Mist</a>,
+                <a href="https://metamask.io/" class="link" target="_blank">MetaMask</a>,
+                and <a href="https://www.myetherwallet.com" class="link" target="_blank">MyEtherWallet</a>).
+                Your STORJ tokens will be delivered to this address.
+                <br><br>
+                <strong><em>We cannot fill your order unless you generate a new Ethereum account with an ERC20 compatible wallet.</em></strong>
+              </li>
+              <br>
+              <li><b>An email address</b> - For sale-related notifications. We won't ever disclose your email to third parties.</li>
+
+              <br>
+              <h3 class="text-center">Receiving and refund addresses <strong><em>cannot</em></strong> be exchange addresses, <br>unless you own the private key.</h3>
+            </ol>
+          </div>
+        </div>
+
+        <div class="q-a">
+          <div class="question text-center">
+            ETH participation requirements:
+          </div>
+          <div class="answer">
+            <br><br>
+            <ol>
+              <li><b>A receiving Ethereum address</b> - This Ethereum address <em>must</em> be from an ERC20 compatible wallet (such as
+                <a href="https://parity.io/parity.html" class="link" target="_blank">Parity</a>,
+                <a href="https://github.com/ethereum/mist" class="link" target="_blank">Mist</a>,
+                <a href="https://metamask.io/" class="link" target="_blank">MetaMask</a>,
+                and <a href="https://www.myetherwallet.com" class="link" target="_blank">MyEtherWallet</a>).
+                Your STORJ tokens will be delivered to this address.
+                <br><br>
+                <strong><em>We cannot fill your order unless you generate a new Ethereum account with an ERC20 compatible wallet.</em></strong>
+              </li>
+              <br>
+
+              <li><b>An email address</b> (optional) - For sale-related notifications.</li>
+            </ol>
+            <br>
+
+            <h3 class="text-center">Receiving and refund addresses <strong><em>cannot</em></strong> be exchange addresses, <br>unless you own the private key.</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="section text-center highlights">
     <div class="container">
@@ -859,13 +929,13 @@
               <strong><em>We cannot fill your order unless you generate a new Ethereum account with an ERC20 compatible wallet.</em></strong>
               <br><br>
             </li>
-            <li><b>A BTC or ETH refund address</b> (for return of your funds, for any reason). This refund address type should match the cryptocurrency you paid with e.g. ETH receiving address should have an ETH refund address; BTC receiving address should have a BTC refund address.
+            <li><b>A BTC refund address if funding with BTC</b> (for return of your funds, for any reason)
             </li>
-            <br><br>
-            <li><b>An email address</b> (optional) - For sale-related notifications.</li>
+            <br>
+            <li><b>An email address</b> - For sale-related notifications. We won't ever disclose your email to third parties.</li>
           </ul>
           <br>
-          Receiving and refund addresses <strong><em>cannot</em></strong> be exchange addresses.
+          Receiving and refund addresses <strong><em>cannot</em></strong> be exchange addresses, unless you own the private key.
         </div>
       </div>
 
@@ -889,7 +959,8 @@
 
       <div class="q-a">
         <div class="question">What Ethereum wallet can I use?</div>
-        <div class="answer">You can use any <b>ERC20 compatible wallet</b>, such as
+        <div class="answer">
+          You can use any <b>ERC20 compatible wallet</b>, such as
           <a href="https://parity.io/parity.html" class="link" target="_blank">Parity</a>,
           <a href="https://github.com/ethereum/mist" class="link" target="_blank">Mist</a>,
           <a href="https://metamask.io/" class="link" target="_blank">MetaMask</a>,
@@ -1435,6 +1506,22 @@
       window.location.replace('https://storj.io/tokensale')
     })
 
+  </script>
+
+  <!-- Timer for Token Sale Events -->
+  <script>
+    var startTime = new Date('May 19 2017 08:00:00 GMT-0700').getTime();
+    var nowTime = Date.now();
+    var showTime = startTime - nowTime;
+    console.log('showTime', startTime, nowTime, showTime)
+
+    if (showTime > 0) {
+      $('#token-webapp').hide();
+      $('#presale-token-info').show();
+    } else {
+      $('#token-webapp').show();
+      $('#presale-token-info').hide();
+    }
   </script>
 
 </body>
