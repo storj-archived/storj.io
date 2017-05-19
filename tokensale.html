@@ -108,35 +108,11 @@
 	  </div>
 	</nav>
 
-	<section id="presale-token-info">
-		<div class="container">
-      <div class="lead tokensale-countdown text-center">Starting in <strong id="DateCountdownBanner"></strong></div>
-			<div class="row text-center">
-          <!-- <div id="DateCountdown" class="tokensale-counter" data-date="2017-05-19 08:00:00 PDT"></div> -->
-          <!-- It's also Alex's birthday! :))) -->
-          <div class="spacer15"></div>
-          <h1 class="tokensale-headline">Pre-Sale Ends Today</h1>
-          <h4>Purchases over $50k may be eligible for our pre-sale and discounts</h4>
-          <a href="/presale.html"><input type="submit" class="btn btn-green" value="Participate Now"></a>
-          <div class="line-space text-center"></div>
+  <div class="spacer20"></div>
 
-
-          <div class="spacer15"></div>
-					<h1 class="tokensale-headline">Storj Token Sale</h1>
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1">
-  					  <p>Enter your email below to indicate your desired purchase amount:</p>
-            </div>
-          </div>
-        	<form id="subscribe-top" class="validate form-inline">
-            	<input type="email" value="" class="email" id="subscribe-top-email" placeholder="Enter your email address" spellcheck="false" required>
-            	<input type="submit" value="Subscribe" class="btn btn-green subscribe">
-        	</form>
-          <span class="promise">*We will never share, rent, or sell your email address to anyone, ever.</span>
-				</div>
-			</div>
-		</div>
-	</section>
+  <div class="embed-responsive embed-responsive-16by9" style="height:1740px;" id="token-webapp">
+    <iframe class="embed-responsive-item" src="http://crowdsale.staging.storj.io/crowdsale/storj-preview/embed" frameborder="0"></iframe>
+  </div>
 
   <div class="container">
     <div class="line-space text-center"></div>
@@ -351,9 +327,6 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 text-center">
-          <!-- <div class="token-symbol text-center">
-            <img src="img/logo-symbol.svg" alt="Storj" height="100" width="100">
-          </div> -->
           <h1 class="text-center">Why use a token?</h1>
           <p>
             We recently <a href="http://blog.storj.io/post/158740607128/migration-from-counterparty-to-ethereum" target="_blank" class="link">announced a migration</a> of the Storj token, STORJ (formerly SJCX) to the Ethereum ERC20 standard from the
@@ -840,24 +813,6 @@
       </a>
     </div>
   </section>
-
-
-<!--   <section class="section" id="next-event">
-    <div class="container">
-      <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 text-center">
-        <h1 class="text-center">Our Next Event</h1>
-        <p>
-          Join the Storj founders on May 12th 6:30pm, San Francisco.<br> Storj will be talking about the Storj Token Sale in more detail and answering questions about our future goals, technology, and users
-        </p>
-        <div class="spacer20"></div>
-        <div class="row text-center">
-          <a href="https://storj.me/HackTemple">
-            <img src="img/HackTempleMeetup.png" alt="Storj StartUp Temple Event">
-          </a>
-        </div>
-      </div>
-    </div>
-  </section> -->
 
   <section class="section why-use" id="upcoming-events">
     <div class="spacer40"></div>
@@ -1506,22 +1461,6 @@
       window.location.replace('https://storj.io/tokensale')
     })
 
-  </script>
-
-  <!-- Timer for Token Sale Events -->
-  <script>
-    var startTime = new Date('May 19 2017 08:00:00 GMT-0700').getTime();
-    var nowTime = Date.now();
-    var showTime = startTime - nowTime;
-    console.log('showTime', startTime, nowTime, showTime)
-
-    if (showTime > 0) {
-      $('#token-webapp').hide();
-      $('#presale-token-info').show();
-    } else {
-      $('#token-webapp').show();
-      $('#presale-token-info').hide();
-    }
   </script>
 
 </body>
