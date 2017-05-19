@@ -2431,6 +2431,10 @@ Token Sale
   padding: 1em 1.5em;
 }
 
+#token-webapp {
+  height: 1440px;
+}
+
 /* --------------------------------
 
 Conversion
@@ -2531,17 +2535,20 @@ Media Queries
     .upload-gui {
     	margin-top: 1em;
     }
-	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
-    	padding: 40px 8px;
-    	font-size: 14px;
-	}
-	.btn-menu {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	.team-member {
-    	width: 50%;
-	}
+  	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
+      	padding: 40px 8px;
+      	font-size: 14px;
+  	}
+  	.btn-menu {
+  		padding-left: 15px;
+  		padding-right: 15px;
+  	}
+  	.team-member {
+      	width: 50%;
+  	}
+    #token-webapp {
+      height: 1540px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
@@ -2552,27 +2559,27 @@ Media Queries
 }
 
 @media (max-width: 767px) {
-    .text-left-xs {
-      text-align: left;
-    }
-    .text-right-xs {
-      text-align: right;
-    }
-    .text-center-xs {
-      text-align: center;
-    }
-    .header {
-    	height: auto;
-    	min-height: 600px;
-    	padding-bottom: 5em;
-    }
-    .header-content {
-    	position: relative;
-    }
-    .headlines {
-    	top: auto;
-    }
-    .navbar-page .logo {
+  .text-left-xs {
+    text-align: left;
+  }
+  .text-right-xs {
+    text-align: right;
+  }
+  .text-center-xs {
+    text-align: center;
+  }
+  .header {
+  	height: auto;
+  	min-height: 600px;
+  	padding-bottom: 5em;
+  }
+  .header-content {
+  	position: relative;
+  }
+  .headlines {
+  	top: auto;
+  }
+  .navbar-page .logo {
 		margin-left: 0;
 	}
 	.navbar-right {
@@ -2688,10 +2695,13 @@ Media Queries
 	}
 	.team-member {
     	padding: 30px 8px;
-  	}
+	}
 	footer .address address {
 	    color: #fff;
 	}
+  #token-webapp {
+    height: 1800px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2812,5 +2822,8 @@ Media Queries
   }
   .tokensale-banner .lead {
     font-size: 14px;
+  }
+  #token-webapp {
+    height: 2000px;
   }
 }
