@@ -2384,6 +2384,10 @@ Token Sale
 .presale .tokensale-countdown {
   margin-bottom: 20px;
 }
+.presale .presale-contents input {
+  max-width: 100%;
+  max-height: 6em;
+}
 
 .presale .presale-contents {
   display: flex;
@@ -2442,7 +2446,7 @@ Conversion
 -------------------------------- */
 .conversion,
 .conversion h1,
-.conversion h2, 
+.conversion h2,
 .conversion h3,
 .conversion h4,
 .conversion h5,
