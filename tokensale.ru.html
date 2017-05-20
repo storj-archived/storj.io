@@ -93,15 +93,11 @@
 	</nav>
 
   <div class="container">
-    <div class="spacer50"></div>
+    <div class="spacer20"></div>
     <div class="row text-center">
-      <a href="https://tokensale.prod.storj.io/crowdsale/storj/begin_investment?currency=BTC" target="_blank">
-        <input type="submit" value="Внести вклад в BTC" class="btn btn-block btn-green subscribe" style="margin-right: 10px;">
-      </a>
-
-      <a href="https://tokensale.prod.storj.io/crowdsale/storj/begin_investment?currency=ETC" target="_blank">
-        <input type="submit" value="Внести вклад в ETH" class="btn btn-block btn-green subscribe">
-      </a>
+      <a href="https://tokensale.prod.storj.io/crowdsale/storj/begin_investment?currency=BTC" target="_blank" class="btn btn-green" style="margin: 10px;">Внести вклад в BTC</a>
+      <a href="https://tokensale.prod.storj.io/crowdsale/storj/begin_investment?currency=ETH" target="_blank" class="btn btn-green" style="margin: 10px;">Внести вклад в ETH</a>
+      <p>Чтобы внести вклад в altcoin щёлкните по кнопке "Внести вклад в BTC" и следуйте указаниям мастера.</p>
     </div>
   </div>
 
@@ -770,6 +766,18 @@
     </div>
   </section>
 
+  <section>
+    <div class="container">
+      <div class="spacer20"></div>
+      <div class="row text-center">
+        <a href="https://tokensale.prod.storj.io/crowdsale/storj/begin_investment?currency=BTC" target="_blank" class="btn btn-green" style="margin: 10px;">Внести вклад в BTC</a>
+        <a href="https://tokensale.prod.storj.io/crowdsale/storj/begin_investment?currency=ETH" target="_blank" class="btn btn-green" style="margin: 10px;">Внести вклад в ETH</a>
+        <div class="spacer20"></div>
+        <p>Чтобы внести вклад в altcoin щёлкните по кнопке "Внести вклад в BTC" и следуйте указаниям мастера.</p>
+      </div>
+    </div>
+  </section>
+
 	<script src="js/jquery-2.1.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<!-- <script src="js/countUp.min.js"></script> -->
@@ -780,66 +788,6 @@
 
 	<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = "<iframe src='https://player.vimeo.com/video/102119715?autoplay=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";}</script>
 
-
-  <!-- Countdown Timer -->
-  <script>
-    function getTimeRemaining(endtime) {
-      var t = Date.parse(endtime) - Date.parse(new Date());
-      var seconds = Math.floor((t / 1000) % 60);
-      var minutes = Math.floor((t / 1000 / 60) % 60);
-      var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-      var days = Math.floor(t / (1000 * 60 * 60 * 24));
-      return {
-        'total': t,
-        'days': days,
-        'hours': hours,
-        'minutes': minutes,
-        'seconds': seconds
-      };
-    }
-    function initializeClock(id, endtime) {
-      var clock = $(id);
-      var day1 = $('<span></span>').appendTo(id).addClass('units');
-      var day2 = $('<span></span>').appendTo(id).addClass('units');
-      $('<span>:</span>').appendTo(id).addClass('divider');
-      var hours1 = $('<span></span>').appendTo(id).addClass('units');
-      var hours2 = $('<span></span>').appendTo(id).addClass('units');
-      $('<span>:</span>').appendTo(id).addClass('divider');
-      var minutes1 = $('<span></span>').appendTo(id).addClass('units');
-      var minutes2 = $('<span></span>').appendTo(id).addClass('units');
-      $('<span>:</span>').appendTo(id).addClass('divider');
-      var seconds1 = $('<span></span>').appendTo(id).addClass('units');
-      var seconds2 = $('<span></span>').appendTo(id).addClass('units');
-      function updateClock() {
-        var t = getTimeRemaining(endtime);
-        var time = {
-          day1: ('0' + t.days).slice(-2).charAt(0),
-          day2: ('0' + t.days).slice(-2).charAt(1),
-          hours1: ('0' + t.hours).slice(-2).charAt(0),
-          hours2: ('0' + t.hours).slice(-2).charAt(1),
-          minutes1: ('0' + t.minutes).slice(-2).charAt(0),
-          minutes2: ('0' + t.minutes).slice(-2).charAt(1),
-          seconds1: ('0' + t.seconds).slice(-2).charAt(0),
-          seconds2: ('0' + t.seconds).slice(-2).charAt(1)
-        };
-        $(day1).text(time.day1);
-        $(day2).text(time.day2);
-        $(hours1).text(time.hours1);
-        $(hours2).text(time.hours2);
-        $(minutes1).text(time.minutes1);
-        $(minutes2).text(time.minutes2);
-        $(seconds1).text(time.seconds1);
-        $(seconds2).text(time.seconds2);
-        if (t.total <= 0) {
-          clearInterval(timeinterval);
-        }
-      }
-      updateClock();
-      var timeinterval = setInterval(updateClock, 1000);
-    }
-    var deadline = 'May 19 2017 08:00:00 GMT-0700';
-    initializeClock('#DateCountdownBanner', deadline);
-  </script>
 
   <!-- Slider -->
 	<script>
@@ -1016,140 +964,6 @@
       });
     });
 	</script>
-
-  <!-- #confirmation Survey Modal -->
-  <script>
-    function setEmail (emailInput) {
-      var input = $(emailInput).val();
-      window.localStorage.setItem('tokenSaleEmail', input);
-    }
-
-    $('#subscribe-top-email').on('keyup', function () {
-      setEmail('#subscribe-top-email')
-    })
-    $('#subscribe-middle-email').on('keyup', function () {
-      setEmail('#subscribe-middle-email')
-    })
-    $('#subscribe-bottom-email').on('keyup', function () {
-      setEmail('#subscribe-bottom-email')
-    })
-    // $('#subscribe-cloud-email').on('keyup', function () {
-      // setEmail('#subscribe-cloud-email')
-    // })
-
-    $('.invest1').prop('disabled', false);
-    $('.invest2').prop('disabled', false);
-    $('.invest3').prop('disabled', false);
-    $('.invest4').prop('disabled', false);
-    $('.invest5').prop('disabled', false);
-    $('.invest6').prop('disabled', false);
-
-    var amountGroups = [ '<1k', '1-5k', '5-10k', '10-25k', '25-100k', '100k+' ];
-    var topGroups = amountGroups.slice(-3);
-    var selectedGroup;
-
-    $('.invest1').on('click', function (e) {
-      e.preventDefault();
-      selectedGroup = amountGroups[0];
-      analytics.track('Token Purchase Survey', {
-        category: 'Intent',
-        label: amountGroups[0]
-      });
-
-      $('.confirmation-modal-submit').prop('disabled', false);
-    });
-
-    $('.invest2').on('click', function (e) {
-      e.preventDefault();
-      selectedGroup = amountGroups[1];
-      analytics.track('Token Purchase Survey', {
-        category: 'Intent',
-        label: amountGroups[1]
-      });
-
-      $('.confirmation-modal-submit').prop('disabled', false);
-    });
-
-    $('.invest3').on('click', function (e) {
-      e.preventDefault();
-      selectedGroup = amountGroups[2];
-      analytics.track('Token Purchase Survey', {
-        category: 'Intent',
-        label: amountGroups[2]
-      });
-
-      $('.confirmation-modal-submit').prop('disabled', false);
-    });
-
-    $('.invest4').on('click', function (e) {
-      e.preventDefault();
-      selectedGroup = amountGroups[3];
-      analytics.track('Token Purchase Survey', {
-        category: 'Intent',
-        label: amountGroups[3]
-      });
-
-      $('.confirmation-modal-submit').prop('disabled', false);
-    });
-
-    $('.invest5').on('click', function (e) {
-      e.preventDefault();
-      selectedGroup = amountGroups[4];
-      analytics.track('Token Purchase Survey', {
-        category: 'Intent',
-        label: amountGroups[4]
-      });
-
-      $('.confirmation-modal-submit').prop('disabled', false);
-    });
-
-    $('.invest6').on('click', function (e) {
-      e.preventDefault();
-      selectedGroup = amountGroups[5];
-      analytics.track('Token Purchase Survey', {
-        category: 'Intent',
-        label: amountGroups[5]
-      });
-
-      $('.confirmation-modal-submit').prop('disabled', false);
-    });
-
-    $('.confirmation-modal-submit').on('click', function (e) {
-      e.preventDefault();
-      var tokenSaleEmail = window.localStorage.getItem('tokenSaleEmail');
-
-      $('.confirmation-modal-submit').prop('disabled', true);
-      $('.invest1').prop('disabled', true);
-      $('.invest2').prop('disabled', true);
-      $('.invest3').prop('disabled', true);
-      $('.invest4').prop('disabled', true);
-      $('.invest5').prop('disabled', true);
-      $('.invest6').prop('disabled', true);
-
-      analytics.track('Token Purchase Survey', {
-        category: 'Submit',
-        label: selectedGroup
-      });
-
-      analytics.identify(tokenSaleEmail, {
-        email: tokenSaleEmail,
-        purchaseSurveySubmission: selectedGroup
-      });
-
-      if (topGroups.indexOf(selectedGroup) !== -1) {
-         $('.firstForm').toggle();
-         $('.secondForm').toggle();
-       } else {
-         $('.firstForm').toggle();
-         $('.firstFormThankyou').toggle();
-       }
-    });
-
-    $('.thankyouClose').click(function() {
-      window.location.replace('https://storj.io/tokensale')
-    })
-
-  </script>
 
 </body>
 </html>
