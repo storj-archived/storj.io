@@ -19,13 +19,27 @@ node('node') {
 
       sh "git rev-parse --short HEAD > .git/commit-id"
       def commit_id = readFile('.git/commit-id').trim()
+
+      echo 'Build dockerfile'
       sh "./dockerfiles/build/build-storj.io.sh ${env.BUILD_ID} ${commit_id} latest"
+
+      echo 'Push to Repo'
       sh "./dockerfiles/build/push.sh storjlabs/storj.io:${env.BUILD_ID} storjlabs/storj.io:${commit_id} storjlabs/storj.io:latest"
 
     stage 'Deploy'
 
-      echo 'Push to Repo'
-      sh "./dockerfiles/deploy/deploy.staging.sh storj-website deployment storjlabs/storj.io:${commit_id}"
+      def prod_deploy_enabled == true
+      def staging_tag = sh(returnStdout: true, script: "git tag --sort version:refname | grep 'staging'").trim()
+
+      echo "staging_tag is: $staging_tag"
+      if (staging_tag == 'staging') {
+        sh "./dockerfiles/deploy/deploy.staging.sh storj-website deployment storjlabs/storj.io:${commit_id}"
+      }
+
+      echo "Branch name: ${env.BRANCH_NAME}"
+      if (${env.BRANCH_NAME} == 'master' && prod_deploy_enabled) {
+        sh "./dockerfiles/deploy/deploy.production.sh storj-website deployment storjlabs/storj.io:${commit_id}"
+      }
 
     stage 'Cleanup'
 
