@@ -23,12 +23,12 @@ node('node') {
 
       echo "staging_tag is: $staging_tag"
       if (staging_tag == 'staging') {
-        sh "./dockerfiles/deploy/deploy.staging.sh storj-website deployment storjlabs/storj.io:${commit_id}"
+        sh(returnStdout: true, script: "./dockerfiles/deploy/deploy.staging.sh storj-website deployment storjlabs/storj.io:${commit_id})"
       }
 
       echo "Branch name: ${env.BRANCH_NAME}"
       if ($env.BRANCH_NAME == 'master' && prod_deploy_enabled == true) {
-        sh "./dockerfiles/deploy/deploy.production.sh storj-website deployment storjlabs/storj.io:${commit_id}"
+        sh(returnStdout: true, script: "./dockerfiles/deploy/deploy.production.sh storj-website deployment storjlabs/storj.io:${commit_id})"
       }
 
       result = success
@@ -53,6 +53,8 @@ node('node') {
 
   catch (err) {
     currentBuild.result = "FAILURE"
+
+    echo 'Caught ERROR!'
 
     /*
     mail body: "project build error is here: ${env.BUILD_URL}" ,
