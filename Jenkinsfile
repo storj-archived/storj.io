@@ -27,7 +27,7 @@ node('node') {
       }
 
       echo "Branch name: ${env.BRANCH_NAME}"
-      if (${env.BRANCH_NAME} == 'master' && prod_deploy_enabled == true) {
+      if ($env.BRANCH_NAME == 'master' && prod_deploy_enabled == true) {
         sh "./dockerfiles/deploy/deploy.production.sh storj-website deployment storjlabs/storj.io:${commit_id}"
       }
 
