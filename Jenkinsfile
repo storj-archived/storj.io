@@ -55,6 +55,7 @@ node('node') {
     currentBuild.result = "FAILURE"
 
     echo 'Caught ERROR!'
+    echo "Error: ${err}"
 
     /*
     mail body: "project build error is here: ${env.BUILD_URL}" ,
