@@ -28,7 +28,7 @@ node('node') {
 
     stage 'Deploy'
 
-      def prod_deploy_enabled == true
+      def prod_deploy_enabled = true
       def staging_tag = sh(returnStdout: true, script: "git tag --sort version:refname | grep 'staging'").trim()
 
       echo "staging_tag is: $staging_tag"
@@ -37,7 +37,7 @@ node('node') {
       }
 
       echo "Branch name: ${env.BRANCH_NAME}"
-      if (${env.BRANCH_NAME} == 'master' && prod_deploy_enabled) {
+      if (${env.BRANCH_NAME} == 'master' && prod_deploy_enabled == true) {
         sh "./dockerfiles/deploy/deploy.production.sh storj-website deployment storjlabs/storj.io:${commit_id}"
       }
 
