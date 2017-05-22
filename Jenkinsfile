@@ -5,16 +5,6 @@ node('node') {
 
       checkout scm
 
-    stage 'Test'
-
-      sh """#!/bin/bash -e
-        source '/var/lib/jenkins/.nvm/nvm.sh'
-        node -v
-        git clean -fdx
-        npm install
-        npm test
-      """
-
     stage 'Build Docker'
 
       sh "git rev-parse --short HEAD > .git/commit-id"
