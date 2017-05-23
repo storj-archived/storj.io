@@ -18,7 +18,7 @@ node('node') {
 
     stage 'Deploy'
 
-      def prod_deploy_enabled = true
+      def prod_deploy_enabled = false
       def staging_tag = sh(returnStdout: true, script: "git tag | grep 'staging'").trim()
 
       echo "staging_tag is: $staging_tag"
