@@ -31,8 +31,6 @@ node('node') {
         sh(returnStdout: true, script: "./dockerfiles/deploy/deploy.production.sh storj-website deployment storjlabs/storj.io:${commit_id}")
       }
 
-      result = success
-
     stage 'Cleanup'
 
       echo 'prune and cleanup'
