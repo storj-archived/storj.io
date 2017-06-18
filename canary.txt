@@ -24,26 +24,26 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 5/1/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 6/18/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Congress reaches deal to keep government open through Sept.
-- - After hard-left turn, Britain’s Labour Party is on course for a historic defeat
-- - At the border, Trump’s tactics of fear appear to be working
-- - God, guns and Russia: How the GOP right found allies in Moscow
-- - During President Trump’s first 100 days, he made 488 false or misleading claims
+- - Turmoil compounds White House’s struggles to fill out top ranks of government
+- - ‘Traumatic’ collision that killed sailors almost sank destroyer, Navy says
+- - Trump’s contradictory coalition roils elections in Virginia, Georgia
+- - Macron poised to expand power in a remarkable way
+- - Judge declares a mistrial in Bill Cosby sex assault trial
 -----BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.0.68
+Version: Keybase OpenPGP v2.0.72
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJZBzH2AAoJEPQrujgXjffwYUIH/0PEqjGJRgGgGSDiwM5IwmMF
-8p8OsBB4a6ijM4WIhTkgEasqI2ehTyXKekgDp8lwCcssj0D6D2povhcy/iuAtNm/
-eMXzxWF1jKSYuENSJko2T7JMy9hse1fsPXuu8USKhk3OCcKLSOfz7FGIVPjCUUT2
-ej1Vzbr7ennEZO5wWU9NpTsn9jtXMy/PV750dFo2umNrw/QqfJrJtj4H0cGJdPkM
-i/tE5FenvKX7ntRrDwqvLMXZAR09MZHxYGGJdfFO/UoX7Qs2HXrN+7ZPLIEue5dt
-DI4JPiskfqEN1a8NvWeoANvoK1/m/CtR1jXhYSWTSA/calsI9+BYlpjTy2UxLMw=
-=oGLu
+wsBcBAABCgAGBQJZRnejAAoJEPQrujgXjffwulIH+QErsuV382EoxHHwYd3v1cX0
+prNOIIaUZQdgCoiO/A1aBEdTamQKaNQXYe6Lobnkf/Rmx9ZrXDnbBnfo9a4ZhV3Q
+fKqbQe2I3C1ARdMjTUrzln3s1sNMOZfSKNpuCsqPQhhBUQX4ceoBY2YHvVF+v6cF
+rrUuTQV3FW8WvXwa2Tm64H3GFiesFXUrdYQ7SQ7jnwRV4EfwvusspsApOXb6jmS+
+jH3PraelraSHCdMgZ9UANvn6wm1BBOfaARnoENrClUdfmkFnRe1ChHiJuZSxCXp0
+jn+0fqIpUgat9wukwn3fCJV5kQB0AVp4BvlT9U/cATdRQTp2Zg32QkzAlFWr2qM=
+=Umb4
 -----END PGP SIGNATURE-----
 
 
