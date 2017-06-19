@@ -2030,6 +2030,26 @@ Token Sale
 .tokensale .header {
   background: none;
 }
+
+.tokensale #complete > p {
+  font-size: 24px;
+}
+
+.tokensale #complete .emphasis {
+  font-size: 32px;
+}
+
+.tokensale #next-steps .wallet-instructions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.tokensale #next-steps .wallet-instructions .wallet {
+  margin: 2em;
+}
+
 .tokensale .tokensale-countdown, .presale .tokensale-countdown {
   color: #fff;
   border-bottom: 2px solid #fff;
@@ -2045,7 +2065,7 @@ Token Sale
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 10px;
-  border-bottom: 2px solid #88c425;
+  border-bottom: 2px solid #2683ff;
 }
 
 .tokensale-counter {
@@ -2109,18 +2129,6 @@ Token Sale
 .tokensale #complete h1 {
   font-size: 64px;
 }
-.tokensale #summary .point {
-  height: 100px;
-  width: 300px;
-  border: 3px solid #2683FF;
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 5px;
-}
-
 .tokensale .talking-points {
   display: flex;
   flex-wrap: wrap;
@@ -2368,21 +2376,12 @@ Token Sale
   font-size: 75px;
   color: #2683FF;
 }
-.tokensale #next-event img {
-  height: 100%;
-  width: 100%;
-}
-.tokensale #upcoming-events .why-token-icon {
-  color: #2683FF;
-  font-weight: bold;
-  font-size: 18px;
-}
-.tokensale #upcoming-events a {
-  text-decoration: none;
-}
 
 .tokensale .faqs, .presale .faqs {
   color: #FFF;
+}
+.tokensale .faqs a {
+  color: #2683FF;
 }
 .tokensale .faqs .q-a, .presale .faqs, .q-a {
   padding: 20px;
