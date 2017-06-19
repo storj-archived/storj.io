@@ -2377,11 +2377,17 @@ Token Sale
   color: #2683FF;
 }
 
-.tokensale .faqs, .presale .faqs {
+.tokensale .faqs, .presale .faqs, .tokensale .faqs a {
   color: #FFF;
 }
-.tokensale .faqs a {
-  color: #2683FF;
+.tokensale .faqs .panel-body, .tokensale .faqs .panel-heading {
+  background-color: #2683FF;
+}
+.tokensale .faqs .panel {
+  border-color: #2683FF;
+}
+.tokensale .faqs .panel-default > .panel-heading {
+  border-radius: 0;
 }
 .tokensale .faqs .q-a, .presale .faqs, .q-a {
   padding: 20px;
