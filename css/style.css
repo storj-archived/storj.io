@@ -2068,6 +2068,17 @@ Token Sale
   border-bottom: 2px solid #2683ff;
 }
 
+.tokensale .faqs .storj-video-wrapper input {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.arrow_hide {
+  display: none;
+}
+.arrow_show {
+  display: inline-block;
+}
+
 .tokensale-counter {
   width: 40%;
   max-width: 674px;
@@ -2291,10 +2302,11 @@ Token Sale
   background-position: center center;
 }
 .tokensale-banner p {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px auto;
   color: #fff;
   text-transform: uppercase;
+  border-bottom: 1px solid #fff;
+  width: 275px;
 }
 
 #confirmation-modal p, #confirmation-modal label {
@@ -2380,13 +2392,31 @@ Token Sale
 .tokensale .faqs, .presale .faqs, .tokensale .faqs a {
   color: #FFF;
 }
-.tokensale .faqs .panel-body, .tokensale .faqs .panel-heading {
+
+.tokensale .faqs .panel-body h1,
+.tokensale .faqs .panel-body h2,
+.tokensale .faqs .panel-body h3,
+.tokensale .faqs .panel-body h4,
+.tokensale .faqs .panel-body h5,
+.tokensale .faqs .panel-body h6,
+.tokensale .faqs .panel-body p,
+.tokensale .faqs .panel-body a,
+.tokensale .faqs .panel-body .link {
+  color: #000;
+}
+
+.tokensale .faqs .panel-heading {
   background-color: #2683FF;
+}
+.tokensale .faqs .panel-body {
+  background-color: #FFF;
+  background-opacity: 0.50;
+  color: #000;
 }
 .tokensale .faqs .panel {
   border-color: #2683FF;
 }
-.tokensale .faqs .panel-default > .panel-heading {
+.tokensale .faqs .panel-default .panel-heading {
   border-radius: 0;
 }
 .tokensale .faqs .q-a, .presale .faqs, .q-a {
