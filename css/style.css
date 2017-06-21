@@ -131,6 +131,11 @@ img {
 .section {
 	padding: 4em 0 5em;
 }
+
+.first-section {
+	padding: 0 0 5em;
+}
+
 .white {
 	background: #fff;
 }
@@ -1978,6 +1983,10 @@ Token Sale
 
 -------------------------------- */
 
+.break {
+  margin-bottom: 1.5em !important;
+}
+
 .tokensale {
   overflow-x: hidden;
   padding-bottom: 5em;
@@ -2027,9 +2036,75 @@ Token Sale
   pointer-events:none;
 }
 
+.tokensale .header1 {
+  display: block;
+  font-size: 2.81em;
+  font-weight: 800;
+}
+
+.tokensale .header2 {
+  display: block;
+  font-size: 1.81em;
+  font-weight: 800;
+}
+
 .tokensale .header {
   background: none;
 }
+
+.tokensale .ethaddress {
+  color: #FFF;
+  background-color: #2683FF;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border: 1px solid #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .tokensale .ethaddress {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 545px) {
+  .tokensale .ethaddress {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: normal;
+  }
+}
+
+.tokensale #complete > p {
+  font-size: 24px;
+}
+
+.tokensale .emphasis1 {
+  font-size: 1.81em;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+.tokensale #next-steps .wallet-instructions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.tokensale #next-steps .wallet-instructions .wallet {
+  margin: 2em;
+}
+
+.tokensale #next-steps .emphasized-paragraph {
+  font-size: 28px;
+}
+
 .tokensale .tokensale-countdown, .presale .tokensale-countdown {
   color: #fff;
   border-bottom: 2px solid #fff;
@@ -2045,7 +2120,14 @@ Token Sale
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 10px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #2683ff;
+}
+
+.arrow_hide {
+  display: none;
+}
+.arrow_show {
+  display: inline-block;
 }
 
 .tokensale-counter {
@@ -2053,22 +2135,32 @@ Token Sale
   max-width: 674px;
   margin: 0 auto;
 }
-// .tokensale .headlines {
-//   top: 140px;
-//   top: 19vh;
-// }
+
 .tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a, .presale h1, .presale h2, .presale h3, .presale h4, .presale h5, .presale h6, .presale p {
   color: #fff;
 }
 .tokensale .headlines h1 {
   margin-top: 0;
 }
+
 .tokensale .link {
+  color: #FFF;
+  font-weight: bold;
   border-bottom: 2px solid rgba(255,255,255,0.5);
 }
+
 .tokensale .link:hover {
   border-color: #fff;
 }
+
+.tokensale .link2 {
+  color: #000;
+}
+
+.tokensale .link2:hover {
+  color: #134280;
+}
+
 .tokensale blockquote p {
   color: #333;
 }
@@ -2106,6 +2198,9 @@ Token Sale
   margin: 1.5em auto 0.5em;
 }
 
+.tokensale #complete h1 {
+  font-size: 64px;
+}
 .tokensale .talking-points {
   display: flex;
   flex-wrap: wrap;
@@ -2233,6 +2328,7 @@ Token Sale
   z-index: 1000;
   display: flex;
 }
+
 /* Portrait and Landscape */
 @media only screen
   and (max-device-width: 768px)
@@ -2268,29 +2364,11 @@ Token Sale
   background-position: center center;
 }
 .tokensale-banner p {
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin: 16px auto;
   color: #fff;
   text-transform: uppercase;
-}
-
-#confirmation-modal p, #confirmation-modal label {
-  color: #444;
-}
-
-.secondForm {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.contactEmail, .contactComments {
-  margin: 0;
-  min-width: 100%;
-}
-
-#confirmation-modal .toggleContactForm {
-  color: #2683FF;
-  cursor: pointer;
+  border-bottom: 1px solid #fff;
+  width: 275px;
 }
 
 .tokensale .why-use-points {
@@ -2353,33 +2431,89 @@ Token Sale
   font-size: 75px;
   color: #2683FF;
 }
-.tokensale #next-event img {
-  height: 100%;
-  width: 100%;
-}
-.tokensale #upcoming-events .why-token-icon {
-  color: #2683FF;
-  font-weight: bold;
-  font-size: 18px;
-}
-.tokensale #upcoming-events a {
-  text-decoration: none;
+
+.secondForm {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.tokensale .faqs, .presale .faqs {
+.contactEmail, .contactComments {
+  margin: 0;
+  min-width: 100%;
+}
+
+#confirmation-modal p, #confirmation-modal label {
+  color: #444;
+}
+
+#confirmation-modal .toggleContactForm {
+  color: #2683FF;
+  cursor: pointer;
+}
+
+/* --------------------------------
+  Token sale Accordion faqs
+-------------------------------- */
+
+.tokensale .faqs, .presale .faqs, .tokensale .faqs a {
   color: #FFF;
 }
+
+.tokensale .faqs .panel-body h1,
+.tokensale .faqs .panel-body h2,
+.tokensale .faqs .panel-body h3,
+.tokensale .faqs .panel-body h4,
+.tokensale .faqs .panel-body h5,
+.tokensale .faqs .panel-body h6,
+.tokensale .faqs .panel-body p,
+.tokensale .faqs .panel-body a {
+  color: #000;
+}
+
+.tokensale .faqs .panel {
+  border-color: #FFF;
+}
+
+.tokensale .faqs .panel-heading {
+  background-color: #2683FF;
+}
+
+.tokensale .faqs .panel-body {
+  color: #000;
+  background-color: #FFF;
+}
+
+.tokensale .faqs .panel-body .link {
+  color: #000;
+}
+.tokensale .faqs .panel-body .link:hover {
+  color: #2683FF;
+}
+
+.tokensale .faqs .panel-body .panel-font {
+  color: #134280;
+  opacity: 1;
+}
+
 .tokensale .faqs .q-a, .presale .faqs, .q-a {
   padding: 20px;
   padding-bottom: 40px;
   margin: 20px;
-  border-bottom: 2px solid #2683FF;
 }
 .tokensale .faqs .question, .presale .faqs .question {
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 5px;
 }
+
+.tokensale .faqs .storj-video-wrapper input {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* --------------------------------
+  Presale class
+-------------------------------- */
 
 .presale .tokensale-countdown {
   margin-bottom: 20px;
