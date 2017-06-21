@@ -2027,6 +2027,46 @@ Token Sale
   pointer-events:none;
 }
 
+.tokensale .header1 {
+  display: block;
+  font-size: 4.06em;
+  margin-top: 1.25em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 800;
+}
+
+.tokensale .header2 {
+  display: block;
+  font-size: 3.38em;
+  margin-top: 1.25em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 800;
+}
+
+.tokensale .header3 {
+  display: block;
+  font-size: 2.81em;
+  margin-top: 1.25em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 800;
+}
+
+.tokensale .header4 {
+  display: block;
+  font-size: 1.81em;
+  margin-top: 1.25em;
+  margin-bottom: 0.6em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: 800;
+}
+
 .tokensale .header {
   background: none;
 }
@@ -2035,8 +2075,16 @@ Token Sale
   font-size: 24px;
 }
 
-.tokensale #complete .emphasis {
-  font-size: 32px;
+.tokensale .emphasis1 {
+  font-size: 44px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+}
+
+.tokensale .emphasis2 {
+  font-size: 39px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
 }
 
 .tokensale #next-steps .wallet-instructions {
@@ -2046,8 +2094,13 @@ Token Sale
   align-items: center;
   justify-content: center;
 }
+
 .tokensale #next-steps .wallet-instructions .wallet {
   margin: 2em;
+}
+
+.tokensale #next-steps .emphasized-paragraph {
+  font-size: 28px;
 }
 
 .tokensale .tokensale-countdown, .presale .tokensale-countdown {
@@ -2068,10 +2121,6 @@ Token Sale
   border-bottom: 2px solid #2683ff;
 }
 
-.tokensale .faqs .storj-video-wrapper input {
-  margin-left: 5px;
-  margin-right: 5px;
-}
 .arrow_hide {
   display: none;
 }
@@ -2084,10 +2133,7 @@ Token Sale
   max-width: 674px;
   margin: 0 auto;
 }
-// .tokensale .headlines {
-//   top: 140px;
-//   top: 19vh;
-// }
+
 .tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a, .presale h1, .presale h2, .presale h3, .presale h4, .presale h5, .presale h6, .presale p {
   color: #fff;
 }
@@ -2267,6 +2313,7 @@ Token Sale
   z-index: 1000;
   display: flex;
 }
+
 /* Portrait and Landscape */
 @media only screen
   and (max-device-width: 768px)
@@ -2307,25 +2354,6 @@ Token Sale
   text-transform: uppercase;
   border-bottom: 1px solid #fff;
   width: 275px;
-}
-
-#confirmation-modal p, #confirmation-modal label {
-  color: #444;
-}
-
-.secondForm {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.contactEmail, .contactComments {
-  margin: 0;
-  min-width: 100%;
-}
-
-#confirmation-modal .toggleContactForm {
-  color: #2683FF;
-  cursor: pointer;
 }
 
 .tokensale .why-use-points {
@@ -2389,6 +2417,29 @@ Token Sale
   color: #2683FF;
 }
 
+.secondForm {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.contactEmail, .contactComments {
+  margin: 0;
+  min-width: 100%;
+}
+
+#confirmation-modal p, #confirmation-modal label {
+  color: #444;
+}
+
+#confirmation-modal .toggleContactForm {
+  color: #2683FF;
+  cursor: pointer;
+}
+
+/* --------------------------------
+  Token sale Accordion faqs
+-------------------------------- */
+
 .tokensale .faqs, .presale .faqs, .tokensale .faqs a {
   color: #FFF;
 }
@@ -2400,25 +2451,38 @@ Token Sale
 .tokensale .faqs .panel-body h5,
 .tokensale .faqs .panel-body h6,
 .tokensale .faqs .panel-body p,
-.tokensale .faqs .panel-body a,
-.tokensale .faqs .panel-body .link {
+.tokensale .faqs .panel-body a {
   color: #000;
+}
+
+.tokensale .faqs .panel {
+  border-color: #FFF;
+}
+.tokensale .faqs .panel-default .panel-heading {
+  border-radius: 0;
 }
 
 .tokensale .faqs .panel-heading {
   background-color: #2683FF;
 }
+
 .tokensale .faqs .panel-body {
+  color: #000;
   background-color: #FFF;
-  background-opacity: 0.50;
+}
+
+.tokensale .faqs .panel-body .link {
   color: #000;
 }
-.tokensale .faqs .panel {
-  border-color: #2683FF;
+.tokensale .faqs .panel-body .link:hover {
+  color: #2683FF;
 }
-.tokensale .faqs .panel-default .panel-heading {
-  border-radius: 0;
+
+.tokensale .faqs .panel-body .panel-font {
+  color: #134280;
+  opacity: 1;
 }
+
 .tokensale .faqs .q-a, .presale .faqs, .q-a {
   padding: 20px;
   padding-bottom: 40px;
@@ -2430,6 +2494,15 @@ Token Sale
   font-size: 22px;
   margin-bottom: 5px;
 }
+
+.tokensale .faqs .storj-video-wrapper input {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+/* --------------------------------
+  Presale class
+-------------------------------- */
 
 .presale .tokensale-countdown {
   margin-bottom: 20px;
