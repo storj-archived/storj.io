@@ -2055,13 +2055,28 @@ Token Sale
 .tokensale .ethaddress {
   color: #FFF;
   background-color: #2683FF;
-  width: fit-content;
-  width: -webkit-fit-content;
-  margin:0 auto;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  margin: 0 auto;
+  padding: 20px;
   margin-top: 1em;
   margin-bottom: 1em;
+  border: 1px solid #fff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  .tokensale .ethaddress {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 545px) {
+  .tokensale .ethaddress {
+    font-size: 12px;
+    padding: 10px;
+    font-weight: normal;
+  }
 }
 
 .tokensale #complete > p {
@@ -2071,6 +2086,7 @@ Token Sale
 .tokensale .emphasis1 {
   font-size: 1.81em;
   letter-spacing: 0.1em;
+  line-height: 1.5em;
 }
 
 .tokensale #next-steps .wallet-instructions {
@@ -2128,6 +2144,8 @@ Token Sale
 }
 
 .tokensale .link {
+  color: #2683FF;
+  font-weight: bold;
   border-bottom: 2px solid rgba(255,255,255,0.5);
 }
 
@@ -2455,9 +2473,6 @@ Token Sale
 .tokensale .faqs .panel {
   border-color: #FFF;
 }
-.tokensale .faqs .panel-default .panel-heading {
-  border-radius: 0;
-}
 
 .tokensale .faqs .panel-heading {
   background-color: #2683FF;
@@ -2484,7 +2499,6 @@ Token Sale
   padding: 20px;
   padding-bottom: 40px;
   margin: 20px;
-  border-bottom: 2px solid #2683FF;
 }
 .tokensale .faqs .question, .presale .faqs .question {
   font-weight: bold;
