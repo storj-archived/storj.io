@@ -131,6 +131,11 @@ img {
 .section {
 	padding: 4em 0 5em;
 }
+
+.first-section {
+	padding: 0 0 5em;
+}
+
 .white {
 	background: #fff;
 }
@@ -1978,6 +1983,10 @@ Token Sale
 
 -------------------------------- */
 
+.break {
+  margin-bottom: 1.5em !important;
+}
+
 .tokensale {
   overflow-x: hidden;
   padding-bottom: 5em;
@@ -2029,41 +2038,13 @@ Token Sale
 
 .tokensale .header1 {
   display: block;
-  font-size: 4.06em;
-  margin-top: 1.25em;
-  margin-bottom: 0.6em;
-  margin-left: 0;
-  margin-right: 0;
+  font-size: 2.81em;
   font-weight: 800;
 }
 
 .tokensale .header2 {
   display: block;
-  font-size: 3.38em;
-  margin-top: 1.25em;
-  margin-bottom: 0.6em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: 800;
-}
-
-.tokensale .header3 {
-  display: block;
-  font-size: 2.81em;
-  margin-top: 1.25em;
-  margin-bottom: 0.6em;
-  margin-left: 0;
-  margin-right: 0;
-  font-weight: 800;
-}
-
-.tokensale .header4 {
-  display: block;
   font-size: 1.81em;
-  margin-top: 1.25em;
-  margin-bottom: 0.6em;
-  margin-left: 0;
-  margin-right: 0;
   font-weight: 800;
 }
 
@@ -2071,20 +2052,25 @@ Token Sale
   background: none;
 }
 
+.tokensale .ethaddress {
+  color: #FFF;
+  background-color: #2683FF;
+  width: fit-content;
+  width: -webkit-fit-content;
+  margin:0 auto;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .tokensale #complete > p {
   font-size: 24px;
 }
 
 .tokensale .emphasis1 {
-  font-size: 44px;
+  font-size: 1.81em;
   letter-spacing: 0.1em;
-  line-height: 2em;
-}
-
-.tokensale .emphasis2 {
-  font-size: 39px;
-  letter-spacing: 0.1em;
-  line-height: 2em;
 }
 
 .tokensale #next-steps .wallet-instructions {
@@ -2140,12 +2126,23 @@ Token Sale
 .tokensale .headlines h1 {
   margin-top: 0;
 }
+
 .tokensale .link {
   border-bottom: 2px solid rgba(255,255,255,0.5);
 }
+
 .tokensale .link:hover {
   border-color: #fff;
 }
+
+.tokensale .link2 {
+  color: #000;
+}
+
+.tokensale .link2:hover {
+  color: #134280;
+}
+
 .tokensale blockquote p {
   color: #333;
 }
