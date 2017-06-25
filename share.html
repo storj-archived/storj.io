@@ -82,7 +82,7 @@
             <h1 class="title">Earn money by sharing<br class="hidden-xs"> your hard drive space</h1>
             <p class="lead">Just download the Storj desktop application,<br> and choose how much storage to share.</p>
             <div class="spacer15"></div>
-            <a href="https://github.com/Storj/storjshare-gui/releases/" class="btn btn-white btn-lg btn-download" id="download">Download Storj Share <span class="label beta">Beta</span></a>
+            <a href="https://github.com/Storj/storjshare-gui/releases/" class="btn btn-white btn-lg btn-download" id="download">Download Storj Share</a>
             <p><a href="https://github.com/Storj/storjshare-gui/releases/" class="link">Other platforms</a> or <a href="https://github.com/Storj/storjshare-daemon/" class="link">command-line interface</a></p>
           </div>
           <div class="col-sm-12 col-md-6 text-center">
@@ -256,15 +256,15 @@
           // Set the correct link for each type of OS and default to the latest releases page if we cannot derive the OS
           if (os == "Windows") {
             $("#download").addClass('btn-win');
-            $("#download").html('Download Storj Share for Windows <span class="label beta">Beta</span>');
+            $("#download").html('Download Storj Share for Windows');
           } else if (os == "Mac OS") {
             $("#download").addClass('btn-osx');
-            $("#download").html('Download Storj Share for Mac <span class="label beta">Beta</span>');
+            $("#download").html('Download Storj Share for Mac');
           } else if (os == "Linux") {
             $("#download").addClass('btn-linux');
-            $("#download").html('Download Storj Share for Linux <span class="label beta">Beta</span>');
+            $("#download").html('Download Storj Share for Linux');
           } else {
-            $("#download").html('Download Storj Share <span class="label beta">Beta</span>');
+            $("#download").html('Download Storj Share');
           };
         });
       }
