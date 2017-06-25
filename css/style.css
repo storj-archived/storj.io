@@ -2122,17 +2122,35 @@ Token Sale
   background: none;
   padding-bottom: 5em;
 }
-.tokensale .ethaddress {
-  display: inline-block;
+
+.tokensale .address {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.tokensale .address {
+  max-width: 600px;
+}
+.tokensale .ethaddress, .tokensale .copy {
   color: #FFF;
+  width: 100%;
   background-color: #2683FF;
   margin: 1em auto;
-  margin-bottom: 1.5em;
+  margin-bottom: 0;
   padding: 1.4em;
   border: 1px solid #fff;
   font-weight: bold;
   text-align: center;
   box-sizing: border-box;
+}
+.tokensale .copy {
+  border-top: none;
+  margin: 0 auto;
+  margin-bottom: 1.5em;
+  padding: 10px;
+}
+.tokensale .copy:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 575px) {

@@ -157,7 +157,10 @@
         <h4>Instructions</h4>
         <div class="instructions">
           <h5 class="normal">The STORJ token contract address is:</h5>
-          <h5 class="ethaddress">0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac</h5>
+          <div class="address">
+            <h5 class="ethaddress">0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac</h5>
+            <div class="copy">Copy</div>
+          </div>
           <br>
           <p>
             You will need to set your wallet to watch the token contract.
@@ -630,48 +633,23 @@
   <script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = "<iframe src='https://player.vimeo.com/video/102119715?autoplay=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";}</script>
   -->
 
+<!-- Copy Eth Address -->
   <script>
-  $("#DateCountdown").TimeCircles({
-    "animation": "ticks",
-    "bg_width": 1,
-    "fg_width": 0.01,
-    "circle_bg_color": "#2683ff",
-    "time": {
-      "Days": {
-        "text": "Days",
-        "color": "#ffffff",
-        "show": true
-      },
-      "Hours": {
-        "text": "Hours",
-        "color": "#ffffff",
-        "show": true
-      },
-      "Minutes": {
-        "text": "Minutes",
-        "color": "#ffffff",
-        "show": true
-      },
-      "Seconds": {
-        "text": "Seconds",
-        "color": "#ffffff",
-        "show": true
-      }
+    function copyToClipboard(element) {
+      var $temp = $("<input>");
+      $("body").append($temp);
+      $temp.val($(element).text()).select();
+      document.execCommand("copy");
+      $temp.remove();
     }
-  });
-  </script>
 
-  <!-- Slider -->
-  <script>
-  // Slider
-  $('.slider').slick({
-    arrows: true,
-    dots: true,
-    autoplay: true,
-    autoplaySpeed: 9000,
-    infinite: true,
-    speed: 300
-  });
+    $('.copy').on('click', function() {
+      copyToClipboard('.ethaddress');
+      $('.copy')
+        .text('Copied!')
+        .css('background-color', '#88c425')
+    })
+
   </script>
 
   <!-- Accordion -->
