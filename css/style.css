@@ -2146,7 +2146,7 @@ Token Sale
 .tokensale .copy {
   border-top: none;
   margin: 0 auto;
-  margin-bottom: 1.25em;
+  margin-bottom: 1em;
   padding: 10px;
 }
 .tokensale .copy:hover {
@@ -2160,10 +2160,6 @@ Token Sale
   }
 }
 
-.tokensale #complete > p {
-  font-size: 24px;
-}
-
 .tokensale .emphasis1 {
   font-size: 1.81em;
   letter-spacing: 0.1em;
@@ -2174,7 +2170,7 @@ Token Sale
   font-size: 3em;
 }
 
-.tokensale .instructions p {
+.tokensale .instructions p, .tokensale .conversion-info p {
   font-size: 1.2em;
 }
 
