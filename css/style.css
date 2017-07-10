@@ -2213,6 +2213,13 @@ Token Sale
   width: 275px;
 }
 
+.tokensale .why-token-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .tokensale .why-use-points {
   display: flex;
   align-items: center;
@@ -2227,10 +2234,8 @@ Token Sale
   align-items: center;
   color: #444;
   text-align: center;
-  height: 350px;
-  width: 250px;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .tokensale .why-token-icon {
   display: flex;
@@ -2795,5 +2800,8 @@ Media Queries
   }
   #token-webapp {
     height: 2000px;
+  }
+  .tokensale .why-token-point {
+    padding: 20px 40px;
   }
 }
