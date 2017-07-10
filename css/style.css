@@ -2041,13 +2041,6 @@ Token Sale
   cursor: pointer;
 }
 
-@media (max-width: 575px) {
-  .tokensale .ethaddress {
-    font-size: 0.95em;
-    padding: 1.4em 0.6em;
-  }
-}
-
 .tokensale .talking-points {
   display: flex;
   flex-wrap: wrap;
@@ -2807,5 +2800,9 @@ Media Queries
   }
   .tokensale .why-token-point {
     padding: 20px 40px;
+  }
+  .tokensale .ethaddress {
+    font-size: 0.8em;
+    padding: 2em 0;
   }
 }
