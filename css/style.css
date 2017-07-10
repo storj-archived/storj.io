@@ -1989,116 +1989,15 @@ Token Sale
 .tokensale-headline {
   font-size: 44px;
 }
-.tokensale-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #2683ff;
-  z-index:-1;
-  background-image: -ms-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: -moz-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: -o-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #2682FF), color-stop(100, #103BFF));
-  background-image: -webkit-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: radial-gradient(ellipse closest-corner at center, #2682FF 0%, #103BFF 100%);
-}
-.tokensale-stars-left {
-  position: fixed;
-  top: 42px;
-  left: 10px;
-  width: 280px;
-  z-index: -1;
-}
-.tokensale-stars-right {
-  position: fixed;
-  top: 42px;
-  right: 10px;
-  width: 280px;
-  z-index: -1;
-}
-
-.tokensale-clouds {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  opacity: 0.1;
-  background-image: url("../img/clouds.png");
-  background-size: contain;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  pointer-events:none;
-}
 
 .tokensale .section {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-.tokensale .header2 {
-  display: block;
-  font-size: 1.81em;
-  font-weight: 800;
-}
-
-.tokensale .header {
-  background: none;
-}
-
-.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a, .presale h1, .presale h2, .presale h3, .presale h4, .presale h5, .presale h6, .presale p {
-  color: #fff;
-}
-.tokensale .headlines h1 {
-  margin-top: 0;
-}
-.tokensale h2 {
-  font-size: 2.8em;
-}
-.tokensale h3 {
-  font-size: 2.3em;
-}
-.tokensale h4 {
-  font-size: 1.8em;
-}
-.tokensale h5 {
-  font-size: 1.2em;
-}
-.tokensale h6 {
-  font-size: 1em;
-}
-
 .tokensale hr {
   margin: 0 auto;
   margin-bottom: 2em;
-  border-top: 2px solid #2683ff;
-  filter: brightness(115%);
-}
-
-.tokensale .link {
-  color: #FFF;
-  font-weight: bold;
-  border-bottom: 2px solid rgba(255,255,255,0.5);
-}
-
-.tokensale .link:hover {
-  border-color: #fff;
-}
-
-.tokensale .link2 {
-  color: #000;
-}
-
-.tokensale .link2:hover {
-  color: #134280;
-}
-
-.tokensale .btn {
-  box-shadow: 0 0 15px rgba(0,0,0,.25);
-}
-
-.tokensale .subtitle--lg {
-  font-size: 1.5em;
 }
 
 .tokensale .token-symbol {
@@ -2118,36 +2017,21 @@ Token Sale
 .tokensale .value-icon, .tokensale .storj-video, .tokensale blockquote, .tokensale .quote-image {
   box-shadow: 0 0 15px rgba(0,0,0,.25);
 }
-.tokensale footer {
-  background: none;
-  padding-bottom: 5em;
-}
 
-.tokensale .address {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-}
-.tokensale .address {
-  max-width: 600px;
-}
 .tokensale .ethaddress, .tokensale .copy {
-  color: #FFF;
   width: 100%;
-  background-color: #2683FF;
   margin: 1em auto;
   margin-bottom: 0;
   padding: 1.4em;
-  border: 1px solid #fff;
-  font-weight: bold;
+  border: 1px solid #eee;
   text-align: center;
-  box-sizing: border-box;
+  background: #f9f9f9;
 }
 .tokensale .copy {
   border-top: none;
   margin: 0 auto;
-  margin-bottom: 1em;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 .tokensale .copy:hover {
   cursor: pointer;
@@ -2160,52 +2044,6 @@ Token Sale
   }
 }
 
-.tokensale .emphasis1 {
-  font-size: 1.81em;
-  letter-spacing: 0.1em;
-  line-height: 1.5em;
-}
-
-.tokensale #thank-you h2 {
-  font-size: 3em;
-}
-
-.tokensale .instructions p, .tokensale .conversion-info p {
-  font-size: 1.2em;
-}
-
-.tokensale .tokensale-countdown, .presale .tokensale-countdown {
-  color: #fff;
-  border-bottom: 2px solid #fff;
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  padding-bottom: 5px;
-  font-size: 28px;
-}
-
-.arrow_hide {
-  display: none;
-}
-.arrow_show {
-  display: inline-block;
-}
-
-.tokensale-counter {
-  width: 40%;
-  max-width: 674px;
-  margin: 0 auto;
-}
-
-.tokensale .sjcx-chart {
-  border-radius: 4px;
-  box-shadow: 0 0 15px rgba(0,0,0,.25);
-  margin: 1.5em auto 0.5em;
-}
-
-.tokensale #complete h1 {
-  font-size: 64px;
-}
 .tokensale .talking-points {
   display: flex;
   flex-wrap: wrap;
@@ -2271,7 +2109,6 @@ Token Sale
   margin-bottom: 0.2em;
 }
 .tokensale .promise {
-  color: rgba(255, 255, 255, 0.5);
   margin-top: 1em;
   margin-bottom: 2em;
 }
@@ -2399,13 +2236,8 @@ Token Sale
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 10px solid rgba(255, 255, 255, 0.2);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .tokensale .why-token-icon img {
   height: 85px;
@@ -2421,13 +2253,8 @@ Token Sale
 }
 
 .tokensale .highlight-icon {
-  background-color: #fff;
-  border-radius: 80px;
-  border: 10px solid rgba(255, 255, 255, 0.2);
-  width: 140px;
-  height: 140px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .tokensale .highlight-icon > .glyphicon {
   position: relative;
