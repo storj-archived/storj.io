@@ -1984,8 +1984,12 @@ Token Sale
 
 .tokensale {
   overflow-x: hidden;
-  padding-bottom: 5em;
 }
+
+.tokensale footer {
+  margin-top: 3em;
+}
+
 .tokensale-headline {
   font-size: 44px;
 }
