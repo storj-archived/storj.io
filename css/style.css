@@ -998,6 +998,7 @@ Storj Share
     background: -webkit-radial-gradient(top, ellipse cover, #076caf 0%, #102166 50%);
     background: radial-gradient(at top, #076caf 0%, #102166 50%);
     background-repeat: no-repeat;
+  padding-bottom: 7em;
 }
 .storjshare-intro h1 {
 	color: #fff;
@@ -1026,9 +1027,11 @@ Storj Share
 }
 .storjshare-gui {
 	 width:100%;
-	 max-width: 500px;
 	 height:auto;
-	 margin: 2em 0em 2em 5em;
+	 margin: 2em auto;
+   border: 10px solid #fff;
+   border-radius: 4px;
+   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4)
 }
 .icon-storjshare {
 	height: 62px;
@@ -2449,9 +2452,6 @@ Media Queries
 	.storjshare-intro {
 		padding-top: 4em;
 	}
-	.storjshare-gui {
-		margin-top: -6em;
-	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -2478,12 +2478,6 @@ Media Queries
   	}
   	.storjshare-intro .lead {
   		font-size: 19px;
-  	}
-  	.storjshare-gui {
-		margin-top: -4em;
-    	margin-bottom: 1em;
-    	margin-left: 0;
-    	margin-right: -4em;
   	}
   	.panel-card {
   		padding: 44px 22px;
