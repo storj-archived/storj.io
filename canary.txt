@@ -24,28 +24,27 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 6/18/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 7/26/2017, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Turmoil compounds White House’s struggles to fill out top ranks of government
-- - ‘Traumatic’ collision that killed sailors almost sank destroyer, Navy says
-- - Trump’s contradictory coalition roils elections in Virginia, Georgia
-- - Macron poised to expand power in a remarkable way
-- - Judge declares a mistrial in Bill Cosby sex assault trial
+- - Trump calls for ban on transgender people serving in U.S. military
+- - Senate embarks on new round of voting to peel back Affordable Care Act
+- - This former steel town is more complicated than Trump portrays
+- - A Boy Scout jamboree. A controversial Trump speech. And the backlash that followed.
+- - ‘Disruption?’ Gay Americans, women and blacks have heard this argument before.
 -----BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.0.72
+Version: Keybase OpenPGP v2.0.73
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJZRnejAAoJEPQrujgXjffwulIH+QErsuV382EoxHHwYd3v1cX0
-prNOIIaUZQdgCoiO/A1aBEdTamQKaNQXYe6Lobnkf/Rmx9ZrXDnbBnfo9a4ZhV3Q
-fKqbQe2I3C1ARdMjTUrzln3s1sNMOZfSKNpuCsqPQhhBUQX4ceoBY2YHvVF+v6cF
-rrUuTQV3FW8WvXwa2Tm64H3GFiesFXUrdYQ7SQ7jnwRV4EfwvusspsApOXb6jmS+
-jH3PraelraSHCdMgZ9UANvn6wm1BBOfaARnoENrClUdfmkFnRe1ChHiJuZSxCXp0
-jn+0fqIpUgat9wukwn3fCJV5kQB0AVp4BvlT9U/cATdRQTp2Zg32QkzAlFWr2qM=
-=Umb4
+wsBcBAABCgAGBQJZeL1XAAoJEPQrujgXjffw1aIIANFPw5uuplKxQHJNzmNClCwo
+GrMW1JHsgHXnpQu4XDQbvCXKKfefyDtZrJZH5ODjQvGhIlbM7qCARW436EPOWG+R
+F9Tcw4byQu8sqrrqMUXVkMVeK10FazVn4TZuvuO/AL4L2I9HUuON1PAhV8cNpghS
+1BMu6HIg2lX9cPryfwTvsrN3TazkjDC1ikvDETSzLjKPrvx2/43Ri9WI5ZGKsxly
+6FmZpDUOjEjNzgzg2FpqNswcHBHDEFLZhAk7G9ndSW8Aebt+VaKAXwmx3SE/j7HO
+y2fGaGC19Ac+UmJNWG/yjABTQzUdNDH6e1LsFPdeyqlv2Af/9qrNYzBpow2bQEY=
+=XnqX
 -----END PGP SIGNATURE-----
-
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
 arbitrary declarations, it does not prevent them from using force to coerce Storj Labs Inc. to produce false
