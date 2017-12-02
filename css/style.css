@@ -132,15 +132,14 @@ img {
 	padding: 4em 0 5em;
 }
 
-.first-section {
-	padding: 0 0 5em;
-}
-
 .white {
 	background: #fff;
 }
 .grey {
 	background: #f2f4f6;
+}
+.normal {
+  font-weight: normal;
 }
 
 .spacer5 { height: 5px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -1027,10 +1026,13 @@ Storj Share
 }
 .storjshare-gui {
 	 width:100%;
-	 max-width: 500px;
 	 height:auto;
-	 margin: 2em 0em 2em 5em;
-}
+	 margin: 4em auto 0;
+   border: 10px solid #fff;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+   border-bottom: 1px solid #eee;
+ }
 .icon-storjshare {
 	height: 62px;
 }
@@ -1983,190 +1985,28 @@ Token Sale
 
 -------------------------------- */
 
-.break {
-  margin-bottom: 1.5em !important;
-}
-
 .tokensale {
   overflow-x: hidden;
-  padding-bottom: 5em;
 }
+
+.tokensale footer {
+  margin-top: 3em;
+}
+
 .tokensale-headline {
   font-size: 44px;
 }
-.tokensale-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #2683ff;
-  z-index:-1;
-  background-image: -ms-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: -moz-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: -o-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: -webkit-gradient(radial, center center, 0, center center, 286, color-stop(0, #2682FF), color-stop(100, #103BFF));
-  background-image: -webkit-radial-gradient(center, ellipse closest-corner, #2682FF 0%, #103BFF 100%);
-  background-image: radial-gradient(ellipse closest-corner at center, #2682FF 0%, #103BFF 100%);
-}
-.tokensale-stars-left {
-  position: fixed;
-  top: 42px;
-  left: 10px;
-  width: 280px;
-  z-index: -1;
-}
-.tokensale-stars-right {
-  position: fixed;
-  top: 42px;
-  right: 10px;
-  width: 280px;
-  z-index: -1;
+
+.tokensale .section {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
-.tokensale-clouds {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  opacity: 0.1;
-  background-image: url("../img/clouds.png");
-  background-size: contain;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  pointer-events:none;
-}
-
-.tokensale .header1 {
-  display: block;
-  font-size: 2.81em;
-  font-weight: 800;
-}
-
-.tokensale .header2 {
-  display: block;
-  font-size: 1.81em;
-  font-weight: 800;
-}
-
-.tokensale .header {
-  background: none;
-}
-
-.tokensale .ethaddress {
-  color: #FFF;
-  background-color: #2683FF;
+.tokensale hr {
   margin: 0 auto;
-  padding: 20px;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  border: 1px solid #fff;
-  font-weight: bold;
-  text-align: center;
-  font-size: 18px;
+  margin-bottom: 2em;
 }
 
-@media (max-width: 600px) {
-  .tokensale .ethaddress {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 545px) {
-  .tokensale .ethaddress {
-    font-size: 12px;
-    padding: 10px;
-    font-weight: normal;
-  }
-}
-
-.tokensale #complete > p {
-  font-size: 24px;
-}
-
-.tokensale .emphasis1 {
-  font-size: 1.81em;
-  letter-spacing: 0.1em;
-  line-height: 1.5em;
-}
-
-.tokensale #next-steps .wallet-instructions {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-.tokensale #next-steps .wallet-instructions .wallet {
-  margin: 2em;
-}
-
-.tokensale #next-steps .emphasized-paragraph {
-  font-size: 28px;
-}
-
-.tokensale .tokensale-countdown, .presale .tokensale-countdown {
-  color: #fff;
-  border-bottom: 2px solid #fff;
-  width: 60%;
-  margin: 0 auto;
-  margin-bottom: 40px;
-  padding-bottom: 5px;
-  font-size: 28px;
-}
-.tokensale .line-space {
-  height: 20px;
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  border-bottom: 2px solid #2683ff;
-}
-
-.arrow_hide {
-  display: none;
-}
-.arrow_show {
-  display: inline-block;
-}
-
-.tokensale-counter {
-  width: 40%;
-  max-width: 674px;
-  margin: 0 auto;
-}
-
-.tokensale h1, .tokensale h2, .tokensale h3, .tokensale h4, .tokensale h5, .tokensale h6, .tokensale p, .tokensale span, .tokensale a, .presale h1, .presale h2, .presale h3, .presale h4, .presale h5, .presale h6, .presale p {
-  color: #fff;
-}
-.tokensale .headlines h1 {
-  margin-top: 0;
-}
-
-.tokensale .link {
-  color: #FFF;
-  font-weight: bold;
-  border-bottom: 2px solid rgba(255,255,255,0.5);
-}
-
-.tokensale .link:hover {
-  border-color: #fff;
-}
-
-.tokensale .link2 {
-  color: #000;
-}
-
-.tokensale .link2:hover {
-  color: #134280;
-}
-
-.tokensale blockquote p {
-  color: #333;
-}
-.tokensale .btn {
-  box-shadow: 0 0 15px rgba(0,0,0,.25);
-}
 .tokensale .token-symbol {
   background: #fff;
   border-radius: 80px;
@@ -2184,23 +2024,26 @@ Token Sale
 .tokensale .value-icon, .tokensale .storj-video, .tokensale blockquote, .tokensale .quote-image {
   box-shadow: 0 0 15px rgba(0,0,0,.25);
 }
-.tokensale footer {
-  background: none;
-  padding-bottom: 5em;
+
+.tokensale .ethaddress, .tokensale .copy {
+  width: 100%;
+  margin: 1em auto;
+  margin-bottom: 0;
+  padding: 1.4em;
+  border: 1px solid #eee;
+  text-align: center;
+  background: #f9f9f9;
 }
-.tokensale .exchange-logo {
-  box-shadow: 0 0 15px rgba(0,0,0,.25);
-  border-radius: 90px;
+.tokensale .copy {
+  border-top: none;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
-.tokensale .sjcx-chart {
-  border-radius: 4px;
-  box-shadow: 0 0 15px rgba(0,0,0,.25);
-  margin: 1.5em auto 0.5em;
+.tokensale .copy:hover {
+  cursor: pointer;
 }
 
-.tokensale #complete h1 {
-  font-size: 64px;
-}
 .tokensale .talking-points {
   display: flex;
   flex-wrap: wrap;
@@ -2266,7 +2109,6 @@ Token Sale
   margin-bottom: 0.2em;
 }
 .tokensale .promise {
-  color: rgba(255, 255, 255, 0.5);
   margin-top: 1em;
   margin-bottom: 2em;
 }
@@ -2371,6 +2213,13 @@ Token Sale
   width: 275px;
 }
 
+.tokensale .why-token-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .tokensale .why-use-points {
   display: flex;
   align-items: center;
@@ -2385,22 +2234,15 @@ Token Sale
   align-items: center;
   color: #444;
   text-align: center;
-  height: 350px;
-  width: 250px;
-  margin-left: 15px;
-  margin-right: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .tokensale .why-token-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
-  border-radius: 50%;
-  border: 10px solid rgba(255, 255, 255, 0.2);
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .tokensale .why-token-icon img {
   height: 85px;
@@ -2416,13 +2258,8 @@ Token Sale
 }
 
 .tokensale .highlight-icon {
-  background-color: #fff;
-  border-radius: 80px;
-  border: 10px solid rgba(255, 255, 255, 0.2);
-  width: 140px;
-  height: 140px;
-  margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 .tokensale .highlight-icon > .glyphicon {
   position: relative;
@@ -2613,10 +2450,7 @@ Media Queries
 		margin: 2em 1em;
 	}
 	.storjshare-intro {
-		padding-top: 4em;
-	}
-	.storjshare-gui {
-		margin-top: -6em;
+		padding-top: 2em;
 	}
 }
 
@@ -2644,12 +2478,6 @@ Media Queries
   	}
   	.storjshare-intro .lead {
   		font-size: 19px;
-  	}
-  	.storjshare-gui {
-		margin-top: -4em;
-    	margin-bottom: 1em;
-    	margin-left: 0;
-    	margin-right: -4em;
   	}
   	.panel-card {
   		padding: 44px 22px;
@@ -2963,5 +2791,12 @@ Media Queries
   }
   #token-webapp {
     height: 2000px;
+  }
+  .tokensale .why-token-point {
+    padding: 20px 40px;
+  }
+  .tokensale .ethaddress {
+    font-size: 0.8em;
+    padding: 2em 0;
   }
 }

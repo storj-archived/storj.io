@@ -118,7 +118,7 @@
       </div>
       <div class="row">
         <div class="col-xs-12">
-          <a href="https://app.storj.io/#/signup" class="btn btn-lg btn-signup">Sign Up Now</a>
+          <a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Sign Up Now</a>
           <small>Get 25GB free for the first 12 months!</small>
         </div>
       </div>
@@ -163,13 +163,13 @@
       </div>
       <div class="row text-center">
         <div class="col-xs-12">
-          <a href="https://app.storj.io/#/signup" class="btn btn-lg btn-signup">Sign Up Now</a>
+          <a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Sign Up Now</a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section calculator-section">
+<!--   <section class="section calculator-section">
     <div class="container">
       <div class="row text-center">
         <div class="col-lg-6 col-lg-push-3 col-md-8 col-md-push-2 text-center calculator-intro">
@@ -218,14 +218,14 @@
             </div>
             <div class="row text-center">
               <div class="col-xs-12">
-                <a href="https://app.storj.io/#/signup" class="btn btn-lg btn-green btn-signup">Sign Up Now</a>
+                <a href="https://app.storj.io/signup" class="btn btn-lg btn-green btn-signup">Sign Up Now</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <section class="section">
     <div class="container">
@@ -326,13 +326,13 @@
               <div class="panel-heading" role="tab" id="faq-1-7">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-1-7" aria-expanded="false" aria-controls="collapse-1-7">
-                    Can I pay in BTC or SJCX?
+                    Can I pay in BTC or STORJ?
                   </a>
                 </h4>
               </div>
               <div id="collapse-1-7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-1-7">
                 <div class="panel-body">
-                  <p>Currently, we don’t have automatic billing options for using cryptocurrencies, but we plan on adding them in the near future. In the meantime, we will manually accept BTC and SJCX payments for large users. Please contact <a href="mailto:sales@storj.io" class="link">sales@storj.io</a> for more information.</p>
+                  <p>Currently, we don’t have automatic billing options for using cryptocurrencies, but we plan on adding them in the near future. In the meantime, we will manually accept BTC and STORJ payments for large users. Please contact <a href="mailto:sales@storj.io" class="link">sales@storj.io</a> for more information.</p>
                   <div class="spacer10"></div>
                   <p><a href="mailto:sales@storj.io" class="btn btn-green btn-block">Contact Sales</a></p>
                   <div class="spacer20"></div>
@@ -359,6 +359,7 @@
             <li><a href="/terms-of-use.html">Terms of Use</a></li>
             <li><a href="/terms-of-service.html">Terms of Service</a></li>
             <li><a href="/canary.txt">Canary</a></li>
+            <li><a href="https://status.storj.io/">Status</a></li>
           </ul>
         </div>
         <div class="col-xs-12 col-sm-3 col-xs-6">
@@ -426,30 +427,30 @@
       });
 
       // Storj Pricing Calculator
-      var calculatorInput = $('.calculator-input');
-      var calculatorStorage = $('#calculatorStorage');
-      var calculatorBandwidth = $('#calculatorBandwidth');
-      var calculatorSelect = $('.calculator-select');
+      // var calculatorInput = $('.calculator-input');
+      // var calculatorStorage = $('#calculatorStorage');
+      // var calculatorBandwidth = $('#calculatorBandwidth');
+      // var calculatorSelect = $('.calculator-select');
 
-      calculatorInput.bind("keyup change click", function() {
-        if (calculatorSelect.val() === "TB") {
-          var calculatorStorageVal = calculatorStorage.val();
-          var calculatorBandwidthVal = calculatorBandwidth.val();
-          var month = (calculatorStorageVal*15+calculatorBandwidthVal*50).toFixed(2);
-          $("#month").val(month);
-        }
-        else if (calculatorSelect.val() === "GB") {
-          var calculatorStorageVal = calculatorStorage.val();
-          var calculatorBandwidthVal = calculatorBandwidth.val();
-          var month = (calculatorStorageVal*0.015+calculatorBandwidthVal*0.05).toFixed(2);
-          $("#month").val(month);
-        }
-      });
+      // calculatorInput.bind("keyup change click", function() {
+      //   if (calculatorSelect.val() === "TB") {
+      //     var calculatorStorageVal = calculatorStorage.val();
+      //     var calculatorBandwidthVal = calculatorBandwidth.val();
+      //     var month = (calculatorStorageVal*15+calculatorBandwidthVal*50).toFixed(2);
+      //     $("#month").val(month);
+      //   }
+      //   else if (calculatorSelect.val() === "GB") {
+      //     var calculatorStorageVal = calculatorStorage.val();
+      //     var calculatorBandwidthVal = calculatorBandwidth.val();
+      //     var month = (calculatorStorageVal*0.015+calculatorBandwidthVal*0.05).toFixed(2);
+      //     $("#month").val(month);
+      //   }
+      // });
 
-      calculatorSelect.change(function () {
-          calculatorSelect.not(this).val(this.value);
-          calculatorInput.keyup();
-      });
+      // calculatorSelect.change(function () {
+      //     calculatorSelect.not(this).val(this.value);
+      //     calculatorInput.keyup();
+      // });
 
     });
   </script>
