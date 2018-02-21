@@ -897,6 +897,14 @@ Developers
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 }
+.terminal-wrapper-2 {
+	width: 100%;
+  background: #fff;
+  border-radius: 9px;
+  margin-top: 2.1em;
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
+	border: 1px solid #eee;
+}
 .terminal-content {
 	text-align: left;
     padding: 2em;
@@ -1829,6 +1837,9 @@ FAQ
 .panel-card {
 	padding: 44px;
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
+}
+.panel-card-simple {
+	padding: 44px;
 }
 .panel-link:hover .panel-card {
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
@@ -2799,4 +2810,21 @@ Media Queries
     font-size: 0.8em;
     padding: 2em 0;
   }
+/* --------------------------------
+
+Support
+
+-------------------------------- */
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
 }
