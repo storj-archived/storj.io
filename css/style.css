@@ -2810,21 +2810,5 @@ Media Queries
     font-size: 0.8em;
     padding: 2em 0;
   }
-/* --------------------------------
-
-Support
-
--------------------------------- */
-.row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display:         flex;
-  flex-wrap: wrap;
-}
-.row > [class*='col-'] {
-  display: flex;
-  flex-direction: column;
-}
 
 }
