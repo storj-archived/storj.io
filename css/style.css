@@ -602,7 +602,7 @@ Animated Headlines
     width: 3px;
     display: inline-block;
     margin-left: 15px;
-    background-color: #fff;
+    background-color: #2683FF;
 }
 .cd-headline.type .cd-words-wrapper.waiting::after {
   -webkit-animation: cd-pulse 1s infinite;
@@ -610,14 +610,13 @@ Animated Headlines
   animation: cd-pulse 1s infinite;
 }
 .cd-headline.type .cd-words-wrapper.selected {
-  background-color: #000;
-  background-color: rgba(0, 0, 0, 0.9)
+  background-color: #2683FF;
 }
 .cd-headline.type .cd-words-wrapper.selected::after {
   visibility: hidden;
 }
 .cd-headline.type .cd-words-wrapper.selected b {
-  color: #91D127;
+  color: #FFF;
 }
 .cd-headline.type b {
   visibility: hidden;
@@ -705,7 +704,7 @@ canvas {
 	position: absolute;
 	width: 100%;
 	height: 600px;
-	height: 100vh;
+	height: 60vh;
 	top: 0;
 	background-image: url("");
 	background-repeat: no-repeat;
@@ -714,7 +713,7 @@ canvas {
 }
 
 .header {
-	min-height: 600px;
+	min-height: 100vh;
 	background: #020307;
 	background: -moz-linear-gradient(top, #020307 0%, #144fbc 100%);
 	background: -webkit-gradient(left top, left bottom, color-stop(0%, #020307), color-stop(100%, #144fbc));
@@ -730,6 +729,28 @@ canvas {
 	user-select: none;
 	position: relative;
 	height: 100vh;
+	overflow: hidden;
+}
+.blue-header {
+	min-height: 40vh;
+	background: #2683ff;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	position: relative;
+	overflow: hidden;
+}
+.white-header {
+	min-height: 15vh;
+	background: #fff;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	position: relative;
 	overflow: hidden;
 }
 
@@ -761,7 +782,6 @@ canvas {
     transition: transform 0.1s ease-in-out;
 }
 .header-content {
-	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -772,13 +792,11 @@ canvas {
 }
 .headlines {
 	display: block;
-	max-width: 800px;
+	max-width: 1050px;
 	margin: 0 auto;
 	position: relative;
-	top: 190px;
-	top: 25vh;
 	z-index: 2;
-	padding: 1em;
+  vertical-align: middle;
 }
 .headlines h1 {
 	font-size:49px;
@@ -791,7 +809,7 @@ canvas {
 	max-width: 600px;
 	line-height: 1.8em;
 	font-size: 21px;
-	margin: 0 auto;
+  margin: 0 auto;
 	color: #fff;
 }
 .notice {
@@ -1189,7 +1207,7 @@ Pricing
 -------------------------------- */
 
 .pricing.section {
-	padding-bottom: 4em;
+	padding-bottom: 3em;
 }
 .plans {
 	margin: 1em auto;

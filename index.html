@@ -30,10 +30,12 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
   <script type="text/javascript" id="inspectletjs">
@@ -68,9 +70,7 @@
 
 <body class="home">
 
-	<section class="header">
-
-		<div class="header-bg"></div>
+	<section class="blue-header">
 
 		<nav class="navbar navbar-default menu">
 		  <div class="container">
@@ -88,10 +88,10 @@
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav navbar-left">
+          <ul class="nav navbar-nav navbar-left visible-xs visible-md visible-lg">
             <li><a href="developers.html" class="link">Developers</a></li>
             <li><a href="community.html" class="link">Community</a></li>
-            <li><a href="support.html" class="link active">Help</a></li>
+            <li><a href="support.html" class="link">Help</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -102,6 +102,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://app.storj.io/" class="link">Login</a></li>
+            <li><a href="https://app.storj.io/signup" class="link">Register</a></li>
             <li><a href="share.html" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
           </ul>
         </div>
@@ -110,28 +111,98 @@
 		  </div>
 		</nav>
 
-		<div id="particles-js"></div>
+    <div id="particles-js"></div>
 
-		<div class="container">
-			<div class="header-content">
-				<div class="row headlines text-center">
-					<h1 class="cd-headline letters type">
-						<span class="cd-words-wrapper waiting">
-							<b class="is-visible">Distributed</b>
-							<b>Encrypted</b>
-							<b>Open-Source</b>
-							<b>Sustainable</b>
-							<b>The Future of</b>
-						</span>
-						<br class="visible-xs">
-						<span>Cloud Storage</span>
-					</h1>
-					<p>We’re building the next generation decentralized cloud storage, end-to-end encrypted, where only you have access to your data. Powered by blockchain payments.</p>
-				</div>
-			</div>
+		<div class="container-fluid">
+        <div align="center" class="row headlines">
+          <div align="center" class="col-xs-6 col-xs-push-3 col-sm-4 col-sm-push-4 col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
+            <img class="animated bounce img-responsive img-circle" src="img/team/ben-golub.jpg">
+          </div>
+        </div>
+        <div align="center" class="row headlines">
+          <div align="center" class="col-xs-12 col-md-8 col-md-push-2">
+            <h1 class="animated bounce" style="color:white">Welcome, Ben Golub!</h1>
+            <p class="animated bounce">Docker co-founder Ben Golub has joined Storj Labs as Executive Chairman and Interim CEO. Hear from Ben and our founder Shawn Wilkinson about our plans for the decentralized future on our <a style="color:white" href="blog.storj.io"><u>blog</u></a>.</p>
+            <div class="spacer25"></div>
+          </div>
+        </div>
 		</div>
 
 	</section>
+
+  <section class="white-header">
+    <div class="spacer50"></div>
+    <div class="container">
+      <div class="header-content">
+        <div class="row headlines text-center">
+          <h1 style="color:#2683ff" class="cd-headline letters type">
+            <span class="cd-words-wrapper waiting">
+              <b class="is-visible">Distributed</b>
+              <b>Encrypted</b>
+              <b>Open-Source</b>
+              <b>Sustainable</b>
+              <b>The Future of</b>
+            </span>
+            <br class="visible-xs">
+            <span>Cloud Storage</span>
+          </h1>
+          <p style="color:#333">We’re building the next generation of decentralized object storage, end-to-end encrypted, where only you have access to your data. Powered by blockchain payments.</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <div class="section storj-video-wrapper text-center">
+      <div class="container">
+		<div class="row">
+			<div class="col-xs-10 col-xs-push-1">
+				<h1>How does it work?</h1>
+				<p>Watch this simple one-minute video explainer for Storj.</p>
+			</div>
+		</div>
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-push-2">
+            <div class="storj-video storj-video-container video-thumbnail" id="vidwrap" onclick="play();"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <section class="pricing section text-center" id="pricing">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-10 col-xs-push-1">
+  					<h1>Simple Pricing</h1>
+  					<p>Pay only for what you use. No setup fees, no minimum usage.</p>
+  				</div>
+  			</div>
+  			<div class="row plans">
+  				<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
+  					<div class="plan">
+  						<div class="row">
+  							<div class="col-xs-12">
+  								<p class="plan-title">Storage</p>
+  								<img src="img/icon-storage.svg" class="plan-icon" alt="">
+  								<h2 class="plan-pricing">$0.015<span>per GB per month</span></h2>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
+  					<div class="plan">
+  						<div class="row">
+  							<div class="col-xs-12">
+  								<p class="plan-title">Bandwidth</p>
+  								<img src="img/icon-downloads.svg" class="plan-icon" alt="">
+  								<h2 class="plan-pricing">$0.05<span>per GB downloaded</span></h2>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  </section>
 
   <div class="section text-center open-source">
     <div class="container">
@@ -268,7 +339,7 @@
 						<p>We’re building the next generation of Storj so that we can scale to store exabytes of data. Create an account now to help us test the network and get updates on our progress.</p>
             <div class="row">
               <div class="col-xs-12">
-                <a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Pre-register</a>
+                <a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Register</a>
               </div>
             </div>
 					</div>
@@ -276,6 +347,8 @@
 			</div>
 		</div>
 	</section>
+
+  <div class="spacer40"></div>
 
   <footer>
         <div class="container">
