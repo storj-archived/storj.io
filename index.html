@@ -30,10 +30,12 @@
 	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
   <script type="text/javascript" id="inspectletjs">
@@ -68,9 +70,7 @@
 
 <body class="home">
 
-	<section class="header">
-
-		<div class="header-bg"></div>
+	<section class="blue-header">
 
 		<nav class="navbar navbar-default menu">
 		  <div class="container">
@@ -88,11 +88,10 @@
 		    </div>
 		    <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav navbar-left">
+          <ul class="nav navbar-nav navbar-left visible-xs visible-md visible-lg">
             <li><a href="developers.html" class="link">Developers</a></li>
             <li><a href="community.html" class="link">Community</a></li>
-            <li><a href="support.html" class="link active">Help</a></li>
-            <li><a href="pricing.html" class="link">Pricing</a></li>
+            <li><a href="support.html" class="link">Help</a></li>
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -103,6 +102,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://app.storj.io/" class="link">Login</a></li>
+            <li><a href="https://app.storj.io/signup" class="link">Register</a></li>
             <li><a href="share.html" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
           </ul>
         </div>
@@ -111,64 +111,49 @@
 		  </div>
 		</nav>
 
-		<div id="particles-js"></div>
+    <div id="particles-js"></div>
 
-		<div class="container">
-			<div class="header-content">
-				<div class="row headlines text-center">
-					<h1 class="cd-headline letters type">
-						<span class="cd-words-wrapper waiting">
-							<b class="is-visible">Distributed</b>
-							<b>Encrypted</b>
-							<b>Open-Source</b>
-							<b>Sustainable</b>
-							<b>The Future of</b>
-						</span>
-						<br class="visible-xs">
-						<span>Cloud Storage</span>
-					</h1>
-					<p>End-to-end encrypted, distributed object storage, where only you have access to your data. Powered by blockchain payments.</p>
-					<a href="https://app.storj.io/signup" class="btn btn-lg btn-green btn-signup">Join The Waitlist</a>
-				</div>
-			</div>
+		<div class="container-fluid">
+        <div align="center" class="row headlines">
+          <div align="center" class="col-xs-6 col-xs-push-3 col-sm-4 col-sm-push-4 col-md-2 col-lg-2 col-md-offset-1 col-lg-offset-1">
+            <img class="animated bounce img-responsive img-circle" src="img/team/ben-golub.jpg">
+          </div>
+        </div>
+        <div align="center" class="row headlines">
+          <div align="center" class="col-xs-12 col-md-8 col-md-push-2">
+            <h1 class="animated bounce" style="color:white">Welcome, Ben Golub!</h1>
+            <p class="animated bounce">Docker co-founder Ben Golub has joined Storj Labs as Executive Chairman and Interim CEO. Hear from Ben and our founder Shawn Wilkinson about our plans for the decentralized future on our <a style="color:white" href="blog.storj.io"><u>blog</u></a>.</p>
+            <div class="spacer25"></div>
+          </div>
+        </div>
 		</div>
 
 	</section>
 
-	<section class="value text-center" id="features">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-					<div class="value-icon">
-						<img src="img/icon-safe.svg" alt="">
-					</div>
-					<h4>End-to-End Encryption</h4>
-					<p>Distributed infrastructure</p>
-				</div>
-				<div class="col-sm-4">
-					<div class="value-icon">
-						<img src="img/icon-fast.svg" alt="">
-					</div>
-					<h4>Blazing Fast</h4>
-					<p>Peer-to-peer technology</p>
-				</div>
-				<!-- <div class="col-sm-4">
-					<img src="img/icon-cost.svg" alt="">
-					<h4>Half The Cost</h4>
-					<p>Compared to traditional clouds</p>
-				</div> -->
-				<div class="col-sm-4">
-					<div class="value-icon">
-						<img src="img/icon-uptime.svg" alt="">
-					</div>
-					<h4>Higher Availability</h4>
-					<p>99.99999%</p>
-				</div>
-			</div>
-		</div>
-	</section>
+  <section class="white-header">
+    <div class="spacer50"></div>
+    <div class="container">
+      <div class="header-content">
+        <div class="row headlines text-center">
+          <h1 style="color:#2683ff" class="cd-headline letters type">
+            <span class="cd-words-wrapper waiting">
+              <b class="is-visible">Distributed</b>
+              <b>Encrypted</b>
+              <b>Open-Source</b>
+              <b>Sustainable</b>
+              <b>The Future of</b>
+            </span>
+            <br class="visible-xs">
+            <span>Cloud Storage</span>
+          </h1>
+          <p style="color:#333">We’re building the next generation of decentralized object storage, end-to-end encrypted, where only you have access to your data. Powered by blockchain payments.</p>
+        </div>
+      </div>
+    </div>
 
-    <div class="section storj-video-wrapper text-center">
+  </section>
+
+  <div class="section storj-video-wrapper text-center">
       <div class="container">
 		<div class="row">
 			<div class="col-xs-10 col-xs-push-1">
@@ -178,69 +163,64 @@
 		</div>
         <div class="row">
           <div class="col-xs-12 col-md-8 col-md-push-2">
-            <div class='storj-video storj-video-container video-thumbnail' id="vidwrap" onclick="play();"></div>
+            <div class="storj-video storj-video-container video-thumbnail" id="vidwrap" onclick="play();"></div>
           </div>
         </div>
       </div>
     </div>
 
-	<section class="pricing section text-center" id="pricing">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-10 col-xs-push-1">
-					<h1>Simple Pricing</h1>
-					<p>Pay only for what you use. No setup fees, no minimum usage.</p>
-				</div>
-			</div>
-			<div class="row plans">
-				<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
-					<div class="plan">
-						<div class="row">
-							<div class="col-xs-12">
-								<p class="plan-title">Storage</p>
-								<img src="img/icon-storage.svg" class="plan-icon" alt="">
-								<h2 class="plan-pricing">$0.015<span>per GB per month</span></h2>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
-					<div class="plan">
-						<div class="row">
-							<div class="col-xs-12">
-								<p class="plan-title">Bandwidth</p>
-								<img src="img/icon-downloads.svg" class="plan-icon" alt="">
-								<h2 class="plan-pricing">$0.05<span>per GB downloaded</span></h2>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12">
-					<a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Join The Waitlist</a>
-				</div>
-			</div>
-		</div>
-	</section>
+  <section class="pricing section text-center" id="pricing">
+  		<div class="container">
+  			<div class="row">
+  				<div class="col-xs-10 col-xs-push-1">
+  					<h1>Simple Pricing</h1>
+  					<p>Pay only for what you use. No setup fees, no minimum usage.</p>
+  				</div>
+  			</div>
+  			<div class="row plans">
+  				<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
+  					<div class="plan">
+  						<div class="row">
+  							<div class="col-xs-12">
+  								<p class="plan-title">Storage</p>
+  								<img src="img/icon-storage.svg" class="plan-icon" alt="">
+  								<h2 class="plan-pricing">$0.015<span>per GB per month</span></h2>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  				<div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
+  					<div class="plan">
+  						<div class="row">
+  							<div class="col-xs-12">
+  								<p class="plan-title">Bandwidth</p>
+  								<img src="img/icon-downloads.svg" class="plan-icon" alt="">
+  								<h2 class="plan-pricing">$0.05<span>per GB downloaded</span></h2>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+  </section>
 
-    <div class="section text-center open-source">
-      <div class="container">
-		<div class="row">
-			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3">
-				<div class="value-icon">
-					<img src="img/icon-community.svg" alt="Open-Source Software" class="icon-opensource">
-				</div>
-				<h1>Free &amp; open-source software</h1>
-				<p>We are passionate about decentralization, and we love free and open-source software. Our mission is to rethink cloud storage, to provide the security, privacy, and transparency it’s missing. That's why we are building an open-source cloud platform that aims to fundamentally change the way people and devices own data. We welcome your feedback, bug reports, and pull requests.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="https://github.com/storj" class="btn btn-lg btn-block">Storj on GitHub</a> </p></div>
-			<div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="developers.html" class="btn btn-lg btn-block">Get Involved</a></p></div>
-		</div>
+  <div class="section text-center open-source">
+    <div class="container">
+  <div class="row">
+    <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3">
+      <div class="value-icon">
+        <img src="img/icon-community.svg" alt="Open-Source Software" class="icon-opensource">
       </div>
+      <h1>Free &amp; Open-Source Software</h1>
+      <p>We are passionate about decentralization, and we love free and open-source software. Our mission is to rethink cloud storage, to provide the security, privacy, and transparency it’s missing. That's why we are building an open-source cloud platform that aims to fundamentally change the way people and devices own data. We welcome your feedback, bug reports, and pull requests.</p>
     </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="https://github.com/storj" class="btn btn-lg btn-block">Storj on GitHub</a> </p></div>
+    <div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="developers.html" class="btn btn-lg btn-block">Get Involved</a></p></div>
+  </div>
+    </div>
+  </div>
 
     <section class="quotes">
 		<div class="container">
@@ -352,81 +332,99 @@
 	<section class="c2a text-center">
 		<div class="container">
 			<div class="row ">
-				<div class="col-md-8 col-md-push-2">
+				<div class="col-md-6 col-md-push-3">
 					<div class="c2a-wrapper">
 						<img src="img/happy-cloud.svg" alt="Storj Community" width="184" class="">
-						<h1>Get started with Storj</h1>
-						<p>Create your first bucket in less than 60 seconds.</p>
-						<a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Join The Waitlist</a>
+						<h1>Like what we’re doing? Get involved!</h1>
+						<p>We’re building the next generation of Storj so that we can scale to store exabytes of data. Create an account now to help us test the network and get updates on our progress.</p>
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="https://app.storj.io/signup" class="btn btn-lg btn-signup">Register</a>
+              </div>
+            </div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
+  <div class="spacer40"></div>
+
   <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 col-xs-6">
-            <a href="/" class="footer-logo">
-              <img src="/img/logo-white.svg" alt="Storj">
-            </a>
-            <ul class="list-unstyled">
-              <li><a href="/careers.html">We're Hiring!</a></li>
-              <li><a href="/storj.pdf">Whitepaper</a></li>
-              <li><a href="/privacy-policy.html">Privacy Policy</a></li>
-              <li><a href="/terms-of-use.html">Terms of Use</a></li>
-              <li><a href="/terms-of-service.html">Terms of Service</a></li>
-              <li><a href="/canary.txt">Canary</a></li>
-              <li><a href="https://status.storj.io/">Status</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-xs-6">
-            <h5>Company</h5>
-            <ul class="list-unstyled">
-              <li><a href="/team.html">Team</a></li>
-              <li><a href="/careers.html">Careers</a></li>
-              <li><a href="/contact.html">Contact</a></li>
-              <li><a href="/press.html">Press</a></li>
-              <li><a href="http://blog.storj.io/">Blog</a></li>
-              <li><a href="/faq.html">FAQ</a></li>
-              <li><a href="/support.html">Help</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-xs-6">
-            <h5>Product</h5>
-            <ul class="list-unstyled">
-              <li><a href="/pricing.html">Pricing</a></li>
-              <li><a href="https://docs.storj.io/">Quickstart</a></li>
-              <li><a href="/developers.html">Developers</a></li>
-              <li><a href="/community.html">Community</a></li>
-              <li><a href="http://feedback.storj.io">Suggest Feature</a></li>
-              <li><a href="/share.html" class="white-tooltip" data-toggle="tooltip" data-placement="top" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
-              <li><a href="/referral.html">Referral Program</a></li>
-            </ul>
-          </div>
-          <div class="col-xs-12 col-sm-3 col-xs-6">
-            <h5>Connect</h5>
-            <ul class="list-unstyled">
-              <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
-              <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
-              <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
-              <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
-              <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="address">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 text-center">
-              <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+            <div class="col-xs-12 col-sm-2 col-xs-6">
+              <a href="/" class="footer-logo">
+                <img src="/img/logo-white.svg" alt="Storj">
+              </a>
+              <ul class="list-unstyled">
+                <li><a href="/careers.html">We're Hiring!</a></li>
+                <li><a href="/storj.pdf">Whitepaper</a></li>
+                <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="/terms-of-use.html">Terms of Use</a></li>
+                <li><a href="/terms-of-service.html">Terms of Service</a></li>
+                <li><a href="/canary.txt">Canary</a></li>
+                <li><a href="https://status.storj.io/">Status</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-xs-6">
+              <h5>Company</h5>
+              <ul class="list-unstyled">
+                <li><a href="/team.html">Team</a></li>
+                <li><a href="/careers.html">Careers</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/press.html">Press</a></li>
+                <li><a href="http://blog.storj.io/">Blog</a></li>
+                <li><a href="/faq.html">FAQ</a></li>
+                <li><a href="/support.html">Help</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-xs-6">
+              <h5>Product</h5>
+              <ul class="list-unstyled">
+                <li><a href="https://docs.storj.io/">Quickstart</a></li>
+                <li><a href="/developers.html">Developers</a></li>
+                <li><a href="/community.html">Community</a></li>
+                <li><a href="http://feedback.storj.io">Suggest Feature</a></li>
+                <li><a href="/share.html" class="white-tooltip" data-toggle="tooltip" data-placement="top" title="" data-original-title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
+                <li><a href="/referral.html">Referral Program</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-xs-6">
+              <h5>Connect</h5>
+              <ul class="list-unstyled">
+                <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
+                <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
+                <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
+                <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
+                <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-xs-12">
+              <h5>Stay in Touch</h5>
+              <div style="padding-top: 0.1em" id="mc_embed_signup">
+                <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=da152f16f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                    <div id="mc_embed_signup_scroll">
+                	  <input style="height:50%; font-size: 14px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edba9fc4ce8b9095a31859cba_09353db057" tabindex="-1" value=""></div>
+                    <div class="clear"><input style="height:50%; font-size: 14px" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-footer btn-lg btn-signup"></div>
+                    </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-  </footer>
+        <div class="address">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
 
 	<script src="js/particles.min.js"></script>
 	<script src="js/jquery-2.1.1.js"></script>
