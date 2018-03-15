@@ -1490,8 +1490,7 @@ footer {
 }
 .footer-logo {
 	display: block;
-	margin-bottom: 2px;
-    margin-top: 1px;
+  margin-top: 1px;
 }
 .footer-logo img {
 	width: 90px;
