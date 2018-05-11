@@ -296,8 +296,8 @@ Navigation
 }
 .logo {
     display: inline-block;
-    margin: 0 5px 0 15px;
-    width: 14vh;
+    margin: 0 20px 0 15px;
+    width: 120px;
     height: 52px;
 }
 .logo-storjshare {
@@ -454,10 +454,10 @@ Navigation
 .btn-rent {
 	background: transparent;
 	border: 2px solid #eee !important;
-	padding: 8px 10px !important;
-	margin-top: 31px;
-	margin-left: 10px;
-	width: auto !import/ant;
+	padding: 14px 24px !important;
+	margin-top: 24px;
+	margin-left: 15px;
+	width: auto !important;
 }
 .btn-rent:focus, .btn-rent:active, .btn-rent:hover {
 	border-color: #fff;
@@ -2690,7 +2690,6 @@ Media Queries
 	    border: 0;
 	    text-indent: -8px;
 	}
-
 	.navbar-page .dropdown-menu {
 		text-indent: -8px;
 	}
@@ -2759,7 +2758,7 @@ Media Queries
 		padding: 2em 0;
 	}
 	.logo {
-    	width: 100px;
+    	width: 134px;
 	}
 	.home .navbar-brand {
 		margin: 25px 0;
