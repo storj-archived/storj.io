@@ -46,10 +46,12 @@ Fonts
 }
 
 #board_title {
+    font-family: 'Montserrat';
     text-align: center !important;
   }
 
 h1 {
+  font-family: 'Montserrat';
   font-weight: 800;
   color: #2683FF;
   margin-bottom: 0.6em;
@@ -57,6 +59,7 @@ h1 {
 }
 
 p {
+  font-family: 'Montserrat';
   font-weight: 300;
   line-height: 1.6em;
   text-align: center !important;
