@@ -160,6 +160,19 @@ img {
 .ml0 { margin-left: 0 !important; }
 .mr0 { margin-right: 0 !important; }
 
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
 
 /* --------------------------------
 
@@ -753,8 +766,8 @@ canvas {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: url("../img/bg.jpg") center center no-repeat;
-	background-size: cover;
+	background: url("../img/alt-bg.jpg") center center no-repeat;
+  background-size: cover;
     -webkit-transition: transform 0.1s ease-in-out;
     -moz-transition: transform 0.1s ease-in-out;
     -ms-transition: transform 0.1s ease-in-out;
@@ -2882,6 +2895,10 @@ Media Queries
   .tokensale .ethaddress {
     font-size: 0.8em;
     padding: 2em 0;
+  }
+
+  h1 #board_title {
+    text-align: center;
   }
 
 }
