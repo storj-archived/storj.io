@@ -1588,7 +1588,7 @@ tr {
     transition: all 0.15s ease-in-out;
 }
 th, td {
-	padding: 1.8em !important;
+	padding: 1.8em;
 }
 
 .table>thead>tr>th {
