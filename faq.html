@@ -132,21 +132,6 @@
                 </div>
               </div>
             </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-1-3">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
-                    How can I invest in Storj Labs?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-1-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-1-3">
-                <div class="panel-body">
-                  <p>Please send an email to
-                    <a href="mailto:fund@storj.io" class="link">fund@storj.io</a> to learn more about investment opportunities.</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -184,7 +169,7 @@
                   <p>Drive Farming is the term we use to describe the renting out extra hard drive space. This is comparable to traditional crypto-currency mining; in the same way you can use your computer's GPU to mine Ethereum, you can use the hard drive space to farm STORJ. Users allocate a portion of their available hard drive space and specify a folder on their drive to store network data.</p>
                   <p>This space stores small encrypted shards of Storj users’ files. This means that no farmer holds the entire file that a user uploaded, and because the file is encrypted, it's unlikely that the farmer could read it anyway.</p>
                   <p>If someone attempts to access and alter the files that they are storing, the shard will fail the next challenge issued by the owner of the data. This will result in the malicious node being dropped, and the network will select another location to store the shard. And of course, the network doesn’t pay cheating nodes.</p>
-                  <p>The simple Storj Share GUI will allow you to specify how much storage space you want to share, add a STORJ address for payments, and specify a Storj node to use.</p>
+                  <p>The simple Storj Share GUI will allow you to specify how much storage space you want to share, add a STORJ address (an ERC20 compatible wallet) for payments, and specify a Storj node to use.</p>
                   <p>Then, when people upload files via Storj, if your node is online, you will start getting file chunks hosted on your drive and you will get a reward for them.</p>
                   <p>There are a few variables that could make the number of hosted chunks on your shared storage (and thus your expected rewards) higher or lower:</p>
                   <ul>
@@ -214,7 +199,14 @@
               </div>
               <div id="collapse-3-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-3">
                 <div class="panel-body">
-                  <p>Since Storj is a decentralized network, farmers will compete to win the business of users, and users will only agree to prices they find competitive. Storj will make it a simple process for users to find farmers at competitive rates.</p>
+                  <p>Since Storj is a decentralized network, farmers will compete to win the business of users, based on reputation score, bandwidth and availability. How much you earn is also dependent on how much demand there is for the service.  In general, your node should meet these minimum requirements:</p>
+                  <p>A minimum of one (1) processor core dedicated to each Node service</p>
+                  <p>A minimum of 500 GB and a maximum of 8 TB of available Space per Node</p>
+                  <p>.5 or more TB of Bandwidth available per month</p>
+                  <p>5 MBPS bandwidth upstream</p>
+                  <p>25 MBPS bandwidth downstream</p>
+                  <p>Online and operational 99.5% of the time per month, essentially leave it on all the time</p>
+                  <p>That will improve your ability to store information and earn STORJ.</p>
                 </div>
               </div>
             </div>
@@ -228,7 +220,7 @@
               </div>
               <div id="collapse-3-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-4">
                 <div class="panel-body">
-                  <p>Your upload speed will severely limit the amount of data that can you can store and serve in a timely manner. The problem comes when you have contracts for stored data that expire, or when your storage system goes offline and you lose those contracts and the data is deleted. Your system then has to re-fill terabytes of data on a slow line. In addition, if your node can’t upload data in a timely manner on request, you may lose contracts or be dropped from the network.</p>
+                  <p>The two most significant factors that will impact your success as a drive farmer are the uptime of your node and your available bandwidth.  Your upload speed will govern the amount of data that can you can store and serve in a timely manner. The problem comes when you have bandwidth caps from your ISP. If bandwidth caps limit your ability to store and serve data, your node reputation will be impacted along with your ability to get data in the future. Your system then has to re-fill terabytes of data on a slow line. But, if you have a lot of bandwidth and high or no bandwidth cap, you can be very successful.</p>
                 </div>
               </div>
             </div>
@@ -256,8 +248,10 @@
               </div>
               <div id="collapse-3-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-6">
                 <div class="panel-body">
-                  <p>No. To protect against node failures and downtime the Storj network defaults to six redundant storage nodes. If you manually lowered the number of nodes storing their files to a single node, then your file would be inaccessible until it came back online.</p>
-                  <p>Also, if your files are stored with multiple nodes and one goes offline, the Storj network will automatically find another node to take over the open contract so your files continue to be available.</p>
+                  <p>No. To protect against node failures and downtime the Storj network leverages Reed-Solomon erasure coding. Erasure coding takes an encrypted file and breaks it up into small pieces called shards.  The most significant benefit is that you only need 50% of the shards to recover the file.</p>
+                  <p>If you manually lowered the number of nodes storing your files to a single node, then your file would be inaccessible until it came back online.</p>
+                  <p>In the V3 Network coming out in Q4, 2018, we will also be adding incentivized shard recovery to ensure that a file is always available.</p>
+                  <p>The Storj network will automatically recreate missing shards from the available shards and store them on new nodes so your files continue to be available.</p>
                 </div>
               </div>
             </div>
@@ -286,7 +280,8 @@
               </div>
               <div id="collapse-3-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-8">
                 <div class="panel-body">
-                  <p>The network will route around your node, and drop your contracts. Another node on the network would retrieve the data from the redundant nodes that the owner has contracted with, and you will lose the contract to store the affected data.</p>
+                  <p>When a file is downloaded, the application only downloads the minimum number of shards required to reconstitute a file.  If your node is offline when a download is attempted, the network will route around your node, and download shards from other nodes. If your node fails to respond to a valid download request, you will not earn STORJ for the egress bandwidth and your node reputation will be impacted.</p>
+                  <p>To be considered a reliable farmer, you should keep your uptime above 99.5% which translates to a maximum of about 3 hours and 30 minutes of downtime a month.</p>
                 </div>
               </div>
             </div>
@@ -294,7 +289,7 @@
               <div class="panel-heading" role="tab" id="faq-3-9">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="accordion-3" href="#collapse-3-9" aria-expanded="false" aria-controls="collapse-3-9">
-                    How can an average person keep their storage space constantly online, in order to maximize the service provided and the profit?
+                    How can an average person keep their storage space constantly online in order to maximize the service provided and the profit?
                   </a>
                 </h4>
               </div>
@@ -332,6 +327,7 @@
               <div id="collapse-3-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-11">
                 <div class="panel-body">
                   <p>Storj Share payments are made once a month. So if you start farming right now, you will not receive a payment until early next month. We can't run the payment script until the month ends, then it needs to be reviewed by the community, and then rewards are finally paid out. We will make make this process faster and more transparent in the interface in the future.</p>
+                 <p>To check on the status of your payment for a given month, you can visit the <a href="https://payout.storj.io/">Payout Lookup Tool</a> and enter your payout address</p>
                 </div>
               </div>
             </div>
@@ -339,13 +335,13 @@
               <div class="panel-heading" role="tab" id="faq-3-12">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion-3" href="#collapse-3-12" aria-expanded="false" aria-controls="collapse-3-12">
-                    How to hold STORJ? What is a valid address?
+                    How do I hold STORJ? What is a valid address or compatible wallet?
                   </a>
                 </h4>
               </div>
               <div id="collapse-3-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-12">
                 <div class="panel-body">
-                  <p>In order to hold your STORJ, you need to store them in an ERC-20 compatible Ethereum wallet to which you hold the private key yourself. Several options are available:
+                  <p>In order to hold your STORJ, they should be stored in an ERC-20 compatible Ethereum wallet to which you hold the private key yourself. Several options are available:
                     <ul>
                       <li><a href="https://parity.io/parity.html" class="link" target="_blank">Parity</a>
                       </li>
@@ -730,7 +726,7 @@
               </div>
               <div id="collapse-6-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-6-1">
                 <div class="panel-body">
-                  <p>STORJ allows you to purchase storage or earn money for renting your free hard drive space. STORJ uses the Ethereum blockchain for its transactions.
+                  <p>STORJ is a utility token on the Etereum network which follows the <a href="https://en.wikipedia.org/wiki/ERC20">ERC20 standard</a>. STORJ allows you to purchase storage or earn money for renting your free hard drive space. STORJ uses the Ethereum blockchain for its transactions.
                   </p>
                 </div>
               </div>
@@ -789,8 +785,7 @@
                   <span class="panel-font">
                     We made every effort possible to stress the importance of using an ERC-20 compatible wallet in the sale terms, through the payment web application, and numerous times on the token sale website.
                     <br />
-                    <br /> As a result, we are unable to guarantee receipt if these instructions were not followed. We are happy speak with you further on the matter and may be able to make arrangements on an exception basis. For inquiries related to this, please email:
-                    <a href="mailto:hello@storj.io">hello@storj.io</a>
+                    <br /> As a result, we are unable to guarantee receipt if these instructions were not followed.
                   </span>
                 </div>
               </div>
@@ -808,8 +803,7 @@
                   <span class="panel-font">
                     We made every effort possible to stress the importance of not using an exchange wallet in the sale terms, through the payment web application, and numerous times on the token sale website.
                     <br><br>
-                    As a result, we are unable to guarantee receipt, if these instructions were not followed. We are happy speak with you further on the matter and may be able to make arrangements on an exception basis. For inquiries related to this, please email:
-                    <a href="mailto:hello@storj.io">hello@storj.io</a>
+                    As a result, we are unable to guarantee receipt, if these instructions were not followed.
                   </span>
                 </div>
               </div>
@@ -975,71 +969,7 @@
               <div id="collapse-converter-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-converter-four">
                 <div class="panel-body">
                   <p>
-                    We schedule conversion requests in batches to help regulate user errors. At this point, there is not a regular fixed date at which the converter will open regularly due to the converter having to schedule conversion requests in batches.
-                    It also helps us regulate user errors. With that said, it is critical users fill out the <a href=converter-signup.html>Converter Sign Up form</a> so that they can be notified of the
-                    converter opening date once it has been set.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SJCX -->
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h1>Storjcoin X (SJCX) (deprecated)</h1>
-        </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
-          <div class="panel-group" id="accordion-6" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-7-1">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-7-1" aria-expanded="false" aria-controls="collapse-7-1">
-                    What is Storjcoin X (SJCX)?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-7-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-7-1">
-                <div class="panel-body">
-                  <p>
-                    SJCX was our first token allowing users to purchase storage or earn money for renting free Hard Drive space. SJCX is a Counterparty asset that used the Bitcoin blockchain for its transactions.
-                  </p>
-                  <p>As of June 2017, we have converted to Storj Token (STORJ), which uses the Ethereum blockchain for its transactions. SJCX is a legacy asset that is no longer in use by Storj. You can read more about moving from SJCX to STORJ on our <a href="http://blog.storj.io/post/159746056098/token-migration-plan-pt1" target="_blank">blog.</a> If you have SJCX, please fill out the <a href=converter-signup.html>Converter Sign Up form</a> to make sure you don’t miss out on the next opportunity to convert your tokens.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-7-2">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-7-3" aria-expanded="false" aria-controls="collapse-7-3">
-                    How many Storjcoin X have been distributed so far?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-7-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-7-2">
-                <div class="panel-body">
-                  <p>
-                    We have a supply calculator <a href="https://storj.io/supply.json" target="_blank">here</a>. This will show you exactly how many SJCX have been released at the moment you check. It is updated in real time. If you have SJCX, please fill out the <a href=converter-signup.html>Converter Sign Up form</a> to make sure you don’t miss out on the next opportunity to convert your tokens.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-6-6">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-6-6" aria-expanded="false" aria-controls="collapse-6-6">
-                    Why Storjcoin X? Why not just use Bitcoin as form of payment on the network?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-6-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-6-6">
-                <div class="panel-body">
-                  <p>
-                    There is a mix of technical and economic reasons why we decided to create SJCX. For similar reasons, we made the decision to deprecate SJCX and migrate to using a new token, STORJ, on the Ethereum blockchain. You can read more about moving from SJCX to STORJ on our <a href="http://blog.storj.io/post/159746056098/token-migration-plan-pt1" target="_blank">blog</a>. If you have SJCX, please fill out the <a href=converter-signup.html>Converter Sign Up form</a> to make sure you don’t miss out on the next opportunity to convert your tokens.
+                    For information on final window for conversion of SJCX tokens to STORJ, please refer to our <a href="https://blog.storj.io/post/173960094048/last-chance-to-convert-sjcx-to-storj-this-year">blog post</a> on the matter.
                   </p>
                 </div>
               </div>
