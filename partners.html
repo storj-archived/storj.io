@@ -32,7 +32,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/prism.css" rel="stylesheet">
-    <link href="css/style.css?v=1.2" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <script type="text/javascript" id="inspectletjs">
     (function() {
@@ -55,38 +55,38 @@
 
   <body class="page">
 
-  <section>
-    <nav class="navbar navbar-page navbar-default menu">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="http://storj.io/" class="navbar-brand">
-            <img src="img/logo-blue.svg" alt="Storj" class="logo">
-          </a>
+    <section>
+      <nav class="navbar navbar-page navbar-default menu">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="http://storj.io/" class="navbar-brand">
+              <img src="img/logo-blue.svg" alt="Storj" class="logo">
+            </a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="navbar-menu">
+            <ul class="nav navbar-nav">
+              <li><a href="https://storj.io/developers" style="font-size: .9em" class="link">Developers</a></li>
+              <li><a href="https://storj.io/community" style="font-size: .9em" class="link">Community</a></li>
+              <li><a href="https://storj.io/support" style="font-size: .9em" class="link">Support</a></li>
+              <li><a href="https://storj.io/partners" style="font-size: .9em" class="link active">Partners</a></li>
+              <li><a href="http://blog.storj.io/" style="font-size: .9em" class="link">Blog</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
+              <li class="visible-lg visible-md visible-xs"><a href="https://storj.io/share.html" style="font-size: .9em" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
+            </ul>
+          </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav">
-            <li><a href="https://storj.io/developers" style="font-size: .9em" class="link">Developers</a></li>
-            <li><a href="https://storj.io/community" style="font-size: .9em" class="link">Community</a></li>
-            <li><a href="https://storj.io/support" style="font-size: .9em" class="link">Support</a></li>
-            <li><a href="https://storj.io/partners" style="font-size: .9em" class="link active">Partners</a></li>
-            <li><a href="http://blog.storj.io/" style="font-size: .9em" class="link">Blog</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
-            <li class="visible-lg visible-md visible-xs"><a href="https://storj.io/share.html" style="font-size: .9em" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
+      </nav>
+    </section>
 
   <section class="section">
     <div class="container">
@@ -290,25 +290,15 @@
           </div>
       </footer>
 
-  <script src="js/jquery-2.1.1.js"></script>
-  <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
-  <script src="js/prism.js"></script>
-  <script type="text/javascript" src="js/segment.js"></script>
+      <script src="js/jquery-2.1.1.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/segment.js"></script>
 
-  <script>
-    jQuery(document).ready(function($){
-      $('[data-toggle="tooltip"]').tooltip();
-      $(".dropdown-menu li a").click(function(){
-        var selText = $(this).text();
-        $(this).parents('.dropdown').find('.dropdown-toggle').html(selText+' <span class="caret"></span>');
-      });
-
-      var ul = document.querySelector('.developers');
-      for (var i = ul.children.length; i >= 0; i--) {
-          ul.appendChild(ul.children[Math.random() * i | 0]);
-      }
-    });
-  </script>
+      <script>
+        jQuery(document).ready(function($){
+          $('[data-toggle="tooltip"]').tooltip();
+        });
+      </script>
 
   </body>
 </html>
