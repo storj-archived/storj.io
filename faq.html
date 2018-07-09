@@ -28,7 +28,7 @@
   <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css?v=1.2" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
   <script type="text/javascript" id="inspectletjs">
   (function() {
@@ -59,28 +59,22 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a href="index.html" class="navbar-brand">
+        <a href="http://storj.io/" class="navbar-brand">
           <img src="img/logo-blue.svg" alt="Storj" class="logo">
         </a>
       </div>
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="navbar-menu">
-        <ul class="nav navbar-nav navbar-left visible-xs visible-md visible-lg">
-          <li><a href="developers.html" class="link">Developers</a></li>
-          <li><a href="community.html" class="link">Community</a></li>
-          <li><a href="support.html" class="link">Help</a></li>
-          <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">News <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="http://blog.storj.io/" class="link">Blog</a></li>
-                <li><a href="press.html">Press</a></li>
-              </ul>
-          </li>
+        <ul class="nav navbar-nav">
+          <li><a href="https://storj.io/developers" style="font-size: .9em" class="link">Developers</a></li>
+          <li><a href="https://storj.io/community" style="font-size: .9em" class="link">Community</a></li>
+          <li><a href="https://storj.io/support" style="font-size: .9em" class="link">Support</a></li>
+          <li><a href="https://storj.io/partners" style="font-size: .9em" class="link">Partners</a></li>
+          <li><a href="http://blog.storj.io/" style="font-size: .9em" class="link">Blog</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://app.storj.io/" class="link">Login</a></li>
-          <li><a href="https://app.storj.io/signup" class="link">Register</a></li>
-          <li><a href="share.html" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
+          <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
+          <li class="visible-lg visible-md visible-xs"><a href="https://storj.io/share.html" style="font-size: .9em" class="btn btn-rent" data-toggle="tooltip" data-placement="bottom" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
         </ul>
       </div>
     </div>
@@ -139,21 +133,6 @@
                 </div>
               </div>
             </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-1-3">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-1-3" aria-expanded="false" aria-controls="collapse-1-3">
-                    How can I invest in Storj Labs?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-1-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-1-3">
-                <div class="panel-body">
-                  <p>Please send an email to
-                    <a href="mailto:fund@storj.io" class="link">fund@storj.io</a> to learn more about investment opportunities.</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -191,7 +170,7 @@
                   <p>Drive Farming is the term we use to describe the renting out extra hard drive space. This is comparable to traditional crypto-currency mining; in the same way you can use your computer's GPU to mine Ethereum, you can use the hard drive space to farm STORJ. Users allocate a portion of their available hard drive space and specify a folder on their drive to store network data.</p>
                   <p>This space stores small encrypted shards of Storj users’ files. This means that no farmer holds the entire file that a user uploaded, and because the file is encrypted, it's unlikely that the farmer could read it anyway.</p>
                   <p>If someone attempts to access and alter the files that they are storing, the shard will fail the next challenge issued by the owner of the data. This will result in the malicious node being dropped, and the network will select another location to store the shard. And of course, the network doesn’t pay cheating nodes.</p>
-                  <p>The simple Storj Share GUI will allow you to specify how much storage space you want to share, add a STORJ address for payments, and specify a Storj node to use.</p>
+                  <p>The simple Storj Share GUI will allow you to specify how much storage space you want to share, add a STORJ address (an ERC20 compatible wallet) for payments, and specify a Storj node to use.</p>
                   <p>Then, when people upload files via Storj, if your node is online, you will start getting file chunks hosted on your drive and you will get a reward for them.</p>
                   <p>There are a few variables that could make the number of hosted chunks on your shared storage (and thus your expected rewards) higher or lower:</p>
                   <ul>
@@ -221,7 +200,14 @@
               </div>
               <div id="collapse-3-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-3">
                 <div class="panel-body">
-                  <p>Since Storj is a decentralized network, farmers will compete to win the business of users, and users will only agree to prices they find competitive. Storj will make it a simple process for users to find farmers at competitive rates.</p>
+                  <p>Since Storj is a decentralized network, farmers will compete to win the business of users, based on reputation score, bandwidth and availability. How much you earn is also dependent on how much demand there is for the service.  In general, your node should meet these minimum requirements:</p>
+                  <p>A minimum of one (1) processor core dedicated to each Node service</p>
+                  <p>A minimum of 500 GB and a maximum of 8 TB of available Space per Node</p>
+                  <p>.5 or more TB of Bandwidth available per month</p>
+                  <p>5 MBPS bandwidth upstream</p>
+                  <p>25 MBPS bandwidth downstream</p>
+                  <p>Online and operational 99.5% of the time per month, essentially leave it on all the time</p>
+                  <p>That will improve your ability to store information and earn STORJ.</p>
                 </div>
               </div>
             </div>
@@ -235,7 +221,7 @@
               </div>
               <div id="collapse-3-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-4">
                 <div class="panel-body">
-                  <p>Your upload speed will severely limit the amount of data that can you can store and serve in a timely manner. The problem comes when you have contracts for stored data that expire, or when your storage system goes offline and you lose those contracts and the data is deleted. Your system then has to re-fill terabytes of data on a slow line. In addition, if your node can’t upload data in a timely manner on request, you may lose contracts or be dropped from the network.</p>
+                  <p>The two most significant factors that will impact your success as a drive farmer are the uptime of your node and your available bandwidth.  Your upload speed will govern the amount of data that can you can store and serve in a timely manner. The problem comes when you have bandwidth caps from your ISP. If bandwidth caps limit your ability to store and serve data, your node reputation will be impacted along with your ability to get data in the future. Your system then has to re-fill terabytes of data on a slow line. But, if you have a lot of bandwidth and high or no bandwidth cap, you can be very successful.</p>
                 </div>
               </div>
             </div>
@@ -263,8 +249,10 @@
               </div>
               <div id="collapse-3-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-6">
                 <div class="panel-body">
-                  <p>No. To protect against node failures and downtime the Storj network defaults to three redundant storage nodes. If you manually lowered the number of nodes storing their files to a single node, then your file would be inaccessible until it came back online.</p>
-                  <p>Also, if your files are stored with multiple nodes and one goes offline, the Storj network will automatically find another node to take over the open contract so your files continue to be available.</p>
+                  <p>No. To protect against node failures and downtime the Storj network leverages Reed-Solomon erasure coding. Erasure coding takes an encrypted file and breaks it up into small pieces called shards.  The most significant benefit is that you only need 50% of the shards to recover the file.</p>
+                  <p>If you manually lowered the number of nodes storing your files to a single node, then your file would be inaccessible until it came back online.</p>
+                  <p>In the V3 Network coming out in Q4, 2018, we will also be adding incentivized shard recovery to ensure that a file is always available.</p>
+                  <p>The Storj network will automatically recreate missing shards from the available shards and store them on new nodes so your files continue to be available.</p>
                 </div>
               </div>
             </div>
@@ -293,7 +281,8 @@
               </div>
               <div id="collapse-3-8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-8">
                 <div class="panel-body">
-                  <p>The network will route around your node, and drop your contracts. Another node on the network would retrieve the data from the redundant nodes that the owner has contracted with, and you will lose the contract to store the affected data.</p>
+                  <p>When a file is downloaded, the application only downloads the minimum number of shards required to reconstitute a file.  If your node is offline when a download is attempted, the network will route around your node, and download shards from other nodes. If your node fails to respond to a valid download request, you will not earn STORJ for the egress bandwidth and your node reputation will be impacted.</p>
+                  <p>To be considered a reliable farmer, you should keep your uptime above 99.5% which translates to a maximum of about 3 hours and 30 minutes of downtime a month.</p>
                 </div>
               </div>
             </div>
@@ -301,7 +290,7 @@
               <div class="panel-heading" role="tab" id="faq-3-9">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="accordion-3" href="#collapse-3-9" aria-expanded="false" aria-controls="collapse-3-9">
-                    How can an average person keep their storage space constantly online, in order to maximize the service provided and the profit?
+                    How can an average person keep their storage space constantly online in order to maximize the service provided and the profit?
                   </a>
                 </h4>
               </div>
@@ -339,6 +328,7 @@
               <div id="collapse-3-11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-11">
                 <div class="panel-body">
                   <p>Storj Share payments are made once a month. So if you start farming right now, you will not receive a payment until early next month. We can't run the payment script until the month ends, then it needs to be reviewed by the community, and then rewards are finally paid out. We will make make this process faster and more transparent in the interface in the future.</p>
+                 <p>To check on the status of your payment for a given month, you can visit the <a href="https://payout.storj.io/">Payout Lookup Tool</a> and enter your payout address</p>
                 </div>
               </div>
             </div>
@@ -346,13 +336,13 @@
               <div class="panel-heading" role="tab" id="faq-3-12">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion-3" href="#collapse-3-12" aria-expanded="false" aria-controls="collapse-3-12">
-                    How to hold STORJ? What is a valid address?
+                    How do I hold STORJ? What is a valid address or compatible wallet?
                   </a>
                 </h4>
               </div>
               <div id="collapse-3-12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-3-12">
                 <div class="panel-body">
-                  <p>In order to hold your STORJ, you need to store them in an ERC-20 compatible Ethereum wallet to which you hold the private key yourself. Several options are available:
+                  <p>In order to hold your STORJ, they should be stored in an ERC-20 compatible Ethereum wallet to which you hold the private key yourself. Several options are available:
                     <ul>
                       <li><a href="https://parity.io/parity.html" class="link" target="_blank">Parity</a>
                       </li>
@@ -380,73 +370,6 @@
         <div class="col-xs-12 col-sm-8 col-sm-push-2">
           <div class="panel-group" id="accordion-6" role="tablist" aria-multiselectable="true">
 
-            <h4>Token Distribution</h4>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingOne">
-                <h5 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed faq-heading">
-                    When will I receive my STORJ?
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                  <span class="panel-font">
-                    We understand that you’ve been anxiously awaiting the distribution of your STORJ and are excited to report that the STORJ token has officially been distributed!
-                    <br />
-                    <br /> The STORJ token contract address is:
-                    <b>0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac</b>
-                    <br />
-                    <br /> You will need to set your wallet to watch the token contract. While instructions vary by wallet and we always recommend referring to their official documentation, we have provided instructions for many of the most common ERC-20 wallets later in the
-                    <a href="#faq-token-wallets" class="link2 page-scroll"><u>Token Wallets</u></a> section of the FAQs.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTwo">
-                <h5 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed faq-heading">
-                    Why did it take so long to distribute the STORJ token?
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  <span class="panel-font">
-                    The Storj Token sale is unique in many ways:
-                    <br />
-                    <br />
-                    <ul>
-                      <li>Because the Storj network has been running for over a year, there was a significant ecosystem that needed to be updated prior to the release of the new token.
-                      </li>
-                      <li>In addition to the STORj token distribution, our team also had to finalize the <a href="https://storj.io/conversion">custom application</a> to convert SJCX to STORJ.
-                      </li>
-                      <li>Additional time was required to implement timelock smart contracts for tokens sold during the pre-sale.
-                      </li>
-                    </ul>
-                    </br>
-                    Some of the above tasks have never been done before in any other token sale. As a result, additional time and care were taken to ensure that the process was done correctly, every step of the way.
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingThree">
-                <h5 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="collapsed faq-heading">
-                    What do I have to do to see the STORJ token in my wallet?
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                <div class="panel-body">
-                  <span class="panel-font">
-                    This will depend largely on the Ethereum wallet that you used. For many, the STORJ token will appear automatically. If this does not occur, you will need to add the token manually to your wallet. Each wallet should have a well-documented process for this. For most major wallets, instructions can be found in the next section.
-                  </span>
-                </div>
-              </div>
-            </div>
             <br />
 
             <h4 id="faq-token-wallets">Token Wallets & Management</h4>
@@ -564,7 +487,7 @@
               <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
                 <div class="panel-body">
                   <span class="panel-font">
-                    Token Sales have gained significant momentum because of their ability to support distributed applications and open source development teams. Revenue generated from the Storj Token Sale will allow us to accelerate product development, while promoting developer adoption and network growth. Additionally, it will allow us to finance the continued development of Storj and create a fully functional distributed, decentralized cloud storage platform.
+                    Token Sales have gained significant momentum because of their ability to support distributed applications and open source development teams. Revenue generated from the Storj Token Sale allows us to accelerate product development, while promoting developer adoption and network growth. Additionally, it allows us to finance the continued development of Storj and create a fully functional distributed, decentralized cloud storage platform.
                   </span>
                 </div>
               </div>
@@ -599,7 +522,7 @@
               <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
                 <div class="panel-body">
                   <span class="panel-font">
-                    During the token sale, just over 73,228,000 STORJ were sold.
+                    During the token sale, just over 73 million STORJ were sold.
                   </span>
                 </div>
               </div>
@@ -615,24 +538,7 @@
               <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
                 <div class="panel-body">
                   <span class="panel-font">
-                    Right now, there are roughly 51,000,000 outstanding SJCX. After the STORJ distribution and SJCX burn, there will be slightly under 125,000,000 outstanding STORJ. <!-- The number of outstanding STORJ can always be verified at
-                    <a href="https://storj.io/supply.json">https://storj.io/supply.json</a> -->
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="headingTen">
-                <h5 class="panel-title">
-                  <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen" class="collapsed faq-heading">
-                    When will Storj Labs complete the 1:1 burn?
-                  </a>
-                </h5>
-              </div>
-              <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
-                <div class="panel-body">
-                  <span class="panel-font">
-                    The burn will be completed no later than Thursday, June 22nd. Additional details will be released here, once complete.
+                    There are 425 million STORJ tokens. Currently, there are 245 million STORJ in time lock, leaving 180 million STORJ unlocked in circulation. The current approximate circulating supply can be found on <a href="https://coinmarketcap.com/">CoinMarketCap</a>. The remaining unlocked tokens are being held by Storj Labs and slowly enter the circulating supply by way of farmer payouts, community leader compensation, bounty payments, etc.
                   </span>
                 </div>
               </div>
@@ -648,7 +554,7 @@
               <div id="collapseTwelve" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwelve">
                 <div class="panel-body">
                   <span class="panel-font">
-                    The STORJ token can be used to buy storage on the Storj network, power apps and ecosystems built on the Storj platform, and allows you to gain access to other services offered by the Storj platform such as DNS and TLS automation and Bridge server contracts.
+                    You can use the STORJ token to buy storage on the Storj network, to power apps and ecosystems built on the Storj platform, and to gain access to other services offered by the Storj platform, such as DNS and TLS automation and bridge server contracts.
                     <br />
                     <br /> As the number of apps and ecosystems built on the Storj network grows, so too will the number of uses for the STORJ token!
                   </span>
@@ -815,13 +721,13 @@
               <div class="panel-heading" role="tab" id="faq-6-1">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-6-1" aria-expanded="false" aria-controls="collapse-6-1">
-                    What is Storj Token (STORJ)?
+                    What is the Storj Token (STORJ)?
                   </a>
                 </h4>
               </div>
               <div id="collapse-6-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-6-1">
                 <div class="panel-body">
-                  <p>STORJ allows you to purchase storage or earn money for renting your free Hard Drive space. STORJ uses the Ethereum blockchain for its transactions.
+                  <p>STORJ is a utility token on the Etereum network which follows the <a href="https://en.wikipedia.org/wiki/ERC20">ERC20 standard</a>. STORJ allows you to purchase storage or earn money for renting your free hard drive space. STORJ uses the Ethereum blockchain for its transactions.
                   </p>
                 </div>
               </div>
@@ -880,8 +786,7 @@
                   <span class="panel-font">
                     We made every effort possible to stress the importance of using an ERC-20 compatible wallet in the sale terms, through the payment web application, and numerous times on the token sale website.
                     <br />
-                    <br /> As a result, we are unable to guarantee receipt if these instructions were not followed. We are happy speak with you further on the matter and may be able to make arrangements on an exception basis. For inquiries related to this, please email:
-                    <a href="mailto:hello@storj.io">hello@storj.io</a>
+                    <br /> As a result, we are unable to guarantee receipt if these instructions were not followed.
                   </span>
                 </div>
               </div>
@@ -899,8 +804,7 @@
                   <span class="panel-font">
                     We made every effort possible to stress the importance of not using an exchange wallet in the sale terms, through the payment web application, and numerous times on the token sale website.
                     <br><br>
-                    As a result, we are unable to guarantee receipt, if these instructions were not followed. We are happy speak with you further on the matter and may be able to make arrangements on an exception basis. For inquiries related to this, please email:
-                    <a href="mailto:hello@storj.io">hello@storj.io</a>
+                    As a result, we are unable to guarantee receipt, if these instructions were not followed.
                   </span>
                 </div>
               </div>
@@ -1014,10 +918,11 @@
                   </a>
                 </h4>
               </div>
-              <div id="collapse-converter-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-converter-1">
+              <div id="collapse-converter-1" class="panel-collapse collapse" role="tabpanel" a
+              ria-labelledby="faq-converter-1">
                 <div class="panel-body">
                   <p>
-                    It can still be sent from address to address, but can’t be used to buy storage or bandwidth, and will no longer be supported by our products or services. Eventually, we hope, everyone will convert their remaining SJCX tokens to STORJ. If you have SJCX, please use the conversion application located at <a href="https://storj.io/conversion" target="_blank">https://storj.io/conversion</a> to convert your SJCX to STORJ as soon as possible.
+                    They can be sent from address to address, but can’t be used to buy storage or bandwidth. SJCX tokens are no longer supported by our products or services.
                   </p>
                 </div>
               </div>
@@ -1032,26 +937,9 @@
               </div>
               <div id="collapse-converter-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-converter-2">
                 <div class="panel-body">
-                  <p>
-                  The Storj conversion application is located at <a href="https://storj.io/conversion" target="_blank">https://storj.io/conversion</a>
-                  </p>
-
-                  <p>We will ask for:</p>
-                  <ul>
-                    <li><b>Your email address</b></li>
-                    <li><b>Your ERC-20 compatible Ethereum wallet address</b><em>(not an exchange address).</em> You must hold the private keys yourself. This address does not need to match the address you used during the STORJ token sale (if you purchased tokens at that time). If you are unfamiliar with Ethereum wallets, we recommend <a href="https://www.myetherwallet.com" target="_blank">MyEtherWallet</a>.
-                    <br>Additionally, <a href="https://themerkle.com/top-5-ethereum-wallets-compatible-with-cryptocurrency-ico-tokens" target="_blank">this article</a> provides info about the most recommended ERC-20 compatible wallets.
-                    </li>
-                  </ul>
-                  <br>
-
-                  <p>We will give you:</p>
-                  <ul>
-                    <li><b>A unique SJCX address to send your SJCX to.</b>
-                    <em>Do not send your SJCX to any address other than addresses generated in the web application.</em>
-                    You will need to have a small amount of BTC for miners fees in your SJCX address in order to be able to send the tokens to the web app. This is because SJCX is a Counterparty token and that protocol uses Bitcoin transactions to move tokens. When you're ready to send your SJCX, please use <a href="https://bitcoinfees.21.co/" target="_blank">https://bitcoinfees.21.co/</a> to calculate the necessary BTC miners fee to send your transaction. This will help avoid getting it stuck in the mempool for extended time periods. When in doubt, contact Storj support for advice how to calculate the right miners fees.
-                    </li>
-                  </ul>
+                  You can convert your legacy SJCX tokens to STORJ tokens via our converter. Because of high volume conversion requests, we only open the converter for short time periods on designated dates.
+                  In order to be notified of these dates when they are set, please fill out the <a href=converter-signup.html>Converter Sign Up form</a> to make sure you don’t miss out on the next
+                  opportunity to convert your tokens.
                 </div>
               </div>
             </div>
@@ -1075,76 +963,14 @@
               <div class="panel-heading" role="tab" id="faq-converter-four">
                 <h4 class="panel-title">
                   <a class="collapsed" data-toggle="collapse" data-parent="#accordion-converter" href="#collapse-converter-4" aria-expanded="false" aria-controls="collapse-converter-4">
-                    How long will the conversion app be available?
+                    When will the conversion app be available?
                   </a>
                 </h4>
               </div>
               <div id="collapse-converter-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-converter-four">
                 <div class="panel-body">
                   <p>
-                    We understand that converting could be difficult or inconvenient, so we’ll run the converter app for at least three (3) months. We’ll look at making a permanent solution after that. We can’t guarantee conversion with the permanent solution because of issues outside of our control (e.g. chain forks, maintenance, etc). Using the converter app within the timeline will always be the best option. If you have SJCX, please use the conversion application located at <a href="https://storj.io/conversion" target="_blank">https://storj.io/conversion</a> to convert your SJCX to STORJ as soon as possible.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- SJCX -->
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h1>Storjcoin X (SJCX) (deprecated)</h1>
-        </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-2">
-          <div class="panel-group" id="accordion-6" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-7-1">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-7-1" aria-expanded="false" aria-controls="collapse-7-1">
-                    What is Storjcoin X (SJCX)?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-7-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-7-1">
-                <div class="panel-body">
-                  <p>
-                    SJCX was our first token allowing users to purchase storage or earn money for renting free Hard Drive space. SJCX is a Counterparty asset that used the Bitcoin blockchain for its transactions.
-                  </p>
-                  <p>As of June 2017, we have converted to Storj Token (STORJ), which uses the Ethereum blockchain for its transactions. SJCX is a legacy asset that is no longer in use by Storj. You can read more about moving from SJCX to STORJ on our <a href="http://blog.storj.io/post/159746056098/token-migration-plan-pt1" target="_blank">blog.</a> If you have SJCX, please use the conversion application located at <a href="https://storj.io/conversion" target="_blank">https://storj.io/conversion</a> to convert your SJCX to STORJ as soon as possible.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-7-2">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-7-3" aria-expanded="false" aria-controls="collapse-7-3">
-                    How many Storjcoin X have been distributed so far?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-7-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-7-2">
-                <div class="panel-body">
-                  <p>
-                    We have a supply calculator <a href="https://storj.io/supply.json" target="_blank">here</a>. This will show you exactly how many SJCX have been released at the moment you check. It is updated in real time. If you have SJCX, please use the conversion application located at <a href="https://storj.io/conversion" target="_blank">https://storj.io/conversion</a> to convert your SJCX to STORJ as soon as possible.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="panel panel-default">
-              <div class="panel-heading" role="tab" id="faq-6-6">
-                <h4 class="panel-title">
-                  <a class="collapsed" data-toggle="collapse" data-parent="#accordion-6" href="#collapse-6-6" aria-expanded="false" aria-controls="collapse-6-6">
-                    Why Storjcoin X? Why not just use Bitcoin as form of payment on the network?
-                  </a>
-                </h4>
-              </div>
-              <div id="collapse-6-6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="faq-6-6">
-                <div class="panel-body">
-                  <p>
-                    There is a mix of technical and economic reasons why we decided to create SJCX. For similar reasons, we made the decision to deprecate SJCX and migrate to using a new token, STORJ, on the Ethereum blockchain. You can read more about moving from SJCX to STORJ on our <a href="http://blog.storj.io/post/159746056098/token-migration-plan-pt1" target="_blank">blog</a>. If you have SJCX, please use the conversion application located at <a href="https://storj.io/conversion">https://storj.io/conversion</a> to convert your SJCX to STORJ as soon as possible.
+                    For information on final window for conversion of SJCX tokens to STORJ, please refer to our <a href="https://blog.storj.io/post/173960094048/last-chance-to-convert-sjcx-to-storj-this-year">blog post</a> on the matter.
                   </p>
                 </div>
               </div>
@@ -1339,82 +1165,82 @@
   </div>
 
   <footer>
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-2 col-xs-6">
-  	          <a href="/" class="footer-logo">
-  	            <img src="/img/logo-white.svg" alt="Storj">
-  	          </a>
-  	          <ul class="list-unstyled">
-  	            <li><a href="/careers.html">We're Hiring!</a></li>
-  	            <li><a href="/storj.pdf">Whitepaper</a></li>
-  	            <li><a href="/privacy-policy.html">Privacy Policy</a></li>
-  	            <li><a href="/terms-of-use.html">Terms of Use</a></li>
-  	            <li><a href="/terms-of-service.html">Terms of Service</a></li>
-  	            <li><a href="/canary.txt">Canary</a></li>
-  	            <li><a href="https://status.storj.io/">Status</a></li>
-  	          </ul>
-  	        </div>
-  	        <div class="col-xs-12 col-sm-2 col-xs-6">
-  	          <h5>Company</h5>
-  	          <ul class="list-unstyled">
-  	            <li><a href="/team.html">Team</a></li>
-  	            <li><a href="/careers.html">Careers</a></li>
-  	            <li><a href="/contact.html">Contact</a></li>
-  	            <li><a href="/press.html">Press</a></li>
-  	            <li><a href="http://blog.storj.io/">Blog</a></li>
-  	            <li><a href="/faq.html">FAQ</a></li>
-  	            <li><a href="/support.html">Help</a></li>
-  	          </ul>
-  	        </div>
-  	        <div class="col-xs-12 col-sm-2 col-xs-6">
-  	          <h5>Product</h5>
-  	          <ul class="list-unstyled">
-  	            <li><a href="https://docs.storj.io/">Quickstart</a></li>
-  	            <li><a href="/developers.html">Developers</a></li>
-  	            <li><a href="/community.html">Community</a></li>
-  	            <li><a href="http://feedback.storj.io">Suggest Feature</a></li>
-  	            <li><a href="/share.html" class="white-tooltip" data-toggle="tooltip" data-placement="top" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
-  	            <li><a href="/referral.html">Referral Program</a></li>
-  	          </ul>
-  	        </div>
-  	        <div class="col-xs-12 col-sm-2 col-xs-6">
-  	          <h5>Connect</h5>
-  	          <ul class="list-unstyled">
-  	            <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
-  	            <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
-  	            <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
-  	            <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
-  	            <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
-  	          </ul>
-  	        </div>
-            <div class="col-xs-12 col-sm-3 col-xs-12">
-              <h5>Stay in Touch</h5>
-              <div style="padding-top: 0.1em" id="mc_embed_signup">
-                <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=da152f16f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
-                    <div id="mc_embed_signup_scroll">
-                	  <input style="height:50%; font-size: 14px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edba9fc4ce8b9095a31859cba_09353db057" tabindex="-1" value=""></div>
-                    <div class="clear"><input style="height:50%; font-size: 14px" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-footer btn-lg btn-signup"></div>
-                    </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="address">
           <div class="container">
-            <div class="row">
-              <div class="col-xs-12 text-center">
-                <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+            <div class="row is-flex">
+              <div class="col-xs-12 col-sm-2 col-xs-6">
+                <a href="/" class="footer-logo">
+                  <img src="/img/logo-white.svg" alt="Storj">
+                </a>
+                <ul class="list-unstyled">
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                  <li><a href="/terms-of-use">Terms of Use</a></li>
+                  <li><a href="/terms-of-service">Terms of Service</a></li>
+                  <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                  <li><a href="/storj-share-information">Information Policy</a></li>
+                  <li><a href="/storage-service-level-commitment">Storage SLA</a></li>
+                  <li><a href="/canary.txt">Canary</a></li>
+                  <li><a href="https://status.storj.io/">Status</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-xs-6">
+                <h5>Company</h5>
+                <ul class="list-unstyled">
+                  <li><a href="/storj.pdf">Whitepaper</a></li>
+                  <li><a href="/team">Team</a></li>
+                  <li><a href="/careers">Careers</a></li>
+                  <li><a href="/faq">FAQ</a></li>
+                  <li><a href="/contact">Contact</a></li>
+                  <li><a href="/press">Press</a></li>
+                  <li><a href="http://blog.storj.io/">Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-xs-6">
+                <h5>Product</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://docs.storj.io/">Quickstart</a></li>
+                  <li><a href="/developers">Developers</a></li>
+                  <li><a href="/partners">Partners</a></li>
+                  <li><a href="/community">Community</a></li>
+                  <li><a href="/support">Support</a></li>
+                  <li><a href="http://feedback.storj.io">Suggest Feature</a></li>
+                  <li><a href="/share" class="white-tooltip" data-toggle="tooltip" data-placement="top" title="Earn money by sharing your extra hard drive space on the network.">Rent Your Drive</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-2 col-xs-6">
+                <h5>Connect</h5>
+                <ul class="list-unstyled">
+                  <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
+                  <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
+                  <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
+                  <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
+                  <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-3 col-xs-12">
+                <h5>Stay in Touch</h5>
+                <div style="padding-top: 0.1em" id="mc_embed_signup">
+                  <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=da152f16f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                      <div id="mc_embed_signup_scroll">
+                      <input style="height:50%; font-size: 14px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edba9fc4ce8b9095a31859cba_09353db057" tabindex="-1" value=""></div>
+                      <div class="clear"><input style="height:50%; font-size: 14px" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-footer btn-lg btn-signup"></div>
+                      </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-    </footer>
-
-	<script src="js/particles.min.js"></script>
+          <div class="address">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 text-center">
+                  <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+                </div>
+              </div>
+            </div>
+          </div>
+      </footer>
 
   <script src="js/jquery-2.1.1.js"></script>
   <script src="js/bootstrap.min.js"></script>
