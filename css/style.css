@@ -821,7 +821,7 @@ canvas {
 	margin: 0 auto;
 	position: relative;
 	top: 190px;
-	top: 25vh;
+	top: 22vh;
 	z-index: 2;
 	padding: 1em;
 }
@@ -833,9 +833,9 @@ canvas {
 }
 .headlines p {
 	padding-bottom: 24px;
-	max-width: 600px;
+	max-width: 680px;
 	line-height: 1.8em;
-	font-size: 21px;
+	font-size: 18px;
 	margin: 0 auto;
 	color: #fff;
 }
