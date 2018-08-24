@@ -197,6 +197,22 @@ Buttons
 	-ms-transition: all 0.15s ease-in-out;
 	transition: all 0.15s ease-in-out;
 }
+.btn-grey {
+	font-weight: 800;
+	text-transform: uppercase;
+	background: none;
+	font-size: 15px;
+	padding: 14px 50px;
+	border-radius: 4px;
+	z-index: 2;
+	outline: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-transition: all 0.15s ease-in-out;
+	-moz-transition: all 0.15s ease-in-out;
+	-ms-transition: all 0.15s ease-in-out;
+	transition: all 0.15s ease-in-out;
+}
 .btn:hover, .btn:focus {
 	color: #fff;
 	background: #173AE8;
@@ -471,6 +487,22 @@ Navigation
 	margin-top: 31px;
 	margin-left: 10px;
 	width: auto !import/ant;
+}
+.btn-partner {
+	background: transparent;
+	border: 2px solid #eee !important;
+  padding: 14px 20px !important;
+}
+.btn-partner:focus, .btn-partner:active, .btn-partner:hover {
+	border: 2px solid #929292 !important;
+	color: #929292 !important;
+	box-shadow: none !important;
+	text-decoration: none !important;
+}
+.btn-partner.active {
+	border-color: #929292 !important;
+  border: 2px solid #929292 !important;
+	box-shadow: none !important;
 }
 .btn-rent:focus, .btn-rent:active, .btn-rent:hover {
 	border-color: #fff;
@@ -789,7 +821,7 @@ canvas {
 	margin: 0 auto;
 	position: relative;
 	top: 190px;
-	top: 25vh;
+	top: 22vh;
 	z-index: 2;
 	padding: 1em;
 }
@@ -801,9 +833,9 @@ canvas {
 }
 .headlines p {
 	padding-bottom: 24px;
-	max-width: 600px;
+	max-width: 680px;
 	line-height: 1.8em;
-	font-size: 21px;
+	font-size: 18px;
 	margin: 0 auto;
 	color: #fff;
 }
@@ -1558,6 +1590,41 @@ footer .list-unstyled {
     -ms-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
 }
+.row.is-flex {
+   display: flex;
+   flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+   display: flex;
+   flex-direction: column;
+}
+
+/*
+* And with max cross-browser enabled.
+* Nobody should ever write this by hand.
+* Use a preprocesser with autoprefixing.
+*/
+.row.is-flex {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-flex-wrap: wrap;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+   display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -webkit-flex-direction: column;
+   -ms-flex-direction: column;
+   flex-direction: column;
+}
 
 /* --------------------------------
 
@@ -1871,6 +1938,22 @@ FAQ
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 	border: 1px solid #eee;
 }
+.panel-simple {
+	border: 1px solid #eee;
+  border-radius: 4px;
+}
+.panel-grey {
+  background-color: #FBFBFB;
+  border-radius: 4px;
+}
+.panel-home {
+	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
+	border: 1px solid #eee;
+  border-radius: 4px;
+  background-color: none;
+  padding: 20px;
+  margin: 10px;
+}
 .panel-title {
 	border-top-right-radius: 3px;
 	border-top-left-radius: 3px;
@@ -1924,7 +2007,10 @@ FAQ
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .panel-card-simple {
-	padding: 44px;
+	padding: 46px;
+}
+.panel-card-partners {
+	padding: 40px;
 }
 .panel-link:hover .panel-card {
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);

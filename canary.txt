@@ -24,26 +24,26 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 5/1/2018, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 8/2/2018, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - 'So disgraceful': Trump lashes out at publication of questions in Mueller probe
-- - Trump has made 3,001 false or misleading claims as president
-- - To find Golden State Killer suspect, investigators first found his great-great-great-grandparents
-- - Trifecta of cheap loans, high stock prices and low consumer prices is coming to an end
-- - For GOP hopefuls, crimes are no longer a disqualification for office
+- - Trump administration to freeze fuel-efficiency requirements, likely spurring a legal battle with states
+- - Details of Manafort’s finances are expected as his trial on fraud charges continues
+- - As midterms near, fears grow that U.S. is not protected from Russian interference
+- - Mueller offers to limit questions for Trump in latest bid to secure interview
+- - Pope Francis changes church teaching on the death penalty, calling it 'inadmissible'
 -----BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.0.76
+Version: Keybase OpenPGP v2.0.77
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJa6H1qAAoJEPQrujgXjffwxq4IAMw5Sz2ydSdl/wBmoGj4C1Eo
-gtuzYpBfw67T7uplOCoVHQT5QCIt1LND1aY+dQFDmbdhcjn9R0Sh6eswXJQVZQat
-vrh8/RK894zRs5lGWnHJ+0V5irWfwZh4u1v70f7DYgG9EZlqlAB2sklrd8vQAX3+
-wi/kG9boz2GirtRlZ7cCI/hz9igYpHCwXJWm/blr/XyfkFuiH6X4Mhu4txh9Xqrd
-O5VFgvwUOIcpuN5mVbTCTUa9+b6vu2wQMzOb9kjrld3YfrwKK1IG4vJCJ62lI5hP
-IxWOqu5Ncgm+h1XZwUq/0PlzIJApFf2XKWX+LHiERvc3F2vSgKUvyIdgci45yUc=
-=lfP+
+wsBcBAABCgAGBQJbYwxpAAoJEPQrujgXjffwingH/jfCmUhPEcYB5cah+y1BgzCM
+/VYosIZtjOlKjaNuc1in0URrOAXESDVec6d8BJsQd0kSoUfZf/s0e9IB+h/yDAsU
+emPxyp1v0LPc5cECASuYDxnFYrBoYrlJfT9rrqQGZGtL2XgZ4Std3/9ngN6sgOxM
+eiS8dR6yRaG3sFwL2O7xqzgUIiC1ml94rSQF55Y5nbONx0CVi/uo4Bv3AAQIWCfw
+J7MhWLP9UtFa6U3M2SrtejfN88sazfwzYOVpdqS8JNqjwl96qBMyl3gHaqaPgIv0
+IQmqqyQk6f/zkBYbU/rlvLcLYRL3oRzS2hsuK2WpPj8FfcExb/ncSCTtiQSSDyE=
+=6/aI
 -----END PGP SIGNATURE-----
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
