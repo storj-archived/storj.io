@@ -37,8 +37,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700" rel="stylesheet">
 
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script type="text/javascript" id="inspectletjs">
   (function() {
     window.__insp = window.__insp || [];
@@ -52,12 +57,6 @@
 
     <script src="js/modernizr.js"></script>
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Google Page Hide, prevents page flicker. Must be before Analytics code -->
     <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
       h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
       (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
@@ -65,19 +64,17 @@
       {'GTM-N75DJ6F':true});
     </script>
 
-    <!-- Analytics -->
     <script type="text/javascript" src="js/segment.js"></script>
 </head>
 
 <body class="home">
 
-	<section class="header">
+	<section class="header" style="height:100%;">
 
     <div class="header-bg"></div>
 
 		<nav class="navbar navbar-default menu">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -89,14 +86,13 @@
             <img src="img/logo-white.svg" alt="Storj" class="logo">
           </a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar-menu">
           <ul class="nav navbar-nav">
             <li><a href="https://storj.io/developers" style="font-size: .9em" class="link">Developers</a></li>
             <li><a href="https://storj.io/community" style="font-size: .9em" class="link">Community</a></li>
             <li><a href="https://storj.io/support" style="font-size: .9em" class="link">Support</a></li>
             <li><a href="https://storj.io/partners" style="font-size: .9em" class="link">Partners</a></li>
-            <li><a href="https://storj.io/blog/" style="font-size: .9em" class="link">Blog</a></li>
+            <li><a href="https://storj.io/blog" style="font-size: .9em" class="link">Blog</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
@@ -106,181 +102,387 @@
 		  </div>
 		</nav>
 
-    <div id="particles-js"></div>
 
-    <div class="container">
-      <div class="header-content">
-        <div class="row headlines text-center">
-          <h1 class="cd-headline letters type">
-            <span class="cd-words-wrapper waiting">
-              <b class="is-visible">Distributed</b>
-              <b>Encrypted</b>
-              <b>Open-Source</b>
-              <b>Sustainable</b>
-              <b>The Future of</b>
-            </span>
-            <br class="visible-xs">
-            <span>Cloud Storage</span>
-          </h1>
 
-          <p>Storj is building a next-generation decentralized cloud storage network, set to launch in Alpha this fall. By renting unused hard drive and bandwidth capacity around the globe, rather than operating our own data center, we are able to offer more affordable object storage without sacrificing on performance or reliability.</p>
+    <div class="container ">
+        <div class="row">
+            <div class="spacer30"></div>
+          <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-md-5 col-md-offset-0 col-lg-6">
+
+
+            <div class="spacer20"></div>
+
+          <h1 style="font-size:30px;line-height:40px;color:white;">Decentralized cloud object storage that is affordable, easy to use, private, and secure.</h1>
+          <p style="color:#FFFFFF;opacity: 0.7;font-size:16px;">The Storj Network uses client-side encryption so data owners can trust that only they can access their files. Its S3 compatibility also makes it simple to implement and scale along with your needs.</p>
           <div class="spacer5"></div>
-          <p>With an AWS S3 compatible interface, each file is encrypted, broken up into pieces and then distributed across the network. Only the data’s owner has the keys to access their encrypted files, providing seamless security and privacy right out-of-the box.</p>
+          <p style="color:#FFFFFF;opacity: 0.7;font-size:16px;">Reserve your spot on the Storj Network <strong>launching in early 2019.</strong></p>
           <div class="spacer20"></div>
-          <a href="#waitlist" style="padding:14px;" class="btn btn-lg btn-green">Join The Waitlist</a>
+          <a href="#waitlist" style="padding-left:20px;padding-right:20px;font-size:14px;" class="btn btn-lg">Get Early Access</a>
         <div class="spacer50"></div>
+        
         </div>
+
+
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-3 col-md-5 col-md-offset-1 col-lg-5 col-lg-offset-1">
+          <img src="img/storj-io-illustration.svg"/>
+        </div>
+    
       </div>
+      
+      </div>
+      <div class="spacer45"></div>
+      <div class="spacer45"></div>
+    </div>
+  </div>
+  </section>
+  <div style="width:100%;height:120px;background-color: #0C2350;" class="container text-center">
+    <div class="row" style="background-color: #0C2350;">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <img style="height:46.29px;width:72px;margin:2.5%;" src="img/white-logos/nextcloud-white.svg"/>
+      <img style="height:32.92px;width:143px;margin:2.5%;" src="img/white-logos/couchbase-white.svg"/>
+      <img style="height:41px;width:41px;margin:2.5%;" src="img/white-logos/filezilla-white.svg"/>
+      <img style="height:32px;width:139px;margin:2.5%;" src="img/white-logos/influxdb-white.svg"/>
+      <img style="height:46px;width:99px;margin:2.5%;" src="img/white-logos/kafka-white.svg"/>
+      <img style="height:19.46px;width:79px;margin:2.5%;" src="img/white-logos/minio-white.svg"/>
+      <img style="height:32px;width:142px;margin:2.5%;" src="img/white-logos/zenko-white.svg"/>
     </div>
 
-  </section>
+  </div>
+</div>
 
-  <div class="section storj-video-wrapper text-center">
-      <div class="container">
+  <div class="container ">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="spacer45"></div>
+            <div class="spacer45"></div>
+            <div class="col-xs-11  col-sm-10 col-sm-offset-4 col-md-5 col-md-offset-0 col-lg-5  col-lg-offset-1" style="height:328px;width:322px;" >
+              <img src="img/partners 2.svg"/>
+              </div>
+
+      <div style="position:relative;z-index: 2;" class="col-xs-12 col-sm-10 col-sm-offset-2 col-md-6 col-md-offset-1 col-lg-6 col-lg-offset-1 ">
+
+
+        <h1 style="font-size:26px;line-height:40px;color:#2683FF;">Introducing the Open-Source<br class="visible-md visible-lg">Partner Program</h1>
+        <p style="color:#FFFFFF;opacity: 0.7;font-size:16px;color:#333333">Open-source projects can generate revenue when your users incorporate our service as their storage layer. Through simple connectors, Storj has created many mutually beneficial relationships with top open-source companies from around the world.</p>
+        <div class="spacer20"></div>
+        <a href="#waitlist" style="padding-left:20px;padding-right:20px;font-size:14px;" class="btn btn-lg">Learn More</a>
+      <div class="spacer50"></div>
+      
+      </div>
+
+  
+    </div>
+    
+    </div>
+    <div class="spacer45"></div>
+    <div class="spacer45"></div>
+
+
+  <div>
+      <div class="container text-center">
+
 		<div class="row">
-			<div class="col-xs-10 col-xs-push-1">
-				<h1>How does it work?</h1>
-				<p>Watch this simple one-minute video explainer for Storj.</p>
-			</div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"></div>
+        
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-12">
+            <h1 style="font-size:30px;">Helping Developers Weave the <br class="visible-lg visible-md">Fabric of Tomorrows' Internet</h1>
+      </div>
+      
 		</div>
         <div class="row">
-          <div class="col-xs-12 col-md-8 col-md-push-2">
-            <div class="storj-video storj-video-container video-thumbnail" id="vidwrap" onclick="play();"></div>
+ 
+              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding:50px;">
+                  <div class="value-icon">
+                      <img src="img/icon-safe.svg" alt="Open-Source Software" class="icon-opensource">
+                    </div>
+                  <h4 class="team-member-name" style="color:#333333;font-weight:700;" title="">Secure & Private</h4>
+                  <p class="team-member-title" style="font-size: 14px;">Client-side, AES-256-GCM encryption lets only the file owners access and see thier own data.</p>
+                </div>
+                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding:50px;">
+                    <div class="value-icon">
+                        <img src="img/icon-cost.svg" alt="Open-Source Software" class="icon-opensource">
+                      </div>
+                    <h4 class="team-member-name" style="color:#333333;font-weight:700;">Affordable</h4>
+                  <p class="team-member-title" style="font-size: 14px;">Because Storj doesn't need to operate any centralized data centers, we are able to pass savings on to our users.</p>
+                </div>
+              <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding:50px;">
+                    <div class="value-icon">
+                        <img src="img/icon-fast.svg" alt="Open-Source Software" class="icon-opensource">
+                      </div>
+                  <h4 class="team-member-name" style="color:#333333;font-weight:700;">Performant</h4>
+                  <p class="team-member-title" style="font-size: 14px;">Segmented and distributed files allow for multi-threaded concurrent downloads.</p>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding:50px;">
+                          <div class="value-icon">
+                                <img src="img/icon-capacity.svg" alt="Open-Source Software" class="icon-opensource">
+                              </div>
+                            <h4 class="team-member-name" style="color:#333333;font-weight:700;">Resilient</h4>
+                            <p class="team-member-title" style="font-size: 14px;">Erasure encoded, globally distributed files deliver more reliability than centralized storage.</p>
+                          </div>
+                          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding:50px;">
+                              <div class="value-icon">
+                                  <img src="img/icon-oneclickstart.svg" alt="Open-Source Software" class="icon-opensource">
+                                </div>
+                            <h4 class="team-member-name" style="color:#333333;font-weight:700;">Easy To Use</h4>
+                            <p class="team-member-title" style="font-size: 14px;">S3 compatible gateway allows a familiar,drop-in replacement API.</p>
+                          </div>
+                          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="padding:50px;">
+                              <div class="value-icon">
+                                  <img src="img/icon-opensource.svg" alt="Open-Source Software" class="icon-opensource">
+                                </div>
+                            <h4 class="team-member-name" style="color:#333333;font-weight:700;">Open-Source</h4>
+                            <p class="team-member-title" style="font-size: 14px;">All components are open source,auditable, and licensed with AGPL and Apache Commons licenses. Check us out on <a href="https://github.com/storj">Github.</a></p>
+                          </div>
           </div>
         </div>
       </div>
-    </div>
 
-  <div class="section text-center open-source">
-    <div class="container">
-  <div class="row">
-    <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3">
-      <div class="value-icon">
-        <img src="img/icon-community.svg" alt="Open-Source Software" class="icon-opensource">
-      </div>
-      <h1>Free &amp; Open-Source Software</h1>
-      <p>We are passionate about decentralization, and we love free and open-source software. Our mission is to rethink cloud storage, to provide the security, privacy, and transparency it’s missing. That's why we are building an open-source cloud platform that aims to fundamentally change the way people and devices own data. We welcome your feedback, bug reports, and pull requests.</p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="https://github.com/storj" class="btn btn-lg btn-block">Storj on GitHub</a> </p></div>
-    <div class="col-xs-12 col-sm-5 col-sm-push-1 col-md-4 col-md-push-2 col-lg-3 col-lg-push-3"><p><a href="developers.html" class="btn btn-lg btn-block">Get Involved</a></p></div>
-  </div>
-    </div>
-  </div>
-
-<section class="quotes">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-lg-8 col-lg-push-2">
-        <div class="slider slider-for slick-slider text-center">
-          <div>
+    <div class="spacer45"></div>
+      <section class="pricing section text-center" id="pricing">
+          <div class="container">
             <div class="row">
-              <div class="col-xs-12">
-                <img src="img/team/anand.jpg" class="quote-image" alt="Anand Babu Periasamy" />
-                  <h4>Anand Babu Periasamy</h4>
-                <p>Minio</p>
+              <div class="col-md-12 text-center">
+                <h1>Simple Pricing</h1>
+                <p>Pay only for what you use. No setup fees, no minimum usage.</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
-                <blockquote>
-                    <p>"Storj is like an Internet filesystem. Data blocks are encrypted and distributed across a globally distributed set of storage nodes using block-chain algorithm. It is quite impressive and much needed innovation in the storage space."</p>
-                </blockquote>
+            <div class="row plans">
+              <div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
+                <div class="plan">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <p class="plan-title">Storage</p>
+                      <img src="img/icon-storage.svg" class="plan-icon" alt="">
+                      <h2 class="plan-pricing">$0.015<span>per GB per month</span></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
+                <div class="plan">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <p class="plan-title">Bandwidth</p>
+                      <img src="img/icon-downloads.svg" class="plan-icon" alt="">
+                      <h2 class="plan-pricing">$0.05<span>per GB downloaded</span></h2>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div>
-            <div class="row">
-              <div class="col-xs-12">
-                <img src="img/quotes/vitalik.jpg" class="quote-image" alt="Vitalik Buterin" />
-                <h4>Vitalik Buterin</h4>
-                <p>Ethereum</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
-                <blockquote>
-                  <p>"Decentralized file storage systems like Storj have the potential to eliminate high markup costs and market inefficiencies and provide a much higher level of privacy, reliability and quality of service than we see today."</p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-xs-12">
-                <img src="img/team/tyler.jpg" class="quote-image" alt="Tyler Scriven" />
-                  <h4>Tyler Scriven</h4>
-                <p>Techstars</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
-                <blockquote>
-                  <p>"The power of the Storj platform is its unique ability indiscriminately utilize the free capacity of a storage node, whether a single end-user PC or a massive data center. Storj is bringing an unprecedented degree of efficiency to globally distributed data storage."</p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-xs-12">
-                <img src="img/quotes/pavel.jpg" class="quote-image" alt="Pavel Cherkashin" />
-                  <h4>Pavel Cherkashin</h4>
-                <p>Vestor.in</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
-                <blockquote>
-                  <p>"Storj is a unique market phenomena. It sets new standards of unit economics for distributed data storage."</p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-xs-12">
-                <img src="img/quotes/simon.jpg" class="quote-image" alt="Simon Dixon" />
-                  <h4>Simon Dixon</h4>
-                <p>BnkToTheFuture</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-10 col-lg-push-1">
-                <blockquote>
-                  <p>"As a seed investor, we were more than happy to join the next round for Storj with a great line up of co-investors. We want storing files to be cheaper, faster and more secure and the progress the team has made towards that mission has been phenomenal to watch. We are looking forward to putting more and more of our documents on the Blockchain thanks to Storj."</p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div class="row">
-              <div class="col-xs-12">
-                <img src="img/quotes/chris.jpg" class="quote-image" alt="Chris Dannen" />
-                  <h4>Chris Dannen</h4>
-                <p>Iterative Instinct</p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-10 col-md-push-1 col-lg-10 col-lg-push-1">
-                <blockquote>
-                  <p>"I believe that Storj Labs is one of the most established blockchain-based enterprise plays today."</p>
-                </blockquote>
-              </div>
-            </div>
-          </div>
+        </section>
         </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Our core use cases:</h1>
+                  </div>
+              <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-10 col-lg-offset-1">
+           
+
+
+          <div id="open-source-partner" class="panel-simple panel-card-simple" style="border:none;">
+            <div>
+            <div class="spacer20"></div>
+
+              <ul id="drilldown" class="nav nav-stacked ">
+   
+                          <li id="clickme" style="border-top:1px solid #f1f1f1"><a data-toggle="collapse" data-target="#drilldown-1"><p style="font-size:14pt; font-weight:700; color:black;margin-top:10px;">Backup, Recovery, and Archival<span id="jm-plus-1" style="vertical-align: middle;float:right;color:#2683ff;" class="glyphicon glyphicon-plus"></span></p></a></li>
+                          <div style="padding-left:0px;">
+                              <ul id="drilldown-1" class="nav nav-pills nav-stacked collapse">
+                                <li><p style="font-size:12pt;padding:18px;">Long-term storage for infrequently accessed files for regulatory, compliance, disaster recovery, or archival purposes.</p></li>
+                              </ul>
+                              </div>
+                              <li style="border-top:1px solid #f1f1f1"><a data-toggle="collapse" data-target="#drilldown-2"><p style="font-size:14pt; font-weight:700; color:black;margin-top:10px;">Media Content Storage and Delivery<span id="jm-plus-2" style="vertical-align: middle;float:right;color:#2683ff;" class="glyphicon glyphicon-plus"></span></p></a></li>
+                              <div style="padding-left:0px;">
+                                  <ul id="drilldown-2" class="nav nav-pills nav-stacked collapse">
+                                      <li><p style="font-size:12pt;padding:18px;">Store large volumes of video, photo, or audio media, including tape/physical alternatives.</p></li>
+                                    </ul>
+                                  </div>
+                                  <li style="border-top:1px solid #f1f1f1"><a data-toggle="collapse" data-target="#drilldown-3"><p style="font-size:14pt; font-weight:700; color:black;margin-top:10px;">Hybrid Cloud Storage<span id="jm-plus-3" style="vertical-align: middle;float:right;color:#2683ff;" class="glyphicon glyphicon-plus"></span></p></a></li>
+                                  <div style="padding-left:0px;">
+                                      <ul id="drilldown-3" class="nav nav-pills nav-stacked collapse">
+                                          <li><p style="font-size:12pt;padding:18px;">Instantly available cloud to compliment your on-prem storage.</p></li>
+                                        </ul>
+                                      </div>
+                                      <li style="border-top:1px solid #f1f1f1;"><a data-toggle="collapse" data-target="#drilldown-4"><p style="font-size:14pt; font-weight:700; color:black;margin-top:10px;">Large File Transfer<span id="jm-plus-4" style="vertical-align: middle;float:right;color:#2683ff;" class="glyphicon glyphicon-plus"></span></p></a></li>
+                                      <div style="padding-left:0px;">
+                                          <ul id="drilldown-4" class="nav nav-pills nav-stacked collapse">
+                                              <li><p style="font-size:12pt;padding:18px;">Temporary storage of large files for sharing or point-to-point transfers.</p></li>
+                                            </ul>
+                                          </div>
+                                          <li style="border-top:1px solid #f1f1f1;"><a data-toggle="collapse" data-target="#drilldown-5"><p style="font-size:14pt; font-weight:700; color:black;margin-top:10px;">Log Files<span id="jm-plus-5" style="vertical-align: middle;float:right;color:#2683ff;" class="glyphicon glyphicon-plus"></span></p></a></li>
+                                      <div style="padding-left:0px;">
+                                          <ul id="drilldown-5" class="nav nav-pills nav-stacked collapse">
+                                              <li><p style="font-size:12pt;padding:18px;">Long-term storage and easy accessibility for log data.</p></li>
+                                            </ul>
+                                          </div>
+                        </ul>
+                        <hr style="margin-top:-2px;">
+                                          </div>
+                                          
+                        </ul>
+                        
+            <div class="spacer20"></div>
+              </div>
+            </div>
+          </div>
+
+            <section class="section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xs-12 col-md-6 col-md-push-3 text-center">
+                      <h1>Stay Up-to-Date on the Latest From Storj Labs</h1>
+                      <div class="spacer45"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                      <div class="panel panel-card" style="height:250px;">
+                        <p style="height: 19px;	width: 276px;	color: #929292;	font-family: Montserrat;	font-size: 16px;	line-height: 19px;">BLOG</p>
+                        <h2 style="color:black;font-weight:700;">Developer Sprint Updates</h2>
+                        <div class="spacer10"></div>
+                        <a href="https://storj.io/blog/authors/brandon-iglesias/" style="height:22px;width: 276px;color: #2683FF;font-family: Montserrat;font-size: 18px;line-height: 22px;font-weight:600;">Read More &rarr;</a>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                      <div class="panel panel-card" style="height:250px;">
+                        <p style="height: 19px;	width: 276px;	color: #929292;	font-family: Montserrat;	font-size: 16px;	line-height: 19px;font-weight:600;">Q3 TOWN HALL</p>
+                        <h2 style="color:black;font-weight:700;">September 12th, 2018</h2>
+                        <div class="spacer10"></div>
+                        <a href="https://storj.io/blog/2018/08/join-the-storj-labs-town-hall-on-september-12/" style="height:22px;width: 276px;color: #2683FF;font-family: Montserrat;font-size: 18px;line-height: 22px;font-weight:600;">Register &rarr;</a>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-4">
+                      <div class="panel panel-card" style="height:250px;">
+                        <p style="height: 19px;	width: 276px;	color: #929292;	font-family: Montserrat;	font-size: 16px;	line-height: 19px;font-weight:600;">NEWS</p>
+                        <h2 style="color:black;font-weight:700;">Storj In The<br class="visible-xs"> Media</h2>
+                        <div class="spacer10"></div>
+                        <a href="https://storj.io/press" style="height:22px;width: 276px;color: #2683FF;font-family: Montserrat;font-size: 18px;line-height: 22px;font-weight:600;">Check out the latest &rarr;</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>       
+              
+<div class="container">
+<div class="row">
+    <div class="col-xs-12 col-md-6 col-md-push-3 text-center">
+        <h1 style="margin-bottom:-30px;">Upcoming Milestones</h1>
       </div>
-    </div>
+<div class="col-md-12">
+
+<div style="display:inline-block;width:100%;overflow-y:auto;">
+<ul class="timeline timeline-horizontal">
+<li class="timeline-item">
+<div class="timeline-badge primary"></div>
+<div class="timeline-panel-genesis">
+<div class="timeline-heading">
+<p style="height: 67px;	color: #2683FF;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;" ><small>Internal V3 Network Testfire</small></p>
+</div>
+</div>
+</li>
+<li class="timeline-item">
+<div class="timeline-badge primary" style="box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"></div>
+
+<div class="timeline-panel">
+<div class="timeline-heading">
+<p style="height: 67px;	color: #2683FF;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Private Alpha - Open Source Partners</small></p>
+</div>
+</div>
+</li>
+<li class="timeline-item">
+<div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>V3 Whitepaper Release</small></p>
+</div>
+</div>
+</li>
+<li class="timeline-item">
+<div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Public Alpha Launch</small></p>
+</div>
+</div>
+</li>
+<li class="timeline-item">
+<div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small> Storage Node V3</small></p>
+</div>
+</div>
+</li>
+<li class="timeline-item">
+<div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+<div class="timeline-panel">
+<div class="timeline-heading">
+<p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Storage Node Reputation Scores</small></p>
+</div>
+</div>
+</li>
+<li class="timeline-item">
+  <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+  <div class="timeline-panel">
+  <div class="timeline-heading">
+  <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Public Alpha Wipe/V3 Beta Launch</small></p>
   </div>
-  </section>
+  </div>
+  </li>
+  <li class="timeline-item">
+    <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+    <div class="timeline-panel">
+    <div class="timeline-heading">
+    <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Billing working</small></p>
+    </div>
+    </div>
+    </li>
+    <li class="timeline-item">
+      <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+      <div class="timeline-panel">
+      <div class="timeline-heading">
+      <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Free Tier Limits Imposed</small></p>
+      </div>
+      </div>
+      </li>
+      <li class="timeline-item">
+        <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+        <div class="timeline-panel">
+        <div class="timeline-heading">
+        <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>All Waitlist Invites sent</small></p>
+        </div>
+        </div>
+        </li>
+        <li class="timeline-item">
+          <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
+          <div class="timeline-panel">
+          <div class="timeline-heading">
+          <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Beta End/V3 Production Launch</small></p>
+          </div>
+          </div>
+          </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="spacer10"></div>
+<p class="text-center">Follow our progress on these milestones on <a href="https://blog.storj.io/">The Storj Blog</a></p>
+
+</div>
+
 
 <section id="waitlist" class="c2a-wrapper">
 <div class="container">
   <div class="row row-centered">
     <div class="col-centered col-md-6">
-      <h1 class="text-center">Get First-come, First-served Access to Our New Network</h1>
+      <h1 class="text-center">Get First-come, First-served  Access to Our New Network</h1>
     </div>
   </div>
 </div>
@@ -314,13 +516,13 @@
 </section>
 
 <div class="spacer50"></div>
-
+</div>
   <footer>
           <div class="container">
             <div class="row is-flex">
               <div class="col-xs-12 col-sm-2 col-xs-6">
                 <a href="/" class="footer-logo">
-                  <img src="/img/logo-white.svg" alt="Storj">
+                  <img src="img/logo-white.svg" alt="Storj">
                 </a>
                 <ul class="list-unstyled">
                   <li><a href="/privacy-policy">Privacy Policy</a></li>
@@ -342,7 +544,7 @@
                   <li><a href="/faq">FAQ</a></li>
                   <li><a href="/contact">Contact</a></li>
                   <li><a href="/press">Press</a></li>
-                  <li><a href="https://storj.io/blog/">Blog</a></li>
+                  <li><a href="http://blog.storj.io/">Blog</a></li>
                 </ul>
               </div>
               <div class="col-xs-12 col-sm-2 col-xs-6">
@@ -360,11 +562,11 @@
               <div class="col-xs-12 col-sm-2 col-xs-6">
                 <h5>Connect</h5>
                 <ul class="list-unstyled">
-                  <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
-                  <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
-                  <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
-                  <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
-                  <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
+                  <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="img/social-twitter.svg" alt="">Twitter</a></li>
+                  <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="img/social-github.svg" alt="">GitHub</a></li>
+                  <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="img/social-reddit.svg" alt="">Reddit</a></li>
+                  <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="img/social-facebook.svg" alt="">Facebook</a></li>
+                  <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="img/social-medium.svg" alt="">Medium</a></li>
                 </ul>
               </div>
               <div class="col-xs-12 col-sm-3 col-xs-12">
@@ -400,69 +602,103 @@
     	<!-- <script src="js/jquery.easing.min.js"></script> -->
     	<script type="text/javascript" src="slick/slick.min.js"></script>
     	<script type="text/javascript" src="js/typewriting.min.js"></script>
-    	<script src="js/main.js"></script>
+    	<script src="js/main.js"></script>  
+  <script>
+  
 
-	<script type="text/javascript">function play(){document.getElementById('vidwrap').innerHTML = "<iframe src='https://player.vimeo.com/video/102119715?autoplay=1' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>";}</script>
+$(function(){
+    $('#drilldown-1').on('hide.bs.collapse', function () {
+      $('#jm-plus-1').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-1').on('show.bs.collapse', function () {
+      $('#jm-plus-1').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
 
-	<!-- Countdown Timer -->
-	<script>
-		function getTimeRemaining(endtime) {
-		  var t = Date.parse(endtime) - Date.parse(new Date());
-		  var seconds = Math.floor((t / 1000) % 60);
-		  var minutes = Math.floor((t / 1000 / 60) % 60);
-		  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
-		  var days = Math.floor(t / (1000 * 60 * 60 * 24));
-		  return {
-		    'total': t,
-		    'days': days,
-		    'hours': hours,
-		    'minutes': minutes,
-		    'seconds': seconds
-		  };
-		}
-		function initializeClock(id, endtime) {
-		  var clock = $(id);
-		  var day1 = $('<span></span>').appendTo(id).addClass('units');
-		  var day2 = $('<span></span>').appendTo(id).addClass('units');
-		  $('<span>:</span>').appendTo(id).addClass('divider');
-		  var hours1 = $('<span></span>').appendTo(id).addClass('units');
-		  var hours2 = $('<span></span>').appendTo(id).addClass('units');
-		  $('<span>:</span>').appendTo(id).addClass('divider');
-		  var minutes1 = $('<span></span>').appendTo(id).addClass('units');
-		  var minutes2 = $('<span></span>').appendTo(id).addClass('units');
-		  $('<span>:</span>').appendTo(id).addClass('divider');
-		  var seconds1 = $('<span></span>').appendTo(id).addClass('units');
-		  var seconds2 = $('<span></span>').appendTo(id).addClass('units');
-		  function updateClock() {
-		    var t = getTimeRemaining(endtime);
-		    var time = {
-		      day1: ('0' + t.days).slice(-2).charAt(0),
-		      day2: ('0' + t.days).slice(-2).charAt(1),
-		      hours1: ('0' + t.hours).slice(-2).charAt(0),
-		      hours2: ('0' + t.hours).slice(-2).charAt(1),
-		      minutes1: ('0' + t.minutes).slice(-2).charAt(0),
-		      minutes2: ('0' + t.minutes).slice(-2).charAt(1),
-		      seconds1: ('0' + t.seconds).slice(-2).charAt(0),
-		      seconds2: ('0' + t.seconds).slice(-2).charAt(1)
-		    };
-		    $(day1).text(time.day1);
-		    $(day2).text(time.day2);
-		    $(hours1).text(time.hours1);
-		    $(hours2).text(time.hours2);
-		    $(minutes1).text(time.minutes1);
-		    $(minutes2).text(time.minutes2);
-		    $(seconds1).text(time.seconds1);
-		    $(seconds2).text(time.seconds2);
-		    if (t.total <= 0) {
-		      clearInterval(timeinterval);
-		    }
-		  }
-		  updateClock();
-		  var timeinterval = setInterval(updateClock, 1000);
-		}
-		var deadline = 'May 19 2017 08:00:00 GMT-0700';
-		initializeClock('#DateCountdownBanner', deadline);
-	</script>
+  $(function(){
+    $('#drilldown-2').on('hide.bs.collapse', function () {
+      $('#jm-plus-2').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-2').on('show.bs.collapse', function () {
+      $('#jm-plus-2').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+  
+  $(function(){
+    $('#drilldown-3').on('hide.bs.collapse', function () {
+      $('#jm-plus-3').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-3').on('show.bs.collapse', function () {
+      $('#jm-plus-3').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+  $(function(){
+    $('#drilldown-4').on('hide.bs.collapse', function () {
+      $('#jm-plus-4').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-4').on('show.bs.collapse', function () {
+      $('#jm-plus-4').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+  $(function(){
+    $('#drilldown-5').on('hide.bs.collapse', function () {
+      $('#jm-plus-5').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-5').on('show.bs.collapse', function () {
+      $('#jm-plus-5').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+$('#val1').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val2').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val3').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val4').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val5').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val6').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+  </script>
 
 </body>
 </html>

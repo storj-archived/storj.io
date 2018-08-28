@@ -2,3 +2,100 @@
   analytics.load("JHfKYYbErCZRf2QFQTQNTyP0IF6RMSUC");
   analytics.page()
   }}();
+
+
+
+$(function(){
+    $('#drilldown-1').on('hide.bs.collapse', function () {
+      $('#jm-plus-1').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-1').on('show.bs.collapse', function () {
+      $('#jm-plus-1').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+  $(function(){
+    $('#drilldown-2').on('hide.bs.collapse', function () {
+      $('#jm-plus-2').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-2').on('show.bs.collapse', function () {
+      $('#jm-plus-2').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+  
+  $(function(){
+    $('#drilldown-3').on('hide.bs.collapse', function () {
+      $('#jm-plus-3').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-3').on('show.bs.collapse', function () {
+      $('#jm-plus-3').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+  $(function(){
+    $('#drilldown-4').on('hide.bs.collapse', function () {
+      $('#jm-plus-4').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-4').on('show.bs.collapse', function () {
+      $('#jm-plus-4').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+  $(function(){
+    $('#drilldown-5').on('hide.bs.collapse', function () {
+      $('#jm-plus-5').removeClass("glyphicon-minus").addClass("glyphicon-plus");
+    });
+    $('#drilldown-5').on('show.bs.collapse', function () {
+      $('#jm-plus-5').removeClass("glyphicon-plus").addClass("glyphicon-minus");
+    });
+  });
+
+$('#val1').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val2').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val3').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val4').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val5').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+$('#val6').hover(function(){
+  $(this).css('color','#fff');
+  $(this).css('background-color','#2683ff')
+}, function(){
+  $(this).css('color','');
+  $(this).css('background-color','')
+});
+
+
