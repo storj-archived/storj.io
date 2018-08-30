@@ -1,14 +1,15 @@
 node('node') {
   try {
 
+    def commit_id = sh(returnStdout: true, script: "git rev-parse --short HEAD").trim()
+
     stage('Checkout') {
       checkout scm
     }
 
     stage('Build Docker') {
-      def commit_id = sh(returnStdout: true, script: "git rev-parse --short HEAD").trim()
       if (env.BRANCH_NAME != 'master') {
-        commit_id = "${commit_id}${env.BRANCH_NAME}"
+        commit_id = "${commit_id}-${env.BRANCH_NAME}"
       }
 
       echo 'Build dockerfile'
