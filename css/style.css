@@ -75,7 +75,7 @@ body {
 	font-size: 1.6rem;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	background: #fff;
+  background: #fff;
 }
 b, strong {
 	font-weight: 800;
@@ -3225,7 +3225,7 @@ bottom: 14px;
 left: 43px;
 }
 
-::-webkit-scrollbar {
+.milestones::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
