@@ -3229,3 +3229,10 @@ left: 43px;
   width: 0px;
   background: transparent; /* make scrollbar transparent */
 }
+
+.white-paper-header-bg{
+
+  background: url("../img/Background.png") center top no-repeat;
+	background-size: cover;
+
+}
