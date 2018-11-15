@@ -3236,3 +3236,16 @@ left: 43px;
 	background-size: cover;
 
 }
+
+.community-bg {
+  margin:0px;
+  background: url("../img/combkgrnd.png") center top no-repeat;
+	background-size: cover;
+}
+
+.community-city{
+  height:445px;
+  width:1086px;
+  background: url("../img/comCity.png") center top no-repeat;
+  background-size: cover;
+}
