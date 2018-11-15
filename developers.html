@@ -52,96 +52,194 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-
-  <body class="page">
-
-  <section>
-    <nav class="navbar navbar-page navbar-default menu">
+<body class="page">
+    <div class="container-fluid dev-page-banner visible-md visible-lg" style="overflow: hidden;padding:0px;margin:0px;">
       <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="http://storj.io/" class="navbar-brand">
-            <img src="img/logo-blue.svg" alt="Storj" class="logo">
-          </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-menu">
-          <ul class="nav navbar-nav">
-            <li><a href="https://storj.io/developers" style="font-size: .9em" class="link active">Developers</a></li>
-            <li><a href="https://storj.io/community" style="font-size: .9em" class="link">Community</a></li>
-            <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em" class="link">Support</a></li>
-            <li><a href="https://storj.io/partners" style="font-size: .9em" class="link">Partners</a></li>
-            <li><a href="https://storj.io/blog/" style="font-size: .9em" class="link">Blog</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </section>
-
-  <section class="section text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-push-3">
-          <h1>Storj on GitHub</h1>
-          <p>You are welcome to contribute to the code on <a href="https://github.com/Storj" class="link">GitHub</a>.</p>
-          <div class="spacer15"></div>
-          <div class="github-card" data-user="storj" data-repo="" data-width="100%"></div>
-          <div class="spacer40"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-6 col-md-push-3">
-          <h2>Storj (V3)</h2>
-          <div class="spacer15"></div>
-          <div class="github-card" data-user="storj" data-repo="storj" data-width="100%"></div>
-          <div class="spacer40"></div>
-        </div>
-      </div>
-      <div class="spacer20"></div>
-     <p style="font-size:10pt">If you're looking for one of our older repos, <br>they will soon be deprecated and you <br>can find them by browsing our <a href="https://github.com/Storj" class="link">GitHub</a>.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-md-push-3 text-center">
-          <h1>Help us build Storj</h1>
-          <p>Join the distributed group of contributors all over the world.</p>
-          <div class="spacer20"></div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-md-10 col-md-push-1 col-lg-8 col-lg-push-2 text-center">
-          <div class="developers">
-            <a href="https://github.com/boshevski"><img src="https://avatars3.githubusercontent.com/u/3217669" alt="Tome Boshevski" class="contributor-profile"></a>
-            <a href="https://github.com/bryanchriswhite"><img src="https://avatars3.githubusercontent.com/u/600733" alt="Bryan White" class="contributor-profile"></a>
-            <a href="https://github.com/braydonf"><img src="https://avatars3.githubusercontent.com/u/544777" alt="Braydon Fuller" class="contributor-profile"></a>
-            <a href="https://github.com/littleskunk"><img src="https://avatars2.githubusercontent.com/u/6333390" alt="Skunk" class="contributor-profile"></a>
-            <a href="https://github.com/pgerbes1"><img src="https://avatars3.githubusercontent.com/u/7489221" alt="Patrick Gerbes" class="contributor-profile"></a>
-            <a href="https://github.com/super3"><img src="https://avatars2.githubusercontent.com/u/60975" alt="Shawn Wilkinson" class="contributor-profile"></a>
-            <a href="https://github.com/MrFancyMonocle"><img src="https://avatars0.githubusercontent.com/u/3792257" alt="Ryan Foran" class="contributor-profile"></a>
-            <a href="https://github.com/phutchins"><img src="https://avatars2.githubusercontent.com/u/1074345" alt="Philip Hutchins" class="contributor-profile"></a>
-            <a href="https://github.com/dylanlott"><img src="https://avatars2.githubusercontent.com/u/5915948" alt="Dylan Lott" class="contributor-profile"></a>
-            <a href="https://github.com/aleitner"><img src="https://avatars2.githubusercontent.com/u/7276007" alt="Alexander Leitner" class="contributor-profile"></a>
-            <a href="https://github.com/steenzout"><img src="https://avatars3.githubusercontent.com/u/571590" alt="Petro Salgado" class="contributor-profile"></a>
-            <a href="https://github.com/nginnever"><img src="https://avatars0.githubusercontent.com/u/7103153" alt="Nathan Ginnever" class="contributor-profile"></a>
+      <section style="padding:0px;margin:0px;">
+        <nav class="navbar navbar-default menu ">
+          <div class="container" style="padding-left:0px;padding-right:30px;">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <a href="http://storj.io/" class="navbar-brand">
+                <img src="img/logo-white.svg" alt="Storj" class="logo">
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;" class="link">Developers</a></li>
+                <li><a href="https://storj.io/community" style="font-size: .9em;color:white;" class="link active">Community</a></li>
+                <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;" class="link">Support</a></li>
+                <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;" class="link">Partners</a></li>
+                <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;" class="link">Blog</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;" class="link">Log In</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="spacer40"></div>
-          <a href="community.html" class="btn">Join our Community</a>
+        </nav>
+      </section>
+    
+        <div class="container">
+          <div class="row">
+            <div class="spacer45"></div>
+            <div class="col-md-7 col-lg-7" style="color:white;padding-right:30px;padding-left:0px;">
+              <h1 style="color:white;">Develop Apps with Storj Object Storage</h1>
+              <div class="spacer15"></div>
+              <p>Easily integrate Storj's decentralized cloud object storage into your new or existing applications. We recently launched our alpha, enabling developers to run local test networks and begin building applications on top of the Storj platform. Our goal is to decentralize the world's data and and make cloud storage more affordable. Come and experiment with Storj V3, contribute to its development, and engage with our <a href="https://storj.io/community" style="color:white;text-decoration: underline;">community</a>. You can also read more in our <a href="https://storj.io/white-paper" style="color:white;text-decoration: underline;">white paper</a> and <a href="https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38" style="color:white;text-decoration: underline;">public roadmap</a>.</p>
+              <div class="spacer45"></div>
+              <div class="spacer45"></div>
+              <div class="spacer45"></div>
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+    </div>
+
+    <div class="container-fluid community-bg visible-sm" style="overflow: hidden;padding:0px;margin:0px;">
+        <div class="container" style="padding-right:32.5px;padding-left:5px;">
+        <section style="padding-left:10px;padding-right:10px;">
+          <nav class="navbar navbar-default menu ">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false" style="margin-right:0px;">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="http://storj.io/" class="navbar-brand">
+                  <img src="img/logo-white.svg" alt="Storj" class="logo" style="margin-left:-15px;">
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                  <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;" class="link">Developers</a></li>
+                  <li><a href="https://storj.io/community" style="font-size: .9em;color:white;" class="link active">Community</a></li>
+                  <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;" class="link">Support</a></li>
+                  <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;" class="link">Partners</a></li>
+                  <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;" class="link">Blog</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;" class="link">Log In</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </div>
+      
+          <div class="container">
+            <div class="row">
+              <div class="spacer45"></div>
+              <div class="col-sm-12" style="color:white;">
+                <h1 style="color:white;">Develop Apps with Storj Object Storage</h1>
+                <div class="spacer15"></div>
+                <p>Easily integrate Storj's decentralized cloud object storage into your new or existing applications. We recently launched our alpha, enabling developers to run local test networks and begin building applications on top of the Storj platform. Our goal is to decentralize the world's data and and make cloud storage more affordable. Come and experiment with Storj V3, contribute to its development, and engage with our <a href="https://storj.io/community" style="color:white;text-decoration: underline;">community</a>. You can also read more in our <a href="https://storj.io/white-paper" style="color:white;text-decoration: underline;">white paper</a> and <a href="https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38" style="color:white;text-decoration: underline;">public roadmap</a>.</p>
+                <div class="spacer45"></div>
+              </div>
+      
+                <div class="col-sm-12 col-sm-push-2" style="max-height:600px;padding:0px;margin:0px;">
+                  <div class="dev-banner-img" style="width:100%;height:600px;margin-top:-60px;"></div>
+                </div>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+        
+    
+    <div class="container-fluid community-bg visible-xs" style="overflow: hidden;padding:0px;margin:0px;">
+        <div class="container" style="padding-right:32.5px;padding-left:5px;">
+        <section style="padding:0px;margin:0px;">
+          <nav class="navbar navbar-default menu ">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false" style="margin-right:0px;">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="http://storj.io/" class="navbar-brand">
+                  <img src="img/logo-white.svg" alt="Storj" class="logo" style="margin-left:-15px;">
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav">
+                  <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;" class="link">Developers</a></li>
+                  <li><a href="https://storj.io/community" style="font-size: .9em;color:white;" class="link active">Community</a></li>
+                  <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;" class="link">Support</a></li>
+                  <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;" class="link">Partners</a></li>
+                  <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;" class="link">Blog</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;" class="link">Log In</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </div>
+      
+          <div class="container">
+            <div class="row">
+              <div class="spacer45"></div>
+              <div class="col-xs-12" style="color:white;">
+                <h1 style="color:white;">Develop Apps with Storj Object Storage</h1>
+                <div class="spacer15"></div>
+                <p>Easily integrate Storj's decentralized cloud object storage into your new or existing applications. We recently launched our alpha, enabling developers to run local test networks and begin building applications on top of the Storj platform. Our goal is to decentralize the world's data and and make cloud storage more affordable. Come and experiment with Storj V3, contribute to its development, and engage with our <a href="https://storj.io/community" style="color:white;text-decoration: underline;">community</a>. You can also read more in our <a href="https://storj.io/white-paper" style="color:white;text-decoration: underline;">white paper</a> and <a href="https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38" style="color:white;text-decoration: underline;">public roadmap</a>.</p>
+                <div class="spacer45"></div>
+              </div>
+      
+                <div class="col-xs-12 col-xs-push-2" style="max-height:400px;padding:0px;margin:0px;">
+                  <div class="dev-banner-img" style="width:100%;height:600px;margin-top:-80px;"></div>
+                </div>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="container-fluid" style="background-color: #F2F4F6;">
+          <div class="spacer30"></div>
+          <section class="section">
+            <div class="container">
+              <div class="row text-center">
+                  <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
+                      <div class="panel panel-card">
+                        <img src="img/drive-cloud.svg" alt="Getting Help" width="70" height="70">
+                        <h2 style="color:black;">Looking to Store Data at an Affordable Price?</h2>
+                        <p style="color: rgba(0,0,0,0.8);">Sign up for the developer waitlist and get early access to our affordable and resilient network when it launches into production.</p>
+                        <div class="spacer10"></div>
+                        <a href="https://storj.io/sign-up" class="btn btn-block">JOIN THE WAITLIST</a>
+                      </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-5">
+                        <div class="panel panel-card">
+                          <img src="img/tryV3.svg" alt="Add Ideas" width="100" height="70">
+                          <h2 style="color:black;">Contribute and Test Alpha V3</h2>
+                          <div class="visible-md spacer30"></div>
+                          <p style="color: rgba(0,0,0,0.8);">Check out our GitHub to run a local V3 test network, follow our development progress, and contribute to the project. </p>
+                          <div class="spacer10"></div>
+                          <div class="spacer30 visible-md"></div>
+                          <a href="https://github.com/storj/docs/blob/master/test-network.md" class="btn btn-block">STORJ ON GITHUB</a>
+                        </div>
+                      </div>
+              </div>
+            </div>
+          </section>
+          </div>
+
 
   <footer>
     <div class="container">
@@ -163,7 +261,7 @@
         </div>
         <div class="col-xs-12 col-sm-2 col-xs-6">
           <h5>Company</h5>
-          <<ul class="list-unstyled">
+          <ul class="list-unstyled">
             <li><a href="/white-paper">Whitepaper</a></li>
             <li><a href="/team">Team</a></li>
             <li><a href="/careers">Careers</a></li>
