@@ -1,0 +1,51 @@
+
+
+#files_filter {
+  text-align: right;
+}
+#files_filter input {
+  margin-left: 10px;
+}
+.dataTables_info {
+  margin-top: 2em;
+}
+.table {
+  margin-top: 1em;
+}
+.table td{
+  padding: 15px 25px !important;
+}
+.table tr {
+  cursor: pointer;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus {
+    z-index: 3;
+    color: #2683ff;
+    background-color: #f9f9f9;
+    border-color: #ddd;
+    cursor: default;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+table.dataTable thead .sorting:after {
+    opacity: 0.2;
+    content: "\e150";
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    display: inline-block;
+    margin-left: 12px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+.glyphicon {
+    color: #2683ff;
+    opacity: 0.9;
+}

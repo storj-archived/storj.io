@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Storj Labs white paper. Storj labs business model, architecture, and outline for our decentralized cloud storage network. Our open source network uses erasure enconding, cient side encryption, and is AWS S3 compatible cloud storage.">    
+    <meta name="keywords" content="Storj Labs, white paper, AES-256-GCM encryption, erasure encoding, distributed systems, S3 compatible, open source storage">    
+    <meta name="google-site-verification" content="R5u7lqzFhKoFiaEXbxfFSJ-CT9UyK-AqVWwd1g_zMeg" />
+    <meta name="google-site-verification" content="8CIKbV4JUhwtw7xNI7_A__vnmpvuGfs1g3QVOInBtxQ" />
+
+    <title>Storj Whitepaper</title>
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Storj Whitepaper"/>
+    <meta property="og:description" content="Storj Labs white paper"/>
+    <meta property="og:url" content="https://storj.io" />
+    <meta property="og:site_name" content="Storj Whitepaper" />
+    <meta property="og:image" content="https://storj.io/img/storj-logo.jpg" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Storj white-paper"/>
+    <meta name="twitter:description" content="Storj Labs white paper"/>
+    <meta name="twitter:site" content="@storjproject"/>
+    <meta name="twitter:image" content="https://storj.io/img/storj-logo.jpg"/>
+
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/prism.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700" rel="stylesheet">
+
+    <script type="text/javascript" id="inspectletjs">
+    (function() {
+      window.__insp = window.__insp || [];
+      __insp.push(['wid', 1154029405]);
+      var ldinsp = function(){ if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1154029405&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+      setTimeout(ldinsp, 0);
+    })();
+    </script>
+
+    <script> !function(){varanalytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){returnfunction(){vare=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);returnanalytics}};for(vart=0;t<analytics.methods.length;t++){vare=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){vare=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";varn=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0"; analytics.load("JHfKYYbErCZRf2QFQTQNTyP0IF6RMSUC"); analytics.page(); }}();</script>
+    <script data-jsd-embedded data-key="ddb2b60b-2cc3-47f0-a434-3a6dae10166a" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="page">
+
+  <div class="container-fluid white-paper-header-bg visible-lg">
+
+      <section>
+          <nav class="navbar" >
+          <div class="container">
+            <div>
+              <ul class="nav navbar-nav">
+                  <a href="http://storj.io/" class="navbar-brand">
+                    <img src="img/logo-white.svg" alt="Storj" class="logo" style="margin-left:30px;">
+                  </a>
+                <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;border-bottom:none;margin-left:-15px;" class="link">Developers</a></li>
+                <li><a href="https://storj.io/community" style="font-size: .9em;color:white;border-bottom:none;" class="link">Community</a></li>
+                <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;border-bottom:none;" class="link">Support</a></li>
+                <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;border-bottom:none;" class="link active">Partners</a></li>
+                <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Blog</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right" style="margin-right:0.25px;">
+                <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section>
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-lg-6 col-lg-offset-5">
+              <div class="spacer45"></div>
+              <div class="spacer15"></div>
+              <h1 style="color:white;font-size: 36px;	font-weight: 800;	line-height: 40px;">Storj Whitepaper V3</h1>
+              </div>
+            </div>
+
+          <div class="row">
+
+              <div class="col-lg-7 col-lg-offset-5">
+              <p style="color: rgba(255,255,255,0.8);	font-family: Montserrat;	font-size: 16px;	line-height: 28px;">We have designed a general framework of eight components that provides an optimal implementation of decentralized cloud storage that can massively scale and still operate within the limits of any design constraints. Our V3 network is S3 compatible, has a pathway from object storage to CDN, uses Reed Solomon erasure coding instead of replication, and is 1/2 the price of traditional cloud storage providers.</p>
+              </div>
+          </div>
+
+          <div class="spacer20"></div>
+
+
+            <div class="row">
+            <div class="col-12">
+
+            <div class="col-lg-3 col-lg-offset-5">
+            <a href="/Storj-White-Paper-Executive-Summary.pdf" class="btn" style="border: 2px solid #FFFFFF;	border-radius: 4px;background-color:white;color:#0082FF;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;">READ EXECUTIVE SUMMARY</a>
+            </div>
+
+            <div class="col-lg-3 col-lg-offset-0">
+            <a href="/storjv3.pdf" class="btn" style="border: 2px solid #FFFFFF;	border-radius: 4px;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;margin-left:-25px;">DOWNLOAD WHITEPAPER V3</a>
+            </div>
+
+            </div>
+          </div>
+          <div class="spacer45"></div>
+          <div class="spacer45"></div>
+        </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container-fluid white-paper-header-bg visible-md">
+
+      <section>
+          <nav class="navbar" >
+          <div class="container">
+            <div>
+              <ul class="nav navbar-nav">
+                  <a href="http://storj.io/" class="navbar-brand">
+                    <img src="img/logo-white.svg" alt="Storj" class="logo" style="margin-left:30px;">
+                  </a>
+                <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;border-bottom:none;margin-left:-15px;" class="link">Developers</a></li>
+                <li><a href="https://storj.io/community" style="font-size: .9em;color:white;border-bottom:none;" class="link">Community</a></li>
+                <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;border-bottom:none;" class="link">Support</a></li>
+                <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;border-bottom:none;" class="link active">Partners</a></li>
+                <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Blog</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right" style="margin-right:1px !important;">
+                <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+      <section>
+        <div class="container">
+
+          <div class="row">
+
+            <div class="col-md-6 col-md-offset-5">
+              <div class="spacer45"></div>
+              <h1 style="color:white;font-size: 36px;	font-weight: 800;	line-height: 40px;">Storj Whitepaper V3</h1>
+              </div>
+            </div>
+
+          <div class="row">
+
+              <div class="col-md-7 col-md-offset-5">
+              <p style="color: rgba(255,255,255,0.8);	font-family: Montserrat;	font-size: 16px;	line-height: 28px;">We have designed a general framework of eight components that provides an optimal implementation of decentralized cloud storage that can massively scale and still operate within the limits of any design constraints. Our V3 network is S3 compatible, has a pathway from object storage to CDN, uses Reed Solomon erasure coding instead of replication, and is 1/2 the price of traditional cloud storage providers.</p>
+              </div>
+          </div>
+
+          <div class="spacer20"></div>
+
+
+            <div class="row">
+            <div class="col-12">
+
+            <div class="col-md-3 col-md-offset-5">
+            <a href="/Storj-White-Paper-Executive-Summary.pdf" class="btn" style="border: 2px solid #FFFFFF;	border-radius: 4px;background-color:white;color:#0082FF;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;">READ EXECUTIVE SUMMARY</a>
+            </div>
+
+            <div class="col-md-3 col-md-offset-0">
+            <a href="/storjv3.pdf" class="btn" style="border: 2px solid #FFFFFF;	border-radius: 4px;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;margin-left:25px;">DOWNLOAD WHITEPAPER V3</a>
+            </div>
+
+            </div>
+          </div>
+          <div class="spacer45"></div>
+          <div class="spacer45"></div>
+        </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="container-fluid white-paper-header-bg visible-sm">
+
+        <section>
+            <nav class="navbar" >
+            <div class="container">
+              <div>
+                <ul class="nav navbar-nav">
+                    <a href="http://storj.io/" class="navbar-brand">
+                      <img src="img/logo-white.svg" alt="Storj" class="logo" style="margin-left:15px;">
+                    </a>
+                  <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;border-bottom:none;margin-left:-15px;" class="link">Developers</a></li>
+                  <li><a href="https://storj.io/community" style="font-size: .9em;color:white;border-bottom:none;" class="link">Community</a></li>
+                  <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;border-bottom:none;" class="link">Support</a></li>
+                  <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;border-bottom:none;" class="link active">Partners</a></li>
+                  <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Blog</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right" style="margin-right:1px !important">
+                  <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+        <section>
+          <div class="container">
+
+            <div class="row">
+
+              <div class=" col-sm-7 col-sm-offset-4 ">
+                <div class="spacer45"></div>
+                <h1 style="color:white;font-size: 36px;	font-weight: 800;	line-height: 40px;text-align:center;">Storj Whitepaper V3</h1>
+                </div>
+              </div>
+
+            <div class="row">
+
+                <div class="col-sm-8 col-sm-offset-4">
+                <div class="spacer25"></div>
+                <p style="color: rgba(255,255,255,0.8);	font-family: Montserrat;	font-size: 16px;	line-height: 28px;">We have designed a general framework of eight components that provides an optimal implementation of decentralized cloud storage that can massively scale and still operate within the limits of any design constraints. Our V3 network is S3 compatible, has a pathway from object storage to CDN, uses Reed Solomon erasure coding instead of replication, and is 1/2 the price of traditional cloud storage providers.</p>
+                </div>
+            </div>
+
+            <div class="spacer45"></div>
+
+
+              <div class="row">
+              <div class="col-12">
+
+              <div class="col-sm-8 col-sm-offset-3">
+              <a href="/Storj-White-Paper-Executive-Summary.pdf" class="btn btn-block" style="border: 2px solid #FFFFFF;	border-radius: 4px;background-color:white;color:#0082FF;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;max-width:360px;">READ EXECUTIVE SUMMARY</a>
+              </div>
+
+              <div class="col-sm-8 col-sm-offset-3">
+              <a href="/storjv3.pdf" class="btn btn-block" style="border: 2px solid #FFFFFF;	border-radius: 4px;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;max-width:360px;">DOWNLOAD WHITEPAPER V3</a>
+              </div>
+
+              </div>
+            </div>
+            <div class="spacer45"></div>
+            <div class="spacer45"></div>
+          </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container-fluid  visible-xs" style="background-color:#3187FF;">
+
+          <section>
+              <nav class="navbar">
+                  <div class="container">
+                <div class="navbar-header" >
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false" style="background-color:#fff;margin-top:35px;border:1px solid white;">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar" style="background-color:#3187FF;"></span>
+                    <span class="icon-bar" style="background-color:#3187FF;"></span>
+                    <span class="icon-bar" style="background-color:#3187FF;"></span>
+                  </button>
+                  <a href="http://storj.io/" class="navbar-brand">
+                    <img style="margin-left:-25px;" src="img/logo-white.svg" alt="Storj" class="logo">
+                  </a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                  <ul class="nav navbar-nav">
+                    <li><a href="https://storj.io/developers" style="font-size: .9em;color:white;border-bottom:none;" class="link">Developers</a></li>
+                    <li><a href="https://storj.io/community" style="font-size: .9em;color:white;border-bottom:none;" class="link">Community</a></li>
+                    <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" style="font-size: .9em;color:white;border-bottom:none;" class="link">Support</a></li>
+                    <li><a href="https://storj.io/partners" style="font-size: .9em;color:white;border-bottom:none;" class="link active">Partners</a></li>
+                    <li><a href="https://storj.io/blog/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Blog</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </section>
+
+          <section>
+            <div class="container">
+
+              <div class="row">
+
+                <div class="">
+                  <div class="spacer45"></div>
+                  <h1 style="color:white;font-size: 36px;	font-weight: 800;	line-height: 40px;text-align:center;">Storj Whitepaper V3</h1>
+                  </div>
+                </div>
+
+              <div class="row">
+
+                  <div class="">
+                  <div class="spacer25"></div>
+                  <p style="color: rgba(255,255,255,0.8);	font-family: Montserrat;	font-size: 16px;	line-height: 28px;text-align:center;;">We have designed a general framework of eight components that provides an optimal implementation of decentralized cloud storage that can massively scale and still operate within the limits of any design constraints. Our V3 network is S3 compatible, has a pathway from object storage to CDN, uses Reed Solomon erasure coding instead of replication, and is 1/2 the price of traditional cloud storage providers.</p>
+                  </div>
+              </div>
+
+              <div class="spacer45"></div>
+
+
+                <div class="row">
+                <div class="col-12">
+
+                <div class="">
+                <a href="/Storj-White-Paper-Executive-Summary.pdf" class="btn btn-block" style="border: 2px solid #FFFFFF;	border-radius: 4px;background-color:white;color:#0082FF;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;max-width:360px;">READ EXECUTIVE SUMMARY</a>
+                </div>
+
+                <div class="">
+                <a href="/storjv3.pdf" class="btn btn-block" style="border: 2px solid #FFFFFF;	border-radius: 4px;padding:12.5px;margin-top:25px;font-size: 14px;	font-weight: 800;	line-height: 18px;	text-align: center;max-width:360px;">DOWNLOAD WHITEPAPER V3</a>
+                </div>
+
+                </div>
+              </div>
+              <div class="spacer45"></div>
+              <div class="spacer45"></div>
+            </div>
+            </div>
+          </section>
+        </div>
+
+        <section class="section" style="padding:0px;">
+            <div class="container-" style="	background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
+            <div class="container" style="padding:15px;">
+              <div class="row">
+                <div class="col-xs-10 col-xs-offset-1  col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center" style="padding:0px;">
+                    <div class="spacer45"></div>
+                  <h1 style="font-size: 30px;	font-weight: 800;	line-height: 40px;	text-align: center;color:black;">Get Involved</h1>
+                  <div class="spacer45"></div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="panel panel-card text-center">
+                    <div class="spacer15"></div>
+                    <img src="img/icon-cloud-drive.svg" style="height: 70px;	width: 86px;"/>
+                    <div class="spacer15"></div>
+                    <h2 style="color:black;font-size: 24px;	font-weight: 800;	line-height: 34px;">Store Data at an Affordable Price</h2>
+                    <div class="spacer10"></div>
+                    <p style="font-size: 16px;	line-height: 28px;color: rgba(0,0,0,0.8);	height: 150px;">Sign up for the developer waitlist and get early access to our affordable and resilient network when it launches.</p>
+                    <a href="https://storj.io/sign-up"><button class="btn btn-primary" style="background-color:white;color:#2683FF;border: 3px solid #0082FF;	border-radius: 4px;font-size: 14px;	font-weight: 800;	line-height: 18px;">Join the Waitlist</button></a>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="panel panel-card text-center">
+                    <div class="spacer15"></div>
+                    <img src="img/icon-cloud-network.svg" style="height: 70px;	width: 86px;"/>
+                    <div class="spacer15"></div>
+                    <h2 style="color:black;font-size: 24px;	font-weight: 800;	line-height: 34px;">Rent us Your Extra Hard Drive Space</h2>
+                    <div class="spacer10"></div>
+                    <p style="font-size: 16px;	line-height: 28px;color: rgba(0,0,0,0.8);	height: 150px;">Sign up for the storage node waitlist for our new network. Healthy V2 nodes will receive priority access then first-come, first-served entries.</p>
+                    <a href="https://storj.io/sign-up-farmer"><button class="btn btn-primary" style="background-color:white;color:#2683FF;border: 3px solid #0082FF;	border-radius: 4px;font-size: 14px;	font-weight: 800;	line-height: 18px;">Join the Waitlist</button></a>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <div class="panel panel-card text-center">
+                    <div class="spacer15"></div>
+                      <img src="img/icon-contribute-project.svg" style="height: 70px;	width: 86px;"/>
+                      <div class="spacer15"></div>
+                      <h2 style="color:black;font-size: 24px;	font-weight: 800;	line-height: 34px;">Contribute to the Storj Project</h2>
+                      <div class="spacer10"></div>
+                    <p style="font-size: 16px;	line-height: 28px;color: rgba(0,0,0,0.8);	height: 150px;">Help us build the future of decentralized storage. Contribute to our public <a href="https://github.com/storj/storj">GitHub.</a></p>
+                    <a href="https://github.com/storj/storj#start-contributing-to-storj"><button class="btn btn-primary" style="background-color:white;color:#2683FF;border: 3px solid #0082FF;	border-radius: 4px;font-size: 14px;	font-weight: 800;	line-height: 18px;">Contribute Code</button></a>
+                  </div>
+                </div>
+              </div>
+              <div class="spacer45"></div>
+            </div>
+          </div>
+          </section>
+
+          <section>
+            <div class="container">
+              <div class="spacer45"></div>
+                <h1 style="color:black;text-align: center;font-size:30px;">Previous Releases</h1>
+                <div class="spacer45"></div>
+              <div class="row">
+                <a href="/storjv2.pdf"><div class="col-12" style="display:flex;flex-direction:row;flex-wrap:wrap;">
+
+                  <div class="col-lg-1" style="margin:15px;">
+                  <img src="img/icon_UI_filetype_pdf.svg" height="100px" width="100px" style="opacity:0.5;margin-top:15px;"/>
+                  </div>
+
+                <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" style="margin:15px;">
+                  <h3 style="font-size:20px;">Storj: A Peer-to-Peer Cloud Storage Network (V2)</h3>
+                  <p>December 2016</p>
+                </div>
+
+                <div class="col-xs-1 col-xs-offset-10 col-sm-1 col-sm-offset-0 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-2" style="display:flex;align-items: center;font-size:60px;">
+                  <span>&rsaquo;</span>
+                </div>
+
+                </div>
+              </div></a>
+              <hr>
+
+              <div class="row">
+              <a href="storj2014.pdf"><div class="col-12" style="display:flex;flex-direction:row;flex-wrap:wrap;">
+
+                    <div class="col-lg-1" style="margin:15px;">
+                    <img src="img/icon_UI_filetype_pdf.svg" height="100px" width="100px" style="opacity:0.5;margin-top:15px;"/>
+                    </div>
+
+                  <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" style="margin:15px;">
+                    <h3 style="font-size:20px;">Storj: A Peer-to-Peer Cloud Storage Network (V1)</h3>
+                    <p>December 2014</p>
+                  </div>
+
+                  <div class="col-xs-1 col-xs-offset-10 col-sm-1 col-sm-offset-0 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-2" style="display:flex;align-items: center;font-size:60px;">
+                    <span>&rsaquo;</span>
+                  </div>
+
+                  </div>
+                </div></a>
+                <hr>
+
+                <div class="row">
+                    <a href="metadisk.pdf"><div class="col-12" style="display:flex;flex-direction:row;flex-wrap:wrap;">
+
+                      <div class="col-lg-1" style="margin:15px;">
+                      <img src="img/icon_UI_filetype_pdf.svg" height="100px" width="100px" style="opacity:0.5;margin-top:15px;"/>
+                      </div>
+
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" style="margin:15px;">
+                      <h3 style="font-size:20px;">Metadisk: Blockchain-Based Decentralized File Storage Application</h3>
+                      <p>August 2014</p>
+                    </div>
+
+                    <div class="col-xs-1 col-xs-offset-10 col-sm-1 col-sm-offset-0 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-2" style="display:flex;align-items: center;font-size:60px;">
+                      <span>&rsaquo;</span>
+                    </div>
+
+                    </div>
+                  </div></a>
+                  <hr>
+
+                  <div class="spacer45"></div>
+              </div>
+            </div>
+          </section>
+
+
+  <footer>
+      <div class="container">
+        <div class="row is-flex">
+          <div class="col-xs-12 col-sm-2 col-xs-6">
+            <a href="/" class="footer-logo">
+              <img src="img/logo-white.svg" alt="Storj">
+            </a>
+            <ul class="list-unstyled">
+              <li><a href="/privacy-policy">Privacy Policy</a></li>
+              <li><a href="/terms-of-use">Terms of Use</a></li>
+              <li><a href="/terms-of-service">Terms of Service</a></li>
+              <li><a href="/code-of-conduct">Code of Conduct</a></li>
+              <li><a href="/storj-share-information">Information Policy</a></li>
+              <li><a href="/storage-service-level-commitment">Storage SLA</a></li>
+              <li><a href="/canary.txt">Canary</a></li>
+              <li><a href="https://status.storj.io/">Status</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-xs-6">
+            <h5>Company</h5>
+            <ul class="list-unstyled">
+              <li><a href="/white-paper">Whitepaper</a></li>
+              <li><a href="/team">Team</a></li>
+              <li><a href="/careers">Careers</a></li>
+              <li><a href="/press">Press</a></li>
+              <li><a href="https://storj.io/blog/">Blog</a></li>
+              <li><a href="/open-source">Open Source</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-xs-6">
+            <h5>Product</h5>
+            <ul class="list-unstyled">
+              <li><a href="https://docs.storj.io/">Quickstart</a></li>
+              <li><a href="/developers">Developers</a></li>
+              <li><a href="/partners">Partners</a></li>
+              <li><a href="/community">Community</a></li>
+              <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals">Support</a></li>
+              <li><a href="https://payout.storj.io/">Payouts</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-2 col-xs-6">
+            <h5>Connect</h5>
+            <ul class="list-unstyled">
+              <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="img/social-twitter.svg" alt="">Twitter</a></li>
+              <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="img/social-github.svg" alt="">GitHub</a></li>
+              <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="img/social-reddit.svg" alt="">Reddit</a></li>
+              <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="img/social-facebook.svg" alt="">Facebook</a></li>
+              <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="img/social-medium.svg" alt="">Medium</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-3 col-xs-12">
+            <h5>Stay in Touch</h5>
+            <div style="padding-top: 0.1em" id="mc_embed_signup">
+              <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=da152f16f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                  <div id="mc_embed_signup_scroll">
+                  <input style="height:50%; font-size: 14px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                  <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edba9fc4ce8b9095a31859cba_09353db057" tabindex="-1" value=""></div>
+                  <div class="clear"><input style="height:50%; font-size: 14px" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-footer btn-lg btn-signup"></div>
+                  </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="address">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+  <script src="js/jquery-2.1.1.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/segment.js"></script>
+
+  <script>
+    jQuery(document).ready(function($){
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+
+</body>
+</html>

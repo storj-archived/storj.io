@@ -1,0 +1,7 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Storj.io"
+
+sectionPagesMenu = "main"
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="18px" height="25px" viewBox="0 0 18 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-storage2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-storage2" sketch:type="MSLayerGroup" transform="translate(0.000000, 1.000000)" stroke-linejoin="round">
+            <path d="M17.5,6.9277 C17.5,4.9297 15.793,3.2877 13.672,3.3637 C12.842,1.6727 11.065,0.4997 9,0.4997 C6.246,0.4997 4.002,2.5777 3.842,5.1997 C2.117,4.8517 0.5,6.1217 0.5,7.8207 C0.5,10.5407 3.456,10.4997 3.456,10.4997 L14.174,10.4997 C14.174,10.4997 17.5,10.0797 17.5,6.9277 L17.5,6.9277 Z" id="Stroke-306" stroke="#107FC9" sketch:type="MSShapeGroup"></path>
+            <path d="M17.5,18.5 L0.5,18.5 L0.5,13.5 L17.5,13.5 L17.5,18.5 Z" id="Stroke-307" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M17.5,23.5 L0.5,23.5 L0.5,18.5 L17.5,18.5 L17.5,23.5 Z" id="Stroke-308" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M5,16 C5,16.551 4.553,17 4,17 C3.447,17 3,16.551 3,16 C3,15.447 3.447,15 4,15 C4.553,15 5,15.447 5,16 L5,16 Z" id="Stroke-309" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M14.5,16 C14.5,16.275 14.275,16.5 14,16.5 C13.724,16.5 13.5,16.275 13.5,16 C13.5,15.723 13.724,15.5 14,15.5 C14.275,15.5 14.5,15.723 14.5,16 L14.5,16 Z" id="Stroke-310" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M11.5,16 C11.5,16.275 11.275,16.5 11,16.5 C10.724,16.5 10.5,16.275 10.5,16 C10.5,15.723 10.724,15.5 11,15.5 C11.275,15.5 11.5,15.723 11.5,16 L11.5,16 Z" id="Stroke-311" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M5,21 C5,21.551 4.553,22 4,22 C3.447,22 3,21.551 3,21 C3,20.447 3.447,20 4,20 C4.553,20 5,20.447 5,21 L5,21 Z" id="Stroke-312" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M14.5,21 C14.5,21.275 14.275,21.5 14,21.5 C13.724,21.5 13.5,21.275 13.5,21 C13.5,20.723 13.724,20.5 14,20.5 C14.275,20.5 14.5,20.723 14.5,21 L14.5,21 Z" id="Stroke-313" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M11.5,21 C11.5,21.275 11.275,21.5 11,21.5 C10.724,21.5 10.5,21.275 10.5,21 C10.5,20.723 10.724,20.5 11,20.5 C11.275,20.5 11.5,20.723 11.5,21 L11.5,21 Z" id="Stroke-314" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

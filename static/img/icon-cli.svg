@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-cli</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon-cli" sketch:type="MSLayerGroup" transform="translate(0.000000, 1.000000)">
+            <g id="Page-1" sketch:type="MSShapeGroup">
+                <g id="Group">
+                    <path d="M23.5,16.4932 C23.5,17.5972 22.605,18.4932 21.5,18.4932 L2.5,18.4932 C1.396,18.4932 0.5,17.5972 0.5,16.4932 L0.5,2.4932 C0.5,1.3892 1.396,0.4932 2.5,0.4932 L21.5,0.4932 C22.605,0.4932 23.5,1.3892 23.5,2.4932 L23.5,16.4932 L23.5,16.4932 L23.5,16.4932 Z" id="Stroke-11" stroke="#2684FF"></path>
+                    <path d="M0.5,5.4932 L23.5,5.4932" id="Stroke-13" stroke="#2684FF"></path>
+                    <path d="M4.5,2.9932 C4.5,3.2692 4.276,3.4932 4,3.4932 C3.724,3.4932 3.5,3.2692 3.5,2.9932 C3.5,2.7172 3.724,2.4932 4,2.4932 C4.276,2.4932 4.5,2.7172 4.5,2.9932 L4.5,2.9932 L4.5,2.9932 Z" id="Stroke-15" stroke="#2684FF"></path>
+                    <path d="M7.5,2.9932 C7.5,3.2692 7.276,3.4932 7,3.4932 C6.724,3.4932 6.5,3.2692 6.5,2.9932 C6.5,2.7172 6.724,2.4932 7,2.4932 C7.276,2.4932 7.5,2.7172 7.5,2.9932 L7.5,2.9932 L7.5,2.9932 Z" id="Stroke-17" stroke="#2684FF"></path>
+                    <path d="M10.5,2.9932 C10.5,3.2692 10.276,3.4932 10,3.4932 C9.724,3.4932 9.5,3.2692 9.5,2.9932 C9.5,2.7172 9.724,2.4932 10,2.4932 C10.276,2.4932 10.5,2.7172 10.5,2.9932 L10.5,2.9932 L10.5,2.9932 Z" id="Stroke-19" stroke="#2684FF"></path>
+                    <path d="M5.5,9.4932 L8,11.9932 L5.5,14.4932" id="Stroke-21" stroke="#1A5BB0"></path>
+                    <path d="M11.5,12.4932 L15.5,12.4932" id="Stroke-23" stroke="#1A5BB0"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
