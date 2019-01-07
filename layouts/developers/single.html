@@ -5,39 +5,22 @@
 </head>
 <body class="page">
     <div class="container-fluid dev-page-banner visible-md visible-lg" style="overflow: hidden;padding:0px;margin:0px;">
-
-{{partial "devBanner" .}}
-
+{{partial "developers/heroNav" .}}
       <div class="container-fluid" style="background-color: #F2F4F6;">
           <div class="spacer30"></div>
           <section class="section">
             <div class="container">
               <div class="row text-center">
                   <div class="col-xs-12 col-sm-12 col-md-5 col-md-offset-1">
-                      <div class="panel panel-card">
-                        <img src="/img/drive-cloud.svg" alt="Getting Help" width="70" height="70">
-                        <h2 style="color:black;">Looking to Store Data at an Affordable Price?</h2>
-                        <p style="color: rgba(0,0,0,0.8);">Sign up for the developer waitlist and get early access to our affordable and resilient network when it launches into production.</p>
-                        <div class="spacer10"></div>
-                        <a href="https://storj.io/sign-up" class="btn btn-block">JOIN THE WAITLIST</a>
-                      </div>
+                    {{partial "developers/box1" .}}
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-5">
-                        <div class="panel panel-card">
-                          <img src="/img/tryV3.svg" alt="Add Ideas" width="100" height="70">
-                          <h2 style="color:black;">Contribute and Test Alpha V3</h2>
-                          <div class="visible-md spacer30"></div>
-                          <p style="color: rgba(0,0,0,0.8);">Check out our GitHub to run a local V3 test network, follow our development progress, and contribute to the project. </p>
-                          <div class="spacer10"></div>
-                          <div class="spacer30 visible-md"></div>
-                          <a href="https://github.com/storj/storj/wiki" class="btn btn-block">STORJ ON GITHUB</a>
-                        </div>
-                      </div>
+                    {{partial "developers/box2" .}}
+                    </div>
               </div>
             </div>
           </section>
           </div>
-
           {{partial "footer" .}}
           {{partial "scripts" .}}
   </body>

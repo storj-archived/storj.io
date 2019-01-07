@@ -11,14 +11,14 @@ sectionPagesMenu = "main"
     identifier = "developers"
     name = "Developers"
     title = "developers section"
-    url = "/developers/developers"
+    url = "/developers"
     weight = 1
 
   [[menu.main]]
     identifier = "community"
     name = "Community"
     title = "community section"
-    url = "/community/community"
+    url = "/community"
     weight = 2
 
   [[menu.main]]
@@ -32,7 +32,7 @@ sectionPagesMenu = "main"
     identifier = "partners"
     name = "Partners"
     title = "partners section"
-    url = "/partners/partners"
+    url = "/partners"
     weight = 4
 
   [[menu.main]]
@@ -41,3 +41,8 @@ sectionPagesMenu = "main"
     title = "blog section"
     url = "https://storj.io/blog"
     weight = 5
+
+[permalinks]
+  developers = "/developers/"
+  community = "/community/"
+  partners = "/partners/"

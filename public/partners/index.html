@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Decentralized cloud storage that is automatically encrypted, easily implemented, highly performant, exceptionally economical, and ridiculously resilient.">    
+    <meta name="keywords" content="storj, storj labs, distributed object storage, decentralized cloud storage, object storage, decentralized, storage, secure, private, encrypted">    
+    <meta name="google-site-verification" content="R5u7lqzFhKoFiaEXbxfFSJ-CT9UyK-AqVWwd1g_zMeg" />
+    <meta name="google-site-verification" content="8CIKbV4JUhwtw7xNI7_A__vnmpvuGfs1g3QVOInBtxQ" />
+
+    <title>Decentralized Cloud Storage — Storj</title>
+
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Decentralized Cloud Storage — Storj"/>
+	<meta property="og:description" content="Storj is the storage layer for the Internet. Decentralized cloud storage is a new paradigm that removes intermediaries, enabling you to control your personal data. Storj is open source, distributed, encrypted, and blazing fast object storage. Check out how Storj can help you keep your data safe and access it anywhere, anytime."/>
+	<meta property="og:url" content="https://storj.io" />
+	<meta property="og:site_name" content="Decentralized Cloud Storage — Storj" />
+	<meta property="og:image" content="https://storj.io/img/storj-logo.jpg" />
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:title" content="Decentralized Cloud Storage — Storj"/>
+	<meta name="twitter:description" content="Storj is the storage layer for the Internet. Decentralized cloud storage is a new paradigm that removes intermediaries, enabling you to control your personal data. Storj is open source, distributed, encrypted, and blazing fast object storage. Check out how Storj can help you keep your data safe and access it anywhere, anytime."/>
+	<meta name="twitter:site" content="@storjproject"/>
+	<meta name="twitter:image" content="https://storj.io/img/storj-logo.jpg"/>
+	<meta name="go-import" content="storj.io/storj git https://github.com/storj/storj">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700" rel="stylesheet">
+
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" id="inspectletjs">
+  (function() {
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1154029405]);
+    var ldinsp = function(){ if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1154029405&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 0);
+  })();
+  </script>
+
+  <script> !function(){varanalytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){returnfunction(){vare=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);returnanalytics}};for(vart=0;t<analytics.methods.length;t++){vare=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){vare=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";varn=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0"; analytics.load("JHfKYYbErCZRf2QFQTQNTyP0IF6RMSUC"); analytics.page(); }}();</script>
+  <script data-jsd-embedded data-key="ddb2b60b-2cc3-47f0-a434-3a6dae10166a" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+      h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+      (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+      })(window,document.documentElement,'async-hide','dataLayer',4000,
+      {'GTM-N75DJ6F':true});
+    </script>
+
+    <script type="text/javascript" src="js/segment.js"></script>
+
+</head>
+
+<body class="page">
+
+<section>
+        <nav class="navbar navbar-page navbar-default menu">
+          <div class="container">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+                <img src="/img/logo-blue.svg" alt="Storj" class="logo">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <ul class="nav navbar-nav">
+                    
+                    <li><a style="font-size: .9em;" class="link" href="/developers">Developers</a></li>
+                    
+                    <li><a style="font-size: .9em;" class="link" href="/community">Community</a></li>
+                    
+                    <li><a style="font-size: .9em;" class="link" href="https://storjlabs.atlassian.net/servicedesk/customer/portals">Support</a></li>
+                    
+                    <li><a style="font-size: .9em;" class="link" href="/partners">Partners</a></li>
+                    
+                    <li><a style="font-size: .9em;" class="link" href="https://storj.io/blog">Blog</a></li>
+                    
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+<section class="section">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+        <h1 class="title" style="font-size:38px;margin-bottom:-15px;">Introducing Economic Empowerment for the Open Source Community</h1>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="font-size: 20px;line-height:38px;padding:6%;">
+          <p>We are passionate about supporting, building, and using <a href="https://storj.io/open-source">open source</a> a software. Our Open Source Partnership Program brings secure, reliable and performant decentralized cloud storage to the open-source community.</p>
+                <div class="spacer20"></div>
+          <p>In addition to sharing revenue, we share all the necessary tools, components and connectors needed to incorporate decentralized cloud storage into your platform. Easy and effortless.</p>
+                <div class="spacer20"></div>
+
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <a class="btn button" href="#partnersection" data-mode="popup" data-hide-footer=true target="_blank">BECOME A PARTNER</a>
+              </div>
+        </div>
+
+       </div>
+       </div>
+</div>
+</div>
+</div>
+        <div class="container-fluid" >
+
+            <div class="spacer25"></div>
+
+            <div class="row" style="padding:0px;">
+
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding:0px;">
+
+                  
+                  <img style="height:38px;width:164px;margin:2.4%;" src="/img/color-logos/couchbase.svg"/>
+                  
+
+                  <img style="height:47px;width:164px;margin:2.4%;" src="/img/color-logos/mongodb.svg"/>
+                  
+
+                  
+                  <img style="height:43px;width:43px;margin:2.4%;" src="/img/color-logos/filezilla.svg"/>
+                
+                  <img style="height:32px;width:139px;margin:2.4%;" src="/img/color-logos/influxdb.svg"/>
+                  
+
+                  <img style="height:45px;width:97px;margin:2.4%;" src="/img/color-logos/kafka-01.svg"/>
+               
+
+                </div>
+
+              </div>
+
+              <div class="row" style="padding:0px;">
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center" style="padding:0px;">
+
+                  <img style="height:23px;width:96px;margin:3.6%;" src="/img/color-logos/minio.svg"/>
+                  
+                  <img style="height:51px;width:83px;margin:3.6%;" src="/img/color-logos/nextcloud.svg"/>
+
+                  <img style="height:51px;width:105px;margin:2.4%" src="/img/mariaDbHome.png"/>
+
+                  <img style="height:39px;width:97px;margin:2.4%;" src="/img/color-logos/plesk.svg"/>
+                
+                  <img style="height:39px;width:99px;margin:3.6%;" src="/img/color-logos/pydio.svg"/>
+
+                  <img style="height:32px;width:147px;margin:3.6%;" src="/img/color-logos/zenko-io.svg"/>                  
+
+              </div>
+          </div>
+          <div class="spacer25"></div>
+        </div>
+
+
+          <div class="spacer45"></div>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                  <div class="spacer30"></div>
+
+                <h2 style="font-size: 36px;	font-weight: 800;	line-height: 39px;text-align:center;">Benefits for our <br class="visible-xs"> Open-Source <br class="visible-xs">Partners:</h2>
+
+              </div>
+            </div>
+      
+              
+              <div class="spacer35"></div>
+
+          <div class="container-fluid" style="margin:0px;padding:0px;">
+              <div class="row" style="margin:0px;padding:0px;">
+                     <div class="navbar col-xs-12 col-lg-10 col-lg-offset-1" style="padding:0px;">
+                           <ul class="nav nav-pills nav-justified text-center" style="padding:0px;">
+                              <li class="active" ><a id="val1" href="#value1" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:15px;">Revenue Sharing</a></li>
+                              <li><a id="val2" href="#value2" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:0px;padding-right:0px;padding-top:15px;padding-bottom:15px;">Open Source</a></li>
+                              <li><a id="val3" href="#value3" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:15px;">Platform Support</a></li>
+                              <li><a id="val4" href="#value4" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:0px;padding-right:0px;padding-top:15px;padding-bottom:15px;">Joint Marketing</a></li>
+                              <li><a id="val5" href="#value5" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:5px;padding-right:5px;padding-top:15px;padding-bottom:15px;">Early Access</a></li>
+                           </ul>
+                        </div>
+                    </div>
+                </div>
+             
+
+                  <div class="spacer35"></div>
+
+
+                      <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                  <div class="tab-content">
+
+                     <div class="tab-pane active" id="value1">
+                        <div class="row" style="margin:0px;">
+                          
+                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+
+                              <div class="col-md-1 col-sm-2 ">
+                                <img src="/img/icon-calculator.svg" height="125vw" width="125vw" style="margin-top:80px;">
+                              </div>
+
+                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
+                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:10%;">Revenue Sharing</h3>
+                                <div class="spacer15"></div>
+                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Open-source projects that incorporate Storj as a cloud storage option for their community can take advantage of our revenue sharing model. For every dollar Storj earns, we will share 10% with the referring open-source partner.</p>
+                                </div>
+
+                             </div>
+
+                             <div style="border:1px solid #EDEDED;height:600px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+
+                                <div class="col-xs-12 col-xs-offset-0 col-md-1 col-sm-2 ">
+                                  <img src="/img/icon-calculator.svg" height="125vw" width="125vw">
+                                </div>
+  
+                                  <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
+                                  <h3 style="font-weight:600;margin-top:10%;">Revenue Sharing</h3>
+                                  <div class="spacer15"></div>
+                                  <p style="font-size:14pt;">Open-source projects that incorporate Storj as a cloud storage option for their community can take advantage of our revenue sharing model. For every dollar Storj earns, we will share 10% with the referring open-source partner.</p>
+                                  </div>
+  
+                               </div>
+                          </div>
+                       </div>
+                     
+                     
+               
+                     <div class="tab-pane" id="value2">
+                        <div class="row" style="margin:0px;">
+                            <div style="border:1px solid #EDEDED;height:400px;" class=" visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+
+                                <div class="col-md-1 col-sm-2 ">
+                                <img src="/img/icon-opensource.svg" height="125vw" width="125vw" style="margin-top:75px;">
+                                </div>
+
+                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" >
+                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:5%;">Open Source</h3>
+                                <div class="spacer15"></div>
+                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;"><a href="https://storj.io/open-source">Open source</a> and decentralization go hand in hand. Decentralization supports the same ideology as the open-source developer community - putting power and control into the hands of everyone. All of the software components of the Storj Platform are completely <a href="https://storj.io/open-source">open source.</a></p>
+                                </div>
+                               </div>
+
+                               <div style="border:1px solid #EDEDED;height:750px;padding-left:0px;padding-right:0px;" class=" visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+
+                                  <div class="col-md-1 col-sm-2 ">
+                                  <img src="/img/icon-opensource.svg" height="125vw" width="125vw">
+                                  </div>
+  
+                                  <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" >
+                                  <h3 style="font-weight:600;margin-top:5%;">Open Source</h3>
+                                  <div class="spacer15"></div>
+                                  <p style="font-size:14pt;"><a href="https://storj.io/open-source">Open source</a> and decentralization go hand in hand. Decentralization supports the same ideology as the open-source developer community - putting power and control into the hands of everyone. All of the software components of the Storj Platform are completely <a href="https://storj.io/open-source">open source.</a></p>
+                                  </div>
+                                 </div>
+
+                           </div>
+                      </div>
+
+                     <div class="tab-pane" id="value3">
+                      <div class="row" style="margin:0px;">
+                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+                              
+                                <div class="col-md-1 col-sm-2 ">
+                                <img src="/img/icon-dev.svg" height="110vw" width="110vw" style="margin-top:100px;margin-left:20px;">
+                                </div>
+
+                                 <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
+                                 <h3 style="font-weight:600;padding-left:30px;padding-right:10px;margin-top:15%;">Platform Support</h3>
+                                 <div class="spacer15"></div>
+                                 <p style="font-size:14pt;padding-left:30px;padding-right:10px;">Partners receive priority support for level 2/3 helpdesk requests. Storj handles user account, subscription, and billing management.</p>
+                                 </div>
+
+                                </div>
+
+                                <div style="border:1px solid #EDEDED;height:540px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+                              
+                                    <div class="col-md-1 col-sm-2 ">
+                                    <img src="/img/icon-dev.svg" height="110vw" width="110vw" style="margin-top:20px;">
+                                    </div>
+    
+                                     <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
+                                     <h3 style="font-weight:600;margin-top:15%;">Platform Support</h3>
+                                     <div class="spacer15"></div>
+                                     <p style="font-size:14pt;">Partners receive priority support for level 2/3 helpdesk requests.Storj handles user account, subscription, and billing management.</p>
+                                     </div>
+    
+                                    </div>
+
+                            </div>
+                         </div>
+             
+                     <div class="tab-pane" id="value4">
+                      <div class="row" style="margin:0px;">
+                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+                                                          
+                                <div class="col-md-1 col-sm-2">
+                                <img src="/img/icon-blog.svg" height="115vw" width="115vw" style="margin-top:110px;">
+                                </div>
+
+                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
+                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:12.5%;">Joint Marketing</h3>
+                                <div class="spacer15"></div>
+                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Create awareness and demand for your services within the Storj ecosystem and with your customers and prospects through joint and co-branded marketing and PR opportunities.</p>
+                                </div>
+                          </div>
+
+                          <div style="border:1px solid #EDEDED;height:600px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+                                                          
+                              <div class="col-md-1 col-sm-2">
+                              <img src="/img/icon-blog.svg" height="115vw" width="115vw" style="margin-top:20px;">
+                              </div>
+
+                              <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
+                              <h3 style="font-weight:600;margin-top:12.5%;">Joint Marketing</h3>
+                              <div class="spacer15"></div>
+                              <p style="font-size:14pt;">Create awareness and demand for your services within the Storj ecosystem and with your customers and prospects through joint and co-branded marketing and PR opportunities.</p>
+                              </div>
+                        </div>
+
+                      </div>
+                  </div>
+
+                     <div class="tab-pane" id="value5">
+                      <div class="row" style="margin:0px;">
+                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+                            
+                              <div class="col-md-1 col-sm-2 ">
+                                <img src="/img/icon-oneclickstart.svg" height="125vw" width="125vw" style="margin-top:100px;">
+                              </div>
+
+                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
+                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:20%;">Early Platform Access</h3>
+                                <div class="spacer15"></div>
+                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Get exclusive access to to our V3 White Paper, product roadmap, private Alpha, Beta, and more.</p>
+                                </div>
+                            </div>
+
+                            <div style="border:1px solid #EDEDED;height:500px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
+                            
+                                <div class="col-md-1 col-sm-2 ">
+                                  <img src="/img/icon-oneclickstart.svg" height="125vw" width="125vw">
+                                </div>
+  
+                                  <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
+                                  <h3 style="font-weight:600;margin-top:20%;">Early Platform Access</h3>
+                                  <div class="spacer15"></div>
+                                  <p style="font-size:14pt;">Get exclusive access to to our V3 White Paper, product roadmap, private Alpha, Beta, and more.</p>
+                                  </div>
+                              </div>
+
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+
+<div class="container-fluid">
+  <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+  
+      <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="spacer45"></div>
+                 <div class="spacer45"></div>
+              <h1 style="font-size:30px;text-align: center;">Why Your End-Users Will Love Us:</h1>
+            </div>  
+      </div>
+      
+          <div class="row">
+   
+                          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  text-center" style="padding:50px;">
+
+                          <div class="value-icon">
+                          <img src="/img/icon-safe.svg" alt="Open-Source Software" class="icon-opensource">
+                          </div>
+
+                          <h4 class="team-member-name" style="color:#333333;">Secure & Private</h4>
+                          <p class="team-member-title" style="font-size: 14px;">End-to-end encryption lets only the file owners access and see their data.</p>
+                          </div>
+
+
+                          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
+
+                          <div class="value-icon">
+                          <img src="/img/icon-cost.svg" alt="Open-Source Software" class="icon-opensource">
+                          </div>
+
+                          <h4 class="team-member-name" style="color:#333333;">Affordable</h4>
+                          <p class="team-member-title" style="font-size: 14px;">Without needing to operate any data centers, our costs are 1/3 the price of centralized cloud storage providers.</p>
+                          </div>
+
+
+                          <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
+
+                          <div class="value-icon">
+                          <img src="/img/icon-fast.svg" alt="Open-Source Software" class="icon-opensource">
+                          </div>
+
+                          <h4 class="team-member-name" style="color:#333333;">Performant</h4>
+                          <p class="team-member-title" style="font-size: 14px;">Segmented and distributed files allow for multi-threaded concurrent downloads.</p>
+                          </div>
+              </div>
+
+                  <div class="row">
+
+                                  <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
+                                  <div class="value-icon">
+                                  <img src="/img/icon-capacity.svg" alt="Open-Source Software" class="icon-opensource">
+                                  </div>
+                                  <h4 class="team-member-name" style="color:#333333;">Resilient</h4>
+                                  <p class="team-member-title" style="font-size: 14px;">Erasure encoded, globally distributed files deliver more reliability than centralized storage.</p>
+                                  </div>
+
+                                  <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
+                                  <div class="value-icon">
+                                  <img src="/img/icon-oneclickstart.svg" alt="Open-Source Software" class="icon-opensource">
+                                  </div>
+                                  <h4 class="team-member-name" style="color:#333333;">Easy To Use</h4>
+                                  <p class="team-member-title" style="font-size: 14px;">S3 compatible gateway allows a familiar, drop-in replacement API.</p>
+                                  </div>
+
+                                  <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
+                                  <div class="value-icon">
+                                  <img src="/img/icon-opensource.svg" alt="Open-Source Software" class="icon-opensource">
+                                  </div>
+                                  <h4 class="team-member-name" style="color:#333333;">Open-Source</h4>
+                                  <p class="team-member-title" style="font-size: 14px;">All components are open source, auditable, licensed with AGPL and Apache Commons licenses. Check us out on Github.</p>
+                                  </div>
+                  </div>
+                </div>
+              
+</div>
+ <div class="spacer45"></div>
+ <div class="spacer10"></div>
+    <div class="row">
+
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
+          <a name="partnersection"></a>
+
+          <div class="spacer45"></div>
+
+          <div id="open-source-partner" class="panel-simple panel-card-simple">
+          <h3>Open-Source Partners</h3>
+
+          <div class="spacer10"></div>
+
+          <p style="font-size:12pt;max-width: 1000px;">Storj actively works with our partners to create and build sustainable revenue streams to support their open-source projects.  The Open-Source Partner Program takes your referred users who have integrated a partner-specific connector, and then shares revenue for any data and bandwidth that user is billed for.  This program is a perfect fit for open-source applications that have a need for embedded storage but rely on end users to procure third-party cloud storage can receive revenue sharing.</p>
+
+          <div class="spacer45"></div>
+
+          <div class="row">
+          <a style="margin-left:14px;" class="btn typeform-share button" href="https://storjsupport.typeform.com/to/tmhbhU" data-mode="popup" data-hide-footer=true target="_blank">TALK WITH US</a>
+          <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+          </div>
+
+          </div>
+    </div>
+  </div>
+
+  <div class="spacer45"></div>
+
+
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1" >
+
+          <div id="technology-partner" class="panel-simple panel-card-simple">
+          <h3>Technology Partners</h3>
+
+          <div class="spacer10"></div>
+
+          <p style="font-size:12pt;max-width: 1000px;">Storj strives to reward companies that drive demand and value on our network and is a great fit as a storage-layer integrated into your product, or a white-labelled product built on-top of our storage network. Additionally is perfect for any companies interested in a Value Added Reseller or Systems Integrator relationship.  Storj offers wholesale pricing with tiered discounts based on total storage and bandwidth use.</p>
+
+          <div class="spacer20"></div>
+          <div class="spacer20"></div>
+
+          <div class="row">
+          <a style="margin-left:14px;" class="btn typeform-share button" href="https://storjsupport.typeform.com/to/vmoI3d" data-mode="popup" data-hide-footer=true target="_blank">TALK WITH US</a>
+          <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+         </div>
+
+        </div>
+      </div>
+  <div class="spacer45"></div>
+</section>
+<div class="spacer45"></div>
+<div class="spacer45"></div>
+
+<footer>
+    <div class="container">
+      <div class="row is-flex">
+        <div class="col-xs-12 col-sm-2 col-xs-6">
+          <a href="/" class="footer-logo">
+            <img src="/img/logo-white.svg" alt="Storj">
+          </a>
+          <ul class="list-unstyled">
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/terms-of-use">Terms of Use</a></li>
+            <li><a href="/terms-of-service">Terms of Service</a></li>
+            <li><a href="/code-of-conduct">Code of Conduct</a></li>
+            <li><a href="/storj-share-information">Information Policy</a></li>
+            <li><a href="/storage-service-level-commitment">Storage SLA</a></li>
+            <li><a href="/canary.txt">Canary</a></li>
+            <li><a href="https://status.storj.io/">Status</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-xs-6">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="/white-paper">Whitepaper</a></li>
+            <li><a href="/team">Team</a></li>
+            <li><a href="/careers">Careers</a></li>
+            <li><a href="/press">Press</a></li>
+            <li><a href="https://storj.io/blog/">Blog</a></li>
+            <li><a href="/open-source">Open Source</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-xs-6">
+          <h5>Product</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://docs.storj.io/">Quickstart</a></li>
+            <li><a href="/developers">Developers</a></li>
+            <li><a href="/partners">Partners</a></li>
+            <li><a href="/community">Community</a></li>
+            <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals">Support</a></li>
+            <li><a href="https://payout.storj.io/">Payouts</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-2 col-xs-6">
+          <h5>Connect</h5>
+          <ul class="list-unstyled">
+            <li><a href="https://twitter.com/storjproject" target="_blank"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
+            <li><a href="https://github.com/Storj/" target="_blank"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
+            <li><a href="https://www.reddit.com/r/storj/" target="_blank"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
+            <li><a href="https://www.facebook.com/storjproject" target="_blank"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
+            <li><a href="https://medium.com/@storjproject" target="_blank"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-xs-12 text-center">
+          <h5>Stay in Touch</h5>
+          <div style="padding-top: 0.1em" id="mc_embed_signup">
+            <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=da152f16f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <div id="mc_embed_signup_scroll">
+                <input style="height:50%; font-size: 14px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edba9fc4ce8b9095a31859cba_09353db057" tabindex="-1" value=""></div>
+                <div class="clear"><input style="height:50%; font-size: 14px" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-footer btn-lg btn-signup"></div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="address">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+<script src="js/particles.min.js"></script>
+<script src="js/jquery-2.1.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/typewriting.min.js"></script>
+<script src="js/main.js"></script>
+
+
+  </body>
+</html>
