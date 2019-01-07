@@ -1,3 +1,4 @@
+{{with .Site.GetPage "page" "communityHeroNav"}}
 <nav class="navbar navbar-default menu ">
         <div class="container" style="padding-left:0px;padding-right:30px;">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,11 +26,11 @@
         <div class="row">
           <div class="spacer45"></div>
           <div class="col-md-7 col-lg-7" style="color:white;">
-            <h1 style="color:white;">Storj Community</h1>
+            <h1 style="color:white;">{{.Params.heading}}</h1>
             <div class="spacer15"></div>
-            <p>Storj is a global community of developers, storage node operators, and decentralization enthusiasts. We are passionate about the future of decentralized cloud storage and are proponents of open-source software. We connect with our community via Rocket.Chat, an open source chat solution. Come join the community where you can get your support questions answered, discuss about project development advances and decentralization issues, or tell us about the great projects you are building on Storj!</p>
+            <p>{{.Content}}</p>
             <div class="spacer45"></div>
-            <a href="https://community.storj.io/home" class="btn btn-primary" style="background-color: white;color: #0D122A;">JOIN THE COMMUNITY</a>
+            <a href="{{.Params.ctaLink}}" class="btn btn-primary" style="background-color: white;color: #0D122A;">{{.Params.ctaText}}</a>
           </div>
   
             <div class="col-sm-12 col-sm-pull-3 col-md-5 col-md-pull-5 col-lg-5 col-lg-pull-4">
@@ -80,11 +81,11 @@
           <div class="row">
             <div class="spacer45"></div>
             <div class="col-xs-12" style="color:white;">
-              <h1 style="color:white;">Storj Community</h1>
+              <h1 style="color:white;">{{.Params.heading}}</h1>
               <div class="spacer15"></div>
-              <p>Storj is a global community of developers, storage node operators, and decentralization enthusiasts. We are passionate about the future of decentralized cloud storage and are proponents of open-source software. We connect with our community via Rocket.Chat, an open source chat solution. Come join the community where you can get your support questions answered, discuss about project development advances and decentralization issues, or tell us about the great projects you are building on Storj!</p>
+              <p>{{.Content}}</p>
               <div class="spacer45"></div>
-              <a href="https://storj.io/code-of-conduct" class="btn btn-primary" style="background-color: white;color: #0D122A;">JOIN THE COMMUNITY</a>
+              <a href="{{.Params.ctaLink}}" class="btn btn-primary" style="background-color: white;color: #0D122A;">{{.Params.ctaText}}</a>
             </div>
     
               <div class="col-xs-12" style="max-height: 460px;padding:0px;margin:0px;">
@@ -97,3 +98,4 @@
       </div>
     </div>
     </div>
+    {{end}}
