@@ -5,3 +5,39 @@ title = "Storj.io"
 sectionPagesMenu = "main"
 
 
+[menu]
+
+  [[menu.main]]
+    identifier = "developers"
+    name = "Developers"
+    title = "developers section"
+    url = "/developers/developers"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "community"
+    name = "Community"
+    title = "community section"
+    url = "/community/community"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "support"
+    name = "Support"
+    title = "support section"
+    url = "https://storjlabs.atlassian.net/servicedesk/customer/portals"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "partners"
+    name = "Partners"
+    title = "partners section"
+    url = "/partners/partners"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    title = "blog section"
+    url = "https://storj.io/blog"
+    weight = 5
