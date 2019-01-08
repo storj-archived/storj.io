@@ -7,23 +7,24 @@
                   <div class="row" style="margin:0px;">
                     
                       <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-
-                        <div class="col-md-1 col-sm-2 ">
-                          <img src="/img/icon-calculator.svg" height="125vw" width="125vw" style="margin-top:80px;">
+                        {{ with .Site.GetPage "page" "tab1"}}
+                        <div class="col-md-1 col-sm-2">
+                          <img src="{{.Params.img}}" height="125vw" width="125vw" style="margin-top:80px;">
                         </div>
 
                           <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
-                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:10%;">Revenue Sharing</h3>
+                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:10%;">{{.Params.heading}}</h3>
                           <div class="spacer15"></div>
-                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Open-source projects that incorporate Storj as a cloud storage option for their community can take advantage of our revenue sharing model. For every dollar Storj earns, we will share 10% with the referring open-source partner.</p>
+                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;">{{.Description}}</p>
                           </div>
+                         
 
                        </div>
 
                        <div style="border:1px solid #EDEDED;height:600px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
 
                           <div class="col-xs-12 col-xs-offset-0 col-md-1 col-sm-2 ">
-                            <img src="/img/icon-calculator.svg" height="125vw" width="125vw">
+                            <img src="{{.Params.img}}" height="125vw" width="125vw">
                           </div>
 
                             <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
@@ -31,7 +32,7 @@
                             <div class="spacer15"></div>
                             <p style="font-size:14pt;">Open-source projects that incorporate Storj as a cloud storage option for their community can take advantage of our revenue sharing model. For every dollar Storj earns, we will share 10% with the referring open-source partner.</p>
                             </div>
-
+                            {{end}}
                          </div>
                     </div>
                  </div>
@@ -41,29 +42,30 @@
                <div class="tab-pane" id="value2">
                   <div class="row" style="margin:0px;">
                       <div style="border:1px solid #EDEDED;height:400px;" class=" visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-
+                        {{ with .Site.GetPage "page" "tab2"}}
                           <div class="col-md-1 col-sm-2 ">
-                          <img src="/img/icon-opensource.svg" height="125vw" width="125vw" style="margin-top:75px;">
+                          <img src="{{.Params.img}}" height="125vw" width="125vw" style="margin-top:75px;">
                           </div>
 
                           <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" >
-                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:5%;">Open Source</h3>
+                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:5%;">{{.Params.heading}}</h3>
                           <div class="spacer15"></div>
-                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;"><a href="https://storj.io/open-source">Open source</a> and decentralization go hand in hand. Decentralization supports the same ideology as the open-source developer community - putting power and control into the hands of everyone. All of the software components of the Storj Platform are completely <a href="https://storj.io/open-source">open source.</a></p>
+                          {{.Content}}                          
                           </div>
                          </div>
 
                          <div style="border:1px solid #EDEDED;height:750px;padding-left:0px;padding-right:0px;" class=" visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
 
                             <div class="col-md-1 col-sm-2 ">
-                            <img src="/img/icon-opensource.svg" height="125vw" width="125vw">
+                            <img src="{{.Params.img}}" height="125vw" width="125vw">
                             </div>
 
                             <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" >
-                            <h3 style="font-weight:600;margin-top:5%;">Open Source</h3>
+                            <h3 style="font-weight:600;margin-top:5%;">{{.Params.heading}}</h3>
                             <div class="spacer15"></div>
-                            <p style="font-size:14pt;"><a href="https://storj.io/open-source">Open source</a> and decentralization go hand in hand. Decentralization supports the same ideology as the open-source developer community - putting power and control into the hands of everyone. All of the software components of the Storj Platform are completely <a href="https://storj.io/open-source">open source.</a></p>
-                            </div>
+                            {{.Content}}
+                            {{end}}                          
+                          </div>
                            </div>
 
                      </div>
@@ -72,15 +74,15 @@
                <div class="tab-pane" id="value3">
                 <div class="row" style="margin:0px;">
                       <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                        
+                        {{ with .Site.GetPage "page" "tab3"}}
                           <div class="col-md-1 col-sm-2 ">
-                          <img src="/img/icon-dev.svg" height="110vw" width="110vw" style="margin-top:100px;margin-left:20px;">
+                          <img src="{{.Params.img}}" height="110vw" width="110vw" style="margin-top:100px;margin-left:20px;">
                           </div>
 
                            <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                           <h3 style="font-weight:600;padding-left:30px;padding-right:10px;margin-top:15%;">Platform Support</h3>
+                           <h3 style="font-weight:600;padding-left:30px;padding-right:10px;margin-top:15%;">{{.Params.heading}}</h3>
                            <div class="spacer15"></div>
-                           <p style="font-size:14pt;padding-left:30px;padding-right:10px;">Partners receive priority support for level 2/3 helpdesk requests. Storj handles user account, subscription, and billing management.</p>
+                           <p style="font-size:14pt;padding-left:30px;padding-right:10px;">{{.Description}}</p>
                            </div>
 
                           </div>
@@ -88,15 +90,15 @@
                           <div style="border:1px solid #EDEDED;height:540px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
                         
                               <div class="col-md-1 col-sm-2 ">
-                              <img src="/img/icon-dev.svg" height="110vw" width="110vw" style="margin-top:20px;">
+                              <img src="{{.Params.img}}" height="110vw" width="110vw" style="margin-top:20px;">
                               </div>
 
                                <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                               <h3 style="font-weight:600;margin-top:15%;">Platform Support</h3>
+                               <h3 style="font-weight:600;margin-top:15%;">{{.Params.heading}}</h3>
                                <div class="spacer15"></div>
-                               <p style="font-size:14pt;">Partners receive priority support for level 2/3 helpdesk requests.Storj handles user account, subscription, and billing management.</p>
+                               <p style="font-size:14pt;">{{.Description}}</p>
                                </div>
-
+                               {{end}}
                               </div>
 
                       </div>
@@ -105,28 +107,29 @@
                <div class="tab-pane" id="value4">
                 <div class="row" style="margin:0px;">
                       <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                                                    
+                        {{ with .Site.GetPage "page" "tab4"}}                    
                           <div class="col-md-1 col-sm-2">
-                          <img src="/img/icon-blog.svg" height="115vw" width="115vw" style="margin-top:110px;">
+                          <img src="{{.Params.img}}" height="115vw" width="115vw" style="margin-top:110px;">
                           </div>
 
                           <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:12.5%;">Joint Marketing</h3>
+                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:12.5%;">{{.Params.heading}}</h3>
                           <div class="spacer15"></div>
-                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Create awareness and demand for your services within the Storj ecosystem and with your customers and prospects through joint and co-branded marketing and PR opportunities.</p>
+                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;">{{.Description}}</p>
                           </div>
                     </div>
 
                     <div style="border:1px solid #EDEDED;height:600px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
                                                     
                         <div class="col-md-1 col-sm-2">
-                        <img src="/img/icon-blog.svg" height="115vw" width="115vw" style="margin-top:20px;">
+                        <img src="{{.Params.img}}" height="115vw" width="115vw" style="margin-top:20px;">
                         </div>
 
                         <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                        <h3 style="font-weight:600;margin-top:12.5%;">Joint Marketing</h3>
+                        <h3 style="font-weight:600;margin-top:12.5%;">{{.Params.heading}}</h3>
                         <div class="spacer15"></div>
-                        <p style="font-size:14pt;">Create awareness and demand for your services within the Storj ecosystem and with your customers and prospects through joint and co-branded marketing and PR opportunities.</p>
+                        <p style="font-size:14pt;">{{.Description}}</p>
+                        {{end}}
                         </div>
                   </div>
 
@@ -136,28 +139,29 @@
                <div class="tab-pane" id="value5">
                 <div class="row" style="margin:0px;">
                       <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                      
+                        {{ with .Site.GetPage "page" "tab5"}}                    
                         <div class="col-md-1 col-sm-2 ">
-                          <img src="/img/icon-oneclickstart.svg" height="125vw" width="125vw" style="margin-top:100px;">
+                          <img src="{{.Params.img}}" height="125vw" width="125vw" style="margin-top:100px;">
                         </div>
 
                           <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:20%;">Early Platform Access</h3>
+                          <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:20%;">{{.Params.heading}}</h3>
                           <div class="spacer15"></div>
-                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Get exclusive access to to our V3 White Paper, product roadmap, private Alpha, Beta, and more.</p>
+                          <p style="font-size:14pt;padding-left:20px;padding-right:10px;">{{.Description}}</p>
                           </div>
                       </div>
 
                       <div style="border:1px solid #EDEDED;height:500px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
                       
                           <div class="col-md-1 col-sm-2 ">
-                            <img src="/img/icon-oneclickstart.svg" height="125vw" width="125vw">
+                            <img src="{{.Params.img}}" height="125vw" width="125vw">
                           </div>
 
                             <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                            <h3 style="font-weight:600;margin-top:20%;">Early Platform Access</h3>
+                            <h3 style="font-weight:600;margin-top:20%;">{{.Params.heading}}</h3>
                             <div class="spacer15"></div>
-                            <p style="font-size:14pt;">Get exclusive access to to our V3 White Paper, product roadmap, private Alpha, Beta, and more.</p>
+                            <p style="font-size:14pt;">{{.Description}}</p>
+                            {{end}}
                             </div>
                         </div>
 
