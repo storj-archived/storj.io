@@ -1,0 +1,34 @@
+<div class="container-fluid" style="background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
+        <section id="waitlist" class="c2a-wrapper">
+        <div class="container">
+          <div class="row row-centered">
+            <div class="col-centered col-md-6">
+              <h1 class="text-center">Get First-come, First-served Access to Our New Network</h1>
+            </div>
+          </div>
+        </div>
+        
+        <div class="spacer25"></div>
+        
+        <div class="container">
+          <div class="row row-centered">
+
+            {{range where .Site.Pages ".Params.class" "waitlistBox"}}
+                  <div class="col-md-5 col-sm-12 col-centered">
+                    <div class="panel panel-card text-center">
+                      <img src="{{.Params.img}}" width="60">
+                      <h3 style="font-size:20pt;line-height:26pt">{{.Params.heading}}</h3>
+                      <p style="font-size:12pt">{{.Description}}</p>
+                      <div class="spacer25"></div>
+                      <a href="{{.Params.ctaLink}}" class="btn">{{.Params.ctaText}}</a>
+                        <div class="spacer10"></div>
+                    </div>
+                  </div>
+            {{end}}
+            
+              </div>
+            </div>
+        </div>
+        </div>
+        </section>
+        </div>

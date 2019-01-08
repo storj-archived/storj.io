@@ -1,0 +1,30 @@
+<div class="container">
+        <div class="row">
+
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-push-2 text-center">
+                <h1 style="margin-bottom:-30px;">Upcoming Milestones</h1>
+            </div>
+
+      <div class="col-md-12">
+        <div class="milestones" style="display:inline-block;width:100%;overflow-y:auto;">
+
+        <ul class="timeline timeline-horizontal">
+    {{range where .Site.Pages ".Params.class" "milestone"}}
+        <li class="timeline-item">
+                {{if eq .Params.current true}}style="box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"{{end}}
+          <div class="timeline-badge primary"
+          {{if eq .Params.completed false}}style="background-color:#B8B8B8;"{{end}}
+          {{if eq .Params.current true}}style="box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"{{end}}></div>
+            <div class="timeline-panel{{if eq .Weight 1}}-genesis{{end}}">
+              <div class="timeline-heading">
+                <p style="height: 67px;	color: {{if eq .Params.completed true}}#2683FF;{{else}}#BBBBBB;{{end}}	font-family: Montserrat;font-size: 16px;	font-weight: 800;	line-height: 22px;" ><small>{{.Params.text}}</small></p>
+            </div>
+          </div>
+        </li>
+    {{end}}
+
+    </ul>
+  </div>
+</div>
+</div>
+

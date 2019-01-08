@@ -3,450 +3,51 @@
   <head>
     {{partial "head" .}}
   </head>
-
 <body class="home">
 	<section class="header" style="height:100%;">
     <div class="header-bg"></div>
-
     {{partial "navbar" .}}
-
     <div class="container ">
         <div class="row">
             <div class="spacer30"></div>
-
           <div class="col-xs-12 col-sm-10 col-md-6 col-md-offset-0 col-lg-6" style="padding-right:10px;">
-
             <div class="spacer20"></div>
-
-               <div class="row">
-                  <div class="col-xs-8 col-sm-6 col-md-6 col-lg-5" style="margin-left:15px;border: 1px solid rgba(255,255,255,0.2);	background-color: rgba(255,255,255,0.2);border-radius:4px;color:white;text-align: center;font-size: 13px;	font-weight: 600;	line-height: 28px;width:260px;">CURRENTLY IN PUBLIC ALPHA</div>
+              {{partial "homeHero" .}}
               </div>
-
-                <h1 style="font-size:30px;line-height:40px;color:white;">Decentralized cloud object<br class="visible-lg"> storage that is affordable,<br class="visible-lg"> easy to use, private, and secure.</h1>
-                <p style="color:#FFFFFF;opacity: 0.7;font-size:16px;">The Storj network uses client-side encryption so data owners can trust that only they can access their files. Its S3 compatibility also makes it simple to implement and scale along with your needs.</p>
-                <div class="spacer5"></div>
-                <p style="color:#FFFFFF;opacity: 0.7;font-size:16px;">Reserve your spot on the Storj network <strong>launching in early 2019.</strong></p>
-                <div class="spacer20"></div>
-                <a href="#waitlist" style="padding-left:20px;padding-right:20px;font-size:14px;" class="btn btn-lg">JOIN THE WAITLIST</a>
-                
-                <div class="spacer50"></div>
-          </div>
-
-
-        <div class="col-xs-12 col-sm-8 col-sm-offset-3 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0">
-          <img src="img/updated.svg"/>
-        </div>
-
-     </div>
-
-      </div>
-        <div class="spacer45"></div>
-        <div class="spacer45"></div>
-      </div>
-
-  </div>
-
+                </div>
+                  <div class="spacer45"></div>
+                  <div class="spacer45"></div>
+                </div>
+            </div>
   </section>
-
   <div class="container-fluid" style="	background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
     <div class="container">
       <div class="row text-center">
-
-        <div class="spacer45"></div>
-
-        <div style="margin:0 auto; width: 264px;border-radius: 4px;	background-color: rgba(89,160,255,0.2);"><p style="color: #59A0FF;	font-family: Montserrat;	font-size: 13px;	font-weight: 500;	line-height: 28px;"><span style="font-weight: 700;margin-right:10px;">FRESH UPDATE</span>   OCTOBER, 30 2018</p></div>
-
-        <div class="spacer15"></div>
-
-        <h2 style="margin-top:-5px;">Announcing the V3 Storj White Paper!</h2>
-        <div class="row">
-          <div class=" col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-            <p style="opacity: 0.7;color: #333333;font-size: 16px;	line-height: 28px;	text-align: center;">This V3 white paper outlines the architecture of our new network, currently in public alpha. The new decentralized network delivers S3 performance, functionality and durability. Core changes also include a dramatic reduction in bandwidth usage, updated storage node requirements, indefinite scaling through coordination avoidance and much more. </p>
-          </div>
-        </div>
-
-        <div class="spacer20"></div>
-
-        <a href="https://storj.io/white-paper" style="padding-left:20px;padding-right:20px;font-size:14px;" class="btn btn-lg">Learn More</a>
-
-        <div class="spacer50"></div>
-
+{{partial "homeWhitePaper" .}}
+          <div class="spacer50"></div>
         </div>
       </div>
     </div>
-
-
-<div class="container ">
-  <div class="row">
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
-            <div class="spacer45"></div>
-
-            <div class=" col-md-5 col-lg-4" style="height: 261px;width:380px;" >
-              <img src="img/partnership-2pt.svg"/>
-            </div>
-
-            <div class="spacer25 visible-xs visible-sm"></div>
-
-          <div style="position:relative;z-index: 2;padding-left:25px;" class=" col-md-6 col-md-offset-1 col-lg-7 col-lg-offset-1">
-
-            <h1 style="font-size:26px;line-height:40px;color:#2683FF;">Learn about the Open Source<br class="visible-md visible-lg"> Partner Program</h1>
-            <p style="color:#FFFFFF;opacity: 0.7;font-size:16px;color:#333333">Open-source projects can generate revenue when your users incorporate our service as their storage layer. Through simple connectors, Storj has created many mutually beneficial relationships with top open-source companies from around the world.</p>
-
-            <div class="spacer20"></div>
-
-            <a href="#waitlist" style="padding-left:20px;padding-right:20px;font-size:14px;" class="btn btn-lg">Learn More</a>
-
-            <div class="spacer50"></div>
-
-          </div>
-    </div>
-  </div>
-</div>
-
-    <div class="container-fluid" style="background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
-
-      <div class="spacer45"></div>
-
-    <div class="row text-center">
-      <p style="color: #333333;font-family:Montserrat;font-size: 20px;line-height:23px;">OUR PARTNERS</p>
-    </div>
-
-    <div class="spacer25"></div>
-
-    <div class="row" style="padding:0px;">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding:0px;">
-
-          <img style="height:38px;width:164px;margin:2.4%;" src="img/color-logos/couchbase.svg"/>
-          <img style="height:47px;width:164px;margin:2.4%;" src="img/color-logos/mongodb.svg"/>
-          <img style="height:43px;width:43px;margin:2.4%;" src="img/color-logos/filezilla.svg"/>
-          <img style="height:32px;width:139px;margin:2.4%;" src="img/color-logos/influxdb.svg"/>
-          <img style="height:45px;width:97px;margin:2.4%;" src="img/color-logos/kafka-01.svg"/>
-       
-      </div>
-   </div>
-
-      <div class="row" style="padding:0px;">
-          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center" style="padding:0px;">
-
-          <img style="height:23px;width:96px;margin:3.6%;" src="img/color-logos/minio.svg"/>
-          <img style="height:51px;width:83px;margin:3.6%;" src="img/color-logos/nextcloud.svg"/>
-          <img style="height:51px;width:105px;margin:2.4%" src="img/mariaDbHome.png"/>
-          <img style="height:39px;width:97px;margin:2.4%;" src="img/color-logos/plesk.svg"/>
-          <img style="height:39px;width:99px;margin:3.6%;" src="img/color-logos/pydio.svg"/>
-          <img style="height:32px;width:147px;margin:3.6%;" src="img/color-logos/zenko-io.svg"/>
-
-      </div>
-  </div>
-
+{{partial "homePartners" .}}
       <div class="spacer25"></div>
-
 </div>
-
-
     <div class="spacer45"></div>
 
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-    
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h1 style="font-size:30px;text-align: center;">Helping Developers Weave the<br class="visible-sm visible-md visible-lg"> Fabric of Tomorrow's Internet</h1>
-                  </div>  
-        </div>
-        <div class="row">
-         
-           <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  text-center" style="padding:50px;">
-      
-                                <div class="value-icon">
-                                <img src="img/icon-safe.svg" alt="Open-Source Software" class="icon-opensource">
-                                </div>
-      
-                                <h4 class="team-member-name" style="color:#333333;">Secure & Private</h4>
-                                <p class="team-member-title" style="font-size: 14px;">End-to-end encryption lets only the file owners access and see their data.</p>
-                                </div>
-      
-      
-                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
-      
-                                <div class="value-icon">
-                                <img src="img/icon-cost.svg" alt="Open-Source Software" class="icon-opensource">
-                                </div>
-      
-                                <h4 class="team-member-name" style="color:#333333;">Affordable</h4>
-                                <p class="team-member-title" style="font-size: 14px;">Without needing to operate any data centers, our costs are 1/3 the price of centralized cloud storage providers.</p>
-                                </div>
-      
-      
-                                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
-      
-                                <div class="value-icon">
-                                <img src="img/icon-fast.svg" alt="Open-Source Software" class="icon-opensource">
-                                </div>
-      
-                                <h4 class="team-member-name" style="color:#333333;">Performant</h4>
-                                <p class="team-member-title" style="font-size: 14px;">Segmented and distributed files allow for multi-threaded concurrent downloads.</p>
-                                </div>
-              </div>
-      
-              <div class="row">
-      
-                                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
-                                        <div class="value-icon">
-                                        <img src="img/icon-capacity.svg" alt="Open-Source Software" class="icon-opensource">
-                                        </div>
-                                        <h4 class="team-member-name" style="color:#333333;">Resilient</h4>
-                                        <p class="team-member-title" style="font-size: 14px;">Erasure encoded, globally distributed files deliver more reliability than centralized storage.</p>
-                                        </div>
-      
-                                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
-                                        <div class="value-icon">
-                                        <img src="img/icon-oneclickstart.svg" alt="Open-Source Software" class="icon-opensource">
-                                        </div>
-                                        <h4 class="team-member-name" style="color:#333333;">Easy To Use</h4>
-                                        <p class="team-member-title" style="font-size: 14px;">S3 compatible gateway allows a familiar, drop-in replacement API.</p>
-                                        </div>
-      
-                                        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
-                                        <div class="value-icon">
-                                        <img src="img/icon-opensource.svg" alt="Open-Source Software" class="icon-opensource">
-                                        </div>
-                                        <h4 class="team-member-name" style="color:#333333;">Open Source</h4>
-                                        <p class="team-member-title" style="font-size: 14px;">All components are <a href="https://storj.io/open-source">open source</a>, auditable,licensed with AGPL and Apache Commons licenses. Check us out on GitHub.</p>
-                                        </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-    <div class="spacer45"></div>
-      <section class="pricing section text-center" id="pricing">
-          <div class="container-fluid" style="background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
-
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-10 col-lg-offset-1 text-center">
-                <div class="spacer35"></div>
-                <h1>Simple Pricing</h1>
-                <p>Pay only for what you use. No setup fees, no minimum usage.</p>
-              </div>
-            </div>
-
-            <div class="row plans">
-              <div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
-                <div class="plan">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <p class="plan-title">Storage</p>
-                      <img src="img/icon-storage.svg" class="plan-icon" alt="">
-                      <h2 class="plan-pricing">$0.015<span>per GB per month</span></h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xs-12 col-sm-6 col-md-5 col-md-push-1">
-                <div class="plan">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <p class="plan-title">Bandwidth</p>
-                      <img src="img/icon-downloads.svg" class="plan-icon" alt="">
-                      <h2 class="plan-pricing">$0.05<span>per GB downloaded</span></h2>
-                    </div>
-                  </div>
-                </div>
-                <div class="spacer45"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-        </section>
-        </div>
-
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-12 text-center">
-                    <h1>Our Core Use Cases:</h1>
-
-                    <div class="spacer45"></div>
-
-                  </div>
-
-              <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-                <p style="color:#333333;font-family:Montserrat;font-size:18px;font-weight:800;line-height:26px;padding-left:50px;padding-right:50px;">Backup, Recovery and Archival</p>
-                <p style="color: #333333;font-family:Montserrat;font-size:14px;line-height:23px;padding-left:50px;padding-right:50px;">Long-term storage for infrequently accessed files for regulatory, compliance, disaster recover, or archival purposes.</p>
-
-              <div class="spacer35"></div>
-
-                <p style="color:#333333;font-family:Montserrat;font-size:18px;font-weight:800;line-height:26px;padding-left:50px;padding-right:50px;">Media Content Storage and Delivery</p>
-                <p style="color: #333333;font-family:Montserrat;font-size:14px;line-height:23px;padding-left:50px;padding-right:50px;">Store large volumes of video, photo, or audio media, including tape / physical alternatives.</p>
-
-              <div class="spacer35"></div>
-
-                <p style="color:#333333;font-family:Montserrat;font-size:18px;font-weight:800;line-height:26px;padding-left:50px;padding-right:50px;">Hybrid Cloud Storage</p>
-                <p style="color: #333333;font-family:Montserrat;font-size:14px;line-height:23px;padding-left:50px;padding-right:50px;">Instantly available cloud to compliment your on-prem storage.</p>
-
-              <div class="spacer35"></div>
-
-                <p style="color:#333333;font-family:Montserrat;font-size:18px;font-weight:800;line-height:26px;padding-left:50px;padding-right:50px;">Large File Transfer</p>
-                <p style="color: #333333;font-family:Montserrat;font-size:14px;line-height:23px;padding-left:50px;padding-right:50px;">Temporary storage of large files for sharing or point-to-point transfers.</p>
-
-              <div class="spacer35"></div>
-
-                <p style="color:#333333;font-family:Montserrat;font-size:18px;font-weight:800;line-height:26px;padding-left:50px;padding-right:50px;">Log Files</p>
-                <p style="color: #333333;font-family:Montserrat;font-size:14px;line-height:23px;padding-left:50px;padding-right:50px;">Long-term storage and easy accessibility for log data.</p>
-
-            </div>
+{{partial "homeBenefits" .}}
         </div>
       </div>
     </div>
 
-            <section class="section">
-              <div class="container-fluid" style="	background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
-                <div class="container" style="padding:15px;">
-                  <div class="row">
-                    <div class="col-xs-10 col-xs-offset-1  col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center" style="padding:0px;">
-                        <div class="spacer45"></div>
-                      <h1 stlye="font-family:Montserrat;font-size:30px;font-weight:800;line-height:40px;">Stay Up-to-Date <br class="visible-xs">on the <br class=" visible-md visible-lg">Latest <br class="visible-xs">From Storj Labs</h1>
-                      <div class="spacer45"></div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-4">
-                      <div class="panel panel-card" style="height:250px;">
-                        <p style="height: 19px;	width: 276px;	color: #929292;	font-family: Montserrat;	font-size: 16px;	line-height: 19px;">BLOG</p>
-                        <h2 style="color:black;font-weight:700;">Developer Sprint Updates</h2>
-                        <div class="spacer10"></div>
-                        <a href="https://storj.io/blog/authors/brandon-iglesias/" style="height:22px;width: 276px;color: #2683FF;font-family: Montserrat;font-size: 18px;line-height: 22px;font-weight:600;">Read More &rarr;</a>
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4">
-                      <div class="panel panel-card" style="height:250px;">
-                        <p style="height: 19px;	width: 276px;	color: #929292;	font-family: Montserrat;	font-size: 16px;	line-height: 19px;font-weight:600;">Q3 2018 TOWN HALL</p>
-                        <h2 style="color:black;font-weight:700;">Town Hall <br>Recap</h2>
-                        <div class="spacer10"></div>
-                        <a href="https://storj.io/blog/2018/08/join-the-storj-labs-town-hall-on-september-12/" style="height:22px;width: 276px;color: #2683FF;font-family: Montserrat;font-size: 18px;line-height: 22px;font-weight:600;">Read and Watch &rarr;</a>
-                      </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-4">
-                      <div class="panel panel-card" style="height:250px;">
-                        <p style="height: 19px;	width: 276px;	color: #929292;	font-family: Montserrat;	font-size: 16px;	line-height: 19px;font-weight:600;">NEWS</p>
-                        <h2 style="color:black;font-weight:700;">Storj In The<br class="visible-xs"> Media</h2>
-                        <div class="spacer10"></div>
-                        <a href="https://storj.io/press" style="height:22px;width: 276px;color: #2683FF;font-family: Montserrat;font-size: 18px;line-height: 22px;font-weight:600;">Check out the latest &rarr;</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="spacer45"></div>
-                </div>
-              </div>
-            </section>
-
-        <div class="container">
-          <div class="row">
-
-              <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-push-2 text-center">
-                  <h1 style="margin-bottom:-30px;">Upcoming Milestones</h1>
-              </div>
-
-        <div class="col-md-12">
-          <div class="milestones" style="display:inline-block;width:100%;overflow-y:auto;">
-
-          <ul class="timeline timeline-horizontal">
-
-          <li class="timeline-item">
-            <div class="timeline-badge primary"></div>
-              <div class="timeline-panel-genesis">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #2683FF;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;" ><small>Internal V3 Network Testfire</small></p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #2683FF;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Private Alpha - Open Source Partners</small></p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #2683FF"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #2683FF;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>V3 Whitepaper Release</small></p>
-                </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #2683FF;box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #2683FF;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Public Alpha Launch</small></p>
-                </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-            <div class="timeline-panel">
-            <div class="timeline-heading">
-            <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small> Storage Node V3</small></p>
-            </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Storage Node Reputation Scores</small></p>
-                </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Public Alpha Wipe/V3 Beta Launch</small></p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Billing working</small></p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Free Tier Limits Imposed</small></p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>All Waitlist Invites sent</small></p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-item">
-            <div class="timeline-badge primary" style="background-color: #B8B8B8;"></div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                <p style="height: 67px;	color: #BBBBBB;	font-family: Montserrat;	font-size: 16px;	font-weight: 800;	line-height: 22px;"><small>Beta End/V3 Production Launch</small></p>
-              </div>
-            </div>
-          </li>
-
-      </ul>
+    <div class="spacer45"></div>
+{{partial "homePricing" .}}
     </div>
-  </div>
-</div>
+    
+{{partial "homeUseCases" .}}
+{{partial "homeStayUpToDate" .}}
+{{partial "homeMilestones" .}}  
 
 <div class="spacer10"></div>
 <div class="log-lg-4 col-lg-offset-0" style="padding-right:15px;">
@@ -455,47 +56,7 @@
 </div>
 </div>
 
-<div class="container-fluid" style="background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
-<section id="waitlist" class="c2a-wrapper">
-<div class="container">
-  <div class="row row-centered">
-    <div class="col-centered col-md-6">
-      <h1 class="text-center">Get First-come, First-served Access to Our New Network</h1>
-    </div>
-  </div>
-</div>
-
-<div class="spacer25"></div>
-
-<div class="container">
-  <div class="row row-centered">
-          <div class="col-md-5 col-sm-12 col-centered">
-            <div class="panel panel-card text-center">
-              <img src="img/icon-storage.svg" width="60">
-              <h3 style="font-size:20pt;line-height:26pt">Looking to store data <br class="visible-lg visible-md">at an affordable price?</h3>
-              <p style="font-size:12pt">Sign up for the developer waitlist and get early access to our affordable and resilient network when it launches.</p>
-              <div class="spacer25"></div>
-              <a href="https://storj.io/sign-up" class="btn">Join The Waitlist</a>
-                <div class="spacer10"></div>
-            </div>
-          </div>
-          <div class="col-md-5 col-sm-12 col-centered">
-            <div class="panel panel-card text-center">
-              <img src="img/icon-bethecloud.svg" width="60">
-              <h3 style="font-size:20pt;line-height:26pt">Want to rent us your <br class="visible-lg visible-md">hard drive space?</h3>
-              <p style="font-size:12pt">We refer to you as a storage node operator on V3. Healthy V2 nodes will receive priority access, then first-come, first-served entries.</p>
-              <div class="spacer25"></div>
-              <a href="https://storj.io/sign-up-farmer" class="btn">Join The Waitlist</a>
-                <div class="spacer10"></div>
-            </div>
-          </div>
-      </div>
-    </div>
-</div>
-</div>
-</section>
-</div>
-
+{{partial "homeWaitlists" .}}
 {{partial "footer" .}}
 {{partial "scripts" .}}
 
