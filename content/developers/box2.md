@@ -5,5 +5,6 @@ description: "Check out our GitHub to run a local V3 test network, follow our de
 ctaText: "STORJ ON GITHUB"
 ctaLink: "https://github.com/storj/storj/wiki"
 img: "/img/tryV3.svg"
+class: "devBox"
 ---
 

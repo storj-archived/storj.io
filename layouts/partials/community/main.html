@@ -1,12 +1,11 @@
+{{ range where .Site.Pages ".Params.class" "communityBox" }}
 <div class="col-xs-12 col-sm-12 col-md-4">
     <div class="panel panel-card">
-            {{ with .Site.GetPage "page" "communityBox1.md"}}
         <img src="{{.Params.img}}" alt="Getting Help" width="70" height="70">
         <h2 style="color:black;">{{.Params.heading}}</h2>
         <p style="color: rgba(0,0,0,0.8);">{{.Description}}</p>
         <div class="spacer10"></div>
         <a href="{{.Params.ctaLink}}" class="btn btn-block">{{.Params.ctaText}}</a>
-            {{end}}
-  </div>
+    </div>
 </div>
-
+{{end}}

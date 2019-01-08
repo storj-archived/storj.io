@@ -15,49 +15,11 @@
 
             <div class="spacer25"></div>
 
-            <div class="row" style="padding:0px;">
+            {{partial "partners/1stSetLogos" .}}
+            {{partial "partners/2ndSetLogos" .}}
 
-              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" style="padding:0px;">
-
-                  
-                  <img style="height:38px;width:164px;margin:2.4%;" src="/img/color-logos/couchbase.svg"/>
-                  
-
-                  <img style="height:47px;width:164px;margin:2.4%;" src="/img/color-logos/mongodb.svg"/>
-                  
-
-                  
-                  <img style="height:43px;width:43px;margin:2.4%;" src="/img/color-logos/filezilla.svg"/>
-                
-                  <img style="height:32px;width:139px;margin:2.4%;" src="/img/color-logos/influxdb.svg"/>
-                  
-
-                  <img style="height:45px;width:97px;margin:2.4%;" src="/img/color-logos/kafka-01.svg"/>
-               
-
-                </div>
-
-              </div>
-
-              <div class="row" style="padding:0px;">
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 text-center" style="padding:0px;">
-
-                  <img style="height:23px;width:96px;margin:3.6%;" src="/img/color-logos/minio.svg"/>
-                  
-                  <img style="height:51px;width:83px;margin:3.6%;" src="/img/color-logos/nextcloud.svg"/>
-
-                  <img style="height:51px;width:105px;margin:2.4%" src="/img/mariaDbHome.png"/>
-
-                  <img style="height:39px;width:97px;margin:2.4%;" src="/img/color-logos/plesk.svg"/>
-                
-                  <img style="height:39px;width:99px;margin:3.6%;" src="/img/color-logos/pydio.svg"/>
-
-                  <img style="height:32px;width:147px;margin:3.6%;" src="/img/color-logos/zenko-io.svg"/>                  
-
-              </div>
-          </div>
           <div class="spacer25"></div>
+
         </div>
 
 
@@ -72,207 +34,26 @@
                 <h2 style="font-size: 36px;	font-weight: 800;	line-height: 39px;text-align:center;">Benefits for our <br class="visible-xs"> Open-Source <br class="visible-xs">Partners:</h2>
 
               </div>
-            </div>
-      
-              
-              <div class="spacer35"></div>
+            </div>  
+    
+                  <div class="spacer35"></div>
 
-          <div class="container-fluid" style="margin:0px;padding:0px;">
-              <div class="row" style="margin:0px;padding:0px;">
-                     <div class="navbar col-xs-12 col-lg-10 col-lg-offset-1" style="padding:0px;">
-                           <ul class="nav nav-pills nav-justified text-center" style="padding:0px;">
-                              <li class="active" ><a id="val1" href="#value1" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:15px;">Revenue Sharing</a></li>
-                              <li><a id="val2" href="#value2" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:0px;padding-right:0px;padding-top:15px;padding-bottom:15px;">Open Source</a></li>
-                              <li><a id="val3" href="#value3" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:10px;padding-right:10px;padding-top:15px;padding-bottom:15px;">Platform Support</a></li>
-                              <li><a id="val4" href="#value4" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:0px;padding-right:0px;padding-top:15px;padding-bottom:15px;">Joint Marketing</a></li>
-                              <li><a id="val5" href="#value5" data-toggle="tab" style="margin:15px;border-radius:4px;font-weight:600;padding-left:5px;padding-right:5px;padding-top:15px;padding-bottom:15px;">Early Access</a></li>
-                           </ul>
-                        </div>
-                    </div>
-                </div>
-             
+                  {{partial "partners/benefitSelector" .}}  
 
                   <div class="spacer35"></div>
 
+                  {{partial "partners/tabContent" .}}
 
-                      <div class="row">
-                          <div class="col-xs-12 col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-1 col-lg-8 col-lg-offset-2">
-                  <div class="tab-content">
-
-                     <div class="tab-pane active" id="value1">
-                        <div class="row" style="margin:0px;">
-                          
-                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-
-                              <div class="col-md-1 col-sm-2 ">
-                                <img src="/img/icon-calculator.svg" height="125vw" width="125vw" style="margin-top:80px;">
-                              </div>
-
-                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
-                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:10%;">Revenue Sharing</h3>
-                                <div class="spacer15"></div>
-                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Open-source projects that incorporate Storj as a cloud storage option for their community can take advantage of our revenue sharing model. For every dollar Storj earns, we will share 10% with the referring open-source partner.</p>
-                                </div>
-
-                             </div>
-
-                             <div style="border:1px solid #EDEDED;height:600px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-
-                                <div class="col-xs-12 col-xs-offset-0 col-md-1 col-sm-2 ">
-                                  <img src="/img/icon-calculator.svg" height="125vw" width="125vw">
-                                </div>
-  
-                                  <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2 ">
-                                  <h3 style="font-weight:600;margin-top:10%;">Revenue Sharing</h3>
-                                  <div class="spacer15"></div>
-                                  <p style="font-size:14pt;">Open-source projects that incorporate Storj as a cloud storage option for their community can take advantage of our revenue sharing model. For every dollar Storj earns, we will share 10% with the referring open-source partner.</p>
-                                  </div>
-  
-                               </div>
-                          </div>
-                       </div>
-                     
-                     
-               
-                     <div class="tab-pane" id="value2">
-                        <div class="row" style="margin:0px;">
-                            <div style="border:1px solid #EDEDED;height:400px;" class=" visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-
-                                <div class="col-md-1 col-sm-2 ">
-                                <img src="/img/icon-opensource.svg" height="125vw" width="125vw" style="margin-top:75px;">
-                                </div>
-
-                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" >
-                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:5%;">Open Source</h3>
-                                <div class="spacer15"></div>
-                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;"><a href="https://storj.io/open-source">Open source</a> and decentralization go hand in hand. Decentralization supports the same ideology as the open-source developer community - putting power and control into the hands of everyone. All of the software components of the Storj Platform are completely <a href="https://storj.io/open-source">open source.</a></p>
-                                </div>
-                               </div>
-
-                               <div style="border:1px solid #EDEDED;height:750px;padding-left:0px;padding-right:0px;" class=" visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-
-                                  <div class="col-md-1 col-sm-2 ">
-                                  <img src="/img/icon-opensource.svg" height="125vw" width="125vw">
-                                  </div>
-  
-                                  <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" >
-                                  <h3 style="font-weight:600;margin-top:5%;">Open Source</h3>
-                                  <div class="spacer15"></div>
-                                  <p style="font-size:14pt;"><a href="https://storj.io/open-source">Open source</a> and decentralization go hand in hand. Decentralization supports the same ideology as the open-source developer community - putting power and control into the hands of everyone. All of the software components of the Storj Platform are completely <a href="https://storj.io/open-source">open source.</a></p>
-                                  </div>
-                                 </div>
-
-                           </div>
-                      </div>
-
-                     <div class="tab-pane" id="value3">
-                      <div class="row" style="margin:0px;">
-                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                              
-                                <div class="col-md-1 col-sm-2 ">
-                                <img src="/img/icon-dev.svg" height="110vw" width="110vw" style="margin-top:100px;margin-left:20px;">
-                                </div>
-
-                                 <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                                 <h3 style="font-weight:600;padding-left:30px;padding-right:10px;margin-top:15%;">Platform Support</h3>
-                                 <div class="spacer15"></div>
-                                 <p style="font-size:14pt;padding-left:30px;padding-right:10px;">Partners receive priority support for level 2/3 helpdesk requests. Storj handles user account, subscription, and billing management.</p>
-                                 </div>
-
-                                </div>
-
-                                <div style="border:1px solid #EDEDED;height:540px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                              
-                                    <div class="col-md-1 col-sm-2 ">
-                                    <img src="/img/icon-dev.svg" height="110vw" width="110vw" style="margin-top:20px;">
-                                    </div>
-    
-                                     <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                                     <h3 style="font-weight:600;margin-top:15%;">Platform Support</h3>
-                                     <div class="spacer15"></div>
-                                     <p style="font-size:14pt;">Partners receive priority support for level 2/3 helpdesk requests.Storj handles user account, subscription, and billing management.</p>
-                                     </div>
-    
-                                    </div>
-
-                            </div>
-                         </div>
-             
-                     <div class="tab-pane" id="value4">
-                      <div class="row" style="margin:0px;">
-                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                                                          
-                                <div class="col-md-1 col-sm-2">
-                                <img src="/img/icon-blog.svg" height="115vw" width="115vw" style="margin-top:110px;">
-                                </div>
-
-                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:12.5%;">Joint Marketing</h3>
-                                <div class="spacer15"></div>
-                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Create awareness and demand for your services within the Storj ecosystem and with your customers and prospects through joint and co-branded marketing and PR opportunities.</p>
-                                </div>
-                          </div>
-
-                          <div style="border:1px solid #EDEDED;height:600px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                                                          
-                              <div class="col-md-1 col-sm-2">
-                              <img src="/img/icon-blog.svg" height="115vw" width="115vw" style="margin-top:20px;">
-                              </div>
-
-                              <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                              <h3 style="font-weight:600;margin-top:12.5%;">Joint Marketing</h3>
-                              <div class="spacer15"></div>
-                              <p style="font-size:14pt;">Create awareness and demand for your services within the Storj ecosystem and with your customers and prospects through joint and co-branded marketing and PR opportunities.</p>
-                              </div>
-                        </div>
-
-                      </div>
-                  </div>
-
-                     <div class="tab-pane" id="value5">
-                      <div class="row" style="margin:0px;">
-                            <div style="border:1px solid #EDEDED;height:400px;" class="visible-sm visible-md visible-lg col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                            
-                              <div class="col-md-1 col-sm-2 ">
-                                <img src="/img/icon-oneclickstart.svg" height="125vw" width="125vw" style="margin-top:100px;">
-                              </div>
-
-                                <div class="col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                                <h3 style="font-weight:600;padding-left:20px;padding-right:10px;margin-top:20%;">Early Platform Access</h3>
-                                <div class="spacer15"></div>
-                                <p style="font-size:14pt;padding-left:20px;padding-right:10px;">Get exclusive access to to our V3 White Paper, product roadmap, private Alpha, Beta, and more.</p>
-                                </div>
-                            </div>
-
-                            <div style="border:1px solid #EDEDED;height:500px;padding-left:0px;padding-right:0px;" class="visible-xs col-xs-12 col-sm-12 col-md-10 col-lg-12 panel-card-partners">
-                            
-                                <div class="col-md-1 col-sm-2 ">
-                                  <img src="/img/icon-oneclickstart.svg" height="125vw" width="125vw">
-                                </div>
-  
-                                  <div class="col-xs-12 col-xs-offset-0 col-md-9 col-md-offset-2 col-sm-8 col-sm-offset-2" style="padding:5px;">
-                                  <h3 style="font-weight:600;margin-top:20%;">Early Platform Access</h3>
-                                  <div class="spacer15"></div>
-                                  <p style="font-size:14pt;">Get exclusive access to to our V3 White Paper, product roadmap, private Alpha, Beta, and more.</p>
-                                  </div>
-                              </div>
-
-                        </div>
-                    </div>
-                  </div>
+          <div class="container-fluid">
+            <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+            
+                <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                          <div class="spacer45"></div>
+                          <div class="spacer45"></div>
+                        <h1 style="font-size:30px;text-align: center;">Why Your End-Users Will Love Us:</h1>
+                      </div>  
                 </div>
-                </div>
-
-<div class="container-fluid">
-  <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-  
-      <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="spacer45"></div>
-                 <div class="spacer45"></div>
-              <h1 style="font-size:30px;text-align: center;">Why Your End-Users Will Love Us:</h1>
-            </div>  
-      </div>
       <!--not restarted start-->
           <div class="row">
    

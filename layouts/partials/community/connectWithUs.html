@@ -9,54 +9,16 @@
       <div class="row">
         <div class="col-lg-12 text-center">
 
+{{ range where .Site.Pages ".Params.class" "cwu" }}
         <div class="col-lg-2">
-          <a href="https://storj.io/blog/" target="_blank" class="panel-link">
+          <a href="{{.Params.link}}" target="_blank" class="panel-link">
             <div class="panel panel-card">
-              <img src="/img/icon-blog.svg" alt="The Storj Blog" height="40" width="40">
-              <h4>Blog</h4>
+              <img src="{{.Params.img}}" alt="" height="40" width="40">
+              <h4>{{.Params.txt}}</h4>
             </div>
           </a>
         </div>
-        <div class="col-lg-2">
-          <a href="https://www.reddit.com/r/Storj" target="_blank" class="panel-link">
-            <div class="panel panel-card">
-              <img src="/img/icon-reddit.svg" alt="Storj on Reddit" height="40" width="40">
-              <h4>r/Storj</h4>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2">
-          <a href="https://twitter.com/storjproject" target="_blank" class="panel-link">
-            <div class="panel panel-card">
-              <img src="/img/icon-twitter.svg" alt="Storj on Twitter" height="40" width="40">
-              <h4>Twitter</h4>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2">
-          <a href="https://www.facebook.com/storjproject" target="_blank" class="panel-link">
-            <div class="panel panel-card">
-              <img src="/img/icon-facebook.svg" alt="Storj on Facebook" height="40" width="40">
-              <h4>Facebook</h4>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2">
-          <a href="https://www.youtube.com/StorjLabs" target="_blank" class="panel-link">
-            <div class="panel panel-card">
-              <img src="/img/icon-youtube.svg" alt="Storj on Youtube" height="40" width="40">
-              <h4>YouTube</h4>
-            </div>
-          </a>
-        </div>
-        <div class="col-lg-2">
-            <a href="https://medium.com/@storjproject" target="_blank" class="panel-link">
-              <div class="panel panel-card">
-                <img src="/img/icon-medium.svg" alt="Storj on Medium" height="40" width="40">
-                <h4>Medium</h4>
-              </div>
-            </a>
-          </div>
+{{end}}
       </div>
     </div>
   </section>
@@ -71,54 +33,16 @@
     </div>
     <div class="row">
       <div class="col-lg-12 col-lg-offset-1 text-center">
+{{ range where .Site.Pages ".Params.class" "cwu" }}
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <a href="https://storj.io/blog/" target="_blank" class="panel-link">
+        <a href="{{.Params.link}}" target="_blank" class="panel-link">
           <div class="panel panel-card">
-            <img src="/img/icon-blog.svg" alt="The Storj Blog" height="40" width="40">
-            <h4>Blog</h4>
+            <img src="{{.Params.img}}" alt="" height="40" width="40">
+            <h4>{{.Params.txt}}</h4>
           </div>
         </a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-6">
-        <a href="https://www.reddit.com/r/Storj" target="_blank" class="panel-link">
-          <div class="panel panel-card">
-            <img src="/img/icon-reddit.svg" alt="Storj on Reddit" height="40" width="40">
-            <h4>r/Storj</h4>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6">
-        <a href="https://twitter.com/storjproject" target="_blank" class="panel-link">
-          <div class="panel panel-card">
-            <img src="/img/icon-twitter.svg" alt="Storj on Twitter" height="40" width="40">
-            <h4>Twitter</h4>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6">
-        <a href="https://www.facebook.com/storjproject" target="_blank" class="panel-link">
-          <div class="panel panel-card">
-            <img src="/img/icon-facebook.svg" alt="Storj on Facebook" height="40" width="40">
-            <h4>Facebook</h4>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6">
-        <a href="https://www.youtube.com/StorjLabs" target="_blank" class="panel-link">
-          <div class="panel panel-card">
-            <img src="/img/icon-youtube.svg" alt="Storj on Youtube" height="40" width="40">
-            <h4>YouTube</h4>
-          </div>
-        </a>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-md-6">
-          <a href="https://medium.com/@storjproject" target="_blank" class="panel-link">
-            <div class="panel panel-card">
-              <img src="/img/icon-medium.svg" alt="Storj on Medium" height="40" width="40">
-              <h4>Medium</h4>
-            </div>
-          </a>
-        </div>
+      {{end}}
     </div>
   </div>
 </section>

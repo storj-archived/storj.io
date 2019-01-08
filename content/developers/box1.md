@@ -5,5 +5,6 @@ description: "Sign up for the developer waitlist and get early access to our aff
 ctaText: "JOIN THE WAITLIST"
 ctaLink: "https://storj.io/sign-up"
 img: "/img/drive-cloud.svg"
+class: "devBox"
 ---
 
