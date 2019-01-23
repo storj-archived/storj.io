@@ -2,47 +2,9 @@ baseURL = "/"
 languageCode = "en-us"
 title = "Storj.io"
 
-sectionPagesMenu = "main"
-
-
-[menu]
-
-  [[menu.main]]
-    identifier = "developers"
-    name = "Developers"
-    title = "developers section"
-    url = "/developers"
-    weight = 1
-
-  [[menu.main]]
-    identifier = "community"
-    name = "Community"
-    title = "community section"
-    url = "/community"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "support"
-    name = "Support"
-    title = "support section"
-    url = "https://storjlabs.atlassian.net/servicedesk/customer/portals"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "partners"
-    name = "Partners"
-    title = "partners section"
-    url = "/partners"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    title = "blog section"
-    url = "https://storj.io/blog"
-    weight = 5
-
 [permalinks]
   developers = "/developers/"
   community = "/community/"
   partners = "/partners/"
+  support = "https://storjlabs.atlassian.net/servicedesk/customer/portals"
+  blog = "https://storj.io/blog"

@@ -7,4 +7,3 @@ ctaLink: "https://storj.io/sign-up"
 img: "/img/drive-cloud.svg"
 class: "devBox"
 ---
-

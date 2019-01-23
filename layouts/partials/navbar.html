@@ -13,9 +13,9 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav">
-            {{ range .Site.Menus.main }}
-            <li><a style="font-size: .9em" class="link" href="{{ .URL }}">{{ .Name }}</a></li>
-            {{end}}
+          {{range where .Site.Pages ".Params.class" "navitem"}}
+            <li><a style="font-size: .9em" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
+          {{end}}
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
