@@ -6,13 +6,13 @@
 <body class="home">
 	<section class="header" style="height:100%;">
     <div class="header-bg"></div>
-    {{partial "navbar" .}}
+    {{partial "home/navbar" .}}
     <div class="container ">
         <div class="row">
             <div class="spacer30"></div>
           <div class="col-xs-12 col-sm-10 col-md-6 col-md-offset-0 col-lg-6" style="padding-right:10px;">
             <div class="spacer20"></div>
-              {{partial "homeHero" .}}
+              {{partial "home/Hero" .}}
               </div>
                 </div>
                   <div class="spacer45"></div>
@@ -23,12 +23,12 @@
   <div class="container-fluid" style="	background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
     <div class="container">
       <div class="row text-center">
-{{partial "homeWhitePaper" .}}
+{{partial "home/WhitePaper" .}}
           <div class="spacer50"></div>
         </div>
       </div>
     </div>
-{{partial "homePartners" .}}
+{{partial "home/Partners" .}}
       <div class="spacer25"></div>
 </div>
     <div class="spacer45"></div>
@@ -36,18 +36,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-{{partial "homeBenefits" .}}
+{{partial "home/Benefits" .}}
         </div>
       </div>
     </div>
 
     <div class="spacer45"></div>
-{{partial "homePricing" .}}
+{{partial "home/Pricing" .}}
     </div>
     
-{{partial "homeUseCases" .}}
-{{partial "homeStayUpToDate" .}}
-{{partial "homeMilestones" .}}  
+{{partial "home/UseCases" .}}
+{{partial "home/StayUpToDate" .}}
+{{partial "home/Milestones" .}}  
 
 <div class="spacer10"></div>
 <div class="log-lg-4 col-lg-offset-0" style="padding-right:15px;">
@@ -56,7 +56,7 @@
 </div>
 </div>
 
-{{partial "homeWaitlists" .}}
+{{partial "home/Waitlists" .}}
 {{partial "footer" .}}
 {{partial "scripts" .}}
 

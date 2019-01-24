@@ -10,8 +10,8 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-            {{ range .Site.Menus.main }}
-            <li><a style="font-size: .9em;color:white;" class="link" href="{{ .URL }}">{{ .Name }}</a></li>
+            {{ range where .Site.Pages ".Params.class" "navitem" }}
+                <li><a style="font-size: .9em;color:white;" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
             {{end}}
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -64,8 +64,8 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
               <ul class="nav navbar-nav">
-                    {{ range .Site.Menus.main }}
-                    <li><a style="font-size: .9em;color:white;" class="link" href="{{ .URL }}">{{ .Name }}</a></li>
+                  {{ range where .Site.Pages ".Params.class" "navitem" }}
+                  <li><a style="font-size: .9em;color:white;" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
                     {{end}}
               </ul>
               <ul class="nav navbar-nav navbar-right">
