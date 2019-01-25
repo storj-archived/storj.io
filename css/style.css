@@ -3261,3 +3261,8 @@ left: 43px;
   background: url("../img/dev-banner-image.png") center top no-repeat;
   background-size: cover;
 }
+
+.invited{
+    background: url("../img/invited.png") center top no-repeat;
+    background-size: 900px;
+}
