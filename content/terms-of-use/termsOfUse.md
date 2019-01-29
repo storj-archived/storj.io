@@ -6,7 +6,7 @@ lastUpdated : "July 1, 2016"
 
 <p>By accessing or using the websites, mobile applications and online services of Storj Labs Inc. (“<b>Company</b>,” “<b>we</b>,” or “<b>us</b>”), including storj.io, (collectively, the “<b>Services</b>”) you will be bound by these Terms of Use (“<b>Terms</b>”) and all terms incorporated by reference.  If you do not agree to these Terms, you may not access or use the Services. </p>
 
-<p>If you have any questions regarding these Terms, please contact us at <a href="mailto:hello@storj.io" class="link">hello@storj.io</a>.  Please refer to our <a href="privacy-policy.html" class="link">Privacy Policy</a> for information about how we collect, use and disclose information about you.</p>
+<p>If you have any questions regarding these Terms, please contact us at <a href="mailto:hello@storj.io" class="link">hello@storj.io</a>.  Please refer to our <a href="/privacy-policy/" class="link">Privacy Policy</a> for information about how we collect, use and disclose information about you.</p>
 
 <p>You and Company agree as follows:</p>
 
@@ -16,7 +16,7 @@ lastUpdated : "July 1, 2016"
 
 <p><b>2. Storage Terms</b></p>
 
-<p>Your use of the Services to access and use the distributed cloud storage platform (“<b>Storage Platform</b>”) is subject to these Terms and to our <a href="terms-of-service.html" class="link">Storage Terms of Service</a> (“<b>Storage Terms</b>”).  The Storage Terms are incorporated into and supplement these Terms.  The Storage Terms will control to the extent of any conflict with these Terms.  These Terms and the Storage Terms are collectively referred to as the “Agreement.”</p>
+<p>Your use of the Services to access and use the distributed cloud storage platform (“<b>Storage Platform</b>”) is subject to these Terms and to our <a href="/terms-of-service/" class="link">Storage Terms of Service</a> (“<b>Storage Terms</b>”).  The Storage Terms are incorporated into and supplement these Terms.  The Storage Terms will control to the extent of any conflict with these Terms.  These Terms and the Storage Terms are collectively referred to as the “Agreement.”</p>
 
 <p><b>3. Open Source Software</b></p>
 
@@ -88,7 +88,7 @@ lastUpdated : "July 1, 2016"
 
 <p><b>11. Limited Rights in User Content </b></p>
 
-<p>You grant Company a non-exclusive, worldwide, perpetual, right to use, reproduce, modify, create derivative works from, distribute, publicly perform and publicly display all User Content (other than Storage Materials) in connection with the Services.  Please refer to the <a href="terms-of-service.html" class="link">Storage Terms</a> for the rights you grant us with respect to Storage Materials.</p>
+<p>You grant Company a non-exclusive, worldwide, perpetual, right to use, reproduce, modify, create derivative works from, distribute, publicly perform and publicly display all User Content (other than Storage Materials) in connection with the Services.  Please refer to the <a href="/terms-of-service/" class="link">Storage Terms</a> for the rights you grant us with respect to Storage Materials.</p>
 
 <p><b>12. Feedback</b></p>
 

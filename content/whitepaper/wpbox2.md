@@ -1,7 +1,7 @@
 ---
 heading : "Rent us Your Extra Hard Drive Space"
 icon : "/img/icon-cloud-network.svg"
-ctaLink : "https://storj.io/sign-up-farmer"
+ctaLink : "/sign-up-farmer/"
 ctaText : "Join the Waitlist"
 weight : 2
 class : "wpbox"

@@ -13,7 +13,7 @@ and other online services of Company that you may use to access and use the Stor
 
 <p><b>1. Storj Labs Terms of Use</b></p>
 
-<p>These Storage Terms incorporate by reference and supplement the <a target="_blank" href="https://storj.io/terms-of-use.html" class="link">Storj Labs Terms of Use</a>.
+<p>These Storage Terms incorporate by reference and supplement the <a target="_blank" href="/terms-of-use/" class="link">Storj Labs Terms of Use</a>.
 The Storj Labs Terms of Use govern all access to and use of the Services, including the Storage Services. You agree to be bound by and comply with the Storj Labs
 Terms of Use in connection with your access and use of the Services (including the Storage Services). The Storj Labs Terms of Use and these Storage Terms are
 collectively referred to as the “<b>Agreement</b>.” PLEASE MAKE SURE YOU READ THE STORJ LABS TERMS OF USE CAREFULLY. THEY CONTAIN LIMITATIONS OF LIABILITY,
@@ -72,7 +72,7 @@ You are solely responsible for backing up any Storage Materials.</p>
 <p>(d) You are responsible for properly configuring and using the Storage Services to store your Storage Materials via the Storage Platform, and for
 maintaining appropriate security of your Storage Materials, which may include the use of encryption. We reserve the right at any time, without notice,
 to remove, reject or delete any Storage Materials that contain plain text data or otherwise violate the terms of this Agreement
-(including the <a href="/terms-of-use.html">Storj Labs Terms of Use</a> relating to User Content).</p>
+(including the <a href="/terms-of-use/">Storj Labs Terms of Use</a> relating to User Content).</p>
 <p>(e) You are solely responsible for ensuring that any processing of Storage Materials via the Storage Services is in compliance with all applicable laws.
 We make no representations or warranties regarding the suitability of the Storage Services for the processing of any particular types of data.
 You will provide all notices to, and obtain any consents from, third parties as required by applicable law in connection with the processing of
