@@ -3266,3 +3266,7 @@ left: 43px;
     background: url("../img/invited.png") center top no-repeat;
     background-size: 900px;
 }
+
+.estimator-link:hover {
+  text-decoration: none;
+}
