@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="54px" viewBox="0 0 44 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>tar-com-calc</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#E9EFF1" offset="0%"></stop>
+            <stop stop-color="#B1BCC8" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="42.6315789" height="54" rx="8"></rect>
+        <filter x="-16.4%" y="-9.3%" width="132.8%" height="125.9%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.771908967   0 0 0 0 1  0 0 0 0 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#00FFD3" offset="0%"></stop>
+            <stop stop-color="#83FFF4" offset="100%"></stop>
+        </linearGradient>
+        <path d="M7.73684211,4.73684211 L34.8947368,4.73684211 C36.5515911,4.73684211 37.8947368,6.07998786 37.8947368,7.73684211 L37.8947368,13.1052632 C37.8947368,14.7621174 36.5515911,16.1052632 34.8947368,16.1052632 L7.73684211,16.1052632 C6.07998786,16.1052632 4.73684211,14.7621174 4.73684211,13.1052632 L4.73684211,7.73684211 C4.73684211,6.07998786 6.07998786,4.73684211 7.73684211,4.73684211 Z" id="path-5"></path>
+        <filter x="-7.5%" y="-22.0%" width="115.1%" height="144.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.280570652 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tar-com-calc" transform="translate(0.548625, 0.000000)" fill-rule="nonzero">
+            <g id="Rectangle-Copy-22">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <rect stroke-opacity="0.139917346" stroke="#000000" stroke-width="1" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd" x="0.5" y="0.5" width="41.6315789" height="53" rx="8"></rect>
+            </g>
+            <g id="Rectangle">
+                <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                <path stroke-opacity="0.12463202" stroke="#000000" stroke-width="1" d="M7.73684211,5.23684211 C6.35613023,5.23684211 5.23684211,6.35613023 5.23684211,7.73684211 L5.23684211,13.1052632 C5.23684211,14.485975 6.35613023,15.6052632 7.73684211,15.6052632 L34.8947368,15.6052632 C36.2754487,15.6052632 37.3947368,14.485975 37.3947368,13.1052632 L37.3947368,7.73684211 C37.3947368,6.35613023 36.2754487,5.23684211 34.8947368,5.23684211 L7.73684211,5.23684211 Z" stroke-linejoin="square"></path>
+            </g>
+            <path d="M10.1219519,19.5197368 C12.2567384,19.5197368 13.9873249,21.2503233 13.9873249,23.3851098 C13.9873249,25.5198963 12.2567384,27.2504827 10.1219519,27.2504827 C7.98716537,27.2504827 6.25657895,25.5198963 6.25657895,23.3851098 C6.25657895,21.2503233 7.98716537,19.5197368 10.1219519,19.5197368 Z M10.1219519,29.8523303 C12.2567384,29.8523303 13.9873249,31.5829167 13.9873249,33.7177033 C13.9873249,35.8524898 12.2567384,37.5830762 10.1219519,37.5830762 C7.98716537,37.5830762 6.25657895,35.8524898 6.25657895,33.7177033 C6.25657895,31.5829167 7.98716537,29.8523303 10.1219519,29.8523303 Z M10.1219519,40.1849238 L21.2301838,40.1849238 C23.3649703,40.1849238 25.0955568,41.9155102 25.0955568,44.0502967 C25.0955568,46.1850833 23.3649703,47.9156697 21.2301838,47.9156697 L10.1219519,47.9156697 C7.98716537,47.9156697 6.25657895,46.1850833 6.25657895,44.0502967 C6.25657895,41.9155102 7.98716537,40.1849238 10.1219519,40.1849238 Z M21.2301838,19.5197368 C23.3649703,19.5197368 25.0955568,21.2503233 25.0955568,23.3851098 C25.0955568,25.5198963 23.3649703,27.2504827 21.2301838,27.2504827 C19.0953973,27.2504827 17.3648109,25.5198963 17.3648109,23.3851098 C17.3648109,21.2503233 19.0953973,19.5197368 21.2301838,19.5197368 Z M21.2301838,29.8523303 C23.3649703,29.8523303 25.0955568,31.5829167 25.0955568,33.7177033 C25.0955568,35.8524898 23.3649703,37.5830762 21.2301838,37.5830762 C19.0953973,37.5830762 17.3648109,35.8524898 17.3648109,33.7177033 C17.3648109,31.5829167 19.0953973,29.8523303 21.2301838,29.8523303 Z M32.3384157,19.5197368 C34.4732022,19.5197368 36.2037887,21.2503233 36.2037887,23.3851098 C36.2037887,25.5198963 34.4732022,27.2504827 32.3384157,27.2504827 C30.2036292,27.2504827 28.4730428,25.5198963 28.4730428,23.3851098 C28.4730428,21.2503233 30.2036292,19.5197368 32.3384157,19.5197368 Z M32.3384157,29.8523303 C34.4732022,29.8523303 36.2037887,31.5829167 36.2037887,33.7177033 C36.2037887,35.8524898 34.4732022,37.5830762 32.3384157,37.5830762 C30.2036292,37.5830762 28.4730428,35.8524898 28.4730428,33.7177033 C28.4730428,31.5829167 30.2036292,29.8523303 32.3384157,29.8523303 Z M32.3384157,40.1849238 C34.4732022,40.1849238 36.2037887,41.9155102 36.2037887,44.0502967 C36.2037887,46.1850833 34.4732022,47.9156697 32.3384157,47.9156697 C30.2036292,47.9156697 28.4730428,46.1850833 28.4730428,44.0502967 C28.4730428,41.9155102 30.2036292,40.1849238 32.3384157,40.1849238 Z" id="Combined-Shape" stroke-opacity="0.0847769475" stroke="#000000" stroke-width="0.75" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
