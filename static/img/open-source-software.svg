@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="64px" viewBox="0 0 59 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>tar-com-badge-star</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="14.645243%" y1="85.354757%" x2="85.354757%" y2="14.645243%" id="linearGradient-1">
+            <stop stop-color="#10B0FF" offset="0%"></stop>
+            <stop stop-color="#08EBBF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#205193" offset="0%"></stop>
+            <stop stop-color="#0383FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="53.8585417%" y1="104.774343%" x2="2.99108529%" y2="13.1877635%" id="linearGradient-3">
+            <stop stop-color="#10B0FF" offset="0%"></stop>
+            <stop stop-color="#08EBBF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M4,5.86224828 L4,25.9620667 C4,35.1340291 8.49355843,43.6854351 15.9457072,48.6951844 L28.3521127,57.0354609 L40.7585181,48.6951844 C48.2106669,43.6854351 52.7042254,35.1340291 52.7042254,25.9620667 L52.7042254,5.86224828 C46.9898895,4.81040803 38.8090858,4.22606801 28.3521127,4.22606801 C17.8951396,4.22606801 9.71433587,4.81040803 4,5.86224828 Z" id="path-4"></path>
+        <filter x="-5.1%" y="-2.8%" width="110.3%" height="111.4%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-7.2%" y="-4.7%" width="114.4%" height="115.1%" filterUnits="objectBoundingBox" id="filter-6">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-7" points="28.7816901 36.0105634 20.4492133 40.3912057 22.0405748 31.1128564 15.2994594 24.5418929 24.6154517 23.1882 28.7816901 14.7464789 32.9479286 23.1882 42.2639209 24.5418929 35.5228055 31.1128564 37.114167 40.3912057"></polygon>
+        <filter x="-1.1%" y="-3.5%" width="102.2%" height="97.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="0.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.203747736 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tar-com-badge-star" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+            <path d="M-0.183817004,2.97163444 C5.30431149,0.802079008 14.8064743,-0.273931988 28.3521127,-0.273931988 C41.8977511,-0.273931988 51.3999139,0.802079008 56.8880424,2.97163444 L57.2042254,3.09662724 L57.2042254,26.8461325 C57.2042254,37.1539641 51.9977909,46.7643888 43.3634035,52.3945529 L28.3521127,62.1828593 L13.3408219,52.3945529 C4.70643446,46.7643888 -0.5,37.1539641 -0.5,26.8461325 L-0.5,3.09662724 L-0.183817004,2.97163444 Z" id="Rectangle" stroke="url(#linearGradient-2)" fill="url(#linearGradient-1)" opacity="0.613048735"></path>
+            <path d="M-1.13686838e-13,3.43661972 C5.41429519,1.29625191 14.8649994,0.226068012 28.3521127,0.226068012 C41.8392259,0.226068012 51.2899302,1.29625191 56.7042254,3.43661972 L56.7042254,26.8461325 C56.7042254,36.9849833 51.5831423,46.43786 43.0903022,51.9757263 L28.3521127,61.5859535 L13.6139231,51.9757263 C5.12108307,46.43786 -3.2139156e-14,36.9849833 -6.03961325e-14,26.8461325 L-1.13686838e-13,3.43661972 Z" id="Rectangle-Copy-11" fill="#FFFFFF"></path>
+            <path d="M-1.13686838e-13,3.43661972 C5.41429519,1.29625191 14.8649994,0.226068012 28.3521127,0.226068012 C41.8392259,0.226068012 51.2899302,1.29625191 56.7042254,3.43661972 L56.7042254,26.8461325 C56.7042254,36.9849833 51.5831423,46.43786 43.0903022,51.9757263 L28.3521127,61.5859535 L13.6139231,51.9757263 C5.12108307,46.43786 -3.2139156e-14,36.9849833 -6.03961325e-14,26.8461325 L-1.13686838e-13,3.43661972 Z" id="Rectangle-Copy-11" fill="url(#linearGradient-1)"></path>
+            <g id="Path">
+                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                <use fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-4"></use>
+            </g>
+            <g id="Star">
+                <use fill="#FFFFFF" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>

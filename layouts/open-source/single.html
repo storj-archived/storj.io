@@ -3,27 +3,12 @@
   <head>
     {{partial "head" .}}
 </head>
-
   <body class="page faq">
-
   <section>
       {{partial "partners/heroNav" .}}
   </section>
-{{ with .Site.GetPage "opensource" }}
-
-    <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
-
-             {{ .Content }}
-
-        <div class="spacer5"></div>
-      </section>
-{{ end }}
-
+      {{partial "open-source/main" .}}
       {{partial "footer" .}}
       {{partial "scripts" .}}
-      
     </body>
 </html>

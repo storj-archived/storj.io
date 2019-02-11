@@ -3,22 +3,11 @@
   <head>
     {{partial "head" .}}
 </head>
-
 <body class="page">
-
-  <div class="container-fluid white-paper-header-bg visible-lg">
-
-      {{ partial "whitepaper/heroNav" .}}
-
-        <section class="section" style="padding:0px;">
-          {{partial "whitepaper/ctas" .}}
-        </section>
-
-         <section>
-          {{partial "whitepaper/prevreleases" .}}
-        </section>
-
-    {{partial "footer" .}}
-    {{partial "scripts" .}}
+{{ partial "whitepaper/heroNav" .}}
+{{partial "whitepaper/ctas" .}}
+{{partial "whitepaper/prevreleases" .}}
+{{partial "footer" .}}
+{{partial "scripts" .}}
 </body>
 </html>

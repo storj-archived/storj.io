@@ -4,61 +4,18 @@
     {{partial "head" .}}
   </head>
 <body class="home">
-	<section class="header" style="height:100%;">
-    <div class="header-bg"></div>
     {{partial "home/navbar" .}}
-    <div class="container ">
-        <div class="row">
-            <div class="spacer30"></div>
-          <div class="col-xs-12 col-sm-10 col-md-6 col-md-offset-0 col-lg-6" style="padding-right:10px;">
-            <div class="spacer20"></div>
-              {{partial "home/Hero" .}}
-              </div>
-                </div>
-                  <div class="spacer45"></div>
-                  <div class="spacer45"></div>
-                </div>
-            </div>
-  </section>
-  <div class="container-fluid" style="	background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
-    <div class="container">
-      <div class="row text-center">
-{{partial "home/WhitePaper" .}}
-          <div class="spacer50"></div>
-        </div>
-      </div>
-    </div>
-{{partial "home/Partners" .}}
-      <div class="spacer25"></div>
-</div>
-    <div class="spacer45"></div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
-{{partial "home/Benefits" .}}
-        </div>
-      </div>
-    </div>
-
-    <div class="spacer45"></div>
-{{partial "home/Pricing" .}}
-    </div>
-    
-{{partial "home/UseCases" .}}
-{{partial "home/StayUpToDate" .}}
-{{partial "home/Milestones" .}}  
-
-<div class="spacer10"></div>
-<div class="log-lg-4 col-lg-offset-0" style="padding-right:15px;">
-<p style="font-family: Montserrat;	font-size: 16px;	font-weight: bold;	line-height: 26px;	text-align: center;">Follow our progress on and plans on <a href="https://storjlabs.aha.io/published/01ee405b4bd8d14208c5256d70d73a38">our public roadmap.</a></p>
-<div class="spacer50"></div>
-</div>
-</div>
-
-{{partial "home/Waitlists" .}}
-{{partial "footer" .}}
-{{partial "scripts" .}}
-
+    {{partial "home/Hero" .}}
+    {{partial "home/freshUpdate" .}}
+    {{partial "home/learnOSP" .}}
+    {{partial "home/Benefits" .}}
+    {{partial "home/Pricing" .}}
+    {{partial "home/UseCases" .}}
+    {{partial "home/StayUpToDate" .}}
+    {{partial "home/Milestones" .}}  
+    {{partial "home/Waitlists" .}}
+    {{partial "home/Partners" .}}
+    {{partial "footer" .}}
+    {{partial "scripts" .}}
 </body>
 </html>

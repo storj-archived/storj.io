@@ -2,7 +2,7 @@
 title: "Milestone1"
 class: "milestone"
 completed: true
-current : false
+current : true
 weight: 1
-text: "Internal V3 Network Testfire"
+text: "Explorer: Storage Nodes Alpha"
 ---

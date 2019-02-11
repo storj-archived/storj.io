@@ -4,19 +4,9 @@
 {{partial "head" .}}
 </head>
 <body class="page">
-    <div class="container-fluid dev-page-banner visible-md visible-lg" style="overflow: hidden;padding:0px;margin:0px;">
-{{partial "developers/heroNav" .}}
-      <div class="container-fluid" style="background-color: #F2F4F6;">
-          <div class="spacer30"></div>
-          <section class="section">
-            <div class="container">
-              <div class="row text-center">
-                    {{partial "developers/main" .}}
-              </div>
-            </div>
-          </section>
-          </div>
-          {{partial "footer" .}}
-          {{partial "scripts" .}}
+  {{partial "developers/heroNav" .}}
+  {{partial "developers/main" .}}
+  {{partial "footer" .}}
+  {{partial "scripts" .}}
   </body>
 </html>

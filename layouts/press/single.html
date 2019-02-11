@@ -3,41 +3,12 @@
   <head>
     {{partial "head" .}}
   </head>
-
-  <body class="page">
-
-      {{partial "partners/heroNav" .}}
-
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h3 class="title">Storj in the News</h3>
-            <p class="lead text-center">For branding resources, go to the <a href="press-kit.html" class="link">press kit</a>.</p>
-            <div class="spacer50"></div>
-          </div>
-        </div>
-
-{{range where .Site.Pages.ByDate.Reverse ".Params.class" "newPressArticle"}}
-        <div class="row">
-          <div class="col-xs-12 col-sm-3 col-lg-2">
-            <p class="press-date">{{ dateFormat "January 2, 2006" .Date }}</p>
-          </div>
-          <div class="col-xs-12 col-sm-9 col-lg-10">
-            <span class="press-source">{{.Params.publishedBy}}</span>
-            <h4><a href="{{.Params.link}}" target="_blank" class="press-title link">{{.Params.articleName}}</a></h4>
-          </div>
-        </div>
-        <hr>  
-{{end}}
-
-{{partial "press/premigration" .}}
-
-      </div>
-    </div>
-
+<body class="page">
+    {{partial "partners/heroNav" .}}
+    {{partial "press/pressHeading" .}}
+    {{partial "press/postMigration" .}}
+    {{partial "press/premigration" .}}
     {{partial "footer" .}}
     {{partial "scripts" .}}
-
   </body>
 </html>

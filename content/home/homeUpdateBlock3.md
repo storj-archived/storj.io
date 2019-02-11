@@ -1,9 +1,9 @@
 ---
 title: "HomeUpdateBlock3"
-heading: "NEWS"
-description: "Storj In The Media"
-ctaText: "Check out the latest"
-ctaLink: "/press/"
+heading: "WHITEPAPER"
+description: "V3 Whitepaper Updated"
+ctaText: "Read More"
+ctaLink: "/whitepaper/"
 class: "homeUpdateBlock"
 ---
 

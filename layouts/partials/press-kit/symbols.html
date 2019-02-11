@@ -1,0 +1,27 @@
+{{with .Site.GetPage "subheading2.md"}}
+<div class="row">
+  <div class="col-md-12 text-center">
+    <h3 class="title">{{.Params.heading}}</h3>
+    <p>{{.Params.subText}}</p>
+  </div>
+</div>
+{{end}}
+
+{{ range where .Site.Pages ".Params.class" "press-kit-symbol"}}
+<div class="col-md-6">
+    <div class="presskit-logo {{.Params.bkgrndColor}}">
+      <img src="{{.Params.symbolImg}}.png" alt="">
+      <div class="row">
+        <div class="col-xs-6">
+          <p class="text-left">Symbol ({{.Params.symbolColor}})</p>
+        </div>
+        <div class="col-xs-6 text-right">
+          <p>
+            <a href="{{.Params.symbolLink}}.png" class="link text-right">.PNG</a>
+            <a href="{{.Params.symbolLink}}.svg" class="link text-right">.SVG</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}

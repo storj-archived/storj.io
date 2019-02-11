@@ -1,11 +1,11 @@
 <section class="pricing section text-center" id="pricing">
-        <div class="container-fluid" style="background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
+        <div class="container-fluid" >
 {{ with .Site.GetPage "page" "homePricing.md"}}
         <div class="container">
           <div class="row">
             <div class="col-lg-10 col-lg-offset-1 text-center">
               <div class="spacer35"></div>
-              <h1>{{.Params.heading}}</h1>
+              <h1 style="color:black;">{{.Params.heading}}</h1>
               <p>{{.Description}}.</p>
             </div>
           </div>
@@ -18,9 +18,9 @@
               <div class="plan">
                 <div class="row">
                   <div class="col-xs-12">
-                    <p class="plan-title">{{.Params.heading}}</p>
+                    <p class="plan-title" style="color:black;">{{.Params.heading}}</p>
                     <img src="{{.Params.img}}" class="plan-icon" alt="">
-                    <h2 class="plan-pricing">{{.Params.price}}<span>per GB per month</span></h2>
+                    <h2 class="plan-pricing">{{.Params.price}}<span style="color:black;">per GB per month</span></h2>
                   </div>
                 </div>
               </div>

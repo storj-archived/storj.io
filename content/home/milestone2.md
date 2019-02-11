@@ -1,8 +1,8 @@
 ---
 title: "Milestone2"
 class: "milestone"
-completed: true
+completed: false
 current : false
 weight: 2
-text: "Private Alpha - Open Source Partners"
+text: "Vanguard: User Alpha"
 ---

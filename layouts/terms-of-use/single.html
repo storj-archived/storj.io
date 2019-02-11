@@ -3,15 +3,11 @@
   <head>
     {{partial "head" .}}
 </head>
-
   <body class="page">
-
     <section>
 				{{partial "partners/heroNav" .}}
     </section>
-
 {{ with .Site.GetPage "termsOfUse" }}
-
     <div class="section">
       <div class="container">
         <div class="row">
@@ -21,22 +17,15 @@
             <div class="spacer50"></div>
           </div>
         </div>
-
     		<div class="row">
     			<div class="col-xs-12 col-md-8 col-md-push-2">
-
 				{{ .Content }}
-
     			</div>
     		</div>
-
       </div>
-	</div>
-	
+	  </div>
 {{end}}
-
-    {{partial "footer" .}}
-    {{partial "scripts" .}}
-
+  {{partial "footer" .}}
+  {{partial "scripts" .}}
   </body>
 </html>

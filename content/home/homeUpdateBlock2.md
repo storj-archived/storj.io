@@ -1,9 +1,9 @@
 ---
 title: "HomeUpdateBlock2"
-heading: "Q3 2018 TOWN HALL"
-description: "Town Hall Recap"
-ctaText: "Read and Watch"
-ctaLink: "https://storj.io/blog/2018/08/join-the-storj-labs-town-hall-on-september-12/"
+heading: "BLOG"
+description: "Storage Nodes On V3"
+ctaText: "Read More"
+ctaLink: "https://storj.io/blog/2019/02/announcing-the-storj-v3-explorer-release/"
 class: "homeUpdateBlock"
 ---
 

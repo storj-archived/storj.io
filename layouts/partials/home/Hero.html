@@ -1,6 +1,10 @@
-<div class="row">
+<div class="container ">
+  <div class="row">
+      <div class="spacer30"></div>
+    <div class="col-xs-12 col-sm-10 col-md-6 col-md-offset-0 col-lg-6" style="padding-right:10px;">
+      <div class="spacer20"></div><div class="row">
 {{with .Site.GetPage "page" "homeHero.md"}}
-    <div class="col-xs-8 col-sm-6 col-md-6 col-lg-5" style="margin-left:15px;border: 1px solid rgba(255,255,255,0.2);	background-color: rgba(255,255,255,0.2);border-radius:4px;color:white;text-align: center;font-size: 13px;	font-weight: 600;	line-height: 28px;width:260px;">{{.Params.stage}}</div>
+<div class="col-xs-11 col-sm-10 col-md-10 col-lg-10" style="margin-left:15px;border: 1px solid rgba(255,255,255,0.2);	background-color: rgba(255,255,255,0.2);border-radius:4px;color:white;text-align: center;font-size: 13px;	font-weight: 600;	line-height: 28px;">{{.Params.stage}}</div>
 </div>
  <h1 style="font-size:30px;line-height:40px;color:white;">{{.Params.heading}}</h1>
     {{.Content}}
@@ -13,3 +17,10 @@
 <img src="{{.Params.img}}"/>
 </div>
 {{end}}
+</div>
+</div>
+  <div class="spacer45"></div>
+  <div class="spacer45"></div>
+</div>
+</div>
+</section>

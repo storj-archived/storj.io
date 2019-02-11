@@ -11,11 +11,7 @@
 <div class="row">
    {{ range where .Site.Pages ".Params.class" "1stSetBenefits"}}
     <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  text-center" style="padding:50px;">
-
-    <div class="value-icon">
     <img src="{{.Params.img}}" alt="Open-Source Software" class="icon-opensource">
-    </div>
-
     <h4 class="team-member-name" style="color:#333333;">{{.Params.heading}}</h4>
     <p class="team-member-title" style="font-size: 14px;">{{.Description}}</p>
     </div>
@@ -25,12 +21,13 @@
 <div class="row">
     {{ range where .Site.Pages ".Params.class" "2ndSetBenefits"}}
             <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
-            <div class="value-icon">
             <img src="{{.Params.img}}" alt="Open-Source Software" class="icon-opensource">
-            </div>
             <h4 class="team-member-name" style="color:#333333;">{{.Params.heading}}</h4>
             <p class="team-member-title" style="font-size: 14px;">{{.Description}}</p>
         </div>
         {{end}}
     </div>
 </div>
+</div>
+<div class="spacer45"></div>
+<div class="spacer10"></div>

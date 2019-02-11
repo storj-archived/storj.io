@@ -4,5 +4,5 @@ class: "milestone"
 completed: false
 current : false
 weight: 5
-text: "Storage Node V3"
+text: "ISS: Open Source Partner Connection"
 ---

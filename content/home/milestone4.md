@@ -1,8 +1,8 @@
 ---
 title: "Milestone4"
 class: "milestone"
-completed: true
-current : true
+completed: false
+current : false
 weight: 4
-text: "Public Alpha Launch"
+text: "Pioneer: V3 Network Beta"
 ---

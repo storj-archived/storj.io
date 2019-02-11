@@ -3,40 +3,27 @@
   <head>
     {{partial "head" .}}
 </head>
-
   <body class="page">
-
-      {{partial "partners/heroNav" .}}
-
-{{ with .Site.GetPage "privacyPolicy" }}
+  {{partial "partners/heroNav" .}}
+  {{ with .Site.GetPage "privacyPolicy" }}
     <div class="section">
-
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
-
             <h1 class="title">Storj Labs Inc. Privacy Policy</h1>
             <p class="text-center">Last Updated: {{.Params.lastUpdated}}</p>
-
             <div class="spacer50"></div>
-
           </div>
         </div>
-
     		<div class="row">
     			<div class="col-xs-12 col-md-8 col-md-push-2">
-
-                {{  .Content  }}
-
+            {{  .Content  }}
     			</div>
     		</div>
-
       </div>
     </div>
 {{end}}
-
     {{partial "footer" .}}
     {{partial "scripts" .}}
-
   </body>
 </html>
