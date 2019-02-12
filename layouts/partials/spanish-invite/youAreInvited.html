@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <div class="spacer45"></div>
+            {{with .Site.GetPage "yourInvitedSpanish"}}
+                <h1>{{.Params.heading}}</h1>
+                <div class="spacer45"></div>
+                {{.Content}}
+                <div class="spacer45"></div>
+            <a href="{{.Params.ctaLink}}"><div class="btn btn-primary">{{.Params.ctaText}}</div></a>
+                <div class="spacer45"></div>
+                <hr>
+                <div class="spacer45"></div>
+            {{end}}
+

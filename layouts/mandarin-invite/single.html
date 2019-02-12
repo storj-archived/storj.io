@@ -5,93 +5,11 @@
 </head>
 <body>
 {{partial "invite/nav" .}}
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-
-            <div class="spacer45"></div>
-                <h1>邀請你成為儲存節點經營者</h1>
-            <div class="spacer45"></div>
-
-            <p>為儲存節點經營者而設的 Explorer 版本就在這裡!</p>
-
-            <p>感謝您加入 Storj 網絡並註冊儲存節點名單。你現受邀請，在今年測試版本 （Pioneer）和年未成品（Voyager）發布前，設置您的存儲節點（Storage Node）以累積<a href="https://storj.io/blog/2019/01/reputation-matters-when-it-comes-to-storage-nodes/">聲譽</a> （Reputation）和賺取 Storj 代幣。</p>
-
-            <p>在設置您的儲存節點之前，請花一點時間閱讀有關成為儲存節點經營者（Storage Node Operator）的須知。</p>
-
-            <div class="spacer45"></div>
-
-            <a href="https://storj.io/blog"><div class="btn btn-primary">閱讀日誌</div></a>
-
-            <div class="spacer45"></div>
-
-            <hr>
-
-            <div class="spacer45"></div>
-
-            <h1>以下是您的一次性授權代碼，用於認證您的節點:</h1>
-
-            <div class="spacer45"></div>
-
-            <p><strong>請檢查你的電子郵箱</strong></p>
-            
-            <div class="spacer45"></div>
-
-            <p>通過使用授權令牌，您同意受存儲共享服務條款的約束。</p>
-
-            <div class="spacer45"></div>
-
-            <hr>
-
-            <div class="spacer45"></div>
-
-            <h1>設置教學</h1>
-
-            <div class="spacer45"></div>
-
-            <p>有關如何設置存儲節點及將其連接到Satellite的教學，請跟照我們在 <a href="https://github.com/storj/docs/blob/master/Explorer-Release-Setup-Instructions.md">Github</a> 上的指引。</p>
-
-            <div class="spacer45"></div>
-
-            <p>在Alpha測試階段中，Storj Labs將控制網絡上新數據的流向，以用作測試及準備Vanguard版本，該版本將開放給網路上的用家及我們的合作夥伴作儲存數據之用。</p>
-
-            <div class="spacer45"></div>
-
-            <hr style="BORDER-RIGHT: medium none; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; HEIGHT: 1px;"> 
-
-            <div class="spacer45"></div>
-
-            <h1>技術支援</h1>
-
-            <div class="spacer45"></div>
-
-            <p>如果有任何跟儲存節點相關的問題，請加入我們的<a href="https://community.storj.io/home">社區頻道</a> 並在#storagenode頻道提出。</p>
-
-            <div class="spacer45"></div>
-
-            <p>我們樂意聽到各社區成員的建議，歡迎在 <a href="https://ideas.storj.io/">Ideas portal</a>提供你意見。</p>
-
-            <div class="spacer45"></div>
-
-            <p>如果發現任何有關產品的漏洞（bug），請  <a href="https://github.com/storj/storj/issues">在此</a> 匯報。 Storj是一個開源項目，歡迎各位為我們在 <a href="https://github.com/storj/storj">GitHub</a>上的代碼作出貢獻。</p>
-            
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-
-
-            <div style="background-color:#ffedcc;border:2px solid orangered;border-radius:4px;padding:30px;">
-              <p style="color:orangered;"><Strong>*重要通知*</Strong> 授權代幣無法用於設置多於一個節點。與V2網絡相比，在V3網絡上設置複數儲存節點並沒有任何好處。 如果您有10 TB可用空間，10 TB的單個節點與兩個5 TB節點的收益潛力並無分別。
-                有關更多詳細信息，請閱讀我們最近的儲存節點 <a href="https://storj.io/blog">網誌文章</a>和<a href="https://storj.io/white-paper">V3白皮書</a>。</p>
-              <p style="color:orangered;">如果你仍有運行 V2 節點，我們建議你繼續運行該節點直到 V3 beta。</p>
-            </div>
-
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-
-        </div>
-    </div>
-</div>
+{{partial "mandarin-invite/youAreInvited" .}}
+{{partial "mandarin-invite/authToken" .}}
+{{partial "mandarin-invite/configuration" .}}
+{{partial "mandarin-invite/support" .}}
+{{partial "mandarin-invite/important" .}}
 {{partial "footer" .}}
 {{partial "scripts" .}}
   </body>

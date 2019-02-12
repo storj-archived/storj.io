@@ -5,93 +5,11 @@
 </head>
 <body>
 {{partial "invite/nav" .}}
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-
-            <div class="spacer45"></div>
-                <h1>SIE SIND EINGELADEN</h1>
-            <div class="spacer45"></div>
-
-            <p>Die Explorer Freigabe für Speicherknotenbetreiber ist hier!</p>
-
-            <p>Vielen Dank dafür, dass Sie sich in unsere Speicherknoten-Warteliste eingetragen haben. Sie sind eingeladen, schon vor der Pioneer (Beta) Version und der Voyager (Produktions-) Freigabe, die für später in diesem Jahr geplant sind, anzufangenIhren Speicherknoten einzurichten um einen <a href="https://storj.io/blog/2019/01/reputation-matters-when-it-comes-to-storage-nodes/">guten Ruf</a> und STORJ Token zu verdienen.</p>
-
-            <p>Bitte nehmen Sie sich die Zeit, unseren Zusammenfassungsblog für Speicherknotenbetreiber zu lesen, bevor Sie Ihren Knotenpunkt einrichten.</p>
-
-            <div class="spacer45"></div>
-
-            <a href="https://storj.io/blog"><div class="btn btn-primary">BLOG LESEN</div></a>
-
-            <div class="spacer45"></div>
-
-            <hr>
-
-            <div class="spacer45"></div>
-
-            <h1>Hier ist Ihr einmaliges Berechtigungs-Token, um das Zertifikat für Ihren Knotenpunkt zu unterschreiben:</h1>
-
-            <div class="spacer45"></div>
-
-            <p><strong>Bitte überprüfen Sie Ihre E-Mail</strong></p>
-
-            <div class="spacer45"></div>
-
-            <p>Indem Sie von dem Authorizationstoken Gebrauch machen, erklären Sie sich damit einverstanden, an die Nutzungsbedingungen für die Speicherfreigabe gebunden zu sein.</p>
-
-            <div class="spacer45"></div>
-
-
-            <hr>
-
-            <div class="spacer45"></div>
-
-            <h1>KONFIGURATIONSANLEITUNG</h1>
-
-            <div class="spacer45"></div>
-
-            <p>Um Ihren Speicherknoten zu konfigurieren und mit einem Satelliten zu verbinden, bitte die Anleitungen auf unserem <a href="https://github.com/storj/docs/blob/master/Explorer-Release-Setup-Instructions.md">Github</a> Repository folgen</p>
-
-            <div class="spacer45"></div>
-
-            <p>Während dieser Alpha-Etappe wird Storj Labs den Fluss neuer Daten durch unser Netzwerk kontrollieren. Diese Tests sind in Vorbereitung auf unsere Vanguard-Freigabe, welches dann unseren Kunden und Partnern das Netz öffnen und ihnen erlauben wird anzufangen, ihre Daten einzuspeichern.</p>
-
-            <div class="spacer45"></div>
-
-            <hr style="BORDER-RIGHT: medium none; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; HEIGHT: 1px;"> 
-
-            <div class="spacer45"></div>
-
-            <h1>KUNDENDIENST</h1>
-
-            <div class="spacer45"></div>
-
-            <p>Bitte treten Sie unserem <a href="https://community.storj.io/home">Community-Chat</a> bei, und stellen Sie Ihre Fragen in dem #storagenode Kanal.</p>
-
-            <div class="spacer45"></div>
-
-            <p>Wie freuen uns über die Ideen unserer Community und Ihre Vorschläge sind willkommen auf unserem <a href="https://ideas.storj.io/">Ideenportal</a>.</p>
-
-            <div class="spacer45"></div>
-
-            <p>Falls sie irgendwelche Produktfehler finden sollten, bitte diese  <a href="https://github.com/storj/storj/issues">hier</a> melden. Wir sind open-source und akzeptieren auch gerne Beiträge zu unserer Codebase über unsere <a href="https://github.com/storj/storj">GitHub</a>.</p>
-            
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-
-
-            <div style="background-color:#ffedcc;border:2px solid orangered;border-radius:4px;padding:30px;">
-            <p style="color:orangered;"><Strong>*WICHTIG*</Strong> Sie werden nicht mehr als einen einzigen Knotenpunkt mit Ihrem Berechtigungs-Token einrichten können. Zum Unterschied mit dem vorherigen V2 Netz erreichen Sie keine Vorteile davon, mehrere Speicherknoten einzurichten auf V3. Wenn Sie z.B. 10 TB Speicherplatz auf einem einzigen Knoten bereitstellen, würden Sie das selbe Einkunftspotenzial erreichen, wie wenn Sie zwei 5-TB Knoten eingerichtet hätten. Bitte lesen Sie unsere neusten Speicherknoten <a href="https://storj.io/blog">blogs</a>, und das <a href="https://storj.io/white-paper">V3 White Paper</a> für mehr Einzelheiten.</p>
-            <p style="color:orangered;">Wenn Sie noch einen V2-Node betreiben, empfehlen wir Ihnen, diesen Node bis zur V3 Beta-Version aufrecht zu erhalten.</p>
-            </div>
-
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-
-        </div>
-    </div>
-</div>
+{{partial "german-invite/youAreInvited" .}}
+{{partial "german-invite/authToken" .}}
+{{partial "german-invite/configuration" .}}
+{{partial "german-invite/support" .}}
+{{partial "german-invite/important" .}}
 {{partial "footer" .}}
 {{partial "scripts" .}}
   </body>

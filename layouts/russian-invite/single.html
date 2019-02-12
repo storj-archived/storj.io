@@ -5,95 +5,11 @@
 </head>
 <body>
 {{partial "invite/nav" .}}
-<div class="container">
-    <div class="row">
-        <div class="col-12 text-center">
-
-            <div class="spacer45"></div>
-                <h1>ВЫ ПРИГЛАШЕНЫ</h1>
-            <div class="spacer45"></div>
-
-            <p>Выпуск Explorer для Операторов узлов хранения уже здесь!</p>
-
-            <p>Спасибо Вам за ваш интерес и желание присоединиться к сети Storj. Мы приглашаем Вас установить и настроить Ваш узел хранения и начать зарабатывать токены STORJ и репутацию задолго до выпусков Pioneer (beta) и Voyager (production), которые будут запущены в этом году.</p>
-
-            <p>Пожалуйста, уделите время для прочтения блогов, касающихся Операторов узлов хранения перед тем, как произвести установку Вашего узла хранения.</p>
-
-            <div class="spacer45"></div>
-
-            <a href="https://storj.io/blog"><div class="btn btn-primary">читать блог</div></a>
-
-            <div class="spacer45"></div>
-
-            <hr>
-
-            <div class="spacer45"></div>
-
-            <h1>Здесь Ваш одноразовый токен для авторизации и подписи сертификата Вашего узла хранения:</h1>
-
-            <div class="spacer45"></div>
-
-            <p><strong>Пожалуйста, проверьте Вашу электронную почту</strong></p>
-
-            <div class="spacer45"></div>
-
-            <p>Используя токен авторизации, Вы соглашаетесь с условиями сервиса о предоставлении свободного пространства на дисках.</p>
-
-            <div class="spacer45"></div>
-
-            <hr>
-
-            <div class="spacer45"></div>
-
-            <h1>конфигурация</h1>
-
-            <div class="spacer45"></div>
-
-            <p>Чтобы установить Ваш узел хранения и подключить его к Сателлиту, пожалуйста, следуйте инструкциям, доступным на нашем <a href="https://github.com/storj/docs/blob/master/Explorer-Release-Setup-Instructions.md">Github</a></p>
-
-            <div class="spacer45"></div>
-
-            <p>На этой стадии Альфа тестирования Storj Labs будет контролировать поток новых данных, загружаемых в сеть. Эти данные будут использоваться с целью тестирования для подготовки к выпуску версии Vanguard, который откроет сеть для клиентов и партнёров из списка ожидания для разработчиков.</p>
-
-            <div class="spacer45"></div>
-
-            <hr style="BORDER-RIGHT: medium none; BORDER-TOP: #cccccc 1px solid; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; HEIGHT: 1px;"> 
-
-            <div class="spacer45"></div>
-
-            <h1>служба поддержки</h1>
-
-            <div class="spacer45"></div>
-
-            <p>Если Вам нужна помощь или у Вас есть проблемы с подключением к нашему Сателлиту, присоединяйтесь к нам через <a href="https://community.storj.io/home">Community-Chat</a> на канале #storagenode.</p>
-
-            <div class="spacer45"></div>
-
-            <p>Мы любим идеи от нашего Сообщества и приглашаем сделать предложения на нашем <a href="https://ideas.storj.io/">портале идей</a>.</p>
-
-            <div class="spacer45"></div>
-
-            <p>Если Вы обнаружите любые баги (ошибки) в наших приложениях, Вы можете связаться с нами и отправить отчёт <a href="https://github.com/storj/storj/issues">здесь</a>. Мы также всегда открыты для Вашего участия в совместной разработке программного обеспечения через наш  <a href="https://github.com/storj/storj">GitHub</a>.</p>
-            
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-
-
-            <div style="background-color:#ffedcc;border:2px solid orangered;border-radius:4px;padding:30px;">
-            <p style="color:orangered;"><Strong>*ВАЖНО*</Strong> Вы не сможете установить больше одного узла хранения с Вашим одноразовым токеном авторизации.
-                По сравнению с v2 сети больше нет никакого смысла запускать большое количество узлов хранения v3 из одного места.
-                Если Вы имеете 10ТБ места на диске, один узел с 10ТБ предоставленного места будет иметь столько же дохода, как и два узла по 5ТБ.
-                Пожалуйста, прочитайте наш <a href="https://storj.io/blog">блог</a>,и <a href="https://storj.io/white-paper">V3 White Paper</a> для большего понимания. </p>
-            <p style="color:orangered">Если у Вас имеются StorjShare ноды v2, мы просим Вас держать их включенными до V3 Beta.</p>
-            </div>
-
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-            <div class="spacer45"></div>
-
-        </div>
-    </div>
-</div>
+{{partial "russian-invite/youAreInvited" .}}
+{{partial "russian-invite/authToken" .}}
+{{partial "russian-invite/configuration" .}}
+{{partial "russian-invite/support" .}}
+{{partial "russian-invite/important" .}}
 {{partial "footer" .}}
 {{partial "scripts" .}}
   </body>
