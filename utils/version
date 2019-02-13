@@ -1,0 +1,36 @@
+#!/bin/bash
+set -euo pipefail
+
+# Update patch level of the base version found in the VERSION file with the
+# number of commits since VERSION's last update.
+
+# No VERSION file at all?
+if [[ ! -f VERSION ]]; then
+	echo '0.0.0'
+	return
+fi
+
+# Bring in the full git history
+git fetch --unshallow 2>/dev/null || true
+
+# Determine the last time VERSION was changed in a commit.
+last_commit=$(git log -n 1 --pretty=format:%h -- VERSION)
+
+# This can happen if VERSION hasn't been checked in yet. In this case,
+# we are at the VERSION in the version file itself.
+if [[ $last_commit = '' ]]; then
+	cat VERSION
+	return
+fi
+
+# Otherwise determine our patch level.
+patch_level=$(git rev-list "${last_commit}.." --count)
+
+# And create the final version.
+base_version=$(<VERSION)
+if [[ $base_version =~ ([0-9]+[.][0-9]+[.])([0-9]+)([-].*)? ]]; then
+	if [[ ${BASH_REMATCH[2]} != 0 ]]; then
+		echo 'WARNING: Patch level in VERSION file is not 0 and is being replaced.' &1>2
+	fi
+	echo "${BASH_REMATCH[1]}${patch_level}${BASH_REMATCH[3]:-}"
+fi
