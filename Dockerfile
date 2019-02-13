@@ -7,6 +7,6 @@ RUN cd /site \
  && /hugo
 
 FROM busybox
-COPY --from=builder /site /www
+COPY --from=builder /site/public /www
 EXPOSE 80
 ENTRYPOINT ["httpd", "-f", "-v", "-v", "-h", "/www"]
