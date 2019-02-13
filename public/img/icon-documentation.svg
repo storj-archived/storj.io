@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="28px" height="25px" viewBox="0 0 28 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group-4">
+            <path d="M8.5,1 L8.5,6 C8.5,7.104 9.396,8 10.5,8 L12.5,8 C13.604,8 14.5,7.104 14.5,6 L14.5,1" id="Stroke-491" stroke="#1A5BB0" stroke-linecap="round"></path>
+            <path d="M8.5,4 L8.5,22 C8.5,23.104 9.396,23.5 10.5,23.5 L12.5,23.5 C13.604,23.5 14.5,23.104 14.5,22 L14.5,4" id="Stroke-492" stroke="#1A5BB0"></path>
+            <path d="M0.5,0.5 L0.5,5.5 C0.5,6.604 1.396,7.5 2.5,7.5 L4.5,7.5 C5.604,7.5 6.5,6.604 6.5,5.5 L6.5,0.5" id="Stroke-495" stroke="#1A5BB0" stroke-linecap="round"></path>
+            <path d="M0.5,4 L0.5,22 C0.5,23.104 1.396,23.5 2.5,23.5 L4.5,23.5 C5.604,23.5 6.5,23.104 6.5,22 L6.5,4" id="Stroke-496" stroke="#1A5BB0"></path>
+            <path d="M14.5,20 L8.5,20" id="Stroke-497" stroke="#1A5BB0"></path>
+            <path d="M14.5,18 L8.5,18" id="Stroke-498" stroke="#1A5BB0"></path>
+            <path d="M6.5,19.5 L0.5,19.5" id="Stroke-501" stroke="#1A5BB0"></path>
+            <path d="M6.5,17.5 L0.5,17.5" id="Stroke-502" stroke="#1A5BB0"></path>
+            <path d="M14.5,14 L8.5,14" id="Stroke-503" stroke="#1A5BB0"></path>
+            <path d="M14.5,12 L8.5,12" id="Stroke-504" stroke="#1A5BB0"></path>
+            <path d="M6.5,13.5 L0.5,13.5" id="Stroke-507" stroke="#1A5BB0"></path>
+            <path d="M6.5,11.5 L0.5,11.5" id="Stroke-508" stroke="#1A5BB0"></path>
+            <path d="M10.5,6 L10.5,2" id="Stroke-509" stroke="#1A5BB0" stroke-linecap="round"></path>
+            <path d="M12.5,6 L12.5,2" id="Stroke-510" stroke="#1A5BB0" stroke-linecap="round"></path>
+            <g id="Group-3" transform="translate(22.000000, 12.500000) rotate(-15.000000) translate(-22.000000, -12.500000) translate(19.000000, 1.000000)" stroke="#2684FF">
+                <path d="M0,0 L0,5 C0,6.104 0.896,7 2,7 L4,7 C5.104,7 6,6.104 6,5 L6,0" id="Stroke-493" stroke-linecap="round"></path>
+                <path d="M0,3 L0,21 C0,22.104 0.896,22.5 2,22.5 L4,22.5 C5.104,22.5 6,22.104 6,21 L6,3" id="Stroke-494"></path>
+                <path d="M6,19 L0,19" id="Stroke-499"></path>
+                <path d="M6,17 L0,17" id="Stroke-500"></path>
+                <path d="M6,13 L0,13" id="Stroke-505"></path>
+                <path d="M6,11 L0,11" id="Stroke-506"></path>
+                <path d="M2,5 L2,1" id="Stroke-511" stroke-linecap="round"></path>
+                <path d="M4,5 L4,1" id="Stroke-512" stroke-linecap="round"></path>
+            </g>
+            <path d="M2.5,5.5 L2.5,1.5" id="Stroke-513" stroke="#1A5BB0" stroke-linecap="round"></path>
+            <path d="M4.5,5.5 L4.5,1.5" id="Stroke-514" stroke="#1A5BB0" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

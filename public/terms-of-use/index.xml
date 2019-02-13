@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terms-of-uses on Storj.io</title>
+    <link>/terms-of-use/</link>
+    <description>Recent content in Terms-of-uses on Storj.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/terms-of-use/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/terms-of-use/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/terms-of-use/</guid>
+      <description>PLEASE READ THESE TERMS OF USE CAREFULLY. NOTE THAT SECTION 17 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF USE, DO NOT ACCESS OR USE OUR SERVICES.
+By accessing or using the websites, mobile applications and online services of Storj Labs Inc. (“Company,” “we,” or “us”), including storj.io, (collectively, the “Services”) you will be bound by these Terms of Use (“Terms”) and all terms incorporated by reference.</description>
+    </item>
+    
+  </channel>
+</rss>

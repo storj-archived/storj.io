@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Whitepapers on Storj.io</title>
+    <link>/whitepaper/</link>
+    <description>Recent content in Whitepapers on Storj.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/whitepaper/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description>Sign up for the developer waitlist and get early access to our affordable and resilient network when it launches.</description>
+    </item>
+    
+    <item>
+      <title>Storj: A Peer-to-Peer Cloud Storage Network (V2)</title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description>Sign up for the storage node waitlist for our new network. Healthy V2 nodes will receive priority access then first-come, first-served entries.</description>
+    </item>
+    
+    <item>
+      <title>Storj: A Peer-to-Peer Cloud Storage Network (V1)</title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description>Help us build the future of decentralized storage. Contribute to our public GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Metadisk: Blockchain-Based Decentralized File Storage Application</title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>placeholder</title>
+      <link>/whitepaper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/whitepaper/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

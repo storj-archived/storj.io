@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Open-sources on Storj.io</title>
+    <link>/open-source/</link>
+    <description>Recent content in Open-sources on Storj.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/open-source/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/open-source/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/open-source/</guid>
+      <description>Our Open Source Commitment Our team believes that openness and transparency are critical to everything we do at Storj Labs. The internet of tomorrow will be open, decentralized, and will incorporate design principles that prioritize people&amp;rsquo;s privacy. Because of this, it is critical that every aspect of the codebase of our public decentralized network be open source to ensure the highest levels of quality and security. We commit to licensing our code as permissively as possible and creating revenue streams for other open source projects that will support their efforts to drive innovation and create sustainable businesses.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,3843 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Decentralized cloud storage that is automatically encrypted, easily implemented, highly performant, exceptionally economical, and ridiculously resilient.">    
+    <meta name="keywords" content="storj, storj labs, distributed object storage, decentralized cloud storage, object storage, decentralized, storage, secure, private, encrypted">    
+    <meta name="google-site-verification" content="R5u7lqzFhKoFiaEXbxfFSJ-CT9UyK-AqVWwd1g_zMeg" />
+    <meta name="google-site-verification" content="8CIKbV4JUhwtw7xNI7_A__vnmpvuGfs1g3QVOInBtxQ" />
+
+    <title>Decentralized Cloud Storage — Storj</title>
+
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Decentralized Cloud Storage — Storj"/>
+	<meta property="og:description" content="Storj is the storage layer for the Internet. Decentralized cloud storage is a new paradigm that removes intermediaries, enabling you to control your personal data. Storj is open source, distributed, encrypted, and blazing fast object storage. Check out how Storj can help you keep your data safe and access it anywhere, anytime."/>
+	<meta property="og:url" content="https://storj.io" />
+	<meta property="og:site_name" content="Decentralized Cloud Storage — Storj" />
+	<meta property="og:image" content="https://storj.io/img/storj-logo.jpg" />
+	<meta name="twitter:card" content="summary"/>
+	<meta name="twitter:title" content="Decentralized Cloud Storage — Storj"/>
+	<meta name="twitter:description" content="Storj is the storage layer for the Internet. Decentralized cloud storage is a new paradigm that removes intermediaries, enabling you to control your personal data. Storj is open source, distributed, encrypted, and blazing fast object storage. Check out how Storj can help you keep your data safe and access it anywhere, anytime."/>
+	<meta name="twitter:site" content="@storjproject"/>
+	<meta name="twitter:image" content="https://storj.io/img/storj-logo.jpg"/>
+	<meta name="go-import" content="storj.io/storj git https://github.com/storj/storj">
+
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+
+  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,600,700" rel="stylesheet">
+
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" id="inspectletjs">
+  (function() {
+    window.__insp = window.__insp || [];
+    __insp.push(['wid', 1154029405]);
+    var ldinsp = function(){ if(typeof window.__inspld != "undefined") return; window.__inspld = 1; var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js?wid=1154029405&r=' + Math.floor(new Date().getTime()/3600000); var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); };
+    setTimeout(ldinsp, 0);
+  })();
+  </script>
+
+  <script> !function(){varanalytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){returnfunction(){vare=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);returnanalytics}};for(vart=0;t<analytics.methods.length;t++){vare=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){vare=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";varn=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0"; analytics.load("JHfKYYbErCZRf2QFQTQNTyP0IF6RMSUC"); analytics.page(); }}();</script>
+  <script data-jsd-embedded data-key="ddb2b60b-2cc3-47f0-a434-3a6dae10166a" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+    <script src="js/modernizr.js"></script>
+
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+      h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+      (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+      })(window,document.documentElement,'async-hide','dataLayer',4000,
+      {'GTM-N75DJ6F':true});
+    </script>
+
+    <script type="text/javascript" src="js/segment.js"></script>
+
+  </head>
+
+  <body class="page">
+
+      <section>
+        <nav class="navbar navbar-page navbar-default menu">
+          <div class="container">
+            
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand">
+                <img src="/img/logo-blue.svg" alt="Storj" class="logo">
+              </a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <ul class="nav navbar-nav">
+                  
+                  <li><a style="font-size: .9em;" class="link" href="/developers">Developers</a></li>
+                    
+                  <li><a style="font-size: .9em;" class="link" href="/community">Community</a></li>
+                    
+                  <li><a style="font-size: .9em;" class="link" href="https://storjlabs.atlassian.net/servicedesk/customer/portals">Support</a></li>
+                    
+                  <li><a style="font-size: .9em;" class="link" href="/partners">Partners</a></li>
+                    
+                  <li><a style="font-size: .9em;" class="link" href="https://storj.io/blog">Blog</a></li>
+                    
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h3 class="title">Storj in the News</h3>
+            <p class="lead text-center">For branding resources, go to the <a href="press-kit.html" class="link">press kit</a>.</p>
+            <div class="spacer50"></div>
+          </div>
+        </div>
+
+
+
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 2, 2019</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Forbes</span>
+            <h4><a href="https://www.forbes.com/sites/forbestechcouncil/2019/01/02/is-it-time-to-test-your-new-products-usability-13-tech-experts-weigh-in" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 1, 2019</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SiliconAngle</span>
+            <h4><a href="https://siliconangle.com/2019/01/01/2019-security-forecast-cloudy-unsettled-chance-gloom/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 20, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Forbes</span>
+            <h4><a href="https://www.forbes.com/sites/rachelwolfson/2018/12/20/blockchain-and-crypto-leaders-share-their-2019-industry-predictions/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Base Layer Podcast</span>
+            <h4><a href="https://soundcloud.com/user-520106853/base-layer-episode-one-shawn-wilkinson-founder-of-storj" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Breaker</span>
+            <h4><a href="https://breakermag.com/how-storj-plans-to-take-on-amazon-s3/?utm_source=social&amp;utm_medium=twitter&amp;utm_campaign=qa" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 27, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ApPauls.com</span>
+            <h4><a href="https://appuals.com/transfer-sh-not-going-down-after-all/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 19, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Linux.com</span>
+            <h4><a href="https://www.linux.com/blog/2018/11/open-source-2018-it-was-best-times-it-was-worst-times" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 14, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Atlanta Tech Village</span>
+            <h4><a href="https://atlantatechvillage.com/buzz/2018/11/14/winning-the-war-for-talent-hiring-from-atlantas-coding-bootcamp/?preview=true" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">51percent Podcast</span>
+            <h4><a href="https://fiftyonepercent.podbean.com/e/john-quinn-storjs-latest-white-paper-and-competition-from-the-cloud-awsazure-and-competitors-filecoin-sia-maidsafe/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ComputerWeekly</span>
+            <h4><a href="https://www.computerweekly.com/blog/StorageBuzz/Storj-Can-uberization-of-cloud-storage-succeed" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 9, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">StorageNewsletter.com</span>
+            <h4><a href="https://www.storagenewsletter.com/2018/11/09/storj-labs-public-alpha-v3-platform-to-opening-doors-for-developers-interested-in-building-on-decentralized-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 31, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SDTimes</span>
+            <h4><a href="https://sdtimes.com/softwaredev/sd-times-news-digest-timescaledb-1-0-apache-subversion-v1-11-0-and-storj-labs-v3-alpha/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewsire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-v3-platform-enters-public-alpha-opening-doors-for-developers-interested-in-building-on-decentralized-cloud-storage-300740165.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/storj-launches-version-3-its-decentralized-cloud-storage-platform/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Computer Technology Review</span>
+            <h4><a href="http://wwpi.com/2018/10/30/storj-labs-v3-platform-now-in-public-alpha-encourages-developers-interested-in-building-tools-on-decentralized-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Nasdaq</span>
+            <h4><a href="https://www.nasdaq.com/article/storj-launches-version-3-of-its-decentralized-cloud-storage-platform-cm1046017" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 16, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Block Publisher</span>
+            <h4><a href="https://blockpublisher.com/co-founder-of-storj-shawn-wilkinson-explains-project-storj/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 9, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SC Magazine</span>
+            <h4><a href="https://www.scmagazine.com/home/opinions/security-in-a-devops-world/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 2, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Forbes</span>
+            <h4><a href="https://www.forbes.com/sites/forbestechcouncil/2018/10/02/creating-scalability-on-ethereum/#6d2656ee5226" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 20, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PC Mag</span>
+            <h4><a href="https://www.pcmag.com/news/363734/got-skis-love-software-head-to-utahs-silicon-slopes" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 5, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Linux Magazine</span>
+            <h4><a href="http://www.linux-magazine.com/Online/News/A-New-Business-Model-for-Open-Source-Projects" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 5, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">NextCloud</span>
+            <h4><a href="https://nextcloud.com/blog/nextcloud-joins-storj-labs-to-deliver-decentralized-secure-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 4, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SDxCentral</span>
+            <h4><a href="https://www.sdxcentral.com/articles/news/storj-labs-offers-unique-model-for-cloud-storage/2018/09/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 31, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Architect</span>
+            <h4><a href="https://architecht.io/diffbot-apple-and-the-necessity-of-knowledge-99f5ccfe0a5e" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 31, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Algosonline</span>
+            <h4><a href="http://algosonline.com/technology/storj-labs-declares-launch-of-innovative-open-source-partner-program" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SD TIMES</span>
+            <h4><a href="https://sdtimes.com/os/storj-labs-to-create-revenue-opportunities-for-open-source/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">LinuxJournal</span>
+            <h4><a href="https://www.linuxjournal.com/content/google-hands-kubernetes-cloud-native-computing-foundation-kinetica-joins-automotive-grade" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Linux.com</span>
+            <h4><a href="https://www.linux.com/news/storj-labs-forges-open-source-vendors-and-cloud-services-alliance-1" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Diginomica</span>
+            <h4><a href="https://diginomica.com/2018/08/30/dfinity-and-stormj-examples-of-decentralized-computing/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Computer Technology Review</span>
+            <h4><a href="http://wwpi.com/2018/08/30/storj-labs-introduces-partner-program-to-create-revenue-opportunities-for-open-source-projects-and-companies/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Packet Hub</span>
+            <h4><a href="https://hub.packtpub.com/storj-labs-new-open-source-partner-program-to-generate-revenue-opportunities-for-open-source-companies/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 29, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ZDNET</span>
+            <h4><a href="https://www.zdnet.com/article/storj-labs-forges-open-source-vendors-and-cloud-services-alliance/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 29, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The New Stack</span>
+            <h4><a href="https://www.pscp.tv/thenewstack/1rmxPNmoNdMGN" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">Aug 29, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewsire</span>
+            <h4><a href="http://www.prnewswire.com/news-releases/storj-labs-announces-new-partner-program-to-create-revenue-opportunities-for-open-source-projects-and-companies-300703922.html?tc=eml_cleartime" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 26, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">DZone</span>
+            <h4><a href="https://dzone.com/articles/5-surprising-ways-blockchain-technology-is-being-h" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 23, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">HackerNoon</span>
+            <h4><a href="https://hackernoon.com/top-five-considerations-when-evaluating-different-blockchains-486517dda14" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 17, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">InformationWeek</span>
+            <h4><a href="https://www.informationweek.com/cloud/how-clouds-will-crystallize-around-blockchain/a/d-id/1332305" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Forbes</span>
+            <h4><a href="https://www.forbes.com/sites/theyec/2018/07/12/how-small-business-owners-can-use-blockchain-and-big-data-for-bigger-profits/#54fe6f811ccb" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 25, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coin Central</span>
+            <h4><a href="https://coincentral.com/blockchain-data-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 16, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/token-swaps-work-theyre-happening-now/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 3, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TechCrunch</span>
+            <h4><a href="https://techcrunch.com/2018/06/03/monetizing-computing-resources-on-the-blockchain" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 29, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Enterprise Storage Forum</span>
+            <h4><a href="http://www.enterprisestorageforum.com/storage-management/20-data-storage-startups-to-watch.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 22, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Wired</span>
+            <h4><a href="https://www.wired.com/story/predictions-bots-blockchain-and-more/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 16, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TFIR</span>
+            <h4><a href="http://www.tfir.io/after-docker-ben-golub-is-building-airbnb-for-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 7, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">HostingAdvice.com</span>
+            <h4><a href="http://www.hostingadvice.com/blog/storj-delivers-an-open-source-decentralized-cloud-storage-platform/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 16, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The New Stack Makers</span>
+            <h4><a href="https://soundcloud.com/thenewstackmakers/ben-golub-from-storage-to-docker-and-back-to-storage-but-now-with-blockchain" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 16, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The New Stack</span>
+            <h4><a href="https://thenewstack.io/ben-golub-from-storage-to-docker-and-back-to-storage-but-now-with-blockchain/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Atlanta Tech Village</span>
+            <h4><a href="http://atlantatechvillage.com/buzz/2018/04/11/shawn-wilkinson-a-founder-story/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 6, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SiliconANGLE</span>
+            <h4><a href="https://siliconangle.com/blog/2018/04/06/storj-labs-intends-to-become-the-airbnb-of-decentralized-cloud-storage-cubeconversations/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 5, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">theCUBE</span>
+            <h4><a href="https://www.youtube.com/watch?v=I1n-ll-7yf8" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 28, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">NetworkWorld</span>
+            <h4><a href="https://www.networkworld.com/article/3265749/storage/10-hot-storage-companies-to-watch.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 28, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Business.com</span>
+            <h4><a href="https://www.business.com/articles/6-blockchain-uses-beyond-bitcoin/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 26, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Hypepotamus</span>
+            <h4><a href="https://hypepotamus.com/people/ben-golub/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 26, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ComputerWorld</span>
+            <h4><a href="https://www.computerworld.com/article/3250274/data-storage/blockchain-and-cryptocurrency-may-soon-underpin-cloud-storage.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 20, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Register</span>
+            <h4><a href="https://www.theregister.co.uk/2018/03/20/storage_roundup/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 14, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/legitimising-the-ico-token-finding-utility-over-security" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 13, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Politico</span>
+            <h4><a href="https://www.politico.com/newsletters/morning-cybersecurity/2018/03/13/wheres-the-us-doctrine-on-cyber-warfare-129860" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">EWeek.com</span>
+            <h4><a href="http://www.eweek.com/storage/former-docker-ceo-joins-blockchain-storage-platform-storj-labs" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">GeekWire</span>
+            <h4><a href="https://www.geekwire.com/2018/former-docker-ceo-ben-golub-named-ceo-storj-labs-blockchain-based-cloud-storage-company" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PR Newswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/ben-golub-joins-storj-labs-as-executive-chairman-interim-ceo-300612033.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SiliconANGLE</span>
+            <h4><a href="https://siliconangle.com/blog/2018/03/12/former-docker-ceo-ben-golub-takes-reins-blockchain-startup-storj-labs" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TechCrunch</span>
+            <h4><a href="https://techcrunch.com/2018/03/12/former-docker-ceo-ben-golub-joins-storj-as-executive-chairman-and-interim-ceo" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ZDNet</span>
+            <h4><a href="http://www.zdnet.com/article/former-docker-ceo-takes-over-storj-labs-top-spot" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 12, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/former-docker-ceo-to-lead-crypto-powered-distributed-storage-startup" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 5, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Wired</span>
+            <h4><a href="https://www.wired.com/story/the-decentralized-internet-is-here-with-some-glitches" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 19, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Entrepreneur</span>
+            <h4><a href="https://www.entrepreneur.com/article/309171" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 18, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Daily Herald</span>
+            <h4><a href="http://www.heraldextra.com/business/local/byu-blockchain-summit-seeks-to-explain-blockchain-technology/article_bab714c2-5e00-5316-96b4-09971ce38d97.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 13, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Investopedia</span>
+            <h4><a href="https://www.investopedia.com/news/blockchain-could-make-you-owner-data-privacy-selling-purchase-history" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 30, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Medium</span>
+            <h4><a href="https://medium.com/@matteozago/why-the-web-3-0-matters-and-you-should-know-about-it-a5851d63c949" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 23, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Computerworld</span>
+            <h4><a href="https://www.computerworld.com/article/3250274/data-storage/blockchain-and-cryptocurrency-may-soon-underpin-cloud-storage.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 23, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Computerworld</span>
+            <h4><a href="https://www.computerworld.com/article/3250292/cloud-storage/mingis-on-tech-2018-and-the-blockchain-bubble.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 10, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Silicon Slopes</span>
+            <h4><a href="https://siliconslopes.com/storj-io-founder-john-quinn-will-speak-at-silicon-slopes-tech-summit-2018-11a6d96417c" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 2, 2018</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Information</span>
+            <h4><a href="https://www.theinformation.com/cybersecurity-startups-newest-tool-blockchain" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 27, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Huffington Post</span>
+            <h4><a href="https://www.huffingtonpost.com/entry/the-privacy-evolution-building-apps-on-a-foundation_us_5a43ee55e4b06cd2bd03ddb8" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coindesk</span>
+            <h4><a href="https://www.coindesk.com/defining-word-tokens-2018/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 20, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coindesk</span>
+            <h4><a href="https://www.coindesk.com/300-million-lockup-storj-clarifies-token-economics-surprise-reveal/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 11, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ITBusinessEdge</span>
+            <h4><a href="https://www.itbusinessedge.com/blogs/it-unmasked/storj-labs-and-sonm-team-to-enable-fog-computing-via-blockchain.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 5, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/docai-integrates-storj-to-help-decentralize-and-secure-medical-data-300566966.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 1, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">StorageReview</span>
+            <h4><a href="http://www.storagereview.com/news_bits_nakivo_cavium_hpe_sonm_storj_cloudpassage_storone_qnap_more" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 28, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/sonm-partners-with-storj-labs-to-create-decentralized-cloud-computing-platform-300562311.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 21, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Forbes</span>
+            <h4><a href="https://www.forbes.com/sites/forbesfinancecouncil/2017/11/21/what-to-consider-in-an-ico/#485f17cc5c44" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 17, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/genaro-and-storj-labs-announce-collaboration-and-product-integration-300558447.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 17, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Tech In Asia</span>
+            <h4><a href="https://www.techinasia.com/storj-genaro-p2p-cloud-storage-enters-china" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 16, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/bo-shen-joins-storj-labs-board-of-advisors-300555843.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 15, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-announces-storj-tokens-now-listed-on-huobi-pro-exchange-for-trading-300556143.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 14, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bankless Times</span>
+            <h4><a href="https://www.banklesstimes.com/2017/11/14/storj-labs-younow-announce-partnership/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 5, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-announces-storj-tokens-now-listed-on-binance-exchange-for-trading-300549786.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 4, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">VentureBeat</span>
+            <h4><a href="https://venturebeat.com/2017/11/04/blockchain-is-bringing-the-sharing-economy-to-everyone/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 26, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-announces-storj-tokens-now-listed-on-poloniex-exchange-for-trading-300544286.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bloomberg</span>
+            <h4><a href="https://www.bloomberg.com/news/articles/2017-10-23/only-one-in-10-tokens-is-in-use-following-initial-coin-offerings" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Blockchain</span>
+            <h4><a href="http://www.the-blockchain.com/2017/10/19/loomia-announces-collaboration-storj-labs-introduces-smart-fabrics-consumer-data-blockchain-technology/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 16, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/blockv-partners-with-storj-labs-to-provide-decentralized-storage-architecture-and-new-toolsets-to-power-next-generation-digital-objects-300536713.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 13, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BitClave Blog</span>
+            <h4><a href="https://medium.com/bitclave/bitclave-announces-integration-with-storj-labs-to-harness-the-power-of-distributed-cloud-storage-ad283f64d036" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 12, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">SiliconANGLE</span>
+            <h4><a href="https://siliconangle.com/blog/2017/10/12/storj-partners-caplinked-bring-blockchain-storage-enterprise-documentation/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 1, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PRNewswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-announces-storj-tokens-now-listed-on-qryptos-exchange-for-trading-300538848.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 3, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">NOISEY</span>
+            <h4><a href="https://noisey.vice.com/en_us/article/d37mez/these-7-blockchain-apps-could-help-musicians-get-paid" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 30, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">VentureBeat</span>
+            <h4><a href="https://venturebeat.com/2017/07/30/when-blockchain-meets-big-data-the-payoff-will-be-huge/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 20, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Roberto Galoppini</span>
+            <h4><a href="http://robertogaloppini.net/2017/07/20/what-i-talk-about-when-i-talk-about-open-source-sustainability/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 12, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">COMPUTERTEK</span>
+            <h4><a href="http://www.computertek.de/storj-geld-verdienen-mit-freiem-festplattenspeicher/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 11, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Atlanta Tech Village</span>
+            <h4><a href="http://atlantatechvillage.com/buzz/2017/07/11/village-startups-raise-92m-60-days/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 10, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ECM Architect</span>
+            <h4><a href="http://ecmarchitect.com/archives/2017/07/10/4263" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 15, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Utah Business</span>
+            <h4><a href="https://utahbusiness.com/rich-resources-big-help-utahs-small-businesses/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 7, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Atlanta Tech Village</span>
+            <h4><a href="http://atlantatechvillage.com/buzz/2017/06/07/ashton-kutcher-takes-atlanta-startups/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 4, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CNBC</span>
+            <h4><a href="http://www.cnbc.com/2017/06/04/bitcoin-and-ethereum-rallies-have-led-to-funds-like-for-storj-ico.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 1, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">WIRED</span>
+            <h4><a href="https://www.wired.com/2017/06/pied-pipers-new-internet-isnt-just-possible-almost/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 25, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bloomberg</span>
+            <h4><a href="https://www.bloomberg.com/news/articles/2017-05-24/digital-tokens-unlock-stakes-in-blockchain-as-icos-proliferate" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Ether World</span>
+            <h4><a href="https://medium.com/@ether_world/ethereum-provides-a-complex-platform-with-simple-interface-ada3a2536581" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PR Newswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-launches-token-sale-300460329.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Blockchain</span>
+            <h4><a href="http://www.the-blockchain.com/2017/05/19/storj-labs-launches-token-sale/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 18, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/partners/storj-breaks-through-cloud-offers-token-sale/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 17, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/decentralizing-data-storage-with-storj-10-times-faster-50-percent-cheaper" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 17, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Crypto Currency Magazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/sjcx-price-up-before-storj-token-sale" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 10, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Crypto Currency Magazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-ico" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 8, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinOur</span>
+            <h4><a href="http://coinour.com/index.php/open-source-decentralized-storage-platform-storj-upcoming-token-sales/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 7, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/major-challenges-to-blockchain-mainstream-adoption-industry-view" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 6, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BTC Soul</span>
+            <h4><a href="https://www.btcsoul.com/noticias/storjcoin-cresce-em-vista-de-nova-ico/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 3, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoSmile</span>
+            <h4><a href="http://www.cryptosmile.com/2017/05/choosing-your-decentralized-storage-in-storj.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 29, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Overnetcity</span>
+            <h4><a href="https://blog.overnetcity.com/2017/04/29/build-storj-io-node-with-extra-drives-raspberry-mecano/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 27, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Economist</span>
+            <h4><a href="https://www.economist.com/news/finance-and-economics/21721425-it-may-also-spawn-valuable-innovations-market-initial-coin-offerings" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 26, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Atlanta Tech Village</span>
+            <h4><a href="http://atlantatechvillage.com/buzz/2017/04/26/storj-airbnb-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 24, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Mashable</span>
+            <h4><a href="http://mashable.com/2017/04/24/is-silicon-valley-new-internet-possible-or-not/#tMCpknu3LPqy" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Core Media</span>
+            <h4><a href="http://coremedia.info/blockchain-news/item/746-storj-to-host-second-crowdsale" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 22, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Crypto Currency Magazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-sjcx-counter-party-to-ethereum" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 21, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Inc</span>
+            <h4><a href="https://www.inc.com/marissa-levin/how-8-industry-leaders-including-walmart-use-blockchain-to-revolutionize-busines.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 20, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Forbes</span>
+            <h4><a href="https://www.forbes.com/sites/laurashin/2017/04/20/why-bitcoins-greatest-asset-could-also-spell-its-doom/#a00ba756adcd" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PR Newswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/storj-labs-to-announce-token-sale-on-ethereum-blockchain-300442105.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 12, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">OZY</span>
+            <h4><a href="http://www.ozy.com/fast-forward/how-to-earn-free-money-online-seriously/76407" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 12, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Crypto Currency Magazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-why-use-a-token/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 7, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Yahoo! Finance</span>
+            <h4><a href="https://finance.yahoo.com/news/invest-bitcoin-digital-currency-132212978.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 28, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/storj-migrate-cloud-storage-service-ethereum-blockchain-counterparty-bitcoin/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 26, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">WeTrust Blog</span>
+            <h4><a href="https://blog.wetrust.io/an-interview-with-shawn-wilkison-ceo-cto-of-storj-e7dbab8fb7f5" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 25, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Merkle</span>
+            <h4><a href="https://themerkle.com/5-companies-focusing-on-both-bitcoin-and-ethereum-blockchain-development/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 24, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Crypto Currency Magazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-move-to-ethereum-from-counterparty" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Razor Forex</span>
+            <h4><a href="http://www.razor-forex.com/2017/03/storj-cryptocurrency-spikes-to-4-month.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/storj-migrate-decentralized-storage-service-ethereum-blockchain/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 18, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Maxime Rousseau</span>
+            <h4><a href="https://maximerousseau.com/2017/03/18/storj-the-sharing-economy-and-why-it-matters/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 14, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Live Bitcoin News</span>
+            <h4><a href="http://www.livebitcoinnews.com/distributed-cloud-storage-platform-storj-comes-beta/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 1, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">insideHPC</span>
+            <h4><a href="https://insidehpc.com/2017/02/radio-free-hpc-looks-storj-blockchain-technology-cloud/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 27, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Blockchain News</span>
+            <h4><a href="http://www.the-blockchain.com/2017/02/26/storj-labs-raises-3-million-seed-funding/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 25, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TorrentFreak</span>
+            <h4><a href="https://torrentfreak.com/steal-show-s02e11-swarm-will-beat-cloud/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 24, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Techsquare Labs</span>
+            <h4><a href="https://techsquare.co/2017/02/24/founder-friday-shawn-wilkinson/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CB Insights</span>
+            <h4><a href="https://www.cbinsights.com/research/bitcoin-blockchain-startup-market-map/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CCM Japan</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-lab-3-million-raise" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Yahoo! Finance</span>
+            <h4><a href="https://finance.yahoo.com/news/distributed-cloud-storage-provider-storj-140000295.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ZDNet</span>
+            <h4><a href="http://www.zdnet.com/article/storj-introduces-a-distributed-blockchain-protected-cloud-storage-service/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">eWeek</span>
+            <h4><a href="http://www.eweek.com/storage/storj-labs-advances-blockchain-based-encrypted-storage.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/blockchain-startup-storj-targets-enterprise-cloud-3-million-raise/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 23, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">PR Newswire</span>
+            <h4><a href="https://www.prnewswire.com/news-releases/distributed-cloud-storage-provider-storj-labs-raises-3-million-300412316.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin.com</span>
+            <h4><a href="https://news.bitcoin.com/counterparty-token-price-doubles-year-date/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 31, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">EconoTimes</span>
+            <h4><a href="http://www.econotimes.com/GOED-picks-blockchain-startup-Storj-for-100k-grant-funding-513923" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 25, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Cointelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/top-blockchain-startups-join-efforts-to-boost-industrys-marketing" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Deseret News</span>
+            <h4><a href="https://www.deseretnews.com/article/865671419/GOED-announces-recipients-of-2017-tech-commercialization-grants.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 19, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Governor’s Office of Economic Development</span>
+            <h4><a href="http://business.utah.gov/news/newsgoed-announces-recipients-of-2017-tech-commercialization-grant/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 17, 2017</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Nasdaq</span>
+            <h4><a href="http://www.nasdaq.com/article/seven-industries-that-blockchain-will-disrupt-in-2017-cm734366" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 26, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BTC Manager</span>
+            <h4><a href="https://btcmanager.com/storj-drives-forward-with-micropayment-channels/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 21, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Let&#39;s Talk Bitcoin!</span>
+            <h4><a href="https://letstalkbitcoin.com/blog/post/technology-and-choice-11-storj-shawn-wilkinson" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 7, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">LTB Network</span>
+            <h4><a href="https://letstalkbitcoin.com/blog/post/technology-and-choice-11-storj-shawn-wilkinson" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 1, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Nasdaq</span>
+            <h4><a href="http://www.nasdaq.com/article/6-blockchain-applications-that-go-beyond-bitcoin-cm716269" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 28, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Huffington Post</span>
+            <h4><a href="https://www.huffingtonpost.com/ameer-rosic-/5-blockchain-applications_b_13279010.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 7, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Hypepotamus</span>
+            <h4><a href="https://hypepotamus.com/news/behind-scenes-venture-atlanta-2016/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 3, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Razor Forex</span>
+            <h4><a href="http://www.razor-forex.com/2016/11/storj-lanches-beta-service-on-heroku.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 3, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Hypepotamus</span>
+            <h4><a href="https://hypepotamus.com/companies/storj/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 30, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin.com</span>
+            <h4><a href="https://news.bitcoin.com/storj-partners-heroku-marketplace/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 29, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Beehive Startups</span>
+            <h4><a href="https://beehivestartups.com/storj-a-new-way-of-storing-on-the-cloud-9cae4a664aea" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 22, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">V3</span>
+            <h4><a href="https://www.v3.co.uk/v3-uk/feature/2471545/from-tim-berners-lee-to-kim-dotcom-a-whos-who-of-internet-20-innovators/page/7" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 19, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TechRepublic</span>
+            <h4><a href="https://www.techrepublic.com/article/why-your-next-storage-solution-may-depend-on-blockchain/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 4, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/crypto-token-sales-make-sense-open-source-projects/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 3, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Propellah.net</span>
+            <h4><a href="http://www.propellah.net/2016/09/03/qa-session-with-fabian-barkhau-of-storj-io/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 31, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Computer Weekly</span>
+            <h4><a href="http://www.computerweekly.com/feature/Blockchain-and-the-promise-of-cooperative-cloud-storage" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 16, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">iA.net</span>
+            <h4><a href="https://steemit.com/blockchain/@iainc/storj-review-altcoin-fundamentals/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 8, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Union Square Ventures</span>
+            <h4><a href="http://www.usv.com/blog/fat-protocols" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 4, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Fintechist</span>
+            <h4><a href="http://www.fintechist.com/japanese-zaif-exchange-lists-three-counterparty-assets/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 3, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">IndieSquare</span>
+            <h4><a href="https://blog.indiesquare.me/major-japanese-exchange-zaif-embraces-counterparty-acc4a25b827#.xpv1cwen6" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 1, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Stories from Coinbase</span>
+            <h4><a href="https://medium.com/the-coinbase-blog/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.7v6bguaz3/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 28, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BTC Manager</span>
+            <h4><a href="https://btcmanager.com/blockchain-and-the-rise-of-the-prosumer/blockchain-and-the-rise-of-the-prosumer/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 28, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Continuations</span>
+            <h4><a href="http://continuations.com/post/148098927445/crypto-tokens-and-the-coming-age-of-protocol" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 26, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin.com</span>
+            <h4><a href="https://news.bitcoin.com/top-nine-counterparty-projects/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 20, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CIO.com</span>
+            <h4><a href="https://www.cio.com/article/3096994/outsourcing/blockchain-will-drive-demand-for-decentralized-apps.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 18, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Finance Magnates</span>
+            <h4><a href="https://www.financemagnates.com/cryptocurrency/innovation/storj-and-counterparty-test-near-instantaneous-bitcoin-micropayments/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 18, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">NewsBTC</span>
+            <h4><a href="http://www.newsbtc.com/2016/07/18/storj-counterparty-lightning-payments-technology/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 15, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Entrepreneur</span>
+            <h4><a href="https://www.entrepreneur.com/article/279095/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 14, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/bitcoin-blockchain-proof-of-concept-storj-and-counterparty-partner-to-add-support-for-payment-channels/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 13, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ForkLog</span>
+            <h4><a href="https://forklog.com/counterparty-i-storj-obyavili-o-nachale-razrabotki-kanalov-momentalnyh-mikroplatezhej/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 13, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCurrencyMagazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-counterparty-instant-micropayments/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 12, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Counterparty</span>
+            <h4><a href="https://counterparty.io/news/storj-and-counterparty-partner-to-add-support-for-payment-channels/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 12, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">EconoTimes</span>
+            <h4><a href="http://www.econotimes.com/Storj-and-Counterparty-partner-to-add-support-for-payment-channels-234858" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 12, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin.com</span>
+            <h4><a href="https://news.bitcoin.com/storj-counterparty-instant-micropayments/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 12, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Live Bitcoin News</span>
+            <h4><a href="http://www.livebitcoinnews.com/counterparty-and-storj-unveil-payment-channel-technology/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 27, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CIO Asia</span>
+            <h4><a href="https://www.cio-asia.com/tech/cloud-computing/seven-potential-uses-for-bitcoins-core-innovation-the-blockchain/?page=2/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 26, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Fintechist</span>
+            <h4><a href="http://www.fintechist.com/storj-decentralized-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 18, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Economist</span>
+            <h4><a href="http://www.economist.com/news/business/21700642-slew-startups-trying-decentralise-online-world-reweaving-web/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 10, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Springwise</span>
+            <h4><a href="https://www.springwise.com/decentralized-cloud-storage-safe-snooping/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 30, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Merkle</span>
+            <h4><a href="http://themerkle.com/storj-technical-analysis-for-05302016/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 24, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">EconoTimes</span>
+            <h4><a href="http://www.econotimes.com/Decentralized-cloud-storage-platform-Storj-to-announce-open-beta-in-Berlin-on-June-2-211987" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 8, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin.com</span>
+            <h4><a href="https://news.bitcoin.com/microsoft-azure-partners-baas/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 4, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Microsoft Azure Blog</span>
+            <h4><a href="https://azure.microsoft.com/en-us/blog/azure-blockchain-update-8/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 27, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin News (Br)</span>
+            <h4><a href="https://www.bitcoinnews.com.br/bitcoinbrasil/a-popularizacao-do-armazenamento-na-nuvem-storj-lanca-fase-beta-unindo-se-ao-blockchain-como-servico-da-azure/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 27, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Maddyness</span>
+            <h4><a href="https://www.maddyness.com/innovation/2015/11/24/applications-blockchain/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 20, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Edukasi Bitcoin</span>
+            <h4><a href="http://edukasibitcoin.com/storj-cloud-storage-terdesentralisasi/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 18, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/blockchain-finds-application-in-multiple-industries" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 15, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph (Japan)</span>
+            <h4><a href="https://jp.cointelegraph.com/news/cloud-storage-goes-mainstream-storj-launches-beta-joining-azure-baasjp" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 15, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BTC-ECHO</span>
+            <h4><a href="https://www.btc-echo.de/storj-dezentrale-cloud-waehrung/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 13, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Silicon Angle</span>
+            <h4><a href="https://siliconangle.com/blog/2016/04/13/bitcoin-weekly-2016-april-13-storj-beta-added-to-azure-baas-ecosystem-shapeshift-hacked-kraken-series-b-investment/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/storj-celebrates-beta-launch-as-it-joins-microsoft-azure-baas/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinFox</span>
+            <h4><a href="http://www.coinfox.info/news/5266-decentralised-cloud-storage-storj-launches-beta-version" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">AllCoinsNews</span>
+            <h4><a href="http://allcoinsnews.com/2016/04/11/storj-launches-beta-joins-microsoft-azure-baas/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinFox (Ru)</span>
+            <h4><a href="http://www.coinfox.ru/novosti/5267-decentralised-cloud-storage-storj-launches-beta-version-2" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BitConnect</span>
+            <h4><a href="https://bitconnect.co/bitcoin-news/107/april-shower-storj-and-tender-wallet-bot-join-newest-releases" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Paypers</span>
+            <h4><a href="http://www.thepaypers.com//cryptocurrencies-bitcoin-virtual-currencies/decentralized-cloud-storage-platform-storj-goes-live/763790-39" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/cloud-storage-goes-mainstream-storj-launches-beta-joining-azure-baas" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 10, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CriptoNoticias</span>
+            <h4><a href="https://criptonoticias.com/aplicaciones/storj-labs-y-microsoft-baas-lanzan-version-de-prueba-de-plataforma-de-almacenamiento-descentralizado/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 10, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin.com</span>
+            <h4><a href="https://news.bitcoin.com/storj-launches-beta-microsoft-azure/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 10, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">NewsBTC</span>
+            <h4><a href="http://www.newsbtc.com/2016/04/10/storj-new-decentralized-cloud-storage-platform-goes-live/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 9, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Millenial Investor</span>
+            <h4><a href="http://blog.millennial-investor.com/a-dive-into-storjs-decentralized-cloud-storage-platform/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 9, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCurrencyMagazine</span>
+            <h4><a href="http://cryptocurrencymagazine.com/storj-join-microsoft-azure/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 8, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coinspeaker</span>
+            <h4><a href="https://www.coinspeaker.com/2016/04/08/storj-labs-joins-the-microsoft-azure-blockchain-ecosystem/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 8, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coindesk</span>
+            <h4><a href="https://www.coindesk.com/microsoft-adds-storj-azure-blockchain-ecosystem/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 6, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ValueWalk</span>
+            <h4><a href="http://www.valuewalk.com/2016/04/aware-future-shaping-technology-trends/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 22, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Le Coin Coin</span>
+            <h4><a href="https://le-coin-coin.fr/4000-storj-metadisk-gui-starting-blocks/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 17, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Le Coin Coin</span>
+            <h4><a href="https://le-coin-coin.fr/3892-storj-blockchain-revolutionne-data/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 29, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Investopedia</span>
+            <h4><a href="https://www.investopedia.com/articles/investing/022916/decentralized-autonomous-organizations-iot-today.asp" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 19, 2016</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/united-kingdom-to-adopt-blockchain-based-governance" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 30, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">AllCoinsNews</span>
+            <h4><a href="http://allcoinsnews.com/2015/11/30/earn-money-sharing-drive-space-blockchain-storage-firm-storj-releases-alpha-of-driveshare-gui/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 29, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Fintechist</span>
+            <h4><a href="http://www.fintechist.com/fintech-innovation-storj-offers-decentralized-encrypted-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 29, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/blockchain-decentralized-cloud-storage-storj-and-competitors" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 30, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">All Coins News</span>
+            <h4><a href="http://allcoinsnews.com/2015/10/30/storj-labs-adds-minios-periasamy-as-tech-advisor/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 26, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Boston Herald</span>
+            <h4><a href="http://www.bostonherald.com/business/business_markets/2015/10/booting_up_take_bitcoin_tech_to_the_bank" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 12, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Let&#39;s Talk Payments</span>
+            <h4><a href="https://letstalkpayments.com/13-promising-blockchain-startups-to-watch-out-for/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 2, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/dutch-national-police-set-sights-on-blockchain-based-cloud-services-1443816367/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 30, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">All Coins News</span>
+            <h4><a href="http://allcoinsnews.com/2015/09/30/decentralized-storage-project-storj-io-reaches-1pb-after-one-month/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 29, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/cloud-platform-storj-reaches-storage-milestone-boosts-rewards-pool-tenfold/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 22, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/decentralized-cloud-storage-service-reaches-1-petabyte-milestone/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 21, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/storj-network-passes-petabyte-storage-space-1442875577/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 18, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Dataconomy</span>
+            <h4><a href="http://dataconomy.com/2015/09/blockchain-a-new-economic-model/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 17, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/press-releases/storj-network-passes-1-petabyte-storage-space/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 27, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/storj-targets-1pb-milestone-for-cloud-storage-service/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 27, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">All Coins News</span>
+            <h4><a href="http://allcoinsnews.com/2015/08/27/storj-launches-platform-test-group-b-hits-100-gb-100-tb-milestones/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 10, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">bitcoinist.net</span>
+            <h4><a href="http://bitcoinist.com/amazon-web-service-outage-shows-need-decentralized-cloud-computing/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 29, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Let’s Talk Payments</span>
+            <h4><a href="https://letstalkpayments.com/blockchain-use-cases-comprehensive-analysis-startups-invoved/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 27, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Let’s Talk Bitcoin</span>
+            <h4><a href="https://letstalkbitcoin.com/blog/post/xcp-weekly-update-9-storj-development-update-1" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 7, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ExpertenDerIT</span>
+            <h4><a href="https://www.expertenderit.de/blog/cloud-plattform_storj-ein-neuer-ansatz-in-sachen-cloudspeicher" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 10, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/everdreamsoft-launches-blockchain-based-trading-cards/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 9, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Verizon Ventures</span>
+            <h4><a href="http://www.verizonventures.com/blog/2015/06/startups-adopt-blockchain-to-disrupt-big-industry/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 29, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">T3N Magazin</span>
+            <h4><a href="http://t3n.de/news/storj-festplatten-speicher-vermieten-613164/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 29, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">ListHunt</span>
+            <h4><a href="http://www.listhunt.co/5-best-startups-from-pioneer-festival-2015/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 28, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/10-bitcoin-industry-sectors-providing-killer-apps" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 20, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/storj-io-triples-participation-for-test-group-b/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 01, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Pioneers Festival 2015</span>
+            <h4><a href="https://pioneers.io/festival2015/top-50/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 20, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Investopedia</span>
+            <h4><a href="https://www.investopedia.com/articles/investing/042015/bitcoin-20-applications.asp" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 28, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Venture Beat</span>
+            <h4><a href="https://venturebeat.com/2015/03/28/4-ways-blockchain-technology-will-change-the-world/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 18, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">AllCoinsNews</span>
+            <h4><a href="http://allcoinsnews.com/2015/03/18/blockchain-cloud-storage-platform-storj-outlines-roadmap-parts-swift-hail-telehash/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">March 17, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Blockchained Technology</span>
+            <h4><a href="http://blockchained.blogspot.co.uk/2015/03/data-storage-with-blockchain-technology.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 16, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinsSource</span>
+            <h4><a href="http://www.coinssource.com/things-you-didnt-know-about-data-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 12, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Blog-Off</span>
+            <h4><a href="http://blog-off.co.uk/blog/storj-revolution-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">February 10, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Hedgeable</span>
+            <h4><a href="https://www.hedgeable.com/blog/2015/02/bitcoin-no-boundaries-ii-innovation-is-here-and-now/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 31, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinsSource</span>
+            <h4><a href="http://www.coinssource.com/blockchain-brings-internet-things/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 27, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">WIRED</span>
+            <h4><a href="https://www.wired.com/2015/01/black-duck-rookies/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 27, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Black Duck Software</span>
+            <h4><a href="https://www.blackducksoftware.com/open-source-rookies-2016" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 19, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coins Source</span>
+            <h4><a href="http://www.coinssource.com/top-5-upcoming-digital-currency-based-projects-2015/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 15, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">AllCoinsNews</span>
+            <h4><a href="http://allcoinsnews.com/2015/01/15/blockchain-cloud-storage-platform-storj-attracts-attention-at-ces-2015/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 14, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TechRaptor</span>
+            <h4><a href="https://techraptor.net/content/storj-puts-different-spin-cloud-storage" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 14, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Center for Sensimotor Neural Engineering,</span>
+            <h4><a href="http://csne-erc.org/engage-enable/post/reu-alum-makes-waves-ces-2015/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 13, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Tweak Town</span>
+            <h4><a href="https://www.tweaktown.com/news/42796/storj-creates-network-allow-users-rent-spare-hdd-storage/index.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 12, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Computerworld</span>
+            <h4><a href="https://www.computerworld.com/article/2867040/new-service-wants-to-rent-out-your-hard-drives-extra-space.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 9, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinsSource</span>
+            <h4><a href="http://www.coinssource.com/storj-future-decentralized-storage-secured-blockchain/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 8, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">DOZ</span>
+            <h4><a href="http://www.doz.com/best-pitches-ces-2015" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 7, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/appcoins-crypto-crowdfunding-and-the-potential-sec-regulation-pitfall" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 7, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Global Crypto News</span>
+            <h4><a href="http://globalcryptonews.com/storj-blockchain-storage-in-the-cloud/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 7, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Atlantic</span>
+            <h4><a href="http://www.theatlantic.com/business/archive/2015/01/why-are-so-few-black-people-using-bitcoin/384268/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 6, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">NEWSBTC</span>
+            <h4><a href="http://www.newsbtc.com/2015/01/06/back-basics-makes-bitcoin-valuable/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 6, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoinist</span>
+            <h4><a href="http://bitcoinist.com/storj-new-decentralized-storage-solution/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 4, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/19-crypto-2-0-projects-watch-2015/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">January 3, 2015</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="http://www.coindesk.com/crypto-2-0-2015-turning-bitcoin-theory-big-business/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 26, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">TechCrunch</span>
+            <h4><a href="https://techcrunch.com/2014/12/26/bitcoin-2-0-and-tokenizing-the-user-experience/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 25, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Casino</span>
+            <h4><a href="http://bitcoincasino.info/bitcoin-casino-news/storj-new-cloud-bitcoin-storage-technology/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 24, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Swarm</span>
+            <h4><a href="https://medium.com/swarmfund/the-second-wave-of-blockchain-innovation-270e6daff3f5" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 18, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">AllCoinsNews</span>
+            <h4><a href="http://allcoinsnews.com/2014/12/18/storj-starts-beta-test-group-for-money-earning-drive-share/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 9, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/storj-releases-an-additional-white-paper/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">December 3, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/dropbox-why-the-10-billion-dollar-company-needs-the-blockain" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 30, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/weekend-roundup-black-friday-ebay-interested-in-bitcoin-and-library-accepts-btc-amid-riots" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 22, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/decentral-bank-upgrades-citi-to-bank-20-that-handles-crypto-circumvents-regulators" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 20, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinPrices</span>
+            <h4><a href="https://www.coinprices.io/articles/encrypt-everything-the-tech-based-free-market-solution-to-net-neutrality/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 18, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="http://www.coindesk.com/decentralised-apps-promise-new-way-business-online/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 17, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Startup Beat</span>
+            <h4><a href="https://startupbeat.com/2014/11/featured-startup-pitch-storjs-id4014/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 17, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/genecoin-developers-on-storing-dna-with-bitcoin-and-growing-blockchain-creatures-" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 12, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/counterparty-is-fast-becoming-the-go-to-for-bitcoin-finance/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 8, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/epicenter-bitcoin-ep-51-everything-that-can-be-decentralized-will-be-decentralized-david-a-johnston" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 6, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/how-to-ensure-network-scalibility-fighting-blockchain-bloat-1415304056/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 5, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/live-video-stream-swarm-demo-day-2014-1415153959/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 3, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/tatiana-talks-bitcoin-2-0-with-adam-krellenstein-of-counterparty-1415038406/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 5, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="http://bitcoinmagazine.com/18029/live-video-stream-swarm-demo-day-2014/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">November 3, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/bitcoin-conference-purdue-university/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 28, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/decentralized-storage-application-storj-gets-new-look-opens-closed-beta-access/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 22, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Crypto Currency Rag</span>
+            <h4><a href="http://cryptocurrencyrag.com/counterparty-financial-tool/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 21, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">I Have Bitcoins</span>
+            <h4><a href="https://ihavebitcoins.com/2014/10/featured/storj-11661" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 14, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/storj-crowdsale-conclusion-1413322134/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 13, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Brave New Coin</span>
+            <h4><a href="https://bravenewcoin.com/news/storj-applies-bitcoin-to-real-world-problems" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 12, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Wall Street Journal</span>
+            <h4><a href="https://blogs.wsj.com/accelerators/2014/10/10/weekend-read-the-imminent-decentralized-computing-revolution/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 7, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/coins-in-the-kingdom-wrap-up-1412716857/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">October 2, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CounterParty</span>
+            <h4><a href="https://cointelegraph.com/news/counterparty-we-are-powering-two-thirds-of-bitcoin-20-startups-crowdsales" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 20, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/completely-decentralize-internet-1410373821/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 16, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coin Finance</span>
+            <h4><a href="http://www.coinfinance.com/news/going-dark-decentralizing-the-future" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 15, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="http://www.cryptocoinsnews.com/storjcoin-price-rises-62-in-wake-of-celebgate-apple-hack" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 10, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coins Source</span>
+            <h4><a href="http://www.coinssource.com/storj-interview-with-shawn-wilkinson-coins-source-exclusive" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 10, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/completely-decentralize-internet-1410373821/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 9, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Cybersalon</span>
+            <h4><a href="http://cybersalon.org/the-cloud-were-doing-it-wrong/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 5, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/crypto-2-0-roundup-block-chain-bloat-solutions-crypto-football-team/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 3, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">USA Today</span>
+            <h4><a href="https://www.usatoday.com/story/money/business/2014/09/02/baverman-bitcoin/14728425/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">September 1, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Let&#39;s Talk Bitcoin</span>
+            <h4><a href="http://letstalkbitcoin.com/blog/post/beyond-bitcoin-12-the-future-of-storj" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 29, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Medium by David A. Johnston</span>
+            <h4><a href="https://medium.com/@DJohnstonEC/informational-report-on-storj-io-1a03c5c65266" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 28, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/storj-introduces-decentralized-cloud-storage-1409254249/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 26, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Deepdotweb</span>
+            <h4><a href="https://www.deepdotweb.com/2014/08/26/storj-decentralizedcloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 25, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoBiz Magazine</span>
+            <h4><a href="http://cryptobizmagazine.com/?p=2263" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 25, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Planet Infowars</span>
+            <h4><a href="http://planet.infowars.com/technology/the-next-biggest-thing-since-bitcoin-storj-a-decentralized-cloud-storage-system" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 25, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/storj-crowdsale-ends-users-to-be-rewarded" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 22, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinDesk</span>
+            <h4><a href="https://www.coindesk.com/cloud-storage-startup-storj-raises-910-btc-crowdsale/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 22, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/storj-exclusive-interview-decentralized-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 18, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Coins Source</span>
+            <h4><a href="http://www.coinssource.com/storj-decentralized-cloud-storage-with-bitcoin-technology" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 16, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/storj-head-dev-shawn-wilkinson/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">August 16, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Bitcoin Magazine</span>
+            <h4><a href="https://bitcoinmagazine.com/articles/storj-vs-dropbox-decentralized-storage-future-1408177107/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 8, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CoinTelegraph</span>
+            <h4><a href="https://cointelegraph.com/news/storj-to-release-metadisk-and-begin-crowdsale" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">July 7, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Benzinga</span>
+            <h4><a href="http://www.benzinga.com/tech/14/07/4684023/could-bitcoin-disrupt-more-than-finance" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">June 9, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">The Telegraph</span>
+            <h4><a href="http://www.telegraph.co.uk/technology/news/10881213/The-coming-digital-anarchy.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">May 2, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">Backup Review</span>
+            <h4><a href="http://www.backupreview.com/storj-is-this-the-future-of-cloud-storage/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 14, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">InfoWorld</span>
+            <h4><a href="https://www.infoworld.com/article/2607644/encryption/bitcoin-finally-pays-off----in-secure-cloud-storage.html" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 11, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">CryptoCoins News</span>
+            <h4><a href="https://www.cryptocoinsnews.com/storj-next-generation-cloud-storage-through-the-blockchain/" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-3 col-lg-2">
+            <p class="press-date">April 9, 2014</p>
+          </div>
+          <div class="col-xs-12 col-sm-9 col-lg-10">
+            <span class="press-source">BitScan</span>
+            <h4><a href="https://bitscan.com/articles/genuine-and-decentralized-cloud-storage-storj" target="_blank" class="press-title link">Is It Time To Test Your New Product&#39;s Usability? 13 Tech Experts Weigh In</a></h4>
+          </div>
+        </div>
+        <hr>  
+
+
+      </div>
+    </div>
+
+    <footer>
+    <div class="container">
+      <div class="row is-flex">
+
+          <div class="col-xs-12 col-sm-2 col-xs-6">
+              <a href="/" class="footer-logo">
+                <img src="/img/logo-white.svg" alt="Storj">
+              </a>
+              <ul class="list-unstyled">
+                  
+                  <li><a href="/privacy-policy">Privacy Policy</a></li>
+                  
+                  <li><a href="/terms-of-use">Terms of Use</a></li>
+                  
+                  <li><a href="/terms-of-service">Terms of Service</a></li>
+                  
+                  <li><a href="/code-of-conduct">Code of Conduct</a></li>
+                  
+                  <li><a href="/information-policy">Information Policy</a></li>
+                  
+                  <li><a href="/storage-sla">Storage SLA</a></li>
+                  
+                  <li><a href="/canary">Canary</a></li>
+                  
+                  <li><a href="https://status.storj.io/">Status</a></li>
+                  
+              </ul>
+            </div>
+
+        <div class="col-xs-12 col-sm-2 col-xs-6">
+          <h5>Company</h5>
+          <ul class="list-unstyled">
+            
+            <li><a href="/whitepaper">Whitepaper</a></li>
+              
+            <li><a href="/team">Team</a></li>
+              
+            <li><a href="/careers">Careers</a></li>
+              
+            <li><a href="/press">Press</a></li>
+              
+            <li><a href="https://storj.io/blog">Blog</a></li>
+              
+            <li><a href="/open-source">Open Source</a></li>
+              
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-2 col-xs-6">
+          <h5>Product</h5>
+          <ul class="list-unstyled">
+            
+            <li><a href="https://docs.storj.io/docs">Quickstart</a></li>
+              
+            <li><a href="/developers">Developers</a></li>
+              
+            <li><a href="/partners">Partners</a></li>
+              
+            <li><a href="/community">Community</a></li>
+              
+            <li><a href="https://storjlabs.atlassian.net/servicedesk/customer/portals">Support</a></li>
+              
+            <li><a href="https://payout.storj.io/">Payouts</a></li>
+              
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-3 col-xs-6">
+          <h5>Connect</h5>
+          <ul class="list-unstyled">
+            
+            <li><a href="https://twitter.com/storjproject"><img class="social-link" src="/img/social-twitter.svg" alt="">Twitter</a></li>
+              
+            <li><a href="https://github.com/Storj/"><img class="social-link" src="/img/social-github.svg" alt="">GitHub</a></li>
+              
+            <li><a href="https://www.reddit.com/r/storj/"><img class="social-link" src="/img/social-reddit.svg" alt="">Reddit</a></li>
+              
+            <li><a href="https://www.facebook.com/storjproject"><img class="social-link" src="/img/social-facebook.svg" alt="">Facebook</a></li>
+              
+            <li><a href="https://medium.com/@storjproject"><img class="social-link" src="/img/social-medium.svg" alt="">Medium</a></li>
+              
+          </ul>
+        </div>
+
+        <div class="col-xs-12 col-sm-3  text-center">
+          <h5>Stay in Touch</h5>
+          <div style="padding-top: 0.1em" id="mc_embed_signup">
+            <form action="https://storj.us8.list-manage.com/subscribe/post?u=edba9fc4ce8b9095a31859cba&amp;id=da152f16f8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                <div id="mc_embed_signup_scroll">
+                <input style="height:50%; font-size: 14px" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">
+                
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_edba9fc4ce8b9095a31859cba_09353db057" tabindex="-1" value=""></div>
+                <div class="clear"><input style="height:50%; font-size: 14px" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn-footer btn-lg btn-signup"></div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="address">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <address>Storj Labs Inc. - 3423 Piedmont Road NE, Suite 475, Atlanta, Georgia, 30305, United States</address>
+          </div>
+        </div>
+      </div>
+    </div>
+</footer>
+    <script src="/js/particles.min.js"></script>
+<script src="/js/jquery-2.1.1.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+<script type="text/javascript" src="/js/typewriting.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+  </body>
+</html>

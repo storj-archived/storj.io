@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terms-of-services on Storj.io</title>
+    <link>/terms-of-service/</link>
+    <description>Recent content in Terms-of-services on Storj.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/terms-of-service/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/terms-of-service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/terms-of-service/</guid>
+      <description>By clicking to agree to these Storage Terms of Service (“Storage Terms”) during the account setup process, or by otherwise accessing or using the Storage Services of Storj Labs Inc. (“Company,” “we,” or “us”) that enable you to use the open-source, distributed cloud storage platform (“Storage Platform”), you agree to be bound by these Storage Terms and all terms incorporated by reference. If you do not agree to these Storage Terms, you may not access or use our Storage Services.</description>
+    </item>
+    
+  </channel>
+</rss>
