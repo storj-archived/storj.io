@@ -1,5 +1,5 @@
 ---
-title: "Box1"
+title: "center box 1"
 img: "/img/gitHelp.svg"
 heading: "Getting Help"
 description: "Check out our support center and get help."

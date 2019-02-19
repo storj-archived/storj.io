@@ -1,8 +1,8 @@
 ---
-title: "Cwu6"
+title: "Connect with us box 6"
 class: "cwu"
 img: "/img/icon-medium.svg"
-txt: "Medium"
-link: "https://medium.com/@storjproject"
+ctaText: "Medium"
+ctaLink: "https://medium.com/@storjproject"
 ---
 

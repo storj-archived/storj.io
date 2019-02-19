@@ -11,10 +11,10 @@
 
 {{ range where .Site.Pages ".Params.class" "cwu" }}
         <div class="col-lg-2">
-          <a href="{{.Params.link}}" target="_blank" class="panel-link">
+          <a href="{{.Params.ctaLink}}" target="_blank" class="panel-link">
             <div class="panel panel-card">
               <img src="{{.Params.img}}" alt="" height="40" width="40">
-              <h4>{{.Params.txt}}</h4>
+              <h4>{{.Params.ctaText}}</h4>
             </div>
           </a>
         </div>
@@ -35,10 +35,10 @@
       <div class="col-lg-12 col-lg-offset-1 text-center">
 {{ range where .Site.Pages ".Params.class" "cwu" }}
       <div class="col-xs-12 col-sm-12 col-md-6">
-        <a href="{{.Params.link}}" target="_blank" class="panel-link">
+        <a href="{{.Params.ctaLink}}" target="_blank" class="panel-link">
           <div class="panel panel-card">
             <img src="{{.Params.img}}" alt="" height="40" width="40">
-            <h4>{{.Params.txt}}</h4>
+            <h4>{{.Params.ctaText}}</h4>
           </div>
         </a>
       </div>

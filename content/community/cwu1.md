@@ -1,8 +1,8 @@
 ---
-title: "Cwu1"
+title: "Connect with us box 1"
 class: "cwu"
 img: "/img/icon-blog.svg"
-txt: "Blog"
-link: "https://storj.io/blog/"
+ctaText: "Blog"
+ctaLink: "https://storj.io/blog/"
 ---
 

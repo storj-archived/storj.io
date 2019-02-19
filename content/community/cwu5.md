@@ -1,8 +1,8 @@
 ---
-title: "Cwu5"
+title: "Connect with us box 5"
 class: "cwu"
 img: "/img/icon-youtube.svg"
-txt: "YouTube"
-link: "https://www.youtube.com/StorjLabs"
+ctaText: "YouTube"
+ctaLink: "https://www.youtube.com/StorjLabs"
 ---
 
