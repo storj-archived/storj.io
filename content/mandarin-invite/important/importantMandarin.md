@@ -1,4 +1,5 @@
 ---
+title : "important"
 ---
 
 <p style="color:orangered;"><Strong>*重要通知*</Strong> 授權代幣無法用於設置多於一個節點。與V2網絡相比，在V3網絡上設置複數儲存節點並沒有任何好處。 如果您有10 TB可用空間，10 TB的單個節點與兩個5 TB節點的收益潛力並無分別。

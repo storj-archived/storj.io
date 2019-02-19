@@ -1,4 +1,5 @@
 ---
+title : "you are invited"
 heading : '邀請你成為儲存節點經營者'
 ctaText : '閱讀日誌'
 ctaLink : 'https://storj.io/blog'

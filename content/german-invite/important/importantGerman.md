@@ -1,4 +1,5 @@
 ---
+title : "important"
 ---
 <p style="color:orangered;"><Strong>*WICHTIG*</Strong> Sie werden nicht mehr als einen einzigen Knotenpunkt mit Ihrem Berechtigungs-Token einrichten können. Zum Unterschied mit dem vorherigen V2 Netz erreichen Sie keine Vorteile davon, mehrere Speicherknoten einzurichten auf V3. Wenn Sie z.B. 10 TB Speicherplatz auf einem einzigen Knoten bereitstellen, würden Sie das selbe Einkunftspotenzial erreichen, wie wenn Sie zwei 5-TB Knoten eingerichtet hätten. Bitte lesen Sie unsere neusten Speicherknoten <a href="https://storj.io/blog">blogs</a>, und das <a href="https://storj.io/white-paper">V3 White Paper</a> für mehr Einzelheiten.</p>
 <p style="color:orangered;">Wenn Sie noch einen V2-Node betreiben, empfehlen wir Ihnen, diesen Node bis zur V3 Beta-Version aufrecht zu erhalten.</p>

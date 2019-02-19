@@ -1,4 +1,5 @@
 ---
+title: "configuration"
 heading : '設置教學'
 ---
 

@@ -1,4 +1,5 @@
 ---
+title : "auth token"
 ---
 
 <h1>Hier ist Ihr einmaliges Berechtigungs-Token, um das Zertifikat für Ihren Knotenpunkt zu unterschreiben:</h1>

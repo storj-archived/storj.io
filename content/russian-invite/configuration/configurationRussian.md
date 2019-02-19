@@ -1,4 +1,5 @@
 ---
+title: "configuration"
 heading : 'конфигурация'
 ---
 

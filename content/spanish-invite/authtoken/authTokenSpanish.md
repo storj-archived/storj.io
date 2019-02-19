@@ -1,4 +1,5 @@
 ---
+title : "auth token"
 ---
 <h1>Aquí se encuentra su token de autorización de uso único para firmar su certificado de nodo:</h1>
 <div class="spacer45"></div>

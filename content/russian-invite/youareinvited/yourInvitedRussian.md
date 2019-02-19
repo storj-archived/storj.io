@@ -1,4 +1,5 @@
 ---
+title : "you are invited"
 heading : 'ВЫ ПРИГЛАШЕНЫ'
 ctaLink : 'https://storj.io/blog'
 ctaText : 'читать блог'

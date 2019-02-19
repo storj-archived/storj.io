@@ -1,4 +1,5 @@
 ---
+title: "configuration"
 heading : 'INSTRUCCIONES DE CONFIGURACIÓN'
 ---
 
