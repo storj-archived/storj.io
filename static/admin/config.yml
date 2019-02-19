@@ -29,7 +29,7 @@ collections:
     create: false
     slug: "{{slug}}"
     fields: 
-     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Title", name: "title", widget: "hidden"}
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}

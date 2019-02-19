@@ -1,5 +1,5 @@
 ---
-title: "Cwu2"
+title: "Connect with us box 2"
 class: "cwu"
 img: "/img/icon-reddit.svg"
 ctaText: "r/Storj"
