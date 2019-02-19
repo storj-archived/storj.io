@@ -151,5 +151,216 @@ collections:
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
-  
+  - name : "Mandarin invite-auth token"
+    label: "Mandarin invite-auth token"
+    folder: "content/mandarin-invite/authtoken"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name : "Mandarin invite-configuration"
+    label: "Mandarin invite-configuration"
+    folder: "content/mandarin-invite/configuration"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+  - name : "Mandarin invite-important"
+    label: "Mandarin invite-important"
+    folder: "content/mandarin-invite/important"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+  - name : "Mandarin invite-support"
+    label: "Mandarin invite-support"
+    folder: "content/mandarin-invite/support"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+  - name : "Mandarin invite-you are invited"
+    label: "Mandarin invite-you are invited"
+    folder: "content/mandarin-invite/youareinvited"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "ctaText", name: "ctaText", widget: "string"}
+      - {label: "ctaLink", name: "ctaLink", widget: "string"}
+  - name : "Russian invite-auth token"
+    label: "Russian invite-auth token"
+    folder: "content/russian-invite/authtoken"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name : "Russian invite-configuration"
+    label: "Russian invite-configuration"
+    folder: "content/russian-invite/configuration"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+  - name : "Russian invite-important"
+    label: "Russian invite-important"
+    folder: "content/russian-invite/important"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+  - name : "Russian invite-support"
+    label: "Russian invite-support"
+    folder: "content/russian-invite/support"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+  - name : "Russian invite-you are invited"
+    label: "Russian invite-you are invited"
+    folder: "content/russian-invite/youareinvited"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "ctaText", name: "ctaText", widget: "string"}
+      - {label: "ctaLink", name: "ctaLink", widget: "string"}
+  - name : "Spanish invite-auth token"
+    label: "Spanish invite-auth token"
+    folder: "content/spanish-invite/authtoken"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name : "Spanish invite-configuration"
+    label: "Spanish invite-configuration"
+    folder: "content/spanish-invite/configuration"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+  - name : "Spanish invite-important"
+    label: "Spanish invite-important"
+    folder: "content/spanish-invite/important"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+  - name : "Spanish invite-support"
+    label: "Spanish invite-support"
+    folder: "content/spanish-invite/support"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+  - name : "Spanish invite-you are invited"
+    label: "Spanish invite-you are invited"
+    folder: "content/spanish-invite/youareinvited"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "ctaText", name: "ctaText", widget: "string"}
+      - {label: "ctaLink", name: "ctaLink", widget: "string"}
+  - name : "home-fresh update"
+    label: "home-fresh update"
+    folder: "content/home/freshupdate"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "ctaText", name: "ctaText", widget: "string"}
+      - {label: "ctaLink", name: "ctaLink", widget: "string"}
+      - {label: "updateDate", name: "updateDate", widget: "string"}
+  - name : "home-hero"
+    label: "home-hero"
+    folder: "content/home/hero"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "stage", name : "stage", widget: "string"}
+  - name : "home-milestones"
+    label: "home-milestones"
+    folder: "content/home/milestones"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "text", name: "text", widget: "string"}
+     - {label: "completed", current: "completed", widget: "boolean" }
+     - {label: "current", current: "current", widget: "boolean" }
+  - name : "home-partners"
+    label: "home-partners"
+    folder: "content/home/partners"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "description", name : "description", widget: "string"}
+  - name : "home-priceboxes"
+    label: "home-priceboxes"
+    folder: "content/home/priceboxes"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "price", name : price", widget: "string"}
+  - name : "home-pricing"
+    label: "home-pricing"
+    folder: "content/home/pricing"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "description", name : "description", widget: "string"}
+  - name : "home-updateboxes"
+    label: "home-updateboxes"
+    folder: "content/home/updateboxes"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "description", name : "description", widget: "string"}
+  - name : "home-usecases"
+    label: "home-usecases"
+    folder: "content/home/usecases"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "description", name : "description", widget: "string"}
+  - name : "home-waitlistboxes"
+    label: "home-waitlistboxes"
+    folder: "content/home/waitlistboxes"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "description", name : "description", widget: "string"}
+  - name : "information-policy"
+    label: "information-policy"
+    folder: "content/information-policy"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "lastUpdated", name : "lastUpdated", widget: "string"}
+
+    
+
+
 

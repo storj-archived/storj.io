@@ -1,4 +1,5 @@
 ---
+title : "information policy"
 lastUpdated : "July 5, 2016"
 ---
 
