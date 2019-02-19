@@ -8,9 +8,9 @@ public_folder: "/"
 
 collections:
   - name : "canary"
-  - label: "canary"
-  - folder: "content/canary"
-  - create: false
-  - slug: "{{slug}}"
-  - fields: 
+    label: "canary"
+    folder: "content/canary"
+    create: false
+    slug: "{{slug}}"
+    fields: 
      - {label: "Body", name: "body", widget: "markdown"}
