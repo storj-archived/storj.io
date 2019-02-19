@@ -28,7 +28,7 @@ collections:
     files: 
       - label : "center box"
         name : "title"
-        file : "/content/community/box*.md"
+        file : "content/community/box*.md"
         fields :      
         - {label: "Title", name: "title", widget: "hidden"}
         - {label: "heading", name : "heading", widget: "string"}
