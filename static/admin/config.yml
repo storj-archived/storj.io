@@ -13,5 +13,5 @@ collections:
     create: false
     slug: "{{slug}}"
     fields: 
-     - {label: "Canary file", name: "Canary file", widget: "string"}
+     - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}

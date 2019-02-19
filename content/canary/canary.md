@@ -1,4 +1,5 @@
 ---
+title : "canary file"
 ---
 
 Storj Labs Inc. Warrant Canary
