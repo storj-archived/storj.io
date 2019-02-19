@@ -9,7 +9,7 @@ public_folder: "/"
 collections:
   - name : "canary"
     label: "canary"
-    folder: "content/canary"
+    folder: "content/canary/"
     create: false
     slug: "{{slug}}"
     fields: 
