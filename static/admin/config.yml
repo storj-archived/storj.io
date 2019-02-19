@@ -33,7 +33,7 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
-     - {label: "img", name: "img", widget: "image", required: false }
+     - {label: "img", name: "img", widget: "image", required: true }
      - {label: "description", name : "description", widget: "string"}
   - name : "community-connect with us"
     label: "community-connect with us"
@@ -44,7 +44,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
-     - {label: "img", name: "img", widget: "image", required: false }
+     - {label: "img", name: "img", widget: "image", required: true }
   - name : "community-hero nav"
     label: "community-hero nav"
     folder: "content/community/heroNav"
@@ -63,7 +63,7 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
-      - {label: "img", name: "img", widget: "image", required: false }
+      - {label: "img", name: "img", widget: "image", required: true }
   - name : "community-reporting"
     label: "community-reporting"
     folder: "content/community-reporting"
@@ -83,7 +83,7 @@ collections:
       - {label: "description", name: "description", widget: "string"}
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
-      - {label: "img", name: "img", widget: "image", required: false }
+      - {label: "img", name: "img", widget: "image", required: true }
   - name : "developers-hero nav"
     label: "developers-hero nav"
     folder: "content/developers/heroNav"
@@ -93,5 +93,22 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name : "footer"
+    label: "footer"
+    folder: "content/footer"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "link", name: "link", widget: "string"}
+  - name : "footer-connect"
+    label: "footer-connect"
+    folder: "content/footer/connectcolumn"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "link", name: "link", widget: "string"}
+      - {label: "icon", name: "icon", widget: "image", required: true }
 
 
