@@ -25,13 +25,14 @@ collections:
      - {label: "Body", name: "body", widget: "markdown"}
   - name : "community"
     label: "community"
-    files: "content/community/Box*.md"
-    create: false
-    slug: "{{slug}}"
-    fields: 
-     - {label: "Title", name: "title", widget: "hidden"}
-     - {label: "heading", name : "heading", widget: "string"}
-     - {label: "ctaText", name : "ctaText", widget: "string"}
-     - {label: "ctaLink", name : "ctaLink", widget: "string"}
-     - {label: "img", name: "img", widget: "image", required: false }
-     - {label: "description", name : "description", widget: "string"}
+    files: 
+      - label : "center box"
+      - name : "title"
+      - file : "/content/community/box*.md"
+      - fields :      
+          - {label: "Title", name: "title", widget: "hidden"}
+          - {label: "heading", name : "heading", widget: "string"}
+          - {label: "ctaText", name : "ctaText", widget: "string"}
+          - {label: "ctaLink", name : "ctaLink", widget: "string"}
+          - {label: "img", name: "img", widget: "image", required: false }
+          - {label: "description", name : "description", widget: "string"}
