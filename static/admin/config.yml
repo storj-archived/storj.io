@@ -64,4 +64,34 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
       - {label: "img", name: "img", widget: "image", required: false }
+  - name : "community-reporting"
+    label: "community-reporting"
+    folder: "content/community-reporting"
+    create: false
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name : "developers-main boxes"
+    label: "developers-main boxes"
+    folder: "content/developers/mainboxes"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "description", name: "description", widget: "string"}
+      - {label: "ctaText", name: "ctaText", widget: "string"}
+      - {label: "ctaLink", name: "ctaLink", widget: "string"}
+      - {label: "img", name: "img", widget: "image", required: false }
+  - name : "developers-hero nav"
+    label: "developers-hero nav"
+    folder: "content/developers/heroNav"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+
 
