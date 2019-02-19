@@ -1,5 +1,5 @@
 ---
-title: Community
+title: "community hero nav"
 heading: "Storj Community"
 weight: 2
 ctaText: "JOIN THE COMMUNITY"

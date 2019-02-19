@@ -15,3 +15,26 @@ collections:
     fields: 
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+  - name : "code of conduct"
+    label: "code of conduct"
+    folder: "content/code-of-conduct"
+    create: false
+    slug: "{{slug}}"
+    fields: 
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "community"
+    label: "community"
+    folder: "content/community/"
+    create: false
+    slug: "{{slug}}"
+    fields: 
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "txt", name : "txt", widget: "string" }
+     - {label: "link", name : "link", widget: "string" }
+     - {label: "img", name: "img", widget: "image", required: false }
+     - {label: "description", name : "description", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
