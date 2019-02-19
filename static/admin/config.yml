@@ -35,3 +35,14 @@ collections:
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: false }
      - {label: "description", name : "description", widget: "string"}
+  - name : "community"
+    label: "community"
+    folder: "content/community/connectwithus"
+    create: false
+    slug: "{{slug}}"
+    fields: 
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: false }
