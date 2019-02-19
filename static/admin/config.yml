@@ -42,7 +42,26 @@ collections:
     slug: "{{slug}}"
     fields: 
      - {label: "Title", name: "title", widget: "string"}
-     - {label: "heading", name : "heading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: false }
+  - name : "community-hero nav"
+    label: "community-hero nav"
+    folder: "content/community/heroNav"
+    create: false
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+      - {label: "ctaText", name : "ctaText", widget: "string"}
+      - {label: "ctaLink", name : "ctaLink", widget: "string"}
+  - name : "community-newsletter"
+    label: "community-newsletter"
+    folder: "content/community/newsletter"
+    create: false
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "heading", name : "heading", widget: "string"}
+      - {label: "img", name: "img", widget: "image", required: false }
+
