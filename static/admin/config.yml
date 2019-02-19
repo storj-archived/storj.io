@@ -30,7 +30,7 @@ collections:
         name : "title"
         file : "content/community/box*.md"
         fields :      
-        - {label: "Title", name: "title", widget: "hidden"}
+        - {label: "Title", name: "title", widget: "string"}
         - {label: "heading", name : "heading", widget: "string"}
         - {label: "ctaText", name : "ctaText", widget: "string"}
         - {label: "ctaLink", name : "ctaLink", widget: "string"}
