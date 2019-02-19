@@ -23,16 +23,21 @@ collections:
     fields: 
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
-  - name : "community"
-    label: "community"
+  - label : "community"
+    name: "community"
     files: 
-      - label : "center box"
-        name : "title"
-        file : "content/community/box*.md"
-        fields :      
-        - {label: "Title", name: "title", widget: "string"}
-        - {label: "heading", name : "heading", widget: "string"}
-        - {label: "ctaText", name : "ctaText", widget: "string"}
-        - {label: "ctaLink", name : "ctaLink", widget: "string"}
-        - {label: "img", name: "img", widget: "image", required: false }
-        - {label: "description", name : "description", widget: "string"}
+      - name: "center boxes"
+        label: "center boxes"
+        file: "site/content/community/box*"
+        extension: "md"
+        fields :  
+          - label: "center box"
+            name : "title"   
+            widget: "list"
+            fields: 
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "heading", name : "heading", widget: "string"}
+              - {label: "ctaText", name : "ctaText", widget: "string"}
+              - {label: "ctaLink", name : "ctaLink", widget: "string"}
+              - {label: "img", name: "img", widget: "image", required: false }
+              - {label: "description", name : "description", widget: "string"}
