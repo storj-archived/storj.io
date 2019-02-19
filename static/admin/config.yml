@@ -28,7 +28,7 @@ collections:
     files: 
       - name: "center boxes"
         label: "center boxes"
-        file: "site/content/community/box*"
+        file: "site/content/community/box1"
         extension: "md"
         fields :  
           - label: "center box"
