@@ -299,8 +299,8 @@ collections:
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "text", name: "text", widget: "string"}
-     - {label: "completed", current: "completed", widget: "boolean" }
-     - {label: "current", current: "current", widget: "boolean" }
+     - {label: "completed", name: "completed", widget: "boolean" }
+     - {label: "current", name: "current", widget: "boolean" }
   - name : "home-partners"
     label: "home-partners"
     folder: "content/home/partners"
