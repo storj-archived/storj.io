@@ -1,4 +1,5 @@
 ---
+title: "whitepaper-main-center-box-1"
 heading : "Store Data at an Affordable Price"
 icon : "/img/icon-cloud-drive.svg"
 ctaLink : "/sign-up/"

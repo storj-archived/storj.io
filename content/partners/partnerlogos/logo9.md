@@ -1,5 +1,5 @@
 ---
-title: "Logo9"
+title: "partner 9"
 img: "/img/color-logos/plesk.svg"
 height: "height:39px"
 width: "width:97px"

@@ -1,5 +1,5 @@
 ---
-title: "Logo11"
+title: "partner 11"
 height: "height:32px"
 width: "width:147px"
 margin: "margin:3.6%"

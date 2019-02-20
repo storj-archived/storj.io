@@ -359,8 +359,202 @@ collections:
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name : "lastUpdated", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "navbar"
+    label: "navbar"
+    folder: "content/navbar"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "link", name : "link", widget: "string"}
+  - name : "open-source"
+    label: "open-source manifesto"
+    folder: "content/open-source"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "partners"
+    label: "partners-benefits"
+    folder: "content/partners/benefits"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "description", name : "description", widget: "string"}
+  - name : "partners"
+    label: "partners-header"
+    folder: "content/partners/partnerheader"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+  - name : "partners"
+    label: "partners-logos"
+    folder: "content/partners/partnerlogos"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "height", name : "height", widget: "string"}
+     - {label: "width", name : "width", widget: "string"}
+     - {label: "margin", name : "margin", widget: "string"}
+     - {label: "img", name : "img", widget: "image"}
+  - name : "partners"
+    label: "partners-tabs"
+    folder: "content/partners/tabs"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "description", name : "description", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "img", name : "img", widget: "image"}
+  - name : "partners"
+    label: "partners-talk with us"
+    folder: "content/partners/talkwithus"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "description", name : "description", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+  - name : "press"
+    label: "press-articles"
+    folder: "content/press/articles"
+    fields:
+     - {label: "article-name", name: "articleName", widget: "string"}
+     - {label: "publishedBy", name : "publishedBy", widget: "string"}
+     - {label: "publishedOn", name : "publishedOn", widget: "string"}
+     - {label: "link", name : "link", widget: "string"}
+  - name : "press"
+    label: "press-heading"
+    folder: "content/press"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "press-kit"
+    label: "press-kit-colors"
+    folder: "content/press-kit/colors"
+    fields:
+     - {label: "colorName", name: "colorName", widget: "string"}
+     - {label: "colorHex", name: "colorHex", widget: "string"}
+     - {label: "bkgrndColor", name: "bkgrndColor", widget: "string"}
+  - name : "press-kit"
+    label: "press-kit-logos"
+    folder: "content/press-kit/logos"
+    fields:
+     - {label: "logoImg", name: "logoImg", widget: "string"}
+     - {label: "logoColor", name: "logoColor", widget: "string"}
+     - {label: "logoLink", name: "logoLink", widget: "string"}
+     - {label: bkgrndColor, name: "bkgrndColor", widget: "string"}
+  - name : "press-kit"
+    label: "press-kit-subheadings"
+    folder: "content/press-kit/subheadings"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "subText", name : "subText", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+  - name : "press-kit"
+    label: "press-kit-symbols"
+    folder: "content/press-kit/symbols"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "subText", name : "subText", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+  - name : "press-kit"
+    label: "press-kit-main-heading"
+    folder: "content/press-kit/mainheading"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "press-kit"
+    label: "press-kit-media"
+    folder: "content/press-kit"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "privacy-policy"
+    label: "privacy-policy"
+    folder: "content/privacy-policy"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "lastUpdated", name : "lastUpdated", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "sign-up"
+    label: "sign-up"
+    folder: "content/sign-up"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "subHeading", name : "subHeading", widget: "string"}
+     - {label: "introText", name : "introText", widget: "string"}
+  - name : "sign-up-farmer"
+    label: "sign-up-storage-node"
+    folder: "content/sign-up-farmer"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "headingText", name : "headingText", widget: "string"}
+     - {label: "subHeading", name : "subHeading", widget: "string"}
+     - {label: "subHeadingText", name : "subHeadingText", widget: "string"}
+  - name : "storage-node-estimator"
+    label: "storage-node-estimator-heading"
+    folder: "content/press-kit/mainheading"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "storage-sla"
+    label: "storage-sla"
+    folder: "content/storage-sla"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "storage-share-information"
+    label: "storage-share-information"
+    folder: "content/storage-share-information"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "storage-share-terms"
+    label: "storage-share-terms"
+    folder: "content/storage-share-terms"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "effectiveDate", name: "effectiveDate", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "terms-of-service"
+    label: "terms-of-service"
+    folder: "content/terms-of-service"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "terms-of-use"
+    label: "terms-of-use"
+    folder: "content/terms-of-use"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
+  - name : "whitepaper"
+    label: "whitepaper-main-boxes"
+    folder: "content/whitepaper/main-boxes"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "ctaText", name : "ctaText", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "icon", name: "icon", widget: "image", required: true }
+  - name : "whitepaper"
+    label: "whitepaper-previous-releases"
+    folder: "content/whitepaper/previous-releases"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "released", name : "released", widget: "string"}
+     - {label: "link", name : "link", widget: "string"}
 
-    
+
+
 
 
 

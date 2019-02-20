@@ -1,4 +1,5 @@
 ---
+title : "terms-of-use"
 lastUpdated : "July 1, 2016"
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: "sign-up-storage-node"
 heading : "Storj pays you for your unused hard drive capacity and bandwidth."
 headingText : "We rent unused hard drive capacity and bandwidth from all over the globe, and our current network has active storage nodes on every continent (except Antarctica). We are redesigning the Storj network to scale to support exabytes of data and expect to release the new version of our platform in 2019."
 subHeading : "Sign Up For Early Access"

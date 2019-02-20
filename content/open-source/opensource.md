@@ -1,4 +1,5 @@
 ---
+title: "Open Source Manifesto"
 ---
 <h1 class="title" style="font-size:36px;">Our Open Source Commitment</h1>
 <p class="text-center">Our team believes that openness and transparency are critical to everything we do at Storj Labs. The internet of tomorrow will be open, decentralized, and will incorporate design principles that prioritize people's privacy. Because of this, it is critical that every aspect of the codebase of our public decentralized network be open source to ensure the highest levels of quality and security. We commit to licensing our code as permissively as possible and creating revenue streams for other open source projects that will support their efforts to drive innovation and create sustainable businesses. </p>

@@ -1,4 +1,5 @@
 ---
+title: "whitepaper-main-center-box-3"
 heading : "Contribute to the Storj Project"
 icon : "/img/icon-contribute-project.svg"
 ctaLink : "https://github.com/storj/storj#start-contributing-to-storj"

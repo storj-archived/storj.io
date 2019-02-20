@@ -1,4 +1,5 @@
 ---
+title: "terms-of-service"
 lastUpdated : "June 30, 2018"
 ---
 

@@ -1,4 +1,5 @@
 ---
+title: "whitepaper-main-center-box-2"
 heading : "Rent us Your Extra Hard Drive Space"
 icon : "/img/icon-cloud-network.svg"
 ctaLink : "/sign-up-farmer/"

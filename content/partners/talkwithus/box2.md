@@ -1,5 +1,5 @@
 ---
-title: "Box2"
+title: "Talk with us 2"
 heading: "Technology Partners"
 description: "Storj strives to reward companies that drive demand and value on our network and is a great fit as a storage-layer integrated into your product, or a white-labelled product built on-top of our storage network. Additionally is perfect for any companies interested in a Value Added Reseller or Systems Integrator relationship.  Storj offers wholesale pricing with tiered discounts based on total storage and bandwidth use."
 ctaText: "TALK WITH US"

@@ -1,4 +1,5 @@
 ---
+title: "privacy-policy"
 lastUpdated: "July 1, 2016."
 ---
 <p>This Privacy Policy explains how information is collected, used and disclosed by Storj Labs Inc. (“<b>Company</b>”) when you access or use our websites, mobile applications, or other products or services (collectively, the “<b>Services</b>”), or when you otherwise interact with us.  Our Services include the web pages at the storj.io domain and our online storage services (“<b>Storage Services</b>”) that enable users to store data on third-party devices that have installed an open source, distributed storage software (“<b>Software</b>”). This policy does not apply to the information other devices that have installed the Software may collect about you or your device in connection with your use of the Software. For details about the information these other devices may collect about you or your device, please see this <a href="/storj-share-information/" class="link">help page</a>.</p>
