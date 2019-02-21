@@ -1,8 +1,8 @@
 ---
+title : Let's Talk Bitcoin! December 21, 2016
 publishedBy : Let's Talk Bitcoin!
 publishedOn : December 21, 2016
 link : https://letstalkbitcoin.com/blog/post/technology-and-choice-11-storj-shawn-wilkinson
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 156 
+articleName : Bitcoins and Gravy #88- Decentralized Cloud Storage!
 class : pressArticle
 ---

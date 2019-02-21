@@ -1,8 +1,8 @@
 ---
+title : CoinFox April 11, 2016
 publishedBy : CoinFox
 publishedOn : April 11, 2016
 link : http://www.coinfox.info/news/5266-decentralised-cloud-storage-storj-launches-beta-version
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 205 
+articleName : Decentralised cloud storage Storj beta-version launched
 class : pressArticle
 ---

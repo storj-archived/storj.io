@@ -1,8 +1,8 @@
 ---
+title : CB Insights February 23, 2017
 publishedBy : CB Insights
 publishedOn : February 23, 2017
 link : https://www.cbinsights.com/research/bitcoin-blockchain-startup-market-map/
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 142 
+articleName : Ledger Fever- 95 Bitcoin & Blockchain Startups In One Market Map
 class : pressArticle
 ---

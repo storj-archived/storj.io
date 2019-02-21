@@ -1,8 +1,8 @@
 ---
+title : Yahoo! Finance February 23, 2017
 publishedBy : Yahoo! Finance
 publishedOn : February 23, 2017
 link : https://finance.yahoo.com/news/distributed-cloud-storage-provider-storj-140000295.html
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 144 
+articleName : Distributed Cloud Storage Provider Storj Labs Raises $3 Million
 class : pressArticle
 ---

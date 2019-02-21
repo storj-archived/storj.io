@@ -1,8 +1,8 @@
 ---
+title : Live Bitcoin News March 14, 2017
 publishedBy : Live Bitcoin News
 publishedOn : March 14, 2017
 link : http://www.livebitcoinnews.com/distributed-cloud-storage-platform-storj-comes-beta/
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 137 
+articleName : Distributed Cloud Storage Platform Storj Comes Out of Beta
 class : pressArticle
 ---

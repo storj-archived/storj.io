@@ -1,8 +1,8 @@
 ---
+title : Coins Source January 19, 2015
 publishedBy : Coins Source
 publishedOn : January 19, 2015
 link : http://www.coinssource.com/top-5-upcoming-digital-currency-based-projects-2015/
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 259 
+articleName : Top 5 Upcoming Digital Currency Based Projects of 2015
 class : pressArticle
 ---

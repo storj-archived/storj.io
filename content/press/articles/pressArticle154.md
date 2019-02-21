@@ -1,8 +1,8 @@
 ---
+title : BTC Manager December 26, 2016
 publishedBy : BTC Manager
 publishedOn : December 26, 2016
 link : https://btcmanager.com/storj-drives-forward-with-micropayment-channels/
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 155 
+articleName : Storj Drives Forward with Micropayment Channels
 class : pressArticle
 ---

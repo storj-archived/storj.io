@@ -1,8 +1,8 @@
 ---
+title : Hypepotamus March 26, 2018
 publishedBy : Hypepotamus
 publishedOn : March 26, 2018
 link : https://hypepotamus.com/people/ben-golub/
-articleName : Is It Time To Test Your New Product's Usability? 13 Tech Experts Weigh In
-weight : 53 
+articleName : How Serial Software Startup Vet Ben Golub Will Take Storj Labs to the Next Level As New CEO
 class : pressArticle
 ---
