@@ -442,6 +442,7 @@ collections:
      - {label: "publishedBy", name : "publishedBy", widget: "string"}
      - {label: "publishedOn", name : "publishedOn", widget: "date"}
      - {label: "link", name : "link", widget: "string"}
+     - {label: "class", name: "class", widget: "hidden", default: "newPressArticle"}
   - name : "press"
     label: "press-heading"
     folder: "content/press"
