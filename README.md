@@ -1,5 +1,4 @@
-# Storj.io
-by Faris Huskovic
+# Storj Hugo
 
 ## Table Of Contents
 ---
