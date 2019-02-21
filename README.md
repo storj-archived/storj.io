@@ -73,7 +73,7 @@ layouts/dirYouCreatedInLastStep/
 
 - In the front matter you can set key value pairs that can later be used as variables inside your single.html
 
-### CMS adjusting the CMS
+### Adjusting the CMS
 ---
 
 CMS config file path is 
