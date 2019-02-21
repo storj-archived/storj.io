@@ -300,6 +300,7 @@ collections:
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
       - {label: "updateDate", name: "updateDate", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "home-hero"
     label: "home-hero"
     folder: "content/home/hero"
@@ -310,6 +311,7 @@ collections:
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "stage", name : "stage", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
   - name : "home-milestones"
     label: "home-milestones"
     folder: "content/home/milestones"
@@ -335,14 +337,13 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
-     - {label: "price", name : price", widget: "string"}
+     - {label: "price", name : price", widget: "number"}
   - name : "home-pricing"
     label: "home-pricing"
     folder: "content/home/pricing"
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
-     - {label: "img", name: "img", widget: "image", required: true }
      - {label: "description", name : "description", widget: "string"}
   - name : "home-updateboxes"
     label: "home-updateboxes"
