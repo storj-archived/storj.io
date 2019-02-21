@@ -1,0 +1,43 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  annotations:
+  labels:
+    app: {{ .Values.fqdn | replace "." "-" }}
+  name: {{ .Values.fqdn | replace "." "-" }}
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: {{ .Values.fqdn | replace "." "-" }}
+  strategy:
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+    type: RollingUpdate
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: {{ .Values.fqdn | replace "." "-" }}
+    spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchExpressions:
+              - key: app
+                operator: In
+                values:
+                - {{ .Values.fqdn | replace "." "-" }}
+            topologyKey: "kubernetes.io/hostname"
+      containers:
+        - image: storjlabs/storj.io:{{ .Values.docker_image_tag }}
+          imagePullPolicy: Always
+          name: www
+          ports:
+          - containerPort: 80
+            protocol: TCP
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30

@@ -1,0 +1,3 @@
+docker_image_tag: 0.1
+fqdn: storj.io
+whitelist: true

@@ -8,5 +8,6 @@ RUN cd /site \
 
 FROM busybox
 COPY --from=builder /site/public /www
+COPY deploy/httpd.conf /etc/httpd.conf
 EXPOSE 80
 ENTRYPOINT ["httpd", "-f", "-v", "-v", "-h", "/www"]
