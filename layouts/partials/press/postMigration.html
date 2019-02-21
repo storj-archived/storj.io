@@ -1,4 +1,4 @@
-{{range where .Site.Pages.ByDate.Reverse ".Params.class" "newPressArticle"}}
+{{range where .Site.Pages.ByDate ".Params.class" "newPressArticle"}}
         <div class="row">
           <div class="col-xs-12 col-sm-3 col-lg-2">
             <p class="press-date">{{ dateFormat "January 2, 2006" .Params.publishedOn }}</p>
