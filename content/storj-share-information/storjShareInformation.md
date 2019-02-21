@@ -1,4 +1,5 @@
 ---
+title: "storj share information"
 lastUpdated : "July 5, 2016"
 ---
 
