@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: storj/storj.io
   branch: master
+  base_url: https://storj.io
 
 
 media_folder: "static/"
