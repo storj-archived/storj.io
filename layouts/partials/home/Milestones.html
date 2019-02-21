@@ -12,7 +12,6 @@
         <ul class="timeline timeline-horizontal">
     {{range where .Site.Pages ".Params.class" "milestone"}}
         <li class="timeline-item">
-                {{if eq .Params.current true}}style="box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"{{end}}
           <div class="timeline-badge primary"
           {{if eq .Params.completed false}}style="background-color:#B8B8B8;"{{end}}
           {{if eq .Params.current true}}style="box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"{{end}}></div>
