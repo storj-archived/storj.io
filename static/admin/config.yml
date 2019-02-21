@@ -437,10 +437,10 @@ collections:
     folder: "content/press/articles"
     create: true
     fields:
-     - {label: "Title(publisherXdatePublished)", name: "title", widget: "string"}
+     - {label: "PublisherAndDate", name: "title", widget: "string"}
      - {label: articleName, name: "articleName", widget: "string"}
      - {label: "publishedBy", name : "publishedBy", widget: "string"}
-     - {label: "publishedOn-Format like January 2, 2019", name : "publishedOn", widget: "string"}
+     - {label: "publishedOn", name : "publishedOn", widget: "date"}
      - {label: "link", name : "link", widget: "string"}
   - name : "press"
     label: "press-heading"
