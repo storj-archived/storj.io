@@ -437,7 +437,7 @@ collections:
     folder: "content/press/articles"
     create: true
     fields:
-     - {label: "entryDate", name: "publishedOn", widget: "string"}
+     - {label: "Title", name: "articleName", widget: "string"}
      - {label: articleName, name: "articleName", widget: "string"}
      - {label: "publishedBy", name : "publishedBy", widget: "string"}
      - {label: "publishedOn", name : "publishedOn", widget: "string"}
