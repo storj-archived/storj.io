@@ -432,9 +432,10 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
-  - name : "press"
+  - name : "press-articles"
     label: "press-articles"
     folder: "content/press/articles"
+    create: true
     fields:
      - {label: "article-name", name: "articleName", widget: "string"}
      - {label: "publishedBy", name : "publishedBy", widget: "string"}
