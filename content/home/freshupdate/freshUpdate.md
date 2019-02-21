@@ -1,4 +1,5 @@
 ---
+title : "Fresh Update"
 heading: "Storj Alpha Release 3: Explorer - Storage Nodes"
 ctaText: "JOIN THE STORAGE NODE WAITLIST"
 ctaLink: "/sign-up-farmer/"

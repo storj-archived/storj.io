@@ -51,10 +51,11 @@ collections:
     create: false
     slug: "{{slug}}"
     fields: 
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "Title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
       - {label: "ctaText", name : "ctaText", widget: "string"}
       - {label: "ctaLink", name : "ctaLink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "community-newsletter"
     label: "community-newsletter"
     folder: "content/community/newsletter"
@@ -126,6 +127,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "German invite-important"
     label: "German invite-important"
     folder: "content/german-invite/important"
@@ -133,6 +135,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "German invite-support"
     label: "German invite-support"
     folder: "content/german-invite/support"
@@ -141,6 +144,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}     
   - name : "German invite-you are invited"
     label: "German invite-you are invited"
     folder: "content/german-invite/youareinvited"
@@ -151,6 +155,7 @@ collections:
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Mandarin invite-auth token"
     label: "Mandarin invite-auth token"
     folder: "content/mandarin-invite/authtoken"
@@ -167,6 +172,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "Mandarin invite-important"
     label: "Mandarin invite-important"
     folder: "content/mandarin-invite/important"
@@ -174,6 +180,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Mandarin invite-support"
     label: "Mandarin invite-support"
     folder: "content/mandarin-invite/support"
@@ -182,6 +189,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Mandarin invite-you are invited"
     label: "Mandarin invite-you are invited"
     folder: "content/mandarin-invite/youareinvited"
@@ -192,6 +200,7 @@ collections:
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Russian invite-auth token"
     label: "Russian invite-auth token"
     folder: "content/russian-invite/authtoken"
@@ -208,6 +217,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Russian invite-important"
     label: "Russian invite-important"
     folder: "content/russian-invite/important"
@@ -215,6 +225,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Russian invite-support"
     label: "Russian invite-support"
     folder: "content/russian-invite/support"
@@ -223,6 +234,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Russian invite-you are invited"
     label: "Russian invite-you are invited"
     folder: "content/russian-invite/youareinvited"
@@ -233,6 +245,7 @@ collections:
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Spanish invite-auth token"
     label: "Spanish invite-auth token"
     folder: "content/spanish-invite/authtoken"
@@ -249,6 +262,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Spanish invite-important"
     label: "Spanish invite-important"
     folder: "content/spanish-invite/important"
@@ -256,6 +270,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Spanish invite-support"
     label: "Spanish invite-support"
     folder: "content/spanish-invite/support"
@@ -264,6 +279,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "Spanish invite-you are invited"
     label: "Spanish invite-you are invited"
     folder: "content/spanish-invite/youareinvited"
@@ -274,6 +290,7 @@ collections:
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name : "home-fresh update"
     label: "home-fresh update"
     folder: "content/home/freshupdate"
@@ -426,7 +443,7 @@ collections:
     label: "press-heading"
     folder: "content/press"
     fields:
-     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Title", name: "Title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
   - name : "press-kit"
     label: "press-kit-colors"
@@ -467,7 +484,7 @@ collections:
     label: "press-kit-media"
     folder: "content/press-kit"
     fields:
-     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Title", name: "Title", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
@@ -499,7 +516,7 @@ collections:
     label: "storage-node-estimator-heading"
     folder: "content/press-kit/mainheading"
     fields:
-     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Title", name: "Title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
   - name : "storage-sla"
     label: "storage-sla"
@@ -508,18 +525,18 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
-  - name : "storage-share-information"
-    label: "storage-share-information"
-    folder: "content/storage-share-information"
+  - name : "storj-share-information"
+    label: "storj-share-information"
+    folder: "content/storj-share-information"
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
-  - name : "storage-share-terms"
-    label: "storage-share-terms"
-    folder: "content/storage-share-terms"
+  - name : "storj-share-terms"
+    label: "storj-share-terms"
+    folder: "content/storj-share-terms"
     fields:
-     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Title", name: "Title", widget: "string"}
      - {label: "effectiveDate", name: "effectiveDate", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
   - name : "terms-of-service"
