@@ -16,7 +16,7 @@ Pages are broken down into infinitely re-usable sections called "partials".
 
 This helps prevent wasting time skimming 1000+ lines of html for a closing div tag and has substiantally reduced
 the number of lines of code.
-![modular code](static/img/modularcode.png)
+![modular code](static/img/modularCode.png)
 
 
 ### CMS for Marketing Team
@@ -56,6 +56,38 @@ NOTE: The preview section is not meant to show you a preview of what the page wo
 ## How to for Engineering
 ---
 
-Hugo uses the Golang "html/template" package allowing you to manipulate your markup with logic similar to JSX in React or EJS in Express. Partials are similar to EJS partials in Express and/or Components in React.
+### When creating a new page 
+---
 
-Directory tree
+- Create a folder in the content dir
+with the name of the page
+
+- Create a folder in the layouts dir
+with the exact same name
+
+- Create a file named single.html inside 
+layouts/dirYouCreatedInLastStep/
+
+- Add permalink for the page inside the config.toml file
+
+- You can now add a markdown file to content/dirYouCreatedInStep1/
+
+- In the front matter you can set key value pairs that can later be used as variables inside your single.html
+
+### CMS adjusting the CMS
+---
+
+CMS config file path is 
+
+    /static/admin/config.yml
+
+![config](static/img/compare.png)
+
+The above screenshot helps you understand how the config file fields work. If we look at the press-articles collection's fields you can see the 
+
+- name takes a front matter key.
+- label is what you would like the value
+to be called in the cms
+- widget represents the data type for the user input
+- hidden and default can also be used for setting default front matter key/value pairs and hiding them from being altered by user input.
+
