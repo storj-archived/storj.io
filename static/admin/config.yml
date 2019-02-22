@@ -5,7 +5,6 @@ backend:
   base_url: https://storj.io
   auth_endpoint: /oauth/auth
 
-
 media_folder: "static/"
 public_folder: "/"
 
