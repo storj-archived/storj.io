@@ -7,6 +7,9 @@ metadata:
 {{- end }}
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/proxy-redirect-from: /
+    nginx.ingress.kubernetes.io/proxy-redirect-to: /
+    nginx.ingress.kubernetes.io/rewrite-target: /
     nginx.ingress.kubernetes.io/ssl-redirect: "true"
   name: {{ .Values.fqdn | replace "." "-" }}
 spec:
@@ -17,7 +20,11 @@ spec:
       - backend:
           serviceName: {{ .Values.fqdn | replace "." "-" }}
           servicePort: 80
-        path: /
+        path: /blog
+      - backend:
+          serviceName: {{ .Values.fqdn | replace "." "-" }}-oauth
+          servicePort: 3000
+        path: /oauth
   tls:
   - hosts:
     - {{ .Values.fqdn }}

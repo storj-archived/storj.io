@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+  name: {{ .Values.redirect.subdomain }}-{{ .Values.fqdn | replace "." "-" }}
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+  selector:
+    app: {{ .Values.redirect.subdomain }}-{{ .Values.fqdn | replace "." "-" }}
+  sessionAffinity: None
+  type: ClusterIP
