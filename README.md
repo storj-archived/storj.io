@@ -1,9 +1,5 @@
 # Storj Hugo
 
-### [NOW LIVE](https://storj.io)
-
-Future updates will take place in [this repo](https://github.com/storj/storj.io) from now on.
-
 ## Table Of Contents
 ---
 - Improvements
