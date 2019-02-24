@@ -581,8 +581,9 @@ collections:
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
-
-
-
-
-
+  - name : "thankyou"
+    label: "thankyou"
+    folder: "content/thankyou"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
