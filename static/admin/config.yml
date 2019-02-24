@@ -575,7 +575,12 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "released", name : "released", widget: "string"}
      - {label: "link", name : "link", widget: "string"}
-
+  - name : "sign-up-success"
+    label: "sign-up-success"
+    folder: "content/sign-up-success"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "Body", name: "body", widget: "markdown"}
 
 
 

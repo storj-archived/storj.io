@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+{{partial "head" .}}
+</head>
+<body class="page">
+{{partial "partners/heroNav" .}}
+{{with .Site.GetPage "page" "sign-up-success.md"}}
+{{.Content}}
+{{end}}
+{{partial "footer" .}}
+{{partial "scripts" .}}
+  </body>
+</html>
