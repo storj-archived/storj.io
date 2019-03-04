@@ -1,0 +1,30 @@
+<section>
+<div class="container">
+        <div class="spacer45"></div>
+          <h1 style="color:black;text-align: center;font-size:30px;">Previous Releases</h1>
+          <div class="spacer45"></div>
+        {{ range where .Site.Pages ".Params.class" "prevrelease"}}
+        <div class="row">
+          <a href="{{.Params.link}}"><div class="col-12" style="display:flex;flex-direction:row;flex-wrap:wrap;">
+
+            <div class="col-lg-1" style="margin:15px;">
+            <img src="/img/icon_UI_filetype_pdf.svg" height="100px" width="100px" style="opacity:0.5;margin-top:15px;"/>
+            </div>
+
+          <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7" style="margin:15px;">
+            <h3 style="font-size:20px;">{{.Title}}</h3>
+            <p>{{.Params.released}}</p>
+          </div>
+
+          <div class="col-xs-1 col-xs-offset-10 col-sm-1 col-sm-offset-0 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-2" style="display:flex;align-items: center;font-size:60px;">
+            <span>&rsaquo;</span>
+          </div>
+
+          </div>
+        </div></a>
+        <hr>
+        {{end}}
+      <div class="spacer45"></div>
+    </div>
+  </div>
+</section>
