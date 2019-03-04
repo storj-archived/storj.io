@@ -1,7 +1,7 @@
 ---
-symbolImg : '/press-kit/Storj_io-logo'
+symbolImg : '/press-kit/Storj-symbol'
 symbolColor : 'Blue'
-symbolLink : '/press-kit/Storj_io-logo'
+symbolLink : '/press-kit/Storj-symbol'
 bkgrndColor: ''
 class : 'press-kit-symbol'
 ---
