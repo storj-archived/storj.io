@@ -138,6 +138,14 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name : "German invite-windows"
+    label: "German invite-windows"
+    folder: "content/german-invite/windows"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "German invite-support"
     label: "German invite-support"
     folder: "content/german-invite/support"
@@ -178,6 +186,14 @@ collections:
   - name : "Mandarin invite-important"
     label: "Mandarin invite-important"
     folder: "content/mandarin-invite/important"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
+  - name : "Mandarin invite-windows"
+    label: "Mandarin invite-windows"
+    folder: "content/mandarin-invite/windows"
     create: false
     slug: "{{slug}}"
     fields:
@@ -228,6 +244,14 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"} 
+  - name : "Russian invite-windows"
+    label: "Russian invite-windows"
+    folder: "content/russian-invite/windows"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
   - name : "Russian invite-support"
     label: "Russian invite-support"
     folder: "content/russian-invite/support"
@@ -268,6 +292,14 @@ collections:
   - name : "Spanish invite-important"
     label: "Spanish invite-important"
     folder: "content/spanish-invite/important"
+    create: false
+    slug: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"} 
+  - name : "Spanish invite-windows"
+    label: "Spanish invite-windows"
+    folder: "content/spanish-invite/windows"
     create: false
     slug: "{{slug}}"
     fields:
