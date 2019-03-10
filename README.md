@@ -107,7 +107,7 @@ result:
 
 
 
-<a name="cms">### Adjusting the CMS</a>
+### <a name="cms">Adjusting the CMS</a>
 ---
 
 CMS config file path is 
