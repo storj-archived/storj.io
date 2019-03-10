@@ -124,3 +124,22 @@ to be called in the cms
 - widget represents the data type for the user input
 - hidden and default can also be used for setting default front matter key/value pairs and hiding them from being altered by user input.
 
+### genmds.sh
+
+You may have noticed this shell script in the repo. It's there to help you partial out pages and automates the creation of however many md files you need to do so. The script will prompt you for the data it needs and give you an opportunity to set the front matter keys and it will prompt you for values for those keys as well. I reccomend only inputting a value when prompted if you need all the md pages you're creating to share a common key/value pair to be used in some logic you define some where later.
+
+So in a nutshell the script creates
+
+num of md files specified in...
+
+dir specified with...
+
+front matter specified.
+
+**Running the script**
+
+                chmod +x genmds.sh && ./gendmds.sh
+
+then just follow the prompts.
+                
+ 
