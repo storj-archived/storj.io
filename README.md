@@ -56,7 +56,7 @@ NOTE: The preview section is not meant to show you a preview of what the page wo
 ### When creating a new page 
 ---
 
-        mkdir content/nameOfPageYouWantToMake && touch content//nameOfPageYouWantToMake/nameOfPageYouWantToMake.md
+        mkdir content/nameOfPageYouWantToMake && touch content/nameOfPageYouWantToMake/nameOfPageYouWantToMake.md
 
 Note: If you're not sure what front matter this page is going to be getting just yet. Just write a place holder to it for now.
 
@@ -64,15 +64,18 @@ Note: If you're not sure what front matter this page is going to be getting just
         
 Above line is the minimum front matter for the page to render.
 
+Now make a new dir in layouts and an html file inside it that correspond to the md dir and file you just made in the above steps.
 
-        mkdir layouts/nameOfPage && touch layouts/nameOfPage/nameOfPage.html
+
+        mkdir layouts/nameYouGaveToDirInStep1 && touch layouts/nameYouGaveToDirInStep1/nameYouGaveToPageInStep1.html
         
 
 Add permalink for the page inside the config.toml file using the existing convention
 
-- You can now go back to 
+- You can now go back to the md file at
 
                 content/nameOfDirYouMadeInFirstStep/nameOfPageYouMadeInFirstStep.md 
+                
 and update the front matter so you can use it as variables in your page and map them to the CMS in the [config.yml file](#cms)
 
 ### Fixing broken links and creating redirects using aliases 
