@@ -56,25 +56,26 @@ NOTE: The preview section is not meant to show you a preview of what the page wo
 ### When creating a new page 
 ---
 
-- Create a folder in the content dir
-with the name of the page
+        mkdir content/nameOfPageYouWantToMake && touch content//nameOfPageYouWantToMake/nameOfPageYouWantToMake.md
 
-- Create a folder in the layouts dir
-with the exact same name
+Note: If you're not sure what front matter this page is going to be getting just yet. Just write a place holder to it for now.
 
-- Create a file named single.html inside 
-layouts/dirYouCreatedInLastStep/
+        echo -e "---\n---" > content/nameOfDirYouMadeInLastStep/nameOfPageYouMadeInLastStep.md
+        
+Above line is the minimum front matter for the page to render.
 
-- Add permalink for the page inside the config.toml file
 
-- You can now add a markdown file to content/dirYouCreatedInStep1/
+        mkdir layouts/nameOfPage && touch layouts/nameOfPage/nameOfPage.html
+        
 
-- In the front matter you can set key value pairs that can later be used as variables inside your single.html
+Add permalink for the page inside the config.toml file using the existing convention
+
+- You can now go back to content/nameOfDirYouMadeInFirstStep/nameOfPageYouMadeInFirstStep.md and update the front matter so you can use it as variables in your page and map them to the CMS in the [config.yml file](#cms)
 
 ### Fixing broken links and creating redirects using aliases 
 ---
 
-Our old website had several pages where url's had a .html extension. We have dropped the .html extension on all urls(which can be found in the config.toml file). With that said, there are still existing resources out there that use some of those old urls. The easiet way to set up an instant redirect to fix 404's is through Hugo aliasing. It's fast and easy.
+Our old website had several pages where url's had a .html extension. We have dropped the .html extension on all urls(which can be found in the config.toml file). With that said, there are still existing resources out there that use some of those old urls. The easiest way to set up a redirect to fix 404's is through Hugo aliasing.
 
 1.  
 
@@ -103,7 +104,7 @@ result:
 
 
 
-### Adjusting the CMS
+<a name="cms">### Adjusting the CMS</a>
 ---
 
 CMS config file path is 
