@@ -3,8 +3,8 @@
 ## Table Of Contents
 ---
 - Improvements
-- How to for Marketing
-- How to for Engineering
+- [How to for Marketing](#mar)
+- [How to for Engineering](#eng)
 
 ## Improvements
 ---
@@ -29,7 +29,7 @@ The website should accurately reflect our current stage of production. Twice as 
 In the screenshot below on the left hand side you can see the footer partial which has some hugo logic in it that allows you to propogate new elements based on certain data. On the right hand side you see two pages both using that footer partial. Now any updates made to the footer automatically update across all pages using that partial. This saves a lot of time from having to make the update on each page manually.
 ![partials](static/img/partials.png)
 
-## How to for Marketing
+## <a name="mar">How to for Marketing</a>
 ---
 
 If you've been whitlisted, you should be able to access the CMS by appending "/admin" to the site's url the same way you do for the blog.
@@ -50,7 +50,7 @@ Publish your changes using the "publish" button in the upper right hand corner. 
 NOTE: The preview section is not meant to show you a preview of what the page would look like with adjustments. It is just rendering your input as a markdown file allowing you to format your input and check selected images are working.
 
 
-## How to for Engineering
+## <a name="eng">How to for Engineering</a>
 ---
 
 ### When creating a new page 
@@ -99,7 +99,7 @@ result:
     touch ../layouts/dirOfPageInQuestion/alias.html
     
 
-### Now just leave alias.html blank and you're ready to test the redirect.
+**Now just leave alias.html blank and you're ready to test the redirect.**
 
 
 
