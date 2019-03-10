@@ -47,8 +47,6 @@ Adding new media articles to our press page can be done now in the same time it 
 
 Publish your changes using the "publish" button in the upper right hand corner. This pushes the update to the website live in realtime.
 
-![publish](static/img/publish.png)
-
 NOTE: The preview section is not meant to show you a preview of what the page would look like with adjustments. It is just rendering your input as a markdown file allowing you to format your input and check selected images are working.
 
 
@@ -72,6 +70,41 @@ layouts/dirYouCreatedInLastStep/
 - You can now add a markdown file to content/dirYouCreatedInStep1/
 
 - In the front matter you can set key value pairs that can later be used as variables inside your single.html
+
+### Fixing broken links and creating redirects using aliases 
+---
+
+Our old website had several pages where url's had a .html extension. We have dropped the .html extension on all urls(which can be found in the config.toml file). With that said, there are still existing resources out there that use some of those old urls. The easiet way to set up an instant redirect to fix 404's is through Hugo aliasing. It's fast and easy.
+
+1.  
+
+    cd /content/dirOfPageInQuestion
+
+2.   
+    
+    touch alias.md
+
+3.  
+
+    echo -e "---\naliases :\n\t- /pathOfOldDirToRedirectFrom.html\n---" \
+    >> alias.md 
+
+result:
+
+![aliasing](static/img/aliasing.png)
+
+
+4.
+
+    touch ../layouts/dirOfPageInQuestion/alias.html
+
+### Now just leave alias.html blank and you're ready to test the redirect.
+
+
+
+
+
+
 
 ### Adjusting the CMS
 ---
