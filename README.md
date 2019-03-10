@@ -78,25 +78,22 @@ Our old website had several pages where url's had a .html extension. We have dro
 
 1.  
 
-    cd /content/dirOfPageInQuestion
+    cd /content/dirOfPageInQuestion && touch alias.md
 
-2.   
-    
-    touch alias.md
 
-3.  
+2.  
 
-    echo -e "---\naliases :\n\t- /pathOfOldDirToRedirectFrom.html\n---" \
-    >> alias.md 
+    echo -e "---\naliases :\n\t- /pathOfOldDirToRedirectFrom.html\n---" >> alias.md 
 
 result:
 
 ![aliasing](static/img/aliasing.png)
 
 
-4.
+3.
 
     touch ../layouts/dirOfPageInQuestion/alias.html
+    
 
 ### Now just leave alias.html blank and you're ready to test the redirect.
 
