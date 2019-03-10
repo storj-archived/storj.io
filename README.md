@@ -70,7 +70,10 @@ Above line is the minimum front matter for the page to render.
 
 Add permalink for the page inside the config.toml file using the existing convention
 
-- You can now go back to content/nameOfDirYouMadeInFirstStep/nameOfPageYouMadeInFirstStep.md and update the front matter so you can use it as variables in your page and map them to the CMS in the [config.yml file](#cms)
+- You can now go back to 
+
+                content/nameOfDirYouMadeInFirstStep/nameOfPageYouMadeInFirstStep.md 
+and update the front matter so you can use it as variables in your page and map them to the CMS in the [config.yml file](#cms)
 
 ### Fixing broken links and creating redirects using aliases 
 ---
