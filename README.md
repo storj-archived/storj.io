@@ -81,7 +81,7 @@ and update the front matter so you can use it as variables in your page and map 
 ### Fixing broken links and creating redirects using aliases 
 ---
 
-Our old website had several pages where url's had a .html extension. We have dropped the .html extension on all urls(which can be found in the config.toml file). With that said, there are still existing resources out there that use some of those old urls. The easiest way to set up a redirect to fix 404's is through Hugo aliasing.
+Our old website had several pages where url's had a .html extension. We have dropped the .html extension on all urls(which can be found in the [config.toml file](https://github.com/storj/storj.io/blob/master/config.toml)). With that said, there are still existing resources out there that use some of those old urls. The easiest way to set up a redirect to fix 404's is through Hugo aliasing.
 
 1.  
 
