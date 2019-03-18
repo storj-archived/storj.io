@@ -1,36 +1,15 @@
-<div class="container">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1 breadcrumb area-to-hover" style="max-height:70px;">
-    <div class="dropdown-toggle breadcrumb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <div class="col-xs-9" style="text-align: left;">
-        <span id="group" style="font-weight: 600">Our People (All)</span>
-      </div>
-      <div class="col-xs-3" style="text-align:right;">
-        <span style="font-size:15px;color:#2683FF;" ><i class="arrow down"></i></span>
-      </div>
-    </div>
-    <div class="dropdown-menu" style="width:100%;">
-        <ul class="nav nav-pills nav-justified text-center" style="padding:0px;">
-            <p class="active" ><a id="val1" href="#value1" data-toggle="tab" onclick="setGroup(this)">Leadership</a></p>
-            <p><a id="val2" href="#value2" data-toggle="tab" onclick="setGroup(this)">Advisors and Board</a></p>
-            <p><a id="val3" href="#value3" data-toggle="tab" onclick="setGroup(this)">Engineering</a></p>
-            <p><a id="val4" href="#value4" data-toggle="tab" onclick="setGroup(this)">DevOps, UX, Product</a></p>
-            <p><a id="val5" href="#value5" data-toggle="tab" onclick="setGroup(this)">Data Science</a></p>
-            <p><a id="val6" href="#value6" data-toggle="tab" onclick="setGroup(this)">Strategy</a></p>
-            <p><a id="val7" href="#value7" data-toggle="tab" onclick="setGroup(this)">Marketing, Sales, Community/Events (and community leads)</a></p>
-            <p><a id="val8" href="#value8" data-toggle="tab" onclick="setGroup(this)">People & Culture/Finance/Operations</a></p>
-            <p><a id="val9" href="#value9" data-toggle="tab" onclick="setGroup(this)">Our People (All)</a></p>
-         </ul>
+<div class="container visible-sm visible-md visible-lg" >
+        <div class="row">
+          <ul id="lis" class=" nav nav-pills nav-justified text-center" style="padding:0px;">
+              <li onclick="setActive(this)" class="active"><a id="val1" href="#value1" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;font-weight:600">All</a><div style="margin-top:-15px;"><hr style="border:1px solid #2683ff"></div></li>
+              <li onclick="setActive(this)"><a id="val2" href="#value2" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">Leadership</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val3" href="#value3" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">Product</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val4" href="#value4" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">DevOps</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val5" href="#value5" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">Engineering</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val6" href="#value6" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">Data&nbspScience</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val7" href="#value7" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">Strategy</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val8" href="#value8" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">Marketing</a><div style="margin-top:-15px;"><hr></div></li>
+              <li onclick="setActive(this)"><a id="val9" href="#value9" data-toggle="tab" style="border: none;box-shadow: none;background-color:white;color:black;">People&nbsp&&nbspFinance</a><div style="margin-top:-15px;"><hr></div></li>
+           </ul>
+          </div>
         </div>
-    </div>
-
-    <div id="wrapper-mar" style="display:none;">
-      <div id="helpe-mar" class="breadcrumb hidden-sm hidden-md hidden-lg" style="height:50px;margin-top:-20px;"></div>
-    </div>
-
-    <div id="wrapper-hr" style="display:none;">
-        <div id="helper-hr" class="breadcrumb hidden-sm hidden-md hidden-lg" style="height:35px;margin-top:-20px;"></div>
-    </div>
-
-  </div>
-</div>

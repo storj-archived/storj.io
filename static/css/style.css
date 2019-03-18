@@ -1,4 +1,4 @@
-// Storj - The Future of Cloud Storage
+/* Storj - The Future of Cloud Storage */
 
 /* --------------------------------
 
@@ -421,7 +421,7 @@ Navigation
 .navbar-page .nav>li>a.link:hover, .navbar-page .nav>li>a.link:focus {
     text-decoration: underline;
 }
-.
+
 .navbar-page .navbar-nav>li>a:hover, .navbar-page .navbar-nav>li>a:focus {
     color: #2683ff;
 }
@@ -486,7 +486,7 @@ Navigation
 	padding: 8px 10px !important;
 	margin-top: 31px;
 	margin-left: 10px;
-	width: auto !import/ant;
+	width: auto !important;
 }
 .btn-partner {
 	background: transparent;
@@ -3286,3 +3286,4 @@ i {
 .area-to-hover:hover {
   cursor: pointer;
 }
+

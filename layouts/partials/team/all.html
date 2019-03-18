@@ -20,21 +20,35 @@
         <p class="team-member-title">{{.Params.title}}</p>
     </div>
     {{end}}
-    {{ range where .Site.Pages ".Params.class" "Marketing, Sales, Community/Events (and community leads)"}}
+    {{ range where .Site.Pages ".Params.class" "marketing"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
         <p class="team-member-title">{{.Params.title}}</p>
     </div>
     {{end}}
-    {{ range where .Site.Pages ".Params.class" "Data Science"}}
+    {{ range where .Site.Pages ".Params.class" "community"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
         <p class="team-member-title">{{.Params.title}}</p>
     </div>
     {{end}}
-    {{ range where .Site.Pages ".Params.class" "DevOps, UX, Product"}}
+    {{ range where .Site.Pages ".Params.class" "data science"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
+    {{ range where .Site.Pages ".Params.class" "product"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
+    {{ range where .Site.Pages ".Params.class" "ops"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
@@ -48,7 +62,7 @@
         <p class="team-member-title">{{.Params.title}}</p>
     </div>
     {{end}}
-    {{ range where .Site.Pages ".Params.class" "People & Culture/Finance/Operations"}}
+    {{ range where .Site.Pages ".Params.class" "hr"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>

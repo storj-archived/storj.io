@@ -2,6 +2,6 @@
 name : Helene Unland
 title : Customer Success Manager
 headshot : /img/team/helene.jpg
-class : People & Culture/Finance/Operations
+class : hr
 all : true
 ---

@@ -4,40 +4,46 @@
       <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <div class="tab-content">
 
-            <div class="tab-pane" id="value1">
-              {{partial "team/leadership" .}}
+            <div class="tab-pane active" id="value1">
+              {{partial "team/all" .}}
             </div>
 
             <div class="tab-pane" id="value2">
-                {{partial "team/board" .}}
-            </div>
-
-            <div class="tab-pane" id="value3">
-                {{partial "team/engineering" .}}
+              <h2 style="color:black;">Executive Team</h2>
+              {{partial "team/leadership" .}}
+              <h2 style="color:black;">Board and Advisors</h2>
+              {{partial "team/board" .}}
             </div>
 
             <div class="tab-pane" id="value4">
-                {{partial "team/opsUxProduct" .}}
+                {{partial "team/ops" .}}
+            </div>
+
+            <div class="tab-pane" id="value3">
+                {{partial "team/product" .}}
             </div>
 
             <div class="tab-pane" id="value5">
-              {{partial "team/datascience" .}}
+                {{partial "team/engineering" .}}
             </div>
 
             <div class="tab-pane" id="value6">
-                {{partial "team/strategy" .}}
+              {{partial "team/datascience" .}}
             </div>
 
             <div class="tab-pane" id="value7">
-                {{partial "team/marketing" .}}
+                {{partial "team/strategy" .}}
             </div>
 
             <div class="tab-pane" id="value8">
-                {{partial "team/hr" .}}
+              <h2 style="color:black;">Marketing</h2>
+                {{partial "team/marketing" .}}
+              <h2 style="color:black;">Community</h2>
+                {{partial "team/community" .}}
             </div>
 
-            <div class="tab-pane active" id="value9">
-              {{partial "team/all" .}}
+            <div class="tab-pane" id="value9">
+                {{partial "team/hr" .}}
             </div>
             
               </div>
