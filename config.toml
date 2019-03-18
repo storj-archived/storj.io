@@ -1,4 +1,4 @@
-baseURL = "https://staging.storj.io/"
+baseURL = "https://storj.io/"
 languageCode = "en-us"
 title = "storj.io"
 
