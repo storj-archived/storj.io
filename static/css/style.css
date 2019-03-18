@@ -3270,3 +3270,19 @@ left: 43px;
 .estimator-link:hover {
 text-decoration: none;
 }
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+i {
+  border: solid #2683FF;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.area-to-hover:hover {
+  cursor: pointer;
+}

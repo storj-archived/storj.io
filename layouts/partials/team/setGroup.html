@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    function setGroup(e){
+      var group = document.getElementById("group");
+      var textToSet = e.innerHTML;
+      var wrapperMar = document.getElementById("wrapper-mar");
+      var wrapperHr = document.getElementById("wrapper-hr");
+      var group = document.getElementById("group");
+      group.innerHTML = textToSet;
+      if(textToSet === "Marketing, Sales, Community/Events (and community leads)"){
+        console.log('reached mar');
+        wrapperHr.style.display = "none";
+        wrapperMar.style.display = "block";
+      }else if(textToSet === "People &amp; Culture/Finance/Operations"){
+        wrapperMar.style.display = "none";
+        wrapperHr.style.display = "block";
+      }else if((textToSet !== "Marketing, Sales, Community/Events (and community leads)") || (textToSet !== "People &amp; Culture/Finance/Operations")){
+        wrapperHr.style.display = "none";
+        wrapperMar.style.display = "none";
+      }
+    }
+    </script>
