@@ -16,13 +16,13 @@
     var wrapperHr = document.getElementById("wrapper-hr");
     var group = document.getElementById("group");
     group.innerHTML = textToSet;
-    if(textToSet === "Marketing"){
+    if(textToSet === "Marketing, Sales & Community"){
       wrapperHr.style.display = "none";
       wrapperMar.style.display = "block";
-    }else if(textToSet === "People&nbsp&&nbspFinance"){
+    }else if(textToSet === "People, Finance & Operations"){
       wrapperMar.style.display = "none";
       wrapperHr.style.display = "block";
-    }else if((textToSet !== "Marketing") || (textToSet !== "People&nbsp&&nbspFinance")){
+    }else if((textToSet !== "Marketing, Sales & Community") || (textToSet !== "People, Finance & Operations")){
       wrapperHr.style.display = "none";
       wrapperMar.style.display = "none";
     }
