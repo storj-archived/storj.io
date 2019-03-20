@@ -141,6 +141,7 @@ front matter specified.
 
 **Running the script**
 
+
                 chmod +x genmds.sh && ./gendmds.sh
 
 then just follow the prompts.
