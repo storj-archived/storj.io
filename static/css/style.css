@@ -1887,7 +1887,7 @@ TEAM
   text-align: center;
 }
 .team-member {
-  align-self: center;
+  align-self: start;
   width: 25%;
   text-align: center;
   padding: 30px;
