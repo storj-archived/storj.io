@@ -1,4 +1,4 @@
-<div class="row row-flex row-flex-wrap">
+<div style="display:flex;flex-wrap: wrap;">
     {{ range where .Site.Pages ".Params.class" "leadership"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
@@ -6,21 +6,7 @@
         <p class="team-member-title">{{.Params.title}}</p>
     </div>
     {{end}}
-    {{ range where .Site.Pages ".Params.class" "engineering"}}
-    <div class="team-member">
-        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
-        <h4 class="team-member-name" >{{.Params.name}}</h4>
-        <p class="team-member-title">{{.Params.title}}</p>
-    </div>
-    {{end}}
-    {{ range where .Site.Pages ".Params.class" "product"}}
-    <div class="team-member">
-        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
-        <h4 class="team-member-name" >{{.Params.name}}</h4>
-        <p class="team-member-title">{{.Params.title}}</p>
-    </div>
-    {{end}}
-    {{ range where .Site.Pages ".Params.class" "strategy"}}
+    {{ range where .Site.Pages ".Params.class" "hr"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
@@ -34,7 +20,42 @@
         <p class="team-member-title">{{.Params.title}}</p>
     </div>
     {{end}}
+    {{ range where .Site.Pages ".Params.class" "sales"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
+    {{ range where .Site.Pages ".Params.class" "product"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
+    {{ range where .Site.Pages ".Params.class" "engineering"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
+    {{ range where .Site.Pages ".Params.class" "data science"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
     {{ range where .Site.Pages ".Params.class" "ops"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+    </div>
+    {{end}}
+    {{ range where .Site.Pages ".Params.class" "strategy"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
@@ -49,20 +70,6 @@
     </div>
     {{end}}
     {{ range where .Site.Pages ".Params.class" "board"}}
-    <div class="team-member">
-        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
-        <h4 class="team-member-name" >{{.Params.name}}</h4>
-        <p class="team-member-title">{{.Params.title}}</p>
-    </div>
-    {{end}}
-    {{ range where .Site.Pages ".Params.class" "data science"}}
-    <div class="team-member">
-        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
-        <h4 class="team-member-name" >{{.Params.name}}</h4>
-        <p class="team-member-title">{{.Params.title}}</p>
-    </div>
-    {{end}}
-    {{ range where .Site.Pages ".Params.class" "hr"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>

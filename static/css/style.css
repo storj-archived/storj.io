@@ -1887,6 +1887,7 @@ TEAM
   text-align: center;
 }
 .team-member {
+  align-self: center;
   width: 25%;
   text-align: center;
   padding: 30px;
@@ -1895,6 +1896,7 @@ TEAM
   float: left;
 }
 .team-member-image {
+  align-self: center;
 	border-radius: 50%;
 	margin-bottom: 20px;
 	width: 70%;
