@@ -1,6 +1,6 @@
 ---
 name : Dylan Lott
-title : Developer
+title : Software Engineer
 headshot : /img/team/dylan.jpg
 class : engineering
 all : true

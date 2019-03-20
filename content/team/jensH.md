@@ -1,6 +1,6 @@
 ---
 name : Jens Heimbürge
-title : Developer
+title : Software Engineer
 headshot : /img/team/jens.jpg
 class : engineering
 all : true

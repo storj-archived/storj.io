@@ -1,6 +1,6 @@
 ---
 name : Kevin J Baird
-title : Knowledge
+title : Community Lead
 headshot : /img/team/knowledge.jpg
 class : community
 all : true

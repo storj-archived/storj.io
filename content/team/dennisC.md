@@ -1,7 +1,8 @@
 ---
 name : Dennis Coyle
-title : Developer, Manager
+title : Software Engineer, Manager
 headshot : /img/team/dennis.jpg
 class : engineering
 all : true
+weight : 99
 ---

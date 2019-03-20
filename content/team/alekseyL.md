@@ -1,6 +1,6 @@
 ---
 name : Aleksey Leonov
-title : Alexey
+title : Community Lead
 headshot : /img/team/aleksey.jpg
 class : community
 all : true

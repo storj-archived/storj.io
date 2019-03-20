@@ -1,7 +1,8 @@
 ---
 name : Egon Elbre
-title : Developer, Principal
+title : Software Engineer, Principal
 headshot : /img/team/egon.png
 class : engineering
 all : true
+weight : 97
 ---

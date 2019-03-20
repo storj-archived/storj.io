@@ -1,6 +1,6 @@
 ---
 name : Cameron Ayer
-title : Developer
+title : Software Engineer
 headshot : /img/team/cam.jpg
 class : engineering
 all : true

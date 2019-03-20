@@ -1,6 +1,6 @@
 ---
 name : Jennifer Johnson
-title : Developer, Team Lead
+title : Software Engineer
 headshot : /img/team/jennifer.jpg
 class : engineering
 all : true

@@ -1,6 +1,6 @@
 ---
 name : Faris Huskovic
-title : Growth Engineer
+title : Software Engineer
 headshot : /img/team/faris.jpg
 class : engineering
 all : true

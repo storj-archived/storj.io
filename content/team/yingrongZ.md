@@ -1,7 +1,7 @@
 ---
-name : Yaroslav Vorobiov
+name : Yingrong Zhao
 title : Software Engineer
-headshot : /img/team/yaroslav.jpg
+headshot : /img/team/yingrong.jpg
 class : engineering
 all : true
 ---

@@ -1,8 +1,7 @@
 ---
 name : Bryan White
-title : Developer
+title : Software Engineer
 headshot : /img/team/bryan.jpg
 class : engineering
 all : true
-weight: -100
 ---

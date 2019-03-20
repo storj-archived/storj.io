@@ -1,6 +1,6 @@
 ---
 name : Maximillian von Briesen
-title : Developer
+title : Software Engineer
 headshot : /img/team/moby.jpg
 class : engineering
 all : true

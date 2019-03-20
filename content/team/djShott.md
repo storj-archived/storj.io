@@ -1,6 +1,6 @@
 ---
 name : DJ Shott
-title : Senior Graphic Designer
+title : Graphic Designer
 headshot : /img/team/DJ.jpg
 class : marketing
 all : true

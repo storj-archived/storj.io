@@ -1,6 +1,6 @@
 ---
 name : Nickolay Yurchenko
-title : Developer
+title : Software Engineer
 headshot : /img/team/nickolay.jpg
 class : engineering
 all : true
