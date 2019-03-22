@@ -4,9 +4,6 @@ backend:
   branch: master
   base_url: https://storj.io
   auth_endpoint: /oauth/auth
-  accept_roles:
-    - admin
-    - editor
   publish_mode: editorial_workflow
   
 
