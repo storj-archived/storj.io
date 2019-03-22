@@ -4,9 +4,14 @@ backend:
   branch: master
   base_url: https://storj.io
   auth_endpoint: /oauth/auth
+  accept_roles:
+    - admin
+    - editor
+  publish_mode: editorial_workflow
+  
 
-media_folder: "static/"
-public_folder: "/"
+media_folder: "static/img/"
+public_folder: "/img"
 
 collections:
   - name : "canary"
