@@ -1,8 +1,10 @@
 ---
-title : "canary file"
+title: canary file
+draft: true
 ---
-
 Storj Labs Inc. Warrant Canary
+
+test
 
 Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide for secret warrants,
 searches and seizures of data, such as library records.
@@ -16,30 +18,29 @@ for secrecy.
 Storj Labs Inc. will also make available, monthly, a "warrant canary" in the form of a cryptographically signed
 message containing the following:
 
-- a declaration that, up to that point, no warrants have been served, nor have any searches or seizures
+* a declaration that, up to that point, no warrants have been served, nor have any searches or seizures
   taken place
-
-- a cut and paste headline from a major news source, establishing date
+* a cut and paste headline from a major news source, establishing date
 
 Special note should be taken if these messages ever cease being updated, or are removed from this page.
 
 The current message is here:
 
------BEGIN PGP SIGNED MESSAGE-----
+\-----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
 As of 3/21/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Britain gets a short reprieve on leaving European Union
-- - With Trump and Netanyahu in lockstep, Democrats wrestle over support for Israel
-- - For Trump, attacking McCain is a way to appeal to political base
-- - Tourney has its first upsets as Marquette, Louisville depart; Maryland, Auburn narrowly escape
-- - 'Hiding in plain sight': In quiet New Zealand city, alleged shooter crafted manifesto before massacre
------BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.1.0
-Comment: https://keybase.io/crypto
+* * Britain gets a short reprieve on leaving European Union
+* * With Trump and Netanyahu in lockstep, Democrats wrestle over support for Israel
+* * For Trump, attacking McCain is a way to appeal to political base
+* * Tourney has its first upsets as Marquette, Louisville depart; Maryland, Auburn narrowly escape
+* * 'Hiding in plain sight': In quiet New Zealand city, alleged shooter crafted manifesto before massacre
+    -----BEGIN PGP SIGNATURE-----
+    Version: Keybase OpenPGP v2.1.0
+    Comment: https://keybase.io/crypto
 
 wsBcBAABCgAGBQJclDMeAAoJEPQrujgXjffwyOYH/1mjmkt9xOHKpVblTE35J6ej
 NJG6hX7ozD1PvN/YvpL/AXMoCNiodMWsyf2Mo12dTSA8Y2WwqCCtp4sS9H3EBmJo
