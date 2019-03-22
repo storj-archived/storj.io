@@ -144,6 +144,4 @@ front matter specified.
 
                 chmod +x genmds.sh && ./gendmds.sh
 
-then just follow the prompts.
-                
- 
+then just follow the prompts
