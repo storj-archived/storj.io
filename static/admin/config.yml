@@ -2,8 +2,6 @@ backend:
   name: github
   repo: storj/storj.io
   branch: master
-  base_url: https://storj.io
-  auth_endpoint: /oauth/auth  
 
 media_folder: "static/img/"
 public_folder: "/img"
