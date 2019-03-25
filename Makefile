@@ -7,15 +7,20 @@ TAG ?= ${VERSION}
 CLUSTER ?= prod
 DEPLOYMENT ?= storj-io
 else
-TAG ?= ${VERSION}-${BRANCH_NAME}
+TAG ?= ${VERSION}-${BRANCH_NAME}-drafts
 CLUSTER ?= nonprod
 DEPLOYMENT ?= staging-storj-io
 endif
 
 
 .PHONY: build
+ifeq (${BRANCH_NAME},master)
 build:
 	docker build -t storjlabs/storj.io:${TAG} .
+else
+build:
+	docker build --build-arg hugo_args='-D' -t storjlabs/storj.io:${TAG} .
+endif
 
 .PHONY: push
 ifeq (${BRANCH_NAME},master)
