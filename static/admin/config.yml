@@ -4,7 +4,7 @@ backend:
   branch: master
   base_url: https://storj.io
   auth_endpoint: /oauth/auth
-  preview_context: github/https://github.com/storj/storj.io.git
+  preview_context: continuous-integration/jenkins
 
 media_folder: "static/img/"
 public_folder: "/img"
