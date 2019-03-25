@@ -19,6 +19,7 @@ collections:
     fields: 
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "code of conduct"
     label: "code of conduct"
     folder: "content/code-of-conduct"
@@ -27,6 +28,7 @@ collections:
     fields: 
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "community-main boxes"
     label: "community-main boxes"
     folder: "content/community/centerboxes"
@@ -39,6 +41,7 @@ collections:
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "community-connect with us"
     label: "community-connect with us"
     folder: "content/community/connectwithus"
@@ -49,6 +52,7 @@ collections:
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "community-hero nav"
     label: "community-hero nav"
     folder: "content/community/heroNav"
@@ -60,6 +64,7 @@ collections:
       - {label: "ctaText", name : "ctaText", widget: "string"}
       - {label: "ctaLink", name : "ctaLink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "community-newsletter"
     label: "community-newsletter"
     folder: "content/community/newsletter"
@@ -69,6 +74,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
       - {label: "img", name: "img", widget: "image", required: true }
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "community-reporting"
     label: "community-reporting"
     folder: "content/community-reporting"
@@ -77,6 +83,7 @@ collections:
     fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "developers-main boxes"
     label: "developers-main boxes"
     folder: "content/developers/mainboxes"
@@ -89,6 +96,7 @@ collections:
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
       - {label: "img", name: "img", widget: "image", required: true }
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "developers-hero nav"
     label: "developers-hero nav"
     folder: "content/developers/heroNav"
@@ -98,6 +106,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "footer"
     label: "footer"
     folder: "content/footer"
@@ -106,6 +115,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "link", name: "link", widget: "string"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "footer-connect"
     label: "footer-connect"
     folder: "content/footer/connectcolumn"
@@ -115,6 +125,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "link", name: "link", widget: "string"}
       - {label: "icon", name: "icon", widget: "image", required: true }
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "German invite-auth token"
     label: "German invite-auth token"
     folder: "content/german-invite/authtoken"
@@ -123,6 +134,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "German invite-configuration"
     label: "German invite-configuration"
     folder: "content/german-invite/configuration"
@@ -132,6 +144,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "German invite-important"
     label: "German invite-important"
     folder: "content/german-invite/important"
@@ -140,6 +153,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "German invite-windows"
     label: "German invite-windows"
     folder: "content/german-invite/windows"
@@ -176,6 +190,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "Mandarin invite-configuration"
     label: "Mandarin invite-configuration"
     folder: "content/mandarin-invite/configuration"
@@ -185,6 +200,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "Mandarin invite-important"
     label: "Mandarin invite-important"
     folder: "content/mandarin-invite/important"
@@ -229,6 +245,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "Russian invite-configuration"
     label: "Russian invite-configuration"
     folder: "content/russian-invite/configuration"
@@ -282,6 +299,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "Spanish invite-configuration"
     label: "Spanish invite-configuration"
     folder: "content/spanish-invite/configuration"
@@ -316,6 +334,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "heading", name : "heading", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "Spanish invite-you are invited"
     label: "Spanish invite-you are invited"
     folder: "content/spanish-invite/youareinvited"
@@ -327,6 +346,7 @@ collections:
       - {label: "ctaText", name: "ctaText", widget: "string"}
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-fresh update"
     label: "home-fresh update"
     folder: "content/home/freshupdate"
@@ -337,6 +357,7 @@ collections:
       - {label: "ctaLink", name: "ctaLink", widget: "string"}
       - {label: "updateDate", name: "updateDate", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-hero"
     label: "home-hero"
     folder: "content/home/hero"
@@ -348,6 +369,7 @@ collections:
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "stage", name : "stage", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-milestones"
     label: "home-milestones"
     folder: "content/home/milestones"
@@ -356,6 +378,7 @@ collections:
      - {label: "text", name: "text", widget: "string"}
      - {label: "completed", name: "completed", widget: "boolean" }
      - {label: "current", name: "current", widget: "boolean" }
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-partners"
     label: "home-partners"
     folder: "content/home/partners"
@@ -366,6 +389,7 @@ collections:
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-priceboxes"
     label: "home-priceboxes"
     folder: "content/home/priceboxes"
@@ -374,6 +398,7 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "price", name : price", widget: "number"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-pricing"
     label: "home-pricing"
     folder: "content/home/pricing"
@@ -381,6 +406,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-updateboxes"
     label: "home-updateboxes"
     folder: "content/home/updateboxes"
@@ -390,6 +416,7 @@ collections:
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-usecases"
     label: "home-usecases"
     folder: "content/home/usecases"
@@ -397,6 +424,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "home-waitlistboxes"
     label: "home-waitlistboxes"
     folder: "content/home/waitlistboxes"
@@ -407,6 +435,7 @@ collections:
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "information-policy"
     label: "information-policy"
     folder: "content/information-policy"
@@ -414,18 +443,21 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name : "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "navbar"
     label: "navbar"
     folder: "content/navbar"
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "link", name : "link", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "open-source"
     label: "open-source manifesto"
     folder: "content/open-source"
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "partners"
     label: "partners-benefits"
     folder: "content/partners/benefits"
@@ -434,6 +466,7 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "img", name: "img", widget: "image", required: true }
      - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "partners"
     label: "partners-header"
     folder: "content/partners/partnerheader"
@@ -442,6 +475,7 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "partners"
     label: "partners-logos"
     folder: "content/partners/partnerlogos"
@@ -451,6 +485,7 @@ collections:
      - {label: "width", name : "width", widget: "string"}
      - {label: "margin", name : "margin", widget: "string"}
      - {label: "img", name : "img", widget: "image"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "partners"
     label: "partners-tabs"
     folder: "content/partners/tabs"
@@ -459,6 +494,7 @@ collections:
      - {label: "description", name : "description", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "img", name : "img", widget: "image"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "partners"
     label: "partners-talk with us"
     folder: "content/partners/talkwithus"
@@ -468,6 +504,7 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-articles"
     label: "press-articles"
     folder: "content/press/articles"
@@ -479,12 +516,14 @@ collections:
      - {label: "publishedOn", name : "publishedOn", widget: "date"}
      - {label: "link", name : "link", widget: "string"}
      - {label: "class", name: "class", widget: "hidden", default: "newPressArticle"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press"
     label: "press-heading"
     folder: "content/press"
     fields:
      - {label: "Title", name: "Title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-kit"
     label: "press-kit-colors"
     folder: "content/press-kit/colors"
@@ -492,6 +531,7 @@ collections:
      - {label: "colorName", name: "colorName", widget: "string"}
      - {label: "colorHex", name: "colorHex", widget: "string"}
      - {label: "bkgrndColor", name: "bkgrndColor", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-kit"
     label: "press-kit-logos"
     folder: "content/press-kit/logos"
@@ -500,6 +540,7 @@ collections:
      - {label: "logoColor", name: "logoColor", widget: "string"}
      - {label: "logoLink", name: "logoLink", widget: "string"}
      - {label: bkgrndColor, name: "bkgrndColor", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-kit"
     label: "press-kit-subheadings"
     folder: "content/press-kit/subheadings"
@@ -507,6 +548,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "subText", name : "subText", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-kit"
     label: "press-kit-symbols"
     folder: "content/press-kit/symbols"
@@ -514,12 +556,14 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "subText", name : "subText", widget: "string"}
      - {label: "heading", name : "heading", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-kit"
     label: "press-kit-main-heading"
     folder: "content/press-kit/mainheading"
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "press-kit"
     label: "press-kit-media"
     folder: "content/press-kit"
@@ -528,6 +572,7 @@ collections:
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "privacy-policy"
     label: "privacy-policy"
     folder: "content/privacy-policy"
@@ -535,6 +580,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name : "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "sign-up"
     label: "sign-up"
     folder: "content/sign-up"
@@ -543,6 +589,7 @@ collections:
      - {label: "heading", name : "heading", widget: "string"}
      - {label: "subHeading", name : "subHeading", widget: "string"}
      - {label: "introText", name : "introText", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "sign-up-farmer"
     label: "sign-up-storage-node"
     folder: "content/sign-up-farmer"
@@ -552,12 +599,14 @@ collections:
      - {label: "headingText", name : "headingText", widget: "string"}
      - {label: "subHeading", name : "subHeading", widget: "string"}
      - {label: "subHeadingText", name : "subHeadingText", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "storage-node-estimator"
     label: "storage-node-estimator-heading"
     folder: "content/press-kit/mainheading"
     fields:
      - {label: "Title", name: "Title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "storage-sla"
     label: "storage-sla"
     folder: "content/storage-sla"
@@ -565,6 +614,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "storj-share-information"
     label: "storj-share-information"
     folder: "content/storj-share-information"
@@ -572,6 +622,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "storj-share-terms"
     label: "storj-share-terms"
     folder: "content/storj-share-terms"
@@ -579,6 +630,7 @@ collections:
      - {label: "Title", name: "Title", widget: "string"}
      - {label: "effectiveDate", name: "effectiveDate", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "terms-of-service"
     label: "terms-of-service"
     folder: "content/terms-of-service"
@@ -586,6 +638,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "terms-of-use"
     label: "terms-of-use"
     folder: "content/terms-of-use"
@@ -593,6 +646,7 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "whitepaper"
     label: "whitepaper-main-boxes"
     folder: "content/whitepaper/main-boxes"
@@ -602,6 +656,7 @@ collections:
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
      - {label: "icon", name: "icon", widget: "image", required: true }
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "whitepaper"
     label: "whitepaper-previous-releases"
     folder: "content/whitepaper/previous-releases"
@@ -609,12 +664,14 @@ collections:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "released", name : "released", widget: "string"}
      - {label: "link", name : "link", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "sign-up-success"
     label: "sign-up-success"
     folder: "content/sign-up-success"
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "thankyou"
     label: "thankyou"
     folder: "content/thankyou"
