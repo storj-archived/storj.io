@@ -3,12 +3,11 @@ backend:
   repo: storj/storj.io
   branch: master
   base_url: https://storj.io
-  auth_endpoint: /oauth/auth  
+  auth_endpoint: /oauth/auth
 
 media_folder: "static/img/"
 public_folder: "/img"
 publish_mode: editorial_workflow
-
 
 collections:
   - name : "canary"
