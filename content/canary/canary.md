@@ -1,8 +1,11 @@
 ---
-title : "canary file"
+title: canary file
+draft: false
 ---
 
 Storj Labs Inc. Warrant Canary
+
+testing
 
 Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide for secret warrants,
 searches and seizures of data, such as library records.
