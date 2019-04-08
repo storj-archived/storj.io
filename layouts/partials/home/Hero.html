@@ -1,26 +1,39 @@
-<div class="container ">
-  <div class="row">
-      <div class="spacer30"></div>
-    <div class="col-xs-12 col-sm-10 col-md-6 col-md-offset-0 col-lg-6" style="padding-right:10px;">
-      <div class="spacer20"></div><div class="row">
-{{with .Site.GetPage "page" "homeHero.md"}}
-<div class="col-xs-11 col-sm-10 col-md-10 col-lg-10" style="margin-left:15px;border: 1px solid rgba(255,255,255,0.2);	background-color: rgba(255,255,255,0.2);border-radius:4px;color:white;text-align: center;font-size: 13px;	font-weight: 600;	line-height: 28px;">{{.Params.stage}}</div>
-</div>
- <h1 style="font-size:30px;line-height:40px;color:white;">{{.Params.heading}}</h1>
-    {{.Content}}
-  <div class="spacer20"></div>
-  <a href={{.Params.ctaLink}} style="padding-left:20px;padding-right:20px;font-size:14px;" class="btn btn-lg">{{.Params.ctaText}}</a>
-  <div class="spacer50"></div>
-</div>
 
-<div class="col-xs-12 col-sm-8 col-sm-offset-3 col-md-6 col-md-offset-0 col-lg-6 col-lg-offset-0">
-<img src="{{.Params.img}}"/>
+<div class="container">
+    <div class="row wh">
+      <div class="spacer30"></div>
+      <div class="col-xs-12 col-md-5">
+        <div class="spacer20"></div>
+        <div class="row">
+          {{with .Site.GetPage "page" "homeHero.md"}}
+          <div class="col-xs-11 col-md-10 prod-stage">{{.Params.stage}}</div>
+        </div>
+          <div class="spacer50"></div>
+          <h1 class="hero-heading">{{.Params.heading}}</h1>
+          <p class="hero-subheading">{{.Content}}</p>
+          <div class="spacer20"></div>
+          <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta">{{.Params.ctaText}}</a>
+          <div class="spacer50"></div>
+      </div>
+          {{end}}
+      <div class="col-xs-12 col-md-6 col-md-offset-1">
+        <div class="row p15">
+            <div class="spacer825 visible-md visible-lg"></div>
+      {{range where .Site.Pages ".Params.class" "heroBox"}}
+          <div class="col-xs-12 {{if eq .Weight 1}} col-md-5 col-md-offset-1 {{end}} mt20 hero-box-1">
+            <div class="row text-center hero-box">
+              <img class="mt50" src="{{.Params.img}}" height="70" width="70">
+            </div>
+            <div class="row text-center hero-box-btm-row">
+              <div class="spacer15"></div>
+              <p>{{.Params.desc}}</p>
+            </div>
+          </div>
+        {{end}}
+      </div>
+    </div>
+  </div>
 </div>
-{{end}}
-</div>
-</div>
-  <div class="spacer45"></div>
-  <div class="spacer45"></div>
-</div>
+<!--completes div & section from navbar partial-->
 </div>
 </section>

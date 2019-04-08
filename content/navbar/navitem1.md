@@ -1,6 +1,6 @@
 ---
-link : "/developers"
+link : "/docs"
 weight : 1
-title : "Developers"
+title : "Docs"
 class : "navitem"
 ---

@@ -1,5 +1,5 @@
-<section class="header" style="height:100%;">
-<div class="header-bg"></div>
+<section class="header">
+<div class="container-fluid header-bg"></div>
 <nav class="navbar navbar-default menu">
     <div class="container">
       <div class="navbar-header">
@@ -15,12 +15,12 @@
       </div>
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav">
-          {{range where .Site.Pages ".Params.class" "navitem"}}
-            <li><a style="font-size: .9em" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
-          {{end}}
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://app.storj.io/" style="font-size: .9em" class="link">Log In</a></li>
+            {{range where .Site.Pages ".Params.class" "navitem"}}
+            <li><a class="link navitem-style" href="{{ .Params.link }}">{{ .Title }}</a></li>
+          {{end}}
+          <a href="/sign-up"><button class="btn btn-primary nav-join">Join the Waitlist</button></a>
         </ul>
       </div>
     </div>
