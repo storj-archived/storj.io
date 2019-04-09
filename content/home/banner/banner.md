@@ -1,4 +1,4 @@
 ---
 leftText : Storj Cloud Storage is Now Tardigrade.io
-rightText : Visit
+rightText : Visit Tardigrade.io
 ---

@@ -1,8 +1,8 @@
 ---
-img : "img/tar-ico-durability.png"
-heading : Durability
-desc : Reed-Solomon erasure coding enables the highest levels of durability for all files uploaded to the Tardigrade network.
+img : "img/secure.png"
+heading : Security & Privacy
+desc : No one can compromise or view your data without your permission. Client-side AES-256-GCM encryption is standard on every file. 
 class : "whytardigrade"
-h : 37
-w : 38
+h : 40
+w : 35
 ---

@@ -1,8 +1,8 @@
 ---
-img : "img/tar-ico-opensource.png"
+img : "img/opensource.png"
 heading : Open Source
-desc : We’re open source, which means absolute transparency. Audit our code, read our white paper, and know exactly how everything works.
+desc : Audit our code, read our white paper, and know exactly how everything works. Check us out on GitHub. 
 class : "whytardigrade"
-h : 39
-w : 40
+h : 40
+w : 41
 ---
