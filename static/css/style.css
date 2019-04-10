@@ -324,13 +324,14 @@ Navigation
 	margin: 25px;
 }
 .link-style{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 20px;
-text-align: center;
-color: #FFFFFF;
+  display:inline-block;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .logo {
@@ -3389,9 +3390,8 @@ left: 43px;
 
 .white-paper-header-bg{
 
- background: linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);
+  background: url("../img/Background.png") center top no-repeat;
 	background-size: cover;
-
 }
 
 .community-bg {
@@ -3526,12 +3526,20 @@ color: #FFFFFF;
   background: linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);
   margin-top:30px;
   border: 4px solid #FFF;
-  color:#FFF;
-  border: 2px solid #FFFFFF;
   box-sizing: border-box;
   border-radius: 4px;
   font-size:14px;
   padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  width:180px;
+  color: #FFFFFF;
+  margin-right:-5px;
+  text-transform:unset;
+  font-family: 'Poppins';
 }
 
 .nav-join:hover{
@@ -4354,4 +4362,29 @@ color: #FFFFFF;
     opacity: 1.0;
     text-decoration:none;
   }
+
+.footer-sub{
+height:50%;
+font-size: 12px;
+font-family: 'Poppins';
+background:#2582FF;
+border: 1px solid #2582FF;
+border-radius: 0px 0px 10px 10px;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 20px;
+text-align: center;
+letter-spacing: 0.25px;
+color: #FFFFFF;
+margin-top:-25px;
+}
+
+.footer-em-input{
+  height:50%;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 10px 10px 0px 0px;
+}
+
 

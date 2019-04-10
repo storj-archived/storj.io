@@ -1,5 +1,5 @@
 ---
 name : "Docs"
-link : "/docs/"
+link : "https://github.com/storj/docs/blob/master/Vanguard-Release-Setup-Instructions.md"
 class : "navOption"
 ---
