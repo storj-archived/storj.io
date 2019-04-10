@@ -3743,13 +3743,22 @@ opacity: 0.3;
   .hero-box-1{
     width: 380px !important;
     margin:8px;
+    
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .hero-box-1{
-    width: 380px !important;
+    width: 96%!important;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  .hero-box-1{
+    width: 48% !important;
     margin:8px;
+    display: inline-block;
   }
 }
 
@@ -4121,6 +4130,21 @@ color: #FFFFFF;
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  .sno-join-cta{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    display:inline-block;
+    margin-left:45px;
+    color: #FFFFFF;
+    margin-top:30px;
+    margin-left:20px;
+    }
+}
+
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .main-sno-wrapper{
     height: 1000px; 
@@ -4142,8 +4166,27 @@ color: #FFFFFF;
   margin-left:45px;
   color: #FFFFFF;
   margin-top:30px;
-  margin-left:15px;
-  }
+  margin-left:20px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1200px){
+  .sno-join-cta{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    display:inline-block;
+    margin-left:45px;
+    color: #FFFFFF;
+    margin-top:30px;
+    margin-left:20px;
+    }
+    .main-sno-wrapper{
+      height: 600px; 
+    }
 }
 
 .osp-heading{
@@ -4266,7 +4309,6 @@ color: #FFFFFF;
 }
 
 .stay-in-touch{
-
 }
 
 
@@ -4282,3 +4324,34 @@ color: #FFFFFF;
 
   }
   }
+
+  .footer-col-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #FFFFFF;
+  }
+
+  .footer-link{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  }
+
+  .footer-link:hover{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 1.0;
+    text-decoration:none;
+  }
+
