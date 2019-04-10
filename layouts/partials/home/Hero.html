@@ -32,7 +32,13 @@
               {{if eq .Weight 2}}
               <div class="visible-xs spacer10"></div>
               {{end}}
-              <p>{{.Params.desc}}</p>
+              <p style="font-family: Roboto;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 14px;
+              line-height: 17px;
+              text-align: center;
+              {{if eq .Weight 2}}margin:15px{{else}}margin:5px;{{end}};">{{.Params.desc}}</p>
             </div>
           </div>
         {{end}}

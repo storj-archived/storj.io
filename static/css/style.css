@@ -3743,8 +3743,14 @@ opacity: 0.3;
 }
 
 .hero-box-1{
-  width: 275px !important;
-  margin:8px;
+font-family: 'Roboto' !important;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+width: 275px !important;
+margin:8px;
 }
 
 @media only screen and (max-width: 320px) {
