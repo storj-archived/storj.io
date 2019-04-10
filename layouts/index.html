@@ -4,19 +4,26 @@
     {{partial "head" .}}
   </head>
 <body class="home">
-    {{partial "home/navbar" .}}
-    {{partial "home/Hero" .}}
-    {{partial "home/freshUpdate" .}}
-    {{partial "home/learnOSP" .}}
-    {{partial "home/Benefits" .}}
-    {{partial "home/Pricing" .}}
-    {{partial "home/UseCases" .}}
-    {{partial "home/StayUpToDate" .}}
-    {{partial "home/Milestones" .}}  
-    {{partial "home/Waitlists" .}}
-    {{partial "home/Partners" .}}
-    {{partial "footer" .}}
-    {{partial "scripts" .}}
+  {{partial "home/Banner" .}}
+  <section class="header header-bg" style="height:100%;">
+      <div class="header-bg"></div>
+  {{partial "home/navbar" .}}
+  {{partial "home/Hero" .}}
+  {{partial "home/howitworks" .}}
+  {{partial "home/helpingDevs" .}}
+  {{partial "home/becomeASNO" .}}
+  {{partial "home/ospp" .}}
+  {{partial "home/governance" .}}
+  <!-- {{partial "home/freshUpdate" .}}
+  {{partial "home/learnOSP" .}}
+  {{partial "home/Benefits" .}}
+  {{partial "home/Pricing" .}}
+  {{partial "home/UseCases" .}}
+  {{partial "home/StayUpToDate" .}} -->
+  {{partial "home/Milestones" .}}  
+  <!-- {{partial "home/Waitlists" .}}
+  {{partial "home/Partners" .}} -->
+  {{partial "footer" .}}
+  {{partial "scripts" .}}
 </body>
 </html>
- 

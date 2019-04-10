@@ -1,0 +1,55 @@
+<div class="container-fluid  p-5 hiw-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                {{ with .Site.GetPage "howitworks"}}
+                <p class="mt-5 font-weight-bold hiw-heading">
+                    {{.Params.heading}}
+                </p>
+            </div>
+        </div>
+        <div class="row text-center mt-3">
+            <div class="col-md-6 col-md-offset-3">
+                <p class="hiw-subheading">{{.Params.subheading}}</p>
+            </div>
+        </div>
+        {{end}}
+        <div class="row text-center" style="padding:80px;">
+            <div class="spacer45"></div>
+
+            <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+                <img src="img/encrypt.png" height="75" width="60"/>
+                <br><p class="hiw-name"><strong><span class="hiw-item-txt">Encrypt</span></strong></p>
+            </div>
+
+            <div class="col-xs-6 col-xs-offset-4 col-sm-1 col-sm-offset-0">
+                <img class="visible-sm visible-md visible-lg visible-xl" src="img/next-step-arrow.svg"/>
+                <div class="visible-xs spacer20"></div>
+                <img class="visible-xs" src="img/next-step-arrow-down.png"/>
+                <div class="visible-xs spacer20"></div>
+            </div>
+
+            <div class="col-xs-12 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-1">
+                <img src="img/split.png" height="75" width="60"/>
+                <br><p class="hiw-name" ><span class="hiw-item-txt"><strong>Split</strong></span></p>
+            </div>
+
+            <div class="col-xs-12 col-xs-offset-4 col-sm-1 col-sm-offset-0">
+                <img class="visible-sm visible-md visible-lg visible-xl" src="img/next-step-arrow.svg"/>
+                <div class="visible-xs spacer20"></div>
+                <img class="visible-xs" src="img/next-step-arrow-down.png"/>
+                <div class="visible-xs spacer20"></div>
+            </div>
+
+            <div class="visible-xs spacer20"></div>
+
+            <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+                <img src="img/tar-ico-how-distributed.png" height="75" width="60"/>
+                <br><p class="hiw-name"><span class="hiw-item-txt"><strong>Distribute</strong></span></p>
+            </div>
+        </div>
+    </div>
+    <div class="spacer45"></div>
+    <div class="spacer10"></div>
+    </div>
+</div>

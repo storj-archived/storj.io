@@ -1,6 +1,6 @@
 ---
 link: "https://storjlabs.atlassian.net/servicedesk/customer/portals"
-weight : 3
+weight : 4
 title : "Support"
 class : "navitem"
 ---

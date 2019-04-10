@@ -7,12 +7,12 @@
                     <a href="/" class="navbar-brand">
                       <img src="/img/logo-white.svg" alt="Storj" class="logo" style="margin-left:30px;">
                     </a>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
                     {{range where .Site.Pages ".Params.class" "navitem"}}
                     <li><a style="font-size: .9em;color:white;" href="{{ .Params.link }}" >{{ .Title }}</a></li>
                   {{end}}
-                </ul>
-                <ul class="nav navbar-nav navbar-right" style="margin-right:0.25px;">
-                  <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
+                  <a href="/sign-up"><button class="btn btn-primary nav-join" style="background:transparent;">Join the Waitlist</button></a></li>
                 </ul>
               </div>
             </div>
@@ -36,23 +36,23 @@
     
       <div class="container-fluid visible-md" style="background-color:#2683FF">
         <section>
-            <nav class="navbar" >
-            <div class="container">
-              <div>
-                <ul class="nav navbar-nav">
-                    <a href="/" class="navbar-brand">
-                      <img src="/img/logo-white.svg" alt="Storj" class="logo" style="margin-left:30px;">
-                    </a>
-                    {{range where .Site.Pages ".Params.class" "navitem"}}
-                    <li><a style="font-size: .9em;color:white;" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
-                  {{end}}
-                </ul>
-                <ul class="nav navbar-nav navbar-right" style="margin-right:1px !important;">
-                  <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
+            <nav class="navbar navbar-default menu">
+                <div class="container">
+                  <div>
+                    <ul class="nav navbar-nav">
+                        <a href="/" class="navbar-brand">
+                          <img src="/img/logo-white.svg" alt="Storj" class="logo" style="margin-left:30px;">
+                        </a>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        {{range where .Site.Pages ".Params.class" "navitem"}}
+                        <li><a style="font-size: .9em;color:white;" href="{{ .Params.link }}" >{{ .Title }}</a></li>
+                      {{end}}
+                      <a href="/sign-up"><button class="btn btn-primary nav-join" style="background:transparent;">Join the Waitlist</button></a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
         </section>
         <div class="section team" style="padding-bottom: 0px;margin-top:-50px;">
             <div class="container" style="padding:0px;">
@@ -73,19 +73,19 @@
       <div class="container-fluid visible-sm" style="background-color:#2683FF">
           <section>
               <nav class="navbar" >
-              <div class="container">
-                <div>
-                  <ul class="nav navbar-nav">
-                      <a href="/" class="navbar-brand">
-                        <img src="/img/logo-white.svg" alt="Storj" class="logo" style="margin-left:15px;">
-                      </a>
-                      {{range where .Site.Pages ".Params.class" "navitem"}}
-                      <li><a style="font-size: .9em;color:white;" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
-                    {{end}}
-                  </ul>
-                  <ul class="nav navbar-nav navbar-right" style="margin-right:1px !important">
-                    <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
-                  </ul>
+                  <div class="container">
+                      <div>
+                        <ul class="nav navbar-nav">
+                            <a href="/" class="navbar-brand">
+                              <img src="/img/logo-white.svg" alt="Storj" class="logo" style="margin-left:30px;">
+                            </a>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            {{range where .Site.Pages ".Params.class" "navitem"}}
+                            <li><a style="font-size: .9em;color:white;" href="{{ .Params.link }}" >{{ .Title }}</a></li>
+                          {{end}}
+                          <a href="/sign-up"><button class="btn btn-primary nav-join" style="background:transparent;">Join the Waitlist</button></a></li>
+                        </ul>
                 </div>
               </div>
             </nav>
@@ -126,9 +126,6 @@
                             {{range where .Site.Pages ".Params.class" "navitem"}}
                             <li><a style="font-size: .9em;color:white;" class="link" href="{{ .Params.link }}">{{ .Title }}</a></li>
                           {{end}}
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                      <li><a href="https://app.storj.io/" style="font-size: .9em;color:white;border-bottom:none;" class="link">Log In</a></li>
                     </ul>
                   </div>
                 </div>

@@ -1,0 +1,72 @@
+<div class="container-fluid helpDevs-BG">
+<div class="container">
+    <div class="row">
+            <div class="col text-center mt-5">
+                <h1 class="helpDevs-header">Helping Developers Weave the<br> Fabric of Tomorrow’s Internet</h1>
+            </div>
+            <div class="row mt-5" style="display:flex;flex-wrap: wrap;margin-top:100px;">
+            {{range where .Site.Pages ".Params.class" "whytardigrade" | first 4}}
+              <div class="col-xs-6 col-lg-3 text-left mt-5 p-3">
+                <img class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
+                <h4 class="helpDevs-subheading">
+                  {{.Params.heading}}
+                </h4>
+                <p class="helpDevs-desc">
+                  {{.Params.desc}}                
+                </p>
+              </div>
+            {{end}}
+            </div>
+            <div class="row" style="margin-top:30px;">
+                <div class="col-xs-6 col-lg-3 col-lg-offset-3 text-left mt-5 p-3">
+                    <img class="img-fluid" src="img/cash.png" height="40" width="41"/>
+              <h4 class="helpDevs-subheading">
+                  Affordable
+              </h4>
+              <p class="helpDevs-desc">
+                  Predictable, flat pricing. S3-compatible object storage that is a fraction of the price.             
+              </p>
+            </div>
+            <div class="col-xs-6 col-lg-3 text-left mt-5 p-3">
+                <img class="img-fluid" src="img/simple.png" height="40" width="57"/>
+                <h4 class="helpDevs-subheading">
+                    Easy to Use
+                </h4>
+                <p class="helpDevs-desc">
+                    With our simple s3-compatible library, you can use a single function for uploading and downloading.                </p>
+              </div>
+        </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col">
+            <a class="waitlist-middle" href="https://tardigrade.io">
+              <p class="mt-5 learn-more-tar" >
+                Learn more on Tardigrade.io<span style="font-size:12px;" class="glyphicon glyphicon-chevron-right"></span>
+              </p>
+            </a>
+          </div>
+              <div style="margin-top:100px;"></div>
+          </div>
+        </div>
+
+          {{partial "home/freshUpdate" .}}
+
+          <!-- <div class="row">
+            <div class="col-xs-12 col-md-9 col-md-offset-3" style="background: #FFFFFF;box-shadow: 0px 0px 54px rgba(4, 24, 69, 0.3);border-radius: 10px;width: 660px;height: 288px;">
+              <div class="row">
+                <div class="col-xs-12 col-md-5">
+                    <img style="margin-top:50px;" src="img/tar-ico-performance.png" height="200" width="200"/>
+                </div>
+                <div class="col-xs-12 col-md-7 ">
+                    <p style="margin-top:30px;font-size:28px;">On the Waitlist?</p>
+                    <p style="margin-top:20px;font-size:18px;">The first 10,000 developers on the Tardigrade.io waitlist will get 1TB free for their first 30 days after production launch.</p>
+                    <button class="btn btn-primary" style="background: #133E9C;border-radius: 4px;color: #FFF;">Join the Waitlist</button>
+                </div>
+              </div>
+            </div>
+          </div> -->
+    <div class="spacer45"></div>
+    <div class="spacer45"></div>
+    <div class="spacer45"></div>
+  </div>
+</div>

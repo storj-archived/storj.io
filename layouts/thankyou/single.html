@@ -4,7 +4,10 @@
 {{partial "head" .}}
 </head>
 <body class="page">
-{{partial "partners/heroNav" .}}
+{{partial "home/Banner" .}}
+<div class="thankyou__nav">
+  {{partial "home/navbar" .}}
+</div>
 {{with .Site.GetPage "page" "thankyou.md"}}
 {{.Content}}
 {{end}}

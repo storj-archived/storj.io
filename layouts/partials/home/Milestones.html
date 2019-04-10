@@ -1,30 +1,74 @@
-<div class="container-fluid" style="background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
+<div class="container-fluid" style="background: #041845;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
 <div class="container">
         <div class="row">
+          <div class="spacer15"></div>
           <div class="spacer45"></div>
-            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-push-2 text-center">
-                <h1 style="margin-bottom:-30px;color:black;">Upcoming Milestones</h1>
+          <div class="spacer45"></div>
+            <div class="col-xs-10 col-xs-offset-1 col-md-6 col-md-push-2 text-center mstone-heading">Roadmap Milestones to Production</h1>
+                <div class="spacer35"></div>
+                <p class="mstone-desc">Tardigrade is currently in the Vanguard phase of our alpha and we’re excited to get this product into the hands of our users for testing.</p>
+                <p class="mstone-desc">Those who sign up on our waitlist will receive the option to also participate in our beta, ahead of our production launch later this year.</p>
             </div>
 
       <div class="col-md-12">
-        <div class="milestones" style="display:inline-block;width:100%;overflow-y:auto;">
+        <div class="milestones" style="display:inline-block;width:100%;overflow-y:auto;margin-top:-30px;">
+          <div class="row" style="display:flex;">
+<!---completed-->
+<ul class="timeline timeline-horizontal">
+  {{range where .Site.Pages ".Params.class" "milestone" | first 1}}
+  <li class="timeline-item" >
+    <div class="timeline-badge" style="background: #BEDAFF;border:3px solid #BEDAFF;"></div>
+      <div class="timeline-panel-genesis" style="background: #2582FF;opacity: 0.3;color:black;">
+        <div class="timeline-heading">
+          <p style="font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 19px;
+          color: rgba(255, 255, 255, 0.56);">{{.Params.text}}</p>
+      </div>
+    </div>
+  </li>
+{{end}}
+</ul>
 
-        <ul class="timeline timeline-horizontal">
-    {{range where .Site.Pages ".Params.class" "milestone"}}
+<!---->
+        <ul class="timeline timeline-2nd timeline-horizontal">
+        {{range where .Site.Pages ".Params.class" "milestone"  | last 10}}
         <li class="timeline-item">
-          <div class="timeline-badge primary"
-          {{if eq .Params.completed false}}style="background-color:#B8B8B8;"{{end}}
-          {{if eq .Params.current true}}style="box-shadow: 0 0 8px 4px rgba(38,131,255,0.3)"{{end}}></div>
-            <div class="timeline-panel{{if eq .Weight 1}}-genesis{{end}}">
+          <div class="timeline-badge"
+          {{if eq .Params.current true}}style="background-color: #1743A2;border: 3px solid #FFFFFF;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);"{{end}}
+          {{if eq .Params.completed false}}style="background: #C4C4C4;border 3px solid #C4C4C4;"{{end}} ></div>
+            <div class="timeline-panel{{ if ne .Params.current true}}-genesis{{end}}"
+            {{if eq .Params.current true}}style="background: #1743A2;border: 2px solid #FFFFFF;"{{else if eq .Weight 1}}style="background: #2582FF;
+            opacity: 0.3;color:black;"{{else}}style="background: #FFFFFF;
+            border: 1px solid #AFB7C1;opacity:0.3;"{{end}}>
               <div class="timeline-heading">
-                <p style="height: 67px;	color: {{if eq .Params.completed true}}#2683FF;{{else}}#BBBBBB;{{end}}	font-family: Montserrat;font-size: 16px;	font-weight: 800;	line-height: 22px;" ><small>{{.Params.text}}</small></p>
+                <p style="height: 67px;	
+                {{if eq .Params.current true}}
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 19px;
+                color: #FFFFFF;
+                {{else}}
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 19px;
+                color: rgba(0, 0, 0, 0.56){{end}};" >{{.Params.text}}</p>
             </div>
           </div>
         </li>
     {{end}}
-
     </ul>
   </div>
+  </div>
+  <div class="spacer45"></div>
+  <div class="spacer25"></div>
+</div>
 </div>
 </div>
 </div>
