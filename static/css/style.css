@@ -3749,30 +3749,31 @@ font-weight: 300;
 font-size: 14px;
 line-height: 17px;
 text-align: center;
-width: 275px !important;
+width: 275px;
 margin:8px;
 }
 
 @media only screen and (max-width: 320px) {
   .hero-box-1{
-    width: 380px !important;
+    width: 96%;
     margin:8px;
-    
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .hero-box-1{
-    width: 96%!important;
+    width: 96%;
+    text-align:center;
     }
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
   .hero-box-1{
-    width: 48% !important;
-    margin:8px;
+    width: 45%;
+    margin:12px;
     display: inline-block;
+    margin:18px;
   }
 }
 
@@ -4166,7 +4167,7 @@ color: #FFFFFF;
 
   .node-img{
     margin-top:-440px;
-    margin-left:-50px;
+    margin-left:-30px;
   }
 
 

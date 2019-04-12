@@ -1,7 +1,7 @@
 ---
 name : Dan Sorensen
 title : PR Director
-headshot : /img/team/dan_sorensen.jpg
+headshot : /img/team/dan.jpg
 class : marketing
 all : true
 ---

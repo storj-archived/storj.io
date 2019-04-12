@@ -1,7 +1,7 @@
 ---
-name : Natalie Villasana
+name : Bill Thorpe
 title : Software Engineer
-headshot : /img/team/nat.jpg
+headshot : /img/team/bill.jpg
 class : engineering
 all : true
 ---

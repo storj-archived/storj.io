@@ -1,7 +1,7 @@
 ---
 name : Kevin Leffew
 title : Business Development
-headshot : /img/team/kevin-leffew.jpg
+headshot : /img/team/kevin.jpg
 class : sales
 all : true
 ---

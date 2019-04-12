@@ -1,7 +1,7 @@
 ---
 name : Brandon Iglesias 
 title : Product Manager
-headshot : /img/Brandon.png
+headshot : /img/brandon.jpg
 class : product
 all : true
 weight: 96

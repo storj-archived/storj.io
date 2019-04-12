@@ -1,7 +1,7 @@
 ---
 name : Stefan Benten
 title : Strategy R&D Engineer
-headshot : /img/team/stefanbenten.jpg
+headshot : /img/team/stefan.jpg
 class : strategy
 all : true
 ---
