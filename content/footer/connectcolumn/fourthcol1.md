@@ -2,6 +2,6 @@
 link : "https://twitter.com/storjproject"
 weight : 1
 title : "Twitter"
-icon : "/img/social-twitter.svg"
+icon : "/img/twitter.svg"
 class : "fourthcolfooter"
 ---

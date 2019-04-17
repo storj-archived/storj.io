@@ -2,6 +2,6 @@
 link : "https://github.com/Storj/"
 weight : 2
 title : "GitHub"
-icon : "/img/social-github.svg"
+icon : "/img/github.svg"
 class : "fourthcolfooter"
 ---

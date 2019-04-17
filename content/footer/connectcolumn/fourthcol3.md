@@ -2,6 +2,6 @@
 link : "https://www.reddit.com/r/storj/"
 weight : 3
 title : "Reddit"
-icon : "/img/social-reddit.svg"
+icon : "/img/reddit.svg"
 class : "fourthcolfooter"
 ---
