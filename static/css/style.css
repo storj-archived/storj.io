@@ -4404,3 +4404,15 @@ margin-top:-25px;
 .thankyou__nav {
   background: #133E9C;
 }
+
+.mce-error-response a:hover{
+  color:white !important;
+}
+
+.gray{
+  color:grey;
+}
+
+.signup-subheading{
+  font-size:18pt;
+}

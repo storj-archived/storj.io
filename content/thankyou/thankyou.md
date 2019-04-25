@@ -9,7 +9,6 @@ title: "thankyou"
 <h1>Thanks for Subscribing!</h1>
 <p>We're heads down on building the next generation of Storj and look forward to sharing updates with you along the way.</p>
 <div class="spacer15"></div>
-<a href="http://tardigrade.io/" class="thankyou-btn btn btn-lg text-center">Go to Tardigrade.io</a>
 <a href="http://storj.io/" class="thankyou-btn btn btn-lg" style="background:#133E9C;margin-left: 22px;">Go to Storj.io</a>
 <div class="spacer50"></div>
 <div class="spacer50"></div>

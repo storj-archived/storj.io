@@ -1,0 +1,4 @@
+---
+aliases :
+    - /sign-up-farmer/
+---

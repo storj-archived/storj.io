@@ -1,66 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-{{ partial "head" .}}
-</head>
-
+    {{ partial "head" .}}
+  </head>
   <body class="page contact">
-      {{partial "home/Banner" .}}
-
+    {{partial "home/Banner" .}}
     {{partial "partners/heroNav" .}}
-
   <section class="section">
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-md-8 col-md-push-2 col-lg-6 col-lg-push-3 text-center">
-          <h1 style="margin-bottom:0.3em">{{ .Params.heading }}</h1>
-          <p style="font-size:18pt">{{ .Params.subHeading }}</p>
+          <h1>{{ .Params.heading }}</h1>
+          <div class="spacer25"></div>
+          <p class="signup-subheading">{{ .Params.subHeading }}</p>
           <div class="spacer10"></div>
           <p>{{ .Params.introText }}</p>
           <div class="spacer5"></div>
-          <form id="form2" name="form2" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://storj.wufoo.com/forms/m1lo4ys3176ofyo/#public">
-            <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1" style="margin-bottom:0" placeholder="First Name" required />
-              </div>
-              <div class="col-xs-12 col-sm-6">
-                <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="8" tabindex="2" style="margin-bottom:0" placeholder="Last Name" required />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                <input id="Field3" name="Field3" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="3" placeholder="Email" required />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12">
-                <textarea id="Field4" name="Field4" class="field textarea medium" spellcheck="true" rows="5" tabindex="7" placeholder="(Optional) Why are you interested in using Storj?"></textarea>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-6 col-xs-offset-3">
-                <input id="saveForm" name="saveForm" class="btn btn-block btTxt submit" type="submit" value="Submit"/>
-              </div>
-            </div>
-            <div class="hide">
-              <label for="comment">Do Not Fill This Out</label>
-              <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-              <input type="hidden" id="idstamp" name="idstamp" value="El0OKNOviaoxf+nB0YK5Ls9ANra2v52SNksCbxUKXRo=" />
-            </div>
-          </form>
+          <a href="https://tardigrade.io/waitlist"><button class="btn btn-primary">Sign Up on Tardigrade</button></a>
           <div class="spacer25"></div>
           <div>
-            <small style="color:grey">Interested in earning money renting your drive? <br><a href="/sign-up-farmer/">Join the Waitlist</a></small>
+            <small class="gray">Interested in earning money renting your drive? <br><a href="/sign-up-farmer/">Join the Storage Node Operator Waitlist</a></small>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <div class="spacer35"></div>
-
   {{partial "footer" .}}
   {{partial "scripts" .}}
-
   </body>
 </html>
