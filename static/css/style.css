@@ -4416,3 +4416,44 @@ margin-top:-25px;
 .signup-subheading{
   font-size:18pt;
 }
+
+.consent-banner{
+  background: #11181D;
+  opacity: 0.97;
+  position: fixed;
+  bottom: 0px;
+  height: 60px;
+  z-index: 99999999999999999;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}
+
+.consent-banner_text{
+  color: #FFF;
+  margin-top: 25px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.consent-banner_link{
+  color: #FFF;
+  text-decoration : underline;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 800px) {
+  .consent-banner_text{
+    margin-top:15px;
+    margin-right:50px;
+  }
+
+  .consent-banner_close{
+    margin-top:25px;
+    margin-right:75px;
+  }
+}
+
+.consent-banner_close:hover {
+    font-size: 16px;
+    cursor: pointer;
+}
