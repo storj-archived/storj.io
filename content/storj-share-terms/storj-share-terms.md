@@ -193,7 +193,7 @@ effectiveDate : 'January 30, 2019'
 <li style="list-style-type: none;"><strong>b. </strong>The Held Amount will be retained by Company in full unless and until the following condition(s) occurs, at which point(s) the applicable portion of the Held Amount will be deemed earned by you: </li>
 <ul>
 <div class="spacer15"></div>
-<li style="list-style-type: none;"><strong>i. <span style="text-decoration: underline;">Duration Release.</span></strong> If Storage Node Operator continues actively to store Storage Materials on the applicable Storage Node without breach or interruption for fifteen (15) consecutive months (the “!5-Month Period”), Company will pay you fifty percent (50%) of the Held Amount (“Duration Release”). </li>
+<li style="list-style-type: none;"><strong>i. <span style="text-decoration: underline;">Duration Release.</span></strong> If Storage Node Operator continues actively to store Storage Materials on the applicable Storage Node without breach or interruption for fifteen (15) consecutive months (the “15-Month Period”), Company will pay you fifty percent (50%) of the Held Amount (“Duration Release”). </li>
 <div class="spacer15"></div>
 <li style="list-style-type: none;"><strong>ii. <span style="text-decoration: underline;">Graceful Exit Release.</span></strong> , after 15 continuous months per (i) above, Storage Node Operator completes a Graceful Exit as defined below, Company will pay you the remaining fifty percent (50%) of the Held Amount (“Graceful Exit Release”).</li>
 <div class="spacer15"></div>
