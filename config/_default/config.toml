@@ -4,7 +4,6 @@ title = "storj.io"
 
 [permalinks]
   404 = "/404/"
-  developers = "/developers/"
   community = "/community/"
   partners = "/partners/"
   privacy-policy = "/privacy-policy/"
