@@ -9,7 +9,7 @@
         </div>
           <div class="spacer50"></div>
           <h1 class="hero-heading">{{.Params.heading}}</h1>
-          <p class="hero-subheading">{{.Content}}</p>
+          {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
           <div class="spacer20"></div>
           <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
           <a href="https://tardigrade.io" style="text-decoration: none">
