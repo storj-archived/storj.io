@@ -15,7 +15,7 @@
           <div class="row" style="display:flex;">
 <!---completed-->
 <ul class="timeline timeline-horizontal">
-  {{range where .Site.Pages ".Params.class" "milestone" | first 1}}
+  {{range where .Site.Pages ".Params.class" "milestone" | first 2}}
   <li class="timeline-item" >
     <div class="timeline-badge" style="background: #BEDAFF;border:3px solid #BEDAFF;"></div>
       <div class="timeline-panel-genesis" style="background: #2582FF;opacity: 0.3;color:black;">
@@ -34,7 +34,7 @@
 
 <!---->
         <ul class="timeline timeline-2nd timeline-horizontal">
-        {{range where .Site.Pages ".Params.class" "milestone"  | last 10}}
+        {{range where .Site.Pages ".Params.class" "milestone"  | last 9}}
         <li class="timeline-item">
           <div class="timeline-badge"
           {{if eq .Params.current true}}style="background-color: #1743A2;border: 3px solid #FFFFFF;box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);"{{end}}
