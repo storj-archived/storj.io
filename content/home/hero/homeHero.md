@@ -2,9 +2,9 @@
 title: "HomeHero"
 img: "img/updated.svg"
 heading: "Introducing Tardigrade.io Decentralized Cloud Storage"
-ctaText: "Read about Tardigrade"
-ctaLink: "https://storj.io/blog/2019/04/introducing-tardigrade-decentralized-cloud-storage-from-storj-labs/"
-stage: "CURRENTLY IN ALPHA 4: VANGUARD - DATA STORAGE"
+ctaText: "Visit Tardigrade"
+ctaLink: "https://tardigrade.io/"
+stage: "Currently in Alpha: Beacon - Identity & Access Management"
 ---
 
-Storj Labs now has two websites for our ever-growing and essential community members to better serve their individual needs.
+We’re excited to announce Tardigrade decentralized cloud storage. Want to learn more? Head to the Tardigrade site. Want to set up a storage node? Join our waitlist.

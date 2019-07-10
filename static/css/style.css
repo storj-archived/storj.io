@@ -3593,7 +3593,7 @@ color: #FFFFFF;
 }
 
 .prod-stage{
-  margin-left:15px;
+  padding: 0 6px;
   border: 1px solid rgba(255,255,255,0.2);
   background-color: rgba(255,255,255,0.2);
   border-radius:4px;
@@ -3607,12 +3607,12 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  width:400px;
+  width:410px;
 }
 
 @media only screen and (max-width: 320px) {
   .prod-stage{
-    margin-left:15px;
+    padding: 0 6px;
     border: 1px solid rgba(255,255,255,0.2);
     background-color: rgba(255,255,255,0.2);
     border-radius:4px;
@@ -3632,7 +3632,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .prod-stage{
-    margin-left:15px;
+    padding: 0 6px;
     border: 1px solid rgba(255,255,255,0.2);
     background-color: rgba(255,255,255,0.2);
     border-radius:4px;
@@ -3678,10 +3678,9 @@ color: #FFFFFF;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
-font-size: 16px;
+font-size: 18px;
 line-height: 28px;
 color: rgba(255, 255, 255, 0.8);
-opacity: 0.3;
 }
 
 .hero-cta{
@@ -3698,7 +3697,7 @@ opacity: 0.3;
   text-align: center;
   color: #133E9C;
   text-transform: unset;
-  width:400px;
+  width:204px;
   max-width: 400px;
 }
 
@@ -3717,7 +3716,7 @@ opacity: 0.3;
     text-align: center;
     color: #133E9C;
     text-transform: unset;
-    width:360px;
+    width:204px;
     max-width: 360px;
   }
 }
@@ -3737,7 +3736,7 @@ opacity: 0.3;
     text-align: center;
     color: #133E9C;
     text-transform: unset;
-    width:360px;
+    width:204px;
     max-width: 360px;
   }
 }
