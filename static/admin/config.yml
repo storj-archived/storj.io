@@ -677,3 +677,53 @@ collections:
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+  - name : "careers-hero"
+    label: "careers-hero"
+    folder: "content/careers/hero"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "subheading", name : "subheading", widget: "string"}
+     - {label: "cta", name : "cta", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+  - name : "careers-about-us"
+    label: "careers-about-us"
+    folder: "content/careers/aboutus"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "subheading", name : "subheading", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "cta", name : "cta", widget: "string"}
+     - {label: "ctaLink", name : "ctaLink", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+  - name : "careers-diversity"
+    label: "careers-diversity"
+    folder: "content/careers/diversity"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "subheading", name : "subheading", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "description", name : "description", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+  - name : "careers-benefits"
+    label: "careers-benefits"
+    folder: "content/careers/benefits"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "heading", name : "heading", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "desc", name : "desc", widget: "string"}
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+  - name : "careers-locations"
+    label: "careers-locations"
+    folder: "content/careers/locations/locations"
+    fields:
+     - {label: "Title", name: "title", widget: "string"}
+     - {label: "location", name : "location", widget: "string"}
+     - {label: "img", name: "img", widget: "image", required: true }
+     - {label: "Draft", name: "draft", widget: "boolean", default: false}
+     - {label: "Address", name: "body", widget: "markdown"}
+

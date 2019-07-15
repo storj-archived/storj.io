@@ -1,0 +1,20 @@
+    <div class="container-fluid margin-less padding-less">
+        <div class="spacer100"></div>
+        <div class="row">
+            <div class="col-md-5 col-md-offset-1">
+                {{with .Site.GetPage "diversity" }}
+                    <div class="spacer50"></div>
+                    <div class="spacer100 visible-md visible-lg"></div>
+                    <h1 class="careers-sec-heading">{{.Params.heading}}</h1>
+                    <div class="spacer15"></div>
+                    <p class="careers-diversity-subheading">{{.Params.subheading}}</p>
+                    <div class="spacer15"></div>
+                    <p class="careers-diversity-subheading">{{.Params.description}}</p>
+                    <div class="spacer50"></div>
+                {{end}}
+            </div>
+            <div class="col-md-5 col-md-offset-1 diversity-img">
+            </div>
+        </div>
+    </div>
+</div>

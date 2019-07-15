@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row text-center">
+        <div class="spacer100"></div>
+        <div class="spacer100"></div>
+        <h1 class="careers-sec-heading">Benefits</h1>
+    </div>
+    <div class="spacer100"></div>
+    <div class="row text-center">
+    {{range where .Site.Pages ".Params.class" "careerBenefit"}}
+        <div class="col-xs-12 col-md-3">
+        <img src="{{.Params.img}}" />
+        <h1 class="careers-benefit-heading">{{.Params.heading}}</h1>
+        <p class="careers-benefit-desc">{{.Params.desc}}</p>
+        </div>
+        {{end}}
+    </div>
+    <div class="spacer100"></div>
+    <div class="row text-center">
+        <span class="other-benefit"><strong>Other Benefits : </strong></span><small> meetings at our corporate headquarters, catered lunches, commuter benefit plans, innovative co-op spaces, and more.</small>
+    </div>
+    <div class="spacer100"></div>
+</div>
