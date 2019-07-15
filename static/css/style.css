@@ -4470,11 +4470,16 @@ margin-top:-25px;
 }
 
 .careers-heading,
-.careers-subheading,
 .careers-heading-cta{
   font-family: 'Poppins';
   font-style: normal;
   color: #FFFFFF;
+}
+
+.careers-subheading{
+font-family: 'Roboto';
+font-style: normal;
+color: #FFFFFF;
 }
 
 .careers-heading{
@@ -4568,7 +4573,7 @@ margin-top:-25px;
 .office-address{
   color : #000000;
   margin-top:-15px;
-  font-family: 'Roboto';
+  font-family: 'Roboto' !important;
   font-weight: 300;
   font-size: 14px;
   line-height: 18px;
@@ -4642,4 +4647,8 @@ margin-top:-25px;
 .cta-arrow{
   height:8px;
   width:12px;
+}
+
+.other-benefits-desc{
+  font-family: 'Roboto';
 }
