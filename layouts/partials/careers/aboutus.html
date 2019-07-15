@@ -1,0 +1,25 @@
+<div class="container-fluid reverse-wrap">
+    <div class="spacer100"></div>
+    <div class="row">
+        <div class="visible-xs visible-sm col-md-5 col-md-offset-1">
+            {{with .Site.GetPage "aboutus" }}
+                <h1 class="careers-sec-heading">{{.Params.heading}}</h1>
+                <p class="careers-about-us-subheading">{{.Params.subheading}}</p>
+                <div class="spacer15"></div>
+                <p class="careers-about-us-cta">{{.Params.cta}} &#x3e;</p>
+            {{end}}
+            <div class="spacer30"></div>
+        </div>
+        <div class="col-md-6 about-us-img"></div>
+        <div class="col-md-5 col-md-offset-1 visible-md visible-lg">
+        {{with .Site.GetPage "aboutus" }}
+            <div class="spacer100"></div>
+            <h1 class="careers-sec-heading">{{.Params.heading}}</h1>
+            <p class="careers-about-us-subheading">{{.Params.subheading}}</p>
+            <div class="spacer15"></div>
+            <a href="{{.Params.ctaLink}}">
+                <p class="careers-about-us-cta">{{.Params.cta}} &#x3e;</p>
+            </a>
+        {{end}}
+        </div>
+    </div>

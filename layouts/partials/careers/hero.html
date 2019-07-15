@@ -1,0 +1,20 @@
+<div class="container text-center">
+    {{with .Site.GetPage "careers-hero"}}
+    <div class="col-md-8 col-md-offset-2">
+    <div class="row">
+        <p class="careers-heading">{{.Params.heading}}</p>
+    </div>
+    <div class="row">
+        <p class="careers-subheading">{{.Params.subheading}}<p>
+    </div>
+    <div class="row">
+        <p class="careers-heading-cta">{{.Params.cta}}</p>
+    </div>
+    <div class="row">
+        <a href="#open-positions">
+            <img class="cta-arrow" src="/img/fa-chevron-down.png"/>
+        </a>
+    </div>
+    </div>
+    {{end}}
+</div>

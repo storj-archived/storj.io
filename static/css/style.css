@@ -135,9 +135,15 @@ img {
 .white {
 	background: #fff;
 }
+
 .grey {
 	background: #f2f4f6;
 }
+
+.careers-grey{
+  background: #F4F6F9;
+}
+
 .normal {
   font-weight: normal;
 }
@@ -827,6 +833,12 @@ canvas {
   background: url("../img/Theez-Starz.svg"),linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);  
   background-size: cover;
 }
+
+.careers-header-bg {
+  background: url("../img/Theez-Starz.svg"),linear-gradient(9.87deg, #133E9C 17.88%, #00091E 88.02%);
+  background-size: cover;
+}
+
 .header-content {
 	position: absolute;
 	top: 0;
@@ -4455,4 +4467,188 @@ margin-top:-25px;
 .consent-banner_close:hover {
     font-size: 16px;
     cursor: pointer;
+}
+
+.careers-heading,
+.careers-heading-cta{
+  font-family: 'Poppins';
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.careers-subheading{
+font-family: 'Roboto';
+font-style: normal;
+color: #FFFFFF;
+}
+
+.careers-heading{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 100px;  
+}
+
+.careers-subheading{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 30px;  
+}
+
+.careers-heading-cta{
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 45px;  
+}
+
+.careers-cta-caret{
+  color:#FFFFFF;
+}
+
+.careers-sec-heading{
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.careers-about-us-subheading,
+.careers-diversity-subheading,
+.careers-locations-subheading{
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.careers-about-us-cta{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 29px;
+  color: #133E9C;
+}
+
+.careers-benefit-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 22px;  
+  text-align: center;
+  color: #333333;
+}
+
+.careers-benefit-desc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 23px;  
+  text-align: center;
+  color: #333333;
+}
+
+.other-benefit{
+  font-family: 'Poppins';
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.office-location{
+  color : #000000;
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.office-address{
+  color : #000000;
+  margin-top:-15px;
+  font-family: 'Roboto' !important;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.careers-sec-heading,
+.careers-about-us-subheading,
+.careers-diversity-subheading,
+.careers-locations-subheading
+.other-benefit,
+.location,
+.address{
+  color: #000000;
+  font-style: normal;
+}
+
+.location-card{
+  width:520px;
+  margin:30px;
+  border:1px solid #dcdcdc;
+  border-radius:4px;
+  box-shadow: 2px 2px 10px #dcdcdc;
+}
+
+@media only screen and (max-width: 500px){
+  .location-card{
+    margin-left:-15px;
+  }
+}
+
+.about-us-img{
+  background-image: url(../img/aboutus.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+}
+
+@media only screen and (max-width: 500px){
+  .about-us-img{
+    margin-left:-140px;
+  }
+}
+
+.diversity-img{
+  background-image: url(../img/diversity.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+}
+
+@media only screen and (max-width: 500px){
+  .diversity-img{
+    margin-right:-140px;
+  }
+}
+
+.margin-less{
+  margin:0px;
+}
+
+.padding-less{
+  padding:0px;
+}
+
+.reverse-wrap {
+  flex-wrap: wrap-reverse;
+}
+
+.cta-arrow{
+  height:8px;
+  width:12px;
+}
+
+.other-benefits-desc{
+  font-family: 'Roboto';
 }

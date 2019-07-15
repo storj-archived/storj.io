@@ -1,0 +1,27 @@
+<div class="container-fluid grey">
+    <div class="container">
+        {{with .Site.GetPage "location"}}
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="spacer100"></div>
+                <h1 class="careers-sec-heading">{{.Params.heading}}</h1>
+                <div class="spacer30"></div>
+                <p class="careers-locations-subheading">{{.Params.subheading}}</p>
+                <div class="spacer50"></div>
+            </div>
+        </div>
+        {{end}}
+        <div class="row">
+        {{range where .Site.Pages ".Params.class" "location"}}
+            <div class="col-xs-12 col-md-6 location-card white">
+                <div class="row careers-header-bg" style="height:237px">
+                    <img src="{{.Params.img}}" height="250" width="520"/>
+                </div>
+                <h1 class="office-location">{{.Params.location}}</h1>
+                <span class="office-address">{{.Content}}</span>
+            </div>
+            {{end}}
+        </div>
+        <div class="spacer100"></div>
+    </div>
+</div>

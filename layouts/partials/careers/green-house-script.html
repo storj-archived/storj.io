@@ -1,0 +1,20 @@
+<script>
+jQuery(document).ready(function($){
+    $('[data-toggle="tooltip"]').tooltip();
+
+    $('.panel-heading').on('click', function() {
+    var hash = $(this).attr('id');
+    var scr = document.body.scrollTop;
+    location.hash = hash;
+    document.body.scrollTop = scr;
+    });
+
+    if (window.location.hash !== '') {
+    var jobHash = window.location.hash.match(/job-(\d+)$/)
+    if (jobHash && jobHash[1]) {
+        $('a[href="#' + 'collapse-' + jobHash[1] + '"]').click()
+    }
+    }
+});
+</script>
+<script src="https://boards.greenhouse.io/embed/job_board/js?for=storj"></script>
