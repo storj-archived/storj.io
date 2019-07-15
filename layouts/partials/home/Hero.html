@@ -1,49 +1,37 @@
 <div class="container">
     <div class="row wh">
       <div class="spacer30"></div>
-      <div class="col-xs-12 col-lg-6">
+      <div class="col-12 text-center">
         <div class="spacer35"></div>
-        <div class="row">
+        <div class="row" style="display: flex; justify-content: center;">
           {{with .Site.GetPage "page" "homeHero.md"}}
-          <div class="col-xs-11 col-md-8 prod-stage">{{.Params.stage}}</div>
+          <div class="col-12 prod-stage">{{.Params.stage}}</div>
         </div>
           <div class="spacer50"></div>
           <h1 class="hero-heading">{{.Params.heading}}</h1>
-          <p class="hero-subheading">{{.Content}}</p>
+          {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
           <div class="spacer20"></div>
-          <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3">
+                <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
+            </div>
+            <div class="col-md-3" style="margin-top: 10px;">
+                <a href="/sign-up-node-operator/" style="text-decoration: none">
+                  <p class="mt-5" style="color:white;
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 28px;">
+                    Node Operator Waitlist<span style="font-size:12px;margin-left:10px" class="glyphicon glyphicon-chevron-right"></span>
+                  </p>
+                </a>
+            </div>
+          </div>
+
           <div class="spacer50"></div>
       </div>
           {{end}}
-      <div class="col-xs-12 col-lg-6">
-        <div class="row">
-            <div class="spacer825 visible-md visible-lg"></div>
-      {{range where .Site.Pages ".Params.class" "heroBox"}}
-      <div class="visible-xs" style="display:inline-block;width:50px;"></div>
-          <div class="col-xs-12 hero-box-1 {{if eq .Weight 1}} col-md-5 col-md-offset-1 {{end}} mt20">
-            <div class="row text-center hero-box" style="background: {{if eq .Weight 1}} linear-gradient(180deg, #2582FF 0%, #003883 100%){{else}}linear-gradient(0deg, rgba(19, 62, 156, 0.72), rgba(19, 62, 156, 0.72)), linear-gradient(359.4deg, #133E9C 0.53%, #59A0FF 99.59%);{{end}}">
-              <img class="mt50" src="{{.Params.img}}" height="73" width="auto">
-            </div>
-            <div class="row text-center hero-box-btm-row">
-              <div class="spacer10"></div>
-              {{if eq .Weight 1}}
-              <div class="spacer25"></div>
-              {{end}}
-              {{if eq .Weight 2}}
-              <div class="visible-xs spacer10"></div>
-              {{end}}
-              <p style="font-family: Roboto;
-              font-style: normal;
-              font-weight: 300;
-              font-size: 14px;
-              line-height: 17px;
-              text-align: center;
-              {{if eq .Weight 2}}margin:15px{{else}}margin:5px;{{end}};">{{.Params.desc}}</p>
-            </div>
-          </div>
-        {{end}}
-      </div>
-    </div>
   </div>
 </div>
 <div class="spacer45"></div>
