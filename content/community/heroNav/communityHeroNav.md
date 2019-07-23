@@ -1,7 +1,7 @@
 ---
 title: community hero nav
 heading: Help Build the Future of the Internet
-ctaText: JOIN THE COMMUNITY
+ctaText: Join the Community
 ctaLink: https://forum.storj.io/
 weight: 2
 ---

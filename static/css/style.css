@@ -188,10 +188,10 @@ Buttons
 
 .btn {
 	font-weight: 800;
-	text-transform: uppercase;
 	background: #2683FF;
 	color: #FFF;
-	font-size: 16px;
+  font-size: 16px;
+  font-family : 'Poppins';
 	padding: 14px 50px;
 	border-radius: 4px;
 	z-index: 2;
@@ -1964,6 +1964,8 @@ twitterwidget {
   font-size: 14px;
   line-height: 40px;
   color: #000000;
+  text-align: left;
+  padding-left:25px;
 }
 
 .community-event-data{
@@ -1978,6 +1980,7 @@ twitterwidget {
 .event-divider{
   width:120%;
   margin-left:-15px;
+  border : 1px solid rgba(147, 161, 175, 0.6);
 }
 
 /* --------------------------------
@@ -4736,7 +4739,7 @@ color: #FFFFFF;
 
 .events-table{
   width : 100%;
-  border: 1.5px solid #DFDFDF;
+  border: 1.5px solid #C9D0D7;
   border-radius: 6px;
   overflow-x: hidden;
   overflow-y: hidden;
@@ -4774,5 +4777,5 @@ color: #FFFFFF;
 }
 
 .dark-grey{
-  color: #9CA3AD;
+  color: #C9D0D7;
 }
