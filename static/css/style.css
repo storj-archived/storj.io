@@ -1909,6 +1909,77 @@ twitterwidget {
         column-count: 3;
     }
 }
+
+.community-hero-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  color: #FFFFFF;
+}
+
+
+.community-hero-sub-heading{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.community-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.community-desc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.community-cta-link{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2582FF;
+}
+
+.community-event-name{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.community-event-data{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  color: #000000;
+}
+
+.event-divider{
+  width:120%;
+  margin-left:-15px;
+}
+
 /* --------------------------------
 
 TEAM
@@ -3409,13 +3480,14 @@ left: 43px;
 .community-bg {
   margin:0px;
   background: url("../img/combkgrnd.png") center top no-repeat;
-	background-size: cover;
+  background-size: cover;
 }
 
 .community-city{
-  height:445px;
+  height:600px;
   width:1086px;
-  background: url("../img/comCity.png") center top no-repeat;
+  margin-top:-110px;
+  background: url("../img/storj-ill-city-hero.png") center top no-repeat;
   background-size: cover;
 }
 
@@ -4651,4 +4723,56 @@ color: #FFFFFF;
 
 .other-benefits-desc{
   font-family: 'Roboto';
+}
+
+.txt-white{
+  color:#fff;
+}
+
+.no-spacing{
+  margin:0px;
+  padding:0px;
+}
+
+.events-table{
+  width : 100%;
+  border: 1.5px solid #DFDFDF;
+  border-radius: 6px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-height:1265px;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .events-table{
+      height:1540px;
+      max-height:1540px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+    .events-table{
+      height:1540px;
+      max-height:1540px;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1100px) {
+    .events-table{
+      height:1300px;
+      max-height:1300px;
+  }
+}
+
+.event-link{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 40px;
+}
+
+.dark-grey{
+  color: #9CA3AD;
 }
