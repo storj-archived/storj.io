@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row text-center">
+        <div class="spacer100"></div>
+        <p class="community-heading">Upcoming Events</h1>
+        <div class="spacer30"></div>
+        <p class="community-desc">Interested in learning more about Storj? Come chat with us at these upcoming events.</p>
+        <div class="spacer100"></div>
+    </div>
+        <div class="events-table container">
+        <div class="spacer30"></div>
+        {{range where .Site.Pages ".Params.class" "event"}}
+            <div class="row data-row text-center">
+                <div class="col-xs-4 col-md-3 community-event-name">{{.Params.name}}</div>
+                <div class="col-md-3 community-event-data visible-md visible-lg">{{.Params.location}}</div> 
+                <div class="col-xs-4 col-md-3 community-event-data">{{.Params.when}}</div>
+                <div class="col-xs-4 col-md-3">
+                    <a href="{{.Params.link}}" class="community-event-link">
+                        <span class="visible-md visible-lg dark-grey event-link">Learn More</span>
+                        <span class="visible-xs visible-sm glyphicon glyphicon-chevron-right dark-grey"></span>
+                    </a>
+                </div>
+            </div><hr class="event-divider">
+        {{end}}
+        </div>
+        <div class="spacer100"></div>
+    </div>
+</div>

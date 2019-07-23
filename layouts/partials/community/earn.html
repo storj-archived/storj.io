@@ -1,0 +1,17 @@
+{{ with .Site.GetPage "earn"}}
+<div class="container-fluid careers-grey">
+    <div class="container">
+        <div class="spacer100"></div>
+        <div class="row text-center">
+            <img src="{{.Params.img}}"/>
+            <div class="spacer30"></div>
+            <p class="community-heading">{{.Params.heading}}</h1>
+            <div class="spacer20"></div>
+            <a href="{{.Params.ctaLink}}">
+                <p class="community-cta-link">{{.Params.ctaText}}<span class="glyphicon glyphicon-chevron-right"></span></p>
+            </a>
+        </div>
+        <div class="spacer100"></div>
+    </div>
+</div>
+{{end}}

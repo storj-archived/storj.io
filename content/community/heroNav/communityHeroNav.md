@@ -1,8 +1,8 @@
 ---
 title: community hero nav
-heading: Storj Community
-ctaText: JOIN THE COMMUNITY
-ctaLink: /code-of-conduct/
+heading: Help Build the Future of the Internet
+ctaText: Join the Community
+ctaLink: https://forum.storj.io/
 weight: 2
 ---
-We're building a vibrant community of developers and storage node operators with a passion for open-source content and decentralization. And we can't build a thriving community without your help, expertise, opinions, knowledge, and well...you. We're glad you're here--take a look around.
+Whether you’re already operating a storage node, or you're interested in setting up one, our community of node operators is ready to help you find answers to questions, troubleshoot issues, or just chat. We also welcome open source contributors who want to help improve Storj and create a better internet for everyone. 
