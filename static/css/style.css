@@ -3948,7 +3948,7 @@ margin-top:90px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
-font-size: 14px;
+font-size: 18px;
 line-height: 19px;
 text-align: center;
 color: #FFFFFF;
@@ -4162,7 +4162,7 @@ color: #FFFFFF;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
-font-size: 16px;
+font-size: 18px;
 line-height: 29px;
 color: #FFFFFF;
 }
@@ -4355,7 +4355,7 @@ color: #000000;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 29px;
   color: #000000;
   padding-right:60px;
@@ -4829,4 +4829,43 @@ color: #FFFFFF;
 .not-current-mile-stone-text{
   font-weight: normal;
   color: rgba(0, 0, 0, 0.56)
+}
+
+.home-hero-cta{
+  color:white;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.learn-osp-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+}
+
+.learn-osp-desc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.learn-osp-cta-link{
+  padding-left:20px;
+  padding-right:20px;
+  font-size:14px;
+}
+
+.learn-osp-wrapper{
+  position:relative;
+  z-index: 2;
+  padding-left:25px;
 }
