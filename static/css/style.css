@@ -4779,3 +4779,54 @@ color: #FFFFFF;
 .dark-grey{
   color: #C9D0D7;
 }
+
+.milestones-main-wrapper{
+  background: #041845;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);
+}
+
+.milestones{
+  display:inline-block;
+  width:100%;
+  overflow-y:auto;
+  margin-top:-30px;
+}
+
+.current-milestone{
+  background-color: #1743A2 !important;
+  border: 3px solid #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.not-current-milestone{
+  background: #C4C4C4;
+  border: 3px solid #C4C4C4;
+}
+
+.current-panel{
+  background: #FFFFFF;
+  border: 1px solid #1743A2;
+}
+
+.not-current-panel{
+  background: #FFFFFF !important;
+  border: 1px solid #AFB7C1 !important;
+}
+
+.current-milestone-text,
+.not-current-milestone-text{
+  height: 67px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 19px;
+}
+.current-milestone-text{
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.not-current-mile-stone-text{
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.56)
+}
