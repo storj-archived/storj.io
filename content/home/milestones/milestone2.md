@@ -1,8 +1,7 @@
 ---
 title: "Milestone2"
 class: "milestone"
-completed: true
-current : false
+current : true
 weight: 2
-text: "Vanguard: User Alpha"
+text: "Beacon: Identity & Access Management"
 ---

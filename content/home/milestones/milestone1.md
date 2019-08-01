@@ -1,8 +1,7 @@
 ---
-title: "Milestone1"
+title: "Milestone2"
 class: "milestone"
-completed: true
 current : false
 weight: 1
-text: "Explorer: Storage Nodes Alpha"
+text: "Vanguard: User Alpha"
 ---

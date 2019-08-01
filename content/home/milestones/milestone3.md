@@ -1,8 +1,7 @@
 ---
 title: "Milestone3"
 class: "milestone"
-completed: false
-current : true
+current : false
 weight: 3
-text: "Beacon: Identity & Access Management"
+text: "Pioneer 1: V3 Network Beta"
 ---

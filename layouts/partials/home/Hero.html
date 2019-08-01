@@ -8,22 +8,22 @@
           <div class="col-12 prod-stage">{{.Params.stage}}</div>
         </div>
           <div class="spacer50"></div>
+          <div class="col-xs-12 col-sm-6 col-sm-offset-3">
           <h1 class="hero-heading">{{.Params.heading}}</h1>
+          </div>
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
           {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
           <div class="spacer20"></div>
+        </div>
           <div class="row">
             <div class="col-md-3 col-md-offset-3">
                 <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
             </div>
             <div class="col-md-3" style="margin-top: 10px;">
                 <a href="/sign-up-node-operator/" style="text-decoration: none">
-                  <p class="mt-5" style="color:white;
-                    font-family: Poppins;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 14px;
-                    line-height: 28px;">
-                    Node Operator Waitlist<span style="font-size:12px;margin-left:10px" class="glyphicon glyphicon-chevron-right"></span>
+                  <p class="mt-5 home-hero-cta">
+                    Node Operator Waitlist
+                    <span style="font-size:12px;margin-left:10px" class="glyphicon glyphicon-chevron-right"></span>
                   </p>
                 </a>
             </div>
