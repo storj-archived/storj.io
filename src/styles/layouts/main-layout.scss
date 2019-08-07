@@ -1,0 +1,20 @@
+.prod-stage-container {
+  margin-top: $base-height * 8;
+  margin-bottom: $base-height * 8;
+}
+
+.prod-stage {
+  margin-bottom: $base-height * 8;
+  padding: 0 $base-height;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  color: $white;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 11px;
+  line-height: $base-height * 4;
+  text-align: center;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,28 @@
+.banner {
+  width: 100%;
+  height: $base-height * 4;
+  background: $aurora-blue;
+  
+  p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 10px;
+    line-height: $base-height * 4;  
+    color: $white;
+  }
+
+  .banner-right {
+    display: inline-block;
+    text-align: right;
+
+    a {
+      color: $white;
+    }
+
+    .tardigrade {
+      width: 17px;
+      height: 10px;
+      margin: 0 4px 0 8px;
+    }
+  }
+}

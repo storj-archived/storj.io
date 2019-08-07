@@ -1,0 +1,29 @@
+// --- Style Guide Color Pallete ----------------------------------------------------- //
+$aurora-blue:       #2582ff;
+$aurora-blue-lt:    #6eacff;
+$aurora-blue-md:    #7048e8;
+$aurora-blue-dk:    #133e9c;
+
+
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+
+$white:    #c5cbdb !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$primary: $aurora-blue-dk;
+
+$grid-gutter-width:           32px;

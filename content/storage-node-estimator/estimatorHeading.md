@@ -1,7 +1,0 @@
----
-Title : 'Storage Node Earnings Estimator'
----
-<p>We’ve published this interactive estimator to help you see potential earnings for V3 storage nodes. Run the numbers. If it works for you, <a href="/sign-up-farmer">join the network</a> and stick with us for a long time. We may not change how data is stored in the cloud overnight, but with your help we’ll get there, and sooner than you think!</p>
-
-<p>Use the sliding bars below to describe your network and how much storage space you can share. Based on those numbers, you’ll see an estimate of what you could potentially earn in your first year on the V3 network. If you don’t know your upload and download speeds, click ‘Speed Test’ to find out. Click the ‘Potential First Year Revenue’ to see the detailed monthly breakdown. </p>
-<p>Keep in mind, this is only an estimate of possible earnings and not a guarantee of any kind. To understand all the factors involved in these calculations, <a href="https://storj.io/blog/2019/01/sharing-storage-space-for-fun-and-profit">see this deep dive on storage node payouts</a> . When you become a storage node operator, any payout will be made based on actual data stored and bandwidth used, pursuant to the <a href="/storj-share-terms/">Storage Sharing Terms and Conditions</a>.</p>

@@ -1,0 +1,13 @@
+// --- 8-pt Grid Variables ----------------------------------------------------------- //
+$base-font-size: 1rem;
+$base-height: 0.5rem;
+$base-line-height: 1.5rem;
+
+// --- Transition mixin -------------------------------------------------------------- //
+@mixin transition($args...) {
+  -webkit-transition: $args;
+     -moz-transition: $args;
+      -ms-transition: $args;
+       -o-transition: $args;
+          transition: $args;
+}

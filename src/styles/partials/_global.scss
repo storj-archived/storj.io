@@ -1,0 +1,42 @@
+//--- Root Settings -------------------------------------------------------------------//
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  font-size: 16px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: $base-line-height;
+  letter-spacing: $base-line-height * 0.05;
+  margin: 0 auto;
+  background-color: $white;
+  color: $black;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  @include transition(all 0.15s ease-in-out);
+  color: $aurora-blue-dk;
+  text-decoration: none;
+
+  &:hover, &:focus {
+    color: $aurora-blue-md;
+    text-decoration: none;
+  }
+}

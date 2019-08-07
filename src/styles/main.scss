@@ -1,0 +1,20 @@
+// --- Path for Montserrat Font (Old Style) ------------------------------------------ //
+$static-path: '../../static/';
+
+// --- Import Custom Bootstrap Styles ------------------------------------------------ //
+@import "custom-bootstrap/variables";
+
+// --- Import Bootstrap Components --------------------------------------------------- //
+@import "~bootstrap/scss/bootstrap.scss";
+
+// --- Import Main Styles (modules & partials) --------------------------------------- //
+@import "modules/all";
+@import "partials/base";
+
+// --- Component Styles -------------------------------------------------------------- //
+@import "./components/banner.scss";
+@import "./components/footer.scss";
+@import "./components/header.scss";
+
+// --- Layout Styles ----------------------------------------------------------------- //
+@import "./layouts/main-layout.scss";

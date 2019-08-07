@@ -1,0 +1,42 @@
+// === Import Poppins & Roboto from Google Fonts ===================================== //
+@import url('https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto:300,300i&display=swap');
+
+/* montserrat-300 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: url($static-path + 'fonts/montserrat/montserrat-v10-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Light'), local('Montserrat-Light'),
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-300.woff') format('woff'), /* Modern Browsers */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url($static-path + 'fonts/montserrat/montserrat-v10-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat Regular'), local('Montserrat-Regular'),
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* montserrat-800 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: url($static-path + 'fonts/montserrat/montserrat-v10-latin-800.eot'); /* IE9 Compat Modes */
+  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-800.woff') format('woff'), /* Modern Browsers */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+       url($static-path + 'fonts/montserrat/montserrat-v10-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
+}

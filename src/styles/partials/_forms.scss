@@ -1,0 +1,58 @@
+input, select, textarea {
+	display: block;
+	background: #fbfbfb;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	color: #2683FF;
+	padding: 12px 18px 10px;
+	margin: 25px auto;
+	width: 100%;
+	max-width: 320px;
+  font-size: 16px;
+  @include transition(all 0.15s ease-in-out);
+
+  &:focus {
+    outline: 0;
+    border-color: #2D86fb;
+  }
+}
+
+#publicKeys input {
+	margin-top: 20px;
+}
+
+select {
+	height: 46px;
+	text-indent: 10px;
+	color: #444;
+}
+
+.email {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+::-webkit-input-placeholder {
+    color: #444;
+}
+:focus::-webkit-input-placeholder {
+    color: #BAD7FE;
+}
+:-moz-placeholder {
+    color: #444;
+}
+:focus:-moz-placeholder {
+    color: #BAD7FE;
+}
+::-moz-placeholder {
+    color: #444;
+}
+:focus::-moz-placeholder {
+    color: #BAD7FE;
+}
+:-ms-input-placeholder {
+    color: #444;
+}
+:focus:-ms-input-placeholder {
+    color: #BAD7FE;
+}
