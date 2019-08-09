@@ -1,0 +1,58 @@
+.comm-hero {
+  margin-top: $base-height * 8;
+}
+
+.comm-header {
+  margin-bottom: $base-height * 4;
+  font-size: 28px;
+  line-height: $base-height * 5;
+  color: $white;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+  }
+}
+
+.comm-container {
+  padding: 0;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+  }
+}
+
+.comm-text {
+  margin-bottom: $base-height * 6;
+  color: $white;
+  text-align: center;
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+  }
+}
+
+.btn-forum {
+  padding: 0 $base-height * 7;
+  background-color: $aurora-blue;
+  color: $white;
+  font-family: 'Poppins';
+  font-weight: 700;
+  line-height: $base-height * 6;
+
+  &:hover {
+    background-color: $aurora-blue-md;
+    color: $white;
+  }
+}
+
+.community-city {
+  @include media-breakpoint-up(lg) {
+    margin-top: -420px;
+    height: 538px;
+    width: 1086px;
+    background: url($static-path + "img/hero-backgrounds/storj-ill-city-hero.png") center top no-repeat;
+    background-size: cover;
+  }
+}

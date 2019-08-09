@@ -21,19 +21,19 @@ export default () => (
       </a>
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <a href="/" className="nav-link link-style main-nav">Docs</a>
+          <a href="https://documentation.storj.io/" className="nav-link link-style main-nav">Docs</a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link link-style main-nav">Community</a>
+          <a href="/community" className="nav-link link-style main-nav">Community</a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link link-style main-nav">Partners</a>
+          <a href="/partners" className="nav-link link-style main-nav">Partners</a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link link-style main-nav">Support</a>
+          <a href="https://storjlabs.atlassian.net/servicedesk/customer/portals" className="nav-link link-style main-nav">Support</a>
         </li>
         <li className="nav-item">
-          <a href="/" className="nav-link link-style main-nav">Blog</a>
+          <a href="/blog" className="nav-link link-style main-nav">Blog</a>
         </li>
         <a href="/sign-up-node-operator/">
           <button className="btn btn-primary nav-join">Join the Waitlist</button>

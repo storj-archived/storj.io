@@ -57,4 +57,14 @@ p {
   line-height: $base-height * 5;
   color: $white;
   text-align: center;
+
+  &.left-align {
+    margin-bottom: $base-height * 4;
+    text-align: left;
+  }
+}
+
+.hero-text {
+  margin-bottom: $base-height * 6;
+  color: $white;
 }

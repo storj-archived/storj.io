@@ -1,16 +1,16 @@
 import React from 'react'
-import HomeLayout from '../layouts/home'
+import BlogLayout from '../layouts/blog'
 
 import '../styles/main.scss'
 
 export default ({data}) => (
-  <HomeLayout>
+  <BlogLayout>
     <div className="container">
       <h3>
         {data.site.siteMetadata.title}
       </h3>
     </div>
-  </HomeLayout>
+  </BlogLayout>
 )
 
 export const query = graphql `query {

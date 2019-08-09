@@ -21,6 +21,16 @@
     background-size: cover;  
   }
 
+  &.community-bg {
+    background: url($static-path + "img/hero-backgrounds/combkgrnd.png");
+    background-size: cover;
+  }
+
+  &.blog-header {
+    min-height: 0px;
+    background: $white;
+  }
+
   .navbar {
     padding: 0;
 
@@ -33,10 +43,23 @@
 
       &.main-nav {
         color: $white;
+        
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
-      &:hover {
-        text-decoration: underline;
+      &.blog-nav {
+        color: $gray-4;
+
+        &.active {
+          color: $aurora-blue;
+        }
+
+        &:hover {
+          color: $aurora-blue;
+          text-decoration: underline;
+        }
       }
     }
 

@@ -4,7 +4,6 @@ import Banner from '../components/banner'
 import MainNav from '../components/main-navbar'
 import Footer from '../components/footer'
 
-
 export default ({ children }) => (
   <div>
     <Banner />
