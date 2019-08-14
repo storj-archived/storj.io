@@ -1,24 +1,36 @@
 .header {
-	min-height: 600px;
-	background: #020307;
-	background: -moz-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, #020307), color-stop(100%, #144fbc));
-	background: -webkit-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: -o-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: -ms-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: linear-gradient(to bottom, #020307 0%, #144fbc 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020307', endColorstr='#144fbc', GradientType=0 );
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
-	user-select: none;
-	position: relative;
+  min-height: 600px;
+  background: #020307;
+  background: -moz-linear-gradient(top, #020307 0%, #144fbc 100%);
+  background: -webkit-gradient(
+    left top,
+    left bottom,
+    color-stop(0%, #020307),
+    color-stop(100%, #144fbc)
+  );
+  background: -webkit-linear-gradient(top, #020307 0%, #144fbc 100%);
+  background: -o-linear-gradient(top, #020307 0%, #144fbc 100%);
+  background: -ms-linear-gradient(top, #020307 0%, #144fbc 100%);
+  background: linear-gradient(to bottom, #020307 0%, #144fbc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr='#020307',
+      endColorstr='#144fbc',
+      GradientType=0
+    );
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  position: relative;
   overflow: hidden;
-  
-  &.home-bg, .home-bg {
-    background: url($static-path + "img/hero-backgrounds/Theez-Starz.svg"),linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);  
-    background-size: cover;  
+
+  &.home-bg,
+  .home-bg {
+    background: url($static-path + "img/hero-backgrounds/Theez-Starz.svg"),
+      linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)),
+      linear-gradient(301.19deg, #133e9c 0%, #588cff 100%);
+    background-size: cover;
   }
 
   &.community-bg {
@@ -41,25 +53,49 @@
       padding: $base-height * 5 $base-height * 2;
       margin-right: $base-height * 4;
 
-      &.main-nav {
+      &.dark-nav {
         color: $white;
-        
+
         &:hover {
           text-decoration: underline;
         }
       }
 
-      &.blog-nav {
-        color: $gray-4;
+      &.light-nav {
+        color: $gray-3;
 
         &.active {
-          color: $aurora-blue;
+          font-weight: 700;
+          color: $aurora-blue-dk;
         }
 
         &:hover {
-          color: $aurora-blue;
+          color: $aurora-blue-dk;
           text-decoration: underline;
         }
+      }
+    }
+
+    .btn-header-dk {
+      border: 2px solid $white;
+      background-color: transparent;
+      border-radius: 4px;
+      color: $white;
+
+      &:hover {
+        background-color: $blue-1;
+      }
+    }
+
+    .btn-header-light {
+      border: 2px solid $aurora-blue-dk;
+      background-color: transparent;
+      border-radius: 4px;
+      color: $aurora-blue-dk;
+
+      &:hover {
+        background-color: $aurora-blue-dk;
+        color: $white;
       }
     }
 
@@ -67,19 +103,11 @@
       margin-top: 30px;
       padding: 10px;
       width: 180px;
-      border: 2px solid $white;
-      border-radius: 4px;
-      background-color: transparent;
-      color: $white;
       font-family: 'Poppins';
       font-weight: 500;
       font-size: 14px;
       line-height: 20px;
       text-align: center;
-
-      &:hover {
-        background-color: $blue-1;
-      }
     }
   }
 }
