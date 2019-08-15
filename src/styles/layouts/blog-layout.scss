@@ -61,6 +61,24 @@
       line-height: $base-height * 5;
     }
 
+    .link-text {
+      font-family: 'Roboto';
+      font-weight: 300;
+      font-size: 14px;
+      color: $gray-4;
+      margin-right: $base-height;
+
+      .icon-left {
+        margin-right: $base-height;
+        vertical-align: text-top;
+      }
+
+      .icon-right {
+        margin: 0 $base-height 0 $base-line-height;
+        vertical-align: text-bottom;
+      }
+    }
+
     input {
       margin-top: 0;
       color: $gray-3;
