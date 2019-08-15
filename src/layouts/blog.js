@@ -3,6 +3,7 @@ import React, { Fragment } from 'react'
 import Banner from '../components/banner'
 import Navbar from '../components/navbar-light'
 import BlogHero from '../components/blog/blog-hero'
+import PostNav from '../components/blog/post-nav'
 import Footer from '../components/footer'
 
 export default () => (
@@ -13,10 +14,10 @@ export default () => (
       <div className='container'>
         <BlogHero />
       </div>
-      <div className='container'>
-        <h1 className='blog-title'>Storj Blog</h1>
-      </div>
     </header>
+    <section id='blog-list' className='container-fluid'>
+      <PostNav />
+    </section>
     <Footer />
   </Fragment>
 )

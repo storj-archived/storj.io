@@ -18,7 +18,7 @@ footer {
 
     .footer-list-item {
       line-height: $base-height * 4;
-  
+
       a.footer-link {
         display: inline-block;
         font-family: 'Roboto';
@@ -26,11 +26,11 @@ footer {
         font-size: 13px;
         color: $white;
         opacity: 0.6;
-    
+
         &:hover {
           opacity: 1.0;
         }
-  
+
         .social-icon {
           height: $base-height * 3;
           width: $base-height * 3;
@@ -41,6 +41,10 @@ footer {
         }
       }
     }
+  }
+
+  input {
+    border: 0;
   }
 
   .footer-em-input {
