@@ -4369,6 +4369,10 @@ text-align: center;
 color: #FFFFFF;
 }
 
+.mstone-bottom-wrapper{
+  margin-top: 60px;
+}
+
 .mstone-bottom{
   font-family: 'Poppins';
   font-style: normal;
@@ -4377,7 +4381,7 @@ color: #FFFFFF;
   line-height: 39px;
   text-align: center;
   color: #FFFFFF;
-  }
+}
 
 .stay-in-touch{
 }
