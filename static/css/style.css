@@ -3694,47 +3694,7 @@ color: #FFFFFF;
   text-align: center;
   letter-spacing: 0.8px;
   text-transform: uppercase;
-  width:410px;
-}
-
-@media only screen and (max-width: 320px) {
-  .prod-stage{
-    padding: 0 6px;
-    border: 1px solid rgba(255,255,255,0.2);
-    background-color: rgba(255,255,255,0.2);
-    border-radius:4px;
-    color:white;
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    width:360px;
-  }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 767px){
-  .prod-stage{
-    padding: 0 6px;
-    border: 1px solid rgba(255,255,255,0.2);
-    background-color: rgba(255,255,255,0.2);
-    border-radius:4px;
-    color:white;
-    text-align: center;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 11px;
-    line-height: 28px;
-    text-align: center;
-    letter-spacing: 0.8px;
-    text-transform: uppercase;
-    width:360px;
-  }
+  width:150px;
 }
 
 .m-15{
@@ -4407,6 +4367,23 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 color: #FFFFFF;
+}
+
+.mstone-bottom-wrapper{
+  margin-top: 60px;
+}
+
+.mstone-bottom{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 39px;
+  text-align: center;
+}
+
+.mstone-bottom a {
+  color: #FFFFFF;
 }
 
 .stay-in-touch{
