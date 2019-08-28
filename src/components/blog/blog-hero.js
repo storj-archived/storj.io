@@ -1,11 +1,11 @@
 import React from 'react'
 
-import BeaconAlpha from '../../../static/img/blog/storj-blog-beacon-alpha.jpg'
+import HeroImg from '../../../static/img/blog/storj-blog-beacon-alpha.jpg'
 
 export default () => (
   <div className='row blog-hero'>
     <div className='col-xs-12 col-sm-6'>
-      <img src={BeaconAlpha} className='hero-img' alt='Announcing Beacon Alpha' />
+      <img src={HeroImg} className='hero-img' alt='Announcing Beacon Alpha' />
     </div>
     <div className='col-xs-12 col-sm-5 offset-sm-1 px-0'>
       <h1 className='hero-title'>Latest Blog Title</h1>

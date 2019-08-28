@@ -34,8 +34,10 @@
   }
 
   &.community-bg {
+    max-height: 600px;
     background: url($static-path + "img/hero-backgrounds/combkgrnd.png");
     background-size: cover;
+    overflow: hidden;
   }
 
   &.blog-header {
@@ -76,7 +78,7 @@
       }
     }
 
-    .btn-header-dk {
+    .btn-header-dark {
       border: 2px solid $white;
       background-color: transparent;
       border-radius: 4px;

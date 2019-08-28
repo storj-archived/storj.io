@@ -3,7 +3,7 @@ import { Search, ChevronDown, User, List } from 'react-feather'
 
 const PostNav = () => {
   return (
-    <div className='container'>
+    <div className='container mb-4' id='post-navbar'>
       <nav className='navbar navbar-expand-lg'>
         <h3 className='navbar-brand'>More Posts</h3>
         <ul className='navbar-nav ml-auto'>

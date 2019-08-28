@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import BlogLayout from '../layouts/blog'
 
 import '../styles/main.scss'

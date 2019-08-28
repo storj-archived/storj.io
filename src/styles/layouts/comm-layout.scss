@@ -50,9 +50,10 @@
 .community-city {
   @include media-breakpoint-up(lg) {
     margin-top: -420px;
-    height: 538px;
+    height: 600px;
     width: 1086px;
-    background: url($static-path + "img/hero-backgrounds/storj-ill-city-hero.png") center top no-repeat;
+    background: url($static-path + "img/hero-backgrounds/storj-ill-city-hero.png") center top
+      no-repeat;
     background-size: cover;
   }
 }

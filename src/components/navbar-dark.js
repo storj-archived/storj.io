@@ -50,7 +50,7 @@ export default () => (
             </a>
           </li>
           <a href='/sign-up-node-operator/'>
-            <button className='btn btn-header-dk nav-join'>Join the Waitlist</button>
+            <button className='btn btn-header-dark nav-join'>Join the Waitlist</button>
           </a>
         </ul>
       </div>

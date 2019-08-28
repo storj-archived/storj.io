@@ -4,6 +4,7 @@ import Banner from '../components/banner'
 import Navbar from '../components/navbar-light'
 import BlogHero from '../components/blog/blog-hero'
 import PostNav from '../components/blog/post-nav'
+import BlogGrid from '../components/blog/blog-grid'
 import Footer from '../components/footer'
 
 export default () => (
@@ -17,6 +18,7 @@ export default () => (
     </header>
     <section id='blog-list' className='container-fluid'>
       <PostNav />
+      <BlogGrid />
     </section>
     <Footer />
   </Fragment>

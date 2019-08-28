@@ -65,3 +65,32 @@ textarea {
     border-color: #2d86fb;
   }
 }
+
+section {
+  padding: $base-height * 13 0;
+}
+
+// === Custom Button Styles ========================================================== //
+.btn-custom {
+  padding: 10px $base-height * 3;
+  font-family: $header-font;
+  font-weight: 700;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover {
+    background-color: $aurora-blue-md;
+    border-color: $aurora-blue-md;
+    color: $white;
+  }
+}
+
+.btn-primary-alt {
+  background-color: $white;
+  color: $aurora-blue-dk;
+
+  &:hover {
+    background-color: $aurora-blue-md;
+    color: $white;
+  }
+}

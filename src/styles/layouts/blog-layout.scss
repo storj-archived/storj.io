@@ -86,11 +86,6 @@
       &::placeholder {
         color: $gray-3;
       }
-
-      &:focus {
-        border-color: $aurora-blue;
-        box-shadow: none;
-      }
     }
 
     .form-conrol,
@@ -114,6 +109,14 @@
       #search-blog {
         color: $gray-3;
       }
+    }
+  }
+
+  .blog-card {
+    border-radius: 10px;
+
+    .card-img-top {
+      border-radius: 10px 10px 0 0;
     }
   }
 }

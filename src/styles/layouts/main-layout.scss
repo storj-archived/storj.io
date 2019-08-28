@@ -5,7 +5,7 @@
 
 .prod-stage {
   margin-bottom: $base-height * 8;
-  padding: 0 $base-height;
+  padding: 0 $base-height * 3;
   background-color: rgba(255, 255, 255, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
@@ -17,4 +17,109 @@
   text-align: center;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+}
+
+.hero-action {
+  text-align: center;
+}
+
+.home-cta-link {
+  font-family: $header-font;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: $base-height * 5;
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+}
+
+.hiw-bg {
+  background-color: $bg-blue-dk;
+
+  .hiw-img {
+    width: 60px;
+    height: 75px;
+    text-align: center;
+  }
+}
+
+.reasons-bg {
+  background-color: $white;
+
+  .reasons-icon {
+    height: 40px;
+  }
+
+  .reasons-action {
+    margin: $base-height * 13 0;
+    text-align: center;
+  }
+
+  .waitlist-cta-card {
+    margin: $base-height * 3 0;
+    padding: $base-height * 6;
+    border: 1px solid $gray-3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 54px rgba(4, 24, 69, 0.3);
+
+    .waitlist-img {
+      height: 152px;
+      width: 87px;
+    }
+
+    .waitlist-header {
+      margin-bottom: $base-height * 2;
+      font-family: $header-font;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    .waitlist-text {
+      margin-bottom: $base-height * 3;
+      font-family: $text-font;
+      font-size: 16px;
+    }
+  }
+}
+
+.sno-bg {
+  background-color: $bg-blue-dk;
+  max-height: 576px;
+  overflow: hidden;
+
+  .sno-img {
+    margin-top: -520px;
+    overflow: hidden;
+    width: 406px;
+    height: 877px;
+  }
+}
+
+.opensource-bg {
+  background-color: $white;
+
+  .opensource-img {
+    width: 219px;
+    height: 333px;
+  }
+}
+
+.governance-bg {
+  background-color: $gray-1;
+
+  .governance-img {
+    width: 379px;
+    height: 366px;
+  }
+}
+
+.timeline-bg {
+  background-color: $bg-blue-dk;
+
+  .timeline-action {
+    margin: $base-height * 13 0 $base-height * 5 0;
+    text-align: center;
+  }
 }
