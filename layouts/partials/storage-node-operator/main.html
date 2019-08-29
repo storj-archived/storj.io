@@ -1,0 +1,29 @@
+<div class="container">
+    <a  name="learnMore-sno"></a>
+    <div class="spacer35"></div>
+    <div class="row">
+      <div class="col text-center mt-5">
+        <h1 class="helpDevs-header">Start Sharing. Start Earning.</h1>
+      </div>
+    </div>
+    <div class="spacer100"></div>
+    <div class="row text-center">
+    {{ range where .Site.Pages ".Params.class" "snoBox" }}
+      <div class="col-md-4 col-xs-12">
+          <img src="{{.Params.img}}" width="70" height="70">
+          <div class="spacer20"></div>
+          <p class="sno-heading">{{.Params.heading}}</p>
+          <p class="sno-desc">{{.Description}}</p>
+      </div>
+    {{end}}
+    </div>
+    <div class="spacer50"></div>
+    <div class="row text-center">
+      <a href="/sign-up-node-operator/">
+        <p class="sno-cta-link">Sign Up Now<span class="glyphicon glyphicon-chevron-right"></span></p>
+      </a>
+    </div>
+  <div class="spacer100"></div>
+  </div>
+</div>
+

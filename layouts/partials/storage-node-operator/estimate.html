@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row text-center">
+        <div class="spacer100"></div>
+        <p class="sno-heading">Estimate Your Earnings</h1>
+        <div class="spacer30"></div>
+        <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+            <p class="sno-desc">Demand for our network from Tardigrade is constantly increasing, with a waitlist of over 12,000 developers, dev-ops, and senior leaders at large SaaS companies. We want to grow even larger, but we need your help. Remember, as demand grows, so will your potential profits.</p>
+        </div>
+        <div class="spacer100"></div>
+    </div>
+    <div class="spacer30"></div>
+    <div class="earning-table row">
+        <div class="earning-table-row col-xs-12">
+            <div class="col-lg-3 col-lg-offset-6 col-md-offset-3 col-xs-6 col-xs-offset-5 earning-table-header-container">
+                <div class="earning-table-header text-right">Per Terabyte Earnings</div>
+            </div>
+        </div>
+        {{ range where .Site.Pages ".Params.class" "estimate" }}
+        <div class="earning-table-row col-xs-12">
+            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                <span class="earning-table-head">{{.Params.heading}}</span>
+                <span class="earning-table-desc">{{.Description}}</span>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+                <hr class="earning-table-divider">
+            </div>
+        </div>
+        {{end}}
+    </div>
+    <div class="spacer100"></div>
+</div>

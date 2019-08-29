@@ -1,0 +1,40 @@
+<div class="container-fluid  p-5 hiw-bg">
+  <div class="container">
+      <div class="row">
+          <div class="col text-center">
+          {{ with .Site.GetPage "howitworks"}}
+              <p class="mt-5 font-weight-bold hiw-heading">
+                  {{.Params.heading}}
+              </p>
+          {{end}}
+          </div>
+      </div>
+      <div class="row text-center" style="padding:80px;color: white;">
+        <div class="row progressbar-container visible-md visible-lg">
+            <ul class="progressbar">
+              {{ range where .Site.Pages ".Params.class" "howItWorks" }}
+                <li></li>
+              {{end}}
+            </ul>
+        </div>
+        {{ range where .Site.Pages ".Params.class" "howItWorks" }}
+        <div class="col-md-4 col-xs-12 sno-hiw-content">
+            <div class="spacer20"></div>
+            <div class="visible-sm visible-xs">
+                <img src={{.Params.img}}/>
+            </div>
+            <p class="sno-heading__white">{{.Params.heading}}</p>
+            <p class="sno-desc__white">{{.Description}}</p>
+        </div>
+        {{end}}
+      </div>
+      <div class="row text-center">
+          <a href="/sign-up-node-operator/">
+            <p class="sno-cta-link__white">Become a Node Operator<span class="glyphicon glyphicon-chevron-right"></span></p>
+          </a>
+      </div>
+  </div>
+  <div class="spacer45"></div>
+  <div class="spacer10"></div>
+  </div>
+</div>

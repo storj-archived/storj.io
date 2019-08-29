@@ -1,6 +1,6 @@
 ---
 link : "https://storj.io/blog"
-weight : 5
+weight : 6
 title : "Blog"
 class : "navitem"
 ---
