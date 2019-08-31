@@ -14,7 +14,7 @@ import '../styles/main.scss'
 export default () => (
   <Fragment>
     <Banner />
-    <section id='hero-header' className='header home-bg pt-0'>
+    <section id='home-header' className='header home-bg pt-0'>
       <div className='home-bg' />
       <Navbar />
       <div className='container'>
@@ -26,7 +26,7 @@ export default () => (
             </h1>
           </div>
           <div className='col-xs-12 col-sm-10 offset-sm-1 d-flex justify-content-center'>
-            <p className='hero-text'>
+            <p className='hero-text white-text'>
               We’re excited to announce Tardigrade decentralized cloud storage. Want to learn more?
               Head to the Tardigrade site. Want to set up a storage node? Join our waitlist.
             </p>
@@ -50,7 +50,7 @@ export default () => (
           <h1 className='hero-header white-text'>How it Works</h1>
         </div>
         <div className='col-xs-12 col-sm-8 offset-sm-2 d-flex justify-content-center'>
-          <p className='hero-text'>
+          <p className='hero-text white-text'>
             With Tardigrade cloud storage, your files are encrypted and split into pieces
             client-side before being distributed across our network of high-performance storage
             nodes.

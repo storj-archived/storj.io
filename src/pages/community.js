@@ -1,14 +1,17 @@
 import React, { Fragment } from 'react'
+import { ChevronRight } from 'react-feather'
+
 import Banner from '../components/banner'
 import Navbar from '../components/navbar-dark'
 import Footer from '../components/footer'
+import EventList from '../components/events-list'
 
 import '../styles/main.scss'
 
 export default () => (
   <Fragment>
     <Banner />
-    <section className='header community-bg pt-0'>
+    <section id='community-header' className='header community-bg pt-0'>
       <Navbar />
       <div className='container'>
         <div className='row comm-hero'>
@@ -30,6 +33,79 @@ export default () => (
             <div className='community-city' />
           </div>
         </div>
+      </div>
+    </section>
+    <section id='community-support' className='container-fluid support-bg'>
+      <div className='container'>
+        <div className='row justify-content-around'>
+          <div className='col-xs-12 col-md-5'>
+            <div className='row d-flex justify-content-center'>
+              <img
+                src={'img/community-support/storj-ico-thought-bubble-question.svg'}
+                alt='We are here to Support You'
+                className='community-support-img col-12'
+              />
+              <h1 className='support-header'>We’re here to Support You</h1>
+              <p className='small center-align mb-5'>
+                Sometimes we all need a little help. If you're looking for online tutorials, user
+                guides, videos, technical documentation, or anything else to help you get your
+                storage node up and running, the community is the place to be.
+              </p>
+              <a
+                href='https://storjlabs.atlassian.net/servicedesk/customer/portals'
+                className='cta-link center-align'
+              >
+                Get Support <ChevronRight strokeWidth={3} />
+              </a>
+            </div>
+          </div>
+          <div className='col-xs-12 col-md-5'>
+            <div className='row d-flex justify-content-center'>
+              <img
+                src={'img/community-support/storj-ico-chat-bubbles.svg'}
+                alt='Share, Discuss, Innovate'
+                className='community-support-img col-12'
+              />
+              <h1 className='support-header'>Share, Discuss, Innovate</h1>
+              <p className='small center-align mb-5'>
+                We’re open source and always will be. Transparency is a priority, and our community
+                is the perfect place for people to share or collaborate on open source projects. We
+                also showcase various projects and encourage networking.
+              </p>
+              <a href='https://forum.storj.io/' className='cta-link'>
+                Join the Community <ChevronRight strokeWidth={3} />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id='calculator' className='calculator-bg'>
+      <div className='row justify-content-center'>
+        <img
+          src={'img/community-support/storj-ico-calc.svg'}
+          alt='Savings Calculator'
+          className='calculator-img col-12'
+        />
+        <div className='col-12'>
+          <h1 className='support-header d-block'>See how much you can earn with Storj.</h1>
+        </div>
+        <a href='/storage-node-estimator/' className='cta-link'>
+          Check Out Our Node Calculator <ChevronRight strokeWidth={3} />
+        </a>
+      </div>
+    </section>
+    <section id='events' className='events-bg'>
+      <div className='container'>
+        <div className='row justify-content-center'>
+          <div className='col-12'>
+            <h1 className='support-header'>Upcoming Events</h1>
+            <p className='med center-align'>
+              Interested in learning more about Storj? Come chat with us at these upcoming events.
+            </p>
+          </div>
+        </div>
+        <EventList />
       </div>
     </section>
     <Footer />

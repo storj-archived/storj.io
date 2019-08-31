@@ -49,6 +49,7 @@ p {
 
   &.small {
     font-size: 14px;
+    font-weight: 300;
   }
 }
 
@@ -91,7 +92,6 @@ p {
   font-size: 18px;
   font-weight: 300;
   text-align: center;
-  color: $white;
 }
 
 .hiw-caption {
@@ -123,4 +123,13 @@ p {
   font-family: $text-font;
   font-size: 14px;
   font-weight: 300;
+}
+
+.support-header {
+  margin: $base-height 0;
+  font-family: $header-font;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: $base-height * 5;
+  text-align: center;
 }
