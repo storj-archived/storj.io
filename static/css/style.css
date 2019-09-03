@@ -159,6 +159,7 @@ img {
 .spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer140 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 
 .mb0 { margin-bottom: 0 !important; }
@@ -327,7 +328,7 @@ Navigation
 
 .navbar-brand {
 	padding: 0;
-	margin: 25px;
+	margin-top: 25px;
 }
 .link-style{
   display:inline-block;
@@ -2792,8 +2793,8 @@ Media Queries
     }
   	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
       	padding: 40px 8px;
-      	font-size: 14px;
-  	}
+      	font-size: 12px !important;
+    }
   	.btn-menu {
   		padding-left: 15px;
   		padding-right: 15px;
@@ -2968,10 +2969,10 @@ Media Queries
     	width: 100px;
 	}
 	.home .navbar-brand {
-		margin: 25px 0;
+		margin-top: 25px 0;
 	}
 	.navbar-page .navbar-brand {
-		margin: 15px;
+		margin-top: 15px;
 	}
 	.navbar-page .navbar-toggle {
 		margin-top: 22px;
@@ -3595,6 +3596,10 @@ color: #FFFFFF;
     color: #FFFFFF;
     margin-right:30px;
   }
+
+  .navbar-brand {
+    margin-left: -30px !important;
+  }
 }
 @media only screen and (min-width: 1201px) {
   .navitem-style {
@@ -3894,8 +3899,6 @@ font-size: 28px;
 line-height: 39px;
 text-align: center;
 color: #FFFFFF;
-/* font-size:32px; */
-margin-top:90px;
 }
 
 .hiw-bg{
@@ -4845,4 +4848,216 @@ color: #FFFFFF;
   position:relative;
   z-index: 2;
   padding-left:25px;
+}
+
+.line{
+  border-bottom: 1px solid white;
+}
+
+.progressbar-container {
+  position: relative;
+  z-index: 0;
+}
+
+.progressbar {
+  counter-reset: step;
+}
+.progressbar li {
+  list-style-type: none;
+  width: 33%;
+  float: left;
+  font-size: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: medium;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2582FF;
+}
+.progressbar li:before {
+  width: 50px;
+  height: 50px;
+  content: counter(step);
+  counter-increment: step;
+  line-height: 45px;
+  border: 2px solid #2582FF;
+  display: block;
+  text-align: center;
+  margin: 0 10px 0 120px;
+  border-radius: 50%;
+  background-color: #041845;
+}
+.progressbar li:after {
+  width: 100%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: #2582FF;
+  top: 25px;
+  left: -50%;
+  z-index: -1;
+}
+.progressbar li:first-child:after {
+  content: none;
+}
+@media only screen and (max-width: 991px) {
+  .how-it-works-steps {
+    padding: 20px;
+    color: white;
+  }
+  .progressbar li:before {
+    margin: 0 10px 0 50px;
+  }
+  .progressbar li:after{
+    left: -48%;
+  }
+  .sno-heading__white {
+    margin-top: 50px;
+  }
+}
+
+.sno-heading__white {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+}
+
+.sno-desc__white {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sno-cta-link__white {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+}
+
+.earning-table-header{
+  margin-right: 10px;
+}
+
+.earning-table-header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: -15px;
+  margin-bottom: 27px;
+  color: #93A1AF;
+}
+
+.earning-table-head {
+  float: left;
+  margin-left: -15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.earning-table-desc {
+  float: right;
+  margin-right: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.earning-table-divider {
+  width:100%;
+  margin-left:-15px;
+  margin-top: 20px;
+  border : 1px solid rgba(147, 161, 175, 0.6);
+}
+
+.sno-bg {
+  margin:0px;
+  background: url("../img/combkgrnd.png") center top no-repeat;
+  background-size: cover;
+}
+
+.sno-hero-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.sno-hero-sub-heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.sno-heading{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.sno-desc{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+.sno-cta-link{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 18px;
+  color: #133E9C;
+}
+
+.start-sharing-header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+}
+
+.sno-start-sharing-heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 38px;
+  color: black;
+}
+
+.how-it-works-steps {
+  padding: 80px;
+  color: white;
 }

@@ -1,6 +1,6 @@
 ---
 link : "https://documentation.storj.io/"
-weight : 1
+weight : 2
 title : "Docs"
 class : "navitem"
 ---
