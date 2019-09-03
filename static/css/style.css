@@ -2793,8 +2793,8 @@ Media Queries
     }
   	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
       	padding: 40px 8px;
-      	font-size: 14px;
-  	}
+      	font-size: 12px !important;
+    }
   	.btn-menu {
   		padding-left: 15px;
   		padding-right: 15px;

@@ -1,4 +1,4 @@
-<div class="container-fluid sno-bg visible-md visible-lg" style="overflow: hidden;padding:0px;margin:0px;max-height:780px;">
+<div class="container-fluid sno-bg visible-md visible-lg" style="overflow: hidden;padding:0px;margin:0px;max-height:880px;">
   <div class="container">
     <section style="padding:0px;margin:0px;">
     {{with .Site.GetPage "page" "SNOHeroNav"}}
@@ -7,7 +7,7 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <a href="/" class="navbar-brand">
-              <img src="/img/new-white-logo.svg" alt="Storj" class="logo">
+              <img src="/img/new-white-logo.svg" alt="Storj" class="logo img-responsive">
             </a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,9 +42,10 @@
           </div>
         </div>
       </div>
+      <div class="spacer50"></div>
       <div class="row text-center">
-        <div class="col-sm-12">
-          <img class="img-responsive" src="/img/storj-snoboard-cli.png" alt="storage-node-operator">
+        <div class="col-xs-10 col-xs-offset-1">
+          <img class="img-responsive" src="/img/storj-sno-cli-gui-alt2.png" alt="storage-node-operator">
         </div>
       </div>
     </div>
@@ -65,14 +66,14 @@
                 <span class="icon-bar"></span>
               </button>
               <a href="/" class="navbar-brand">
-                <img src="/img/new-white-logo.svg" alt="Storj" class="logo" style="margin-left:-15px;">
+                <img src="/img/new-white-logo.svg" alt="Storj" class="logo">
               </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="nav navbar-nav navbar-right">
                     {{range where .Site.Pages ".Params.class" "navitem"}}
-                    <li><a class="link-style" href="{{ .Params.link }}">{{ .Title }}</a><div class="visible-lg-inline-block" style="width:28px;display:inline-block"></div></li>
+                    <li><a class="link-style" href="{{ .Params.link }}">{{ .Title }}</a><div class="visible-lg-inline-block" style="width:20px;display:inline-block"></div></li>
                     {{end}}
                     <a href="/sign-up-node-operator/"><button class="btn btn-primary nav-join" style="background:transparent;">Join the Waitlist</button></a></li>
               </ul>
@@ -99,10 +100,10 @@
               </div>
             </div>
           </div>
-          <div class="spacer50"></div>
+          <div class="spacer30"></div>
           <div class="row text-center">
-            <div class="col-xs-12">
-              <img class="img-responsive" src="/img/storj-snoboard-cli.png" alt="storage-node-operator">
+            <div class="col-xs-10 col-xs-offset-1">
+              <img class="img-responsive" src="/img/storj-sno-cli-gui-alt2.png" alt="storage-node-operator">
             </div>
           </div>
         </div>
