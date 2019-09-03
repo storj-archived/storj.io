@@ -24,30 +24,29 @@ message containing the following:
 Special note should be taken if these messages ever cease being updated, or are removed from this page.
 
 The current message is here:
-
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 8/6/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 9/3/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Rise of far-right violence spurs calls to revise post-9/11 security priorities
-- - Trump's teleprompter words stand in stark contrast to his tweets
-- - 'No one can avoid capture forever': Millionaire accused of killing his wife caught after four years on the run
-- - Nobel laureate who transfigured American literature dies at 88
-- - India revoked Kashmir’s special status. Here’s what you need to know about the contested province
+- - Dorian begins turn toward Fla., Ga. and Carolinas after pounding Bahamas
+- - Battle over Brexit heats up as rebel legislators seek to delay it once more
+- - 34 feared dead as bodies are recovered after boat fire off Calif. coast
+- - A decade after a horrific beating, former West Virginia University student dies
+- - With millions under evacuation orders, residents wonder: How hard will Dorian hit?
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.3
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJdSZFGAAoJEPQrujgXjffwQf0H/3ynqUq6Hutwyr1iyQaAJrQc
-oS942CKjbZ6QOxOXNMi1Cr2/T088UQfDliUhfXYNOnAbucfUHjQsonsdY0to22gx
-i2ZB+afDCTsTxO42GFroREL5lPdN3Pni3bNfwogw+x6mgqr1BY47JcJSsUxcleFV
-J0FLuAE7yn9Q6FsFa7tFaPsriNv6IaD5aJq/DP4Ip5efYhYOLkQWSPC0qnAVfGvZ
-AQxZRzRboSaAyOP4k0rvInBbKYPXI+YBqHnAcAE3dUT6qbTIzT0y7T8oNPULTPPp
-XULH85jHce5VSU9Dg2+iXgBXI7cKjGrBbI364kwbmF6CXuMUkUNoy2dvk1dIeO4=
-=koHN
+wsBcBAABCgAGBQJdbnTHAAoJEPQrujgXjffwhXUH/1Vm3kKGbz/7t6VB/ozjRmu5
+bbULxhIMmitux0Dw6+3t9UnH8Q91EprfIcDIMUFx4QjYI2sn47avay9nSaLjKpsX
+d8V63m5zIT9Qq0dH0mBcUYY2oAHPQYFXYVB3jh4q25xqkLU3ZbMijnDryiXbonEu
+nb4WvCSPmK41kPaHg2/bCOVD+26B+WroiXkibwDARCn0gouDt4j13ZvCgx4+CBAm
+J8xQShE6Yfe5YB8ZFM2KD4Etc7JNRO0//Cq5qLzwR5Axot27OZr40oLygDf7MmzF
+p6LrWR0HTPPDfkPmeHvWHX7ALljDFhY5aGIo+JRvyl5WIKLGYrRx4KCpB0qh28c=
+=LiwK
 -----END PGP SIGNATURE-----
 
 This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
