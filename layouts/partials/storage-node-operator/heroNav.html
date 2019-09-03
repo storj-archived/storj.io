@@ -2,7 +2,7 @@
   <div class="container">
     <section style="padding:0px;margin:0px;">
     {{with .Site.GetPage "page" "SNOHeroNav"}}
-      <nav class="navbar navbar-default menu ">
+      <nav class="navbar navbar-default menu">
         <div class="container" style="padding-left:0px;padding-right:30px;">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -25,12 +25,12 @@
   
     <div class="container no-spacing">
       <div class="row text-center">
-        <div class="spacer45"></div>
+        <div class="spacer100"></div>
         <div class="col-sm-12 txt-white">
           <p class="sno-hero-heading">{{.Params.heading}}</p>
           <div class="col-sm-12 no-spacing txt-white">
-            <p class="sno-hero-sub-heading">{{.Content}}</p>
-            <div class="spacer15"></div>
+            <p class="sno-hero-sub-heading">{{.Params.subHeading}}</p>
+            <div class="spacer45"></div>
             <div class="col-sm-12">
               <a href="#learnMore-sno" style="text-decoration: none">
                 <p class="mt-5 home-hero-cta">
@@ -44,7 +44,7 @@
       </div>
       <div class="row text-center">
         <div class="col-sm-12">
-          <img src="/img/sno-board.svg" alt="storage-node-operator">
+          <img class="img-responsive" src="/img/storj-snoboard-cli.png" alt="storage-node-operator">
         </div>
       </div>
     </div>
@@ -82,11 +82,11 @@
       </section>
       <div class="container no-spacing">
           <div class="row text-center">
-            <div class="spacer45"></div>
+            <div class="spacer100"></div>
             <div class="col-xs-12 txt-white">
               <p class="sno-hero-heading">{{.Params.heading}}</p>
               <div class="col-xs-12 no-spacing txt-white">
-                <p class="sno-hero-sub-heading">{{.Content}}</p>
+                <p class="sno-hero-sub-heading">{{.Params.subHeading}}</p>
                 <div class="spacer45"></div>
                 <div class="col-sm-12">
                   <a href="#learnMore-sno" style="text-decoration: none">
@@ -102,7 +102,7 @@
           <div class="spacer50"></div>
           <div class="row text-center">
             <div class="col-xs-12">
-              <img class="img-responsive" src="/img/sno-board.svg" alt="storage-node-operator">
+              <img class="img-responsive" src="/img/storj-snoboard-cli.png" alt="storage-node-operator">
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 <div class="container-fluid  p-5 hiw-bg">
   <div class="container">
+    <div class="spacer140"></div>
       <div class="row">
           <div class="col text-center">
           {{ with .Site.GetPage "howitworks"}}
@@ -9,7 +10,7 @@
           {{end}}
           </div>
       </div>
-      <div class="row text-center" style="padding:80px;color: white;">
+      <div class="row text-center how-it-works-steps">
         <div class="row progressbar-container visible-md visible-lg">
             <ul class="progressbar">
               {{ range where .Site.Pages ".Params.class" "howItWorks" }}
@@ -19,7 +20,7 @@
         </div>
         {{ range where .Site.Pages ".Params.class" "howItWorks" }}
         <div class="col-md-4 col-xs-12 sno-hiw-content">
-            <div class="spacer20"></div>
+            <div class="spacer45"></div>
             <div class="visible-sm visible-xs">
                 <img src={{.Params.img}}>
             </div>
@@ -34,7 +35,6 @@
           </a>
       </div>
   </div>
-  <div class="spacer45"></div>
-  <div class="spacer10"></div>
+  <div class="spacer140"></div>
   </div>
 </div>

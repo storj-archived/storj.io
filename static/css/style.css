@@ -159,6 +159,7 @@ img {
 .spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer140 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 
 .mb0 { margin-bottom: 0 !important; }
@@ -327,7 +328,7 @@ Navigation
 
 .navbar-brand {
 	padding: 0;
-	margin: 25px;
+	margin-top: 25px;
 }
 .link-style{
   display:inline-block;
@@ -2968,10 +2969,10 @@ Media Queries
     	width: 100px;
 	}
 	.home .navbar-brand {
-		margin: 25px 0;
+		margin-top: 25px 0;
 	}
 	.navbar-page .navbar-brand {
-		margin: 15px;
+		margin-top: 15px;
 	}
 	.navbar-page .navbar-toggle {
 		margin-top: 22px;
@@ -3595,6 +3596,10 @@ color: #FFFFFF;
     color: #FFFFFF;
     margin-right:30px;
   }
+
+  .navbar-brand {
+    margin-left: -30px !important;
+  }
 }
 @media only screen and (min-width: 1201px) {
   .navitem-style {
@@ -3894,8 +3899,6 @@ font-size: 28px;
 line-height: 39px;
 text-align: center;
 color: #FFFFFF;
-/* font-size:32px; */
-margin-top:90px;
 }
 
 .hiw-bg{
@@ -4864,6 +4867,9 @@ color: #FFFFFF;
   width: 33%;
   float: left;
   font-size: 24px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: medium;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -4896,6 +4902,10 @@ color: #FFFFFF;
   content: none;
 }
 @media only screen and (max-width: 991px) {
+  .how-it-works-steps {
+    padding: 20px;
+    color: white;
+  }
   .progressbar li:before {
     margin: 0 10px 0 50px;
   }
@@ -5025,5 +5035,29 @@ color: #FFFFFF;
   font-weight: 800;
   font-size: 18px;
   line-height: 18px;
-  color: #2582FF;
+  color: #133E9C;
+}
+
+.start-sharing-header {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+}
+
+.sno-start-sharing-heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 38px;
+  color: black;
+}
+
+.how-it-works-steps {
+  padding: 80px;
+  color: white;
 }
