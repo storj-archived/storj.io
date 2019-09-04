@@ -1,0 +1,21 @@
+.eub-wrapper {
+	padding: 0 $base-height * 6;
+
+	.eub-img {
+		height: 80px;
+		margin: $base-height * 2;
+	}
+
+	.eub-header {
+		margin-bottom: $base-height;
+		font-family: $header-font;
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+	.eub-text {
+		font-family: $text-font;
+		font-size: 14px;
+		font-weight: 300;
+	}
+}

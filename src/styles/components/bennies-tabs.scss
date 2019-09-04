@@ -1,0 +1,42 @@
+.bennies-nav-tab {
+	padding: $base-height * 2;
+	font-size: 16px;
+	font-family: $header-font;
+	font-weight: 700;
+	color: $gray-3;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.11);
+
+	&:hover {
+		color: $aurora-blue;
+	}
+
+	&.nav-link.active {
+		background-color: $aurora-blue;
+		color: $white;
+		box-shadow: 0 2px 8px 0 $aurora-blue;
+	}
+}
+
+.bennies-pane {
+	margin: $base-height * 6 auto;
+	padding: $base-height * 6;
+	height: $base-height * 50;
+	border: 1px solid $gray-2;
+
+	.bennies-tab-icon {
+		height: 125px;
+		width: 125px;
+	}
+
+	.bennies-tab-header {
+		padding-bottom: $base-height * 2;
+		font-family: $header-font;
+		font-size: 24px;
+		color: $aurora-blue;
+	}
+
+	.bennies-tab-content {
+		font-family: $text-font;
+		font-size: 18px;
+	}
+}

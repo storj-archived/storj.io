@@ -14,7 +14,7 @@ import '../styles/main.scss'
 export default () => (
   <Fragment>
     <Banner />
-    <section id='home-header' className='header home-bg pt-0'>
+    <header id='home-header' className='header home-bg'>
       <div className='home-bg' />
       <Navbar />
       <div className='container'>
@@ -43,7 +43,7 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </header>
     <section id='how-it-works' className='container-fluid hiw-bg'>
       <div className='container'>
         <div className='col-12'>

@@ -1,0 +1,47 @@
+.partners-bg {
+	background-color: $white;
+}
+
+.partners-header {
+	margin: $base-height * 5 0;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: 0;
+	color: $aurora-blue;
+}
+
+.partners-hero-text {
+	margin-bottom: $base-height * 3;
+	font-size: 21px;
+	text-align: center;
+	line-height: $base-line-height * 1.5;
+	letter-spacing: 0;
+
+	a.partners-hero-link {
+		color: $aurora-blue;
+
+		&:hover {
+			color: $aurora-blue-md;
+			text-decoration: underline;
+		}
+	}
+}
+
+.btn-partner {
+	background-color: $aurora-blue;
+	color: $white;
+	text-transform: uppercase;
+}
+
+.partner-logo {
+	max-height: $base-height * 6;
+	padding: 0 $base-height * 2;
+
+	&.med {
+		max-height: $base-height * 4;
+	}
+
+	&.small {
+		max-height: $base-height * 3;
+	}
+}

@@ -43,6 +43,10 @@ p {
   line-height: $base-line-height;
   color: $black;
 
+  &.large {
+    font-size: 21px;
+  }
+
   &.med {
     font-size: 16px;
   }

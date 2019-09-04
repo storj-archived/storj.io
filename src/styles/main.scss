@@ -16,8 +16,12 @@ $static-path: '../../static/';
 @import "./components/footer.scss";
 @import "./components/header.scss";
 @import "./components/milestones.scss";
+@import "./components/bennies-tabs.scss";
+@import "./components/endusers-benefits.scss";
+@import "./components/partner-types.scss";
 
 // --- Layout Styles ----------------------------------------------------------------- //
 @import "./layouts/main-layout.scss";
 @import "./layouts/comm-layout.scss";
 @import "./layouts/blog-layout.scss";
+@import "./layouts/partners-layout.scss";

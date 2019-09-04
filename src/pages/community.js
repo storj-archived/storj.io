@@ -6,12 +6,12 @@ import Navbar from '../components/navbar-dark'
 import Footer from '../components/footer'
 import EventList from '../components/events-list'
 
-import '../styles/main.scss'
+// import '../styles/main.scss'
 
 export default () => (
   <Fragment>
     <Banner />
-    <section id='community-header' className='header community-bg pt-0'>
+    <header id='community-header' className='header community-bg'>
       <Navbar />
       <div className='container'>
         <div className='row comm-hero'>
@@ -34,7 +34,7 @@ export default () => (
           </div>
         </div>
       </div>
-    </section>
+    </header>
     <section id='community-support' className='container-fluid support-bg'>
       <div className='container'>
         <div className='row justify-content-around'>

@@ -40,6 +40,10 @@
     overflow: hidden;
   }
 
+  &.partners-bg {
+    background: $white;
+  }
+
   &.blog-header {
     min-height: 0px;
     background: $white;

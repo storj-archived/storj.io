@@ -1,0 +1,38 @@
+.partnertype-wrapper {
+	margin-bottom: $base-height * 6;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	.partnertype-box {
+		padding: $base-height * 6;
+		border: 1px solid $gray-2;
+		border-radius: 4px;
+
+		.partnertype-header {
+			font-family: $header-font;
+			font-size: 24px;
+			font-weight: 700;
+			color: $aurora-blue;
+			margin-bottom: $base-height * 3;
+		}
+
+		.partnertype-text {
+			font-family: $text-font;
+			font-size: 16px;
+			font-weight: 300;
+			margin-bottom: $base-height * 6;
+		}
+
+		.btn-partnertype {
+			padding: 10px $base-height * 7;
+			background-color: $aurora-blue;
+			text-transform: uppercase;
+
+			&:hover {
+				background-color: $aurora-blue-md;
+			}
+		}
+	}
+}
