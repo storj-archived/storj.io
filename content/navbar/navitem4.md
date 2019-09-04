@@ -1,6 +1,6 @@
 ---
 link : "/partners"
-weight : 3
+weight : 4
 title : "Partners"
 class : "navitem"
 ---

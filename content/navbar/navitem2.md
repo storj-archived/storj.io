@@ -1,6 +1,6 @@
 ---
 link : "/community"
-weight : 2
+weight : 3
 title : "Community"
 class : "navitem"
 ---
