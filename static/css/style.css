@@ -61,6 +61,14 @@ Main
 	box-sizing: border-box;
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 html * {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -442,6 +450,13 @@ Navigation
     text-decoration: underline;
 }
 
+.bg-img-home-hero {
+  background-image: url('../img/storj-ill-cloud.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 650px;
+}
+
 .navbar-page {
 	border: 0;
 	border-radius: 0;
@@ -812,7 +827,7 @@ canvas {
 	-o-user-select: none;
 	user-select: none;
 	position: relative;
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .page .menu {
@@ -830,7 +845,7 @@ canvas {
 	margin-bottom: 1em;
 }
 .header-bg {
-  background: url("../img/Theez-Starz.svg"),linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);  
+  background: url("../img/Theez-Starz.png") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -1894,6 +1909,10 @@ twitterwidget {
         -webkit-column-count: 1;
         column-count: 1;
     }
+
+    .ml-25 {
+      margin-left: 25px;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px){
     .masonry {
@@ -2804,6 +2823,13 @@ Media Queries
     #token-webapp {
       height: 1540px;
     }
+
+    .bg-img-home-hero {
+      background-image: url('../img/storj-ill-cloud.png');
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      background-size: 450px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
@@ -2957,6 +2983,15 @@ Media Queries
 	}
   #token-webapp {
     height: 1800px;
+  }
+}
+
+@media (max-width: 675px) {
+  .bg-img-home-hero {
+    background-image: url('../img/storj-ill-cloud.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 350px;
   }
 }
 
@@ -3701,13 +3736,6 @@ color: #FFFFFF;
   margin:15px;
 }
 
-.hero-box{
-  height:160px;
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  background: linear-gradient(0deg, rgba(19, 62, 156, 0.72), rgba(19, 62, 156, 0.72)), linear-gradient(359.4deg, #133E9C 0.53%, #59A0FF 99.59%);
-}
-
 .pr10{
   padding-right:10px;
 }
@@ -3744,7 +3772,6 @@ color: rgba(255, 255, 255, 0.8);
   text-align: center;
   color: #133E9C;
   text-transform: unset;
-  width:204px;
   max-width: 400px;
 }
 
@@ -3763,28 +3790,29 @@ color: rgba(255, 255, 255, 0.8);
     text-align: center;
     color: #133E9C;
     text-transform: unset;
-    width:204px;
     max-width: 360px;
   }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .hero-cta{
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:10px;
+    padding-right:10px;
     font-size:14px;
     color: #133E9C;
     background:#FFF;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 16px;
     line-height: 19px;
     text-align: center;
     color: #133E9C;
     text-transform: unset;
-    width:204px;
     max-width: 360px;
+  }
+
+  .home-hero-cta {
+    font-size: 13px;
   }
 }
 
