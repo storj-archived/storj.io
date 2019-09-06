@@ -351,8 +351,7 @@ Navigation
 
 .logo {
     display: inline-block;
-    margin: 0 5px 0 15px;
-    width: 14vh;
+    margin: 0 5px 0 5px;
     height: 52px;
 }
 .logo-storjshare {
@@ -454,7 +453,7 @@ Navigation
 .bg-img-home-hero {
   background-image: url('../img/storj-ill-cloud.png');
   background-repeat: no-repeat;
-  background-position: right top;
+  background-position: right bottom;
   background-size: 650px;
 }
 
@@ -1910,10 +1909,6 @@ twitterwidget {
         -webkit-column-count: 1;
         column-count: 1;
     }
-
-    .ml-25 {
-      margin-left: 25px;
-    }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px){
     .masonry {
@@ -2824,18 +2819,11 @@ Media Queries
     #token-webapp {
       height: 1540px;
     }
-
-    .bg-img-home-hero {
-      background-image: url('../img/storj-ill-cloud.png');
-      background-repeat: no-repeat;
-      background-position: right bottom;
-      background-size: 450px;
-    }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
     .logo {
-    	margin: 0;
+    	margin-left: px;
     	margin-right: 8px;
     }
 }
@@ -2985,15 +2973,10 @@ Media Queries
   #token-webapp {
     height: 1800px;
   }
-}
 
-@media (max-width: 675px) {
-  .bg-img-home-hero {
-    background-image: url('../img/storj-ill-cloud.png');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: 350px;
-  }
+  .logo {
+		margin-left: 20px;
+	}
 }
 
 @media (max-width: 480px) {
@@ -3715,6 +3698,10 @@ color: #FFFFFF;
   height:100px;
 }
 
+.mb-24 {
+  margin-bottom: 24px;
+}
+
 .wh{
   color: #FFF;
 }
@@ -3749,9 +3736,12 @@ color: #FFFFFF;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: bold;
-font-size: 28px;
-line-height: 40px;
+font-size: 36px;
+line-height: 49px;
 color: #FFFFFF;
+margin-bottom: 0px;
+margin-top: 0px;
+padding: 0px;
 }
 
 .hero-subheading{
@@ -3818,6 +3808,14 @@ color: rgba(255, 255, 255, 0.8);
 
   .home-hero-cta {
     font-size: 13px;
+  }
+
+  .center-sm {
+    text-align: center;
+  }
+
+  .center-sm div {
+    display: inline-block;
   }
 }
 

@@ -3,38 +3,42 @@
   <div class="spacer35"></div>
     {{with .Site.GetPage "page" "homeHero.md"}}
     <div class="row ml-25">
-        <div class="col-xs-12">
-          <div class="prod-stage">{{.Params.stage}}</div>
-        </div>
+      <div class="col-xs-12 center-sm">
+        <div class="prod-stage">{{.Params.stage}}</div>
       </div>
-      <div class="spacer30"></div>
-      <div class="row ml-25">
-        <div class="col-xs-10">
-          <h1 class="hero-heading">{{.Params.heading}}</h1>
-          <h1 class="hero-heading">{{.Params.subHeading}}</h1>
-        </div>
+    </div>
+    <div class="spacer30"></div>
+    <div class="row mb-24">
+      <div class="col-xs-12 col-md-10 center-sm">
+        <h1 class="hero-heading col-xs-12 hidden-xs">{{.Params.heading1}} {{.Params.heading2}}</h1>
+        <h1 class="hero-heading col-xs-12 col-xs-offset-0 visible-xs">{{.Params.heading1}}</h1>
+        <h1 class="hero-heading col-xs-12 col-xs-offset-0 visible-xs">{{.Params.heading2}}</h1>
+        <h1 class="hero-heading col-xs-12">{{.Params.subHeading}}</h1>
       </div>
-      <div class="row ml-25">
-        <div class="col-xs-8">
-          {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-0 center-sm">
+        {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
       </div>
-      <div class="spacer20"></div>
-      <div class="row ml-25">
-        <div class="col-xs-6 col-sm-5 col-md-4">
-            <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
-        </div>
-        <div class="col-xs-6 col-sm-5 col-md-4" style="margin-top: 10px;">
-            <a href="/sign-up-node-operator/" style="text-decoration: none">
-              <p class="mt-5 home-hero-cta">
-                Node Operator
-                <span style="font-size:12px;margin-left:10px" class="glyphicon glyphicon-chevron-right"></span>
-              </p>
-            </a>
-        </div>
+    </div>
+    <div class="spacer20"></div>
+    <div class="spacer100 visible-xs"></div>
+    <div class="spacer100 visible-xs"></div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-5 col-md-4 center-sm">
+          <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
       </div>
+      <div class="col-xs-12 col-sm-5 col-md-4 center-sm" style="margin-top: 10px;">
+          <a href="/sign-up-node-operator/" style="text-decoration: none">
+            <p class="mt-5 home-hero-cta">
+              Node Operator
+              <span style="font-size:12px;margin-left:10px" class="glyphicon glyphicon-chevron-right"></span>
+            </p>
+          </a>
+      </div>
+    </div>
     <div class="spacer50"></div>
-          {{end}}
+    {{end}}
 </div>
 
 <!--completes div & section from navbar partial-->
