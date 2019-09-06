@@ -1,11 +1,14 @@
 //--- Root Settings -------------------------------------------------------------------//
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, * {
+html,
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -26,8 +29,8 @@ body {
   background-color: $white;
   color: $black;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
@@ -35,27 +38,59 @@ a {
   color: $aurora-blue-dk;
   text-decoration: none;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $aurora-blue-md;
     text-decoration: none;
   }
 }
 
-input, select, textarea {
-	display: block;
-	background: #fbfbfb;
-	border: 1px solid #eee;
-	border-radius: 4px;
-	color: #2683FF;
-	padding: 12px 18px 10px;
-	margin: 25px auto;
-	width: 100%;
-	max-width: 320px;
+input,
+select,
+textarea {
+  display: block;
+  background: #fbfbfb;
+  border: 1px solid $gray-3;
+  border-radius: 4px;
+  color: #2683ff;
+  padding: 12px 18px 10px;
+  margin: 25px auto;
+  width: 100%;
+  max-width: 320px;
   font-size: 16px;
   @include transition(all 0.15s ease-in-out);
 
   &:focus {
     outline: 0;
-    border-color: #2D86fb;
+    border-color: #2d86fb;
+  }
+}
+
+section {
+  padding: $base-height * 13 0;
+}
+
+// === Custom Button Styles ========================================================== //
+.btn-custom {
+  padding: 10px $base-height * 3;
+  font-family: $header-font;
+  font-weight: 700;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover {
+    background-color: $aurora-blue-md;
+    border-color: $aurora-blue-md;
+    color: $white;
+  }
+}
+
+.btn-primary-alt {
+  background-color: $white;
+  color: $aurora-blue-dk;
+
+  &:hover {
+    background-color: $aurora-blue-md;
+    color: $white;
   }
 }

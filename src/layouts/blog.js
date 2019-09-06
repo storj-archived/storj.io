@@ -1,20 +1,25 @@
 import React, { Fragment } from 'react'
 
 import Banner from '../components/banner'
-import BlogNav from '../components/blog/blog-navbar'
+import Navbar from '../components/navbar-light'
+import BlogHero from '../components/blog/blog-hero'
+import PostNav from '../components/blog/post-nav'
+import BlogGrid from '../components/blog/blog-grid'
 import Footer from '../components/footer'
 
-
-export default ({ children }) => (
+export default () => (
   <Fragment>
-    {/* <Banner /> */}
-    <header className="header blog-header">
-      <BlogNav />
-      <div className="container">
-        <h1 className="blog-title">Storj Blog</h1>
+    <Banner />
+    <header className='header blog-header'>
+      <Navbar />
+      <div className='container'>
+        <BlogHero />
       </div>
     </header>
-
+    <section id='blog-list' className='container-fluid'>
+      <PostNav />
+      <BlogGrid />
+    </section>
     <Footer />
   </Fragment>
 )

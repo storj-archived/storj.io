@@ -14,7 +14,7 @@ export default () => (
         <div className="col-xs-5 col-sm-6 banner-right">
           <p className="mb-0">
             <a href="https://tardigrade.io">
-              Visit Tradigrade.io
+              Visit Tardigrade.io
               <Tardigrade className="tardigrade" />
               <ChevronRight color="white" size={14} strokeWidth={3} />
             </a>

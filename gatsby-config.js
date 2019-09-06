@@ -3,8 +3,8 @@ module.exports = {
     title: 'Introducing Tardigrade.io Decentralized Cloud Storage'
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-transformer-remark`,
+    'gatsby-plugin-sass',
+    'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -16,10 +16,7 @@ module.exports = {
       resolve: 'gatsby-plugin-react-svg',
       options: {
         rule: {
-          include: [
-            /logos/,
-            /social-icons/
-          ]
+          include: [ /logos/, /social-icons/ ]
         }
       }
     }
