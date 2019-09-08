@@ -4,9 +4,9 @@ import { ChevronRight } from 'react-feather'
 
 import Banner from '../components/banner'
 import Navbar from '../components/navbar-dark'
-import ProductionStage from '../components/production-stage'
-import Reasons from '../components/reasons-why'
-import Milestones from '../components/milestones'
+import ProductionStage from '../components/home/production-stage'
+import Reasons from '../components/home/reasons-why'
+import Milestones from '../components/home/milestones'
 import Footer from '../components/footer'
 
 import '../styles/main.scss'

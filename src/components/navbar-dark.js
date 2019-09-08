@@ -23,6 +23,11 @@ export default () => (
 				</Link>
 				<ul className='navbar-nav ml-auto'>
 					<li className='nav-item'>
+						<Link to='/node-operator' className='nav-link link-style dark-nav'>
+							Node Operator
+						</Link>
+					</li>
+					<li className='nav-item'>
 						<a href='https://documentation.storj.io/' className='nav-link link-style dark-nav'>
 							Docs
 						</a>
