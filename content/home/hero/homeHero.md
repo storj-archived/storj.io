@@ -1,10 +1,12 @@
 ---
 title: "HomeHero"
 img: "img/updated.svg"
-heading: "Introducing Tardigrade.io Decentralized Cloud Storage"
-ctaText: "Visit Tardigrade"
+heading1: "The Faster,"
+heading2: " Decentralized Cloud."
+subHeading: "Now in Beta."
+ctaText: "Tardigrade Cloud Storage"
 ctaLink: "https://tardigrade.io/"
 stage: "Currently in Beta"
 ---
 
-We’re excited to announce Tardigrade decentralized cloud storage. Want to learn more? Head to the Tardigrade site. Want to set up a storage node? Join our waitlist.
+Tardigrade Cloud Storage and the Storj Network are now in beta with faster speeds and better pricing than the competition. Join the cloud of the future by hosting a node to earn money from your unused disk space.
