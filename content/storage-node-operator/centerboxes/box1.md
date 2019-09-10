@@ -1,8 +1,8 @@
 ---
-title: "center box 1"
-img: "/img/storj-ico-hdd.svg"
-heading: "Use Existing Hardware"
-description: "Becoming a node operator doesn’t require extra hardware or power-hungry CPUs. All you need is a solid internet and enough hard drive space."
+title: center box 1
+description: Becoming a node operator doesn’t require extra hardware or power-hungry CPUs. All you need is a solid internet connection and enough hard drive space and bandwidth.
+heading: Use Existing Hardware
+img: /img/storj-ico-hdd.svg
 class: "snoBox"
 ---
 
