@@ -2755,7 +2755,10 @@ Media Queries
 	}
 	.storjshare-intro {
 		padding-top: 2em;
-	}
+  }
+  .safari-alignment:last-child {
+    width:24%;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

@@ -363,7 +363,7 @@ collections:
     fields:
      - {label: "Title", name: "title", widget: "string"}
      - {label: "heading1", name : "heading1", widget: "string"}
-    - {label: "heading2", name : "heading2", widget: "string"}
+     - {label: "heading2", name : "heading2", widget: "string"}
      - {label: "subHeading", name : "subHeading", widget: "string"}
      - {label: "ctaText", name : "ctaText", widget: "string"}
      - {label: "ctaLink", name : "ctaLink", widget: "string"}
