@@ -1,6 +1,6 @@
 ---
 title: "item 1"
-heading: "Estimate Your Earnings"
+heading: "Egress Bandwidth"
 description: "$20/TB"
 class: "estimate"
 ---
