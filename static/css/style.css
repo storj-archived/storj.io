@@ -852,8 +852,8 @@ canvas {
   background-size: cover;
   background-image: url("../img/Theez-Starz.png");
   background-repeat: repeat-y;
-  background-position: center top;
-  transform: scale(1.1);
+  background-position: center center;
+  transform: scale(1.01)
 }
 
 .careers-header-bg {
@@ -2819,7 +2819,7 @@ Media Queries
     	margin-top: 1em;
     }
   	.navbar-nav>li>a, .navbar-page .navbar-nav>li>a {
-      	padding: 40px 8px;
+      	padding: 40px 6px;
       	font-size: 12px !important;
     }
   	.btn-menu {
@@ -3003,10 +3003,10 @@ Media Queries
     	width: 100px;
 	}
 	.home .navbar-brand {
-		margin-top: 25px 0;
+    margin-top: 25px 0;
 	}
 	.navbar-page .navbar-brand {
-		margin-top: 15px;
+    margin-top: 15px;
 	}
 	.navbar-page .navbar-toggle {
 		margin-top: 22px;
@@ -3632,7 +3632,7 @@ color: #FFFFFF;
   }
 
   .navbar-brand {
-    margin-left: -30px !important;
+    margin-left: 4px !important;
   }
 }
 @media only screen and (min-width: 1201px) {
