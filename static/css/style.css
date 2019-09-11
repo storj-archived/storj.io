@@ -66,7 +66,7 @@ html,body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 html * {
@@ -371,6 +371,10 @@ Navigation
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .section-to-collapse{
     display: none;
+  }
+
+  .text-xs-center {
+    text-align: center;
   }
 }
 
@@ -845,8 +849,11 @@ canvas {
 	margin-bottom: 1em;
 }
 .header-bg {
-  background: url("../img/Theez-Starz.png") no-repeat center center fixed;
   background-size: cover;
+  background-image: url("../img/Theez-Starz.png");
+  background-repeat: repeat-y;
+  background-position: center top;
+  transform: scale(1.1);
 }
 
 .careers-header-bg {
@@ -2788,7 +2795,10 @@ Media Queries
   	}
   	.panel-card {
   		padding: 44px 22px;
-  	}
+    }
+    .pull-right-md {
+      float:right;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2828,6 +2838,9 @@ Media Queries
     .logo {
     	margin-left: px;
     	margin-right: 8px;
+    }
+    .pull-right-md {
+      float: right;
     }
 }
 
@@ -3442,7 +3455,7 @@ vertical-align: bottom;
   margin-bottom: 20px;
   margin-right:10px;
   }
-  
+
   .timeline-horizontal .timeline-item .timeline-panel-genesis:before {
   top: auto;
   bottom: -16px;
@@ -3735,7 +3748,7 @@ color: #FFFFFF;
   padding-right:10px;
 }
 
-.hero-heading{ 
+.hero-heading{
 font-family: 'Poppins';
 font-style: normal;
 font-weight: bold;
@@ -4019,7 +4032,7 @@ font-weight: bold;
 font-size: 32px;
 line-height: 38px;
 text-align: center;
-color: #000000;    
+color: #000000;
 margin-top:-20px;
 }
 
@@ -4180,7 +4193,7 @@ margin-top: -6px;
 }
 
 .main-sno-wrapper{
-  height: 586px; 
+  height: 586px;
 }
 
 .node-img{
@@ -4200,7 +4213,7 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 320px) {
   .main-sno-wrapper{
-    height: 1000px; 
+    height: 1000px;
   }
 
   .node-img{
@@ -4240,7 +4253,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
   .main-sno-wrapper{
-    height: 1000px; 
+    height: 1000px;
   }
 
   .node-img{
@@ -4278,7 +4291,7 @@ color: #FFFFFF;
     margin-left:20px;
     }
     .main-sno-wrapper{
-      height: 600px; 
+      height: 600px;
     }
 }
 
@@ -4427,7 +4440,7 @@ color: #FFFFFF;
     margin-left:120px;
   }
 }
-  
+
   @media only screen and (min-width: 321px) and (max-width: 767px){
   .stay-in-touch{
     margin-left:120px;
@@ -4570,21 +4583,21 @@ color: #FFFFFF;
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
-  margin-top: 100px;  
+  margin-top: 100px;
 }
 
 .careers-subheading{
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
-  margin-top: 30px;  
+  margin-top: 30px;
 }
 
 .careers-heading-cta{
   font-weight: 800;
   font-size: 14px;
   line-height: 18px;
-  margin-top: 45px;  
+  margin-top: 45px;
 }
 
 .careers-cta-caret{
@@ -4622,7 +4635,7 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 800;
   font-size: 12px;
-  line-height: 22px;  
+  line-height: 22px;
   text-align: center;
   color: #333333;
 }
@@ -4632,7 +4645,7 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
-  line-height: 23px;  
+  line-height: 23px;
   text-align: center;
   color: #333333;
 }
