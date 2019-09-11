@@ -4,30 +4,30 @@
             <div class="col-xs-12 text-center mt-5">
                 <h1 class="helpDevs-header">Helping Developers Weave the<br> Fabric of Tomorrow’s Internet</h1>
             </div>
-            <div class="row mt-5" style="display:flex;flex-wrap: wrap;margin-top:100px;">
+            <div class="row mt-5" style="margin-top:100px;">
             {{range where .Site.Pages ".Params.class" "whytardigrade" | first 4}}
-              <div class="col-xs-4 col-xs-offset-1 col-md-6 col-md-offset-0 col-lg-3 text-left mt-5 p-3 safari-alignment">
+              <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-3 mt-5 p-3 safari-alignment text-xs-center">
                 <img class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
                 <h4 class="helpDevs-subheading">
                   {{.Params.heading}}
                 </h4>
                 <p class="helpDevs-desc">
-                  {{.Params.desc}}                
+                  {{.Params.desc}}
                 </p>
               </div>
             {{end}}
             </div>
             <div class="row" style="margin-top:30px;">
-                <div class="col-xs-4 col-xs-offset-1 col-md-6 col-md-offset-0 col-lg-3 col-lg-offset-3 text-left mt-5 p-3">
+                <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-3 col-lg-offset-3 text-xs-center mt-5 p-3">
                     <img class="img-fluid" src="img/cash.png" height="40" width="41"/>
               <h4 class="helpDevs-subheading">
                   Affordable
               </h4>
               <p class="helpDevs-desc">
-                  Predictable, flat pricing. S3-compatible object storage that is a fraction of the price.             
+                  Predictable, flat pricing. S3-compatible object storage that is a fraction of the price.
               </p>
             </div>
-            <div class="col-xs-4 col-xs-offset-1 col-md-6 col-md-offset-0 col-lg-3 text-left mt-5 p-3">
+            <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-md-6 col-md-offset-0 col-lg-3 text-xs-center mt-5 p-3">
                 <img class="img-fluid" src="img/simple.png" height="40" width="57"/>
                 <h4 class="helpDevs-subheading">
                     Easy to Use
