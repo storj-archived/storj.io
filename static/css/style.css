@@ -2795,7 +2795,10 @@ Media Queries
   	}
   	.panel-card {
   		padding: 44px 22px;
-  	}
+    }
+    .pull-right-md {
+      float:right;
+    }
 }
 
 @media (max-width: 991px) {
@@ -2835,6 +2838,9 @@ Media Queries
     .logo {
     	margin-left: px;
     	margin-right: 8px;
+    }
+    .pull-right-md {
+      float: right;
     }
 }
 
