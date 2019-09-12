@@ -1,31 +1,29 @@
 import React from 'react'
-import BlogCard from './blog-card'
 import { ChevronDown } from 'react-feather'
 
-const BlogGrid = () => {
-  return (
-    <div className='container' id='blog-grid'>
-      <div className='row'>
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <BlogCard />
-        <div className='col-12 d-flex justify-content-center'>
-          <a href='/sign-up-node-operator/'>
-            <button className='btn btn-primary read-more'>
-              See More Post
-              <ChevronDown />
-            </button>
-          </a>
-        </div>
-      </div>
-    </div>
-  )
-}
+import PostNav from '../blog/post-nav'
+import BlogCard from './blog-card'
 
-export default BlogGrid
+export default (props) => {
+	const { postlist, postQuantity, loadMorePosts } = props
+	return (
+		<section id='blog-list' className='container-fluid'>
+			<PostNav />
+			<div id='blog-grid' className='container'>
+				<div className='row'>
+					{postlist.map((post, index) => {
+						const { excerpt, frontmatter: { title, image, date, authors } } = post.node.childMarkdownRemark
+						return index !== 0 && index <= postQuantity ? (
+							<BlogCard excerpt={excerpt} title={title} image={image} date={date} authors={authors} />
+						) : null
+					})}
+					<div className='col-12 d-flex justify-content-center'>
+						<button className='btn btn-primary btn-see-more' onClick={() => loadMorePosts()}>
+							See More Posts <ChevronDown strokeWidth={3} className='ml-2' />
+						</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	)
+}
