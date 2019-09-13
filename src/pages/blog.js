@@ -33,19 +33,6 @@ class Blog extends Component {
 
 export default Blog
 
-// export default ({ data }) => {
-// 	const { edges } = data.posts
-// 	const heroPost = edges[0].node.childMarkdownRemark
-// 	return (
-// 		<Fragment>
-// 			<Banner />
-// 			<BlogHero heroPost={heroPost} />
-// 			<BlogGrid postlist={edges} />
-// 			<Footer />
-// 		</Fragment>
-// 	)
-// }
-
 export const query = graphql`
 	query {
 		posts: allFile(
