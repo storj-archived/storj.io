@@ -362,6 +362,12 @@ Navigation
   display: block;
 }
 
+.logo-signup {
+  margin-left: 160px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 320px) {
   .section-to-collapse{
     display: none;
@@ -5102,4 +5108,25 @@ color: #FFFFFF;
 .how-it-works-steps {
   padding: 80px;
   color: white;
+}
+
+.signup-node-bg {
+  background: linear-gradient(158.94deg, #000F2C -1.77%, #3B6BC9 170.28%);
+}
+
+.storj-ecosystem-bg {
+  background-image: url('../img/storj-ecosystem.png');
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.signup-node-container {
+  width: 1440px;
+  height: 800px;
+}
+
+.signup-node-form {
+  width: 661px;
+  height: 800px;
+  background-color: #F4F6F9;
 }
