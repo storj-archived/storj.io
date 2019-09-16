@@ -10,14 +10,19 @@
     <div class="signup-node-bg container-fluid signup-node-container">
       <div class="row">
         <div class="col-xs-12 storj-ecosystem-bg">
-          <div class="col-xs-6 col-xs-offset-4 signup-node-form">
-            {{ partial "sign-up-node-operator/form" .}}
+          <div class="col-md-6 col-md-offset-4 col-lg-6 col-lg-offset-6 signup-node-form">
+            <div class="spacer50"></div>
+            {{ partial "sign-up-node-operator/progress-bar" .}}
+            <div class="arrow-up"></div>
+            <div class="requirement-form-container">
+                {{ partial "sign-up-node-operator/form" .}}
+                <div class="spacer50"></div>
+            </div>
           </div>
         </div>
       </div>
-
     </div>
-  <div class="spacer35"></div>
+    {{ partial "sign-up-node-operator/footer" .}}
   {{partial "scripts" .}}
   </body>
 </html>

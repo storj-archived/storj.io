@@ -1,3 +1,83 @@
-<div class="container">
+<div class="requirement-form">
+    <div class="spacer25"></div>
+    <div class="row">
+        <div class="form-header col-xs-12">
+                <h1 class="black-text">Get Paid to Share Your Disk Space</h1>
+        </div>
+    </div>
+    <siv class="spacer10"></siv>
+    <div class="row">
+        <div class="sub-header col-xs-12">
+                <h2 class="light-black">Does your hardware meet these requirements?</h2>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="error-msg col-xs-12 invisible" id="signup-node-form-err-msg">
+                We’re sorry, your hardware doesn’t meet the minimum requirements. Learn more about our node requirements.
+        </div>
+    </div>
+
+    <form onsubmit="onsubmit">
+        <div class="checkbox-container">
+            <input type="checkbox" name="Processor" />
+            <span class="checkmark"></span>
+            1 Processor Core
+            <hr/>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="disk space" />
+            <span class="checkmark"></span>
+            Minimum 500GB of available disk space
+            <hr/>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="bandwidth" />
+            <span class="checkmark"></span>
+            Minimum of 2TB of available bandwidth a month
+            <hr/>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="upstream" />
+            <span class="checkmark"></span>
+            Minimum upstream bandwidth of 5 Mbps
+            <hr/>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="download" />
+            <span class="checkmark"></span>
+            Minimum download bandwidth of 25 Mpbs
+            <hr/>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" name="down time" />
+            <span class="checkmark"></span>
+            Maximum down time of 5 hours a month
+        </div>
+        <div class="spacer30"></div>
+        <div class="sign-up-node-submit">
+            <input type="submit" value="Continue" />
+        </div>
+  </form>
 </div>
+
+<script type="text/javascript">
+    var onsubmit = function(event) {
+        event.preventDefault();
+        var inputs = event.target.getElementsByTagName("input");
+        var errElm = document.getElementById("signup-node-form-err-msg");
+
+        for (input of inputs) {
+            if (input.type === "submit") {
+                continue;
+            }
+            if (!input.checked) {
+                // display error message
+                errElm.setAttribute("class", "error-msg");
+                return;
+            }
+        }
+        errElm.setAttribute("class", "error-msg invisible");
+        window.location.href = "https://storj.io/sign-up-node-operator-email";
+    }
+</script>
