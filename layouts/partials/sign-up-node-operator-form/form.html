@@ -1,4 +1,4 @@
-<div class="requirement-form">
+<div class="form requirement-form">
     <div class="spacer25"></div>
     <div class="row">
         <div class="form-header col-xs-12">
@@ -12,9 +12,10 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="error-msg col-xs-12 invisible" id="signup-node-form-err-msg">
-                We’re sorry, your hardware doesn’t meet the minimum requirements. Learn more about our node requirements.
+    <div class="row invisible" id="signup-node-form-err-msg-container">
+        <div class="signup-node-form-error-msg col-xs-10">
+                <span>We’re sorry, your hardware doesn’t meet the minimum requirements.</span>
+                <a href="https://documentation.storj.io" target="_blank"><span>Learn more about our node requirements.</span></a> 
         </div>
     </div>
 
@@ -65,7 +66,7 @@
     var onsubmit = function(event) {
         event.preventDefault();
         var inputs = event.target.getElementsByTagName("input");
-        var errElm = document.getElementById("signup-node-form-err-msg");
+        var errElm = document.getElementById("signup-node-form-err-msg-container");
 
         for (input of inputs) {
             if (input.type === "submit") {
@@ -73,11 +74,11 @@
             }
             if (!input.checked) {
                 // display error message
-                errElm.setAttribute("class", "error-msg");
+                errElm.setAttribute("class", "row");
                 return;
             }
         }
-        errElm.setAttribute("class", "error-msg invisible");
+        errElm.setAttribute("class", "row invisible");
         window.location.href = "https://storj.io/sign-up-node-operator-email";
     }
 </script>

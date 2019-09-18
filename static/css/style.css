@@ -188,6 +188,18 @@ img {
     margin-right:-4px;
 }
 
+.ml-295 {
+  margin-left: 295px;
+}
+
+.ml-77 {
+  margin-left: 77px;
+}
+
+.ml-515 {
+  margin-left: 515px;
+}
+
 
 /* --------------------------------
 
@@ -3640,6 +3652,9 @@ color: #FFFFFF;
   .navbar-brand {
     margin-left: 4px !important;
   }
+  .mr-md-100 {
+    margin-right: 150px;
+  }
 }
 @media only screen and (min-width: 1201px) {
   .navitem-style {
@@ -3651,6 +3666,9 @@ color: #FFFFFF;
     text-align: center;
     color: #FFFFFF;
     margin-right:30px;
+  }
+  .mr-md-100 {
+    margin-right: 150px;
   }
 }
 
@@ -5168,12 +5186,24 @@ color: #FFFFFF;
   background: #133E9C;
 }
 
-.requirement-form-container {
+.form-container {
   background: white;
   border-radius: 9px;
 }
 
-.requirement-form {
+.requirement-form-container {
+  height: 80%;
+}
+
+.email-form-container {
+  height: 50%
+}
+
+.complete-form-container {
+  height: 60%;
+}
+
+.form {
   margin-left: 38px;
 }
 
@@ -5183,7 +5213,7 @@ color: #FFFFFF;
   width: 50px;
 }
 
-.requirement-form h1 {
+.form h1 {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -5191,7 +5221,7 @@ color: #FFFFFF;
   line-height: 40px;
 }
 
-.requirement-form h2 {
+.form h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 300;
@@ -5295,5 +5325,47 @@ color: #FFFFFF;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid white;
-  margin-left: 77px;
+}
+
+#signup-node-form-err-msg-container {
+  margin-bottom: 25px;
+  color: red;
+}
+
+.signup-node-form-error-msg {
+  background-color: #FFEFEF;
+  border: 1px solid #FF0000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+.signup-node-form-error-msg a {
+  text-decoration: underline;
+  color: red;
+}
+
+.email-form input {
+  margin: 10px 0px;
+}
+.email-form .email {
+  background: #FFFFFF;
+  border: 1px solid #C5CBDB;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+.complete-form a {
+  display: block;
+  width: 190px;
+  background: #133E9C;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 146.28%;
+  border-radius: 7px;
+	border: 1px solid #eee;
+	padding: 12px 18px 10px;
 }
