@@ -5,7 +5,8 @@ image: /blog/img/blog-storage-node.png
 categories:
   - community
 authors:
-  - Brandon Iglesias and John Gleeson
+  - Brandon Iglesias
+  - John Gleeson
 ---
 We asked and you answered! The results of the Storage Node Operator Survey are in. We have a long [waitlist of storage node operators](https://storj.io/sign-up-farmer) interested in sharing their hard drives and bandwidth on the Storj V3 network. We asked this group of future storage node operators some questions about their network environment, hardware, available storage, and a number of other data points that will help us understand what we can expect on the launch of the Explorer release. In this post, we’re going to share what we learned and what it means for the network. In addition, since our future storage node operators were kind enough to share this information with us, we’re going to provide some more detail on the upcoming release.
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { ChevronRight } from 'react-feather'
 
 const BlogCard = (props) => {
-	const { excerpt, title, image, date, authors } = props
+	const { slug, excerpt, title, image, date, authors } = props
 	return (
 		<div className='col-sm-4 col-xs-12'>
 			<div className='card blog-card mb-5'>
@@ -16,7 +16,7 @@ const BlogCard = (props) => {
 					</div>
 					<h4 className='card-title'>{title}</h4>
 					<p className='card-text'>{excerpt}</p>
-					<a href='/blog' className='card-cta'>
+					<a href={slug} className='card-cta'>
 						Read More
 						<ChevronRight size={18} strokeWidth={3} className='chevron ml-1' />
 					</a>

@@ -5,7 +5,8 @@ image: /blog/img/blog-satellite-discovery.jpg
 categories:
   - engineering
 authors:
-  - Tikh Bana and JT Olio
+  - Tikh Bana
+  - JT Olio
 draft: false
 ---
 One of the most fundamental parts of a decentralized platform is that there is no single authority or owner. In a true decentralized ecosystem, everyone who participates is a critical contributor to the network. 

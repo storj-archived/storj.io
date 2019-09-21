@@ -5,7 +5,8 @@ image: ''
 categories:
   - engineering
 authors:
-  - Kevin Leffew and Dylan Lott
+  - Kevin Leffew
+  - Dylan Lott
 ---
 Kademlia is a distributed hash table implemented in a number of modern decentralized protocols including Ethereum, BitTorrent, Swarm, IPFS and the Storj network.
 

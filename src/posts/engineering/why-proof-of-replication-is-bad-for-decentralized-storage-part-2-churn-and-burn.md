@@ -7,7 +7,8 @@ image: /blog/img/churn-and-burn.jpg
 categories:
   - engineering
 authors:
-  - Patrick Gerbes and John Gleeson
+  - Patrick Gerbes
+  - John Gleeson
 ---
 Hello Storj fans, we are back with our highly anticipated part two of Why Replication is Bad for Decentralized Storage. [Our first installment](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/) made the case that in distributed storage systems, erasure encoding schemes are a better choice over replication. While everyone should stop right now and [go read part one](https://storj.io/blog/2018/11/replication-is-bad-for-decentralized-storage-part-1-erasure-codes-for-fun-and-profit/) if you haven’t read it yet (it really is that awesome) the tl;dr is that the costs associated with redundancy via replication are unacceptably high. Excessive expansion factors severely limit future network growth and produce an inefficient allocation of resources. 
 

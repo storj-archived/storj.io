@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import Navbar from '../navbar-light'
 
 export default (props) => {
-	const { excerpt, frontmatter: { title, date, image, authors } } = props.heroPost
+	const { excerpt, fields: { slug }, frontmatter: { title, date, image, authors } } = props.heroPost
 	return (
 		<header className='header blog-header'>
 			<Navbar />
@@ -21,9 +22,9 @@ export default (props) => {
 							<span className='date'>{date}</span>
 						</div>
 						<p className='blog-excerpt'>{excerpt}</p>
-						<a href='/blog'>
+						<Link to={slug}>
 							<button className='btn btn-primary read-more'>Read More</button>
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

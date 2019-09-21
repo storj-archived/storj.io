@@ -1,0 +1,34 @@
+.blog-card {
+	background-color: $white;
+	border-radius: 10px;
+
+	.card-img-top {
+		height: 155px;
+		object-fit: cover;
+		border-radius: 10px 10px 0 0;
+	}
+
+	.card-title {
+		font-family: $header-font;
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: $base-height * 2;
+	}
+
+	.card-text {
+		font-family: $text-font;
+		font-size: 14px;
+		font-weight: 300;
+		margin-bottom: $base-height * 3;
+	}
+
+	.card-cta {
+		font-family: $header-font;
+		font-size: 12px;
+		font-weight: 700;
+
+		.chevron {
+			margin-top: -2px;
+		}
+	}
+}

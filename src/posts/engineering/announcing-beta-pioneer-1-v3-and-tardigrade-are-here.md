@@ -5,7 +5,8 @@ image: /blog/img/beta-announcement.png
 categories:
   - engineering
 authors:
-  - JT Olio and Brandon Iglesias
+  - JT Olio
+  - Brandon Iglesias
 draft: false
 ---
 After a lot of hard work, we couldn’t be happier to announce that Pioneer Beta for the V3 network has arrived. Now that V3 is here, we’re also ready to launch the beta for Tardigrade decentralized cloud object storage. So, what changes are coming with the V3 network? V3 is more scalable, performant, secure, decentralized, and economical than previous offerings. It was specifically built with the enterprise in mind, focusing on performance, availability, and reliability similar to major providers, at half the price.

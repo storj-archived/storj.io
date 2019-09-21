@@ -12,9 +12,20 @@ export default (props) => {
 			<div id='blog-grid' className='container'>
 				<div className='row'>
 					{postlist.map((post, index) => {
-						const { excerpt, frontmatter: { title, image, date, authors } } = post.node.childMarkdownRemark
+						const {
+							excerpt,
+							fields: { slug },
+							frontmatter: { title, image, date, authors }
+						} = post.node.childMarkdownRemark
 						return index !== 0 && index <= postQuantity ? (
-							<BlogCard excerpt={excerpt} title={title} image={image} date={date} authors={authors} />
+							<BlogCard
+								slug={slug}
+								excerpt={excerpt}
+								title={title}
+								image={image}
+								date={date}
+								authors={authors}
+							/>
 						) : null
 					})}
 					<div className='col-12 d-flex justify-content-center'>

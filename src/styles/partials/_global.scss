@@ -34,13 +34,12 @@ body {
 
 a {
 	@include transition(all 0.15s ease-in-out);
-	color: $aurora-blue-dk;
+	color: $aurora-blue;
 	text-decoration: none;
 
 	&:hover,
 	&:focus {
-		color: $aurora-blue-md;
-		text-decoration: none;
+		color: $aurora-blue-dk;
 	}
 }
 
@@ -65,7 +64,8 @@ textarea {
 	}
 }
 
-section {
+section,
+article {
 	padding: $base-height * 13 0;
 }
 
@@ -81,6 +81,62 @@ section {
 		background-color: $aurora-blue-md;
 		border-color: $aurora-blue-md;
 		color: $white;
+	}
+}
+
+// --- Share This Post button styles --- //
+.btn-stp {
+	margin-right: $base-height * 3;
+	padding: 10px $base-height * 3;
+	font-family: $text-font;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 20px;
+	border: 1px solid $gray-3;
+	border-radius: 6px;
+	color: $gray-3;
+
+	&:hover {
+		color: $white;
+		&.twitter {
+			background-color: $twitter-blue;
+			border-color: $twitter-blue;
+		}
+		&.facebook {
+			background-color: $facebook-blue;
+			border-color: $facebook-blue;
+		}
+		&.reddit {
+			background-color: $reddit-red;
+			border-color: $reddit-red;
+		}
+		&.mail {
+			background-color: $aurora-blue-md;
+			border-color: $aurora-blue-md;
+		}
+		.stp-icon {
+			margin-top: -2px;
+			&.twitter, &.facebook, &.reddit {
+				fill: $white;
+			}
+		}
+	}
+
+	.stp-icon {
+		height: 20px;
+		width: 20px;
+		margin-right: $base-height;
+		vertical-align: bottom;
+
+		&.twitter {
+			fill: $twitter-blue;
+		}
+		&.facebook {
+			fill: $facebook-blue;
+		}
+		&.reddit {
+			fill: $reddit-red;
+		}
 	}
 }
 

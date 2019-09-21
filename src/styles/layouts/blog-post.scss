@@ -1,0 +1,98 @@
+.blog-post {
+	background-color: $gray-1;
+	padding: $base-height * 5 0 $base-height * 13 0;
+
+	.breadcrum-nav {
+		margin-bottom: $base-height * 5;
+		height: $base-height * 3;
+	}
+
+	.post-title {
+		font-family: $header-font;
+		font-size: 34px;
+		font-weight: 700;
+		line-height: $base-height * 5;
+		margin-bottom: $base-height * 4;
+	}
+
+	.post-img {
+		margin-bottom: $base-height * 5;
+		height: 304px;
+		object-fit: cover;
+		border-radius: 10px;
+		box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+	}
+
+	.byline {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: $base-height * 4;
+		line-height: $base-line-height;
+		font-size: 14px;
+
+		.author {
+			strong {
+				font-weight: 500;
+				color: $aurora-blue-dk;
+			}
+		}
+	}
+
+	.post-content {
+		margin-bottom: $base-height * 8;
+		font-family: $text-font;
+		font-weight: 300;
+		text-align: left;
+		line-height: $base-line-height;
+
+		h4 {
+			margin-bottom: $base-height;
+			font-family: $header-font;
+			font-size: 18px;
+			font-weight: 500;
+			color: $aurora-blue;
+		}
+
+		p {
+			margin-bottom: $base-line-height;
+		}
+
+		li {
+			margin-bottom: $base-height;
+
+			&:last-child {
+				margin-bottom: $base-line-height;
+			}
+		}
+	}
+
+	#share-this-post {
+		.stp-header {
+			margin-bottom: $base-height * 2;
+			font-family: $header-font;
+			font-size: 18px;
+			font-weight: 700;
+		}
+
+		.stp-item {
+			background-color: $gray-1;
+			margin-right: $base-height * 3;
+			padding: 0;
+			border: 1px solid $gray-3;
+			border-radius: 6px;
+			font-size: 16px;
+		}
+	}
+}
+
+#more-posts {
+	&.more-posts-bg {
+		background-color: $gray-2;
+	}
+
+	.mp-header {
+		font-family: $header-font;
+		font-size: 22px;
+		margin-bottom: $base-height * 3;
+	}
+}

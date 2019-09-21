@@ -19,6 +19,7 @@ $static-path: '../../static/';
 @import "./components/bennies-tabs.scss";
 @import "./components/endusers-benefits.scss";
 @import "./components/partner-types.scss";
+@import "./components/blog-cards.scss";
 
 // --- Layout Styles ----------------------------------------------------------------- //
 @import "./layouts/main-layout.scss";
@@ -26,3 +27,4 @@ $static-path: '../../static/';
 @import "./layouts/comm-layout.scss";
 @import "./layouts/partners-layout.scss";
 @import "./layouts/blog-layout.scss";
+@import "./layouts/blog-post.scss";
