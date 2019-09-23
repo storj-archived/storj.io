@@ -1,7 +1,8 @@
 ---
 name : Katherine Johnson
-title : Advisory Board
+title : General Counsel, VP of Compliance & HR
 headshot : /img/team/katherine.jpg
-class : board
+class : leadership
 all : true
+weight : 99
 ---
