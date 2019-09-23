@@ -1,110 +1,108 @@
 .milestones-wrapper {
-  overflow: auto;
+	overflow: auto;
 
-  &::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-  }
+	&::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+	}
 
-  .milestones {
-    display: inline-block;
-    position: relative;
-    padding: 24px 0;
-    list-style: none;
+	.milestones {
+		display: inline-block;
+		position: relative;
+		padding: 24px 0;
+		list-style: none;
 
-    &:before {
-      position: absolute;
-      content: " ";
-      height: 3px;
-      top: auto;
-      bottom: 30px;
-      left: 56px;
-      right: 0;
-      width: 100%;
-      margin-bottom: 20px;
-      margin-left: 8px;
-      background-color: #c4c4c4;
+		&:before {
+			position: absolute;
+			content: " ";
+			height: 3px;
+			top: auto;
+			bottom: 30px;
+			left: 56px;
+			right: 0;
+			width: 100%;
+			margin-bottom: 20px;
+			margin-left: 8px;
+			background-color: $gray-3;
 
-      &:last-child {
-        opacity: 0;
-      }
-    }
+			&:last-child {
+				opacity: 0;
+			}
+		}
 
-    .milestones-item {
-      display: table-cell;
-      position: relative;
-      float: none !important;
-      width: 20%;
-      margin: 0 auto;
-      padding: 0 20px 0 0;
-      vertical-align: bottom;
+		.milestones-item {
+			display: table-cell;
+			position: relative;
+			float: none !important;
+			width: 20%;
+			margin: 0 auto;
+			padding: 0 20px 0 0;
+			vertical-align: bottom;
 
-      &.current-milestone:after {
-        content: '';
-        position: absolute;
-        left: 60px;
-        top: 110px;
-        width: 0;
-        height: 0;
-        border-left: 16px solid transparent;
-        border-right: 16px solid transparent;
-        border-top: 16px solid $aurora-blue-dk;
-        clear: both;
-      }
+			&.current-milestone:after {
+				content: '';
+				position: absolute;
+				left: 60px;
+				top: 110px;
+				width: 0;
+				height: 0;
+				border-left: 16px solid transparent;
+				border-right: 16px solid transparent;
+				border-top: 16px solid $aurora-blue-dk;
+				clear: both;
+			}
 
-      .milestones-badge {
-        top: auto;
-        bottom: 14px;
-        left: 43px;
-        width: 26px;
-        height: 26px;
-        position: absolute;
-        margin-left: 20px;
-        z-index: 100;
-        border-radius: 50%;
-        background-color: #4f5d7c;
+			.milestones-badge {
+				top: auto;
+				bottom: 14px;
+				left: 43px;
+				width: 26px;
+				height: 26px;
+				position: absolute;
+				margin-left: 20px;
+				z-index: 100;
+				border-radius: 50%;
+				background-color: $milestone-badge-gray;
 
-        &.current-milestone {
-          background-color: $aurora-blue-dk;
-          border: 3px solid $white;
-          color: $white;
-        }
-      }
+				&.current-milestone {
+					background-color: $aurora-blue-dk;
+					border: 3px solid $white;
+					color: $white;
+				}
+			}
 
-      .milestones-panel {
-        display: inline-block;
-        top: auto;
-        bottom: 64px;
-        left: 0 !important;
-        right: 0 !important;
-        margin: 0 8px 74px 0;
-        padding: $base-height * 2;
-        height: $base-height * 14;
-        width: $base-height * 20;
-        background-color: $white;
-        opacity: 0.3;
-        border-radius: 4px;
+			.milestones-panel {
+				display: inline-block;
+				top: auto;
+				bottom: 64px;
+				margin: 0 8px 74px 0;
+				padding: $base-height * 2;
+				height: $base-height * 14;
+				width: $base-height * 20;
+				background-color: $white;
+				opacity: 0.3;
+				border-radius: 4px;
 
-        &.current-milestone {
-          background-color: $aurora-blue-dk;
-          border: 2px solid $white;
-          color: $white;
-          opacity: 1;
-        }
+				&.current-milestone {
+					background-color: $aurora-blue-dk;
+					border: 2px solid $white;
+					color: $white;
+					opacity: 1;
+				}
 
-        .milestones-cell {
-          display: table;
+				.milestones-cell {
+					display: table;
 
-          .milestones-title {
-            display: table-cell;
-            font-family: $header-font;
-            font-size: 12px;
-            font-weight: 500;
-            text-align: center;
-            vertical-align: middle;
-          }
-        }
-      }
-    }
-  }
+					.milestones-title {
+						display: table-cell;
+						font-family: $header-font;
+						font-size: 12px;
+						font-weight: 500;
+						text-align: center;
+						vertical-align: middle;
+					}
+				}
+			}
+		}
+	}
 }
