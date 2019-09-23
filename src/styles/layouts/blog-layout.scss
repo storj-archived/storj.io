@@ -1,122 +1,122 @@
 .blog-hero {
-  margin: $base-height * 13 auto;
+	margin: $base-height * 13 auto;
 
-  .hero-img {
-    width: 100%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
-  }
+	.hero-img {
+		width: 100%;
+		border-radius: 10px;
+		box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.25);
+	}
 
-  .hero-title {
-    margin-bottom: $base-height * 2;
-    font-size: 34px;
-    line-height: $base-height * 5;
-  }
+	.hero-title {
+		margin-bottom: $base-height * 2;
+		font-size: 34px;
+		line-height: $base-height * 5;
+	}
 
-  .byline {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: $base-height * 2;
-    line-height: $base-line-height;
-    font-size: 12px;
+	.byline {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: $base-height * 2;
+		line-height: $base-line-height;
+		font-size: 12px;
 
-    .aurthor {
-      strong {
-        font-weight: 500;
-        color: $aurora-blue-dk;
-      }
-    }
-  }
+		.aurthor {
+			strong {
+				font-weight: 500;
+				color: $aurora-blue-dk;
+			}
+		}
+	}
 
-  .blog-excerpt {
-    margin-bottom: $base-height * 6;
-  }
+	.blog-excerpt {
+		margin-bottom: $base-height * 6;
+	}
 
-  .read-more {
-    padding: 10px $base-height * 12;
-    font-family: $header-font;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    color: $white;
-    text-align: center;
+	.read-more {
+		padding: 10px $base-height * 12;
+		font-family: $header-font;
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 20px;
+		color: $white;
+		text-align: center;
 
-    &:hover {
-      background-color: $aurora-blue;
-      border-color: $aurora-blue;
-    }
-  }
+		&:hover {
+			background-color: $aurora-blue;
+			border-color: $aurora-blue;
+		}
+	}
 }
 
 #blog-list {
-  background-color: $gray-1;
-  padding: $base-height * 13 0;
+	background-color: $gray-1;
+	padding: $base-height * 13 0;
 
-  .navbar {
-    padding: 0;
+	.navbar {
+		padding: 0;
 
-    .navbar-brand {
-      padding: 0;
-      font-size: 22px;
-      line-height: $base-height * 5;
-    }
+		.navbar-brand {
+			padding: 0;
+			font-size: 22px;
+			line-height: $base-height * 5;
+		}
 
-    .link-text {
-      font-family: 'Roboto';
-      font-weight: 300;
-      font-size: 14px;
-      color: $gray-4;
-      margin-right: $base-height;
+		.link-text {
+			font-family: 'Roboto';
+			font-weight: 300;
+			font-size: 14px;
+			color: $gray-5;
+			margin-right: $base-height;
 
-      .icon-left {
-        margin-right: $base-height;
-        vertical-align: text-top;
-      }
+			.icon-left {
+				margin-right: $base-height;
+				vertical-align: text-top;
+			}
 
-      .icon-right {
-        margin: 0 $base-height 0 $base-line-height;
-        vertical-align: text-bottom;
-      }
-    }
+			.icon-right {
+				margin: 0 $base-height 0 $base-line-height;
+				vertical-align: text-bottom;
+			}
+		}
 
-    input {
-      margin-top: 0;
-      color: $gray-3;
+		input {
+			margin-top: 0;
+			color: $gray-3;
 
-      &::placeholder {
-        color: $gray-3;
-      }
-    }
+			&::placeholder {
+				color: $gray-3;
+			}
+		}
 
-    .form-conrol,
-    .search-input {
-      background-color: $white;
-      border-color: $gray-3;
-      border-right: 0;
-      font-size: 16px;
-      font-weight: 300;
-    }
+		.form-conrol,
+		.search-input {
+			background-color: $white;
+			border-color: $gray-3;
+			border-right: 0;
+			font-size: 16px;
+			font-weight: 300;
+		}
 
-    .input-group-text,
-    .search-icon {
-      background-color: $white;
-      padding: 8px;
-      border-color: $gray-3;
-      border-left: 0;
-      border-radius: 0 0.25rem 0.25rem 0;
-      line-height: 20px;
+		.input-group-text,
+		.search-icon {
+			background-color: $white;
+			padding: 8px;
+			border-color: $gray-3;
+			border-left: 0;
+			border-radius: 0 0.25rem 0.25rem 0;
+			line-height: 20px;
 
-      #search-blog {
-        color: $gray-3;
-      }
-    }
-  }
+			#search-blog {
+				color: $gray-3;
+			}
+		}
+	}
 
-  .blog-card {
-    border-radius: 10px;
+	.blog-card {
+		border-radius: 10px;
 
-    .card-img-top {
-      border-radius: 10px 10px 0 0;
-    }
-  }
+		.card-img-top {
+			border-radius: 10px 10px 0 0;
+		}
+	}
 }
