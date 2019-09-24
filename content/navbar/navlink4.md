@@ -1,5 +1,5 @@
 ---
 name : "Support"
-link : "https://storjlabs.atlassian.net/browse/MRTCH-135"
+link : "https://support.storj.io/hc/en-us"
 class : "navOption"
 ---

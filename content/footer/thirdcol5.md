@@ -1,5 +1,5 @@
 ---
-link : "https://storjlabs.atlassian.net/browse/MRTCH-135"
+link : "https://support.storj.io/hc/en-us"
 title : "Support"
 weight : 5
 class : "thirdcolfooter"
