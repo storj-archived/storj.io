@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-const openModel = (function() {
+const openModel = `(function() {
 	var qs,
 		js,
 		q,
@@ -19,7 +19,7 @@ const openModel = (function() {
 		q = gt.call(d, 'script')[0]
 		q.parentNode.insertBefore(js, q)
 	}
-})()
+})()`
 
 export default () => (
 	<StaticQuery
@@ -61,7 +61,7 @@ export default () => (
 							>
 								{node.frontmatter.ctaText}
 							</a>
-							<script>{openModel}</script>
+							<script dangerouslySetInnerHTML={{ __html: openModel }} />
 						</div>
 					</div>
 				))}

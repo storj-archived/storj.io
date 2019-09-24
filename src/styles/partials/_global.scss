@@ -2,95 +2,100 @@
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html,
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  font-size: 16px;
-  height: 100%;
-  margin: 0 auto;
+	font-size: 16px;
+	height: 100%;
+	margin: 0 auto;
 }
 
 body {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: $base-line-height;
-  letter-spacing: $base-line-height * 0.05;
-  margin: 0 auto;
-  background-color: $white;
-  color: $black;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: $base-line-height;
+	letter-spacing: $base-line-height * 0.05;
+	margin: 0 auto;
+	background-color: $white;
+	color: $black;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 a {
-  @include transition(all 0.15s ease-in-out);
-  color: $aurora-blue-dk;
-  text-decoration: none;
+	@include transition(all 0.15s ease-in-out);
+	color: $aurora-blue-dk;
+	text-decoration: none;
 
-  &:hover,
-  &:focus {
-    color: $aurora-blue-md;
-    text-decoration: none;
-  }
+	&:hover {
+		color: $aurora-blue-md;
+		text-decoration: none;
+	}
 }
 
 input,
 select,
 textarea {
-  display: block;
-  background: #fbfbfb;
-  border: 1px solid $gray-3;
-  border-radius: 4px;
-  color: #2683ff;
-  padding: 12px 18px 10px;
-  margin: 25px auto;
-  width: 100%;
-  max-width: 320px;
-  font-size: 16px;
-  @include transition(all 0.15s ease-in-out);
+	display: block;
+	background: #fbfbfb;
+	border: 1px solid $gray-3;
+	border-radius: 4px;
+	color: #2683ff;
+	padding: 12px 18px 10px;
+	margin: 25px auto;
+	width: 100%;
+	max-width: 320px;
+	font-size: 16px;
+	@include transition(all 0.15s ease-in-out);
 
-  &:focus {
-    outline: 0;
-    border-color: #2d86fb;
-  }
+	&:focus {
+		outline: 0;
+		border-color: #2d86fb;
+	}
 }
 
 section {
-  padding: $base-height * 13 0;
+	padding: $base-height * 13 0;
 }
 
 // === Custom Button Styles ========================================================== //
-.btn-custom {
-  padding: 10px $base-height * 3;
-  font-family: $header-font;
-  font-weight: 700;
-  border-radius: 4px;
-  color: $white;
+.btn {
+	&:focus {
+		box-shadow: none;
+	}
+}
 
-  &:hover {
-    background-color: $aurora-blue-md;
-    border-color: $aurora-blue-md;
-    color: $white;
-  }
+.btn-custom {
+	padding: 10px $base-height * 3;
+	font-family: $header-font;
+	font-weight: 700;
+	border-radius: 4px;
+	color: $white;
+
+	&:hover {
+		background-color: $aurora-blue-md;
+		border-color: $aurora-blue-md;
+		color: $white;
+	}
 }
 
 .btn-primary-alt {
-  background-color: $white;
-  color: $aurora-blue-dk;
+	background-color: $white;
+	color: $aurora-blue-dk;
 
-  &:hover {
-    background-color: $aurora-blue-md;
-    color: $white;
-  }
+	&:hover {
+		background-color: $aurora-blue-md;
+		color: $white;
+	}
 }
