@@ -1,5 +1,5 @@
 ---
-name : "Support"
-link : "https://support.storj.io/hc/en-us"
+name : "Node Operator"
+link : "/storage-node-operator"
 class : "navOption"
 ---
