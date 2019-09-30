@@ -1,9 +1,9 @@
 ---
-title : "terms-of-use"
-lastUpdated : "July 1, 2016"
+title: terms-of-use
+lastUpdated: 'July 1, 2016'
+draft: true
 ---
-
-<p><b>PLEASE READ THESE TERMS OF USE CAREFULLY.  NOTE THAT SECTION 17 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF USE, DO NOT ACCESS OR USE OUR SERVICES.</b></p>
+<p><b>READ THESE TERMS OF USE CAREFULLY.  NOTE THAT SECTION 17 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF USE, DO NOT ACCESS OR USE OUR SERVICES.</b></p>
 
 <p>By accessing or using the websites, mobile applications and online services of Storj Labs Inc. (“<b>Company</b>,” “<b>we</b>,” or “<b>us</b>”), including storj.io, (collectively, the “<b>Services</b>”) you will be bound by these Terms of Use (“<b>Terms</b>”) and all terms incorporated by reference.  If you do not agree to these Terms, you may not access or use the Services. </p>
 
