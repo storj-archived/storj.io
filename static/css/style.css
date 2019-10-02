@@ -5151,3 +5151,17 @@ color: #FFFFFF;
   padding: 80px;
   color: white;
 }
+
+.node-performance {
+  background: #F5F8FB;
+  mix-blend-mode: normal;
+}
+
+.node-performance .container {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.node-performance p {
+  text-align: left;
+}
