@@ -12,7 +12,7 @@
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right">
                   {{range where .Site.Pages ".Params.class" "navitem"}}
                   <li><a class="link-style" href="{{ .Params.link }}">{{ .Title }}</a><div class="visible-lg-inline-block" style="width:28px;display:inline-block"></div></li>
                   {{end}}
@@ -21,8 +21,15 @@
           </div>
         </div>
       </nav>
-    </section>
 
+    </section>
+    <div class="jumbotron dashboard-message">
+      <div><p><img src="/img/node-dashboard.png"/><b>Node Dashboard, Now Available</b></p><p> | Monitor your Node status, reputation, storage capacity, uptime and audit checks.</p>
+      </div>
+      <div>
+        <p>Learn More </p><p class="glyphicon glyphicon-chevron-down"></p>
+      </div>
+    </div>
     <div class="container no-spacing">
       <div class="row text-center">
         <div class="spacer100"></div>

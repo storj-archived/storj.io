@@ -188,6 +188,10 @@ img {
     margin-right:-4px;
 }
 
+.glyphicon-chevron-right {
+    left: 10px;
+}
+
 
 /* --------------------------------
 
@@ -5048,7 +5052,7 @@ color: #FFFFFF;
 
 .sno-bg {
   margin:0px;
-  background: url("../img/combkgrnd.png") center top no-repeat;
+  background: radial-gradient(160.22% 160.22% at 50% 100%, #133E9C 0%, #000000 100%), #133E9C;
   background-size: cover;
 }
 
@@ -5092,7 +5096,7 @@ color: #FFFFFF;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 18px;
   color: #133E9C;
 }
@@ -5114,6 +5118,33 @@ color: #FFFFFF;
   font-size: 18px;
   line-height: 38px;
   color: black;
+}
+
+.dashboard-message {
+  height: 48px;
+  left: 121px;
+  top: 102px;
+  background: rgba(255, 255, 255, 0.24);
+  mix-blend-mode: normal;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.dashboard-message img {
+  margin-right: 10px;
+}
+
+.dashboard-message p {
+  color: #fff;
+  font-size: 12px;
+  display: inline;
+}
+
+.dashboard-message .glyphicon {
+  margin-left: 10px;
+  top: 2px;
 }
 
 .how-it-works-steps {
