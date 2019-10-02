@@ -3945,7 +3945,7 @@ color: #FFFFFF;
 
 .hiw-bg{
   color:white;
-  background: #041845;
+  background:  radial-gradient(102.4% 102.4% at 50% 0%, #133E9C 0%, #000000 100%);
   mix-blend-mode: normal;
 }
 
@@ -4759,6 +4759,10 @@ color: #FFFFFF;
   padding:0px;
 }
 
+.sno-bg .no-spacing {
+  margin: inherit;
+}
+
 .events-table{
   width : 100%;
   border: 1.5px solid #C9D0D7;
@@ -4928,7 +4932,7 @@ color: #FFFFFF;
   text-align: center;
   margin: 0 10px 0 120px;
   border-radius: 50%;
-  background-color: #041845;
+  background-color: #09296c;
 }
 .progressbar li:after {
   width: 100%;
@@ -5100,6 +5104,6 @@ color: #FFFFFF;
 }
 
 .how-it-works-steps {
-  padding: 80px;
+  padding: 80px 0;
   color: white;
 }
