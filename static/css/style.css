@@ -5203,7 +5203,9 @@ Sign Up Node Operator
 }
 
 .email-form-container {
-  height: 50%
+  height: 40%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .complete-form-container {
@@ -5237,6 +5239,10 @@ Sign Up Node Operator
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
+}
+
+.sign-up-node-submit {
+  margin-top: 15px;
 }
 
 .sign-up-node-submit input {
@@ -5338,16 +5344,15 @@ Sign Up Node Operator
 }
 
 #signup-node-form-err-msg-container {
-  margin-bottom: 25px;
   color: red;
+  position: relative;
+  bottom: 4px;
 }
 
 .signup-node-form-error-msg {
-  background-color: #FFEFEF;
-  border: 1px solid #FF0000;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-left: 15px;
+  width: 100%;
 }
 
 .signup-node-form-error-msg a {
@@ -5363,6 +5368,7 @@ Sign Up Node Operator
   border: 1px solid #C5CBDB;
   box-sizing: border-box;
   border-radius: 6px;
+  height: 56px;
 }
 
 .complete-form a {
@@ -5392,4 +5398,8 @@ Sign Up Node Operator
 
 .sign-up-node-operator .footer {
   height: 106px;
+}
+
+.sign-up-node-operator .invisible {
+  display: none;
 }
