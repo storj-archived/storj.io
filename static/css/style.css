@@ -5199,7 +5199,9 @@ Sign Up Node Operator
 }
 
 .requirement-form-container {
-  height: 80%;
+  height: 70%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .email-form-container {
@@ -5245,6 +5247,10 @@ Sign Up Node Operator
   margin-top: 15px;
 }
 
+.requirement-form .sign-up-node-submit {
+  margin-top: 0;
+}
+
 .sign-up-node-submit input {
   background: #133E9C;
   width: 154px;
@@ -5257,16 +5263,34 @@ Sign Up Node Operator
   border-radius: 7px;
 }
 
+.submit-options {
+  padding-left: 0;
+}
+
 .checkbox-container {
   display: block;
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
-  font-size: 22px;
+  font-size: 14px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  padding-bottom: 12px;
+  line-height: 34px;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container p {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+ul.submit-options li:last-of-type {
+  border-bottom: none;
 }
 
 /* Hide the browser's default checkbox */
@@ -5402,4 +5426,8 @@ Sign Up Node Operator
 
 .sign-up-node-operator .invisible {
   display: none;
+}
+
+.sign-up-node-operator .footer .navbar-nav>li>a {
+  color: #224CA5;
 }
