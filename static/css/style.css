@@ -5439,6 +5439,10 @@ ul.submit-options li:last-of-type {
   height: 106px;
 }
 
+.footer .logo {
+  margin-top: 12px;
+}
+
 .sign-up-node-operator .invisible {
   display: none;
 }
