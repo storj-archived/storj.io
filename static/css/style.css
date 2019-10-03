@@ -376,8 +376,8 @@ Navigation
 
 .logo-signup {
   margin-left: 160px !important;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 320px) {
@@ -5128,6 +5128,12 @@ color: #FFFFFF;
   color: white;
 }
 
+/* --------------------------------
+
+Sign Up Node Operator
+
+-------------------------------- */
+
 .signup-node-bg {
   background: linear-gradient(158.94deg, #000F2C -1.77%, #3B6BC9 170.28%);
 }
@@ -5200,7 +5206,9 @@ color: #FFFFFF;
 }
 
 .complete-form-container {
-  height: 60%;
+  height: 50%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .form {
@@ -5320,8 +5328,8 @@ color: #FFFFFF;
 }
 
 .arrow-up {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid white;
@@ -5368,4 +5376,17 @@ color: #FFFFFF;
   border-radius: 7px;
 	border: 1px solid #eee;
 	padding: 12px 18px 10px;
+}
+
+.sign-up-node-operator .navbar {
+  height: 80px;
+  margin-bottom: 0;
+}
+
+.sign-up-node-operator .logo {
+  width: 100px;
+}
+
+.sign-up-node-operator .footer {
+  height: 106px;
 }
