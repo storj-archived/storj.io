@@ -5141,7 +5141,8 @@ Sign Up Node Operator
 .storj-ecosystem-bg {
   background-image: url('../img/storj-ecosystem.png');
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center;
+  background-size: 90%;
 }
 
 .signup-node-container {
@@ -5227,6 +5228,7 @@ Sign Up Node Operator
   font-weight: bold;
   font-size: 22px;
   line-height: 40px;
+  margin-bottom: 0
 }
 
 .form h2 {
@@ -5234,7 +5236,7 @@ Sign Up Node Operator
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 47px;
+  line-height: 30px;
 }
 
 .sign-up-node-submit input {
@@ -5365,7 +5367,7 @@ Sign Up Node Operator
 
 .complete-form a {
   display: block;
-  width: 190px;
+  width: 212px;
   background: #133E9C;
   color: white;
   font-family: Poppins;
@@ -5376,6 +5378,7 @@ Sign Up Node Operator
   border-radius: 7px;
 	border: 1px solid #eee;
 	padding: 12px 18px 10px;
+  margin-top: 30px;
 }
 
 .sign-up-node-operator .navbar {
