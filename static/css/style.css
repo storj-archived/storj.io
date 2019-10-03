@@ -5153,6 +5153,7 @@ Sign Up Node Operator
   width: 661px;
   height: 850px;
   background-color: #F4F6F9;
+  float: right;
 }
 
 .signup-steps {
@@ -5449,4 +5450,87 @@ ul.submit-options li:last-of-type {
 
 .sign-up-node-operator .footer .navbar-nav>li>a {
   color: #224CA5;
+}
+
+@media only screen and (max-width: 767px){
+  .storj-ecosystem-bg {
+    background-color: #F4F6F9;
+    background-image: none;
+  }
+
+  .signup-node-form {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 414px){
+  .ml-77 {
+    margin-left: 40px;
+  }
+
+  .signup-steps li {
+    margin: 0 60px;
+  }
+
+  .signup-steps li:before {
+    width: 137px;
+  }
+
+  .form {
+    margin: 0 10%;
+  }
+
+  .form h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .requirement-form h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .checkmark {
+    width: 23px;
+    height: 23px;
+  }
+
+  .checkbox-container p {
+    line-height: 18px;
+  }
+
+}
+
+@media only screen and (max-width: 375px){
+  .ml-77 {
+    margin-left: 30px;
+  }
+
+  .signup-steps li {
+    margin: 0 52px;
+  }
+
+  .signup-steps li:before {
+    width: 118px;
+  }
+
+
+}
+
+@media only screen and (max-width: 320px){
+  .ml-77 {
+    margin-left: 21px;
+  }
+
+  .signup-steps li {
+    margin: 0 43px;
+  }
+
+  .signup-steps li:before {
+    width: 112px;
+  }
+
+
 }
