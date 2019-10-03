@@ -5199,7 +5199,7 @@ Sign Up Node Operator
 }
 
 .requirement-form-container {
-  height: 70%;
+  height: 80%;
   width: 90%;
   margin: 0 auto;
 }
@@ -5241,6 +5241,11 @@ Sign Up Node Operator
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
+}
+
+.requirement-form h2 {
+  margin-bottom: 30px;
+
 }
 
 .sign-up-node-submit {
@@ -5377,6 +5382,16 @@ ul.submit-options li:last-of-type {
   box-sizing: border-box;
   border-radius: 4px;
   width: 100%;
+}
+
+.requirement-form .signup-node-form-error-msg {
+  background-color: #FFEFEF;
+  border: 1px solid #FF0000;
+  width: 85%;
+  padding: 10px 15px;
+  position: relative;
+  left: 14px;
+  bottom: 15px;
 }
 
 .signup-node-form-error-msg a {
