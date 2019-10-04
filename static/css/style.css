@@ -5464,9 +5464,25 @@ ul.submit-options li:last-of-type {
     margin: 0 auto;
   }
 
+  .signup-node-bg {
+    background: #F4F6F9;
+  }
+
   .storj-ecosystem-bg {
     background-color: #F4F6F9;
     background-image: none;
+  }
+
+  .addHeight .signup-node-container {
+    height: 950px;
+  }
+
+  .requirement-form-container {
+    height: 84%;
+  }
+
+  .addHeight .requirement-form-container {
+    height: 100%;
   }
 
   .signup-node-form {

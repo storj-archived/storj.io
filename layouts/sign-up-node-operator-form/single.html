@@ -3,7 +3,7 @@
   <head>
     {{ partial "head" .}}
   </head>
-  <body class="sign-up-node-operator">
+  <body class="sign-up-node-operator requirements">
     <!-- nav -->
     {{ partial "sign-up-node-operator-form/nav" .}}
     <!-- form -->
@@ -26,3 +26,39 @@
   {{partial "scripts" .}}
   </body>
 </html>
+
+<script type="text/javascript">
+    var onsubmit = function(event) {
+        event.preventDefault();
+        var inputs = event.target.getElementsByTagName("input");
+        var errElm = document.getElementById("signup-node-form-err-msg-container");
+        var result = {
+            "processor": false,
+            "diskSpace": false,
+            "availableBandwidth": false,
+            "upstreamBandwidth": false,
+            "downloadBandwidth": false,
+            "downtime": false
+        };
+
+        analytics.identify(analytics.user().anonymousId(), {});
+
+        for (input of inputs) {
+            if (input.type === "submit") {
+                continue;
+            }
+            if (!input.checked) {
+                // display error message
+                errElm.setAttribute("class", "row");
+                analytics.track("storage-node-sign-up-requimrents", result);
+                var formBody = document.querySelector('.requirements');
+                formBody.classList.add("addHeight")
+                return;
+            }
+            result[input.name] = input.value == "on";
+        }
+        analytics.track("storage-node-sign-up-requimrents", result);
+        errElm.setAttribute("class", "row invisible");
+        window.location.href = "https://storj.io/sign-up-node-operator-email";
+    }
+</script>
