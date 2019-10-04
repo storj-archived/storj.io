@@ -27,6 +27,7 @@
   </body>
 </html>
 
+<!-- moved here instead of form for height addition logic for error msg -->
 <script type="text/javascript">
     var onsubmit = function(event) {
         event.preventDefault();
@@ -52,6 +53,7 @@
                 errElm.setAttribute("class", "row");
                 analytics.track("storage-node-sign-up-requimrents", result);
                 var formBody = document.querySelector('.requirements');
+                // height needs to be added to accomodate large err msg
                 formBody.classList.add("addHeight")
                 return;
             }

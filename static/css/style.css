@@ -5474,7 +5474,7 @@ ul.submit-options li:last-of-type {
   }
 
   .addHeight .signup-node-container {
-    height: 950px;
+    height: 1000px;
   }
 
   .requirement-form-container {
@@ -5518,6 +5518,10 @@ ul.submit-options li:last-of-type {
     width: 137px;
   }
 
+  .email-form .signup-steps li:before {
+    width: 132px;
+  }
+
   .form {
     margin: 0 10%;
   }
@@ -5542,7 +5546,7 @@ ul.submit-options li:last-of-type {
   }
 
   .ml-295 {
-    margin-left: 162px;
+    margin-left: 160px;
   }
 
   .ml-515 {
@@ -5583,18 +5587,34 @@ ul.submit-options li:last-of-type {
     margin-left: 21px;
   }
 
+  .signup-steps li {
+      margin: 0 13%;
+  }
 
   .signup-steps li:before {
-    width: 112px;
+    width: 109px;
+  }
+
+  .email-form .signup-steps li:before {
+    width: 88px;
+  }
+
+  .email-form-container {
+    width: 261px;
   }
 
   .ml-295 {
-    margin-left: 115px;
+    margin-left: 112px;
   }
 
   .ml-515 {
     margin-left: 206px;
   }
+
+
+  .addHeight .requirement-form-container {
+    height: 884px;
+}
 
   .complete .signup-steps li {
       margin: 0 38px;
