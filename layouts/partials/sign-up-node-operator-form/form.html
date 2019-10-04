@@ -67,16 +67,7 @@
         event.preventDefault();
         var inputs = event.target.getElementsByTagName("input");
         var errElm = document.getElementById("signup-node-form-err-msg-container");
-        var result = {
-            "processor": false,
-            "diskSpace": false,
-            "availableBandwidth": false,
-            "upstreamBandwidth": false,
-            "downloadBandwidth": false,
-            "downtime": false
-        };
-
-        analytics.identify(analytics.user().anonymousId(), {});
+        var result = new FormData();
 
         for (input of inputs) {
             if (input.type === "submit") {
@@ -88,10 +79,28 @@
                 analytics.track("storage-node-sign-up-requimrents", result);
                 return;
             }
-            result[input.name] = input.value == "on";
+            result.append(input.name, input.value == "on");
         }
-        analytics.track("storage-node-sign-up-requimrents", result);
-        errElm.setAttribute("class", "row invisible");
-        window.location.href = "https://storj.io/sign-up-node-operator-email";
+        // send the result to the server
+        fetch("/sno-signup/step1", {
+            method: "POST",
+            body: result,
+        }).then(response => response.json())
+        .then(response => {
+            errElm.setAttribute("class", "row invisible");
+            createCookie("storj_session_token", response.Token);
+            result = {};
+            window.location.href = "https://storj.io//sign-up-node-operator-email";
+        })
+        .catch(err => {
+            result = {};
+            return
+        });
+    }
+    var createCookie = function(name, value) {
+        var date = new Date();
+        date.setTime(date.getTime() + (24 * 60 * 60 * 1000));
+        var expires = "; expires=" + date.toGMTString();
+        document.cookie = name + "=" + value + expires + "; path=/";
     }
 </script>
