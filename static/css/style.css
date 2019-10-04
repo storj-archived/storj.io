@@ -5165,3 +5165,56 @@ color: #FFFFFF;
 .node-performance p {
   text-align: left;
 }
+
+@media only screen and (max-width: 991px) {
+  .node-performance .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .node-performance .container .row {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .spacer100 {
+    display: none;
+  }
+
+  .node-performance .container .row {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    /* optional */
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+  }
+
+  .col-md-4 {
+    margin: 90px 0;
+    padding: 0 10%;
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .np-bg {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
