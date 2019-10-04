@@ -5453,6 +5453,17 @@ ul.submit-options li:last-of-type {
 }
 
 @media only screen and (max-width: 767px){
+
+  .logo-signup {
+    margin: 0 auto;
+    margin: 12px auto;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .sign-up-node-operator .logo {
+    margin: 0 auto;
+  }
+
   .storj-ecosystem-bg {
     background-color: #F4F6F9;
     background-image: none;
@@ -5462,6 +5473,19 @@ ul.submit-options li:last-of-type {
     width: 100%;
     float: none;
     margin: 0 auto;
+  }
+
+  .footer .container-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .footer .nav>li {
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 7px;
   }
 }
 
