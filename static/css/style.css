@@ -5471,7 +5471,7 @@ ul.submit-options li:last-of-type {
   }
 
   .signup-steps li {
-    margin: 0 60px;
+      margin: 0 14%;
   }
 
   .signup-steps li:before {
@@ -5501,6 +5501,18 @@ ul.submit-options li:last-of-type {
     line-height: 18px;
   }
 
+  .ml-295 {
+    margin-left: 162px;
+  }
+
+  .ml-515 {
+    margin-left: 284px;
+  }
+
+  .complete .signup-steps li:before {
+    width: 134px;
+  }
+
 }
 
 @media only screen and (max-width: 375px){
@@ -5508,14 +5520,21 @@ ul.submit-options li:last-of-type {
     margin-left: 30px;
   }
 
-  .signup-steps li {
-    margin: 0 52px;
-  }
-
   .signup-steps li:before {
     width: 118px;
   }
 
+  .ml-295 {
+    margin-left: 141px;
+  }
+
+  .ml-515 {
+    margin-left: 259px;
+  }
+
+  .complete .signup-steps li:before {
+    width: 114px;
+  }
 
 }
 
@@ -5524,12 +5543,25 @@ ul.submit-options li:last-of-type {
     margin-left: 21px;
   }
 
-  .signup-steps li {
-    margin: 0 43px;
-  }
 
   .signup-steps li:before {
     width: 112px;
+  }
+
+  .ml-295 {
+    margin-left: 115px;
+  }
+
+  .ml-515 {
+    margin-left: 206px;
+  }
+
+  .complete .signup-steps li {
+      margin: 0 38px;
+  }
+
+  .complete .signup-steps li:before {
+    width: 94px;
   }
 
 
