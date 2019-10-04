@@ -5491,6 +5491,29 @@ ul.submit-options li:last-of-type {
     margin: 0 auto;
   }
 
+  .complete-form-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .complete-form-container .col-xs-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .complete-form-container .col-xs-12 {
+    padding: 0;
+  }
+
+  .complete-form-container .img-responsive, .thumbnail>img, .thumbnail a>img {
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .complete-form a {
+    margin: 0 auto;
+  }
+
   .footer .container-fluid {
     display: flex;
     justify-content: space-between;
@@ -5554,7 +5577,7 @@ ul.submit-options li:last-of-type {
   }
 
   .complete .signup-steps li:before {
-    width: 134px;
+    width: 128px;
   }
 
 }
@@ -5580,6 +5603,20 @@ ul.submit-options li:last-of-type {
     width: 114px;
   }
 
+}
+
+@media only screen and (max-width: 375px){
+  .complete .signup-steps li {
+    margin: 0 13%;
+  }
+
+  .complete .signup-steps li:before {
+    width: 99px;
+  }
+
+  .ml-515 {
+    margin-left: 231px;
+  }
 }
 
 @media only screen and (max-width: 320px){
@@ -5621,7 +5658,7 @@ ul.submit-options li:last-of-type {
   }
 
   .complete .signup-steps li:before {
-    width: 94px;
+    width: 92px;
   }
 
 
