@@ -5749,3 +5749,31 @@ ul.submit-options li:last-of-type {
 
 
 }
+
+.steps {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 20px;
+}
+
+.steps div {
+  width: 34%;
+  border-bottom: 4px solid #AFB7C1;
+  position: relative;
+  bottom: 7px;
+}
+
+.steps span {
+  height: 16px;
+  width: 16px;
+  background-color: #AFB7C1;
+  border-radius: 50%;
+}
+
+.steps .active {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #fff;
+  background-color: #133E9C;
+}
