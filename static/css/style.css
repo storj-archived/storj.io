@@ -404,6 +404,8 @@ Navigation
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
     border-radius: 0;
+    width: 36px;
+    margin-bottom: 7px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: 0;
@@ -2901,6 +2903,7 @@ Media Queries
 	.navbar-default .navbar-toggle {
     	margin-top: 2em;
     	margin-right: 2em;
+      border: none;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
 	    color: #fff;
@@ -5161,6 +5164,10 @@ color: #FFFFFF;
 }
 
 @media only screen and (max-width: 768px) {
+  .navbar-toggle {
+    border: none;
+  }
+
   .dashboard-message {
     width: 97%;
     left: 10px;
@@ -5245,5 +5252,9 @@ color: #FFFFFF;
     order: 1;
     margin-top: -5.8%;
     padding: 0;
+  }
+
+  .start-sharing .spacer40 {
+    height: 10px;
   }
 }
