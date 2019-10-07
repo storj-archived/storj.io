@@ -5167,7 +5167,7 @@ Sign Up Node Operator
   line-height: 2em;
   border-radius: 8px;
   background: #AFB7C1;
-  margin: 0 100px;
+  margin: 0 105px;
   display: inline-block;
   position: relative;
   z-index: 2;
@@ -5177,7 +5177,7 @@ Sign Up Node Operator
   content: '';
   position: absolute;
   top: 6px;
-  width: 225px;
+  width: 227px;
   height: 3.5px;
   background: #AFB7C1;
 }
@@ -5460,6 +5460,19 @@ ul.submit-options li:last-of-type {
     width: 100%;
     margin-left: 0 !important;
   }
+
+  .signup-steps li{
+    margin: 0 85px;
+  }
+
+  .signup-steps li:before {
+    width: 187px;
+  }
+
+  .ml-77 {
+    margin-left: 65px;
+  }
+
   .sign-up-node-operator .logo {
     margin: 0 auto;
   }
@@ -5525,6 +5538,22 @@ ul.submit-options li:last-of-type {
     margin: 0;
     position: relative;
     top: 7px;
+  }
+}
+
+
+@media only screen and (max-width: 560px){
+
+  .signup-steps li {
+    margin: 0 14%;
+  }
+
+  .signup-steps li:before {
+    width: 166px;
+  }
+
+  .ml-77 {
+      margin-left: 47px;
   }
 }
 
