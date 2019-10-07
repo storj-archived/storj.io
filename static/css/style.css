@@ -5156,42 +5156,40 @@ Sign Up Node Operator
   float: right;
 }
 
-.signup-steps {
-  padding: 0;
-}
-
-.signup-steps li {
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  line-height: 2em;
-  border-radius: 8px;
-  background: #AFB7C1;
-  margin: 0 100px;
-  display: inline-block;
+.steps {
+  display: flex;
+  justify-content: center;
   position: relative;
-  z-index: 2;
+  bottom: 16px;
 }
 
-.signup-steps li:before{
-  content: '';
-  position: absolute;
-  top: 6px;
-  width: 225px;
-  height: 3.5px;
-  background: #AFB7C1;
+.steps div {
+  width: 34%;
+  border-bottom: 4px solid #AFB7C1;
+  position: relative;
+  bottom: 7px;
 }
 
-.signup-step:last-child:before {
-  display: none;
+.steps span {
+  height: 16px;
+  width: 16px;
+  background-color: #AFB7C1;
+  border-radius: 50%;
 }
 
-.signup-steps .active {
-  background: #133E9C;
+.steps .active {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #fff;
+  background-color: #133E9C;
 }
 
-.signup-steps .active:before {
-  background: #133E9C;
+.steps span.done {
+  background-color: #133E9C;
+}
+
+.steps div.done {
+  border-bottom: 4px solid #133E9C;
 }
 
 .form-container {
@@ -5463,15 +5461,6 @@ ul.submit-options li:last-of-type {
     width: 100%;
     margin-left: 0 !important;
   }
-
-  .signup-steps li{
-    margin: 0 85px;
-  }
-
-  .signup-steps li:before {
-    width: 187px;
-  }
-
   .ml-77 {
     margin-left: 65px;
   }
@@ -5555,29 +5544,12 @@ ul.submit-options li:last-of-type {
 
 @media only screen and (min-width: 560px) and (max-width: 593px){
 
-  .email-form .signup-steps li, .complete .signup-steps li{
-    margin: 0 78px;
-  }
 
-  .email-form .signup-steps li:before, .complete .signup-steps li:before{
-    width: 180px;
-  }
 }
 
 
 @media only screen and (max-width: 560px){
 
-  .signup-steps li {
-    margin: 0 14%;
-  }
-
-  .email-form .signup-steps li, .complete .signup-steps li{
-    margin: 0 14%;
-  }
-
-  .signup-steps li:before {
-    width: 166px;
-  }
 
   .ml-77 {
       margin-left: 47px;
@@ -5591,9 +5563,6 @@ ul.submit-options li:last-of-type {
     margin-left: 195px;
   }
 
-  .email-form .signup-steps li:before, .complete .signup-steps li:before{
-    width: 156px;
-  }
 }
 
 @media only screen and (max-width: 414px){
@@ -5601,17 +5570,6 @@ ul.submit-options li:last-of-type {
     margin-left: 40px;
   }
 
-  .signup-steps li {
-      margin: 0 14%;
-  }
-
-  .signup-steps li:before {
-    width: 137px;
-  }
-
-  .email-form .signup-steps li:before {
-    width: 120px;
-  }
 
   .form {
     margin: 0 10%;
@@ -5644,9 +5602,6 @@ ul.submit-options li:last-of-type {
     margin-left: 284px;
   }
 
-  .complete .signup-steps li:before {
-    width: 128px;
-  }
 
 }
 
@@ -5667,17 +5622,11 @@ ul.submit-options li:last-of-type {
     margin-left: 259px;
   }
 
-  .complete .signup-steps li:before {
-    width: 114px;
-  }
 
 }
 
 @media only screen and (max-width: 375px){
 
-  .complete .signup-steps li:before {
-    width: 113px;
-  }
 
   .ml-515 {
     margin-left: 258px;
@@ -5685,14 +5634,6 @@ ul.submit-options li:last-of-type {
 }
 
 @media only screen and (max-width: 360px){
-
-  .email-form .signup-steps li:before {
-    width: 116px;
-  }
-
-  .email-form .signup-steps li {
-    margin: 0 46px;
-  }
 
   .ml-295 {
     margin-left: 135px;
@@ -5706,21 +5647,6 @@ ul.submit-options li:last-of-type {
     margin-left: 21px;
   }
 
-  .signup-steps li {
-      margin: 0 13%;
-  }
-
-  .signup-steps li:before {
-    width: 109px;
-  }
-
-  .email-form .signup-steps li:before {
-    width: 88px;
-  }
-
-  .email-form .signup-steps li{
-    margin: 0 13%;
-  }
 
   .email-form-container {
     width: 261px;
@@ -5739,41 +5665,6 @@ ul.submit-options li:last-of-type {
     height: 884px;
 }
 
-  .complete .signup-steps li {
-      margin: 0 38px;
-  }
-
-  .complete .signup-steps li:before {
-    width: 92px;
-  }
 
 
-}
-
-.steps {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 20px;
-}
-
-.steps div {
-  width: 34%;
-  border-bottom: 4px solid #AFB7C1;
-  position: relative;
-  bottom: 7px;
-}
-
-.steps span {
-  height: 16px;
-  width: 16px;
-  background-color: #AFB7C1;
-  border-radius: 50%;
-}
-
-.steps .active {
-  height: 18px;
-  width: 18px;
-  border: 2px solid #fff;
-  background-color: #133E9C;
 }
