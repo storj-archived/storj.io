@@ -5610,7 +5610,7 @@ ul.submit-options li:last-of-type {
   }
 
   .email-form .signup-steps li:before {
-    width: 132px;
+    width: 120px;
   }
 
   .form {
@@ -5674,18 +5674,32 @@ ul.submit-options li:last-of-type {
 }
 
 @media only screen and (max-width: 375px){
-  .complete .signup-steps li {
-    margin: 0 13%;
-  }
 
   .complete .signup-steps li:before {
-    width: 99px;
+    width: 113px;
   }
 
   .ml-515 {
-    margin-left: 231px;
+    margin-left: 258px;
   }
 }
+
+@media only screen and (max-width: 360px){
+
+  .email-form .signup-steps li:before {
+    width: 116px;
+  }
+
+  .email-form .signup-steps li {
+    margin: 0 46px;
+  }
+
+  .ml-295 {
+    margin-left: 135px;
+  }
+}
+
+
 
 @media only screen and (max-width: 320px){
   .ml-77 {
@@ -5702,6 +5716,10 @@ ul.submit-options li:last-of-type {
 
   .email-form .signup-steps li:before {
     width: 88px;
+  }
+
+  .email-form .signup-steps li{
+    margin: 0 13%;
   }
 
   .email-form-container {
