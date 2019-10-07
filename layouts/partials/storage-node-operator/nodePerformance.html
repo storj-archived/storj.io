@@ -13,18 +13,20 @@
 <div class="node-performance">
   <div class="container">
     <div class="row">
+      {{ with .Site.GetPage "nodePerformance"}}
       <div class="col-md-4 col-xs-12">
         <div class="spacer100"></div>
         <div class="spacer100"></div>
-        <p class="sno-heading">Node Performance</p>
-        <p class="sno-desc">Stay up-to-date on your Node’s status by monitoring your reputation, storage capacity, uptime and audit checks. Measure payouts, and much more with the Node Dashboard.</p>
+          <p class="sno-heading">{{.Params.heading}}</p>
+          <p class="sno-desc">{{.Params.subheading}}</p>
         <div class="spacer30"></div>
         <a href="/sign-up-node-operator/">
-          <p class="sno-cta-link">Get Started<span class="glyphicon glyphicon-chevron-right"></span></p>
+          <p class="sno-cta-link">{{.Params.linkname}}<span class="glyphicon glyphicon-chevron-right"></span></p>
         </a>
         <div class="spacer100"></div>
         <div class="spacer100"></div>
       </div>
+      {{end}}
       <img class="np-bg col-md-8 col-xs-12" src="/img/np-bg.png">
       </div>
     </div>
