@@ -3962,7 +3962,7 @@ color: #FFFFFF;
   mix-blend-mode: normal;
 }
 
-.hiw-subheading{
+.hiw-subheading {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
@@ -3972,6 +3972,79 @@ text-align: center;
 color: #FFFFFF;
 margin-top:30px;
 }
+
+@media only screen and (max-width: 991px) {
+
+  .hiw-bg {
+    background: #041845;
+  }
+
+  .hiw-bg .container {
+    padding: 0;
+    width: 100%;
+  }
+
+  .hiw-bg .row {
+    padding: 0;
+  }
+
+  .how-it-works-steps {
+    padding: 20px;
+    color: white;
+    margin-bottom: 70px;
+  }
+
+  .hiw-bg .sno-desc__white {
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .hiw-bg .col-md-4 {
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .resp-steps {
+    height: 70px;
+  }
+
+
+  .resp-steps div {
+    height: 60px;
+    z-index: 2;
+    border-bottom: 2px solid #2582FF;
+    position: relative;
+    bottom: 80px;
+    z-index: 1;
+  }
+
+  .resp-steps img {
+    z-index: 2;
+    position: relative;
+    background: #041845;
+  }
+
+  .resp-steps .stepThree {
+    width: 50%;
+  }
+
+  .resp-steps .stepOne {
+    left: 50%;
+  }
+
+  hr {
+    display: none;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #2582FF;
+    margin: 1em 0;
+    padding: 0;
+    position: relative;
+    bottom: 40px;
+    z-index: 1;
+  }
+}
+
 
 .helpDevs-BG{
   background: #F5F6FA;
@@ -4402,29 +4475,29 @@ margin-left:15px;color: #133E9C;
 
 @media only screen and (min-width: 321px) and (max-width: 767px){
 .governance-img{
-  margin-top:45px;
-  margin-left:-20px;
-}
+    margin-top:45px;
+    margin-left:-20px;
+  }
 }
 
 .mstone-heading{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: bold;
-font-size: 28px;
-line-height: 39px;
-text-align: center;
-color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .mstone-desc{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .mstone-bottom-wrapper{
@@ -4444,33 +4517,26 @@ color: #FFFFFF;
   color: #FFFFFF;
 }
 
-.stay-in-touch{
+@media only screen and (max-width: 767px){
+  .stay-in-touch{
+    text-align: center;
+  }
+
+  .footer .col-sm-2 {
+    left: 12%;
+  }
 }
 
-
-@media only screen and (max-width: 320px) {
-  .stay-in-touch{
-    margin-left:120px;
-  }
-}
-
-  @media only screen and (min-width: 321px) and (max-width: 767px){
-  .stay-in-touch{
-    margin-left:120px;
-
-  }
-  }
-
-  .footer-col-heading{
+.footer-col-heading{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 20px;
   color: #FFFFFF;
-  }
+}
 
-  .footer-link{
+.footer-link{
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
@@ -4478,34 +4544,35 @@ color: #FFFFFF;
   line-height: 28px;
   color: #FFFFFF;
   opacity: 0.6;
-  }
+}
 
-  .footer-link:hover{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 28px;
-    color: #FFFFFF;
-    opacity: 1.0;
-    text-decoration:none;
-  }
+.footer-link:hover{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 28px;
+  color: #FFFFFF;
+  opacity: 1.0;
+  text-decoration:none;
+}
 
 .footer-sub{
-height:50%;
-font-size: 12px;
-font-family: 'Poppins';
-background:#2582FF;
-border: 1px solid #2582FF;
-border-radius: 0px 0px 10px 10px;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 20px;
-text-align: center;
-letter-spacing: 0.25px;
-color: #FFFFFF;
-margin-top:-25px;
+  height:50%;
+  font-size: 12px;
+  font-family: 'Poppins';
+  background:#2582FF;
+  border: 1px solid #2582FF;
+  border-radius: 0px 0px 10px 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+  margin-top:-25px;
+  max-width: 320px;
 }
 
 .footer-em-input{
@@ -4968,10 +5035,7 @@ color: #FFFFFF;
 }
 
 @media only screen and (max-width: 991px) {
-  .how-it-works-steps {
-    padding: 20px;
-    color: white;
-  }
+
   .progressbar li:before {
     margin: 0 10px 0 50px;
   }
@@ -5257,4 +5321,10 @@ color: #FFFFFF;
   .start-sharing .spacer40 {
     height: 10px;
   }
+
+  .start-sharing .col-md-4 {
+    margin: 60px 0;
+  }
+
+
 }
