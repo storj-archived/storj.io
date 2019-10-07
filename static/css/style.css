@@ -5122,14 +5122,14 @@ color: #FFFFFF;
 
 .dashboard-message {
   height: 48px;
-  left: 121px;
-  top: 102px;
   background: rgba(255, 255, 255, 0.24);
   mix-blend-mode: normal;
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
   padding: 12px 15px;
+  width: 98%;
+  margin: 0 auto;
 }
 
 .dashboard-message img {
@@ -5145,6 +5145,27 @@ color: #FFFFFF;
 .dashboard-message .glyphicon {
   margin-left: 10px;
   top: 2px;
+}
+
+@media only screen and (max-width: 991px) {
+  .dashboard-message {
+    width: 96%;
+    position: relative;
+    left: 10px;
+  }
+
+  .nav-heading {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard-message {
+    width: 97%;
+    left: 10px;
+    top: 20px;
+  }
 }
 
 .how-it-works-steps {
@@ -5170,6 +5191,7 @@ color: #FFFFFF;
   .node-performance .container {
     margin: 0 auto;
     padding: 0;
+    width: 100%;
   }
 
   .node-performance .container .row {
@@ -5180,6 +5202,11 @@ color: #FFFFFF;
   .spacer100 {
     display: none;
   }
+
+  .node-performance p {
+    text-align: center;
+  }
+
 
   .node-performance .container .row {
     display: -webkit-box;
@@ -5216,5 +5243,7 @@ color: #FFFFFF;
     -ms-flex-order: 1;
     -webkit-order: 1;
     order: 1;
+    margin-top: -5.8%;
+    padding: 0;
   }
 }

@@ -26,7 +26,7 @@
     <div class="jumbotron dashboard-message">
       <div>
         <p><img src="/img/node-dashboard.png"/><b>Node Dashboard, Now Available</b></p>
-        <p> | Monitor your Node status, reputation, storage capacity, uptime and audit checks.</p>
+        <p> | {{.Params.dashboardMsg}}</p>
       </div>
       <div>
         <p>Learn More </p><p class="glyphicon glyphicon-chevron-down"></p>
@@ -34,7 +34,7 @@
     </div>
     <div class="container no-spacing">
       <div class="row text-center">
-        <div class="spacer100"></div>
+        <div class="spacer50"></div>
         <div class="col-sm-12 txt-white">
           <p class="sno-hero-heading">{{.Params.heading}}</p>
           <div class="col-sm-12 no-spacing txt-white">
@@ -62,7 +62,7 @@
 </div>
 
   <div class="container-fluid sno-bg visible-xs visible-sm text-center" style="overflow: hidden;padding:0px;margin:0px;max-height: 714px;">
-      <div class="container" style="padding-right:32.5px;padding-left:5px;">
+      <div class="container" style="padding-left:5px;">
       <section style="padding:0px;margin:0px;">
         <nav class="navbar navbar-default menu ">
           <div class="container">
@@ -97,8 +97,9 @@
           <p>Learn More </p><p class="glyphicon glyphicon-chevron-down"></p>
         </div>
       </div>
+      <div class="spacer50"></div>
       <div class="container no-spacing">
-          <div class="row text-center">
+          <div class="row text-center nav-heading">
             <div class="spacer100"></div>
             <div class="col-xs-12 txt-white">
               <p class="sno-hero-heading">{{.Params.heading}}</p>
