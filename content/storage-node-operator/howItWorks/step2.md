@@ -4,4 +4,5 @@ description: Once your node is set up, it will receive pieces of encrypted files
 heading: Store Data
 img: "/img/ico-number-2.svg"
 class: howItWorks
+divClass: "stepTwo"
 ---
