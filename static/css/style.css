@@ -5260,7 +5260,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 1360px) {
   .np-bg .col-md-4 {
-    right: 20%;
+    right: 15%;
   }
 }
 
@@ -5321,7 +5321,6 @@ color: #FFFFFF;
     -ms-flex-order: 1;
     -webkit-order: 1;
     order: 1;
-    margin-top: -5.8%;
     padding: 0;
   }
 
