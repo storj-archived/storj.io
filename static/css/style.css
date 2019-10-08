@@ -5203,6 +5203,10 @@ color: #FFFFFF;
   margin-right: 10px;
 }
 
+.dashboard-message a {
+  text-decoration: none;
+}
+
 .dashboard-message p {
   color: #fff;
   font-size: 12px;
