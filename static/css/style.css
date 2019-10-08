@@ -189,7 +189,7 @@ img {
 }
 
 .ml-295 {
-  margin-left: 295px;
+  margin-left: 303px;
 }
 
 .ml-77 {
@@ -197,7 +197,7 @@ img {
 }
 
 .ml-515 {
-  margin-left: 515px;
+  margin-left: 531px;
 }
 
 
@@ -5461,19 +5461,22 @@ ul.submit-options li:last-of-type {
     width: 100%;
     margin-left: 0 !important;
   }
+
+  .steps div {
+    width: 31%;
+  }
+
   .ml-77 {
-    margin-left: 65px;
+    margin-left: 14%;
   }
 
   .ml-295 {
-    margin-left: 251px;
+    margin-left: 48%;
   }
 
   .ml-515 {
-      margin-left: 442px;
+      margin-left: 81%;
   }
-
-
 
   .sign-up-node-operator .logo {
     margin: 0 auto;
@@ -5542,32 +5545,22 @@ ul.submit-options li:last-of-type {
   }
 }
 
-@media only screen and (min-width: 560px) and (max-width: 593px){
-
-
-}
-
-
 @media only screen and (max-width: 560px){
 
 
   .ml-77 {
-      margin-left: 47px;
-  }
-
-  .ml-515 {
-    margin-left: 345px;
+      margin-left: 13%;
   }
 
   .ml-295 {
-    margin-left: 195px;
+    margin-left: 47%;
   }
 
 }
 
 @media only screen and (max-width: 414px){
   .ml-77 {
-    margin-left: 40px;
+    margin-left: 11%;
   }
 
 
@@ -5595,43 +5588,23 @@ ul.submit-options li:last-of-type {
   }
 
   .ml-295 {
-    margin-left: 160px;
-  }
-
-  .ml-515 {
-    margin-left: 284px;
+    margin-left: 163px;
   }
 
 
 }
 
 @media only screen and (max-width: 375px){
-  .ml-77 {
-    margin-left: 30px;
-  }
-
-  .signup-steps li:before {
-    width: 118px;
-  }
-
   .ml-295 {
     margin-left: 141px;
   }
 
   .ml-515 {
-    margin-left: 259px;
+    margin-left: 245px;
   }
-
 
 }
 
-@media only screen and (max-width: 375px){
-
-
-  .ml-515 {
-    margin-left: 258px;
-  }
-}
 
 @media only screen and (max-width: 360px){
 
@@ -5657,7 +5630,7 @@ ul.submit-options li:last-of-type {
   }
 
   .ml-515 {
-    margin-left: 206px;
+    margin-left: 213px;
   }
 
 
