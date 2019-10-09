@@ -46,8 +46,7 @@
             }
             email = input.value
         }
-        analytics.track("storage-node-sign-up-email", { email });
-        errElm.setAttribute("class", "rwo invisible");
+        analytics.identify(analytics.user().anonymousId(), {email: email, authToken: "unknown"});
         window.location.href = "https://storj.io/sign-up-node-operator-confirm";
     }
 </script>

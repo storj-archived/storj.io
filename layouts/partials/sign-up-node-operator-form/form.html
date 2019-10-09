@@ -76,8 +76,6 @@
             "downtime": false
         };
 
-        analytics.identify(analytics.user().anonymousId(), {});
-
         for (input of inputs) {
             if (input.type === "submit") {
                 continue;
@@ -85,12 +83,13 @@
             if (!input.checked) {
                 // display error message
                 errElm.setAttribute("class", "row");
-                analytics.track("storage-node-sign-up-requimrents", result);
+                analytics.identify(analytics.user().anonymousId(), result);
                 return;
             }
             result[input.name] = input.value == "on";
         }
-        analytics.track("storage-node-sign-up-requimrents", result);
+
+        analytics.identify(analytics.user().anonymousId(), result);
         errElm.setAttribute("class", "row invisible");
         window.location.href = "https://storj.io/sign-up-node-operator-email";
     }
