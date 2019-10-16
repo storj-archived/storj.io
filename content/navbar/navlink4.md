@@ -1,5 +1,5 @@
 ---
 name : "Support"
-link : "https://storjlabs.atlassian.net/servicedesk/customer/portals"
+link : "https://support.storj.io/hc/en-us"
 class : "navOption"
 ---

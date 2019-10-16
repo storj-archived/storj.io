@@ -189,7 +189,7 @@ img {
 }
 
 .ml-295 {
-  margin-left: 295px;
+  margin-left: 303px;
 }
 
 .ml-77 {
@@ -197,7 +197,7 @@ img {
 }
 
 .ml-515 {
-  margin-left: 515px;
+  margin-left: 531px;
 }
 
 
@@ -376,8 +376,8 @@ Navigation
 
 .logo-signup {
   margin-left: 160px !important;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 320px) {
@@ -5128,6 +5128,12 @@ color: #FFFFFF;
   color: white;
 }
 
+/* --------------------------------
+
+Sign Up Node Operator
+
+-------------------------------- */
+
 .signup-node-bg {
   background: linear-gradient(158.94deg, #000F2C -1.77%, #3B6BC9 170.28%);
 }
@@ -5135,7 +5141,8 @@ color: #FFFFFF;
 .storj-ecosystem-bg {
   background-image: url('../img/storj-ecosystem.png');
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center;
+  background-size: 90%;
 }
 
 .signup-node-container {
@@ -5146,44 +5153,43 @@ color: #FFFFFF;
   width: 661px;
   height: 850px;
   background-color: #F4F6F9;
+  float: right;
 }
 
-.signup-steps {
-  padding: 0;
-}
-
-.signup-steps li {
-  width: 15px;
-  height: 15px;
-  text-align: center;
-  line-height: 2em;
-  border-radius: 8px;
-  background: #AFB7C1;
-  margin: 0 100px;
-  display: inline-block;
+.steps {
+  display: flex;
+  justify-content: center;
   position: relative;
-  z-index: 2;
+  bottom: 16px;
 }
 
-.signup-steps li:before{
-  content: '';
-  position: absolute;
-  top: 6px;
-  width: 225px;
-  height: 3.5px;
-  background: #AFB7C1;
+.steps div {
+  width: 34%;
+  border-bottom: 4px solid #AFB7C1;
+  position: relative;
+  bottom: 7px;
 }
 
-.signup-step:last-child:before {
-  display: none;
+.steps span {
+  height: 16px;
+  width: 16px;
+  background-color: #AFB7C1;
+  border-radius: 50%;
 }
 
-.signup-steps .active {
-  background: #133E9C;
+.steps .active {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #fff;
+  background-color: #133E9C;
 }
 
-.signup-steps .active:before {
-  background: #133E9C;
+.steps span.done {
+  background-color: #133E9C;
+}
+
+.steps div.done {
+  border-bottom: 4px solid #133E9C;
 }
 
 .form-container {
@@ -5193,14 +5199,20 @@ color: #FFFFFF;
 
 .requirement-form-container {
   height: 80%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .email-form-container {
-  height: 50%
+  height: 40%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .complete-form-container {
-  height: 60%;
+  height: 50%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .form {
@@ -5218,7 +5230,10 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 40px;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 0;
+  width: 90%;
 }
 
 .form h2 {
@@ -5226,7 +5241,21 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  line-height: 47px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.requirement-form h2 {
+  margin-bottom: 30px;
+
+}
+
+.sign-up-node-submit {
+  margin-top: 15px;
+}
+
+.requirement-form .sign-up-node-submit {
+  margin-top: 0;
 }
 
 .sign-up-node-submit input {
@@ -5241,16 +5270,34 @@ color: #FFFFFF;
   border-radius: 7px;
 }
 
+.submit-options {
+  padding-left: 0;
+}
+
 .checkbox-container {
   display: block;
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
-  font-size: 22px;
+  font-size: 14px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  padding-bottom: 12px;
+  line-height: 34px;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container p {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+ul.submit-options li:last-of-type {
+  border-bottom: none;
 }
 
 /* Hide the browser's default checkbox */
@@ -5320,24 +5367,33 @@ color: #FFFFFF;
 }
 
 .arrow-up {
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
   border-bottom: 15px solid white;
 }
 
 #signup-node-form-err-msg-container {
-  margin-bottom: 25px;
   color: red;
+  position: relative;
+  bottom: 4px;
 }
 
 .signup-node-form-error-msg {
-  background-color: #FFEFEF;
-  border: 1px solid #FF0000;
   box-sizing: border-box;
   border-radius: 4px;
-  margin-left: 15px;
+  width: 100%;
+}
+
+.requirement-form .signup-node-form-error-msg {
+  background-color: #FFEFEF;
+  border: 1px solid #FF0000;
+  width: 85%;
+  padding: 10px 15px;
+  position: relative;
+  left: 14px;
+  bottom: 15px;
 }
 
 .signup-node-form-error-msg a {
@@ -5353,11 +5409,12 @@ color: #FFFFFF;
   border: 1px solid #C5CBDB;
   box-sizing: border-box;
   border-radius: 6px;
+  height: 56px;
 }
 
 .complete-form a {
   display: block;
-  width: 190px;
+  width: 212px;
   background: #133E9C;
   color: white;
   font-family: Poppins;
@@ -5368,4 +5425,219 @@ color: #FFFFFF;
   border-radius: 7px;
 	border: 1px solid #eee;
 	padding: 12px 18px 10px;
+  margin-top: 30px;
+}
+
+.sign-up-node-operator .navbar {
+  height: 80px;
+  margin-bottom: 0;
+}
+
+.sign-up-node-operator .logo {
+  width: 100px;
+}
+
+.sign-up-node-operator .footer {
+  height: 106px;
+}
+
+.footer .logo {
+  margin-top: 12px;
+}
+
+.sign-up-node-operator .invisible {
+  display: none;
+}
+
+.sign-up-node-operator .footer .navbar-nav>li>a {
+  color: #224CA5;
+}
+
+@media only screen and (max-width: 767px){
+
+  .logo-signup {
+    margin: 0 auto;
+    margin: 12px auto;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .steps div {
+    width: 31%;
+  }
+
+  .ml-77 {
+    margin-left: 14%;
+  }
+
+  .ml-295 {
+    margin-left: 48%;
+  }
+
+  .ml-515 {
+      margin-left: 81%;
+  }
+
+  .sign-up-node-operator .logo {
+    margin: 0 auto;
+  }
+
+  .signup-node-bg {
+    background: #F4F6F9;
+  }
+
+  .storj-ecosystem-bg {
+    background-color: #F4F6F9;
+    background-image: none;
+  }
+
+  .addHeight .signup-node-container {
+    height: 1000px;
+  }
+
+  .requirement-form-container {
+    height: 84%;
+  }
+
+  .addHeight .requirement-form-container {
+    height: 100%;
+  }
+
+  .signup-node-form {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .complete-form-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .complete-form-container .col-xs-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .complete-form-container .col-xs-12 {
+    padding: 0;
+  }
+
+  .complete-form-container .img-responsive, .thumbnail>img, .thumbnail a>img {
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .complete-form a {
+    margin: 0 auto;
+  }
+
+  .footer .container-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer .nav>li {
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 7px;
+  }
+}
+
+@media only screen and (max-width: 560px){
+
+
+  .ml-77 {
+      margin-left: 13%;
+  }
+
+  .ml-295 {
+    margin-left: 47%;
+  }
+
+}
+
+@media only screen and (max-width: 414px){
+  .ml-77 {
+    margin-left: 11%;
+  }
+
+
+  .form {
+    margin: 0 10%;
+  }
+
+  .form h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .requirement-form h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .checkmark {
+    width: 23px;
+    height: 23px;
+  }
+
+  .checkbox-container p {
+    line-height: 18px;
+  }
+
+  .ml-295 {
+    margin-left: 163px;
+  }
+
+
+}
+
+@media only screen and (max-width: 375px){
+  .ml-295 {
+    margin-left: 141px;
+  }
+
+  .ml-515 {
+    margin-left: 245px;
+  }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+  .ml-295 {
+    margin-left: 135px;
+  }
+}
+
+
+
+@media only screen and (max-width: 320px){
+  .ml-77 {
+    margin-left: 21px;
+  }
+
+
+  .email-form-container {
+    width: 261px;
+  }
+
+  .ml-295 {
+    margin-left: 112px;
+  }
+
+  .ml-515 {
+    margin-left: 213px;
+  }
+
+
+  .addHeight .requirement-form-container {
+    height: 884px;
+}
+
+
+
 }

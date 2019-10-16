@@ -1,5 +1,5 @@
 ---
-link : "https://storjlabs.atlassian.net/servicedesk/customer/portals"
+link : "https://support.storj.io/hc/en-us"
 title : "Support"
 weight : 5
 class : "thirdcolfooter"

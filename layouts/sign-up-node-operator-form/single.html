@@ -3,14 +3,14 @@
   <head>
     {{ partial "head" .}}
   </head>
-  <body>
+  <body class="sign-up-node-operator requirements">
     <!-- nav -->
     {{ partial "sign-up-node-operator-form/nav" .}}
     <!-- form -->
     <div class="signup-node-bg container-fluid signup-node-container">
       <div class="row">
         <div class="col-xs-12 storj-ecosystem-bg">
-          <div class="col-md-6 col-md-offset-4 col-lg-6 col-lg-offset-6 signup-node-form">
+          <div class="signup-node-form">
             <div class="spacer50"></div>
             {{ partial "sign-up-node-operator-form/progress-bar" .}}
             <div class="arrow-up ml-77"></div>
@@ -26,3 +26,41 @@
   {{partial "scripts" .}}
   </body>
 </html>
+
+<!-- moved here instead of form for height addition logic for error msg -->
+<script type="text/javascript">
+    var onsubmit = function(event) {
+        event.preventDefault();
+        var inputs = event.target.getElementsByTagName("input");
+        var errElm = document.getElementById("signup-node-form-err-msg-container");
+        var result = {
+            "processor": false,
+            "diskSpace": false,
+            "availableBandwidth": false,
+            "upstreamBandwidth": false,
+            "downloadBandwidth": false,
+            "downtime": false
+        };
+
+        analytics.identify(analytics.user().anonymousId(), {});
+
+        for (input of inputs) {
+            if (input.type === "submit") {
+                continue;
+            }
+            if (!input.checked) {
+                // display error message
+                errElm.setAttribute("class", "row");
+                analytics.track("storage-node-sign-up-requimrents", result);
+                var formBody = document.querySelector('.requirements');
+                // height needs to be added to accomodate large err msg
+                formBody.classList.add("addHeight")
+                return;
+            }
+            result[input.name] = input.value == "on";
+        }
+        analytics.track("storage-node-sign-up-requimrents", result);
+        errElm.setAttribute("class", "row invisible");
+        window.location.href = "https://storj.io/sign-up-node-operator-email";
+    }
+</script>

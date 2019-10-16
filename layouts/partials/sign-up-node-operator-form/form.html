@@ -5,7 +5,6 @@
                 <h1 class="black-text">Get Paid to Share Your Disk Space</h1>
         </div>
     </div>
-    <siv class="spacer10"></siv>
     <div class="row">
         <div class="sub-header col-xs-12">
                 <h2 class="light-black">Does your hardware meet these requirements?</h2>
@@ -15,82 +14,46 @@
     <div class="row invisible" id="signup-node-form-err-msg-container">
         <div class="signup-node-form-error-msg col-xs-10">
                 <span>We’re sorry, your hardware doesn’t meet the minimum requirements.</span>
-                <a href="https://documentation.storj.io" target="_blank"><span>Learn more about our node requirements.</span></a> 
+                <a href="https://documentation.storj.io" target="_blank"><span>Learn more about our node requirements.</span></a>
         </div>
     </div>
 
     <form onsubmit="onsubmit">
-        <div class="checkbox-container">
+      <ul class="submit-options">
+        <li class="checkbox-container">
             <input type="checkbox" name="processor" />
             <span class="checkmark"></span>
-            1 Processor Core
-            <hr/>
-        </div>
-        <div class="checkbox-container">
+            <p>1 Processor Core</p>
+        </li>
+        <li class="checkbox-container">
             <input type="checkbox" name="diskSpace" />
             <span class="checkmark"></span>
-            Minimum 500GB of available disk space
-            <hr/>
-        </div>
-        <div class="checkbox-container">
+            <p>Minimum 500GB of available disk space</p>
+        </li>
+        <li class="checkbox-container">
             <input type="checkbox" name="availableBandwidth" />
             <span class="checkmark"></span>
-            Minimum of 2TB of available bandwidth a month
-            <hr/>
-        </div>
-        <div class="checkbox-container">
+            <p>Minimum of 2TB of available bandwidth a month</p>
+        </li>
+        <li class="checkbox-container">
             <input type="checkbox" name="upstreamBandwidth" />
             <span class="checkmark"></span>
-            Minimum upstream bandwidth of 5 Mbps
-            <hr/>
-        </div>
-        <div class="checkbox-container">
+            <p>Minimum upstream bandwidth of 5 Mbps</p>
+        </li>
+        <li class="checkbox-container">
             <input type="checkbox" name="downloadBandwidth" />
             <span class="checkmark"></span>
-            Minimum download bandwidth of 25 Mpbs
-            <hr/>
-        </div>
-        <div class="checkbox-container">
+            <p>Minimum download bandwidth of 25 Mpbs</p>
+        </li>
+        <li class="checkbox-container">
             <input type="checkbox" name="downtime" />
             <span class="checkmark"></span>
-            Maximum down time of 5 hours a month
-        </div>
-        <div class="spacer30"></div>
+            <p>Maximum down time of 5 hours a month</p>
+        </li>
+        <div class="spacer10"></div>
         <div class="sign-up-node-submit">
             <input type="submit" value="Continue" />
         </div>
+      </ul>
   </form>
 </div>
-
-<script type="text/javascript">
-    var onsubmit = function(event) {
-        event.preventDefault();
-        var inputs = event.target.getElementsByTagName("input");
-        var errElm = document.getElementById("signup-node-form-err-msg-container");
-        var result = {
-            "processor": false,
-            "diskSpace": false,
-            "availableBandwidth": false,
-            "upstreamBandwidth": false,
-            "downloadBandwidth": false,
-            "downtime": false
-        };
-
-        for (input of inputs) {
-            if (input.type === "submit") {
-                continue;
-            }
-            if (!input.checked) {
-                // display error message
-                errElm.setAttribute("class", "row");
-                analytics.identify(analytics.user().anonymousId(), result);
-                return;
-            }
-            result[input.name] = input.value == "on";
-        }
-
-        analytics.identify(analytics.user().anonymousId(), result);
-        errElm.setAttribute("class", "row invisible");
-        window.location.href = "https://storj.io/sign-up-node-operator-email";
-    }
-</script>
