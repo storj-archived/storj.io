@@ -1,6 +1,6 @@
 ---
-link: "https://support.storj.io/hc/en-us"
-weight : 5
-title : "Support"
+link : "https://storj.io/blog"
+weight : 4
+title : "Blog"
 class : "navitem"
 ---
