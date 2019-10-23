@@ -1,0 +1,14 @@
+{{ $taxonomy := .taxonomy }}
+{{ $taxonomyname := .taxonomyname }}
+{{ $currentPage := . }}
+{{ with $taxonomy }}
+<h4 style="font-family: Montserrat;font-size: 18px;font-weight: 600;line-height: 27px;text-transform: capitalize;">Articles by {{ if eq $taxonomyname "categories"}}{{trim $taxonomyname "ies"}}y{{else}}{{ trim $taxonomyname "s"}}{{end}}</h4>
+
+    {{ range $name, $value := . }}
+    <a style="color: #333333;font-family: Montserrat;font-size: 16px;" href="{{ printf "/%s/" $taxonomyname | relLangURL }}{{ $name | urlize }}"><p style="text-transform:capitalize;" >{{ humanize $name }}</p></a>
+    {{ end }}
+    <div class="spacer35"></div>
+
+{{ end }}
+
+

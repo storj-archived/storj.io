@@ -1,0 +1,32 @@
+
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<div class="blog-main" style="padding:0px;margin:0px;">
+    <div class="row">
+<nav class="navigation paging-navigation col-xs-11 col-xs-offset-1 col-sm-11  col-sm-offset-1 col-md-9 col-md-offset-1 col-lg-9 col-lg-offset-0" role ="navigation">  
+            <a class="next {{ if not $pag.HasNext }}disabled{{ end }}" style="margin-left:15px;text-decoration:none;border-style:none;color:#333333;font-family: Montserrat;font-size: 16px;line-height: 27px; {{ if not $pag.HasNext }}color:#AAAAAA;{{ end }}" href="{{ if $pag.HasNext }}{{ $pag.Next.URL }}{{ end }}" aria-label="Next">&ltrif; Older Posts</span></a>
+        {{ $.Scratch.Set "__paginator.ellipsed" false }}
+        {{ range $pag.Pagers }}
+            {{ $right := sub .TotalPages .PageNumber }}
+            {{ $showNumber := or (le .PageNumber 3) (eq $right 0) }}
+            {{ $showNumber := or $showNumber (and (gt .PageNumber (sub $pag.PageNumber 2)) (lt .PageNumber (add $pag.PageNumber 2)))  }}
+            {{ if $showNumber }}
+                {{ $.Scratch.Set "__paginator.ellipsed" false }}
+                {{ $.Scratch.Set "__paginator.shouldEllipse" false }}
+            {{ else }}
+                {{ $.Scratch.Set "__paginator.shouldEllipse" (not ($.Scratch.Get "__paginator.ellipsed") ) }}
+                {{ $.Scratch.Set "__paginator.ellipsed" true }}
+            {{ end }}
+        {{ end }}
+            <a class="previous {{ if not $pag.HasPrev }}disabled{{ end }}" style="margin-right:40px;text-decoration:none;border-style:none;color:#333333;float: right;font-family: Montserrat;font-size: 16px;line-height: 27px; {{ if not $pag.HasPrev }}color:#AAAAAA; {{ end }}" href="{{ if $pag.HasPrev }}{{ $pag.Prev.URL }}{{ end }}"><span aria-hidden="true"></span>Newer Posts &rtrif;</a>    
+    <div class="spacer35"></div>
+    <div class="pager" style="background-color: #F2F4F6;padding:20px;border-radius:4px;margin-right:40px;">
+    Browse the <a style="text-decoration:underline;font-family: Montserrat;" href="{{ .Site.BaseURL }}/archive">Blog Archive</a> or <a id="rss-link" href="#" style="text-decoration:underline;">Subscribe to RSS</a> for the full text feed.
+    </div>
+</nav>
+</div>
+</div>
+<div class="spacer45"></div>
+{{ end }}
+
+

@@ -32,3 +32,58 @@ title = "storj.io"
   mandarin-invite = "/mandarin-invite/"
   sign-up-success = "/sign-up-success/"
   thankyou = "/thankyou/"
+  blog = "/blog/"
+  post = "/blog/:year/:month/:title/"
+
+
+
+  # Pagination
+  paginate = 6
+  paginatePath = "page"
+
+  [outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"
+
+  [mediaTypes]
+    [mediaTypes."text/yaml"]
+      suffixes = ["yml"]
+
+  [taxonomies]
+    category = "categories"
+    author = "authors"
+
+  # Google analytics
+  googleAnalytics = "UA-47268287-3"
+
+  [params]
+    # Main sections (currently used for the recent posts in the sidebar)
+    mainSections = ["post"]
+
+    # Date format (default: Jan 2, 2006)
+    # date_format = "Jan 2, 2006"
+
+    # Display post summaries instead of content in list templates (default: true)
+    # truncate = false
+
+    [params.sidebar]
+      # Whether to show the recent posts or not (default: true)
+      # showRecent = false
+
+      # Whether to show the taxonomies or not (default: true)
+      # showTaxonomy = false
+
+      # How many posts to show on the sidebar (Default: 5)
+      # num_recent_posts = 5
+
+
+    [params.sidebar2]
+      # Whether to show the recent posts or not (default: true)
+      # showRecent = false
+
+      # Whether to show the taxonomies or not (default: true)
+      # showTaxonomy = false
+
+      # How many posts to show on the sidebar (Default: 5)
+      # num_recent_posts = 3

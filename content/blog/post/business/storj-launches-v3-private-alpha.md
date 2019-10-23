@@ -1,0 +1,23 @@
+---
+title: Storj Launches V3 Private Alpha
+date: '2018-08-29T09:25:00-07:00'
+categories:
+  - business
+authors:
+  - Shawn Wilkinson
+---
+Today, I’m pleased to announce that we are launching the private alpha of the V3 network. We’ve come a long way since [announcing earlier this year that we would be rebuilding the network](https://blog.storj.io/post/169896892413/getting-from-petabytes-to-exabytes-the-road-ahead) to achieve better scalability. Since that announcement, the team has been working hard to design and build a network that will be able to scale well into the exabyte range, putting us on the same playing field as the largest cloud storage companies currently out there. 
+
+We encourage you to follow our [development updates](https://blog.storj.io/tagged/development-update) and other announcements, like our [streaming test](https://twitter.com/storjproject/status/1004831655738134528), our [V3 network overview](https://blog.storj.io/post/174919908598/a-look-at-storj-labs-decentralized-cloud-storage) and many others, which highlight some of the engineering behind the network and the thought our team put into each piece of the platform. Also, watch for our upcoming whitepaper, which will be out in a few weeks. 
+
+During our internal testing, the V3 network has continually surprised us with its responsiveness, performance and reliability. We’ve successfully streamed 4k video off the network with latency that is similar to what you would experience on a regular streaming service, like Netflix or Hulu. Even with such performance, we’ve already identified ways to further improve it by three times or more! 
+
+The V3 private alpha will first launch in a test environment where we can guarantee stability as we continue to test network functionality. To maximize our ability to fine-tune the network at this critical stage, it’s important to eliminate as many variables as possible, and our test environment will assure that. As we approach public alpha, we will begin opening the network to external storage node operators, beginning with those who are on [our farmer waitlist](https://storj.io/sign-up-farmer), those on our [developer waitlist](https://storj.io/sign-up), followed by other users. We expect to reach this milestone in Q4. Ahead of our public alpha launch, we also plan to update our licensing, making it more permissive, and infrastructure around contribution to make it easier for the community to get involved. We welcome contributions from open source community members of all skill levels.
+
+For the V3 alpha, we are inviting our partners to test the network and begin exploring how it can be used and integrated into their projects and platforms. In conjunction with this V3 alpha announcement, [we also launched a new Open Source Partner Program ](https://storj.io/blog/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network)that creates economic empowerment on the Storj network for open source companies that generate network usage. These new partners, as well as our existing partners, will be able to begin testing the Storj network with their platforms. In our discussions leading up to the launch, our partners have expressed how excited they are about the network’s possibilities. 
+
+If you haven’t joined our waitlists - both to rent your excess hard drive capacity on the network or to store data on the network - [you can sign up here](https://storj.io/#waitlist). You can also stay up to date by [joining our community](https://community.storj.io/), [following us on Twitter](https://twitter.com/storjproject) or [reading our blog](https://blog.storj.io/). 
+
+When I look back at how far our team has come in the past four years - from just an idea to becoming a major innovator in the cloud storage industry with more than 100PB stored - I am always reminded of the community members who have supported the project along the way. We were one of the first decentralized projects to emerge in the blockchain space, one of the first to do a token sale and one of the first to launch a platform, however, none of this would have been possible without the continued, tenacious support of community members like you! I really appreciate all the feedback we have received, the patience we were given and the trust that was placed in us. We still have a long way to go, but we look forward to further growth together as we continue to create the tools for people to weave the fabric of tomorrow’s internet!
+
+[Check out Ben Golub's blog to learn more about our new Open Source Partner Program.](https://storj.io/blog/2018/08/enabling-economic-empowerment-for-open-source-companies-via-the-storj-network/)

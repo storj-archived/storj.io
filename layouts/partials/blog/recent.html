@@ -1,0 +1,12 @@
+{{ $num_recent_posts := default 3 .Site.Params.sidebar.num_recent_posts }}
+{{ $posts := first $num_recent_posts (where .Site.Pages "Section" "in" .Site.Params.mainSections) }}
+{{ if gt (len $posts) 0 }}
+<section>
+    <h4 style="padding-bottom:5px;font-family: Montserrat;font-size: 20px;font-weight: 600;line-height: 27px;">Recent Articles</h4>
+    <div class="spacer20"></div>
+        {{ range $posts }}
+       <a style="text-decoration: underline;" href="{{.RelPermalink}}">{{.Title | markdownify }}</a></br></br>
+        {{ end }}
+  
+</section>
+{{ end }}

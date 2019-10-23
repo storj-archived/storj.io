@@ -1,0 +1,7 @@
+<aside class=" visible-lg col-lg-3 col-lg offset-0 blog-sidebar" style="padding-left:34px;">
+
+    {{ if default true .Site.Params.sidebar.showTaxonomy }}
+        {{ partial "taxonomies" . }}
+    {{ end }}
+ 
+</aside>

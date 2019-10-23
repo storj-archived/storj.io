@@ -1,0 +1,18 @@
+{{ $dateFormat := default "Jan 2, 2006" (index .Site.Params "date_format") }}
+
+{{ $author := .Params.authors | default .Site.Params.authors }}
+<div  class="blog-post-date text-secondary" style="margin-top:-15px;">
+
+{{ range .Params.authors }}
+        <a style="font-family: Montserrat;font-size: 18px;font-weight: 500;line-height: 22px;text-transform: capitalize;" href="{{ "/authors/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+on
+
+{{ range .Params.categories }}
+        <a  style="font-family: Montserrat;font-size: 18px;font-weight: 500;line-height: 22px;text-transform: capitalize;" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+    &bull;
+    {{ if not .Date.IsZero }}
+        {{ .Date.Format $dateFormat }}
+    {{ end }}
+</div>
