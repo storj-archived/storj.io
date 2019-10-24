@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="26px" height="21px" viewBox="0 0 26 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Group" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke="#000000" stroke-linejoin="round">
+            <path d="M21.5,13 C21.5,16.59 17.246,19.5 12,19.5 C6.753,19.5 2.5,16.59 2.5,13 C2.5,9.411 6.753,6.5 12,6.5 C17.246,6.5 21.5,9.411 21.5,13 L21.5,13 Z" id="Stroke-295" sketch:type="MSShapeGroup"></path>
+            <path d="M15.5371,15.8813 C14.5821,16.4313 13.3481,16.7633 12.0001,16.7633 C10.6461,16.7633 9.4061,16.4283 8.4471,15.8733" id="Stroke-296" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M17.5,11.5 C17.5,12.33 16.828,13 16,13 C15.172,13 14.5,12.33 14.5,11.5 C14.5,10.671 15.172,10 16,10 C16.828,10 17.5,10.671 17.5,11.5 L17.5,11.5 Z" id="Stroke-297" sketch:type="MSShapeGroup"></path>
+            <path d="M9.5,11.5 C9.5,12.33 8.828,13 8,13 C7.172,13 6.5,12.33 6.5,11.5 C6.5,10.671 7.172,10 8,10 C8.828,10 9.5,10.671 9.5,11.5 L9.5,11.5 Z" id="Stroke-298" sketch:type="MSShapeGroup"></path>
+            <path d="M18.7441,8.4224 C19.1461,7.5814 20.0051,7.0004 21.0001,7.0004 C22.3811,7.0004 23.5001,8.1194 23.5001,9.5004 C23.5001,10.7524 22.5801,11.7874 21.3811,11.9714" id="Stroke-299" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M22.5,2.5 C22.5,3.881 21.381,5 20,5 C18.619,5 17.5,3.881 17.5,2.5 C17.5,1.119 18.619,0 20,0 C21.381,0 22.5,1.119 22.5,2.5 L22.5,2.5 Z" id="Stroke-300" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M5.2568,8.4229 C4.8548,7.5819 3.9948,6.9999 2.9998,6.9999 C1.6188,6.9999 0.4998,8.1189 0.4998,9.4999 C0.4998,10.7519 1.4178,11.7879 2.6188,11.9709" id="Stroke-301" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+            <path d="M12,6.5 C12,6.5 11.875,-0.896 17.5,2.5" id="Stroke-302" stroke-linecap="round" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

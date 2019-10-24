@@ -1,56 +1,75 @@
-{{ define "main" }}
+<!doctype html>
+<html lang="{{ .Lang }}">
+  <head>
+    {{ partial "blog/head-meta" . }}
+    <title>
+      {{ block "title" . }}
+        {{ .Title}}{{ if ne .Title .Site.Title }} | {{ .Site.Title }}{{ end }}
+      {{ end }}
+    </title>
 
-    <div class="spacer45"></div>
-<!--{{ partial "backToBlogSingle" . }}-->
-    <div class="spacer45"></div>
+    {{ partial "blog/head-custom.html" . }}
+  </head>
+  <body class="overlay">
 
-   <div class="container">
-        <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 blog-main">
+    {{ partial "blog/nav.html" . }}
 
-                        <header>
-                    <h2 class="blog-post-title">
-                        <a style="font-family: Montserrat;	font-size: 30px;	font-weight: 600;	line-height: 40px;"class="text-dark" href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-                     </h2>
-                        {{ partial "post-date" . }}
-                        </header>
-
-                    <div class="spacer45"></div>
-
-        <article class="blog-post">
-                    <div class="row">
-                        <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
-                            {{ if isset .Params "image" }}
-                <img class="img-responsive" src="{{ .Params.image }}" style="width:98%;"/>
-                                {{ end }}
-                        <div class="spacer15"></div>
-                        </div>
-    </br>
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="color: #333333;	font-family: Montserrat;font-size: 16px;line-height: 34px;padding-right:45px;">
-                    {{ .Content }}
-                </div>
-                    </div>
-
-                        </article>
-
-
-<!--disqus-->
-<div class="spacer50"></div>
-        <div id="disqus_thread">
-            <script>
-                (function() {
-                    var d = document, s = d.createElement('script');
-                        s.src = 'https://storjblog.disqus.com/embed.js';
-                        s.setAttribute('data-timestamp', +new Date());
-                        (d.head || d.body).appendChild(s);
-                        })();
-                        </script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <div class="spacer15"></div>
+    {{ block "body" . }}
+          {{ block "main" . }}
+          {{ end }}
+          <div class="rss-instructions expose col-xs-11 col-xs-offset-0 col-sm-8 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 text-center" id="rss-instructions" style="max-width:600px;z-index: 10;position: absolute;top: 300px;padding: 50px;	border:1px solid black;border-radius: 8px;	background-color: #FFFFFF;box-shadow: 0 2px 104px 0 rgba(0,0,0,0.5);  box-shadow: 0 0 0 5000px rgba(0,0,0, .7);transition: 1s box-shadow;display:none;">
+            <p id="x-out" style="text-align:right;font-size:20px;">X</p>
+              <h1 style="font-weight:800;font-size: 36px;line-height:44px;">Add the Storj Blog<br class=" visible-md visible-lg"> to Your RSS</h1>
+              <div class="spacer25"></div>
+              <p style="font-size:16px;color:#333333;">There is no need to copy/paste XML anymore! You can simply use our direct blog URL instead:</p>
+              <div class="spacer15"></div>
+              <div style="display:flex;justify-content: center;" ><textarea readonly id="url-box" style="margin:0px;border: 2px solid #2683FF;	border-radius: 4px 0 0 4px;	background-color: #F2F4F6;text-align:left;padding-left:25px;padding-bottom:8px;padding-top:10px;max-width:280px;height:43px;border-right:none;resize:none;">https://storj.io/blog/feed.xml</textarea><div id="copy-url-button" class="btn" onclick="copyToClipBoard();"  style="max-height:43px;display:inline;font-size:14px;padding-right:15px;padding-left:15px;padding-top:13px;border-top-left-radius: 0;border-bottom-left-radius:0">copy</div></div>
+              <div class="spacer25"></div>
+                <p style="font-size:16px;color:#333333;">Storj Labs has chosen not to provide a direct link to an XML feed. Our blog is built on Hugo, which allows our RSS feed to work with just a URL, making subscribing convenient and easy for you.</p>
+                <div class="spacer25"></div>
+                <p style="font-size:16px;color:#333333;">Enjoy!</p>
+                <div id="done-button" class="btn btn-block">Done</div>
+            </div>
         </div>
-        <div class="spacer35"></div>
-<!--end-->
-</div>
-{{ partial "sidebar2" .}}
-</div>
-{{ end }}
+      </div>
+    </div>
+    {{ end }}
+    {{ block "footer" . }}
+      {{ partial "blog/footer" . }}
+    {{ end }}
+
+    <script data-jsd-embedded data-key="ddb2b60b-2cc3-47f0-a434-3a6dae10166a" data-base-url="https://jsd-widget.atlassian.com" src="https://jsd-widget.atlassian.com/assets/embed.js"></script>
+    <script src="/blog/js/jquery-2.1.1.js"></script>
+    <script src="/blog/js/bootstrap.min.js"></script>
+    <script src="/blog/js/segment.js"></script>
+    <script>
+      var rssSubscribeLink = document.getElementById('rss-link');
+      var rssInstructionsBox = document.getElementById('rss-instructions');
+      var xButton = document.getElementById('x-out');
+      var doneButton = document.getElementById('done-button');
+      var copyButton = document.getElementById('copy-button');
+      var urlBox = document.getElementById('url-box');
+
+      rssSubscribeLink.addEventListener("click",function(){
+        rssInstructionsBox.style.setProperty("display","block");
+      });
+
+      xButton.style.cursor = "pointer";
+
+      xButton.addEventListener("click",function(){
+          rssInstructionsBox.style.setProperty("display","none")
+      });
+
+      doneButton.addEventListener("click",function(){
+        rssInstructionsBox.style.setProperty("display","none");
+      });
+
+      function copyToClipBoard(){
+          urlBox.select();
+          document.execCommand("copy");
+          alert("Copied to clipboard");
+          this.disabled = true;
+      };
+        </script>
+  </body>
+</html>

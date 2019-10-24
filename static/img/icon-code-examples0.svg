@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="25px" height="23px" viewBox="0 0 25 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40 (33762) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Group">
+            <polyline id="Stroke-184" stroke="#1A5BB0" stroke-linecap="round" points="6.75 8.7646 3.98 11.5346 6.75 14.3036"></polyline>
+            <polyline id="Stroke-185" stroke="#1A5BB0" stroke-linecap="round" points="10.2109 8.7646 12.9809 11.5346 10.2109 14.3036"></polyline>
+            <polygon id="Stroke-186" stroke="#1A5BB0" stroke-linecap="round" points="16 21.5 12.5 22.5 13.5 19 21.002 11.499 23.502 13.999"></polygon>
+            <path d="M19.002,13.499 L21.502,15.999" id="Stroke-187" stroke="#1A5BB0"></path>
+            <path d="M13.5,19 L16,21.5" id="Stroke-188" stroke="#1A5BB0" stroke-linecap="round"></path>
+            <polyline id="Stroke-189" stroke="#2684FF" points="11 21.5 0.5 21.5 0.5 0.5 11.5 0.5 16.5 5.5 16.48 12.034"></polyline>
+            <polyline id="Stroke-190" stroke="#2684FF" stroke-linecap="round" points="11.5 0.5 11.5 5.5 16.5 5.5"></polyline>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>Stroke 469 + Stroke 2476 + Stroke 2477</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Stroke-469-+-Stroke-2476-+-Stroke-2477" sketch:type="MSLayerGroup" transform="translate(1.000000, 1.000000)" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17.695,13.5320003 C17.695,13.5320003 22,12.9720003 22,8.75000034 C22,6.07400034 19.792,3.87400034 17.046,3.97400034 C15.972,1.71100034 13.673,0.140000343 11,0.140000343 C7.438,0.140000343 4.533,2.92400034 4.325,6.43400034 C2.092,5.96800034 0,7.66800034 0,9.94600034 C0,12.9370003 2.579,13.4330003 3.502,13.5160003" id="Stroke-469" stroke="#2684FF" sketch:type="MSShapeGroup"></path>
+            <path d="M10.4315223,8.14000034 L5.35016528,13.1931331 C4.88327824,13.6574269 4.88327824,14.4100464 5.35016528,14.8749346 L8.14311823,17.6517797 C8.61000527,18.1160734 9.36682856,18.1160734 9.8337156,17.6517797 L14.0183626,13.4903762 L15.8117827,13.4903762 L10.4315223,8.14000034 Z" id="Stroke-2476" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+            <path d="M10.0715062,11.2900004 L10.0715062,7.17000036 C10.0715062,6.60298535 9.60541727,6.14000034 9.03575308,6.14000034 C8.46608889,6.14000034 8,6.60298535 8,7.17000036 L8,10.0107404" id="Stroke-2477" stroke="#1A5BB0" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
