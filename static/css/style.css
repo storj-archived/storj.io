@@ -5308,6 +5308,7 @@ ul.submit-options li:last-of-type {
   top: 5px;
   left: 0;
   z-index: 4;
+  height: 100%;
 }
 
 /* Create a custom checkbox */
