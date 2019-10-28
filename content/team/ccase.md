@@ -1,7 +1,7 @@
 ---
 name : Caleb Case
-title : Senior Software Engineer
-headshot : /img/team/caleb-case.jpg
+title : Software Engineer
+headshot : /img/team/caleb-case.png
 class : engineering
 all : true
 ---

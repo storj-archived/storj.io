@@ -1,6 +1,6 @@
 ---
 name : Fadila Khadar
-title : Senior Software Engineer
+title : Software Engineer
 headshot : /img/team/fadila-khadar.png
 class : engineering
 all : true
