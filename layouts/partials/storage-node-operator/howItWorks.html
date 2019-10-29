@@ -21,11 +21,14 @@
         {{ range where .Site.Pages ".Params.class" "howItWorks" }}
         <div class="col-md-4 col-xs-12 sno-hiw-content">
             <div class="spacer45"></div>
-            <div class="visible-sm visible-xs">
+            <div class="visible-sm visible-xs resp-steps">
                 <img src={{.Params.img}}>
+                <div class={{.Params.divClass}}></div>
+                <hr>
             </div>
             <p class="sno-heading__white">{{.Params.heading}}</p>
             <p class="sno-desc__white">{{.Description}}</p>
+
         </div>
         {{end}}
       </div>
