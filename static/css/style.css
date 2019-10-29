@@ -193,6 +193,18 @@ img {
     left: 10px;
 }
 
+.ml-295 {
+  margin-left: 303px;
+}
+
+.ml-77 {
+  margin-left: 77px;
+}
+
+.ml-515 {
+  margin-left: 531px;
+}
+
 
 /* --------------------------------
 
@@ -365,6 +377,12 @@ Navigation
 
 .section-to-collapse{
   display: block;
+}
+
+.logo-signup {
+  margin-left: 160px !important;
+  margin-top: 12px;
+  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 320px) {
@@ -3648,6 +3666,9 @@ color: #FFFFFF;
   .navbar-brand {
     margin-left: 4px !important;
   }
+  .mr-md-100 {
+    margin-right: 150px;
+  }
 }
 @media only screen and (min-width: 1201px) {
   .navitem-style {
@@ -3659,6 +3680,9 @@ color: #FFFFFF;
     text-align: center;
     color: #FFFFFF;
     margin-right:30px;
+  }
+  .mr-md-100 {
+    margin-right: 150px;
   }
 }
 
@@ -5336,6 +5360,518 @@ color: #FFFFFF;
   .ss-bg .col-md-4 {
     margin: 60px 0;
   }
+
+/* --------------------------------
+
+Sign Up Node Operator
+
+-------------------------------- */
+
+.signup-node-bg {
+  background: linear-gradient(158.94deg, #000F2C -1.77%, #3B6BC9 170.28%);
+}
+
+.storj-ecosystem-bg {
+  background-image: url('../img/storj-ecosystem.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.signup-node-container {
+  height: 850px;
+}
+
+.signup-node-form {
+  width: 661px;
+  height: 850px;
+  background-color: #F4F6F9;
+  float: right;
+}
+
+.steps {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 16px;
+}
+
+.steps div {
+  width: 34%;
+  border-bottom: 4px solid #AFB7C1;
+  position: relative;
+  bottom: 7px;
+}
+
+.steps span {
+  height: 16px;
+  width: 16px;
+  background-color: #AFB7C1;
+  border-radius: 50%;
+}
+
+.steps .active {
+  height: 18px;
+  width: 18px;
+  border: 2px solid #fff;
+  background-color: #133E9C;
+}
+
+.steps span.done {
+  background-color: #133E9C;
+}
+
+.steps div.done {
+  border-bottom: 4px solid #133E9C;
+}
+
+.form-container {
+  background: white;
+  border-radius: 9px;
+}
+
+.requirement-form-container {
+  height: 80%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.email-form-container {
+  height: 40%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.complete-form-container {
+  height: 50%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.form {
+  margin-left: 38px;
+}
+
+.requirement-form input {
+  display: inline-block;
+  margin: 0;
+  width: 50px;
+}
+
+.form h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  font-size: 22px;
+  line-height: 34px;
+  margin-bottom: 0;
+  width: 90%;
+}
+
+.form h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  width: 90%;
+}
+
+.requirement-form h2 {
+  margin-bottom: 30px;
+
+}
+
+.sign-up-node-submit {
+  margin-top: 15px;
+}
+
+.requirement-form .sign-up-node-submit {
+  margin-top: 0;
+}
+
+.sign-up-node-submit input {
+  background: #133E9C;
+  width: 154px;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 146.28%;
+  border-radius: 7px;
+}
+
+.submit-options {
+  padding-left: 0;
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-bottom: 12px;
+  line-height: 34px;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.checkbox-container p {
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+
+ul.submit-options li:last-of-type {
+  border-bottom: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  top: 5px;
+  left: 0;
+  z-index: 4;
+  height: 100%;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background: #FFFFFF;
+  border: 1.5px solid #AFB7C1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  z-index:2;
+}
+
+.checkbox-container input:checked {
+  height: 50px;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #133E9C;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkmark:after {
+  left: 7px;
+  top: 0px;
+  width: 10px;
+  height: 17px;
+  border: solid white;
+  border-width: 0 4px 4px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.black-text {
+  color: black;
+}
+
+.light-black {
+  color: #424B5A;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid white;
+}
+
+#signup-node-form-err-msg-container {
+  color: red;
+  position: relative;
+  bottom: 4px;
+}
+
+.signup-node-form-error-msg {
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.requirement-form .signup-node-form-error-msg {
+  background-color: #FFEFEF;
+  border: 1px solid #FF0000;
+  width: 85%;
+  padding: 10px 15px;
+  position: relative;
+  left: 14px;
+  bottom: 15px;
+}
+
+.signup-node-form-error-msg a {
+  text-decoration: underline;
+  color: red;
+}
+
+.email-form input {
+  margin: 10px 0px;
+}
+.email-form .email {
+  background: #FFFFFF;
+  border: 1px solid #C5CBDB;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 56px;
+}
+
+.complete-form a {
+  display: block;
+  width: 212px;
+  background: #133E9C;
+  color: white;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 146.28%;
+  border-radius: 7px;
+	border: 1px solid #eee;
+	padding: 12px 18px 10px;
+  margin-top: 30px;
+}
+
+.sign-up-node-operator .navbar {
+  height: 80px;
+  margin-bottom: 0;
+}
+
+.sign-up-node-operator .logo {
+  width: 100px;
+}
+
+.sign-up-node-operator .footer {
+  height: 106px;
+}
+
+.footer .logo {
+  margin-top: 12px;
+}
+
+.sign-up-node-operator .invisible {
+  display: none;
+}
+
+.sign-up-node-operator .footer .navbar-nav>li>a {
+  color: #224CA5;
+}
+
+@media only screen and (max-width: 767px){
+
+  .logo-signup {
+    margin: 0 auto;
+    margin: 12px auto;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .steps div {
+    width: 31%;
+  }
+
+  .ml-77 {
+    margin-left: 14%;
+  }
+
+  .ml-295 {
+    margin-left: 48%;
+  }
+
+  .ml-515 {
+      margin-left: 81%;
+  }
+
+  .sign-up-node-operator .logo {
+    margin: 0 auto;
+  }
+
+  .signup-node-bg {
+    background: #F4F6F9;
+  }
+
+  .storj-ecosystem-bg {
+    background-color: #F4F6F9;
+    background-image: none;
+  }
+
+  .addHeight .signup-node-container {
+    height: 1000px;
+  }
+
+  .requirement-form-container {
+    height: 84%;
+  }
+
+  .addHeight .requirement-form-container {
+    height: 100%;
+  }
+
+  .signup-node-form {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .complete-form-container {
+    text-align: center;
+    width: 100%;
+  }
+
+  .complete-form-container .col-xs-3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .complete-form-container .col-xs-12 {
+    padding: 0;
+  }
+
+  .complete-form-container .img-responsive, .thumbnail>img, .thumbnail a>img {
+    width: 120px;
+    margin: 0 auto;
+  }
+
+  .complete-form a {
+    margin: 0 auto;
+  }
+
+  .footer .container-fluid {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer .nav>li {
+    float: right;
+    margin: 0;
+    position: relative;
+    top: 7px;
+  }
+}
+
+@media only screen and (max-width: 560px){
+
+
+  .ml-77 {
+      margin-left: 13%;
+  }
+
+  .ml-295 {
+    margin-left: 47%;
+  }
+
+}
+
+@media only screen and (max-width: 414px){
+  .ml-77 {
+    margin-left: 11%;
+  }
+
+
+  .form {
+    margin: 0 10%;
+  }
+
+  .form h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .requirement-form h2 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .checkmark {
+    width: 23px;
+    height: 23px;
+  }
+
+  .checkbox-container p {
+    line-height: 18px;
+  }
+
+  .ml-295 {
+    margin-left: 163px;
+  }
+
+
+}
+
+@media only screen and (max-width: 375px){
+  .ml-295 {
+    margin-left: 141px;
+  }
+
+  .ml-515 {
+    margin-left: 245px;
+  }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+  .ml-295 {
+    margin-left: 135px;
+  }
+}
+
+
+
+@media only screen and (max-width: 320px){
+  .ml-77 {
+    margin-left: 21px;
+  }
+
+
+  .email-form-container {
+    width: 261px;
+  }
+
+  .ml-295 {
+    margin-left: 112px;
+  }
+
+  .ml-515 {
+    margin-left: 213px;
+  }
+
+
+  .addHeight .requirement-form-container {
+    height: 884px;
+}
+
 
 
 }

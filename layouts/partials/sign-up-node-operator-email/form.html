@@ -1,0 +1,52 @@
+<div class="form email-form">
+        <div class="spacer25"></div>
+        <div class="row">
+            <div class="form-header col-xs-12">
+                    <h1 class="black-text"> Get Your Auth Token</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sub-header col-xs-12">
+                    <h2 class="light-black">What’s your email?</h2>
+            </div>
+        </div>
+        <div class="row invisible" id="signup-node-form-err-msg-container">
+            <div class="signup-node-form-error-msg col-xs-6">
+                    <span>*Please enter a valid email address</span>
+            </div>
+        </div>
+        <form onsubmit="onsubmit">
+            <div class="row">
+                <div class="col-xs-12">
+                    <input type="text" name="email" class="email" placeholder="example@email.com">
+                </div>
+            </div>
+            <div class="sign-up-node-submit">
+                <input type="submit" value="Continue" />
+            </div>
+        </form>
+</div>
+
+<script type="text/javascript">
+    var onsubmit = function(event) {
+        event.preventDefault();
+        var inputs = event.target.getElementsByTagName("input");
+        var errElm = document.getElementById("signup-node-form-err-msg-container");
+        var emailReg = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        var email = "";
+
+        for (input of inputs) {
+            if (input.type === "submit") {
+                continue;
+            }
+            if (!input.value || !emailReg.test(input.value)) {
+                // display error message
+                errElm.setAttribute("class", "row");
+                return;
+            }
+            email = input.value
+        }
+        analytics.identify(analytics.user().anonymousId(), {email: email, authToken: "unknown"});
+        window.location.href = "https://storj.io/sign-up-node-operator-complete";
+    }
+</script>

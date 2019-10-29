@@ -1,6 +1,6 @@
 ---
-link : "/partners"
-weight : 4
-title : "Partners"
+link : "/storage-node-operator"
+weight : 1
+title : "Node Operator"
 class : "navitem"
 ---
