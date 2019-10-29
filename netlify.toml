@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/blog/*"
-  to = "https://thirsty-austin-89166b.netlify.com/*"
+  to = "https://thirsty-austin-89166b.netlify.com/blog/*"
   status = 200
   force = true
