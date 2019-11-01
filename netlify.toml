@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "https://storj.io/blog/*"
+  from = "https://agitated-kowalevski-811886.netlify.com/blog/*"
   to = "https://thirsty-austin-89166b.netlify.com/:splat"
   status = 200
   force = true
