@@ -1,6 +1,5 @@
 [[redirects]]
-  from = "https://agitated-kowalevski-811886.netlify.com/blog/*"
+  from = "/blog/*"
   to = "https://thirsty-austin-89166b.netlify.com/:splat"
   status = 200
   force = true
-  headers = {X-From = "Netlify"}
