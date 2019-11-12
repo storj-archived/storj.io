@@ -3727,7 +3727,7 @@ color: #FFFFFF;
 }
 
 .nav-join{
-  background: linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);
+  background: transparent;
   margin-top:30px;
   border: 4px solid #FFF;
   box-sizing: border-box;
@@ -3747,7 +3747,6 @@ color: #FFFFFF;
 }
 
 .nav-join:hover{
-  background: #173AE8;
   margin-top:30px;
   border: 4px solid #FFF;
   color:#FFF;
@@ -3760,7 +3759,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
 .nav-join{
-  background: linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);
+  background: transparent;
   margin-top:30px;
   border: 4px solid #FFF;
   color:#FFF;
@@ -3774,7 +3773,7 @@ color: #FFFFFF;
 }
 @media only screen and (min-width: 1201px) {
 .nav-join{
-  background: linear-gradient(0deg, rgba(19, 62, 156, 0.87), rgba(19, 62, 156, 0.87)), linear-gradient(301.19deg, #133E9C 0%, #588CFF 100%);
+  background: transparent;
   margin-top:30px;
   border: 4px solid #FFF;
   color:#FFF;
