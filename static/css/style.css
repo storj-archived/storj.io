@@ -4073,6 +4073,33 @@ color: #FFFFFF;
   }
 }
 
+.diskSpace-bg {
+  background: #fff;
+}
+
+.diskSpace-header {
+  font-size: 32px;
+  font-weight: bold;
+  color: #000;
+}
+
+.diskSpace-subheading {
+  font-size: 18px;
+  font-weight: 900;
+  color: #000;
+}
+
+.diskSpace-button {
+  background: #0055C6;
+  color: #fff;
+  width: 25%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
 .introducing {
   padding-right: 0;
 }
@@ -4124,6 +4151,7 @@ color: #FFFFFF;
   font-family: 'Poppins';
   font-weight: 900;
   font-size: 18px;
+  color: #0055C6;
 }
 
 .helpDevs-bg{
