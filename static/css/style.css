@@ -845,18 +845,6 @@ canvas {
 
 .header {
 	min-height: 600px;
-	background: #020307;
-	background: -moz-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, #020307), color-stop(100%, #144fbc));
-	background: -webkit-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: -o-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: -ms-linear-gradient(top, #020307 0%, #144fbc 100%);
-	background: linear-gradient(to bottom, #020307 0%, #144fbc 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020307', endColorstr='#144fbc', GradientType=0 );
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-o-user-select: none;
 	user-select: none;
 	position: relative;
   overflow: hidden;
@@ -878,7 +866,7 @@ canvas {
 }
 .header-bg {
   background-size: cover;
-  background-image: url("../img/Theez-Starz.png");
+  background-image: url("../img/home-hero-bg.png");
   background-repeat: repeat-y;
   background-position: center center;
   transform: scale(1.01)
@@ -971,6 +959,42 @@ canvas {
 .terminal-text {
 	display: none;
 }
+
+.hero-host {
+  background: #fff;
+  height: 100%;
+  padding: 0 70px;
+}
+
+.hero-cs {
+  height: 100%;
+  padding: 0 70px;
+}
+
+.hero-sections {
+  height: 378px;
+}
+
+.hero-subHeading {
+  color: #000;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.hero-desc {
+  font-size: 16px;
+  color: #000;
+}
+
+.hero-sections-cta {
+  color: #0055C6;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Poppins';
+  display: inline;
+}
+
+
 
 
 /* --------------------------------
