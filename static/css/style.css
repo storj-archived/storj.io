@@ -4126,8 +4126,8 @@ color: #FFFFFF;
   font-size: 18px;
 }
 
-.helpDevs-BG{
-  background: #F5F6FA;
+.helpDevs-bg{
+  background: #E7EAEF;
 }
 
 .helpDevs-header {
@@ -4145,9 +4145,9 @@ color: #FFFFFF;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 22px;
-  color: #333333;
+  color: #000;
   width: 50%;
   margin: 0 auto;
 }
@@ -4156,9 +4156,9 @@ color: #FFFFFF;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 23px;
-  color: #333333;
+  color: #000;
   width: 70%;
   margin: 0 auto;
 }
@@ -4465,25 +4465,25 @@ color: #FFFFFF;
     }
 }
 
-.osp-heading{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 38px;
-color: #000000 !important;
+.osp-heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000 !important;
 }
 
-.osp-desc{
+.osp-desc {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 29px;
   color: #000000;
 }
 
-.osp-cta-partner{
+.osp-cta-partner {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
@@ -4502,6 +4502,17 @@ color: #000000 !important;
   width: 80%;
   margin: 0 auto;
   text-align: center;
+}
+
+.ospTrans-button {
+  background: #0055C6;
+  color: #fff;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .transparency-heading{

@@ -17,7 +17,7 @@
               {{ range where .Site.Pages ".Params.class" "intro-item"}}
               <li class="introducing-list-item">
                 <img class="introducing-list-check" src="/img/storj-check.svg" alt="benefits icon">
-                <h4 class="">{{ .Params.content }}</h4>
+                <h4 class="introducing-list-item-content" class="">{{ .Params.content }}</h4>
               </li>
               {{ end }}
             </ul>
