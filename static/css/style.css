@@ -975,7 +975,7 @@ canvas {
   height: 378px;
 }
 
-.hero-subHeading {
+.hero-section-subHeading {
   color: #000;
   font-weight: bold;
   font-size: 22px;
@@ -3787,11 +3787,11 @@ color: #FFFFFF;
   color: #FFF;
 }
 
-.prod-stage{
+.prod-stage {
   padding: 0 6px;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid #fff;
   background-color: rgba(255,255,255,0.2);
-  border-radius:4px;
+  border-radius: 50px;
   color:white;
   text-align: center;
   font-family: 'Poppins';
@@ -3805,6 +3805,11 @@ color: #FFFFFF;
   width:150px;
 }
 
+.prod-stage-container {
+  display: flex;
+  justify-content: center;
+}
+
 .m-15{
   margin:15px;
 }
@@ -3814,24 +3819,26 @@ color: #FFFFFF;
 }
 
 .hero-heading{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 49px;
-color: #FFFFFF;
-margin-bottom: 0px;
-margin-top: 0px;
-padding: 0px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 0px;
 }
 
 .hero-subheading{
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 28px;
-color: rgba(255, 255, 255, 0.8);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 60%;
+  margin: 0 auto;
 }
 
 .hero-cta{
