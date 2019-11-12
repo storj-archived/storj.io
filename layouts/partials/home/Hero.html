@@ -9,7 +9,7 @@
     </div>
     <div class="spacer30"></div>
     <div class="row mb-24">
-      <div class="col-xs-12 col-md-10 center-sm">
+      <div class="col-xs-12 col-md-10 text-center">
         <h1 class="hero-heading col-xs-12 hidden-xs">{{.Params.heading1}} {{.Params.heading2}}</h1>
         <h1 class="hero-heading col-xs-12 col-xs-offset-0 visible-xs">{{.Params.heading1}}</h1>
         <h1 class="hero-heading col-xs-12 col-xs-offset-0 visible-xs">{{.Params.heading2}}</h1>
@@ -21,24 +21,55 @@
         {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
       </div>
     </div>
-    <div class="spacer20"></div>
     <div class="spacer100 visible-xs"></div>
-    <div class="spacer100 visible-xs"></div>
-    <div class="row">
-      <div class="col-xs-12 col-sm-5 col-md-4 center-sm">
-          <a href={{.Params.ctaLink}} class="btn btn-lg hero-cta" >{{.Params.ctaText}}</a>
-      </div>
-      <div class="col-xs-12 col-sm-5 col-md-4 center-sm" style="margin-top: 10px;">
-          <a href="/sign-up-node-operator/" style="text-decoration: none">
-            <p class="mt-5 home-hero-cta">
-              Node Operator
-              <span style="font-size:12px;margin-left:10px" class="glyphicon glyphicon-chevron-right"></span>
-            </p>
-          </a>
+    {{end}}
+    <div>
+      <div class="row">
+        <div class="col-lg-6">
+          <div>
+            <div class="spacer90"></div>
+            <div class="row">
+              <div class="col-lg-12">
+                <img src="/img/storj-ico-hdd.png"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h1>Got an Open Source App?</h1>
+                <p>Open Source partners get paid every time their users store data on Tardigrade. </p>
+                <div></div>
+                <a href="/partners" style="text-decoration:none;">
+                <p>Become a Tardigrade Partner</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="spacer125"></div>
+        </div>
+        <div class="col-lg-6 careers-grey">
+          <div>
+            <div class="spacer90"></div>
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <img class="transparency-img" src="/img/storj-com-ico-cloud-disk.png"/>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="transparency-heading">Token Transparent</h1>
+                <div class="spacer15"></div>
+                <p class="transparency-subheading">We’re one of the longest-standing decentralized projects, and recognized as leaders in the field of token governance.</p>
+                <div class="spacer25"></div>
+                <a href="https://storj.io/blog/2018/12/an-overview-of-tokens-uses-flows-and-policies-at-storj-labs/ ">
+                    <p class="transparency-learn-more">Learn More</p>
+                </a>
+              </div>
+            </div>
+            <div class="spacer90"></div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="spacer50"></div>
-    {{end}}
 </div>
 
 <!--completes div & section from navbar partial-->

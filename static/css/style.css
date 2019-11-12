@@ -3975,13 +3975,13 @@ color: #FFFFFF;
 }
 
 .hiw-heading{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 28px;
-line-height: 39px;
-text-align: center;
-color: #FFFFFF;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 39px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .hiw-bg{
@@ -3991,14 +3991,14 @@ color: #FFFFFF;
 }
 
 .hiw-subheading {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 18px;
-line-height: 19px;
-text-align: center;
-color: #FFFFFF;
-margin-top:30px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top:30px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -4073,6 +4073,58 @@ margin-top:30px;
   }
 }
 
+.introducing {
+  padding-right: 0;
+}
+
+.introducing .container {
+  margin-right: 0;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1370px;
+  }
+}
+
+.introducing-heading {
+  font-size: 700;
+  font-size: 32px;
+  color: #000;
+}
+
+.introducing-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.introducing-list-item {
+  display: flex;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.introducing-list-check {
+  margin-right: 10px;
+}
+
+.introducing-list-item-content {
+  color: #000;
+}
+
+.introducing-bg {
+  background-image: url(../img/intro-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 85vh;
+}
+
+.introducing-cta-link {
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 18px;
+}
 
 .helpDevs-BG{
   background: #F5F6FA;

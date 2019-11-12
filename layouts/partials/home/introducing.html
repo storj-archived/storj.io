@@ -1,0 +1,38 @@
+{{ with .Site.GetPage "introducing" }}
+  <div class="introducing lite-gray-bg container-fluid">
+    <div class="container">
+      <div class="spacer125"></div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-5">
+          <h2 class="introducing-heading">
+            {{ replace .Params.heading "\n" "<br/>" | safeHTML}}
+          </h2>
+          <br />
+          <p class="introducing-subheading">
+            {{ replace .Params.subheading "\n" "<br/>" | safeHTML}}
+          </p>
+          <div class="spacer20"></div>
+          <div>
+            <ul class="introducing-list">
+              {{ range where .Site.Pages ".Params.class" "intro-item"}}
+              <li class="introducing-list-item">
+                <img class="introducing-list-check" src="/img/storj-check.svg" alt="benefits icon">
+                <h4 class="">{{ .Params.content }}</h4>
+              </li>
+              {{ end }}
+            </ul>
+            <div class="spacer40"></div>
+            <p class="introducing-cta-text">
+              <a href="" target="_blank" class="introducing-cta-link">
+                Contact Us
+                <img src="/img/carrot-right.svg" height="13" width="13">
+              </a>
+            </p>
+          </div>
+        </div>
+        <div class="col-md-7 introducing-bg">
+        </div>
+      </div>
+    </div>
+  </div>
+{{end}}
