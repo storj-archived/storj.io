@@ -482,12 +482,26 @@ Navigation
     text-decoration: underline;
 }
 
+
+
 .bg-img-home-hero {
-  background-image: url('../img/storj-ill-cloud.png');
   background-repeat: no-repeat;
   background-position: right bottom;
   background-size: 650px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .bg-img-home-hero {
+    height: 1430px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-img-home-hero {
+    height: 1330px;
+  }
+}
+
 
 .navbar-page {
 	border: 0;
@@ -2915,7 +2929,6 @@ Media Queries
   .header {
   	height: auto;
   	min-height: 600px;
-  	padding-bottom: 5em;
   }
   .header-content {
   	position: relative;
@@ -4131,6 +4144,24 @@ color: #FFFFFF;
   font-size: 14px;
 }
 
+@media (max-width: 1200px) {
+  .diskSpace-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .diskSpace-section {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .diskSpace-button {
+    width: 35%;
+  }
+}
+
+
 .introducing {
   padding-right: 0;
 }
@@ -4140,10 +4171,59 @@ color: #FFFFFF;
 }
 
 @media (min-width: 1200px) {
-  .container {
+  .introducing .container {
     width: 1370px;
+    margin-left: 0;
   }
 }
+
+
+@media (max-width: 1400px) {
+  .introducing-content {
+    position: relative;
+    left: 10%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .introducing-content {
+    width: 80%;
+    left: 0;
+  }
+
+  .introducing-list {
+    text-align: center;
+  }
+
+  .introducing-list-item {
+    display: block
+  }
+
+  .introducing-list-item-content {
+    display: inline;
+  }
+}
+
+@media (max-width: 1120px) {
+  .introducing-content {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .introducing-content {
+    width: 82%;
+  }
+}
+
+@media (max-width: 768px) {
+  .introducing-content {
+    width: 95%;
+  }
+}
+
+
 
 .introducing-heading {
   font-size: 700;
@@ -4170,6 +4250,22 @@ color: #FFFFFF;
   color: #000;
 }
 
+@media (max-width: 1200px) {
+
+  .introducing-list {
+    text-align: center;
+  }
+
+  .introducing-list-item {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .introducing-list-item-content {
+    display: inline;
+  }
+}
+
 .introducing-bg {
   background-image: url(../img/intro-bg.png);
   background-size: cover;
@@ -4183,6 +4279,13 @@ color: #FFFFFF;
   font-weight: 900;
   font-size: 18px;
   color: #0055C6;
+  float: left;
+}
+
+@media (max-width: 1200px) {
+  .introducing-cta-link {
+    float: none;
+  }
 }
 
 .helpDevs-bg{
@@ -4220,6 +4323,14 @@ color: #FFFFFF;
   color: #000;
   width: 70%;
   margin: 0 auto;
+}
+
+@media (max-width: 1200px) {
+
+  .helpDevs-section {
+    margin-bottom: 50px;
+  }
+
 }
 
 .learn-more-tar {
@@ -5410,9 +5521,6 @@ color: #FFFFFF;
     padding: 0;
   }
 
-  .spacer100 {
-    display: none;
-  }
 
   .np-bg p {
     text-align: center;
