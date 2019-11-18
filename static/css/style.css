@@ -406,6 +406,7 @@ Navigation
 .navbar-nav {
     margin: 0 -15px;
     text-align: center;
+    display: flex;
 }
 .navbar-nav>li>a {
 	padding: 40px 16px;
