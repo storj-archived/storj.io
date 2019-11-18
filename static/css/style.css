@@ -4289,6 +4289,11 @@ color: #FFFFFF;
   margin: 0 auto;
 }
 
+.helpDevs-section .img-fluid {
+  width: 110px;
+  height: auto;
+}
+
 @media (max-width: 1200px) {
 
   .helpDevs-section {
