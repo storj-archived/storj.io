@@ -7,47 +7,6 @@ Fonts
 -------------------------------- */
 
 
-/* montserrat-300 - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 300;
-  src: url('../fonts/montserrat-v10-latin-300.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Light'), local('Montserrat-Light'),
-       url('../fonts/montserrat-v10-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v10-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v10-latin-300.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v10-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v10-latin-300.svg#Montserrat') format('svg'); /* Legacy iOS */
-}
-/* montserrat-regular - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/montserrat-v10-latin-regular.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat Regular'), local('Montserrat-Regular'),
-       url('../fonts/montserrat-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v10-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
-}
-/* montserrat-800 - latin */
-@font-face {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 800;
-  src: url('../fonts/montserrat-v10-latin-800.eot'); /* IE9 Compat Modes */
-  src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
-       url('../fonts/montserrat-v10-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/montserrat-v10-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/montserrat-v10-latin-800.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/montserrat-v10-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/montserrat-v10-latin-800.svg#Montserrat') format('svg'); /* Legacy iOS */
-}
-
-
 
 /* --------------------------------
 
@@ -81,7 +40,7 @@ html {
 
 body {
 	font-size: 1.6rem;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 300;
   background: #fff;
 }
@@ -987,6 +946,8 @@ canvas {
 
 .hero-sections {
   height: 378px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .hero-section-subHeading {
@@ -4175,6 +4136,10 @@ color: #FFFFFF;
   }
 }
 
+.introducing-content {
+  text-align: left;
+}
+
 
 @media (max-width: 1400px) {
   .introducing-content {
@@ -4187,6 +4152,7 @@ color: #FFFFFF;
   .introducing-content {
     width: 80%;
     left: 0;
+    text-align: center;
   }
 
   .introducing-list {
@@ -4539,7 +4505,7 @@ margin-top: -6px;
 }
 
 .sno-join-cta{
-font-family: 'Montserrat';
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
 font-size: 14px;
@@ -4561,7 +4527,7 @@ color: #FFFFFF;
 
 
 .sno-join-cta{
-  font-family: 'Montserrat';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -4576,7 +4542,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
   .sno-join-cta{
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -4601,7 +4567,7 @@ color: #FFFFFF;
 
 
 .sno-join-cta{
-  font-family: 'Montserrat';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-size: 14px;
@@ -4617,7 +4583,7 @@ color: #FFFFFF;
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
   .sno-join-cta{
-    font-family: 'Montserrat';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     font-size: 14px;
@@ -4703,7 +4669,7 @@ color: #000000;
 }
 
 .transparency-learn-more {
-  font-family: 'Montserrat';
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-size: 16px;
