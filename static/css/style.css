@@ -4289,11 +4289,23 @@ color: #FFFFFF;
 }
 
 .introducing-bg {
-  background-image: url(../img/intro-bg.png);
+  background-image: url(../img/storj-tar-hero-img-mascot-gui.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 600px;
+  height: 550px;
+}
+
+@media only screen and (max-width: 991px) {
+	.introducing-bg {
+    height: 420px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+	.introducing-bg {
+    height: 320px;
+  }
 }
 
 .introducing-cta-link {
@@ -4304,7 +4316,7 @@ color: #FFFFFF;
   float: left;
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
   .introducing-cta-link {
     float: none;
   }
@@ -4352,7 +4364,7 @@ color: #FFFFFF;
   height: auto;
 }
 
-@media (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 
   .helpDevs-section {
     margin-bottom: 50px;
