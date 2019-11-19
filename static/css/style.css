@@ -958,6 +958,14 @@ p {
   padding: 0 70px;
 }
 
+
+@media only screen and (max-width: 400px) {
+
+		.hero-cs, .hero-host {
+			height: 120%;
+		}
+}
+
 .hero-sections {
   height: 378px;
   border-radius: 4px;
@@ -4167,6 +4175,12 @@ color: #FFFFFF;
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .diskSpace-button {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 738px) {
   .diskSpace-button {
     width: 50%;
@@ -4733,6 +4747,12 @@ color: #FFFFFF;
 @media (max-width: 738px) {
   .ospTrans-button  {
     width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  .ospTrans-button  {
+    width: 80%;
   }
 }
 
