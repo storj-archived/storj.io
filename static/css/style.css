@@ -464,6 +464,12 @@ Navigation
   }
 }
 
+@media only screen and (max-width: 400px) {
+	.bg-img-home-hero {
+	    height: 1590px;
+		}
+}
+
 
 .navbar-page {
 	border: 0;
@@ -950,6 +956,14 @@ p {
 .hero-cs {
   height: 100%;
   padding: 0 70px;
+}
+
+
+@media only screen and (max-width: 400px) {
+
+		.hero-cs, .hero-host {
+			height: 120%;
+		}
 }
 
 .hero-sections {
@@ -4161,6 +4175,12 @@ color: #FFFFFF;
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .diskSpace-button {
+    width: 70%;
+  }
+}
+
 @media only screen and (max-width: 738px) {
   .diskSpace-button {
     width: 50%;
@@ -4727,6 +4747,12 @@ color: #FFFFFF;
 @media (max-width: 738px) {
   .ospTrans-button  {
     width: 60%;
+  }
+}
+
+@media (max-width: 400px) {
+  .ospTrans-button  {
+    width: 80%;
   }
 }
 
