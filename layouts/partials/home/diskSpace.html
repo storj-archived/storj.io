@@ -1,0 +1,32 @@
+<div class="diskSpace-bg container-fluid">
+  <div class="container">
+    <div class="row text-center">
+      <div class="spacer100"></div>
+      <div class="col-xs-12 text-center mt-5">
+          <h1 class="diskSpace-header">Put Your Extra Disk Space to Work</h1>
+          <p>Node Operators get paid for their extra disk space, sort of like ride-sharing for the cloud.</p>
+          <div class="spacer60"></div>
+      </div>
+      <div class="diskSpace-content row mt-5" style="margin-top:100px;">
+        {{range where .Site.Pages ".Params.class" "diskSpace" | first 4}}
+          <div class="diskSpace-section col-xs-12 col-lg-4 mt-5 p-3 text-xs-center">
+            <img class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
+            <div class="spacer30"></div>
+            <h4 class="diskSpace-subheading">
+              {{.Params.heading}}
+            </h4>
+            <div class="spacer20"></div>
+            <p class="diskSpace-desc">
+              {{.Params.desc}}
+            </p>
+          </div>
+        {{end}}
+      </div>
+      <div class="spacer60"></div>
+      <a href="/storage-node-estimator/">
+          <p class="diskSpace-button">Estimate Your Node's Payout</p>
+      </a>
+    </div>
+    <div class="spacer125"></div>
+  </div>
+</div>
