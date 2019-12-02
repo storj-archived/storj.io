@@ -24,33 +24,28 @@ message containing the following:
 Special note should be taken if these messages ever cease being updated, or are removed from this page.
 
 The current message is here:
+
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 10/01/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 12/02/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Barr is said to have urged foreign governments to aid probe of CIA, FBI actions related to 2016 election
-- - Trump asks why he isn't able to 'learn everything' about the whistleblower
-- - Amazon sellers say retail giant is helping itself, not consumers, as antitrust regulators examine its market power
-- - Hong Kong police shoot protester, marking a new level of violence
-- - 'Sanctuary cities for the unborn': A growing number of cities in East Texas pass abortion bans
+- - Trump’s counsel says president won’t take part in impeachment hearing Wednesday
+- - Ukraine leader makes headway against corruption, but fight risks angering Trump
+- - Valerie Plame, America’s most famous ex-spy, finds her new identity
+- - Trump will reimpose steel and aluminum tariffs on Brazil and Argentina, opening new trade war fronts
+- - Samoa government to close for two days amid measles outbreak that has killed dozens of children
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.3
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJdk2/FAAoJEPQrujgXjffwgQEH/3sfV0AG6MC8Zmjhex0d8CXe
-bqCF1qSau2oaIRYQGoAXXo3CgP4KPSk5o+SJS6wadtdGsedJTDBpi2G8D+1LGZC0
-2JS+ByeJbw0tfP10yo13boYb6K9EKptm0iXxXZW90wGcEuQKkpidnvp61ax8Vmgx
-5JdSLgTov1TGN+GN4mUd7xP+OFL/gcrdtXyL2Vyf6XaJbb+qNwGu9JXtPbSiE2kC
-OsTlc1+8engyUnl+M6OIHRbHyx87i+QC2ebieSmv0eL42G5RSTGl7adT4qrSA1b/
-6OUomkotgl8ojBoHjSW9JIYwxxf3lKnJYBS0XhVfeJYOp+LNUQ2PTJqkyCLouv0=
-=Q1PW
+wsBcBAABCgAGBQJd5SkNAAoJEPQrujgXjffwuhQH/RQev/HGdYIMrbh4P22ozFE2
+wBLZ0noq80qD41R7oAlmPaIY3hWv/xv46CPChVHHHDwEebbvSmEEyRdhPd6xJMli
+MBFygRmgQRKhkYrxWc5qFC4FISCY6PEnUZHiCMeh5ZrU97aOHmwsLUcJ39E5I1wq
+BarVpxyCIMn/P+a+0HvA73FSjHOd85CCkfS24VfzzMdcFcLkQYEzxWH4TQbsbN0Z
+s1MNlL9rxGNYwxFHAsl3/akGfehe/A/qbmGHvFwvN03t1MXk2tGKxcbyC9XxU0uR
+niOJTDs+3WYCtsYICgiAm3dFkuthkn22WEGjjz4XXrQTfP7AwxrSjAIOIt/RCe4=
+=rmfV
 -----END PGP SIGNATURE-----
-
-This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce
-arbitrary declarations, it does not prevent them from using force to coerce Storj Labs Inc. to produce false
-declarations. The news clip in the signed message serves to demonstrate that that update could not have been
-created prior to that date.  It shows that a series of these updates were not created in advance and posted
-on this page.
