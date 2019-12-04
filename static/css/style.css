@@ -5670,6 +5670,15 @@ Sign Up Node Operator
   float: right;
 }
 
+.sno-ad-message {
+	color: red;
+	width: 75%;
+	margin: 0 auto;
+	position: relative;
+	bottom: 30px;
+	font-size: 14px;
+}
+
 .steps {
   display: flex;
   justify-content: center;
