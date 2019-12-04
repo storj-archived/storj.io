@@ -5960,6 +5960,10 @@ ul.submit-options li:last-of-type {
   margin-top: 12px;
 }
 
+.footer .response {
+  color: #fff;
+}
+
 .sign-up-node-operator .invisible {
   display: none;
 }
