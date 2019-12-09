@@ -5727,9 +5727,16 @@ Sign Up Node Operator
 }
 
 .email-form-container {
-  height: 40%;
+  height: 44%;
   width: 90%;
   margin: 0 auto;
+}
+
+.email-form-container .email-msg {
+	width: 90%;
+	font-size: 14px;
+	font-weight: 100;
+	margin: 0;
 }
 
 .complete-form-container {
