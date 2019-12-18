@@ -1,4 +1,0 @@
----
-aliases :
-    - /press-kit.html
----
