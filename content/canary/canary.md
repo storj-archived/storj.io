@@ -28,24 +28,24 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 12/02/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 01/01/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
 
-- - Trump’s counsel says president won’t take part in impeachment hearing Wednesday
-- - Ukraine leader makes headway against corruption, but fight risks angering Trump
-- - Valerie Plame, America’s most famous ex-spy, finds her new identity
-- - Trump will reimpose steel and aluminum tariffs on Brazil and Argentina, opening new trade war fronts
-- - Samoa government to close for two days amid measles outbreak that has killed dozens of children
+- - U.S. Embassy siege in Baghdad ends after supporters of Iranian-backed militia withdraw
+- - Trump threatens Iran after embassy attack but is reluctant to get more involved in the region
+- - Trump administration to ban most flavored e-cigarette pods
+- - Democrats sharpen their differences as Iowa caucuses loom
+- - Dwyane Wade and Gabrielle Union’s simple, open-armed act of parental love
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.3
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJd5SkNAAoJEPQrujgXjffwuhQH/RQev/HGdYIMrbh4P22ozFE2
-wBLZ0noq80qD41R7oAlmPaIY3hWv/xv46CPChVHHHDwEebbvSmEEyRdhPd6xJMli
-MBFygRmgQRKhkYrxWc5qFC4FISCY6PEnUZHiCMeh5ZrU97aOHmwsLUcJ39E5I1wq
-BarVpxyCIMn/P+a+0HvA73FSjHOd85CCkfS24VfzzMdcFcLkQYEzxWH4TQbsbN0Z
-s1MNlL9rxGNYwxFHAsl3/akGfehe/A/qbmGHvFwvN03t1MXk2tGKxcbyC9XxU0uR
-niOJTDs+3WYCtsYICgiAm3dFkuthkn22WEGjjz4XXrQTfP7AwxrSjAIOIt/RCe4=
-=rmfV
+wsBcBAABCgAGBQJeDNUoAAoJEPQrujgXjffwID4IAIVzdHYVOIy5wUN+lqzLg9eQ
+9AYG3pVd1+yuWJ6ynS9cfkxqcuQDw3UYaS6AEC7mbHMgoIbLKjgl3ef8IDCFiyYm
+w8FKTb6gX1oRYM0U6wWsftcGUiBoNUxUIpNIfHmlgZogTinESa1/yeXaWeTQyA/V
+sxHoCwWZBThhCiij/6PcE5Y2sg+o23Fd0gseoyLn5WkZWPNhNgTcgTmq6MvySJpM
+xK7QSBkWxpZnF68BPpZoiNBS4LDmfuFOidQnkjKdTo/FvWFfXswzf5oyFAx19sd5
+P31AiIJwtNp6PhNw0wvWDWFvy+IT6DD4u2gHhmVtn7M64O4ieinF9EjCk0ITWec=
+=azfP
 -----END PGP SIGNATURE-----
