@@ -52,7 +52,7 @@
         }
         return;
       } else {
-        analytics.identify(analytics.user().anonymousId(), {email: inputValue, storj_newsletter: true}, {}, function() {
+        analytics.identify(inputValue, {email: inputValue, storj_newsletter: true}, {}, function() {
           analytics.track("storj_newsletter", {});
           if(errElm) {
             errElm.setAttribute("style", "display:none;");
