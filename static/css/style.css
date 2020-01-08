@@ -130,7 +130,7 @@ img {
 .spacer90 { height: 90px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer100 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer125 { height: 125px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
-.spacer140 { height: 100px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer140 { height: 140px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer200 { height: 200px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 
 .mb0 { margin-bottom: 0 !important; }
@@ -4201,6 +4201,7 @@ color: #FFFFFF;
 
 .introducing {
   padding-right: 0;
+	position: relative;
 }
 
 @media only screen and (max-width: 738px) {
@@ -4209,9 +4210,9 @@ color: #FFFFFF;
   }
 }
 
-.introducing .container {
+/* .introducing .container {
   margin-right: 0;
-}
+} */
 
 @media only screen and (min-width: 1200px) {
   .introducing .container {
@@ -4233,7 +4234,7 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 1200px) {
   .introducing-content {
-    width: 80%;
+    width: 100%;
     left: 0;
     text-align: center;
   }
@@ -4253,22 +4254,20 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 1120px) {
   .introducing-content {
-    width: 90%;
+    width: 100%;
   }
 }
 
 
 @media only screen and (max-width: 991px) {
   .introducing-content {
-    width: 82%;
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .introducing-content {
-    width: 95%;
-    position: relative;
-    left: 10px;
+    width: 100%;
   }
 }
 
@@ -4320,12 +4319,37 @@ color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 67vh;
+  height:600px;
+	position: absolute;
+	right: 0;
+	bottom: 0%;
+}
+
+@media only screen and (max-width: 1468px) {
+	.introducing-bg {
+    height: 540px;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+	.introducing-bg {
+    height: 480px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+	.introducing-bg {
+    height: 540px;
+		right: -15%;
+    bottom: 0%;
+		position: relative;
+  }
 }
 
 @media only screen and (max-width: 991px) {
 	.introducing-bg {
     height: 420px;
+		right: -17%;
   }
 }
 
@@ -4333,6 +4357,16 @@ color: #FFFFFF;
 	.introducing-bg {
     height: 320px;
   }
+}
+
+.introducing-cta-text {
+	margin-bottom: 140px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.introducing-cta-text {
+		margin-bottom: 70px;
+	}
 }
 
 .introducing-cta-link {
