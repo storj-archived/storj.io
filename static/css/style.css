@@ -125,6 +125,7 @@ img {
 .spacer40 { height: 40px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer45 { height: 45px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer50 { height: 50px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
+.spacer55 { height: 55px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer60 { height: 60px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer80 { height: 80px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
 .spacer90 { height: 90px; width: 100%; font-size: 0; margin: 0; padding: 0; border: 0; display: block; }
@@ -863,6 +864,44 @@ canvas {
 	right: -20%;
 }
 
+@media only screen and (max-width: 1200px) {
+	.globe-background {
+		top: 28%;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.globe-background {
+		position: absolute;
+		top: 34%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 60%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.globe-background {
+		width: 980px;
+		height: 65%;
+		left: -15%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.globe-background {
+		left: -45%;
+		width: 960px;
+		height: 58%;
+		top: 40%;
+	}
+}
+
+
+
 
 .careers-header-bg {
   background: url("../img/Theez-Starz.svg"),linear-gradient(9.87deg, #133E9C 17.88%, #00091E 88.02%);
@@ -961,17 +1000,26 @@ canvas {
 .hero-host:hover {
 	box-shadow: 0px 0px 54px rgba(0, 0, 0, 0.25);
 	cursor: pointer;
-	z-index: 5;
+	z-index: 10;
 }
 
 .hero-cs {
   height: 100%;
   padding: 0 70px;
+	z-index: 5;
 }
 
 .hero-cs:hover {
 	box-shadow: 0px 0px 54px rgba(0, 0, 0, 0.25);
 	cursor: pointer;
+	z-index: 10;
+}
+
+@media only screen and (max-width: 600px) {
+
+		.hero-host {
+			height: 110%;
+		}
 }
 
 
@@ -996,11 +1044,20 @@ canvas {
   .hero-host {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+		z-index: 20;
   }
 
   .hero-cs {
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+		z-index: 20;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+	.hero-sections {
+    width: 95%;
+		margin: 0 auto;
   }
 }
 
