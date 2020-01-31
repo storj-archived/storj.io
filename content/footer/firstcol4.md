@@ -1,6 +1,6 @@
 ---
-link : "/code-of-conduct"
+link : "/storage-sla"
 weight : 4
-title : "Code of Conduct"
+title : "Storage SLA"
 class : "firstcolfooter"
 ---
