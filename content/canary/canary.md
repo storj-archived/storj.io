@@ -28,24 +28,24 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 01/01/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 02/03/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
-
-- - U.S. Embassy siege in Baghdad ends after supporters of Iranian-backed militia withdraw
-- - Trump threatens Iran after embassy attack but is reluctant to get more involved in the region
-- - Trump administration to ban most flavored e-cigarette pods
-- - Democrats sharpen their differences as Iowa caucuses loom
-- - Dwyane Wade and Gabrielle Union’s simple, open-armed act of parental love
+ 
+- - Senate hears closing arguments
+- - China built a massive hospital in 10 days to combat coronavirus. It’s not enough.
+- - China’s stock markets plunge as coronavirus nears pandemic status
+- - Bernie Sanders won the race for Democratic donors in 2019
+- - The meaning behind key moments from Shakira and J-Lo's halftime show
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.3
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJeDNUoAAoJEPQrujgXjffwID4IAIVzdHYVOIy5wUN+lqzLg9eQ
-9AYG3pVd1+yuWJ6ynS9cfkxqcuQDw3UYaS6AEC7mbHMgoIbLKjgl3ef8IDCFiyYm
-w8FKTb6gX1oRYM0U6wWsftcGUiBoNUxUIpNIfHmlgZogTinESa1/yeXaWeTQyA/V
-sxHoCwWZBThhCiij/6PcE5Y2sg+o23Fd0gseoyLn5WkZWPNhNgTcgTmq6MvySJpM
-xK7QSBkWxpZnF68BPpZoiNBS4LDmfuFOidQnkjKdTo/FvWFfXswzf5oyFAx19sd5
-P31AiIJwtNp6PhNw0wvWDWFvy+IT6DD4u2gHhmVtn7M64O4ieinF9EjCk0ITWec=
-=azfP
+wsBcBAABCgAGBQJeOHYwAAoJEPQrujgXjffwVukIAM9rLpFUa9ofVJCRy2McwKAb
+WK/OYXI9ECp3KmOa4yp35KAtzAJ9Np6U9N2H+lS/r0qolBSD5TSwRlSNdapPUwKR
+Vhfr66pRyvkM37O8HZjlG3PP24IN9zv/4HohuNHJIWVtSu6O8MYs39xs4KS5RPpV
+d/pxsuM/BBm1bHj7JDbsl1drxE5SIkmcfPs+rSMVnEdmzyoBr/+/Q2cbjG1mFpdj
+JAkoHOhL3q6fPg2s8lem5sSnvQ4o/+BMK+VFA+VE0QmoNEz3l4mYU/OtRjmc4A2b
+5yo7+DvAtmurgAFrjptPyMp51vhV9VhdcxvrR+d3ayR1T+1okv6QP1Jd0q1aAow=
+=rZ1Q
 -----END PGP SIGNATURE-----
