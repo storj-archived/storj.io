@@ -1,7 +1,7 @@
 ---
 title: "Milestone4"
 class: "milestone"
-current : true
+current : false
 weight: 4
 text: "Pioneer 2: V3 Network Beta"
 ---
