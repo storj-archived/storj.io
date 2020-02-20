@@ -44,7 +44,7 @@
                 errElm.setAttribute("class", "row");
                 return;
             }
-            email = input.value
+            email = input.value.toLowerCase().trim()
         }
         analytics.identify(email, {email: email, authToken: "unknown"});
         window.location.href = "https://storj.io/sign-up-node-operator-complete";
