@@ -9,3 +9,9 @@
   to = "https://gist.githubusercontent.com/zeebo/ecc0abd0aec09c9eff85b12d788dfc81/raw/storj-clone"
   status = 302
   force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "deny"
+    Strict-Transport-Security = "max-age=300; includeSubDomains"
