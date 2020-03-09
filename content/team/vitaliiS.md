@@ -1,7 +1,7 @@
 ---
-name : Vitaliy Shpital
+name : Vitalii Shpital
 title : Software Engineer
-headshot : /img/team/vitaliy_shpital.jpg
+headshot : /img/team/vitalii_shpital.jpg
 class : engineering
 all : true
 ---
