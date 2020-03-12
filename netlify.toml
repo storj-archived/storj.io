@@ -13,5 +13,5 @@
 [[redirects]]
   from = "/storage-node-estimator"
   to = "https://storj.io/blog/2019/01/sharing-storage-space-for-fun-and-profit/"
-  status = 200
+  status = 301
   force = true
