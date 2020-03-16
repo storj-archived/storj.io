@@ -995,6 +995,7 @@ canvas {
   background: #fff;
   height: 100%;
   padding: 0 70px;
+	cursor: pointer;
 }
 
 .hero-host:hover {
@@ -1007,6 +1008,7 @@ canvas {
   height: 100%;
   padding: 0 70px;
 	z-index: 5;
+	cursor: pointer;
 }
 
 .hero-cs:hover {
@@ -4279,9 +4281,6 @@ color: #FFFFFF;
   }
 }
 
-/* .introducing .container {
-  margin-right: 0;
-} */
 
 @media only screen and (min-width: 1200px) {
   .introducing .container {
