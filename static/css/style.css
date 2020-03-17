@@ -461,9 +461,16 @@ Navigation
 
 @media only screen and (max-width: 1200px) {
   .bg-img-home-hero {
-    height: 1430px;
+    height: 1210px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .bg-img-home-hero {
+    height: 1370px;
+  }
+}
+
 
 @media only screen and (max-width: 400px) {
 	.bg-img-home-hero {
@@ -873,12 +880,11 @@ canvas {
 @media only screen and (max-width: 991px) {
 	.globe-background {
 		position: absolute;
-		top: 34%;
 		margin-left: auto;
 		margin-right: auto;
 		left: 0;
 		right: 0;
-		width: 100%;
+		width: 90%;
 		height: 60%;
 	}
 }
@@ -887,7 +893,8 @@ canvas {
 	.globe-background {
 		width: 980px;
 		height: 65%;
-		left: -15%;
+		left: -25%;
+		top: 32%;
 	}
 }
 
@@ -896,7 +903,7 @@ canvas {
 		left: -45%;
 		width: 960px;
 		height: 58%;
-		top: 40%;
+		top: 34%;
 	}
 }
 
