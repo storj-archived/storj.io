@@ -1073,7 +1073,8 @@ canvas {
 .hero-desc {
   font-size: 16px;
   color: #000;
-	width: 95%;
+	font-family: 'Roboto';
+	margin-bottom: 20px;
 }
 
 .hero-sections-cta {
@@ -1084,6 +1085,7 @@ canvas {
   display: inline;
 	background: #0055C6;
 	padding: 10px 20px;
+	border-radius: 5px;
 }
 
 

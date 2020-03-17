@@ -1,6 +1,6 @@
 ---
 title: "half"
-content: "Half the Price"
+content: "A Fraction of the Cost"
 class: "intro-item"
 weight: 3
 ---

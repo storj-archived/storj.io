@@ -1,12 +1,10 @@
 ---
 title: "HomeHero"
 img: "img/updated.svg"
-heading1: "Now Live and"
-heading2: " Just Weeks"
-subHeading: "Away from Production"
+heading1: "Decentralized Cloud Storage is Here"
 ctaText: "Tardigrade Cloud Storage"
 ctaLink: "https://tardigrade.io/"
-stage: "Currently in Beta 2"
+stage: "Production"
 ---
 
-We’re in Beta 2, code complete and launching our cloud storage network with enterprise-grade durability, performance, and superior security at a fraction of the cost of centralized providers. Join thousands of customers and node operators already using the network.
+Join thousands of Node Operators and developers experiencing the faster, safer, more affordable object storage alternative - all made possible by a massive, global network of nodes on the Storj Network
