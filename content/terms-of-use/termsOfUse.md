@@ -1,8 +1,30 @@
 ---
 title : "terms-of-use"
-lastUpdated : "July 1, 2016"
+lastUpdated : "July 19, 2020"
 ---
 
+<p>These Terms of Use  (“<b>Terms of Use</b>” or “<b>Agreement</b>”) apply to the websites, mobile applications, and communities of Storj Labs, Inc. (“<b>Company</b>,” “<b>we</b>,” or “<b>us</b>”), including but not limited to storj.io, tardigrade.io. Forum.storj.io, documentation.storj.io, documentation.tardigrade.io, support.storj.io, support.tardigrade.io, https://ideas.storj.io/ https://us-central-1.tardigrade.io/, https://europe-west-1.tardigrade.io/, asia-east-1.tardigrade.io, (referred to collectively as the “<b>Websites</b>”).</p>
+
+<p>These Terms of Use also apply to individuals or entities (“<b>Users</b>” or “<b>you</b>,”) interacting with, including but not limited to the posting or publishing of content (“User Content”), a variety of products and services offered by Storj, including the Websites (collectively, the “<b>Services</b>”), including but not limited to:</p>
+
+<ol type="1">
+    <li><p>The online storage sharing services (the “<b>Storage Services</b>”) provided by Company to Users via the distributed network of independently operated computers or other electronic data storage devices (“<b>Devices</b>”) running the storage node software which, when installed on a Device, enables such Device to participate the online storage sharing services provided to Users (the “<b>Storage Node Software</b>”) (each a “<b>Storage Node</b>” which collectively comprise the “Storage Network”) and configured to communicate with the Storage Services; and
+		</p></li>
+    <li><p>The sharing of storage space and bandwidth on a Storage Node as part of the Storage Network (the “<b>Storage Node Operator Services</b>” by  an individual or entity operating one or more Storage Nodes (a “<b>Storage Node Operator</b>”); and
+		</p></li>
+    <li><p>Any individual or entity interacting with any of the websites, mobile applications, and communities that are the subject of this Agreement.</p></li>
+</ol>
+
+<p>The Services available to Users are determined by the separate terms agreed to between Storj and the applicable individual or entity (collectively, the “User”) governing, among other things, the delivery, access, and use of the Services (the “<a href="https://tardigrade.io/terms-of-service
+" class="link">Tardigrade Terms of Service</a>,” which are hereby incorporated by reference”).  The Storage Node Operator Services are determined by the separate terms agreed to between Storj and the applicable Storage Node Operator governing, among other things, the operational requirements and fee payment terms (the “<a href="https://storj.io/storj-share-terms/" class="link">Storage Node Operator Terms and Conditions</a>,” which are hereby incorporated by reference).</p>
+
+<p> Regardless of what type of User you are, these Terms of Use create a legal agreement directly between you and Storj and explain rules governing use of the Services. By accessing or using the Services, you acknowledge and agree that you have read, understand, and agree to be bound by these Terms of use and our <a href=""https://storj.io/privacy-policy/Privacy class="link">Policy</a>, which is hereby corporated by reference. </p>
+
+<p>We may, from time to time, modify these Terms of Use. Please check this page periodically for updates. We will comply with applicable local legal obligations to provide you with notice of changes to these Terms of Use. Your continued use of the Services after any such update constitutes your acceptance of such changes.</p>
+
+<p><b>PLEASE READ THESE TERMS OF USE CAREFULLY TO ENSURE THAT YOU UNDERSTAND EACH PROVISION. THESE TERMS OF USE CONTAIN A BINDING ARBITRATION AND WAIVER OF CLASS ACTION RIGHTS PROVISION THAT REQUIRES THE USE OF INDIVIDUAL ARBITRATION TO RESOLVE DISPUTES AS SET FORTH IN THE MANDATORY ARBITRATION AND CLASS ACTION WAIVER SECTION BELOW. IF YOU DO NOT AGREE TO THESE TERMS OF USE, PLEASE DO NOT ACCESS OR USE THE SERVICE, STORAGE PLATFORM, OR SERVICES.</b></p>
+
+-----------------------------------
 <p><b>PLEASE READ THESE TERMS OF USE CAREFULLY.  NOTE THAT SECTION 17 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF USE, DO NOT ACCESS OR USE OUR SERVICES.</b></p>
 
 <p>By accessing or using the websites, mobile applications and online services of Storj Labs Inc. (“<b>Company</b>,” “<b>we</b>,” or “<b>us</b>”), including storj.io, (collectively, the “<b>Services</b>”) you will be bound by these Terms of Use (“<b>Terms</b>”) and all terms incorporated by reference.  If you do not agree to these Terms, you may not access or use the Services. </p>
