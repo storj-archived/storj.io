@@ -4284,6 +4284,10 @@ color: #FFFFFF;
 	position: relative;
 }
 
+.introducing-subheading {
+	font-family: 'Roboto';
+}
+
 @media only screen and (max-width: 738px) {
   .introducing {
     padding-left: 0;
@@ -4410,7 +4414,7 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 1330px) {
 	.introducing-bg {
-    height: 480px;
+    height: 390px;
   }
 }
 
