@@ -24,6 +24,17 @@ lastUpdated : "July 19, 2020"
 
 <p><b>PLEASE READ THESE TERMS OF USE CAREFULLY TO ENSURE THAT YOU UNDERSTAND EACH PROVISION. THESE TERMS OF USE CONTAIN A BINDING ARBITRATION AND WAIVER OF CLASS ACTION RIGHTS PROVISION THAT REQUIRES THE USE OF INDIVIDUAL ARBITRATION TO RESOLVE DISPUTES AS SET FORTH IN THE MANDATORY ARBITRATION AND CLASS ACTION WAIVER SECTION BELOW. IF YOU DO NOT AGREE TO THESE TERMS OF USE, PLEASE DO NOT ACCESS OR USE THE SERVICE, STORAGE PLATFORM, OR SERVICES.</b></p>
 
+<p>You and Company agree as follows:</p>
+
+<p><b>1. ELIGIBILITY; AUTHORITY</b><p/>
+
+<p>You must be 18 years of age or older to access or use our Services. If you are using the Services  on behalf of any entity: (a) you represent and warrant that you are authorized to accept these Terms on such entity’s behalf and that such entity will be responsible for breach of these Terms by you or any other employee or agent of such entity; and (b) references to “you” in these Terms refer to you and such entity, jointly.</p>
+
+<p><b>2. ACCOUNT REGISTRATION AND USE</b><p/>
+
+<p>(a)  Account Registration and Confidentiality. You may be required to register for a Storj account in order to access certain Services by creating a username and password. You agree to provide us with accurate, complete, and current registration information about yourself. It is your responsibility to ensure that your password remains confidential and secure. By registering, you agree that you are fully responsible for all activities that occur under your user name and password. We may assume that any communications we receive under your account have been made by you.  If you are a billing owner, an administrator, or if you have confirmed in writing that you have the authority to make decisions on behalf of a User (“Account Administrator”), you represent and warrant that you are authorized to make decisions on behalf of the User and agree that Storj is entitled to rely on your instructions.  </p>
+
+
 -----------------------------------
 <p><b>PLEASE READ THESE TERMS OF USE CAREFULLY.  NOTE THAT SECTION 17 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF USE, DO NOT ACCESS OR USE OUR SERVICES.</b></p>
 
