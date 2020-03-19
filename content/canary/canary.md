@@ -28,24 +28,25 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 01/01/2019, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 03/02/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
-
-- - U.S. Embassy siege in Baghdad ends after supporters of Iranian-backed militia withdraw
-- - Trump threatens Iran after embassy attack but is reluctant to get more involved in the region
-- - Trump administration to ban most flavored e-cigarette pods
-- - Democrats sharpen their differences as Iowa caucuses loom
-- - Dwyane Wade and Gabrielle Union’s simple, open-armed act of parental love
+ 
+- - Virus circulated undetected in Washington state for weeks
+- - Global virus death toll passes 3,000; markets stage cautious recovery on stimulus hopes
+- - U.S. stocks go positive after worst week since Great Recession
+- - Fever, fear and a slow recovery: One man’s battle with coronavirus in South Korea
+- - Klobuchar cancels Minnesota rally after protesters storm event, outraged over her prosecutorial record
 -----BEGIN PGP SIGNATURE-----
-Version: Keybase OpenPGP v2.1.3
+Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJeDNUoAAoJEPQrujgXjffwID4IAIVzdHYVOIy5wUN+lqzLg9eQ
-9AYG3pVd1+yuWJ6ynS9cfkxqcuQDw3UYaS6AEC7mbHMgoIbLKjgl3ef8IDCFiyYm
-w8FKTb6gX1oRYM0U6wWsftcGUiBoNUxUIpNIfHmlgZogTinESa1/yeXaWeTQyA/V
-sxHoCwWZBThhCiij/6PcE5Y2sg+o23Fd0gseoyLn5WkZWPNhNgTcgTmq6MvySJpM
-xK7QSBkWxpZnF68BPpZoiNBS4LDmfuFOidQnkjKdTo/FvWFfXswzf5oyFAx19sd5
-P31AiIJwtNp6PhNw0wvWDWFvy+IT6DD4u2gHhmVtn7M64O4ieinF9EjCk0ITWec=
-=azfP
+wsBcBAABCgAGBQJeXSF8AAoJEPQrujgXjffwviQIAJGeC7FG3pWk56wpDuSUGhVf
+YV33VYDG5n1kbVhFE4A1K8X1WutoDLN6g/4fpv+yAyqm16ko7kUk+/4xwugaP56B
+a7o+2/HvHnGBQELWSyJk9DQTTRA79xgL+ILEGDS8N5QqIzfkh/iicS8LGXyFeqqZ
+yfsjzdhKEF8IZV6Fnv9cv01cN5MTLiKGSQHXbMQNeynsy6PYoCnDiw+umZW2YsnB
+lgvxnL6Lgh3F4lbWdFmhjk/myuiw5NURGCwVH5CfZDdW+q9aQdDKHuA23ZeHZ55a
+eSqKvOtB03axfWYiVL+4wfvO1olhNYdVXpWOwkBfn26pOmBsKbxTXi4NnOrIja8=
+=vZDc
 -----END PGP SIGNATURE-----
+

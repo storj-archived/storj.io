@@ -9,3 +9,9 @@
   to = "https://gist.githubusercontent.com/zeebo/ecc0abd0aec09c9eff85b12d788dfc81/raw/storj-clone"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/storage-node-estimator"
+  to = "https://storj.io/blog/2019/01/sharing-storage-space-for-fun-and-profit/"
+  status = 301
+  force = true
