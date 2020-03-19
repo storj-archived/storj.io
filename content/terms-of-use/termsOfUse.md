@@ -34,6 +34,68 @@ lastUpdated : "July 19, 2020"
 
 <p>(a)  Account Registration and Confidentiality. You may be required to register for a Storj account in order to access certain Services by creating a username and password. You agree to provide us with accurate, complete, and current registration information about yourself. It is your responsibility to ensure that your password remains confidential and secure. By registering, you agree that you are fully responsible for all activities that occur under your user name and password. We may assume that any communications we receive under your account have been made by you.  If you are a billing owner, an administrator, or if you have confirmed in writing that you have the authority to make decisions on behalf of a User (“Account Administrator”), you represent and warrant that you are authorized to make decisions on behalf of the User and agree that Storj is entitled to rely on your instructions.  </p>
 
+<p>(b)  Unauthorized Account Use. You are responsible for notifying us at <a href="mailto:hello@storj.io" class="link">hello@storj.io</a> if you become aware of any unauthorized use of or access to your account. You understand and agree that we may require you to provide information that may be used to confirm your identity and help ensure the security of your account. Storj will not be liable for any loss, damages, liability, expenses or attorneys’ fees that you may incur as a result of someone else using your password or account, either with or without your knowledge and/or authorization, and regardless of whether you have or have not advised us of such unauthorized use. You will be liable for losses, damages, liability, expenses and attorneys’ fees incurred by Storj or a third party due to someone else using your account.  In the event that the Account Administrator or User loses access to an account or otherwise requests information about an account, Storj reserves the right to request from the Account Administrator or User any verification it deems necessary before restoring access to or providing information about such account in its sole discretion.
+</p>
+
+<p><b>3. PROPRIETARY RIGHTS</b><p/>
+
+<p>The Services, including all text, videos, images, data, software, and other files, content, and materials contained on the Services are owned and operated by Storj and contain materials which are derived in whole or in part from materials supplied by Storj and its partners, as well as other sources, and are protected by United States copyright laws, international treaty provisions, trademarks, service marks and other intellectual property laws. The Services are also protected as a collective work or compilation under U.S. copyright and other law and treaties. You agree to abide by all applicable copyright and other laws, as well as any additional copyright notices or restrictions contained in the Services. You acknowledge that the Services have been developed, compiled, prepared, revised, selected, and arranged by Storj and others through the application of methods and standards of judgment developed and applied through the expenditure of substantial time, effort, and money and constitute valuable intellectual property of Storj and such others. You agree to protect the proprietary rights of Storj and all others having rights in the Services during and after the term of these Terms of User and to comply with all written requests made by Storj or its suppliers and licensors (collectively, “<b>Suppliers</b>”) of content or otherwise to protect their and others’ contractual, statutory, and common law rights in the Services. You agree to notify Storj immediately upon becoming aware of any claim that the Services infringe upon any copyright, trademark, or other contractual, statutory, or common law rights. All present and future rights in and to trade secrets, patents, copyrights, trademarks, service marks, know-how, and other proprietary rights of any type under the laws of any governmental authority, domestic or foreign, including without limitation rights in and to all applications and registrations relating to the Services shall, as between you and Storj, at all times be and remain the sole and exclusive property of Storj. Any unauthorized use of any material contained on or through the Services may violate copyright laws, trademark laws, the laws of privacy and publicity and communications regulations and statutes.</p>
+
+<p><b>4. MODIFICATIONS TO THE SERVICES</b><p/>
+
+<p>We reserve the right, in our sole discretion, to modify or discontinue, temporarily or permanently, the Services (or any features or functionality thereof) at any time without notice and without obligation or liability to you. You agree that Storj shall not be liable to you or any third party for any modification, suspension, or discontinuance of the Services.</p>
+
+<p><b>5. DMCA POLICY</b><p/>
+
+<p>We respect artist and content owner rights and we expect our users to do the same. It is our policy to respond to claims of infringement in compliance with the Digital Millennium Copyright Act of 1998 (“DMCA”). If you are a copyright owner, or authorized on behalf of one, and you believe that the copyrighted work has been copied in a way that constitutes copyright infringement that is taking place through the Services, please complete a DMCA Notice with the information below and deliver it to our Designated DMCA Agent at the contact information provided below.</p>
+
+<p>You must provide the following information in writing in your DMCA Notice:</p>
+
+<ol type="1">
+    <li><p>Identify the copyrighted work that you claim has been infringed;</p></li>
+		<li><p>Identify the material that is claimed to be infringing and where it is located on the Services;</p></li>
+		<li><p>Provide reasonably sufficient information to permit us to contact you, such as your address, telephone number, and e-mail address;<p></li>
+		<li><p>Provide a statement that you have a good faith belief that use of the material in the manner complained of is not authorized by the copyright owner, its agent, or law;</p></li>
+		<li><p>Provide a statement, made under penalty of perjury, that the above information is accurate, and that you are the copyright owner or are authorized to act on behalf of the owner; and</p></li>
+		<li><p>Provide an electronic or physical signature of a person authorized to act on behalf of the copyright owner;</p></li>
+</ol>
+
+<p>Deliver the DMCA Notice, with the above information completed, to our Designated DMCA Agent at the following address.  Your envelope must contain the information as written, including identifying the DMCA Agent as follows:</p>
+
+<p>Name of Designated Agent: Katherine Johnson, DMCA Agent</p>
+<p>Address: 3423 Piedmont Rd Ne Suite 475, Atlanta, Georgia 30305, Phone: 608-466-2860</p>
+<p>Email: dmca@storj.io</p>
+
+<p>UNDER FEDERAL LAW, IF YOU KNOWINGLY MISREPRESENT THAT ONLINE MATERIAL IS INFRINGING, YOU MAY BE SUBJECT TO CRIMINAL PROSECUTION FOR PERJURY AND CIVIL PENALTIES, INCLUDING MONETARY DAMAGES, COURT COSTS, AND ATTORNEYS’ FEES.</p>
+
+<p>Please be aware that this procedure is only for notifying us of your belief that your copyrighted material has been infringed. The preceding requirements are intended to comply with our rights and obligations under the DMCA, including 17 U.S.C. §512(c), but do not constitute legal advice.</p>
+
+<p>In accordance with the DMCA and other applicable law, we have adopted a policy of terminating, in appropriate circumstances, users who are deemed to be repeat infringers. We may also limit access to the Services and/or terminate the accounts of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement. </p>
+
+<p>For questions about these or any Storj terms or policies, email us at legal@storj.io.</p>
+
+<p><b>6. TRADEMARKS</b></p>
+
+<p>“Storj,” “Storj Labs,” “Tardigrade” the Company logo, any other Company service names, logos, mascots or slogans that may appear on the Services, and the look and feel of the Services, including all page headers, custom graphics, button icons and scripts, are trademarks, service marks or trade dress of Company and our suppliers and our licensors, and, except as otherwise authorized in the Agreement or any open source license associated with the Services, may not be copied, imitated or used, in whole or in part, without our or the applicable trademark holder’s prior written permission. You may not use any metatags or other “hidden text” utilizing “Storj Labs” or any other name, trademark or product or service name of Company without our prior written permission. Further, you may not use, frame or utilize framing techniques to enclose any Company trademark, logo or other proprietary information, including the images found on the Services, the content of any text or the layout or design of any page, or form contained on a page, on the Services without our express written consent.</p>
+
+<p><b>7. THIRD-PARTY CONTENT</b></p>
+
+<p>We may display third-party content, advertisements, links, promotions, logos, and other materials through the Services (collectively, “<b>Third-Party Content</b>”). We do not control, endorse, sponsor or adopt any third parties referenced on the Services, or Third-Party Content, and we make no representations or warranties of any kind regarding such Third-Party Content, including, without limitation, regarding its accuracy or completeness. Your interactions with Third-Party Content, and any third party that provides Third-Party Content, are solely between you and such third parties, and Company is not responsible or liable in any manner for such interactions or Third-Party Content. When you leave the Services and enter a third-party service or product, our terms and policies no longer apply. </p>
+
+<p><b>7. USER CONDUCT</b></p>
+
+<p>ou will comply with all applicable laws in connection with your access and use of the Services, and you are solely responsible for your conduct while accessing or using the Services. Further, you will not:</p>
+
+<ol type="a">
+    <li><p>engage in conduct that is harassing, threatening, intimidating, or stalking, or that we otherwise deem objectionable;</p></li>
+		<li><p>use the Services in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the Services or that could damage, disable, overburden or impair the functioning of the Services in any manner;</p></li>
+		<li><p>reverse engineer any aspect of the Services or do anything that might discover the source code of the Services (other than in connection with open source software we release);<p></li>
+		<li><p>violate, infringe or misappropriate any intellectual property or other third-party right or commit a tort;</p></li>
+		<li><p>modify, copy (other than standard page caching), publicly perform, publicly display, sell, rent, lease, timeshare or otherwise distribute the Services, in whole or in part. This restriction does not apply to open source software we release, which you can use subject to the applicable open source software license terms;</p></li>
+		<li><p>attempt to bypass or circumvent measures employed to prevent or limit access to any content, area or functionality on the Services, without providing prior notice to Company of the method used to bypass or circumvent;</p></li>
+		<li><p>use any of the Services other than for its intended purposes; or</p></li>
+		<li><p>use the Services to engage in or promote any activity that violates these Terms of Use. </p></li>
+</ol>
 
 -----------------------------------
 <p><b>PLEASE READ THESE TERMS OF USE CAREFULLY.  NOTE THAT SECTION 17 CONTAINS A BINDING ARBITRATION CLAUSE AND CLASS ACTION WAIVER, WHICH AFFECT YOUR LEGAL RIGHTS. IF YOU DO NOT AGREE TO THESE TERMS OF USE, DO NOT ACCESS OR USE OUR SERVICES.</b></p>
