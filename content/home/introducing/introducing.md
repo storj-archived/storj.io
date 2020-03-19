@@ -1,6 +1,6 @@
 ---
-heading: "Introducing Tardigrade"
-subheading: "Get faster, safer, more affordable cloud object storage. Tardigrade.io allows engineering teams take advantage of the Storj network’s speed and security, bringing decentralization to the masses."
+heading: "Upgrade Your Storage Layer"
+subheading: "Get faster, safer, more affordable cloud object storage with no centeral point of failure. Tardigrade takes advantage of the Storj network’s speed and security, bringing decentralization to the masses"
 btnLink: "https://storjsupport.typeform.com/to/dEzmtr"
 btnText: "Visit Tardigrade.io"
 ---
