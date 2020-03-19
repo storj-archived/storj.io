@@ -15,3 +15,9 @@
   to = "https://storj.io/blog/2019/01/sharing-storage-space-for-fun-and-profit/"
   status = 301
   force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "deny"
+    Strict-Transport-Security = "max-age=300; includeSubDomains"
