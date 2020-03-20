@@ -1,66 +1,70 @@
 ---
-Title : 'Storage Sharing Terms and Conditions'
+Title : 'STORAGE NODE OPERATOR TERMS AND CONDITIONS'
 lastUpdated : "March 19, 2020"
 
 ---
-<p>THIS STORAGE NODE OPERATOR AGREEMENT  (THE “<b>AGREEMENT>/b>") IS A LEGAL AGREEMENT BETWEEN YOU (“<b>STORAGE NODE OPERATOR>/b>,” “<b>YOU>/b>", OR “<b>YOURS>/b>”) AND STORJ LABS INC.  (“<b>COMPANY>/b>,” “<b>US>/b>,” “<b>WE>/b>” OR “<b>OUR>/b>”), INCLUDING  GOVERNING THE TERMS OF YOUR PARTICIPATION IN THE STORAGE NODE SERVICES.  YOU UNDERSTAND AND AGREE THAT BY ACCEPTING THE TERMS OF THIS AGREEMENT, EITHER BY CLICKING TO SIGNIFY ACCEPTANCE, OR BY TAKING ANY ONE OR MORE OF THE FOLLOWING ACTIONS DOWNLOADING, INSTALLING,  RUNNING,/AND OR USING THE APPLICABLE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT EFFECTIVE AS OF THE DATE THAT YOU TAKE THE EARLIEST OF ONE OF THE FOREGOING ACTIONS. YOU REPRESENT AND WARRANT THAT YOU ARE 18 YEARS OLD OR OLDER AND HAVE THE RIGHT AND AUTHORITY TO ENTER INTO AND COMPLY WITH THE TERMS OF THIS AGREEMENT. </p>
+<div class="row">
+<div class="col-xs-12 col-md-8 col-md-push-2">
+<p>THIS STORAGE NODE OPERATOR AGREEMENT  (THE “<b>AGREEMENT</b>") IS A LEGAL AGREEMENT BETWEEN YOU (“<b>STORAGE NODE OPERATOR</b>,” “<b>YOU</b>", OR “<b>YOURS</b>”) AND STORJ LABS INC.  (“<b>COMPANY</b>,” “<b>US</b>,” “<b>WE</b>” OR “<b>OUR</b>”), INCLUDING  GOVERNING THE TERMS OF YOUR PARTICIPATION IN THE STORAGE NODE SERVICES.  YOU UNDERSTAND AND AGREE THAT BY ACCEPTING THE TERMS OF THIS AGREEMENT, EITHER BY CLICKING TO SIGNIFY ACCEPTANCE, OR BY TAKING ANY ONE OR MORE OF THE FOLLOWING ACTIONS DOWNLOADING, INSTALLING,  RUNNING,/AND OR USING THE APPLICABLE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT EFFECTIVE AS OF THE DATE THAT YOU TAKE THE EARLIEST OF ONE OF THE FOREGOING ACTIONS. YOU REPRESENT AND WARRANT THAT YOU ARE 18 YEARS OLD OR OLDER AND HAVE THE RIGHT AND AUTHORITY TO ENTER INTO AND COMPLY WITH THE TERMS OF THIS AGREEMENT. </p>
 
 <p><b>PLEASE READ THE TERMS OF THIS AGREEMENT CAREFULLY TO ENSURE THAT YOU UNDERSTAND EACH PROVISION. THIS AGREEMENT CONTAINS A BINDING ARBITRATION AND WAIVER OF CLASS ACTION RIGHTS PROVISION THAT REQUIRES THE USE OF INDIVIDUAL ARBITRATION TO RESOLVE DISPUTES AS SET FORTH IN THE Section 14 BELOW. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT CHECK THE ACCEPTANCE BOX, AND DO NOT DOWNLOAD, ACCESS, COPY, INSTALL OR USE THE SOFTWARE.</b></p>
 
+<br>
 <ol type="1">
-		<li><b>Definitions</b>. In addition to the capitalized terms defined elsewhere above and herein, the terms below are defined as follows:</li>
-				<ol type="1.1">
-						<li>“<b>Commencement Date</b>” means the first date on which Storage Materials are stored on a Storage Node pursuant to the terms of this Agreement.</li>
-						<li>“<b>Device</b>” means an independently operated computer or other electronic data storage device meeting all of the technical and other requirements set forth in this Agreement. </li>
-						<li>“<b>NodeID</b>” means a unique code generated when a Storage Node completes a proof of work as required during the setup and configuration of the Storage Node Software (as defined below) in order for a Device to communicate with the Storage Services.</li>
-						<li>“<b>Storage Node Operator Services</b>” means Storage Node Operator’s sharing of Space and Bandwidth on a Storage Node as part of the Storage Network in accordance with the terms of this Agreement.</li>
-						<li>“<b>Storage Node Software</b>” means the Storage Node Software which, when installed on a Device, enables such Device to participate in the Storage Network.</li>
-						<li>“<b>Space</b>” means the online storage sharing services provided to Users via a distributed network (“Storage Network”) of Storage Nodes by Company.</li>
-						<li>“<b>Bandwidth</b>” means upload and download network service for transfer of Storage Materials as defined below between the storage node and the online storage sharing services provided by Company to Users via the Storage Network (the “<b>Storage Services</b>”).</li>
-						<li>“<b>Storage Materials</b>” means data and materials stored by Users on a distributed network of Devices</li>
-						<li>“<b>Storage Node</b>” means a Device running the Storage Node Software and configured to communicate with the Storage Services.</li>
-						<li>“<b>Storage Node Operator</b>” means an individual or entity operating one or more Storage Nodes pursuant to the terms of this Agreement.</li>
-						<li>“<b>User</b>” means an individual or entity that uploads and stores Storage Materials to the Storage Network.</li>
-				</ol>
+		<li>  &nbsp; &nbsp;<b>Definitions</b>. In addition to the capitalized terms defined elsewhere above and herein, the terms below are defined as follows:</li>
+				<ul>
+						<li>1.1 &nbsp;&nbsp;“<b>Commencement Date</b>” means the first date on which Storage Materials are stored on a Storage Node pursuant to the terms of this Agreement.</li>
+						<li>1.2 &nbsp;&nbsp;“<b>Device</b>” means an independently operated computer or other electronic data storage device meeting all of the technical and other requirements set forth in this Agreement. </li>
+						<li>1.3 &nbsp;&nbsp;“<b>NodeID</b>” means a unique code generated when a Storage Node completes a proof of work as required during the setup and configuration of the Storage Node Software (as defined below) in order for a Device to communicate with the Storage Services.</li>
+						<li>1.4 &nbsp;&nbsp;“<b>Storage Node Operator Services</b>” means Storage Node Operator’s sharing of Space and Bandwidth on a Storage Node as part of the Storage Network in accordance with the terms of this Agreement.</li>
+						<li>1.5 &nbsp;&nbsp;“<b>Storage Node Software</b>” means the Storage Node Software which, when installed on a Device, enables such Device to participate in the Storage Network.</li>
+						<li>1.6 &nbsp;&nbsp;“<b>Space</b>” means the online storage sharing services provided to Users via a distributed network (“<b>Storage Network</b>”) of Storage Nodes by Company.</li>
+						<li>1.7 &nbsp;&nbsp;“<b>Bandwidth</b>” means upload and download network service for transfer of Storage Materials as defined below between the storage node and the online storage sharing services provided by Company to Users via the Storage Network (the “<b>Storage Services</b>”).</li>
+						<li>1.8 &nbsp;&nbsp;“<b>Storage Materials</b>” means data and materials stored by Users on a distributed network of Devices</li>
+						<li>1.9 &nbsp;&nbsp;“<b>Storage Node</b>” means a Device running the Storage Node Software and configured to communicate with the Storage Services.</li>
+						<li>1.10 &nbsp;&nbsp;“<b>Storage Node Operator</b>” means an individual or entity operating one or more Storage Nodes pursuant to the terms of this Agreement.</li>
+						<li>1.11 &nbsp;&nbsp;“<b>User</b>” means an individual or entity that uploads and stores Storage Materials to the Storage Network.</li>
+				</ul>
 		<li><b>Storage Node Operator Services. </b></li>
-				<ol type="2.1">
-						<li>Company provides the Storage Services to Users pursuant to terms and conditions entered into by the applicable parties. You may implement and provide Storage Node Operator Service pursuant to the terms hereof during the Term of this Agreement. The Storage Node Operator Service includes the features and functionality applicable to the version of the Software installed by Storage Node Operator. Company  may update the content, functionality, and user interface of the Storage Node Operator Service from time to time in its sole discretion.</li>
-						<li><b>Open Source Storage Node Software License.</b> You have a non-exclusive, non-sublicenseable, non-transferable right to participate in the Storage Node Operator Service pursuant to this Agreement during the Term hereof solely for your internal business purposes subject to the limitations set forth herein. The Storage Node Software consists of open source code and is made available to you pursuant to the terms of the open-source license agreement(s) located at <a href="" class="link target="_blank">https://github.com/storj/storj/blob/master/LICENSE</a> (the “<b>Open Source License(s)</b>”). Your use of the Storage Node Software is conditioned upon your compliance at all times with the terms of all applicable Open Source License(s), including without limitation all provisions governing access to source code, modification, and/or reverse engineering. You are responsible for complying with any applicable documentation, meaning any information that describes the Storage Services, provides instructions or recommendations related to the configuration and/or use of the Storage Services, or otherwise informs Users of the intended use of the Storage Services, including, but not limited to content provided directly to user or  published at <a href="" class="link target="_blank">https://documentation.tardigrade.io</a>, <a href="" class="link target="_blank">https://documentation.storj.io</a>, or otherwise made available in conjunction with the Storage Services or Storage Node Software (“<b>Documentation</b>”) and for satisfying all technical requirements of the Storage Node Software, including any requirements set forth in the Documentation for ensuring that the Storage Node Software performs properly. </li>
-				</ol>
+				<ul>
+						<li>2.1&nbsp;&nbsp;Company provides the Storage Services to Users pursuant to terms and conditions entered into by the applicable parties. You may implement and provide Storage Node Operator Service pursuant to the terms hereof during the Term of this Agreement. The Storage Node Operator Service includes the features and functionality applicable to the version of the Software installed by Storage Node Operator. Company  may update the content, functionality, and user interface of the Storage Node Operator Service from time to time in its sole discretion.</li>
+
+						<li>2.2&nbsp;&nbsp;<b>Open Source Storage Node Software License.</b> You have a non-exclusive, non-sublicenseable, non-transferable right to participate in the Storage Node Operator Service pursuant to this Agreement during the Term hereof solely for your internal business purposes subject to the limitations set forth herein. The Storage Node Software consists of open source code and is made available to you pursuant to the terms of the open-source license agreement(s) located at <a href="" class="link target="_blank">https://github.com/storj/storj/blob/master/LICENSE</a> (the “<b>Open Source License(s)</b>”). Your use of the Storage Node Software is conditioned upon your compliance at all times with the terms of all applicable Open Source License(s), including without limitation all provisions governing access to source code, modification, and/or reverse engineering. You are responsible for complying with any applicable documentation, meaning any information that describes the Storage Services, provides instructions or recommendations related to the configuration and/or use of the Storage Services, or otherwise informs Users of the intended use of the Storage Services, including, but not limited to content provided directly to user or  published at <a href="" class="link target="_blank">https://documentation.tardigrade.io</a>, <a href="" class="link target="_blank">https://documentation.storj.io</a>, or otherwise made available in conjunction with the Storage Services or Storage Node Software (“<b>Documentation</b>”) and for satisfying all technical requirements of the Storage Node Software, including any requirements set forth in the Documentation for ensuring that the Storage Node Software performs properly. </li>
+				</ul>
 		<li><b>Storage Node Operator Grant of Right to Storage Node. </b></li>
-				<ol type="3.1">
-						<li><ul>Grant of Right to Storage Node.</ul> By making available Space and Bandwidth on your Storage Node to share with Company via the Storage Node Software, you hereby grant to Company and Users the  irrevocable right to access and use the Storage Node as follows:</li>
-						<ol type="3.1.1">
-								<li>to store Storage Materials on your Storage Node in accordance with the  parameters you set via the Storage Node Software installed on such Storage Node; and </li>
-								<li>to access such Storage Materials from your Storage Node at any time, in accordance with parameters you set in the Storage Node Software.</li>
-						</ol>
-				</ol>
+				<ul>
+						<li>4.1 &nbsp;&nbsp;<ul>Grant of Right to Storage Node.</ul> By making available Space and Bandwidth on your Storage Node to share with Company via the Storage Node Software, you hereby grant to Company and Users the  irrevocable right to access and use the Storage Node as follows:</li>
+						<ul>
+								<li>3.1.1.&nbsp;&nbsp;to store Storage Materials on your Storage Node in accordance with the  parameters you set via the Storage Node Software installed on such Storage Node; and </li>
+								<li>3.1.2.&nbsp;&nbsp;to access such Storage Materials from your Storage Node at any time, in accordance with parameters you set in the Storage Node Software.</li>
+						</ul>
+				</ul>
 		<li>Storage Node Operator Responsibilities.</li>
-				<ol type="4.1">
-						<li>At all times during the Term of this Agreement or the period when Storage Materials are maintained in your Storage Node, whichever is longer:</li>
-						<ol type="4.1.1">
-								<li>You will comply with the terms of this Agreement, <a target="_blank" href="https://storj.io/terms-of-use/" class="link">Storj’s Terms of Use</a> and <a target="_blank" href="https://storj.io/privacy-policy/" class="link">Privacy Policy</a> and any other terms and conditions required by Storj in connection herewith, the Open Source Licenses, and the terms of all other agreements to which you are a party in connection with your performance under this Agreement including, without limitation, any agreement you have with a third-party Internet service provider.</li>
-								<li>You will operate the Storage Node in strict compliance with terms of this Agreement and will not take any action not expressly authorized hereunder.</li>
-								<li>You will not modify or attempt to modify the Storage Node Software for any purpose including but not limited to attempting to circumvent the audit, bypass security, manipulate the performance of, or otherwise disrupt the Storage Services for any reason, including but not limited to attempting to increase the amount of data stored or bandwidth utilized or the amount of Storage Node Fees, as defined herein, and you will not otherwise interfere with the operation of the Storage Services.</li>
-								<li>You will provide and maintain the Storage Node so that, at all times, it will meet the following minimum requirements (“<b>Minimum Storage Node Requirements</b>”):</li>
-								<ol type="4.1.4.1">
-										<li>Have a minimum of one (1) hard drive and one (1) processor core dedicated to each Storage Node; </li>
-										<li>Have a minimum of 500 GB of available Space per Storage Node;</li>
-										<li>Operate with at least 2 TB of Bandwidth available per month;</li>
-										<li>Operate with at least 5 Mbps bandwidth upstream;</li>
-										<li>Operate with at least 25 Mbps bandwidth downstream;</li>
-										<li>Is online and operational no less than 99.3% of the time per month;</li>
-										<li>meet all performance requirements referred to in this Agreement, as well as any performance requirements set forth in the Documentation or in other instructions made available with the Storage Node Software or otherwise hereunder;</li>
-										<li>be connected to the Internet to enable Company and its Users to store and access the Storage Materials with a minimum of 99.3% availability as measured on a monthly basis; and</li>
-										<li>be run with sufficient Bandwidth without other applications consuming a percentage of the available  Bandwidth so as not to create network congestion or any other form of Internet connectivity degradation.</li>
-								</ol>
-								<li>You will implement and maintain adequate administrative, organizational, physical and technical safeguards to ensure the protection, confidentiality, security, and integrity of the Storage Node and Storage Materials and shall take all reasonable steps to ensure that Storage Materials are not disclosed, accessed, used, modified, or distributed except as expressly authorized under this Agreement.</li>
-								<li>You acknowledge and agree that by running the Storage Node Software on your Device and allowing Space and Bandwidth to be utilized by Company and/or Users, your Device may be impacted due to additional constraints being placed on it by the Storage Node Software and the processing of Storage Materials. In particular, but without limiting the generality of the foregoing, your Device may not operate as quickly as it would without running the Storage Node Software and making Space and Bandwidth available for use by Users.</li>
-								<li>In connection with your use of the Storage Node Software and/or operation of a Storage Node hereunder, Company may, from time to time, require you to affirm and/or reaffirm your agreement to the terms of this Agreement, and in such case, your continued use of the Storage Node Software is contingent upon your promptly providing such affirmation as requested by Company.</li>
-								<li>If and when you permanently cease to operate an applicable Storage Node hereunder for any reason, you will take the following steps to ensure a seamless and non-disruptive exit from the Storage Services: you will (a) first implement the applicable function provided in the Storage Node Software by which Storage Materials stored on the Storage Node shall be uploaded to the Storage Services prior to the time when the Storage Node is permanently disconnected from the Storage Network; and (b) comply with any and all instructions of Company for ceasing Storage Node Operation prior to ceasing operation of the Storage Node ((a) and (b) referred to collectively as a “<b>Graceful Exit</b>”). Any time you cease operation  of a Storage Node, it is subject to the requirements and conditions of Section 8. herein.</li>
-								<li><ul>Administration of Storage Node</u>. You, as the Storage Node Operator, acknowledge that you retain administrative control over to whom you grant access to the applicable Storage Node. You are responsible for maintaining the security of the Storage Node including without limitation all applicable accounts and passwords used to gain access to the device the node is running on.</li>
-								<li><ul>Suspension</ul>. Company may suspend Storage Node Operator’s participation in the Storage Services if Company believes Storage Node Operator to be: (a) violating any term of this Agreement; or (b) using the Storage Node Operator Service in a manner that Company reasonably believes may cause a security risk, a disruption to the Storage Services, or liability for Company. </li>
+				<ul>
+						<li>4.1&nbsp;&nbsp;At all times during the Term of this Agreement or the period when Storage Materials are maintained in your Storage Node, whichever is longer:</li>
+						<ul>
+								<li>4.1.1.You will comply with the terms of this Agreement, <a target="_blank" href="https://storj.io/terms-of-use/" class="link">Storj’s Terms of Use</a> and <a target="_blank" href="https://storj.io/privacy-policy/" class="link">Privacy Policy</a> and any other terms and conditions required by Storj in connection herewith, the Open Source Licenses, and the terms of all other agreements to which you are a party in connection with your performance under this Agreement including, without limitation, any agreement you have with a third-party Internet service provider.</li>
+								<li>4.1.2. You will operate the Storage Node in strict compliance with terms of this Agreement and will not take any action not expressly authorized hereunder.</li>
+								<li>4.1.3. You will not modify or attempt to modify the Storage Node Software for any purpose including but not limited to attempting to circumvent the audit, bypass security, manipulate the performance of, or otherwise disrupt the Storage Services for any reason, including but not limited to attempting to increase the amount of data stored or bandwidth utilized or the amount of Storage Node Fees, as defined herein, and you will not otherwise interfere with the operation of the Storage Services.</li>
+								<li>4.1.4. You will provide and maintain the Storage Node so that, at all times, it will meet the following minimum requirements (“<b>Minimum Storage Node Requirements</b>”):</li>
+								<ul>
+										<li>4.1.4.1. Have a minimum of one (1) hard drive and one (1) processor core dedicated to each Storage Node; </li>
+										<li>4.1.4.2. Have a minimum of 500 GB of available Space per Storage Node;</li>
+										<li>4.1.4.2.1. Operate with at least 2 TB of Bandwidth available per month;</li>
+										<li>4.1.4.2.2. Operate with at least 5 Mbps bandwidth upstream;</li>
+										<li>4.1.4.2.3. Operate with at least 25 Mbps bandwidth downstream;</li>
+										<li>4.1.4.2.4. Is online and operational no less than 99.3% of the time per month;</li>
+										<li>4.1.4.2.5. meet all performance requirements referred to in this Agreement, as well as any performance requirements set forth in the Documentation or in other instructions made available with the Storage Node Software or otherwise hereunder;</li>
+										<li>4.1.4.2.6. be connected to the Internet to enable Company and its Users to store and access the Storage Materials with a minimum of 99.3% availability as measured on a monthly basis; and</li>
+										<li>4.1.4.1.7. be run with sufficient Bandwidth without other applications consuming a percentage of the available  Bandwidth so as not to create network congestion or any other form of Internet connectivity degradation.</li>
+								</ul>
+								<li>4.1.5 You will implement and maintain adequate administrative, organizational, physical and technical safeguards to ensure the protection, confidentiality, security, and integrity of the Storage Node and Storage Materials and shall take all reasonable steps to ensure that Storage Materials are not disclosed, accessed, used, modified, or distributed except as expressly authorized under this Agreement.</li>
+								<li>4.1.6 You acknowledge and agree that by running the Storage Node Software on your Device and allowing Space and Bandwidth to be utilized by Company and/or Users, your Device may be impacted due to additional constraints being placed on it by the Storage Node Software and the processing of Storage Materials. In particular, but without limiting the generality of the foregoing, your Device may not operate as quickly as it would without running the Storage Node Software and making Space and Bandwidth available for use by Users.</li>
+								<li>4.1.7 In connection with your use of the Storage Node Software and/or operation of a Storage Node hereunder, Company may, from time to time, require you to affirm and/or reaffirm your agreement to the terms of this Agreement, and in such case, your continued use of the Storage Node Software is contingent upon your promptly providing such affirmation as requested by Company.</li>
+								<li>4.1.8. If and when you permanently cease to operate an applicable Storage Node hereunder for any reason, you will take the following steps to ensure a seamless and non-disruptive exit from the Storage Services: you will (a) first implement the applicable function provided in the Storage Node Software by which Storage Materials stored on the Storage Node shall be uploaded to the Storage Services prior to the time when the Storage Node is permanently disconnected from the Storage Network; and (b) comply with any and all instructions of Company for ceasing Storage Node Operation prior to ceasing operation of the Storage Node ((a) and (b) referred to collectively as a “<b>Graceful Exit</b>”). Any time you cease operation  of a Storage Node, it is subject to the requirements and conditions of Section 8. herein.</li>
 						</ol>
+						<li>4.2.&nbsp;&nbsp;<ul>Administration of Storage Node</u>. &nbsp;You, as the Storage Node Operator, acknowledge that you retain administrative control over to whom you grant access to the applicable Storage Node. You are responsible for maintaining the security of the Storage Node including without limitation all applicable accounts and passwords used to gain access to the device the node is running on.</li>
+						<li>4.3.&nbsp;&nbsp;<ul>Suspension</ul>. &nbsp;Company may suspend Storage Node Operator’s participation in the Storage Services if Company believes Storage Node Operator to be: (a) violating any term of this Agreement; or (b) using the Storage Node Operator Service in a manner that Company reasonably believes may cause a security risk, a disruption to the Storage Services, or liability for Company. </li>
 				</ol>
 			<li><b>Restrictions.</b> You will operate the Storage Node in strict accordance with the terms of this Agreement and in no other manner.  Without limiting the generality of the foregoing, you will not: </li>
 			<ol type="5.1.1">
@@ -191,7 +195,8 @@ lastUpdated : "March 19, 2020"
 
 
 </ol>
-
+</div>
+</div>
 -------
 <div class="row">
 <div class="col-xs-12 col-md-8 col-md-push-2">
