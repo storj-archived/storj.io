@@ -73,7 +73,57 @@ lastUpdated : "March 19, 2020"
 				<li>Manipulate or otherwise attempt to bypass, change, or update any values related to uptime detection outside the programmatic operation of the Storage Node Software;</li>
 				<li>Limit or otherwise negatively impact download speed such that insufficient bandwidth is available for  required audit traffic;</li>
 				<li>Delete or otherwise render Storage Materials unavailable for recovery independent of the programmatic functionality of the Storage Node Software following the expiration given by a Programmatic Time-to-Live (“<b>TTL</b>”);</li>
+				<li>Manipulate or alter the TTL of Storage Materials or alter the reported size of any Storage Materials;</li>
+				<li>Refuse or intentionally fail to deliver any Storage Materials in response to a valid request;</li>
+				<li>Manipulate or alter the default behavior of the Storage Network to artificially increase or decrease the value of any reputation factor of any Storage Node;</li>
+				<li>Manipulate network responses to any request with unauthorized intent to change the cryptographic signatures, NodeID, or Payment Address;</li>
+				<li>Manipulate or otherwise falsify bandwidth allocation messages; </li>
+				<li>Attempt to manipulate or falsify NodeID or otherwise bypass the proof of work process;</li>
+				<li>Retain any Storage Materials after the earlier of termination of this Agreement or Disqualification of the applicable Storage Node at any time; or</li>
+				<li>In any other way attempt to interfere, impede, alter, or otherwise interact in any manner not expressly authorized hereunder with the Storage Services or the operation of any other Storage Node(s). </li>
 			</ol>
+		<li><b>Representations and Warranties</b>. Storage Node Operator hereby represents, warrants, and covenants that: </li>
+				<ol type="6.1.1">
+					<li>You own or control your Device(s), and have the right to install the Storage Node Software, share Space and Bandwidth on your Device(s) pursuant to this Agreement, and otherwise comply with all of your obligations under this Agreement;</li>
+					<li>You represent and warrant that you are authorized to receive the Storage Node Fees via the Storage Node Software as set forth in this Agreement (“Payment Method”). If your Payment Method cannot be verified, is invalid, or is not otherwise acceptable, then in addition to any other rights and remedies available to Company hereunder, your right to receive payment of the Storage Node Fees may be suspended automatically and indefinitely;</li>
+					<li>You have full power and authority to enter into this Agreement and comply with all terms hereof, and that doing so will not conflict with any obligation you may owe to any third party;</li>
+					<li>You have the qualifications, skill, and ability to perform your obligations hereunder without the advice, control, or supervision of Company; and</li>
+					<li>You will at all times comply with all applicable foreign, federal, state, and local laws, orders, rules, and regulations currently in effect or that may come into effect during the term of this Agreement, including but not limited to those regarding data privacy and protection.</li>
+				</ol>
+		<li><b>Audit Rights; Containment Mode.</b></li>
+				<ol type="7.1">
+					<li><u>Audit Rights</u>. You authorize the Storage Services and/or the Company to periodically audit the performance of your Storage Node to ensure that you are in compliance with this Agreement, or  to ensure that the Storage Materials are being stored properly on your Device, or for any other reasonable purpose in connection herewith (“<b>Audit</b>”). You will not interfere with, disrupt, or otherwise impede any such Audit. </li>
+					<li><u>Containment Mode</u>. If your Storage Node fails to respond to an Audit from the Storage Services, the Storage Services will place your Storage Node in containment mode pursuant to which you will not be eligible to receive any additional Storage Materials to store on your Device nor to receive any Storage Node Fees that may be due for Storage Services previously provided (“Containment Mode”).  The Storage Services will retry the same Audit request periodically until your Storage Node responds successfully to the Audit request, at which time your Storage Node will be removed from Containment Mode. If your device is removed from Containment Mode after having been placed in Containment Mode, your Storage Node will resume normal operation and you will not be subject to further penalty. If your Storage Node remains in Containment Mode for 7 days, your Storage Node will be subject to Disqualification as defined below.</li>
+				</ol>
+		<li><b>Storage Node Fees.</b></li>
+				<ol type="8.1">
+						<li><ul>Storage Node Fees</ul>. Subject to the terms of this Agreement, in full and final payment for your provision of the Node Services hereunder, Company will pay you based upon the amount of Space and Bandwidth utilized by Company and users of its Storage Services via the Storage Node Software (“Storage Node Fees”). We will pay the Storage Node Fees in the Company’s proprietary virtual currency, called Storj’s Utility Token (STORJ). The amount will be calculated based on the current exchange rate shortly before the time the payout is initiated as listed on <a href="https://coinmarketcap.com/" class="link" target="_blank">https://coinmarketcap.com/</a> or such other service as Company may use from time to time. The determination of the timing and value of the exchange rate is made at Company’s sole discretion, and any such determination is final and binding. You acknowledge and agree that you are not entitled to any amounts other than the Storage Node Fees in connection with this Agreement.</li>
+						<li><ul>Calculation</ul>. Storage Node Fees will be calculated for usage of the following Storage Node resources by the Storage Services:</li>
+								<ol type="8.2.1">
+									<li><b>Storage of Storage Materials on Space</b> - use of Space on the Storage Node by the Storage Services calculated in GB hours per month is paid at a rate of $0.0015 (USD) per GB month; </li>
+									<li><b>Egress related to Uplink Clients</b> - egress bandwidth used when Users retrieve Storage Materials from the Space via applications registered with Company for such purpose (“<b>Uplink Clients</b>”) calculated in GB is paid at a rate of $0.02 per GB (USD);</li>
+									<li><b>Egress related to file repair</b> - egress bandwidth used when Company retrieves Storage Materials from the Space via the Storage Services for the purpose of file repair calculated in GB is paid at a rate of $0.01 per GB (USD); and</li>
+									<li><b>Audit Bandwidth</b> - egress bandwidth used when Company retrieves Storage Materials from the Space via the Storage Services to perform an Audit  calculated in GB is paid at a rate of $0.01 per GB (USD).</li>
+								</ol>
+						<li><ul>Exclusions</ul>. Storage Node Fees will not be paid for the following Storage Node usage:</li>
+								<ol type="8.3.1">
+										<li><b>Storage of Garbage Data</b> – storage of data on a Storage Node that was not removed by the Storage Node following deletion of such Storage Data by an Uplink Client (“<b>Garbage Data</b>”) where such data will otherwise be removed via the Storage Services garbage collector function; and</li>
+										<li><b>Other Resources</b> - Company will not pay for any other resources not specifically identified in Section 8.2 above.</li>
+								</ol>
+						<li><u>Payment</u></li>
+								<ol type="8.4.1">
+									<li>You must provide a valid ERC20 Compatible Wallet Address (“STORJ Payment Address”) in order to receive compensation in the form of STORJ tokens.</li>
+									<li>You will be responsible for payment of all applicable taxes associated with our payment of Storage Node Fees, including but not limited to taxes on gross receipts and income. Upon Company’s request, you will accurately and promptly complete and return to Company all tax forms required  by Company.</li>
+									<li>If you are an individual or entity whose Company is required to collect an I.R.S. <a target="_blank" href="https://apps.irs.gov/app/picklist/list/formsInstructions.html?value=w-8&criteria=formNumber" class="link">Form W-8</a>, you must provide Company with a completed Form W-8 including all information required thereunder prior to the receipt of any Storage Node Fees.</li>
+								</ol>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+				</ol>
 </ol>
 
 -------
