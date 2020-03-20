@@ -13,7 +13,7 @@ title : "Code of Conduct"
 
 <p>The Storj Community Code of Conduct applies to all participants in all Storj sponsored spaces. This includes, but is not limited to, our online platforms, mailing lists, virtual events, and in-person events.</p>
 
-<p>By engaging with the Storj Community, you agree to be bound by the terms of this Code of Conduct, as well as [Storj’s Terms of Use](https://storj.io/terms-of-use/) and [Privacy Policy](https://storj.io/privacy-policy/) (for all subscribers). You agree to accept this Code of Conduct in its entirety and without modification.  Storj will not accept any modifications to this Code of Conduct other than modifications the Company itself may choose to make.</p>
+<p>By engaging with the Storj Community, you agree to be bound by the terms of this Code of Conduct, as well as <a href="https://storj.io/terms-of-use/" target="_blank" class="link">Storj’s Terms of Use</a> and <a href="https://storj.io/privacy-policy/" target="_blank" class="link">Privacy Policy</a> (for all subscribers). You agree to accept this Code of Conduct in its entirety and without modification.  Storj will not accept any modifications to this Code of Conduct other than modifications the Company itself may choose to make.</p>
 
 <p>Storj may amend this Code of Conduct at any time. Any updates will be published on our website(s).  We may also change, add or remove any of the social media channels provided to the Storj Community (and the features provided there) at any time.</p>
 
@@ -58,68 +58,116 @@ All information and instructions given within The Forum and The Community are to
 <p>Storj has a zero-tolerance policy for and strictly prohibits any language that promotes, encourages, or facilitates discrimination, denigration, objectification, harassment, or violence based on race, ethnicity, national origin, religion, sex, gender, gender identity, sexual orientation, age, disability, medical condition, physical characteristics, pregnancy, marital status, veteran status, education, socioeconomic status, or any mental, emotional, psychological or other attributes.</p>
 
 <p>All accounts associated with such conduct will be immediately temporarily suspended until a Community Lead determines the appropriate enforcement actions, including and up to permanent suspension.</p>
----
-<h1 class="title">Code of Conduct</h1>
-<p class="text-center">Storj strives to create a welcoming and thriving environment. In order to ensure that every community member is respected and supported, we’ve adopted some general community guidelines. </p>
-<div class="spacer50"></div>
-<div style="text-align:left">
 
-<h3> Our Pledge </h3>
+<h3>Unwanted Contact</h3>
 
-<p> We value diversity and inclusiveness in our community and encourage participation by fostering an open and welcoming environment. We as contributors and maintainers pledge to keep our community respectful and inclusive. By participating in our project, you pledge to keep our community a harassment-free experience for everyone, regardless of race, color, religion, gender, sexual orientation, national origin, age, disability, pregnancy, marital status, body size, appearance, education, level of experience, education, or socioeconomic status. </p>
+<p>Do not continue to engage in unwanted communication. Continuing to send messages to someone or send messages about Community members who have asked you to discontinue contact is prohibited.</p>
 
-<div class="spacer5"></div>
+<h3>Inappropriate Promotions and Solicitations</h3>
 
-<h3> Our Standards </h3>
+<p>Any language that disrupts, interrupts, harms, or otherwise violates the integrity of Storj services or another user's experience or devices is prohibited. Such activities include but are not limited to:</p>
+<ol type="1">
+	<li>Posting large amounts of repetitive, unwanted messages or user reports</li>
+	<li>Distributing unauthorized advertisements</li>
+	<li>Phishing</li>
+	<li>Defrauding others</li>
+	<li>Impersonating Storj staff</li>
+	<li>Spreading malware or viruses</li>
+</ol>
 
-<p><strong> Examples of behavior that contribute to creating a positive environment include: </p></strong>
-<ul> Using welcoming and inclusive language </ul>
-<ul> Being respectful of differing viewpoints and experiences </ul>
-<ul>Gracefully accepting constructive criticism</ul>
-<ul>Focusing on what is best for the community</ul>
-<ul>Showing empathy towards other community members</ul>
+<h3>Reporting Violations</h3>
 
-<div class="spacer5"></div>
+<p>Members of The Community are encouraged to report infractions to The Code of Conduct by reporting content using the flagging tool in The Forum.</p>
+<p>All reports will be assessed by the internal review team to determine the appropriate course of action. Situations that may appear imminently dangerous can be reported to legal authorities.</p>
 
-<p><strong> Examples of unacceptable behavior by participants include: </p></strong>
+<h3>Resolution Process</h3>
 
-<ul>The use of sexualized language or imagery and unwelcome sexual attention or advances </ul>
-<ul>Trolling, insulting/derogatory comments, and personal or political attacks</ul>
-<ul>Public or private harassment</ul>
-<ul>Publishing others' private information, such as a physical or electronic address, without explicit permission</ul>
-<ul>Other conduct which could reasonably be considered inappropriate in a professional setting </ul>
-<ul>This includes, but is not limited to, use of profanity. Please replace those words with other acceptable words. Don’t know what to replace it with? Check out this <a href="https://www.huffingtonpost.com/2014/01/16/curse-words_n_4570641.html">post</a>.</ul>
+<p>Reports will be assessed by the review team to determine:</p>
+<ol type="1">
+	<li>If a member has violated The Code of Conduct</li>
+	<li>If the potential impact of the infraction, if one is found, and</li>
+	<li>Consequences for any infractions found.</li>
+</ol>
 
-<div class="spacer5"></div>
+<p>If it is determined The Storj Community Code of Conduct has been violated, a Level of Conduct will be assigned along with correlating consequences.</p>
 
-<h3> Our Responsibilities </h3>
+<p><b>Level 1</b></p>
+<ul>
+	<li>Promotes self interest</li>
+	<li>Directly or indirectly markets, sells or promotes services or products offered outside of Storj, including unsolicited direct-inbox messages to other members of The Community.</li>
+</ul>
+<p>1st Offense:</p>
+<ul>
+	<li>Removal of content from The Community</li>
+	<li>Directly or indirectly markets, sells or promotes services or products offered outside of Storj, including unsolicited direct-inbox messages to other members of The Community.</li>
+</ul>
+<p>2nd Offense:</p>
+<ul>
+	<li>Removal of content from The Community</li>
+	<li>Warning about removal from The Community and The Forum, should a violation occur within 1 year of the initial infraction</li>
+</ul>
+<p>3rd Offense:</p>
+<ul>
+	<li>Removal of content from The Community</li>
+	<li>Membership and future participation are forfeited</li>
+</ul>
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and agree to take appropriate and fair corrective action in response to any instances of unacceptable behavior. <br> <br>
+<p><b>Level 2</b></p>
+<p>Conduct that is harmful to the Storj culture.</p>
+<p>1st Offense:</p>
+<ul>
+	<li>Removal of content from the platform</li>
+	<li>·Warning about removal from The Community and The Forum, should a violation occur within 1 year of the initial infraction</li>
+</ul>
+<p>2nd Offense:</p>
+<ul>
+	<li>Removal of content from the platform</li>
+	<li>Membership and future participation are forfeited</li>
+</ul>
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct, or to ban temporarily or permanently any contributor for any behavior that they deem inappropriate, threatening, offensive, or harmful.
+<p><b>Level 3</b></p>
+<p>Conduct that is illegal.</p>
+<p>Situations which appear imminently dangerous may be reported to legal authorities.</p>
+<p>1st Offense:</p>
+<ul>
+	<li>Removal of content from the The Community</li>
+	<li>Membership is forfeited</li>
+</ul>
 
-<div class="spacer5"></div>
+<p><b>Form Trust Levels</b></p>
+<p>Trust Levels develop in The Forum based on user participation levels and behaviors. To learn more about earning Trust Levels and their functionality please read:</p>
+<a target="_blank" href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/" class="link">https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/</a>
 
-<h3> Scope </h3>
+<h1 class="title">Violations of The Storj Community Code of Conduct</h1>
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.Examples of representing a project or community include using an official project email address, posting via an official social media account, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+<p>A violation of The Storj Community Code of Conduct means a member engaged in a way that violates The Code.</p>
 
-<div class="spacer5"></div>
+<h3>Reminder</h3>
 
-<h3> Enforcement </h3>
+<p>A Reminder is issued in writing. This sanction is disclosed only to the person found in violation and to the individual who originally filed the complaint.</p>
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be <a href="/community-reporting/"><strong>reported anonymously</strong></a> or by contacting the project team at <a href= mailto:conduct@storj.io> <strong> conduct@storj.io</strong></a>. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
-<br><br>
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership or maintainers.
+<h3>Warning</h3>
 
-<div class="spacer5"></div>
+<p>A Warning is issued in writing. This sanction is disclosed only to the person found in violation and to the individual who originally filed the complaint.</p>
 
-<h3> Attribution </h3>
+<h3>Forfeiture</h3>
 
-This Code of Conduct is adapted from the
-<a href="https://www.contributor-covenant.org"> Contributor Covenant </a>, version 1.4, available <a href= https://www.contributor-covenant.org/version/1/4/code-of-conduct.html> here.</a>
+<p>In situations involving illegal or flagrant misconduct, a member may be required to forfeit membership for a period of time. The internal review team reserves the right to make decisions to revoke membership in The Community and/or The Forum based on their discretion after reviewing documentation and violation claims.</p>
 
-<br><br>
+<h3>Disputes</h3>
 
-<div class="spacer50"></div>
-<center><a href="https://community.storj.io/" class="btn" target onclick="displayConduct(event)">AGREE to join the community chat</a></center>
+<p>We understand that miscommunication occurs. If you feel there was a misunderstanding in the review process, you may appeal any consequence determined by the review team.</p>
+
+<p>If participation is reinstated, the returning participant must agree, in writing, to adhere to The Storj Code of Conduct.</p>
+
+<h3>Privacy In Reporting</h3>
+
+<p>The review team will not reveal the identity of an individual filing a report without the consent of the individual who filed the report. The individual filing a report will be notified regarding the outcome.</p>
+
+<h3>Suspensions</h3>
+
+<p>All suspensions, forfeitures and bans are binding until natural expiration or lifting of penalty upon successful appeal to a Community Lead. Attempts to circumvent suspensions or bans with alternative accounts will result in further penalties which may include permanent suspension from all Storj Community spaces, events and associated communications.</p>
+
+<h3>Commitment to Improvement</h3>
+
+<p>The Storj Community Code of Conduct is a living document, and will evolve as needed. If you believe anything is missing, incorrect, or needs updating, please reach out to the Community Leads.</p>
