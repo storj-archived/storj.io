@@ -2,7 +2,8 @@
 title : "Code of Conduct"
 ---
 
-
+<h1 class="title text-center">Violations of The Storj Community Code of Conduct</h1>
+<br>
 <p>Thank you for being a part of The Storj Labs, Inc. Community (“<b>Storj</b>” or “<b>Company</b>”). Whether you’re a developer and want to use a Tardigrade for your application or already operating a storage node, or you’re interested in setting one up, our community is ready to help you find answers to questions, troubleshoot issues, or just chat about our products and services. We also welcome open source contributors who want to help improve Storj and create a better internet for everyone.</p>
 
 <p>Storj is committed to providing a community in which everyone is respected, welcome, included, and belongs; a community free from discrimination, harassment, and intimidation for any reason. In keeping with these principles, we request all community members abide by The Storj Community Code of Conduct (“<b>Code of Conduct</b>”) guidelines which outline acceptable and unacceptable behavior. Should the need arise, The Storj Community Code of Conduct identifies the process for members to raise concerns about behavior within The Storj Community. To encourage Code of Conduct enforcement, retaliation for raising information about complaints will not be tolerated.</p>
@@ -20,9 +21,9 @@ title : "Code of Conduct"
 <p>If any change that Storj makes is unacceptable to you, you should discontinue your use of and participation in the Storj Community.  Your continued participation in the Storj Community indicates your acceptance of this Code of Conduct, along with any changes Storj has made.
 All information and instructions given within The Forum and The Community are to be used at your own risk. By following or using any of the information or advice given by The Community members or The Forum participants, you waive the right to hold Storj liable for any damages.
 </p>
-
-<h1 class="title">Storj Community Participation Rules and Guidelines</h1>
-
+<br>
+<br>
+<h1 class="title text-center">Storj Community Participation Rules and Guidelines</h1>
 <h3>Values</h3>
 <ol type="1">
 	<li>Storj is committed to upholding Community values that foster respect:</li>
@@ -137,8 +138,9 @@ All information and instructions given within The Forum and The Community are to
 <p><b>Form Trust Levels</b></p>
 <p>Trust Levels develop in The Forum based on user participation levels and behaviors. To learn more about earning Trust Levels and their functionality please read:</p>
 <a target="_blank" href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/" class="link">https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/</a>
-
-<h1 class="title">Violations of The Storj Community Code of Conduct</h1>
+<br>
+<br>
+<h1 class="title text-center">Violations of The Storj Community Code of Conduct</h1>
 
 <p>A violation of The Storj Community Code of Conduct means a member engaged in a way that violates The Code.</p>
 
