@@ -57,6 +57,11 @@ a {
 a:hover {
 	color: #173AE8;
 }
+
+table, th, td {
+  border: 1px solid black;
+	vertical-align: top;
+}
 .link {
 	border-bottom: 1px solid #2683ff;
 }
