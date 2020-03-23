@@ -1,16 +1,15 @@
 ---
 Title : 'STORAGE NODE OPERATOR TERMS AND CONDITIONS'
-lastUpdated : "March 19, 2020"
+effectiveDate : "March 19, 2020"
 
 ---
-<div class="row">
 <div class="col-xs-12 col-md-8 col-md-push-2">
 <p>THIS STORAGE NODE OPERATOR AGREEMENT  (THE “<b>AGREEMENT</b>") IS A LEGAL AGREEMENT BETWEEN YOU (“<b>STORAGE NODE OPERATOR</b>,” “<b>YOU</b>", OR “<b>YOURS</b>”) AND STORJ LABS INC.  (“<b>COMPANY</b>,” “<b>US</b>,” “<b>WE</b>” OR “<b>OUR</b>”), INCLUDING  GOVERNING THE TERMS OF YOUR PARTICIPATION IN THE STORAGE NODE SERVICES.  YOU UNDERSTAND AND AGREE THAT BY ACCEPTING THE TERMS OF THIS AGREEMENT, EITHER BY CLICKING TO SIGNIFY ACCEPTANCE, OR BY TAKING ANY ONE OR MORE OF THE FOLLOWING ACTIONS DOWNLOADING, INSTALLING,  RUNNING,/AND OR USING THE APPLICABLE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT EFFECTIVE AS OF THE DATE THAT YOU TAKE THE EARLIEST OF ONE OF THE FOREGOING ACTIONS. YOU REPRESENT AND WARRANT THAT YOU ARE 18 YEARS OLD OR OLDER AND HAVE THE RIGHT AND AUTHORITY TO ENTER INTO AND COMPLY WITH THE TERMS OF THIS AGREEMENT. </p>
 
 <p><b>PLEASE READ THE TERMS OF THIS AGREEMENT CAREFULLY TO ENSURE THAT YOU UNDERSTAND EACH PROVISION. THIS AGREEMENT CONTAINS A BINDING ARBITRATION AND WAIVER OF CLASS ACTION RIGHTS PROVISION THAT REQUIRES THE USE OF INDIVIDUAL ARBITRATION TO RESOLVE DISPUTES AS SET FORTH IN THE Section 14 BELOW. IF YOU DO NOT AGREE TO ALL OF THE TERMS OF THIS AGREEMENT, DO NOT CHECK THE ACCEPTANCE BOX, AND DO NOT DOWNLOAD, ACCESS, COPY, INSTALL OR USE THE SOFTWARE.</b></p>
 
 <br>
-<p>1.&nbsp; &nbsp;<b>Definitions</b>. In addition to the capitalized terms defined elsewhere above and herein, the terms below are defined as follows:></p>
+<p><b>1.&nbsp; &nbsp;Definitions</b>. In addition to the capitalized terms defined elsewhere above and herein, the terms below are defined as follows:></p>
 
 <ul>
 		<li>1.1 &nbsp;&nbsp;“<b>Commencement Date</b>” means the first date on which Storage Materials are stored on a Storage Node pursuant to the terms of this Agreement.</li>
@@ -33,7 +32,7 @@ lastUpdated : "March 19, 2020"
 		<li>2.2&nbsp;&nbsp;<b>Open Source Storage Node Software License.</b> You have a non-exclusive, non-sublicenseable, non-transferable right to participate in the Storage Node Operator Service pursuant to this Agreement during the Term hereof solely for your internal business purposes subject to the limitations set forth herein. The Storage Node Software consists of open source code and is made available to you pursuant to the terms of the open-source license agreement(s) located at <a href="" class="link target="_blank">https://github.com/storj/storj/blob/master/LICENSE</a> (the “<b>Open Source License(s)</b>”). Your use of the Storage Node Software is conditioned upon your compliance at all times with the terms of all applicable Open Source License(s), including without limitation all provisions governing access to source code, modification, and/or reverse engineering. You are responsible for complying with any applicable documentation, meaning any information that describes the Storage Services, provides instructions or recommendations related to the configuration and/or use of the Storage Services, or otherwise informs Users of the intended use of the Storage Services, including, but not limited to content provided directly to user or  published at <a href="" class="link target="_blank">https://documentation.tardigrade.io</a>, <a href="" class="link target="_blank">https://documentation.storj.io</a>, or otherwise made available in conjunction with the Storage Services or Storage Node Software (“<b>Documentation</b>”) and for satisfying all technical requirements of the Storage Node Software, including any requirements set forth in the Documentation for ensuring that the Storage Node Software performs properly. </li>
 </ul>
 
-<p>3.&nbsp;&nbsp;<b>Storage Node Operator Grant of Right to Storage Node. </b></p>
+<p><b>3.&nbsp;&nbsp;Storage Node Operator Grant of Right to Storage Node. </b></p>
 
 <ul>
 		<p>3.1 &nbsp;&nbsp;<u>Grant of Right to Storage Node.</u> By making available Space and Bandwidth on your Storage Node to share with Company via the Storage Node Software, you hereby grant to Company and Users the  irrevocable right to access and use the Storage Node as follows:</p>
@@ -71,7 +70,7 @@ lastUpdated : "March 19, 2020"
 		<li>4.3.&nbsp;&nbsp;<u>Suspension</u>. &nbsp;Company may suspend Storage Node Operator’s participation in the Storage Services if Company believes Storage Node Operator to be: (a) violating any term of this Agreement; or (b) using the Storage Node Operator Service in a manner that Company reasonably believes may cause a security risk, a disruption to the Storage Services, or liability for Company. </li>
 </ul>
 
-<p>5.&nbsp;&nbsp;<b>Restrictions.</b> You will operate the Storage Node in strict accordance with the terms of this Agreement and in no other manner.  Without limiting the generality of the foregoing, you will not: </p>
+<p><b>5.&nbsp;&nbsp;Restrictions.</b> You will operate the Storage Node in strict accordance with the terms of this Agreement and in no other manner.  Without limiting the generality of the foregoing, you will not: </p>
 
 <ul>
 	<li>5.1.1(a) rent, sublicense, re-sell, assign, transfer, distribute, time share, or similarly exploit the Storage Service; (b) reverse engineer, copy, modify, adapt, hack the Storage Service, or otherwise attempt to gain unauthorized access to the Storage Service or its related systems or networks; (c) access the Storage Service, the Documentation, or Company’s Confidential Information to build a competitive product or service; (d) alter or remove, or permit any third party to alter or remove, any proprietary trademark or copyright markings incorporated in, marked on, or affixed to the Storage Service; (e) allow Storage Nodes to be shared or used by anyone other than Storage Node Operator; or (f) access or use the Storage Service: (i) in violation of applicable laws; (ii) to send or store material knowingly or intentionally containing software viruses, worms, Trojan horses or other harmful computer code, files, or scripts; or (iii) in a manner that interferes with or disrupts the integrity or performance of the Storage Service (or the data contained therein).</li>
@@ -150,7 +149,7 @@ lastUpdated : "March 19, 2020"
 									<li>8.5.1.3 <b>Months 7-9</b>: Held Amount = 25% of the Storage Node Fees accrued during such period</li>
 									<li>8.5.1.4 Months 10+: 100% of the Storage Node Fees accrued during that period is paid to the Storage Node Operator</li>
 								</ul>
-						<li>8.5.2. The Held Amount will be retained by Company in full unless and until you achieve a Duration Release and/or a Graceful Exit Release (as defined below, and collectively, the “Release(s)”) one or both of the releases defined below, at which point(s) the applicable portion of the Held Amount will be deemed earned by you and will be paid to you by Company: </li>
+						<li>8.5.2. The Held Amount will be retained by Company in full unless and until you achieve a Duration Release and/or a Graceful Exit Release (as defined below, and collectively, the “<b>Release(s)</b>”) one or both of the releases defined below, at which point(s) the applicable portion of the Held Amount will be deemed earned by you and will be paid to you by Company: </li>
 								<ul>
 									<li>8.5.2.1. <u>Duration Release</u>. If Storage Node Operator continues actively to store Storage Materials on the applicable Storage Node without breach or interruption for fifteen (15) consecutive months (the “15-Month Period”), Company will pay you fifty percent (50%) of the Held Amount (“<b>Duration Release</b>”). </li>
 									<li>8.5.2.2. <u>Graceful Exit Release</u>. If you achieve the Duration Release, and if you complete a Graceful Exit referred to in Section 4.1.8 above, Company will pay you the remaining fifty percent (50%) of the Held Amount (“<b>Graceful Exit Release</b>”).</li>
@@ -169,7 +168,7 @@ lastUpdated : "March 19, 2020"
 		<li>8.10&nbsp;&nbsp;<u>Breach</u>. In addition to its other rights and remedies under this Agreement, Storage Node Operators forfeit any right to compensation under this Agreement if Storage Node Operator breaches any term hereof. </li>
 </ul>
 
-<li>9.&nbsp;&nbsp;<b>Term; Termination.</b></li>
+<p><b>9.&nbsp;&nbsp;Term; Termination.</b></p>
 
 <ul>
 		<li>9.1.&nbsp;&nbsp;<u>Term</u>. This Agreement shall be effective as of Commencement Date and will continue until terminated per the terms below.</li>
@@ -177,7 +176,7 @@ lastUpdated : "March 19, 2020"
 		<li>9.1.&nbsp;&nbsp;<u>Effect of Termination</u>. If Company terminates this Agreement for your breach of this Agreement, Company will have no obligation to pay any unpaid Storage Node Fees. If Company terminates this Agreement for any other reason, Company may pay you via the Payment Method any unpaid Storage Node Fees due and payable to you hereunder less all or any portion of the Held Amount permanently retained by Company pursuant to Section 8 above.</li>
 </ul>
 
-<li><b>10.&nbsp;&nbsp;Ownership</b></li>
+<p><b>10.&nbsp;&nbsp;Ownership</b></p>
 
 <ul>
 		<li>10.1. <u>Company Ownership</u>. Except for Storage Node Software subject to the Open Source License, and except for any rights expressly granted under this Agreement, Company and its licensors own and shall retain all right, title, and interest  in and to the Storage Services (including any improvements, enhancements, customizations, and modifications thereto), the Documentation, Company Confidential Information, and the Derived Data, including, without limitation, all related intellectual property rights therein. For purposes hereof, the term “<b>Derived Data</b>” means data derived from operation of the Storage Node and of the Storage Services via the Storage Node, and any data that is aggregated by Company (including aggregations with data sourced from other Storage Node Operators and other third party data sources), and data and information regarding Storage Node Operator’s access to and participation in the Storage Services, including, without limitation, statistical usage data derived from the operation of the Storage Node and Storage Services and configurations, log data and the performance results related thereto. For the avoidance of doubt, nothing herein shall be construed as prohibiting Company from utilizing Derived Data to optimize and improve the Storage Service or otherwise operate Company’s business; provided that if Company provides Derived Data to third parties, such Derived Data shall be de-identified and presented in the aggregate so that it will not disclose the identity of Storage Node Operator to any third party. No rights are granted to Storage Node Operator hereunder other than as expressly set forth in this Agreement</li>
@@ -187,7 +186,8 @@ lastUpdated : "March 19, 2020"
 		<li>10.3. <u>Feedback</u>. Company shall have a royalty-free, worldwide, transferable, sublicensable, irrevocable, perpetual license to use or incorporate into the Storage Node Software and/or the Storage Service any suggestions, ideas, enhancement requests, feedback, recommendations or other information provided by Storage Node Operator relating to the features, functionality, or operation thereof (“Feedback”). Company shall have no obligation to use Feedback, and Storage Node Operator shall have no obligation to provide Feedback.</li>
 </ul>
 
-<li><b>Confidentiality</b></li>
+<p><b>11.&nbsp;&nbsp;Confidentiality</b></p>
+
 		<ul>
 				<li>11.1. <b>Definition of Confidential Information</b>. During the course of performance under this Agreement, each party may make available to the other party information that is not generally known to the public and at the time of disclosure is either identified as or should reasonably be understood by the receiving party to be, proprietary or confidential (the “<b>Confidential Information</b>”). Confidential Information specifically includes, but is not limited to, specialized telemetry data or dashboards, Company business plans, product plans and roadmaps, strategies, forecasts, projects and analyses, financial information and fee structures, business processes, methods and models, and technical documentation. Confidential Information does not include information that (a) is or becomes publicly available without breach of this Agreement by the receiving party; (b) was known to the receiving party prior to its disclosure by the disclosing party; (c) is or was independently developed by the receiving party without the use of any Confidential Information of the disclosing party; or (d) is or was lawfully received by the receiving party from a third party under no obligation of confidentiality.</li>
 
@@ -196,7 +196,7 @@ lastUpdated : "March 19, 2020"
 				<li>11.4. <b>Compelled Disclosure</b>. The receiving party may access and disclose Confidential Information of the disclosing party if legally required to do so in connection with any legal or regulatory proceeding; provided, however, that in such event the receiving party will, if lawfully permitted to do so, notify the disclosing party within a reasonable time prior to such access or disclosure so as to allow the disclosing party an opportunity to seek appropriate protective measures. If the receiving party is compelled by law to access or disclose the disclosing party’s Confidential Information as part of a civil proceeding to which the disclosing party is a party, the disclosing party will reimburse the receiving party for the reasonable costs of compiling and providing secure access to such Confidential Information. Receiving party will furnish only that portion of the Confidential Information that is legally required to be disclosed, and any Confidential Information so disclosed shall maintain its confidentiality protection for all purposes other than such legally compelled disclosure.</li>
 		</ul>
 
-<li>12.&nbsp;&nbsp;<b>Indemnification.</b></li>
+<p><b>12.&nbsp;&nbsp;Indemnification.</b></p>
 
 		<ul>
 				<li>12.1.<u>Indemnity</u>. To the fullest extent permitted by applicable law, you will defend, indemnify and hold harmless Company and our respective past, present, and future employees, officers, directors, contractors, consultants, equity holders, suppliers, vendors, service providers, parent companies, subsidiaries, affiliates, agents, representatives, predecessors, successors and assigns (the “Company Parties”) from and against all claims, damages, costs and expenses (including attorneys’ fees) that arise from or relate to: (i) your use of the Storage Node Software; (ii) your participation in the Storage Services and/or your storage of Storage Materials hereunder; (iii) any Feedback you provide; or (iv) your breach of any of this Agreement.</li>
@@ -206,7 +206,7 @@ lastUpdated : "March 19, 2020"
 				<li>12.3. <u>Potential Infringement</u>. If the Storage Node Software becomes, or in Company’s reasonable judgment is likely to become, the subject of a claim of infringement, then Company may in its sole discretion: (a) obtain the right, for Storage Node Operator to continue using the Storage Node Software; (b) provide a non-infringing functionally equivalent replacement; or (c) modify the Storage Node Software so that it is no longer infringing. If Company, in its sole and reasonable judgment, determines that none of the above options are commercially reasonable, then Company may, without liability, suspend or terminate Storage Node Operator’s use of the Storage Node Software. This Section 12 states Company’s sole liability and Storage Node Operator’s exclusive remedy for infringement claims.</li>
 		</ul>
 
-<li>13.&nbsp;&nbsp;<b>DISCLAIMER; LIMITATION OF LIABILITY.</b> </li>
+<p><b>13.&nbsp;&nbsp;DISCLAIMER; LIMITATION OF LIABILITY.</b> </p>
 		<ul>
 				<li>13.1. <u>DISCLAIMER</u>. THE SOFTWARE, INCLUDING WITHOUT LIMITATION THIRD-PARTY CODE, THE STORAGE SERVICES, AND THE STORAGE MATERIALS ARE PROVIDED “AS IS” AND “AS AVAILABLE.” COMPANY DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES, EXPRESS AND IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. COMPANY MAKES NO WARRANTY THAT THE SOFTWARE, STORAGE SERVICES, OR STORAGE MATERIALS WILL BE UNINTERRUPTED, ACCURATE, COMPLETE, RELIABLE, CURRENT, ERROR-FREE, VIRUS FREE, OR FREE OF MALICIOUS CODE OR HARMFUL COMPONENTS, OR THAT DEFECTS WILL BE CORRECTED. COMPANY DOES NOT CONTROL, ENDORSE, SPONSOR, OR ADOPT ANY STORAGE MATERIALS AND MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND REGARDING THE STORAGE MATERIALS. COMPANY HAS NO OBLIGATION TO SCREEN, MONITOR, OR EDIT STORAGE MATERIALS AND IS NOT RESPONSIBLE OR LIABLE FOR ANY STORAGE MATERIALS. YOU ACKNOWLEDGE AND AGREE THAT COMPANY HAS NO INDEMNITY, SUPPORT, SERVICE LEVEL, OR OTHER OBLIGATIONS HEREUNDER.</li>
 
@@ -214,7 +214,7 @@ lastUpdated : "March 19, 2020"
 		</ul>
 
 
-<li>14.&nbsp;&nbsp;<b>Governing Law; Information Dispute Resolution; Arbitration.</b> </li>
+<p><b>14.&nbsp;&nbsp; Governing Law; Information Dispute Resolution; Arbitration.</b> </p>
 
 <p><b>PLEASE READ THE FOLLOWING SECTION CAREFULLY BECAUSE IT REQUIRES YOU TO ARBITRATE CERTAIN DISPUTES AND CLAIMS WITH COMPANY AND LIMITS THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM US.</b></p>
 
@@ -224,11 +224,11 @@ lastUpdated : "March 19, 2020"
 		<li>14.2. <u>Informal Dispute Resolution</u>; Arbitration. The parties agree that most disputes can be resolved without resort to litigation. The parties agree to use their best efforts to settle any dispute directly through consultation with each other before initiating a lawsuit or arbitration. If, after good faith negotiations the parties are unable to resolve the dispute, the parties agree that any and all disputes arising out of or in any way relating to this Agreement, including without limitation its existence, validity or termination, shall be resolved according to Delaware law and exclusively by binding arbitration before a single arbitrator with the Judicial Arbitration and Mediation Service (JAMS) and pursuant to the then existing arbitration rules at JAMS. If the parties cannot agree upon selection of an arbitrator, then JAMS shall appoint an arbitrator experienced in the enterprise software industry. The place of the arbitration will be Fulton County, Georgia unless otherwise agreed upon by the parties. The arbitration will be conducted in English. The arbitrator shall provide detailed written findings of fact and conclusions of law in support of any award. Judgment upon any such award may be enforced in any court of competent jurisdiction. The parties further agree that the arbitration shall be conducted in their individual capacities only and not as a class action or other representative action, and the parties expressly waive their right to file a class action or seek relief on a class basis. If any court or arbitrator determines that the class action waiver set forth herein is void or unenforceable for any reason or that an arbitration can proceed on a class basis, then the portions of this Section mandating arbitration shall be deemed null and void in its entirety and the parties shall be deemed to have not agreed to arbitrate disputes. Notwithstanding the foregoing, either party shall be entitled to seek injunctive relief as set forth in Section 11.3 (“Equitable Relief”) above and to stop unauthorized use of the Storage Node Software or infringement of Intellectual Property Rights. Disputes, claims, or controversies concerning either party’s Intellectual Property Rights or claims of piracy or unauthorized use of the Storage Node Software or Storage Node Operator Service shall not be subject to arbitration. The parties further agree that the prevailing party in any action or proceeding to enforce any right or provisions under this Agreement, including any arbitration or court proceedings, will be entitled to recover its reasonable costs and attorneys’ fees.</li>
 </ul>
 
-<li>15.&nbsp;&nbsp;<b>Export Compliance.</b> The Storage Node Software may be subject to export laws and regulations of the United States and other jurisdictions. Storage Node Operator represents that it is not named on any U.S. government denied-party list. Storage Node Operator shall not access or use the Storage Node Software or provide the Storage Node Operator Service in a U.S.-embargoed or any sanctioned country or region or in violation of any U.S. export law or regulation. Storage Node Operator shall not use the Service to export, re-export, transfer, or make available, whether directly or indirectly, any regulated item or information to anyone outside the U.S. in connection with this Agreement without first complying with all export control laws and regulations that may be imposed by the U.S. Government and any country or organization of nations within whose jurisdiction Storage Node Operator operates or does business.</li>
+<p><b>15.&nbsp;&nbsp;Export Compliance.</b> The Storage Node Software may be subject to export laws and regulations of the United States and other jurisdictions. Storage Node Operator represents that it is not named on any U.S. government denied-party list. Storage Node Operator shall not access or use the Storage Node Software or provide the Storage Node Operator Service in a U.S.-embargoed or any sanctioned country or region or in violation of any U.S. export law or regulation. Storage Node Operator shall not use the Service to export, re-export, transfer, or make available, whether directly or indirectly, any regulated item or information to anyone outside the U.S. in connection with this Agreement without first complying with all export control laws and regulations that may be imposed by the U.S. Government and any country or organization of nations within whose jurisdiction Storage Node Operator operates or does business.</p>
 
-<li>16.&nbsp;&nbsp;<b>Use of Storage Node Software in Your Jurisdiction.</b> Except as explicitly set forth herein, Company makes no representations that the Storage Node Operator Service is appropriate for use in any jurisdictions. Storage Node Operators engaging with the Storage Node Operator Service from any jurisdictions do so at their own risk and are responsible for compliance with local laws. </li>
+<p><b>16.&nbsp;&nbsp;Use of Storage Node Software in Your Jurisdiction.</b> Except as explicitly set forth herein, Company makes no representations that the Storage Node Operator Service is appropriate for use in any jurisdictions. Storage Node Operators engaging with the Storage Node Operator Service from any jurisdictions do so at their own risk and are responsible for compliance with local laws. </p>
 
-<li><b>17.&nbsp;&nbsp;<u><b>General</b></u></b></li>
+<p><b>17.&nbsp;&nbsp;<u>General</u></b></p>
 
 <ul>
 		<li>17.1.1.&nbsp;&nbsp;<u>Entire Agreement; Severability; Waiver</u>. This Agreement sets forth the complete and final agreement of the parties concerning the subject matter hereof, and supersedes, replaces all prior agreements, written and oral, between them concerning the subject matter hereof. If a term of this Agreement to be invalid or unenforceable, the remaining provisions will continue in full force and effect. A party’s consent to, or waiver of, enforcement of this Agreement on one occasion will not be deemed a waiver of any other provision or such provision on any other occasion. </li>
@@ -243,8 +243,7 @@ lastUpdated : "March 19, 2020"
 
 		<li>17.1.6.&nbsp;&nbsp;<u>Miscellaneous</u>. This Agreement constitutes the entire agreement between you and Company relating to the subject matter of this Agreement. The failure of Company to exercise or enforce any right or provision of this Agreement will not operate as a waiver of such right or provision. We will not be liable for any delay or failure to perform any obligation under this Agreement where the delay or failure results from any cause beyond our reasonable control. You shall not assign all or any portion of this Agreement to any third party without Company’s prior written consent in its sole discretion. Any assignment in violation hereof shall be null and void. This Agreement shall be binding on and inure to the benefit of the parties and their respective successors and permitted assigns. This Agreement is intended solely for the benefit of the parties and are not intended to confer third-party beneficiary rights upon any other person or entity.  Headings used herein are for convenience only and are not intended, nor shall they be used, as an aid to interpretation.</li>
 </ul>
+<div class="spacer90"></div>
 
-
-</ol>
 </div>
 </div>
