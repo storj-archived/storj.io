@@ -1,5 +1,5 @@
 ---
-Title : 'STORAGE NODE OPERATOR TERMS AND CONDITIONS'
+Title : 'Storage Node Operator Terms and Conditions'
 effectiveDate : "March 19, 2020"
 
 ---
