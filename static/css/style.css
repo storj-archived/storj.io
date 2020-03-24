@@ -2991,12 +2991,20 @@ Media Queries
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
+    .navbar-brand {
+      margin-top: 30px;
+    }
     .logo {
-    	margin-left: px;
+    	margin-left: 14px;
     	margin-right: 8px;
+      height: 42px;
     }
     .pull-right-md {
       float: right;
+    }
+    .nav-join {
+      max-width: 150px;
+      margin-left: 10px;
     }
 }
 
