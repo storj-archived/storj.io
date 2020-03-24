@@ -385,9 +385,6 @@ Navigation
 }
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
-    border-radius: 0;
-    width: 36px;
-    margin-bottom: 7px;
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border: 0;
