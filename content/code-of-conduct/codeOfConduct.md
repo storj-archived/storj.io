@@ -27,32 +27,32 @@ All information and instructions given within The Forum and The Community are to
 <h1 class="title text-center">Storj Community Participation Rules and Guidelines</h1>
 <h3>Values</h3>
 <ol type="1">
-	<li>Storj is committed to upholding Community values that foster respect:</li>
-	<li>We are mindful of others’ time. Before posing a question, explore the platform and use The Forum search functions to determine if the information you require has already been posted.</li>
-	<li>We engage with professionalism and aim to include diverse perspectives while ensuring constructive and respectful dialogue.</li>
-	<li>We collaborate to strengthen our individual and collective knowledge, experience and points of view.</li>
-	<li>We add value by contributing to the group, sharing experiences, resources, and/or time through volunteer opportunities within The Community.</li>
-	<li>We help others operate under The Code of Conduct. Please flag and report activity which you believe violates The Code of Conduct by reporting requests that others make of you to Community Leads (e.g., if someone asks you to promote their service in The Community and/or advance their personal or professional interests).</li>
+	<li><p>Storj is committed to upholding Community values that foster respect:</li></p>
+	<li><p>We are mindful of others’ time. Before posing a question, explore the platform and use The Forum search functions to determine if the information you require has already been posted.</li></p>
+	<li><p>We engage with professionalism and aim to include diverse perspectives while ensuring constructive and respectful dialogue.</li></p>
+	<li><p>We collaborate to strengthen our individual and collective knowledge, experience and points of view.</li></p>
+	<li><p>We add value by contributing to the group, sharing experiences, resources, and/or time through volunteer opportunities within The Community.</li></p>
+	<li><p>We help others operate under The Code of Conduct. Please flag and report activity which you believe violates The Code of Conduct by reporting requests that others make of you to Community Leads (e.g., if someone asks you to promote their service in The Community and/or advance their personal or professional interests).</li></p>
 </ol>
 
 <h3>Etiquette</h3>
 
 <ol type="1">
-	<li>Please post your questions or messages in the appropriate section of The Forum.</li>
-	<li>Answers to many of the questions you may have can be found in past Forum threads. Please use the search functions to find existing answers and discussions on your topic. If you are still having problems, feel free to post your question or contact an administrator.</li>
-	<li>Posting copyrighted material in The Forum is strictly prohibited.</li>
-	<li>The Forum may flag or delete offensive posts. If the requested action is not done in a reasonably timely manner, a Community Lead may delete the material.</li>
-	<li>Posts may be deleted for any reasons the Community Leads deem reasonable or violative of The Code of Conduct.</li>
+	<li><p>Please post your questions or messages in the appropriate section of The Forum.</li></p>
+	<li><p>Answers to many of the questions you may have can be found in past Forum threads. Please use the search functions to find existing answers and discussions on your topic. If you are still having problems, feel free to post your question or contact an administrator.</li></p>
+	<li><p>Posting copyrighted material in The Forum is strictly prohibited.</li></p>
+	<li><p>The Forum may flag or delete offensive posts. If the requested action is not done in a reasonably timely manner, a Community Lead may delete the material.</li></p>
+	<li><p>Posts may be deleted for any reasons the Community Leads deem reasonable or violative of The Code of Conduct.</li></p>
 </ol>
 
 <h3>Violence and Threats Thereof</h3>
 
 <p>Storj has a zero-tolerance policy for threats or acts of violence and will result in immediate and permanent suspension from The Forum. This includes, but is not limited to:</p>
 <ol type="1">
-	<li>Language regarding harming or killing others</li>
-	<li>Language regarding threats to hack, DDOS, or SWAT others</li>
-	<li>Language regarding use of weapons to threaten, intimidate, harm or kill others</li>
-	<li>Language regarding intimidation, humiliation, or attack tactics</li>
+	<li><p>Language regarding harming or killing others</li></p>
+	<li><p>Language regarding threats to hack, DDOS, or SWAT others</li></p>
+	<li><p>Language regarding use of weapons to threaten, intimidate, harm or kill others</li></p>
+	<li><p>Language regarding intimidation, humiliation, or attack tactics</li></p>
 </ol>
 
 <h3>Hateful Conduct and Harassment</h3>
@@ -69,12 +69,12 @@ All information and instructions given within The Forum and The Community are to
 
 <p>Any language that disrupts, interrupts, harms, or otherwise violates the integrity of Storj services or another user's experience or devices is prohibited. Such activities include but are not limited to:</p>
 <ol type="1">
-	<li>Posting large amounts of repetitive, unwanted messages or user reports</li>
-	<li>Distributing unauthorized advertisements</li>
-	<li>Phishing</li>
-	<li>Defrauding others</li>
-	<li>Impersonating Storj staff</li>
-	<li>Spreading malware or viruses</li>
+	<li><p>Posting large amounts of repetitive, unwanted messages or user reports</li></p>
+	<li><p>Distributing unauthorized advertisements</li></p>
+	<li><p>Phishing</li></p>
+	<li><p>Defrauding others</li></p>
+	<li><p>Impersonating Storj staff</li></p>
+	<li><p>Spreading malware or viruses</li></p>
 </ol>
 
 <h3>Reporting Violations</h3>
@@ -86,45 +86,45 @@ All information and instructions given within The Forum and The Community are to
 
 <p>Reports will be assessed by the review team to determine:</p>
 <ol type="1">
-	<li>If a member has violated The Code of Conduct</li>
-	<li>If the potential impact of the infraction, if one is found, and</li>
-	<li>Consequences for any infractions found.</li>
+	<li><p>If a member has violated The Code of Conduct</li></p>
+	<li><p>If the potential impact of the infraction, if one is found, and</li></p>
+	<li><p>Consequences for any infractions found.</li></p>
 </ol>
 
 <p>If it is determined The Storj Community Code of Conduct has been violated, a Level of Conduct will be assigned along with correlating consequences.</p>
 
 <p><b>Level 1</b></p>
 <ul>
-	<li>Promotes self interest</li>
-	<li>Directly or indirectly markets, sells or promotes services or products offered outside of Storj, including unsolicited direct-inbox messages to other members of The Community.</li>
+	<li><p>Promotes self interest</li></p>
+	<li><p>Directly or indirectly markets, sells or promotes services or products offered outside of Storj, including unsolicited direct-inbox messages to other members of The Community.</li></p>
 </ul>
 <p>1st Offense:</p>
 <ul>
-	<li>Removal of content from The Community</li>
-	<li>Directly or indirectly markets, sells or promotes services or products offered outside of Storj, including unsolicited direct-inbox messages to other members of The Community.</li>
+	<li><p>Removal of content from The Community</li></p>
+	<li><p>Directly or indirectly markets, sells or promotes services or products offered outside of Storj, including unsolicited direct-inbox messages to other members of The Community.</li></p>
 </ul>
 <p>2nd Offense:</p>
 <ul>
-	<li>Removal of content from The Community</li>
-	<li>Warning about removal from The Community and The Forum, should a violation occur within 1 year of the initial infraction</li>
+	<li><p>Removal of content from The Community</li></p>
+	<li><p>Warning about removal from The Community and The Forum, should a violation occur within 1 year of the initial infraction</li></p>
 </ul>
 <p>3rd Offense:</p>
 <ul>
-	<li>Removal of content from The Community</li>
-	<li>Membership and future participation are forfeited</li>
+	<li><p>Removal of content from The Community</li></p>
+	<li><p>Membership and future participation are forfeited</li></p>
 </ul>
 
 <p><b>Level 2</b></p>
 <p>Conduct that is harmful to the Storj culture.</p>
 <p>1st Offense:</p>
 <ul>
-	<li>Removal of content from the platform</li>
-	<li>·Warning about removal from The Community and The Forum, should a violation occur within 1 year of the initial infraction</li>
+	<li><p>Removal of content from the platform</li></p>
+	<li><p>·Warning about removal from The Community and The Forum, should a violation occur within 1 year of the initial infraction</li></p>
 </ul>
 <p>2nd Offense:</p>
 <ul>
-	<li>Removal of content from the platform</li>
-	<li>Membership and future participation are forfeited</li>
+	<li><p>Removal of content from the platform</li></p>
+	<li><p>Membership and future participation are forfeited</li></p>
 </ul>
 
 <p><b>Level 3</b></p>
@@ -132,8 +132,8 @@ All information and instructions given within The Forum and The Community are to
 <p>Situations which appear imminently dangerous may be reported to legal authorities.</p>
 <p>1st Offense:</p>
 <ul>
-	<li>Removal of content from the The Community</li>
-	<li>Membership is forfeited</li>
+	<li><p>Removal of content from the The Community</li></p>
+	<li><p>Membership is forfeited</li></p>
 </ul>
 
 <p><b>Form Trust Levels</b></p>

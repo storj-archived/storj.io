@@ -15,21 +15,21 @@ effectiveDate: "Match 19, 2020"
 <p>This Privacy Policy contains the following sections:</p>
 
 <ol type="1">
-	<li>Collection of Information</li>
-	<li>Use of Information</li>
-	<li>Legal Bases for Use of Information</li>
-	<li>Sharing of Information</li>
-	<li>Cookies and Online Analytics</li>
-	<li>Aggregate/De-Identified Information</li>
-	<li>International Users</li>
-	<li>Additional Information for California Residents</li>
-	<li>Additional Information for Nevada Residents</li>
-	<li>Data Retention</li>
-	<li>How We Protect Your Data and Our Services</li>
-	<li>Third-Party Links and Features</li>
-	<li>Children's Privacy</li>
-	<li>Changes to our Privacy Policy</li>
-	<li>Contact Information</li>
+	<li><p>Collection of Information</li></p>
+	<li><p>Use of Information</li></p>
+	<li><p>Legal Bases for Use of Information</li></p>
+	<li><p>Sharing of Information</li></p>
+	<li><p>Cookies and Online Analytics</li></p>
+	<li><p>Aggregate/De-Identified Information</li></p>
+	<li><p>International Users</li></p>
+	<li><p>Additional Information for California Residents</li></p>
+	<li><p>Additional Information for Nevada Residents</li></p>
+	<li><p>Data Retention</li></p>
+	<li><p>How We Protect Your Data and Our Services</li></p>
+	<li><p>Third-Party Links and Features</li></p>
+	<li><p>Children's Privacy</li></p>
+	<li><p>Changes to our Privacy Policy</li></p>
+	<li><p>Contact Information</li></p>
 </ol>
 
 
@@ -48,13 +48,13 @@ effectiveDate: "Match 19, 2020"
 <p>When you use our Services, we may automatically collect information from your devices. For example, we may collect:</p>
 
 <ul>
-	<li><b>Log Information</b>: We collect log information when you use our Services, including access times, pages viewed, IP address, and the web page that referred you to our website.</li>
-	<li><b>Device Information</b>: We collect information about the computer or mobile device you use to access our Services, including the hardware model, operating system and version, your web browser, and device identifiers (including a network ID used to communicate with other nodes on the platform).</li>
-	<li><b>Location information</b>: We collect and process general information about the location of the device from which you are accessing the Service (e.g., approximate geographic location inferred from an IP address).</li>
-	<li><b>Telemetry Information</b>: If you use the Software, we may collect the amount of free and used storage space on your device, bandwidth upload and download speeds, and other statistics about your device and network connection.</li>
-	<li><b>Performance Information</b>: If you are a User, we may collect the amount of data transferred via our Services, the contract associated with the transferred data, and a log of the outcome (success or failure) of audits performed on your node.</li>
-	<li><b>Usage Information</b>: If you use our Storage Services, we may collect metadata about your usage and the file shards that are distributed via the Storage Services (including shard size, number of shards and frequency of access), and we may record instances in which you have used your private key to authenticate communications.</li>
-	<li><b>Information Collected by Cookies and Other Tracking Technologies via Our Services</b>: We and our service providers use various technologies to collect information when you interact with our websites and mobile apps, including cookies and web beacons. Cookies are small data files that are stored on your device when you visit a website, which enable us to collect information about your device identifiers, web browsers used to access the Services, pages or features viewed, time spent on pages, mobile app performance and links clicked. Web beacons (or pixel tags) are electronic images that may be used in our web services or emails to help deliver cookies, count website visits, understand usage and determine the effectiveness of our email marketing campaigns. </li>
+	<li><p><b>Log Information</b>: We collect log information when you use our Services, including access times, pages viewed, IP address, and the web page that referred you to our website.</li></p>
+	<li><p><b>Device Information</b>: We collect information about the computer or mobile device you use to access our Services, including the hardware model, operating system and version, your web browser, and device identifiers (including a network ID used to communicate with other nodes on the platform).</li></p>
+	<li><p><b>Location information</b>: We collect and process general information about the location of the device from which you are accessing the Service (e.g., approximate geographic location inferred from an IP address).</li></p>
+	<li><p><b>Telemetry Information</b>: If you use the Software, we may collect the amount of free and used storage space on your device, bandwidth upload and download speeds, and other statistics about your device and network connection.</li></p>
+	<li><p><b>Performance Information</b>: If you are a User, we may collect the amount of data transferred via our Services, the contract associated with the transferred data, and a log of the outcome (success or failure) of audits performed on your node.</li></p>
+	<li><p><b>Usage Information</b>: If you use our Storage Services, we may collect metadata about your usage and the file shards that are distributed via the Storage Services (including shard size, number of shards and frequency of access), and we may record instances in which you have used your private key to authenticate communications.</li></p>
+	<li><p><b>Information Collected by Cookies and Other Tracking Technologies via Our Services</b>: We and our service providers use various technologies to collect information when you interact with our websites and mobile apps, including cookies and web beacons. Cookies are small data files that are stored on your device when you visit a website, which enable us to collect information about your device identifiers, web browsers used to access the Services, pages or features viewed, time spent on pages, mobile app performance and links clicked. Web beacons (or pixel tags) are electronic images that may be used in our web services or emails to help deliver cookies, count website visits, understand usage and determine the effectiveness of our email marketing campaigns. </li></p>
 </ul>
 
 <p><b>2.&nbsp;&nbsp;Use of Information</b></p>
@@ -62,43 +62,43 @@ effectiveDate: "Match 19, 2020"
 <p>We may use information about you for various purposes, including to:</p>
 
 <ul>
-	<li>Provide, maintain, deliver and improve our Services;</li>
-	<li>Develop new products and services;</li>
-	<li>Personalize your experience;</li>
-	<li>Respond to your requests for information;</li>
-	<li>Send you technical notices as well as support and administrative messages;</li>
-	<li>Subject to applicable legal obligations, communicate with you about products, services, promotions, events, and other news and information we think will be of interest to you;</li>
-	<li>Monitor and analyze trends, usage, and activities in connection with our Services;</li>
-	<li>Detect, investigate, and prevent suspected fraudulent transactions and other illegal activities, and protect the rights and property of Storj and others;</li>
-	<li>Investigate, in good faith, alleged violations of our Agreements;</li>
-	<li>Secure our services and users;</li>
-	<li>Link or combine information we collect from or about you; </li>
-	<li>Carry out any other purpose for which the information was collected; and,</li>
-	<li>Fulfill other purposes with your consent or at your direction.</li>
+	<li><p>Provide, maintain, deliver and improve our Services;</li></p>
+	<li><p>Develop new products and services;</li></p>
+	<li><p>Personalize your experience;</li></p>
+	<li><p>Respond to your requests for information;</li></p>
+	<li><p>Send you technical notices as well as support and administrative messages;</li></p>
+	<li><p>Subject to applicable legal obligations, communicate with you about products, services, promotions, events, and other news and information we think will be of interest to you;</li></p>
+	<li><p>Monitor and analyze trends, usage, and activities in connection with our Services;</li></p>
+	<li><p>Detect, investigate, and prevent suspected fraudulent transactions and other illegal activities, and protect the rights and property of Storj and others;</li></p>
+	<li><p>Investigate, in good faith, alleged violations of our Agreements;</li></p>
+	<li><p>Secure our services and users;</li></p>
+	<li><p>Link or combine information we collect from or about you; </li></p>
+	<li><p>Carry out any other purpose for which the information was collected; and,</li></p>
+	<li><p>Fulfill other purposes with your consent or at your direction.</li></p>
 </ul>
 
 <p>For the purposes discussed in this Privacy Policy, we may combine the information that we collect through the Services with information that we receive from other sources, both online and offline, and use such combined information in accordance with this Privacy Policy.</p>
 
-<b>3.&nbsp;&nbsp;Legal Bases for Use of Information</b></li>
+<b>3.&nbsp;&nbsp;Legal Bases for Use of Information</b></li></p>
 
 <p>If you are located in the European Economic Area (“<b>EEA</b>”), please note that the legal bases under the GDPR for using the information we collect through your use of the Services are as follows:</p>
 
 <ul>
-	<li>Where use of your information is necessary to perform our obligations under a contract with you (for example, to comply with the Agreements which you accept by using the Services);</li>
-	<li>Where use of your information is necessary for our legitimate interests or the legitimate interests of others (for example, to provide security for our Services; operate our Services; prevent fraud; analyze use of and improve our Services; and for similar purposes);</li>
-	<li>Where use of your information is necessary to comply with a legal obligation; and</li>
-	<li>Where we have your consent to process data in a certain way.</li>
+	<li><p>Where use of your information is necessary to perform our obligations under a contract with you (for example, to comply with the Agreements which you accept by using the Services);</li></p>
+	<li><p>Where use of your information is necessary for our legitimate interests or the legitimate interests of others (for example, to provide security for our Services; operate our Services; prevent fraud; analyze use of and improve our Services; and for similar purposes);</li></p>
+	<li><p>Where use of your information is necessary to comply with a legal obligation; and</li></p>
+	<li><p>Where we have your consent to process data in a certain way.</li></p>
 </ul>
 
 <p><b>4.&nbsp;&nbsp;Sharing of Information</b></p>
 <ul>
-	<li>With service providers that perform work for us so that they can perform such work;</li>
-	<li>When you use interactive areas of our Services, like our blog or other online forums, certain information you choose to share may be displayed publicly, such as your username, actions you take, and any content you post;</li>
-	<li>In response to a request for information if we believe disclosure is in accordance with, or required by, any applicable law, regulation or legal process;</li>
-	<li>If we believe your actions are inconsistent with our Agreements or policies, or to protect the rights, property, and safety of Storj or others;</li>
-	<li>In connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business by another company;</li>
-	<li>Between and among Storj and its current and future parents, affiliates, subsidiaries and other companies under common control and ownership; or</li>
-	<li>With your consent or at your direction.</li>
+	<li><p>With service providers that perform work for us so that they can perform such work;</li></p>
+	<li><p>When you use interactive areas of our Services, like our blog or other online forums, certain information you choose to share may be displayed publicly, such as your username, actions you take, and any content you post;</li></p>
+	<li><p>In response to a request for information if we believe disclosure is in accordance with, or required by, any applicable law, regulation or legal process;</li></p>
+	<li><p>If we believe your actions are inconsistent with our Agreements or policies, or to protect the rights, property, and safety of Storj or others;</li></p>
+	<li><p>In connection with, or during negotiations of, any merger, sale of company assets, financing or acquisition of all or a portion of our business by another company;</li></p>
+	<li><p>Between and among Storj and its current and future parents, affiliates, subsidiaries and other companies under common control and ownership; or</li></p>
+	<li><p>With your consent or at your direction.</li></p>
 </ul>
 
 <u>Notice About Use of our Public Forums and Features</u>
@@ -117,11 +117,11 @@ effectiveDate: "Match 19, 2020"
 <p>We may also use third-party web analytics services (such as those of Google Analytics, Coremetrics, Mixpanel, and Segment) on our Services to collect and analyze information collected through these technologies to assist us in auditing, research, or reporting; fraud prevention; and, providing certain features to you.  The types of tracking and analytics tools we and our service providers use for these purposes are:</p>
 
 <ul>
-	<li>“Cookies” are small data files stored on your computer or device to collect information about your use of the Services. Cookies may enable us to recognize you as the same user who used our Services in the past, and relate your use of the Services to other information we have about you. Cookies may also be used to enhance your experience on the Services (for example, by storing your username) and/or to collect general usage and aggregated statistical information. Most browsers can be set to detect cookies and give you an opportunity to reject them, but refusing cookies may, in some cases, limit your use of our Services or features. To learn more about the use of cookies, including how to manage or delete them, click <a target="_blank" href="https://www.allaboutcookies.org/" class="link">here</a>.  Please note that by blocking, disabling, or managing any or all cookies, you may not have access to certain features or offerings of the Services. </li>
+	<li><p>“Cookies” are small data files stored on your computer or device to collect information about your use of the Services. Cookies may enable us to recognize you as the same user who used our Services in the past, and relate your use of the Services to other information we have about you. Cookies may also be used to enhance your experience on the Services (for example, by storing your username) and/or to collect general usage and aggregated statistical information. Most browsers can be set to detect cookies and give you an opportunity to reject them, but refusing cookies may, in some cases, limit your use of our Services or features. To learn more about the use of cookies, including how to manage or delete them, click <a target="_blank" href="https://www.allaboutcookies.org/" class="link">here</a>.  Please note that by blocking, disabling, or managing any or all cookies, you may not have access to certain features or offerings of the Services. </li></p>
 
-	<li>“Local shared objects,” or “flash cookies,” may be stored on your computer or device using a media player or other software. Local shared objects operate much like cookies, but cannot be managed in the same way. Depending on how local shared objects are enabled on your computer or device, you may be able to manage them using software settings. For information on managing flash cookies, for example, click <a class="link" target="_blank" href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html#117118">here</a>.</li>
+	<li><p>“Local shared objects,” or “flash cookies,” may be stored on your computer or device using a media player or other software. Local shared objects operate much like cookies, but cannot be managed in the same way. Depending on how local shared objects are enabled on your computer or device, you may be able to manage them using software settings. For information on managing flash cookies, for example, click <a class="link" target="_blank" href="http://www.macromedia.com/support/documentation/en/flashplayer/help/settings_manager.html#117118">here</a>.</li></p>
 
-	<li>A “pixel tag” (also known as a “<b>clear GIF</b>” or “<b>web beacon</b>”) is a tiny image – typically just one-pixel – that can be placed on a web page or in our electronic communications to you in order to help us measure the effectiveness of our content by, for example, counting the number of individuals who visit us online or verifying whether you’ve opened one of our emails or seen one of our web pages.</li>
+	<li><p>A “pixel tag” (also known as a “<b>clear GIF</b>” or “<b>web beacon</b>”) is a tiny image – typically just one-pixel – that can be placed on a web page or in our electronic communications to you in order to help us measure the effectiveness of our content by, for example, counting the number of individuals who visit us online or verifying whether you’ve opened one of our emails or seen one of our web pages.</li></p>
 
 	<p>
 	<b>Do Not Track</b>. Do Not Track (“<b>DNT</b>”) is a privacy preference that users can set in certain web browsers. We are committed to providing you with meaningful choices about the information collected on our website for online advertising and analytics purposes, and that is why we provide the variety of opt-out mechanisms listed above. However, we do not currently recognize or respond to browser-initiated DNT signals. Learn more about Do Not Track.
@@ -150,10 +150,10 @@ effectiveDate: "Match 19, 2020"
 <p>Storj may transfer some of your personal information outside of the EEA. Storj may transmit some of your personal information to a country where the data protection laws may not provide a level of protection equivalent to the laws in your jurisdiction, including the United States. As required by applicable law, Storj will provide an adequate level of protection for your personal data using various means, including, where appropriate:</p>
 
 <ul>
-	<li>relying on a formal decision by the European Commission that a certain country ensures an adequate level of protection for personal data (a full list of such decisions may be accessed online <a target="_blank class="link" href="http://ec.europa.eu/justice/data-protection/international-transfers/adequacy/index_en.htm">here</a>.</li>
-	<li>entering into appropriate data transfer agreements based on language approved by the European Commission, such as the Standard Contractual Clauses (2010/87/EC and/or 2004/915/EC), which are available upon request at <a href=mailto:legal@storj.io;>legal@storj.io;</a></li>
-	<li>implementing appropriate physical, technical, and organizational security measures to protect personal information against accidental or unlawful destruction, accidental loss or alteration, unauthorized disclosure or access, and against unlawful forms of processing; and</li>
-	<li>taking other measures to provide an adequate level of data protection in accordance with applicable law.</li>
+	<li><p>relying on a formal decision by the European Commission that a certain country ensures an adequate level of protection for personal data (a full list of such decisions may be accessed online <a target="_blank class="link" href="http://ec.europa.eu/justice/data-protection/international-transfers/adequacy/index_en.htm">here</a>.</li></p>
+	<li><p>entering into appropriate data transfer agreements based on language approved by the European Commission, such as the Standard Contractual Clauses (2010/87/EC and/or 2004/915/EC), which are available upon request at <a href=mailto:legal@storj.io;>legal@storj.io;</a></li></p>
+	<li><p>implementing appropriate physical, technical, and organizational security measures to protect personal information against accidental or unlawful destruction, accidental loss or alteration, unauthorized disclosure or access, and against unlawful forms of processing; and</li></p>
+	<li><p>taking other measures to provide an adequate level of data protection in accordance with applicable law.</li></p>
 </ul>
 
 <p>Any onward transfer is subject to appropriate onward transfer requirements as required by applicable law.</p>
@@ -186,26 +186,26 @@ effectiveDate: "Match 19, 2020"
     <td>Contact information (e.g., name, email address, postal address, phone number)</td>
     <td>
 			<ul>
-				<li>You</li>
+				<li><p>You</li></p>
 			</ul>
 		</td>
     <td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Communicate with you (such as providing transactional updates and contacting you regarding Storj and third party products and services)</li>
-				<li>Analyze use of and personalize the Services</li>
-				<li>Improve the Services</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Communicate with you (such as providing transactional updates and contacting you regarding Storj and third party products and services)</li></p>
+				<li><p>Analyze use of and personalize the Services</li></p>
+				<li><p>Improve the Services</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Communicate with you (such as providing transactional updates and contacting you regarding Storj and third party products and services)</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof); or, separately,</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Communicate with you (such as providing transactional updates and contacting you regarding Storj and third party products and services)</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof); or, separately,</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
   </tr>
@@ -213,22 +213,22 @@ effectiveDate: "Match 19, 2020"
     <td>Login information (e.g., your account name and password)</td>
     <td>
 			<ul>
-				<li>You</li>
+				<li><p>You</li></p>
 			</ul>
 		</td>
     <td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
   </tr>
@@ -236,23 +236,23 @@ effectiveDate: "Match 19, 2020"
     <td>Financial and transactional information (e.g., billing information, credit or debit card number, verification number, and expiration date, bank account information, digital wallet information, authorization tokens, information for tax reporting, and information about your transactions with us, Users, and Storage Node Operators)</td>
     <td>
 			<ul>
-				<li>You</li>
-				<li>Third party payment processors who collect this information on our behalf and who may also have an independent relationship with you</li>
+				<li><p>You</li></p>
+				<li><p>Third party payment processors who collect this information on our behalf and who may also have an independent relationship with you</li></p>
 			</ul>
 		</td>
     <td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
   </tr>
@@ -260,24 +260,24 @@ effectiveDate: "Match 19, 2020"
     <td>User-generated content (e.g., information you submit in a public Storj forum or message board and feedback or testimonials you provide about our Services)</td>
     <td>
 			<ul>
-				<li>You</li>
-				<li>Other individuals who provide information about you in connection with their communications</li>
+				<li><p>You</li></p>
+				<li><p>Other individuals who provide information about you in connection with their communications</li></p>
 			</ul>
 		</td>
     <td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Communicate with you</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Communicate with you</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
   </tr>
@@ -285,23 +285,23 @@ effectiveDate: "Match 19, 2020"
     <td>Employment information (e.g., employer, position, contact information)</td>
     <td>
 			<ul>
-				<li>You</li>
+				<li><p>You</li></p>
 			</ul>
 		</td>
     <td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Communicate with you</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Communicate with you</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
   </tr>
@@ -309,24 +309,24 @@ effectiveDate: "Match 19, 2020"
 		<td>Research, survey, or sweepstakes information (e.g., if you participate in a survey or sweepstakes, we collect information needed for you to participate, such as contact information, and grant your prize)</td>
 		<td>
 			<ul>
-				<li>You</li>
-				<li>Survey or sweepstakes partners</li>
+				<li><p>You</li></p>
+				<li><p>Survey or sweepstakes partners</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Communicate with you</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Communicate with you</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
 	</tr>
@@ -337,25 +337,25 @@ effectiveDate: "Match 19, 2020"
 		</td>
 		<td>
 			<ul>
-				<li>You through your device</li>
-				<li>Analytics providers</li>
+				<li><p>You through your device</li></p>
+				<li><p>Analytics providers</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Analyze use of and personalize the Services</li>
-				<li>Improve the Services</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Analyze use of and personalize the Services</li></p>
+				<li><p>Improve the Services</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
 	</tr>
@@ -365,25 +365,25 @@ effectiveDate: "Match 19, 2020"
 		</td>
 		<td>
 			<ul>
-				<li>You through your device</li>
-				<li>Analytics providers</li>
+				<li><p>You through your device</li></p>
+				<li><p>Analytics providers</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Provide the Services and customer service</li>
-				<li>Analyze use of and personalize the Services</li>
-				<li>Improve the Services</li>
-				<li>Provide security, prevent fraud, and for de-bugging</li>
-				<li>Comply with legal requirements and compliance practices</li>
+				<li><p>Provide the Services and customer service</li></p>
+				<li><p>Analyze use of and personalize the Services</li></p>
+				<li><p>Improve the Services</li></p>
+				<li><p>Provide security, prevent fraud, and for de-bugging</li></p>
+				<li><p>Comply with legal requirements and compliance practices</li></p>
 			</ul>
 		</td>
 		<td>
 			<ul>
-				<li>Service providers</li>
-				<li>Law enforcement in the event of a lawful request</li>
-				<li>With entities in the event of a business transaction (or contemplation thereof)</li>
-				<li>With your consent </li>
+				<li><p>Service providers</li></p>
+				<li><p>Law enforcement in the event of a lawful request</li></p>
+				<li><p>With entities in the event of a business transaction (or contemplation thereof)</li></p>
+				<li><p>With your consent </li></p>
 			</ul>
 		</td>
 	</tr>
@@ -394,10 +394,10 @@ effectiveDate: "Match 19, 2020"
 <p>If the CCPA were applicable to Storj, the CCPA would require us to provide certain information to California residents upon request. Specifically, the CCPA would allow California residents to request us to:</p>
 
 <ul>
-	<li>Inform them about the categories of personal information we collect or disclose about them; the categories of sources of such information; the business or commercial purpose for collecting their personal information; and, the categories of third parties with whom we share/disclose personal information. </li>
-	<li>Provide access to and/or a copy of certain personal information we hold about them.</li>
-	<li>Delete certain personal information we have about them.</li>
-	<li>Provide them with information about the financial incentives that we offer to them, if any.</li>
+	<li><p>Inform them about the categories of personal information we collect or disclose about them; the categories of sources of such information; the business or commercial purpose for collecting their personal information; and, the categories of third parties with whom we share/disclose personal information. </li></p>
+	<li><p>Provide access to and/or a copy of certain personal information we hold about them.</li></p>
+	<li><p>Delete certain personal information we have about them.</li></p>
+	<li><p>Provide them with information about the financial incentives that we offer to them, if any.</li></p>
 </ul>
 
 <p>
