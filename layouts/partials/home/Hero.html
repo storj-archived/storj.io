@@ -1,18 +1,11 @@
 <div class="container bg-img-home-hero">
   <div class="spacer30"></div>
     {{with .Site.GetPage "page" "homeHero.md"}}
-    <div class="row ml-25">
-      <!-- <div class="prod-stage-container">
-        <div class="prod-stage">{{.Params.stage}}</div>
-      </div> -->
-    </div>
     <div class="spacer30"></div>
     <div class="row mb-24 text-center">
       <div class="col-xs-12 col-lg-12">
-        <h1 class="hero-heading col-xs-12 hidden-xs">{{.Params.heading1}} {{.Params.heading2}}</h1>
+        <h1 class="hero-heading col-xs-12 hidden-xs">{{.Params.heading1}}</h1>
         <h1 class="hero-heading col-xs-12 visible-xs">{{.Params.heading1}}</h1>
-        <h1 class="hero-heading col-xs-12 visible-xs">{{.Params.heading2}}</h1>
-        <h1 class="hero-heading col-xs-12">{{.Params.subHeading}}</h1>
       </div>
     </div>
     <div class="row text-center">
@@ -23,52 +16,47 @@
     <div class="spacer80"></div>
     {{end}}
     <div class="hero-sections row">
-      <div class="hero-host col-lg-6">
-        <div>
-          <div class="spacer60"></div>
-          <div class="row">
-            <div class="col-lg-12">
-              <img style="margin-bottom:15px;" src="/img/storj-ico-node.svg"/>
-            </div>
+      <div onclick="location.href='/sign-up-node-operator';" class="hero-host col-lg-6">
+        <div class="spacer50"></div>
+        <div class="row">
+          <div class="col-lg-12">
+            <img alt="storj logo" src="/img/storj-hero-logo.svg"/>
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 class="hero-section-subHeading">Host a Node</h1>
-              <div class="spacer10"></div>
-              <p class="hero-desc">Node Operators make decentralized storage possible by getting paid for available disk space and bandwidth used by Tardigrade.io customers. Start earning today.</p>
-              <div class="spacer15"></div>
-              <a href="/sign-up-node-operator" style="text-decoration:none;">
-                <p class="hero-sections-cta">Become a Host</p>
-                <img src="/img/carrot-right.svg" height="16" width="16">
-              </a>
-            </div>
+        </div>
+        <div class="row">
+					<div class="spacer10"></div>
+          <div class="col-lg-12">
+            <h1 class="hero-section-subHeading">Host a Node</h1>
+            <div class="spacer10"></div>
+            <p class="hero-desc">We pay Node Operators for their unused storage and bandwidth, making decentralized storage possible for Tardigrade.io customers. Put your extra space to use and start earning today.</p>
+            <div class="spacer15"></div>
+              <p class="hero-sections-cta">Become a Host</p>
+              <!-- <img src="/img/carrot-right.svg" height="16" width="16"> -->
           </div>
         </div>
       </div>
-      <div class="hero-cs col-lg-6 careers-grey">
-        <div>
-          <div class="spacer50"></div>
-          <div class="row">
-            <div class="col-lg-12">
-              <img src="/img/storj-ico-cloud-storage.svg"/>
-            </div>
+      <div onclick="location.href='https://tardigrade.io/';" class="hero-cs col-lg-6 careers-grey">
+				<div class="spacer60"></div>
+        <div class="row">
+          <div class="col-lg-12">
+            <img alt="tardigrade logo" src="/img/tardigrade-hero-logo.svg"/>
           </div>
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 class="hero-section-subHeading">Cloud Storage</h1>
-              <div class="spacer10"></div>
-              <p class="hero-desc">Upgrade your storage layer to the world’s first decentralized cloud storage solution. Tardigrade is secure, resilient, faster, and cheaper than traditional cloud storage.</p>
-              <div class="spacer15"></div>
-              <a href="https://tardigrade.io/">
-                <p class="hero-sections-cta">Try Tardigrade</p>
-                <img src="/img/carrot-right.svg" height="16" width="16">
-              </a>
-            </div>
+        </div>
+        <div class="row">
+					<div class="spacer10"></div>
+          <div class="col-lg-12">
+            <h1 class="hero-section-subHeading">Store Data</h1>
+            <div class="spacer10"></div>
+            <p class="hero-desc">Upgrade your storage layer to the world’s first S3-compatible decentralized cloud storage solution. Tardigrade is 100% secure, more affordable, and more reliable.</p>
+            <div class="spacer15"></div>
+              <p class="hero-sections-cta">Join Tardigrade</p>
+              <!-- <img src="/img/carrot-right.svg" height="16" width="16"> -->
           </div>
         </div>
       </div>
     </div>
     <div class="spacer125"></div>
+		<img alt="globe background" class="globe-background" src="/img/globe.png">
 </div>
 
 <!--completes div & section from navbar partial-->
