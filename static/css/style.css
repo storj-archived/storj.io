@@ -70,6 +70,10 @@ table, th, td {
 	border-color: #173AE8;
 }
 
+.storj-tac {
+	line-height: 1.6em;
+}
+
 h1, h2, h3, h4, h5, h6, a, p, span {
 	-webkit-font-feature-settings: 'kern' 1;
 	-moz-font-feature-settings: 'kern' 1;
