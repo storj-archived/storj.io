@@ -2191,8 +2191,8 @@ TEAM
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .team-member-name {
-	height: 25px;
-	margin-bottom: 10px;
+/* 	height: 25px;
+	margin-bottom: 10px; */
 	font-weight: 800;
 }
 .team-member-title {
