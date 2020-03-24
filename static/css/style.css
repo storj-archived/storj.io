@@ -316,7 +316,8 @@ Navigation
 
 .navbar-brand {
 	padding: 0;
-	margin-top: 25px;
+	margin-top: 26px;
+  margin-bottom: 10px;
 }
 .link-style{
   display:inline-block;
@@ -3153,10 +3154,13 @@ Media Queries
   #token-webapp {
     height: 1800px;
   }
-
   .logo {
-		margin-left: 20px;
+		margin-left: 32px;
+    height: 42px;
 	}
+  .page .logo {
+    margin-left: 16px;
+  }
 }
 
 @media (max-width: 480px) {
