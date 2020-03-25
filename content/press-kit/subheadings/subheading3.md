@@ -1,4 +1,4 @@
 ---
 heading : 'Storj Colors'
-subText : 'Blue is the main color. If an accent color is needed, use green.'
+subText : 'Here are the official brand colors.'
 ---
