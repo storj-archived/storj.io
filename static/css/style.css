@@ -2356,23 +2356,9 @@ Press
   margin-left: 1em;
 }
 .presskit-logo.blue {
-  background: #2683ff;
+  background: #0059d0;
 }
 .presskit-logo.blue .link {
-  color: #fff;
-}
-.presskit-logo.orange {
-  background: #FF7F00;
-  color: #fff;
-}
-.presskit-logo.green {
-  background: #88C425;
-  color: #fff;
-}
-.presskit-logo.darkblue {
-  background: #173AE8;
-}
-.presskit-logo.darkblue p{
   color: #fff;
 }
 .blue {
