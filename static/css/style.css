@@ -1711,10 +1711,9 @@ Footer
 -------------------------------- */
 
 footer {
-	padding-top: 3.5em;
-	background: #0e2338;
-	background: url("../img/storj-background.jpg") center top no-repeat;
-	background-size: cover;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background: linear-gradient(0deg, #1743A2, #1743A2), #2582FF;
 	text-align: left;
 }
 
@@ -1728,10 +1727,9 @@ footer {
 }
 .footer-logo {
 	display: block;
-  margin-top: 1px;
+  margin-top: 30px;
 }
 .footer-logo img {
-	width: 90px;
 	display: block;
 }
 footer a {
@@ -1761,11 +1759,8 @@ footer .connect a {
 	padding-right: 1.2em;
 	border: 0;
 }
-footer .address {
-	padding: 2em 0 2em;
-}
-footer .address address {
-	margin: 0;
+footer address {
+	margin-top: 40px;
 	color: #525d69;
 	color: rgba(255,255,255,0.4);
 	font-size: 14px;
@@ -5002,16 +4997,6 @@ color: #000000;
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 767px){
-  .stay-in-touch{
-    text-align: center;
-  }
-
-  .footer .col-sm-2 {
-    left: 12%;
-  }
-}
-
 .footer-col-heading{
   font-family: 'Poppins';
   font-style: normal;
@@ -5019,6 +5004,8 @@ color: #000000;
   font-size: 12px;
   line-height: 20px;
   color: #FFFFFF;
+	margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .footer-link{
@@ -5065,6 +5052,7 @@ color: #000000;
   font-size: 12px;
   font-family: 'Roboto';
   border-radius: 10px 10px 0px 0px;
+  margin-top: 10px;
 }
 
 .thankyou-btn {
@@ -5092,21 +5080,21 @@ color: #000000;
 
 .consent-banner{
   background: #11181D;
-  opacity: 0.97;
+  opacity: 0.90;
   position: fixed;
   bottom: 0px;
-  height: 60px;
   z-index: 99999999999999999;
   display: flex;
   justify-content: space-between;
-  width:100%;
+  width: 100%;
 }
 
 .consent-banner_text{
   color: #FFF;
-  margin-top: 25px;
+	padding: 12px;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.5;
+	margin-bottom: 0;
 }
 
 .consent-banner_link{
@@ -5114,7 +5102,7 @@ color: #000000;
   text-decoration : underline;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 800px) {
+/* @media only screen and (min-width: 0px) and (max-width: 800px) {
   .consent-banner_text{
     margin-top:15px;
     margin-right:50px;
@@ -5124,10 +5112,9 @@ color: #000000;
     margin-top:25px;
     margin-right:75px;
   }
-}
+} */
 
 .consent-banner_close:hover {
-    font-size: 16px;
     cursor: pointer;
 }
 
@@ -6153,7 +6140,11 @@ ul.submit-options li:last-of-type {
 }
 
 .footer .response {
-  color: #fff;
+	color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 .sign-up-node-operator .invisible {
