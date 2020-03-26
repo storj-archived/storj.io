@@ -1,5 +1,5 @@
 ---
-title : "Code of Conduct"
+title : "Storj Labs Inc. Community Code of Conduct"
 ---
 
 <h1 class="title text-center">Violations of The Storj Community Code of Conduct</h1>
