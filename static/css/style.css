@@ -6310,6 +6310,10 @@ ul.submit-options li:last-of-type {
     margin-left: 245px;
   }
 
+	.dashboard-message p {
+		font-size: 9px;
+	}
+
 }
 
 
