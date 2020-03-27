@@ -3861,6 +3861,10 @@ color: #FFFFFF;
   padding: 10px;
 	background: #FFF;
 }
+.sno-bg .nav-join:hover, .sno-bg .nav-join:active:hover {
+	background: white !important;
+	color: #08225d;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1200px){
 .nav-join{
