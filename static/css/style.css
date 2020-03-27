@@ -6291,6 +6291,13 @@ ul.submit-options li:last-of-type {
     margin-left: 163px;
   }
 
+	.banner-left{
+	font-size: 8px;
+	}
+
+	.banner-right{
+	font-size: 8px;
+	}
 
 }
 
@@ -6307,10 +6314,15 @@ ul.submit-options li:last-of-type {
 
 
 @media only screen and (max-width: 360px){
-
   .ml-295 {
     margin-left: 135px;
   }
+	.banner-left{
+	font-size: 7px;
+	}
+	.banner-right{
+	font-size: 7px;
+	}
 }
 
 
