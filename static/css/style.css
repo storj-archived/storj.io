@@ -3163,11 +3163,8 @@ Media Queries
 	.section {
 		padding: 2em 0;
 	}
-	.logo {
-    	width: 100px;
-	}
 	.home .navbar-brand {
-    margin-top: 25px 0;
+    margin-top: 28px;
 	}
 	.navbar-page .navbar-brand {
     margin-top: 15px;
