@@ -4,5 +4,5 @@ description: Becoming a node operator doesn’t require extra hardware or power-
 heading: Use Existing Hardware
 img: /img/storj-ico-hdd.svg
 class: "snoBox"
+alt: "Use Existing Hardware"
 ---
-

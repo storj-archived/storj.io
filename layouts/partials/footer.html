@@ -30,7 +30,7 @@
       <div class="spacer5"></div>
         {{ range where .Site.Pages ".Params.class" "fourthcolfooter"}}
         <a class="footer-link" href="{{ .Params.link }}">
-          <img class="social-link" src="{{.Params.icon}}" alt="">
+          <img class="social-link" src="{{.Params.icon}}" alt="{{.Params.alt}}">
           {{ .Title }}</a><br>
           {{end}}
     </div>

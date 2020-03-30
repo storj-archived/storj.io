@@ -5,4 +5,5 @@ description: "Check your specs and if you qualify we’ll send you an auth token
 img: "/img/ico-number-1.svg"
 class: "howItWorks"
 divClass: "stepOne"
+alt: "Step 1"
 ---
