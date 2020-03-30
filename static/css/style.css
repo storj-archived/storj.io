@@ -1000,7 +1000,7 @@ canvas {
 .hero-host {
   background: #fff;
   height: 100%;
-  padding: 0 70px;
+  padding: 0 60px;
 	cursor: pointer;
 }
 
@@ -1012,7 +1012,7 @@ canvas {
 
 .hero-cs {
   height: 100%;
-  padding: 0 70px;
+  padding: 0 60px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -1023,52 +1023,11 @@ canvas {
 	z-index: 10;
 }
 
-@media only screen and (max-width: 600px) {
-
-		.hero-host {
-			height: 110%;
-		}
-}
-
-
-@media only screen and (max-width: 400px) {
-
-		.hero-cs, .hero-host {
-			height: 120%;
-		}
-}
-
 .hero-sections {
   height: 378px;
   border-radius: 4px;
   overflow: hidden;
 }
-
-@media only screen and (max-width: 1200px) {
-  .hero-sections {
-    overflow: inherit;
-  }
-
-  .hero-host {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-		z-index: 20;
-  }
-
-  .hero-cs {
-    border-bottom-left-radius: 4px;
-    border-bottom-right-radius: 4px;
-		z-index: 20;
-  }
-}
-
-@media only screen and (max-width: 1200px) {
-	.hero-sections {
-    width: 95%;
-		margin: 0 auto;
-  }
-}
-
 
 .hero-section-subHeading {
   color: #000;
@@ -1094,6 +1053,45 @@ canvas {
 	border-radius: 5px;
 }
 
+
+@media only screen and (max-width: 1200px) {
+  .hero-sections {
+    overflow: inherit;
+		width: 95%;
+		margin: 0 auto;
+  }
+
+  .hero-host {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+		z-index: 20;
+  }
+
+  .hero-cs {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+		z-index: 20;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+		.hero-cs, .hero-host {
+			height: 110%;
+			padding: 0 40px;
+		}
+}
+
+@media only screen and (max-width: 400px) {
+		.hero-cs, .hero-host {
+			height: 120%;
+			padding: 0 30px;
+		}
+}
+@media only screen and (max-width: 360px) {
+		.hero-cs, .hero-host {
+			padding: 0 20px;
+		}
+}
 
 
 
