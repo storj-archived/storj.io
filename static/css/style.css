@@ -5074,7 +5074,7 @@ color: #000000;
   bottom: 0px;
   height: 60px;
   z-index: 99999999999999999;
-  display: flex;
+  display: none;
   justify-content: space-between;
   width:100%;
 }
