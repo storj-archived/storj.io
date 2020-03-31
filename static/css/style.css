@@ -3683,10 +3683,13 @@ left: 43px;
   background: transparent; /* make scrollbar transparent */
 }
 
-.white-paper-header-bg{
-
-  background: url("../img/Background.png") center top no-repeat;
-	background-size: cover;
+.whitepaper-header{
+	background: #133E9C;
+	padding-bottom: 100px;
+}
+.whitepaper-header h1, .whitepaper-header p {
+	color: #fff;
+	line-height: 1.5;
 }
 
 .community-bg {
