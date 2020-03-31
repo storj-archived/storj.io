@@ -5137,7 +5137,7 @@ color: #FFFFFF;
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .careers-subheading{
@@ -5253,6 +5253,9 @@ color: #FFFFFF;
   .location-card{
     margin-left:-15px;
   }
+	.careers-heading{
+	  margin-top: 40px;
+	}
 }
 
 .about-us-img{
