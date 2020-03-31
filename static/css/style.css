@@ -3691,6 +3691,9 @@ left: 43px;
 	color: #fff;
 	line-height: 1.5;
 }
+.whitepaper-header .btn {
+	margin-bottom: 20px;
+}
 
 .community-bg {
   margin:0px;
