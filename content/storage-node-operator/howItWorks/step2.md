@@ -5,4 +5,5 @@ heading: Store Data
 img: "/img/ico-number-2.svg"
 class: howItWorks
 divClass: "stepTwo"
+alt: "Step 2"
 ---

@@ -6,4 +6,5 @@ description: "Sometimes we all need a little help. If you're looking for online 
 ctaLink: "https://support.storj.io/hc/en-us"
 ctaText: "Get Support"
 class: "communityBox"
+alt: "Get Support"
 ---

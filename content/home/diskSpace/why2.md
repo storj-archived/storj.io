@@ -5,4 +5,5 @@ desc : Node Operators host data from users all over the world, enabling a truly 
 class : "diskSpace"
 h : 35
 w : 47
+alt : "Be the Cloud"
 ---

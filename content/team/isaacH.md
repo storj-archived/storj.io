@@ -1,7 +1,7 @@
 ---
 name : Isaac Hess
 title : Software Engineer
-headshot : /img/team/isaac.png
+headshot : /img/team/isaac.jpg
 class : engineering
 all : true
 ---
