@@ -1710,8 +1710,7 @@ Footer
 -------------------------------- */
 
 footer {
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding: 25px;
 	background: linear-gradient(0deg, #1743A2, #1743A2), #2582FF;
 	text-align: left;
 }
