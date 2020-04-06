@@ -1,4 +1,4 @@
 ---
 heading : 'Storj Logo'
-subText : 'Use the logo whenever possible to represent Storj.'
+subText : 'Use the official logo whenever possible to represent Storj.'
 ---

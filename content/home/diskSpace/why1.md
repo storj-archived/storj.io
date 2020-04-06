@@ -5,4 +5,5 @@ desc : We pay you for your unused disk space to power the Storj Network and secu
 class : "diskSpace"
 h : 37
 w : 35
+alt : "Get Paid"
 ---

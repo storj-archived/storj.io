@@ -1,7 +1,7 @@
 ---
-logoImg : '/press-kit/Storj_io-logo.png'
+logoImg : '/press-kit/storj-logo-blue-horizontal-labs.png'
 logoColor : 'Blue'
-logoLink : '/press-kit/Storj_io-logo'
+logoLink : '/press-kit/storj-logo-blue-horizontal-labs'
 bkgrndColor: ''
 class : 'press-kit-logo'
 ---

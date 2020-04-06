@@ -10,12 +10,6 @@
   status = 302
   force = true
 
-[[redirects]]
-  from = "/storage-node-estimator"
-  to = "https://storj.io/blog/2019/01/sharing-storage-space-for-fun-and-profit/"
-  status = 301
-  force = true
-
 [[headers]]
   for = "/*"
   [headers.values]

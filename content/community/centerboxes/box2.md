@@ -6,5 +6,5 @@ description: "We’re open source and always will be. Transparency is a priority
 ctaLink: "https://forum.storj.io/"
 ctaText: "Join the Community"
 class: "communityBox"
+alt: "Join the Community"
 ---
-

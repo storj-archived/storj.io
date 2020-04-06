@@ -10,7 +10,7 @@
       <div class="diskSpace-content row mt-5" style="margin-top:100px;">
         {{range where .Site.Pages ".Params.class" "diskSpace" | first 4}}
           <div class="diskSpace-section col-xs-12 col-lg-4 mt-5 p-3 text-xs-center">
-            <img class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
+            <img alt="{{.Params.alt}}" class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
             <div class="spacer30"></div>
             <h4 class="diskSpace-subheading">
               {{.Params.heading}}

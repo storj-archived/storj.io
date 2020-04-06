@@ -1,6 +1,7 @@
 {{with .Site.GetPage "subheading3.md"}}
 <div class="row">
   <div class="col-md-12 text-center">
+    <div class="spacer40"></div>
     <h3 class="title">{{.Params.heading}}</h3>
     <p>{{.Params.subText}}</p>
   </div>
@@ -8,13 +9,13 @@
 {{end}}
 
 {{range where .Site.Pages ".Params.class" "press-color"}}
-<div class="col-md-4">
+<div class="col-md-6">
     <div class="presskit-logo {{.Params.bkgrndColor}}">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-xs-6">
           <p class="text-left">{{.Params.colorName}}</p>
         </div>
-        <div class="col-sm-6 text-right">
+        <div class="col-xs-6 text-right">
           <p>
             <b>{{.Params.colorHex}}</b>
           </p>
