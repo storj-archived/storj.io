@@ -1,6 +1,6 @@
 ---
 title: SDxCentral 03/19/2020
-articleName: Storj Labs Tardigrade: Live for the Taking
+articleName: "Storj Labs Tardigrade: Live for the Taking"
 publishedBy: SDxCentral
 publishdate: 2020-03-19T07:00:00.000Z
 link: >-
