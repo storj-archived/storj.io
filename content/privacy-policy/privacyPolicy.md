@@ -1,6 +1,6 @@
 ---
 title: "privacy-policy"
-effectiveDate: "Match 19, 2020"
+effectiveDate: "March 19, 2020"
 ---
 
 
