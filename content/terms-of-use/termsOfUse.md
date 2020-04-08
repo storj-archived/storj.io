@@ -1,6 +1,6 @@
 ---
 title : "terms-of-use"
-lastUpdated : "July 19, 2020"
+lastUpdated : "March 19, 2020"
 ---
 
 <p>These Terms of Use  (“<b>Terms of Use</b>” or “<b>Agreement</b>”) apply to the websites, mobile applications, and communities of Storj Labs, Inc. (“<b>Company</b>,” “<b>we</b>,” or “<b>us</b>”), including but not limited to  <a href="https://storj.io/" class="link" target="_blank">storj.io</a>, <a href="https://tardigrade.io/" class="link" target="_blank">tardigrade.io</a>, <a href="https://forum.storj.io/" class="link" target="_blank">forum.storj.io</a>, <a href="https://documentation.storj.io/" class="link" target="_blank">documentation.storj.io</a>, <a href="https://documentation.tardigrade.io" class="link" target="_blank">documentation.tardigrade.io</a>, <a href="https://support.storj.io/" class="link" target="_blank">support.storj.io</a>, <a href="https://support.tardigrade.io/" class="link" target="_blank">support.tardigrade.io</a>, <a href="https://ideas.storj.io/" class="link" target="_blank">https://ideas.storj.io/</a> <a href="https://us-central-1.tardigrade.io/" class="link" target="_blank">https://us-central-1.tardigrade.io/</a>, <a href="https://europe-west-1.tardigrade.io/" class="link" target="_blank">https://europe-west-1.tardigrade.io/</a>, <a href="https://asia-east-1.tardigrade.io" class="link" target="_blank">https://asia-east-1.tardigrade.io</a>, (referred to collectively as the “<b>Websites</b>”).</p>
