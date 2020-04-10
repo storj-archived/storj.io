@@ -47,6 +47,7 @@
             email = input.value
         }
         analytics.identify(email, {email: email, authToken: "unknown"});
+        analytics.identify(analytics.user().anonymousId(), {email: email, sno_register_email_page_visited: true});
         window.location.href = "https://storj.io/sign-up-node-operator-complete";
     }
 </script>
