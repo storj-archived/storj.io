@@ -1,12 +1,30 @@
-{{with .Site.GetPage "estimatorHeading"}}
-<div class="spacer45"></div>
-<div class="container text-center">
-<h1 class="title" style="font-size:38px;margin-bottom:-15px;">{{.Title}}</h1>
-<div class="spacer45"></div>
-<div class="spacer45"></div>
-<div class="col-lg-10 col-lg-offset-1">
-{{.Content}}
+<section class="header-blue">
+  {{partial "navbar" .}}
+  {{with .Site.GetPage "estimatorHeading"}}
+  <div class="section">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-10 col-xs-push-1">
+          <h1 class="title">{{.Title}}</h1>
+        </div>
+      <div class="row">
+        <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+          <p class="subheading">{{.Content}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{end}}
+</section>
+
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
+      {{with .Site.GetPage "estimatorContent"}}
+        {{.Content}}
+      {{end}}
+      </div>
+    </div>
+  </div>
 </div>
-</div>
-<div class="spacer45"></div>
-{{end}}

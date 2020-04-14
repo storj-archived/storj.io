@@ -5,8 +5,10 @@
 <body class="page">
     {{partial "googletag" .}}
     {{partial "home/Banner" .}}
-    {{partial "partners/heroNav" .}}
-    {{partial "partners/header" .}}
+    <section class="header-blue">
+      {{partial "navbar" .}}
+      {{partial "partners/header" .}}
+    </section>
     {{partial "partners/logos" .}}
     {{partial "partners/tabSelector" .}}
     {{partial "partners/tabContent" .}}

@@ -1,30 +1,31 @@
-<div class="row">
-    {{range where .Site.Pages ".Params.class" "prtnrBox"}}
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1">
-        <a name="partnersection"></a>
+<div class="container">
+  <div class="row">
+      {{range where .Site.Pages ".Params.class" "prtnrBox"}}
+        <div class="col-xs-12 col-md-10 col-md-push-1">
 
-        <div class="spacer45"></div>
+          <a name="partnersection"></a>
 
-        <div id="open-source-partner" class="panel-simple panel-card-simple">
-        <h3>{{.Params.heading}}</h3>
+          <div class="spacer45"></div>
 
-        <div class="spacer10"></div>
+          <div id="open-source-partner" class="panel-simple panel-card-simple">
 
-        <p style="font-size:12pt;max-width: 1000px;">{{.Description}}</p>
+            <h2>{{.Params.heading}}</h2>
 
-        <div class="spacer45"></div>
+            <div class="spacer10"></div>
 
-        <div class="row">
-        <a style="margin-left:14px;" class="btn typeform-share button" href="{{.Params.ctaLink}}" data-mode="popup" data-hide-footer=true target="_blank">{{.Params.ctaText}}</a>
-                {{.Content}}        
+            <p style="font-size:12pt;max-width: 1000px;">{{.Description}}</p>
+
+            <div class="spacer45"></div>
+
+            <div class="row">
+              <a style="margin-left:14px;" class="btn typeform-share button" href="{{.Params.ctaLink}}" data-mode="popup" data-hide-footer=true target="_blank">{{.Params.ctaText}}</a>
+                    {{.Content}}
             </div>
-        </div>
-    </div>
-    {{end}}
-</div>
 
-<div class="spacer45"></div>
-<div class="spacer45"></div>
-</section>
-<div class="spacer45"></div>
-<div class="spacer45"></div>
+          </div>
+
+        </div>
+      {{end}}
+  </div>
+</div>
+<div class="spacer100"></div>

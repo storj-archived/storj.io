@@ -1,36 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    {{ partial "head" .}}
-</head>
+    {{partial "head" .}}
+  </head>
 
   <body class="page">
-    {{partial "googletag" .}}
+
+      {{partial "googletag" .}}
       {{partial "home/Banner" .}}
 
-    {{ partial "partners/heroNav" .}}
+      <section class="header-blue">
 
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-{{ with .Site.GetPage "storjShareInformation" }}
-            <h1 class="title">Storj Share Information</h1>
-            <p class="text-center">Last Updated: {{.Params.lastUpdated}}.</p>
-            <div class="spacer50"></div>
-            </div>
-            </div>
+      {{partial "navbar" .}}
+      {{ with .Site.GetPage "storjShareInformation" }}
 
-    		<div class="row">
-    			<div class="col-xs-12 col-md-8 col-md-push-2">
-                    {{.Content}}
-                    {{end}}
-    			</div>
+        <div class="section">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 text-center">
+                <h1 class="title">Storj Share Information</h1>
+                <p class="text-center">Last Updated: {{.Params.lastUpdated}}.</p>
+              </div>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <div class="section">
+        <div class="container">
+      		<div class="row">
+      			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
+              {{.Content}}
+      			</div>
+          </div>
+        </div>
       </div>
-    </div>
-{{partial "footer" .}}
-{{partial "scripts" .}}
+
+      {{end}}
+
+    {{partial "footer" .}}
+    {{partial "scripts" .}}
+
   </body>
 </html>

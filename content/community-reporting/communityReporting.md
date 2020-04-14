@@ -1,11 +1,8 @@
 ---
-title : "community-reporting"
+Title : "Report Abuse"
+subheading: If you see or have experienced any unacceptable behavior, please contact a community leader as soon as you can via direct message, or file a report through the below form.
 ---
 
-<h1 class="title" style="font-size:36px;">Report Abuse</h1>
-<br><br>
-<p class="text-center">If you see or have experienced any unacceptable behavior, please contact a community leader as soon as you can via direct message, or file a report through the below form. </p>
-<div class="spacer50"></div>
 <div style="text-align:left">
 
 <p>After you submit, a moderator will respond to your message informing you that it has been received. We will address the issue as promptly as possible, but be aware that not all resolutions are immediate. Our responses are usually decided after we have a short discussion among community leads. You will not be penalized or banned for reporting a harassment or discrimination problem. If the complaint involves a community lead, that lead must recuse themself from being in charge of reviewing the submission. </p>

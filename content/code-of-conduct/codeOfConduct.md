@@ -1,12 +1,7 @@
 ---
 title : "Code of Conduct"
+subheading : "Storj strives to create a welcoming and thriving environment. In order to ensure that every community member is respected and supported, we’ve adopted some general community guidelines."
 ---
-  
-
-<h1 class="title">Code of Conduct</h1>
-<p class="text-center">Storj strives to create a welcoming and thriving environment. In order to ensure that every community member is respected and supported, we’ve adopted some general community guidelines. </p>
-<div class="spacer50"></div>
-<div style="text-align:left">
 
 <h3> Our Pledge </h3>
 
@@ -65,6 +60,4 @@ This Code of Conduct is adapted from the
 
 <br><br>
 
-<div class="spacer50"></div>
 <center><a href="https://community.storj.io/" class="btn" target onclick="displayConduct(event)">AGREE to join the community chat</a></center>
-
