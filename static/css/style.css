@@ -57,12 +57,21 @@ a {
 a:hover {
 	color: #173AE8;
 }
+
+table, th, td {
+  border: 1px solid black;
+	vertical-align: top;
+}
 .link {
 	border-bottom: 1px solid #2683ff;
 }
 .link:hover, .link:focus {
 	text-decoration: none;
 	border-color: #173AE8;
+}
+
+.legal p {
+	font-family: 'Roboto';
 }
 
 h1, h2, h3, h4, h5, h6, a, p, span {

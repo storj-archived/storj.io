@@ -4,7 +4,7 @@
     {{partial "head" .}}
   </head>
 
-  <body class="page">
+  <body class="page legal">
 
       {{partial "googletag" .}}
       {{partial "home/Banner" .}}
@@ -13,17 +13,17 @@
 
       {{partial "navbar" .}}
 
-      <div class="section">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
-              {{ with .Site.GetPage "codeOfConduct" }}
-              <h1 class="title">{{.Title}}</h1>
-              <p class="text-center lead">{{.Params.subheading}}</p>
+        <div class="section text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-push-2">
+                {{ with .Site.GetPage "codeOfConduct" }}
+                <h1 class="title">{{.Title}}</h1>
+                <p class="text-center">Effective Date: {{.Params.effectiveDate}}</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
       </section>
 

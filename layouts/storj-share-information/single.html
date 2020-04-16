@@ -4,7 +4,7 @@
     {{partial "head" .}}
   </head>
 
-  <body class="page">
+  <body class="page legal">
 
       {{partial "googletag" .}}
       {{partial "home/Banner" .}}
@@ -13,13 +13,13 @@
 
       {{partial "navbar" .}}
       {{ with .Site.GetPage "storjShareInformation" }}
-
         <div class="section">
           <div class="container">
             <div class="row">
               <div class="col-xs-12 text-center">
                 <h1 class="title">Storj Share Information</h1>
                 <p class="text-center">Last Updated: {{.Params.lastUpdated}}.</p>
+                <div class="spacer50"></div>
               </div>
             </div>
           </div>

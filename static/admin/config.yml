@@ -659,9 +659,9 @@ collections:
      - {label: "lastUpdated", name: "lastUpdated", widget: "string"}
      - {label: "Body", name: "body", widget: "markdown"}
      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-  - name : "storj-share-terms"
-    label: "storj-share-terms"
-    folder: "content/storj-share-terms"
+  - name : "storj-operator-terms"
+    label: "storj-operator-terms"
+    folder: "content/storj-operator-terms"
     fields:
      - {label: "Title", name: "Title", widget: "string"}
      - {label: "effectiveDate", name: "effectiveDate", widget: "string"}

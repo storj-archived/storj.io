@@ -58,6 +58,7 @@
             result[input.name] = input.value == "on";
         }
         errElm.setAttribute("class", "row invisible");
+        analytics.identify(analytics.user().anonymousId(), {sno_register_page_visited: true});
         window.location.href = "https://storj.io/sign-up-node-operator-email";
-    }
+      }
 </script>
