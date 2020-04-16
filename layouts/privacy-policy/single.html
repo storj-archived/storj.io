@@ -2,30 +2,44 @@
 <html lang="en">
   <head>
     {{partial "head" .}}
-</head>
-  <body class="page">
+  </head>
+
+  <body class="page legal">
+
     {{partial "googletag" .}}
-      {{partial "home/Banner" .}}
-  {{partial "partners/heroNav" .}}
-  {{ with .Site.GetPage "privacyPolicy" }}
-    <div class="section legal">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h1 class="title">Storj Labs Inc. Privacy Policy</h1>
-            <p class="text-center">Effective Date: {{.Params.effectiveDate}}</p>
-            <div class="spacer50"></div>
+    {{partial "home/Banner" .}}
+
+    <section class="header-blue">
+
+    {{partial "navbar" .}}
+    {{ with .Site.GetPage "privacyPolicy" }}
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1 class="title">Storj Labs Inc. Privacy Policy</h1>
+              <p class="text-center">Effective Date: {{.Params.effectiveDate}}</p>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
+
+    <div class="section">
+      <div class="container">
     		<div class="row">
-    			<div class="col-xs-12 col-md-8 col-md-push-2">
+    			<div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2">
             {{  .Content  }}
     			</div>
     		</div>
       </div>
     </div>
-{{end}}
+
+    {{end}}
+
     {{partial "footer" .}}
     {{partial "scripts" .}}
+
   </body>
 </html>

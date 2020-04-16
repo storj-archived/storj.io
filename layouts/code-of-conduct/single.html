@@ -2,26 +2,45 @@
 <html lang="en">
   <head>
     {{partial "head" .}}
-</head>
-  <body class="page faq">
+  </head>
+
+  <body class="page legal">
+
       {{partial "googletag" .}}
       {{partial "home/Banner" .}}
-  <section>
-      {{partial "partners/heroNav" .}}
-  </section>
-      <section class="section legal">
-        <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-md-8 col-md-push-2">
-              {{ with .Site.GetPage "codeOfConduct" }}
-                {{ .Content }}
-                </div>
+
+      <section class="header-blue">
+
+      {{partial "navbar" .}}
+
+        <div class="section text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-xs-12 col-md-8 col-md-push-2">
+                {{ with .Site.GetPage "codeOfConduct" }}
+                <h1 class="title">{{.Title}}</h1>
+                <p class="text-center">Effective Date: {{.Params.effectiveDate}}</p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+
+      </section>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-8 col-md-push-2">
+              {{.Content}}
+            </div>
+          </div>
+        </div>
+      </div>
+
       {{ end }}
+
       {{partial "footer" .}}
       {{partial "scripts" .}}
+
     </body>
 </html>

@@ -1,55 +1,59 @@
 <footer class="footer">
 
-  <div class="row">
+  <div class="container">
 
-    <div class="col-xs-12 col-sm-2 col-md-2 col-md-offset-1 col-lg-2">
-      <a href="/" class="footer-logo">
-        <img src="/img/new-white-logo.svg" alt="Storj.io" height="40" width="100">
-      </a>
-    </div>
+    <div class="row">
 
-    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-      <h5 class="footer-col-heading">Legal</h5>
-      <div class="spacer5"></div>
-        {{ range where .Site.Pages ".Params.class" "firstcolfooter"}}
-          <a class="footer-link" href="{{ .Params.link }}">{{ .Title }}</a><br>
-        {{end}}
-    </div>
+      <div class="col-xs-12 col-sm-3 col-md-3">
+        <a href="/" class="footer-logo">
+          <img src="/img/storj-white-logo.svg" alt="Storj.io" height="40" width="154">
+        </a>
+      </div>
 
-    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-      <h5 class="footer-col-heading">Resources</h5>
+      <div class="col-xs-6 col-sm-2">
+        <h5 class="footer-col-heading">Legal</h5>
         <div class="spacer5"></div>
-          {{ range where .Site.Pages ".Params.class" "secondcolfooter"}}
+          {{ range where .Site.Pages ".Params.class" "firstcolfooter"}}
             <a class="footer-link" href="{{ .Params.link }}">{{ .Title }}</a><br>
           {{end}}
-    </div>
-
-
-    <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
-      <h5 class="footer-col-heading">Connect</h5>
-      <div class="spacer5"></div>
-        {{ range where .Site.Pages ".Params.class" "fourthcolfooter"}}
-        <a class="footer-link" href="{{ .Params.link }}">
-          <img class="social-link" src="{{.Params.icon}}" alt="{{.Params.alt}}">
-          {{ .Title }}</a><br>
-          {{end}}
-    </div>
-
-    <div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 footer-signup">
-      <h5 class="footer-col-heading stay-in-touch">Stay in Touch</h5>
-      <div id="mc_embed_signup">
-          <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-              <label class="hidden" for="mce-EMAIL-newsletter">Email address</label>
-              <input class="footer__email-input footer-em-input" type="email" value="" name="EMAIL" id="mce-EMAIL-newsletter" placeholder="Email Address" required="">
-              <input class="footer__btn-submit btn-signup footer-sub" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-footer">
-              <div id="mce-responses" class="clear">
-                <div class="response" id="mce-error-response-newsletter" style="display:none;">The email address you provided is not valid!</div>
-                <div class="response" id="mce-success-response-newsletter" style="display:none;">Thank you for subscribing!</div>
-              </div>
-          </form>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='number';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[9]='MMERGE9';ftypes[9]='text';fnames[10]='MMERGE10';ftypes[10]='text';fnames[11]='MMERGE11';ftypes[11]='text';fnames[12]='UBPAGEID';ftypes[12]='text';fnames[13]='UBVARIANT';ftypes[13]='text';fnames[14]='UBDATE';ftypes[14]='date';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
       </div>
+
+      <div class="col-xs-6 col-sm-2">
+        <h5 class="footer-col-heading">Resources</h5>
+          <div class="spacer5"></div>
+            {{ range where .Site.Pages ".Params.class" "secondcolfooter"}}
+              <a class="footer-link" href="{{ .Params.link }}">{{ .Title }}</a><br>
+            {{end}}
+      </div>
+
+
+      <div class="col-xs-6 col-sm-2">
+        <h5 class="footer-col-heading">Connect</h5>
+        <div class="spacer5"></div>
+          {{ range where .Site.Pages ".Params.class" "fourthcolfooter"}}
+          <a class="footer-link" href="{{ .Params.link }}">
+            <img class="social-link" src="{{.Params.icon}}" alt="{{.Params.alt}}">
+            {{ .Title }}</a><br>
+            {{end}}
+      </div>
+
+      <div class="col-xs-6 col-sm-3 footer-signup">
+        <h5 class="footer-col-heading stay-in-touch">Stay in Touch</h5>
+        <div id="mc_embed_signup">
+            <form method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+                <label class="hidden" for="mce-EMAIL-newsletter">Email address</label>
+                <input class="footer__email-input footer-em-input" type="email" value="" name="EMAIL" id="mce-EMAIL-newsletter" placeholder="Email Address" required="">
+                <input class="footer__btn-submit btn-signup footer-sub" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe-footer">
+                <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response-newsletter" style="display:none;">The email address you provided is not valid!</div>
+                  <div class="response" id="mce-success-response-newsletter" style="display:none;">Thank you for subscribing!</div>
+                </div>
+            </form>
+          <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='number';fnames[5]='MMERGE5';ftypes[5]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[7]='MMERGE7';ftypes[7]='text';fnames[8]='MMERGE8';ftypes[8]='text';fnames[9]='MMERGE9';ftypes[9]='text';fnames[10]='MMERGE10';ftypes[10]='text';fnames[11]='MMERGE11';ftypes[11]='text';fnames[12]='UBPAGEID';ftypes[12]='text';fnames[13]='UBVARIANT';ftypes[13]='text';fnames[14]='UBDATE';ftypes[14]='date';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        </div>
+      </div>
+
     </div>
 
   </div>

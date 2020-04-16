@@ -151,7 +151,7 @@ effectiveDate: "March 19, 2020"
 
 <ul>
 	<li><p>relying on a formal decision by the European Commission that a certain country ensures an adequate level of protection for personal data (a full list of such decisions may be accessed online <a target="_blank class="link" href="http://ec.europa.eu/justice/data-protection/international-transfers/adequacy/index_en.htm">here</a>.</li></p>
-	<li><p>entering into appropriate data transfer agreements based on language approved by the European Commission, such as the Standard Contractual Clauses (2010/87/EC and/or 2004/915/EC), which are available upon request at <a href=mailto:legal@storj.io;>legal@storj.io;</a></li></p>
+	<li><p>entering into appropriate data transfer agreements based on language approved by the European Commission, such as the Standard Contractual Clauses (2010/87/EC and/or 2004/915/EC), which are available upon request at <a href="mailto:legal@storj.io">legal@storj.io;</a></li></p>
 	<li><p>implementing appropriate physical, technical, and organizational security measures to protect personal information against accidental or unlawful destruction, accidental loss or alteration, unauthorized disclosure or access, and against unlawful forms of processing; and</li></p>
 	<li><p>taking other measures to provide an adequate level of data protection in accordance with applicable law.</li></p>
 </ul>
@@ -416,7 +416,7 @@ effectiveDate: "March 19, 2020"
 
 <p>Under Nevada law, certain Nevada residents may opt out of the “sale” of “covered information” (as those terms are defined under Nevada law) where the sale allows the person buying it to license or sell such information to additional persons. “Covered information” includes first and last name, address, email address, phone number, social security number, or an identifier that allows a specific person to be contacted either physically or online.</p>
 
-<p>Storj does not sell consumer information as defined under Nevada law.     Notwithstanding, if you are a Nevada resident who has purchased or leased goods or services from us, Nevada law permits you to submit a request to opt out of the sale of your covered information.  To do so, you may email your request to <a href=mailto:nevadarequests@storj.io>nevadarequests@storj.io</a>. Please note we will take reasonable steps to verify your identity and the authenticity of the request.</p>
+<p>Storj does not sell consumer information as defined under Nevada law.     Notwithstanding, if you are a Nevada resident who has purchased or leased goods or services from us, Nevada law permits you to submit a request to opt out of the sale of your covered information.  To do so, you may email your request to <a href="mailto:nevadarequests@storj.io">nevadarequests@storj.io</a>. Please note we will take reasonable steps to verify your identity and the authenticity of the request.</p>
 
 
 <b>11.&nbsp;&nbsp;Data Retention</b>
@@ -438,7 +438,7 @@ effectiveDate: "March 19, 2020"
 
 <p>The Services are not intended for children under 13 years of age and we do not knowingly collect, maintain, or use Personal Information from children under 13 years of age. We will take reasonable steps to delete personal information (as defined by the United States Children’s Online Privacy Protection Act) as soon as reasonably possible if we learn that we have inadvertently collected it from children under the age of 13 without parental consent.</p>
 
-<p>If you learn that your child has provided us with Personal Information without your consent, you may alert us at <a href=mailto:legal@storj.io >=legal@storj.io</a>. If we learn that we have collected any Personal Information from children under 13, we will promptly take steps to delete such information and terminate the child’s account.</p>
+<p>If you learn that your child has provided us with Personal Information without your consent, you may alert us at <a href="mailto:legal@storj.io">legal@storj.io</a>. If we learn that we have collected any Personal Information from children under 13, we will promptly take steps to delete such information and terminate the child’s account.</p>
 
 
 <b>15.&nbsp;&nbsp;Changes to our Privacy Policy</b>
@@ -448,4 +448,4 @@ effectiveDate: "March 19, 2020"
 
 <b>16.&nbsp;&nbsp;Contact Information</b>
 
-<p>If you wish to contact us or have any questions about, or complaints in relation to, this Privacy Policy, please email us at <a href=mailto:legal@storj.io>legal@storj.io</a>. Please note that your communications with us may not necessarily be secure. Therefore, please do not include credit card information and/or other sensitive information in your communications with us</p>
+<p>If you wish to contact us or have any questions about, or complaints in relation to, this Privacy Policy, please email us at <a href="mailto:legal@storj.io">legal@storj.io</a>. Please note that your communications with us may not necessarily be secure. Therefore, please do not include credit card information and/or other sensitive information in your communications with us</p>

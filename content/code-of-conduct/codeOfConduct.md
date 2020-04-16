@@ -1,9 +1,9 @@
 ---
 title : "Storj Labs Inc. Community Code of Conduct"
+effectiveDate : "March 19, 2020"
 ---
 
 <h1 class="title text-center">Violations of The Storj Community Code of Conduct</h1>
-<p class="text-center">Effective March 19, 2020</p>
 <br>
 <p>Thank you for being a part of The Storj Labs, Inc. Community (“<b>Storj</b>” or “<b>Company</b>”). Whether you’re a developer and want to use a Tardigrade for your application or already operating a storage node, or you’re interested in setting one up, our community is ready to help you find answers to questions, troubleshoot issues, or just chat about our products and services. We also welcome open source contributors who want to help improve Storj and create a better internet for everyone.</p>
 
@@ -139,6 +139,7 @@ All information and instructions given within The Forum and The Community are to
 <p><b>Form Trust Levels</b></p>
 <p>Trust Levels develop in The Forum based on user participation levels and behaviors. To learn more about earning Trust Levels and their functionality please read:</p>
 <a target="_blank" href="https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/" class="link">https://blog.discourse.org/2018/06/understanding-discourse-trust-levels/</a>
+<br>
 <br>
 <br>
 <h1 class="title text-center">Violations of The Storj Community Code of Conduct</h1>

@@ -1,10 +1,8 @@
 ---
-title: "Open Source Manifesto"
+title: "Our Open Source Commitment"
+subheading: "Our team believes that openness and transparency are critical to everything we do at Storj Labs. The internet of tomorrow will be open, decentralized, and will incorporate design principles that prioritize people's privacy. Because of this, it is critical that every aspect of the codebase of our public decentralized network be open source to ensure the highest levels of quality and security. We commit to licensing our code as permissively as possible and creating revenue streams for other open source projects that will support their efforts to drive innovation and create sustainable businesses."
 ---
-<h1 class="title" style="font-size:36px;">Our Open Source Commitment</h1>
-<p class="text-center">Our team believes that openness and transparency are critical to everything we do at Storj Labs. The internet of tomorrow will be open, decentralized, and will incorporate design principles that prioritize people's privacy. Because of this, it is critical that every aspect of the codebase of our public decentralized network be open source to ensure the highest levels of quality and security. We commit to licensing our code as permissively as possible and creating revenue streams for other open source projects that will support their efforts to drive innovation and create sustainable businesses. </p>
-<div class="spacer50"></div>
-<div style="text-align:left">
+
 <h3>The Challenges of Centralization</h3>
 
 <p>While our team continues to fight to decentralize the internet, traditional cloud providers have made it difficult for open source companies to monetize the cloud. These providers take open source software and use it as a loss-leader to drive billions of dollars in revenue for other parts of their businesses. While they have the right to do this, we think this presents a fundamental challenge to the health, sustainability, and continued innovation of the industry. The cloud market generates $200 billion in revenue per year, while combined earnings for all public open source companies total a mere $5 billion per year. There is more we can do to elevate open source projects. Open source software is recognized for its ability to accelerate innovation, so supporting the community should be a priority for all software companies.</p>

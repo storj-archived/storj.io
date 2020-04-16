@@ -1,54 +1,8 @@
-<div class="whitepaper-header">
+<div class="header header-blue whitepaper-header">
 
-  <div class="container visible-md visible-lg">
-      <section>
-        <nav class="navbar navbar-default menu">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <a href="/" class="navbar-brand">
-                <img src="/img/new-white-logo.svg" alt="Storj" class="logo img-responsive">
-              </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                    {{range where .Site.Pages ".Params.class" "navitem"}}
-                    <li><a class="link-style" href="{{ .Params.link }}">{{ .Title }}</a><div class="visible-lg-inline-block"></div></li>
-                    {{end}}
-                    <li><a href="/sign-up-node-operator/" class="pull-right-md"><button class="btn btn-transparent nav-join" alt="Sign Up">Sign Up</button></a></li>
-              </ul>
-            </div>
-        </nav>
-      </section>
-  </div>
-
-  <div class="visible-xs visible-sm text-center">
-      <section>
-        <nav class="navbar navbar-default menu ">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="/" class="navbar-brand">
-                <img src="/img/new-white-logo.svg" alt="Storj" class="logo">
-              </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navbar-menu">
-                <ul class="nav navbar-nav navbar-right">
-                    {{range where .Site.Pages ".Params.class" "navitem"}}
-                    <li><a class="link-style" href="{{ .Params.link }}">{{ .Title }}</a><div class="visible-lg-inline-block"></div></li>
-                    {{end}}
-                    <li><a href="/sign-up-node-operator/"><button class="btn btn-primary nav-join" alt="Sign Up">Sign Up</button></a></li>
-              </ul>
-            </div>
-        </nav>
-      </section>
-  </div>
+  <section>
+    {{partial "navbar" .}}
+  </section>
 
   <div class="container">
 

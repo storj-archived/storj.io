@@ -1,25 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-{{partial "head" .}}
+  {{partial "head" .}}
 </head>
-  <body class="page">
+
+  <body class="page legal">
+
     {{partial "googletag" .}}
-{{partial "home/Banner" .}}
-{{partial "partners/heroNav" .}}
-{{with .Site.GetPage "storj-operator-terms.md"}}
-    <div class="section legal">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <h1 class="title">{{.Title}}</h1>
-            <p class="text-center">Effective Date: {{.Params.effectiveDate}}</p>
-            <div class="spacer50"></div>
+    {{partial "home/Banner" .}}
+
+    <section class="header-blue">
+
+    {{partial "navbar" .}}
+    {{with .Site.GetPage "storj-operator-terms.md"}}
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 text-center">
+              <h1 class="title">{{.Title}}</h1>
+              <p class="text-center">Effective Date: {{.Params.effectiveDate}}</p>
+            </div>
           </div>
         </div>
-        {{.Content}}
-{{end}}
-{{partial "footer" .}}
-{{partial "scripts" .}}
+      </div>
+
+    </section>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            {{.Content}}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {{end}}
+
+    {{partial "footer" .}}
+    {{partial "scripts" .}}
   </body>
 </html>

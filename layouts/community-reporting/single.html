@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-{{ partial "head" .}}
-</head>
+  {{ partial "head" .}}
+  </head>
 
   <body class="page faq">
-      {{partial "googletag" .}}
-      {{partial "home/Banner" .}}
-      {{partial "partners/heroNav" .}}
-    <section class="section">
-    <div class="container">
-      <div class="row">
-        {{ with .Site.GetPage "communityReporting" }}
-        <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
-        {{ .Content }}
-        {{end}}
-    </div>
-</div>
-</section>
-{{ partial "footer" .}}
-{{ partial "scripts" .}}
+    {{partial "googletag" .}}
+    {{partial "home/Banner" .}}
+    {{ with .Site.GetPage "communityReporting" }}
+    <section class="header-blue">
+      {{partial "navbar" .}}
+      <div class="section">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-xs-12 col-md-8 col-md-push-2">
+              <h1 class="title">{{ .Title }}</h1>
+              <p class="subheading">{{.Params.subheading}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section text-left">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
+          {{ .Content }}
+          {{end}}
+          </div>
+        </div>
+      </div>
+    </section>
+
+  {{ partial "footer" .}}
+  {{ partial "scripts" .}}
     </body>
 </html>
