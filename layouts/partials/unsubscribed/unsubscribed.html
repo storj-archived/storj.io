@@ -1,0 +1,21 @@
+{{ $message := .message }}
+<div class="container-fluid unsubscribed">
+    <div class="container">
+        <div class="unsubscribed__content-wrapper">
+            <div class="unsubscribed__content">
+                <h2 class="unsubscribed__header">You're Unsubscribed</h2>
+                <p class="unsubscribed__txt">{{ $message }}</p>
+                <a class="unsubscribed__cta" href="/">
+                    Visit Tardigrade.io
+                    <img class="unsubscribed__cta__arrow" src="/img/arrow-right.svg" height="13" width="13" alt="arrow image"/>
+                </a>
+                <div class="unsubscribed__btm__wrapper">
+                    <p class="unsubscribed__btm__txt">Want to resubscribe?</p>
+                    <a class="unsubscribed__btm__txt link" target="_blank" href="https://support.tardigrade.io/hc/en-us">
+                        Contact our support team
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
