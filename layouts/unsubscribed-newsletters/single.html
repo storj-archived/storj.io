@@ -10,7 +10,7 @@
 			</div>
 			<div class="container-fluid pt-3 d-xs-block d-lg-none storj-blu-bg"></div>
 	</div>
-		{{with .Site.GetPage "unsubscribedEmails" }}
+		{{with .Site.GetPage "unsubscribedNewsletters" }}
 			{{ partial "unsubscribed/unsubscribed" (dict "message" .Params.msg)}}
 		{{end}}
 	<footer>

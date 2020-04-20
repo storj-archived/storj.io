@@ -5865,7 +5865,7 @@ Unsubscribed
 	background: #fff;
 	height: 395px;
 	position: relative;
-	bottom: 170px;
+	bottom: 180px;
 	margin: 0 auto;
 	border-radius: 8px;
 }
@@ -5874,6 +5874,70 @@ Unsubscribed
 	background: #0059D0;
 	height: 307px;
 }
+
+.unsubscribed-content {
+	position: relative;
+	top: 20%;
+}
+
+.unsubscribed-header {
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 40px;
+	color: #000;
+}
+
+.unsubscribed-txt {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000;
+}
+
+.unsubscribed-cta {
+	width: 130px;
+	height: 50px;
+	border-radius: 6px;
+	color: #fff;
+	background: #0059D0;;
+	padding: 12px 36px;
+	font-weight: bold;
+	font-size: 16px;
+	font-family: Poppins;
+	position: relative;
+	top: 25px;
+}
+
+.unsubscribed-cta:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.unsubscribed-cta-arrow {
+	left: 12px;
+	position: relative;
+}
+
+.unsubscribed-btm-wrapper {
+	margin-top: 65px;
+}
+
+.unsubscribed-btm-txt {
+	font-family: Roboto;
+	font-size: 14px;
+	line-height: 19px;
+	color: #7E8B9C;
+	margin-bottom: 0;
+}
+
+.unsubscribed-btm-txt.link {
+	border-bottom: 1px solid #7E8B9C;
+}
+
 
 
 /* --------------------------------
