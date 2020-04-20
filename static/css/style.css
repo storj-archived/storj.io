@@ -5849,6 +5849,33 @@ color: #FFFFFF;
   }
 }
 
+
+/* --------------------------------
+
+Unsubscribed
+
+-------------------------------- */
+
+.unsubscribed-page {
+	background: #F4F5F7;
+}
+
+.unsubscribed-content-wrapper {
+	text-align: center;
+	background: #fff;
+	height: 395px;
+	position: relative;
+	bottom: 170px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+.unsubscribed-page .pb-1.storj-blu-bg {
+	background: #0059D0;
+	height: 307px;
+}
+
+
 /* --------------------------------
 
 Sign Up Node Operator
