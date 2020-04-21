@@ -5865,14 +5865,14 @@ Unsubscribed
 	background: #fff;
 	height: 395px;
 	position: relative;
-	bottom: 180px;
+	bottom: 200px;
 	margin: 0 auto;
 	border-radius: 8px;
 }
 
-.unsubscribed-page .pb-1.storj-blu-bg {
+.unsubscribed-page .storj-blu-bg {
 	background: #0059D0;
-	height: 307px;
+	min-height: 307px;
 }
 
 .unsubscribed-content {
@@ -5938,6 +5938,16 @@ Unsubscribed
 	border-bottom: 1px solid #7E8B9C;
 }
 
+@media only screen and (max-width: 767px){
+	.unsubscribed-content-wrapper {
+		bottom: 0;
+		margin: 40px auto;
+	}
+
+	.unsubscribed-page .storj-blu-bg {
+		min-height: 92px;
+	}
+}
 
 
 /* --------------------------------
