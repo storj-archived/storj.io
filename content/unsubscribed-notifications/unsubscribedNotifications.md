@@ -1,3 +1,3 @@
 ---
-msg: "You'll no longer receive account notifications"
+msg: "You'll no longer receive account notifications."
 ---
