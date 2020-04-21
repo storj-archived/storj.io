@@ -2236,6 +2236,10 @@ TEAM
 	top: 3px;
 }
 
+.team-page .selector-dropdown-menu {
+	width:100%;
+}
+
 /* --------------------------------
 
 FAQ
