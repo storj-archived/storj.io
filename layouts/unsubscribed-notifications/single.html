@@ -11,9 +11,8 @@
 	{{with .Site.GetPage "unsubscribedNotifications" }}
 		{{ partial "unsubscribed/unsubscribed" (dict "message" .Params.msg)}}
 	{{end}}
-	<footer>
-			{{partial "footer" . }}
-	</footer>
+  
+	{{partial "footer" . }}
 	{{ partial "scripts" .}}
 </body>
 </html>
