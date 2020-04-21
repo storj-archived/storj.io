@@ -2226,11 +2226,11 @@ TEAM
   margin-right: 10px;
 }
 
-.team .breadcrumb {
+.team-page .breadcrumb {
 	margin-bottom: 0;
 }
 
-.team .dropdown-toggle .arrow {
+.team-page .dropdown-toggle .arrow {
 	padding: 4px;
 	position: relative;
 	top: 3px;
