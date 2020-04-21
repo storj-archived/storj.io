@@ -2185,6 +2185,7 @@ TEAM
 .team-member {
   align-self: start;
   width: 25%;
+	height: 300px;
   text-align: center;
   padding: 30px;
   margin: 20px auto;
@@ -2197,7 +2198,7 @@ TEAM
 	margin-bottom: 20px;
 	width: 70%;
 	max-width: 180px;
-	height: 70%;
+	height: auto;
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .team-member-name {
