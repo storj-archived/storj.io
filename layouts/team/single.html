@@ -7,34 +7,31 @@
   <body class="page team-page">
     {{partial "googletag" .}}
     {{partial "home/Banner" .}}
-  <section>
+
+    <section>
         {{partial "team/heroNav" .}}
-  </section>
+    </section>
 
-        <div class="spacer20 hidden-xs"></div>
-        {{partial "team/tabSelector" .}}
-        {{partial "team/dropSelector" .}}
-        {{partial "team/tabContent" .}}
-        <div class="spacer20"></div>
+    {{partial "team/tabSelector" .}}
+    {{partial "team/dropSelector" .}}
+    {{partial "team/tabContent" .}}
 
-        <div class="container-fluid" style="background-color:#F2F4F6;">
+    <div class="container-fluid grey">
+        <div class="spacer45"></div>
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <div class="div-sm"></div>
+            <h1 class="title" style="color:black">Do you want to join?</h3>
+            <p>Storj is currently looking for new talent.</p>
+            <a href="/careers/" class="btn btn-blue get-in-touch">Check Open Positions</a>
             <div class="spacer45"></div>
-                <div class="row">
-                  <div class="col-xs-12 text-center">
-                    <div class="div-sm"></div>
-                    <h1 class="title" style="color:black">Do you want to join?</h3>
-                    <p>Storj is currently looking for new talent.</p>
-                    <a href="/careers/" class="btn btn-blue get-in-touch">Check Open Positions</a>
-                    <div class="spacer45"></div>
-                    <div class="spacer45"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <div class="spacer45"></div>
           </div>
         </div>
-      {{partial "footer" .}}
-      {{partial "scripts" .}}
-      {{partial "team/setGroup" .}}
+    </div>
+
+    {{partial "footer" .}}
+    {{partial "scripts" .}}
+    {{partial "team/setGroup" .}}
   </body>
 </html>
