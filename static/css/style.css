@@ -2240,6 +2240,24 @@ TEAM
 	width:100%;
 }
 
+.team-selector {
+	margin: 12px;
+	padding: 0px 12px;
+}
+
+.team-selector-link {
+	background-color: #fff;
+}
+
+.active .team-selector-link {
+	font-weight:600
+}
+
+.team-title {
+	color: #000;
+}
+
+
 /* --------------------------------
 
 FAQ
