@@ -2185,6 +2185,7 @@ TEAM
 .team-member {
   align-self: start;
   width: 25%;
+	height: 300px;
   text-align: center;
   padding: 30px;
   margin: 20px auto;
@@ -2197,7 +2198,7 @@ TEAM
 	margin-bottom: 20px;
 	width: 70%;
 	max-width: 180px;
-	height: 70%;
+	height: auto;
 	box-shadow: 0 1px 15px rgba(3, 104, 255, 0.15);
 }
 .team-member-name {
@@ -2224,6 +2225,43 @@ TEAM
   width: 25px;
   margin-right: 10px;
 }
+
+.team-page .breadcrumb {
+	margin-bottom: 0;
+}
+
+.team-page .dropdown-toggle .arrow {
+	padding: 4px;
+	position: relative;
+	top: 3px;
+}
+
+.team-page .selector-dropdown-menu {
+	width:100%;
+}
+
+.team-page .selector-dropdown-menu .nav .active {
+	font-weight: bold;
+}
+
+.team-selector {
+	margin: 12px;
+	padding: 0px 12px;
+}
+
+.team-selector-link {
+	background-color: #fff;
+}
+
+.active .team-selector-link {
+	font-weight:600
+}
+
+.team-title {
+	color: #000;
+}
+
+
 /* --------------------------------
 
 FAQ

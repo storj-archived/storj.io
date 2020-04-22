@@ -1,7 +1,7 @@
-<div class="container">
-<div class="spacer35"></div>
-  <div class="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-10 col-md-push-1">
           <div class="tab-content">
 
             <div class="tab-pane active" id="value1">
@@ -9,16 +9,16 @@
             </div>
 
             <div class="tab-pane" id="value2">
-              <h2 style="color:black;">Executive Team</h2>
+              <h2 class="team-title">Executive Team</h2>
               {{partial "team/leadership" .}}
-              <h2 style="color:black;">Board and Advisors</h2>
+              <h2 class="team-title">Board and Advisors</h2>
               {{partial "team/board" .}}
             </div>
 
             <div class="tab-pane" id="value3">
-                <h2 style="color:black;">Product</h2>
+                <h2 class="team-title">Product</h2>
                 {{partial "team/product" .}}
-                <h2 style="color:black;">Dev Ops</h2>
+                <h2 class="team-title">Dev Ops</h2>
                 {{partial "team/ops" .}}
             </div>
 
@@ -36,20 +36,20 @@
             </div>
 
             <div class="tab-pane" id="value7">
-              <h2 style="color:black;">Marketing</h2>
+              <h2 class="team-title">Marketing</h2>
                 {{partial "team/marketing" .}}
-              <h2 style="color:black;">Sales</h2>
+              <h2 class="team-title">Sales</h2>
                 {{partial "team/sales" .}}
-              <h2 style="color:black;">Community</h2>
+              <h2 class="team-title">Community</h2>
                 {{partial "team/community" .}}
             </div>
 
             <div class="tab-pane" id="value8">
                 {{partial "team/hr" .}}
             </div>
-            
-              </div>
-            </div>
+
           </div>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
+</div>
