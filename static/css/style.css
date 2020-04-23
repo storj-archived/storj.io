@@ -1020,7 +1020,7 @@ canvas {
 .hero-host {
   background: #fff;
   height: 100%;
-  padding: 0 60px;
+  padding: 60px;
 	cursor: pointer;
 }
 
@@ -1032,7 +1032,7 @@ canvas {
 
 .hero-cs {
   height: 100%;
-  padding: 0 60px;
+  padding: 60px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -1053,6 +1053,14 @@ canvas {
   color: #000;
   font-weight: bold;
   font-size: 22px;
+}
+
+.hero-section-logo {
+	height: 44px;
+}
+
+.hero-section-logo-tardigrade {
+	padding-top: 8px;
 }
 
 .hero-desc {
@@ -4339,6 +4347,10 @@ color: #FFFFFF;
 	margin-top: 40px;
 }
 
+.diskSpace-icon {
+	height: 40px;
+}
+
 
 @media only screen and (max-width: 1200px) {
 	.diskSpace-subheader {
@@ -4638,6 +4650,10 @@ color: #FFFFFF;
 .helpDevs-section .img-fluid {
   width: 110px;
   height: auto;
+}
+
+.helpDevs-icon {
+	height: 120px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -4979,8 +4995,8 @@ color: #FFFFFF;
 }
 
 .osp-image {
-  width: 90px;
-  height: 136px;
+  width: auto;
+  height: 140px;
 }
 
 .transparency, .osp {
@@ -5044,8 +5060,8 @@ color: #000000;
 }
 
 .transparency-img{
-  width: 130px;
-  height: 130px;
+  width: auto;
+  height: 140px;
 }
 
 

@@ -8,7 +8,9 @@
       <div class="row mt-5" style="margin-top:100px;">
         {{range where .Site.Pages ".Params.class" "whytardigrade" | first 4}}
           <div class="helpDevs-section col-xs-12 col-lg-4 mt-5 p-3 text-xs-center">
-            <img alt="{{.Params.alt}}" class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
+            <div class="helpDevs-icon">
+              <img alt="{{.Params.alt}}" class="img-fluid" src="{{.Params.img}}" height="{{.Params.h}}" width="{{.Params.w}}"/>
+            </div>
             <h4 class="helpDevs-subheading">
               {{.Params.heading}}
             </h4>
