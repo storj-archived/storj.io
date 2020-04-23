@@ -880,7 +880,6 @@ canvas {
   background-image: url("../img/storj-bg.svg");
   background-repeat: repeat-y;
   background-position: center center;
-  transform: scale(1.01)
 }
 
 .globe-background {
