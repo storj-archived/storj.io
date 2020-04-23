@@ -1103,20 +1103,18 @@ canvas {
 
 @media only screen and (max-width: 600px) {
 		.hero-cs, .hero-host {
-			height: 110%;
-			padding: 0 40px;
+			padding: 40px;
 		}
 }
 
 @media only screen and (max-width: 400px) {
 		.hero-cs, .hero-host {
-			height: 120%;
-			padding: 0 30px;
+			padding: 30px;
 		}
 }
 @media only screen and (max-width: 360px) {
 		.hero-cs, .hero-host {
-			padding: 0 20px;
+			padding: 20px;
 		}
 }
 
