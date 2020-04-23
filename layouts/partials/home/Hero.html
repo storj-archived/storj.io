@@ -12,10 +12,9 @@
         {{ .Content | replaceRE "<p>" "<p class=\"hero-subheading\">" | safeHTML }}
       </div>
     </div>
-    <div class="spacer80"></div>
     {{end}}
-    <div class="hero-sections row">
-      <div onclick="location.href='/sign-up-node-operator';" class="hero-host col-lg-6">
+    <div class="hero-sections">
+      <div onclick="location.href='/sign-up-node-operator';" class="hero-host col-sm-12 col-md-6">
         <div class="row">
           <div class="col-lg-12">
             <div class="hero-section-logo">
@@ -26,15 +25,13 @@
         <div class="row">
           <div class="col-lg-12">
             <h1 class="hero-section-subHeading">Host a Node</h1>
-            <div class="spacer10"></div>
             <p class="hero-desc">We pay Node Operators for their unused storage and bandwidth, making decentralized storage possible for Tardigrade.io customers. Put your extra space to use and start earning today.</p>
-            <div class="spacer15"></div>
-              <p class="hero-sections-cta">Become a Host</p>
+              <button class="hero-sections-cta">Become a Host</button>
               <!-- <img src="/img/carrot-right.svg" height="16" width="16"> -->
           </div>
         </div>
       </div>
-      <div onclick="location.href='https://tardigrade.io/';" class="hero-cs col-lg-6 careers-grey">
+      <div onclick="location.href='https://tardigrade.io/';" class="hero-cs col-sm-12 col-md-6 careers-grey">
         <div class="row">
           <div class="col-lg-12">
             <div class="hero-section-logo">
@@ -45,15 +42,12 @@
         <div class="row">
           <div class="col-lg-12">
             <h1 class="hero-section-subHeading">Store Data</h1>
-            <div class="spacer10"></div>
             <p class="hero-desc">Upgrade your storage layer to the world’s first S3-compatible decentralized cloud storage solution. Tardigrade is 100% secure, more affordable, and more reliable.</p>
-            <div class="spacer15"></div>
-              <p class="hero-sections-cta">Join Tardigrade</p>
+              <button class="hero-sections-cta">Join Tardigrade</button>
               <!-- <img src="/img/carrot-right.svg" height="16" width="16"> -->
           </div>
         </div>
       </div>
     </div>
-    <div class="spacer125"></div>
 		<img alt="globe background" class="globe-background" src="/img/globe.png">
 </div>

@@ -1043,15 +1043,18 @@ canvas {
 }
 
 .hero-sections {
-  height: 378px;
   border-radius: 4px;
   overflow: hidden;
+	margin-top: 80px;
+	margin-bottom: 100px;
 }
 
 .hero-section-subHeading {
   color: #000;
   font-weight: bold;
   font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .hero-section-logo {
@@ -1076,16 +1079,26 @@ canvas {
   font-family: 'Poppins';
   display: inline;
 	background: #0055C6;
-	padding: 10px 20px;
+	padding: 12px 32px;
 	border-radius: 5px;
+	border: 0;
+	margin-bottom: 8px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.hero-sections {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.hero-cs, .hero-host {
+		padding: 40px;
+	}
+}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 991px) {
   .hero-sections {
-    overflow: inherit;
 		width: 95%;
-		margin: 0 auto;
+		margin: 60px auto;
   }
 
   .hero-host {
