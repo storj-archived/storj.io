@@ -42,7 +42,12 @@
             var succElm = document.getElementById("mce-success-response-newsletter");
 
             if (!inputValue || !inputValue.includes("@")) {
-                setAttributes();
+                if(succElm) {
+                    succElm.setAttribute("style", "display: none;");
+                }
+                if(errElm) {
+                    errElm.setAttribute("style", "display: flex;");
+                }
 
                 return;
             }
@@ -53,18 +58,15 @@
                 {},
                 function() {
                     analytics.track("storj_newsletter", {});
-                    setAttributes();
+
+                    if(succElm) {
+                        succElm.setAttribute("style", "display: flex;");
+                    }
+                    if(errElm) {
+                        errElm.setAttribute("style", "display: none;");
+                    }
                 },
             );
-
-            function setAttributes() {
-                if(succElm) {
-                    succElm.setAttribute("style", "display:none;");
-                }
-                if(errElm) {
-                    errElm.setAttribute("style", "display:flex;");
-                }
-            }
         }
     }
 </script>
