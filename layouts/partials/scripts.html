@@ -42,8 +42,8 @@
             var succElm = document.getElementById("mce-success-response-newsletter");
 
             if (!inputValue || !inputValue.includes("@")) {
-                setDisplayNone(succElm);
-                setDisplayFlex(errElm);
+                setDisplayAttribute(errElm, "flex");
+                setDisplayAttribute(succElm, "none");
 
                 return;
             }
@@ -55,20 +55,14 @@
                 function() {
                     analytics.track("storj_newsletter", {});
 
-                    setDisplayNone(errElm);
-                    setDisplayFlex(succElm);
+                    setDisplayAttribute(errElm, "none");
+                    setDisplayAttribute(succElm, "flex");
                 },
             );
 
-            function setDisplayNone(element) {
+            function setDisplayAttribute(element, value) {
                 if (element) {
-                    element.setAttribute("style", "display: none;");
-                }
-            }
-
-            function setDisplayFlex(element) {
-                if (element) {
-                    element.setAttribute("style", "display: flex;");
+                    element.setAttribute("style", "display: " + value + ";");
                 }
             }
         }
