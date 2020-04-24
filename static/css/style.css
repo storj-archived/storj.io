@@ -880,7 +880,6 @@ canvas {
   background-image: url("../img/storj-bg.svg");
   background-repeat: repeat-y;
   background-position: center center;
-  transform: scale(1.01)
 }
 
 .globe-background {
@@ -1020,7 +1019,7 @@ canvas {
 .hero-host {
   background: #fff;
   height: 100%;
-  padding: 0 60px;
+  padding: 60px;
 	cursor: pointer;
 }
 
@@ -1032,7 +1031,7 @@ canvas {
 
 .hero-cs {
   height: 100%;
-  padding: 0 60px;
+  padding: 60px;
 	z-index: 5;
 	cursor: pointer;
 }
@@ -1044,15 +1043,26 @@ canvas {
 }
 
 .hero-sections {
-  height: 378px;
   border-radius: 4px;
   overflow: hidden;
+	margin-top: 80px;
+	margin-bottom: 100px;
 }
 
 .hero-section-subHeading {
   color: #000;
   font-weight: bold;
   font-size: 22px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.hero-section-logo {
+	height: 44px;
+}
+
+.hero-section-logo-tardigrade {
+	padding-top: 8px;
 }
 
 .hero-desc {
@@ -1069,16 +1079,26 @@ canvas {
   font-family: 'Poppins';
   display: inline;
 	background: #0055C6;
-	padding: 10px 20px;
+	padding: 12px 32px;
 	border-radius: 5px;
+	border: 0;
+	margin-bottom: 8px;
 }
 
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.hero-sections {
+		width: 100%;
+		margin: 60px auto;
+	}
+	.hero-cs, .hero-host {
+		padding: 40px;
+	}
+}
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 991px) {
   .hero-sections {
-    overflow: inherit;
 		width: 95%;
-		margin: 0 auto;
+		margin: 60px auto;
   }
 
   .hero-host {
@@ -1096,20 +1116,18 @@ canvas {
 
 @media only screen and (max-width: 600px) {
 		.hero-cs, .hero-host {
-			height: 110%;
-			padding: 0 40px;
+			padding: 40px;
 		}
 }
 
 @media only screen and (max-width: 400px) {
 		.hero-cs, .hero-host {
-			height: 120%;
-			padding: 0 30px;
+			padding: 30px;
 		}
 }
 @media only screen and (max-width: 360px) {
 		.hero-cs, .hero-host {
-			padding: 0 20px;
+			padding: 20px;
 		}
 }
 
@@ -4339,6 +4357,10 @@ color: #FFFFFF;
 	margin-top: 40px;
 }
 
+.diskSpace-icon {
+	height: 40px;
+}
+
 
 @media only screen and (max-width: 1200px) {
 	.diskSpace-subheader {
@@ -4638,6 +4660,10 @@ color: #FFFFFF;
 .helpDevs-section .img-fluid {
   width: 110px;
   height: auto;
+}
+
+.helpDevs-icon {
+	height: 120px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -4979,8 +5005,8 @@ color: #FFFFFF;
 }
 
 .osp-image {
-  width: 90px;
-  height: 136px;
+  width: auto;
+  height: 140px;
 }
 
 .transparency, .osp {
@@ -5044,8 +5070,8 @@ color: #000000;
 }
 
 .transparency-img{
-  width: 130px;
-  height: 130px;
+  width: auto;
+  height: 140px;
 }
 
 
