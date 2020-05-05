@@ -6111,11 +6111,11 @@ Sign Up Node Operator
 
 .sno-ad-message {
 	color: red;
-	width: 75%;
 	margin: 0 auto;
 	position: relative;
 	bottom: 30px;
 	font-size: 14px;
+	text-align: center;
 }
 
 .steps {
