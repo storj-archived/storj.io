@@ -6133,21 +6133,22 @@ Sign Up Node Operator
 }
 
 .steps span {
-  height: 16px;
-  width: 16px;
-  background-color: #AFB7C1;
+  height: 18px;
+  width: 18px;
+	border: 4px solid #AFB7C1;
   border-radius: 50%;
 }
 
 .steps .active {
   height: 18px;
   width: 18px;
-  border: 2px solid #fff;
-  background-color: #133E9C;
+  border: 4px solid #133E9C;
+	background-color: #FFF;
 }
 
 .steps span.done {
   background-color: #133E9C;
+	border: 4px solid #133E9C;
 }
 
 .steps div.done {
