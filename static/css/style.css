@@ -6098,22 +6098,14 @@ Sign Up Node Operator
   background-size: 90%;
 }
 
-.signup-node-container {
-  height: 850px;
-}
-
 .signup-node-form {
-  width: 661px;
-  height: 850px;
+  min-height: 850px;
   background-color: #F4F6F9;
-  float: right;
 }
 
 .sno-ad-message {
 	color: red;
-	margin: 0 auto;
-	position: relative;
-	bottom: 30px;
+	margin: 32px auto;
 	font-size: 14px;
 	text-align: center;
 }
@@ -6144,12 +6136,23 @@ Sign Up Node Operator
 	color: #7e8b9c;
 	text-align: center;
 	padding: 0;
+	z-index: 9;
 }
 
 .steps .active {
 	border-color: #133E9C;
 	background-color: #133E9C;
 	color: #fff;
+}
+
+.steps .active:after {
+	content: '';
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid white;
+	position: absolute;
+	margin-top: 28px;
+	margin-left: -16px;
 }
 
 .steps span.done {
@@ -6165,66 +6168,36 @@ Sign Up Node Operator
 .form-container {
   background: white;
   border-radius: 9px;
-}
-
-.requirement-form-container {
-  height: 80%;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.email-form-container {
-  height: 44%;
-  width: 90%;
-  margin: 0 auto;
+	margin: 16px;
 }
 
 .email-form-container .email-msg {
-	width: 90%;
 	font-size: 14px;
-	font-weight: 100;
-	margin: 0;
+	margin-bottom: 20px;
+	max-width: 440px;
 }
 
-.complete-form-container {
-  height: 50%;
-  width: 90%;
-  margin: 0 auto;
+.email-form-container .lead {
+	margin-bottom: 0;
 }
 
 .form {
-  margin-left: 38px;
+  padding: 20px 40px;
 }
 
-.requirement-form input {
-  display: inline-block;
-  margin: 0;
-  width: 50px;
+.signup-node-container .lead {
+	margin-bottom: 16px;
 }
 
-.form h1 {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  font-size: 22px;
-  line-height: 34px;
-  margin-bottom: 0;
-  width: 90%;
+.signup-node-container .btn {
+	background: #133E9C;
+	margin-top: 0;
+	margin-bottom: 24px;
 }
 
-.form h2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 20px;
-  line-height: 30px;
-  width: 90%;
-}
-
-.requirement-form h2 {
-  margin-bottom: 30px;
-
+.sign-up-success-image {
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
 
 .sign-up-node-submit {
@@ -6235,20 +6208,9 @@ Sign Up Node Operator
   margin-top: 0;
 }
 
-.sign-up-node-submit input {
-  background: #133E9C;
-  width: 154px;
-  color: white;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 146.28%;
-  border-radius: 7px;
-}
-
 .submit-options {
   padding-left: 0;
+	margin-top: 10px;
 }
 
 .checkbox-container {
@@ -6309,6 +6271,7 @@ ul.submit-options li:last-of-type {
 /* When the checkbox is checked, add a blue background */
 .checkbox-container input:checked ~ .checkmark {
   background-color: #133E9C;
+	border-color: #133E9C;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -6371,7 +6334,6 @@ ul.submit-options li:last-of-type {
   padding: 10px 15px;
   position: relative;
   left: 14px;
-  bottom: 15px;
 }
 
 .signup-node-form-error-msg a {
@@ -6380,30 +6342,15 @@ ul.submit-options li:last-of-type {
 }
 
 .email-form input {
-  margin: 10px 0px;
+  margin: 10px 0;
 }
+
 .email-form .email {
   background: #FFFFFF;
   border: 1px solid #C5CBDB;
   box-sizing: border-box;
   border-radius: 6px;
-  height: 56px;
-}
-
-.complete-form a {
-  display: block;
-  width: 212px;
-  background: #133E9C;
-  color: white;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 146.28%;
-  border-radius: 7px;
-	border: 1px solid #eee;
-	padding: 12px 18px 10px;
-  margin-top: 30px;
+  height: 54px;
 }
 
 .sign-up-node-operator .navbar {
@@ -6446,10 +6393,6 @@ ul.submit-options li:last-of-type {
     margin: 12px auto;
     width: 100%;
     margin-left: 0 !important;
-  }
-
-  .steps div {
-    width: 31%;
   }
 
   .ml-77 {
@@ -6509,11 +6452,14 @@ ul.submit-options li:last-of-type {
     padding: 0;
   }
 
-  .complete-form-container .img-responsive, .thumbnail>img, .thumbnail a>img {
+  .complete-form-container .sign-up-success-image {
     width: 120px;
-    margin: 0 auto;
+    margin: 20px auto 10px;
   }
 
+	.complete-form-container .sub-header {
+		text-align: center;
+	}
   .complete-form a {
     margin: 0 auto;
   }

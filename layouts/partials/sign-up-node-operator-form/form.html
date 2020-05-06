@@ -1,59 +1,61 @@
 <div class="form requirement-form">
-    <div class="spacer25"></div>
-    <div class="row">
-        <div class="form-header col-xs-12">
-                <h1 class="black-text">Get Paid to Share Your Disk Space</h1>
-        </div>
-    </div>
-    <div class="row">
-        <div class="sub-header col-xs-12">
-                <h2 class="light-black">Does your hardware meet these requirements?</h2>
-        </div>
-    </div>
 
-    <div class="row invisible" id="signup-node-form-err-msg-container">
-        <div class="signup-node-form-error-msg col-xs-10">
-                <span>We’re sorry, your hardware doesn’t meet the minimum requirements.</span>
-                <a href="https://documentation.storj.io" target="_blank"><span>Learn more about our node requirements.</span></a>
-        </div>
+  <div class="row">
+    <div class="form-header col-xs-12">
+      <h2 class="black-text">Get Paid to Share Your Disk Space</h2>
     </div>
+  </div>
 
-    <form onsubmit="onsubmit">
-      <ul class="submit-options">
-        <li class="checkbox-container">
-            <input type="checkbox" name="processor" />
-            <span class="checkmark"></span>
-            <p>1 Processor Core</p>
-        </li>
-        <li class="checkbox-container">
-            <input type="checkbox" name="diskSpace" />
-            <span class="checkmark"></span>
-            <p>Minimum 500GB of available disk space</p>
-        </li>
-        <li class="checkbox-container">
-            <input type="checkbox" name="availableBandwidth" />
-            <span class="checkmark"></span>
-            <p>Minimum of 2TB of available bandwidth a month</p>
-        </li>
-        <li class="checkbox-container">
-            <input type="checkbox" name="upstreamBandwidth" />
-            <span class="checkmark"></span>
-            <p>Minimum upstream bandwidth of 5 Mbps</p>
-        </li>
-        <li class="checkbox-container">
-            <input type="checkbox" name="downloadBandwidth" />
-            <span class="checkmark"></span>
-            <p>Minimum download bandwidth of 25 Mbps</p>
-        </li>
-        <li class="checkbox-container">
-            <input type="checkbox" name="downtime" />
-            <span class="checkmark"></span>
-            <p>Maximum down time of 5 hours a month</p>
-        </li>
-        <div class="spacer10"></div>
-        <div class="sign-up-node-submit">
-            <input type="submit" value="Continue" />
-        </div>
-      </ul>
+  <div class="row">
+    <div class="sub-header col-xs-12">
+      <p class="lead">Does your hardware meet these requirements?</p>
+    </div>
+  </div>
+
+  <div class="row invisible" id="signup-node-form-err-msg-container">
+    <div class="signup-node-form-error-msg col-xs-10">
+      <span>We’re sorry, your hardware doesn’t meet the minimum requirements.</span>
+      <a href="https://documentation.storj.io" target="_blank"><span>Learn more about our node requirements.</span></a>
+    </div>
+  </div>
+
+  <form onsubmit="onsubmit">
+    <ul class="submit-options">
+      <li class="checkbox-container">
+          <input type="checkbox" name="processor" />
+          <span class="checkmark"></span>
+          <p>1 Processor Core</p>
+      </li>
+      <li class="checkbox-container">
+          <input type="checkbox" name="diskSpace" />
+          <span class="checkmark"></span>
+          <p>Minimum 500GB of available disk space</p>
+      </li>
+      <li class="checkbox-container">
+          <input type="checkbox" name="availableBandwidth" />
+          <span class="checkmark"></span>
+          <p>Minimum of 2TB of available bandwidth a month</p>
+      </li>
+      <li class="checkbox-container">
+          <input type="checkbox" name="upstreamBandwidth" />
+          <span class="checkmark"></span>
+          <p>Minimum upstream bandwidth of 5 Mbps</p>
+      </li>
+      <li class="checkbox-container">
+          <input type="checkbox" name="downloadBandwidth" />
+          <span class="checkmark"></span>
+          <p>Minimum download bandwidth of 25 Mbps</p>
+      </li>
+      <li class="checkbox-container">
+          <input type="checkbox" name="downtime" />
+          <span class="checkmark"></span>
+          <p>Maximum down time of 5 hours a month</p>
+      </li>
+      <div class="spacer10"></div>
+      <div class="sign-up-node-submit">
+          <input type="submit" value="Continue" class="btn btn-primary"/>
+      </div>
+    </ul>
   </form>
+
 </div>
