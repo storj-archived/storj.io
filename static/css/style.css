@@ -6119,40 +6119,47 @@ Sign Up Node Operator
 }
 
 .steps {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  bottom: 10px;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 10px;
 }
 
 .steps div {
-  width: 34%;
-  border-bottom: 4px solid #AFB7C1;
-  position: relative;
-  bottom: 7px;
+	width: 34%;
+	border-bottom: 4px solid #C5CBDB;
+	position: relative;
+	bottom: 7px;
 }
 
 .steps span {
-  height: 18px;
-  width: 18px;
-	border: 4px solid #AFB7C1;
-  border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	border: 4px solid #C5CBDB;
+	border-radius: 50%;
+	font-size: 10px;
+	padding: 0;
+	background: #C5CBDB;
+	font-weight: bold;
+	color: #7e8b9c;
+	text-align: center;
+	padding: 0;
 }
 
 .steps .active {
-  height: 18px;
-  width: 18px;
-  border: 4px solid #133E9C;
-	background-color: #FFF;
+	border-color: #133E9C;
+	background-color: #133E9C;
+	color: #fff;
 }
 
 .steps span.done {
-  background-color: #133E9C;
-	border: 4px solid #133E9C;
+	background-color: #133E9C;
+	border-color: #133E9C;
+	color: #fff;
 }
 
 .steps div.done {
-  border-bottom: 4px solid #133E9C;
+	border-bottom: 4px solid #133E9C;
 }
 
 .form-container {
