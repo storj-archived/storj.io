@@ -327,7 +327,7 @@ Navigation
 .navbar-brand {
 	padding: 0;
 	margin-top: 40px;
-  margin-bottom: 12px;
+  margin-bottom: 40px;
 	height: 44px;
 }
 .link-style{
@@ -366,12 +366,6 @@ Navigation
 
 .section-to-collapse{
   display: block;
-}
-
-.logo-signup {
-  margin-left: 160px !important;
-  margin-top: 12px;
-  margin-bottom: 0;
 }
 
 @media only screen and (max-width: 320px) {
@@ -6353,23 +6347,6 @@ ul.submit-options li:last-of-type {
   height: 54px;
 }
 
-.sign-up-node-operator .navbar {
-  height: 80px;
-  margin-bottom: 0;
-}
-
-.sign-up-node-operator .logo {
-  width: 100px;
-}
-
-.sign-up-node-operator .footer {
-  height: 106px;
-}
-
-.footer .logo {
-  margin-top: 12px;
-}
-
 .footer .response {
 	color: #fff;
   font-size: 12px;
@@ -6382,19 +6359,7 @@ ul.submit-options li:last-of-type {
   display: none;
 }
 
-.sign-up-node-operator .footer .navbar-nav>li>a {
-  color: #224CA5;
-}
-
 @media only screen and (max-width: 767px){
-
-  .logo-signup {
-    margin: 0 auto;
-    margin: 12px auto;
-    width: 100%;
-    margin-left: 0 !important;
-  }
-
   .ml-77 {
     margin-left: 14%;
   }
@@ -6405,10 +6370,6 @@ ul.submit-options li:last-of-type {
 
   .ml-515 {
       margin-left: 81%;
-  }
-
-  .sign-up-node-operator .logo {
-    margin: 0 auto;
   }
 
   .signup-node-bg {
