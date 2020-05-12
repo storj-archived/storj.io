@@ -6101,7 +6101,7 @@ Sign Up Node Operator
 }
 
 .sno-ad-message {
-	color: red;
+	/* color: red; */
 	margin: 32px auto;
 	font-size: 14px;
 	text-align: center;
@@ -6446,7 +6446,9 @@ ul.submit-options li:last-of-type {
 }
 
 @media only screen and (max-width: 560px){
-
+	.sno-ad-message {
+    font-size: 10px;
+	}
 
   .ml-77 {
       margin-left: 13%;
