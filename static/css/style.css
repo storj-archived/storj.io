@@ -6449,6 +6449,9 @@ ul.submit-options li:last-of-type {
 	.sno-ad-message {
     font-size: 10px;
 	}
+	.form {
+    padding: 20px 32px;
+	}
 
   .ml-77 {
       margin-left: 13%;
@@ -6473,15 +6476,6 @@ ul.submit-options li:last-of-type {
   .requirement-form h2 {
     font-size: 18px;
     line-height: 26px;
-  }
-
-  .checkmark {
-    width: 23px;
-    height: 23px;
-  }
-
-  .checkbox-container p {
-    line-height: 18px;
   }
 
   .ml-295 {
@@ -6519,6 +6513,10 @@ ul.submit-options li:last-of-type {
 		font-size: 9px;
 	}
 
+	.form {
+    padding: 20px;
+	}
+
 }
 
 
@@ -6549,11 +6547,6 @@ ul.submit-options li:last-of-type {
     margin-left: 21px;
   }
 
-
-  .email-form-container {
-    width: 261px;
-  }
-
   .ml-295 {
     margin-left: 112px;
   }
@@ -6562,11 +6555,12 @@ ul.submit-options li:last-of-type {
     margin-left: 213px;
   }
 
-
   .addHeight .requirement-form-container {
     height: 884px;
-}
+	}
 
-
+	.sign-up-node-operator .footer .logo {
+    width: 100px;
+	}
 
 }
