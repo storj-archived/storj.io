@@ -9,7 +9,7 @@
     {{ partial "navbar"  .}}
 	</div>
 
-	{{with .Site.GetPage "unsubscribedNotifications" }}
+	{{with .Site.GetPage "unsubscribedOfflineNotifications" }}
 		{{ partial "unsubscribed/unsubscribed" (dict "message" .Params.msg)}}
 	{{end}}
 
