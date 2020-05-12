@@ -6403,9 +6403,12 @@ ul.submit-options li:last-of-type {
     margin: 0 auto;
   }
 
+	.form-container {
+		margin: 16px auto;
+	}
+
   .complete-form-container {
     text-align: center;
-    width: 100%;
   }
 
   .complete-form-container .col-xs-3 {
@@ -6458,11 +6461,6 @@ ul.submit-options li:last-of-type {
 @media only screen and (max-width: 414px){
   .ml-77 {
     margin-left: 11%;
-  }
-
-
-  .form {
-    margin: 0 10%;
   }
 
   .form h1 {
