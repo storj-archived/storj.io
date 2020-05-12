@@ -6496,6 +6496,14 @@ ul.submit-options li:last-of-type {
 	font-size: 8px;
 	}
 
+	.sign-up-node-operator .footer .logo {
+    width: 124px;
+		margin-left: 0;
+	}
+	.sign-up-node-operator .footer .navbar-right {
+		margin-right: 0;
+	}
+
 }
 
 @media only screen and (max-width: 375px){
