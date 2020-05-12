@@ -3182,7 +3182,10 @@ Media Queries
     	border-bottom: 0;
 	}
 	.navbar-nav>li>a {
-    	padding: 24px 10px;
+    padding: 24px 10px;
+	}
+	.footer .navbar-nav>li>a {
+		padding: 30px 10px;
 	}
 	.btn-rent {
 		margin: 1em auto;
