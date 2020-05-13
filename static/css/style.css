@@ -6137,8 +6137,8 @@ Sign Up Node Operator
 }
 
 .steps .active {
-	border-color: #133E9C;
-	background-color: #133E9C;
+	border-color: #0059D0;
+	background-color: #0059D0;
 	color: #fff;
 }
 
@@ -6153,13 +6153,13 @@ Sign Up Node Operator
 }
 
 .steps span.done {
-	background-color: #133E9C;
-	border-color: #133E9C;
+	background-color: #0059D0;
+	border-color: #0059D0;
 	color: #fff;
 }
 
 .steps div.done {
-	border-bottom: 4px solid #133E9C;
+	border-bottom: 4px solid #0059D0;
 }
 
 .form-container {
@@ -6187,8 +6187,8 @@ Sign Up Node Operator
 }
 
 .signup-node-container .btn {
-	background: #133E9C;
-	border-color: #133E9C;
+	background: #0059D0;
+	border-color: #0059D0;
 	margin-top: 0;
 	margin-bottom: 24px;
 }
@@ -6268,8 +6268,8 @@ ul.submit-options li:last-of-type {
 
 /* When the checkbox is checked, add a blue background */
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #133E9C;
-	border-color: #133E9C;
+  background-color: #0059D0;
+	border-color: #0059D0;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -6363,6 +6363,62 @@ ul.submit-options li:last-of-type {
   display: none;
 }
 
+.signup-node-container {
+	background: #F4F6F9;
+}
+
+.sign-up-node-operator .form-container {
+	margin: 16px auto;
+}
+
+.requirement-form-container {
+	position: absolute;
+	left: 20px;
+}
+
+.email-form-container {
+	max-width: 440px;
+	margin: 16px auto;
+}
+
+.complete-form-container {
+	max-width: 440px;
+	position: absolute;
+	right: 20px;
+}
+
+.sign-up-node-operator .navbar-brand {
+	width: 100%;
+	margin-top: 28px;
+	margin-bottom: 28px;
+}
+.sign-up-node-operator .logo {
+	width: 100%;
+	margin: 0 auto;
+}
+.sign-up-node-operator .footer .nav>li {
+	float: none;
+	top: 0;
+}
+.sign-up-node-operator .footer .navbar-nav>li>a {
+	padding: 24px 10px;
+}
+
+.sign-up-footer {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.sign-up-footer .link {
+	margin: 20px;
+	font-size: 12px;
+	border: 0;
+	color: #0059D0;
+}
+.sign-up-footer .link:hover {
+	text-decoration: underline;
+}
+
+
 @media only screen and (max-width: 767px){
   .ml-77 {
     margin-left: 14%;
@@ -6443,6 +6499,7 @@ ul.submit-options li:last-of-type {
     position: relative;
     top: 7px;
   }
+
 }
 
 @media only screen and (max-width: 560px){
