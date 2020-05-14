@@ -6470,8 +6470,13 @@ ul.submit-options li:last-of-type {
   color: #EF0000;
 }
 
+.requirement-form input {
+	max-width: 100%;
+}
+
 .email-form input {
   margin: 8px 0;
+	max-width: 100%;
 }
 
 .email-form .email {
