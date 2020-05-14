@@ -6463,29 +6463,9 @@ ul.submit-options li:last-of-type {
 		margin: 16px auto;
 	}
 
-  .complete-form-container {
-    text-align: center;
-  }
-
-  .complete-form-container .col-xs-3 {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .complete-form-container .col-xs-12 {
-    padding: 0;
-  }
-
   .complete-form-container .sign-up-success-image {
-    width: 120px;
-    margin: 20px auto 10px;
-  }
-
-	.complete-form-container .sub-header {
-		text-align: center;
-	}
-  .complete-form a {
-    margin: 0 auto;
+    margin-top: 20px;
+		margin-bottom: 10px;
   }
 
   .footer .container-fluid {
