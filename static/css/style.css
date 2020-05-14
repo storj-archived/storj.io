@@ -6096,12 +6096,10 @@ Sign Up Node Operator
 }
 
 .signup-node-form {
-  min-height: 850px;
   background-color: #F4F6F9;
 }
 
 .sno-ad-message {
-	/* color: red; */
 	margin: 32px auto;
 	font-size: 14px;
 	text-align: center;
@@ -6199,38 +6197,30 @@ Sign Up Node Operator
 }
 
 .sign-up-node-submit {
-  margin-top: 15px;
-}
-
-.requirement-form .sign-up-node-submit {
-  margin-top: 0;
+  margin-top: 12px;
 }
 
 .submit-options {
   padding-left: 0;
-	margin-top: 10px;
+	margin-bottom: 0;
 }
 
 .checkbox-container {
   display: block;
   position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
   font-size: 14px;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  padding-bottom: 12px;
-  line-height: 34px;
-  width: 90%;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .checkbox-container p {
-  position: relative;
-  top: 5px;
-  left: 10px;
+	position: relative;
+	margin-bottom: 0;
+	line-height: 48px;
+	left: 40px;
 }
 
 ul.submit-options li:last-of-type {
@@ -6242,60 +6232,198 @@ ul.submit-options li:last-of-type {
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  top: 5px;
   left: 0;
   z-index: 4;
   height: 100%;
+	width: 100%;
+	margin: 0;
+	transition: all 0.1s ease;
 }
 
 /* Create a custom checkbox */
 .checkmark {
   position: absolute;
-  top: 4px;
+  top: 12px;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 24px;
+  width: 24px;
   background: #FFFFFF;
-  border: 1.5px solid #AFB7C1;
+  border: 2px solid #AFB7C1;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 6px;
   z-index:2;
+	transition: background 0.1s ease;
+	transition: border 0.1s ease;
 }
 
-.checkbox-container input:checked {
-  height: 50px;
+.checkbox-container:hover .checkmark {
+	border-color: #0059D0;
 }
 
 /* When the checkbox is checked, add a blue background */
 .checkbox-container input:checked ~ .checkmark {
-  background-color: #0059D0;
-	border-color: #0059D0;
+	border-color: transparent;
+  background: #0059D0;
+  animation: jelly .6s ease;
 }
+
 
 /* Create the checkmark/indicator (hidden when not checked) */
 .checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 5px;
+	width: 5px;
+	height: 11px;
+	opacity: 0;
+	transform: rotate(45deg) scale(0);
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	transition: all .3s ease;
+	transition-delay: .15s;
 }
 
 /* Show the checkmark when checked */
 .checkbox-container input:checked ~ .checkmark:after {
-  display: block;
+	opacity: 1;
+	transform: rotate(45deg) scale(1);
 }
 
 /* Style the checkmark/indicator */
 .checkmark:after {
-  left: 7px;
+  left: 6px;
   top: 0px;
   width: 10px;
-  height: 17px;
+  height: 16px;
   border: solid white;
   border-width: 0 4px 4px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+/* Animation for the checkmarks */
+@-moz-keyframes jelly {
+	from {
+		transform: scale(1, 1);
+	}
+
+	30% {
+		transform: scale(1.25, 0.75);
+	}
+
+	40% {
+		transform: scale(0.75, 1.25);
+	}
+
+	50% {
+		transform: scale(1.15, 0.85);
+	}
+
+	65% {
+		transform: scale(0.95, 1.05);
+	}
+
+	75% {
+		transform: scale(1.05, 0.95);
+	}
+
+	to {
+		transform: scale(1, 1);
+	}
+}
+
+@-webkit-keyframes jelly {
+	from {
+		transform: scale(1, 1);
+	}
+
+	30% {
+		transform: scale(1.25, 0.75);
+	}
+
+	40% {
+		transform: scale(0.75, 1.25);
+	}
+
+	50% {
+		transform: scale(1.15, 0.85);
+	}
+
+	65% {
+		transform: scale(0.95, 1.05);
+	}
+
+	75% {
+		transform: scale(1.05, 0.95);
+	}
+
+	to {
+		transform: scale(1, 1);
+	}
+}
+
+@-o-keyframes jelly {
+	from {
+		transform: scale(1, 1);
+	}
+
+	30% {
+		transform: scale(1.25, 0.75);
+	}
+
+	40% {
+		transform: scale(0.75, 1.25);
+	}
+
+	50% {
+		transform: scale(1.15, 0.85);
+	}
+
+	65% {
+		transform: scale(0.95, 1.05);
+	}
+
+	75% {
+		transform: scale(1.05, 0.95);
+	}
+
+	to {
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes jelly {
+	from {
+		transform: scale(1, 1);
+	}
+
+	30% {
+		transform: scale(1.25, 0.75);
+	}
+
+	40% {
+		transform: scale(0.75, 1.25);
+	}
+
+	50% {
+		transform: scale(1.15, 0.85);
+	}
+
+	65% {
+		transform: scale(0.95, 1.05);
+	}
+
+	75% {
+		transform: scale(1.05, 0.95);
+	}
+
+	to {
+		transform: scale(1, 1);
+	}
+}
+
 
 .black-text {
   color: black;
@@ -6317,6 +6445,8 @@ ul.submit-options li:last-of-type {
   color: red;
   position: relative;
   bottom: 4px;
+	margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .signup-node-form-error-msg {
@@ -6328,19 +6458,20 @@ ul.submit-options li:last-of-type {
 .requirement-form .signup-node-form-error-msg {
   background-color: #FFEFEF;
   border: 1px solid #FF0000;
-  width: 85%;
-  padding: 10px 15px;
+  width: 95%;
+  padding: 16px 24px;
   position: relative;
   left: 14px;
+	line-height: 1.5;
 }
 
 .signup-node-form-error-msg a {
   text-decoration: underline;
-  color: red;
+  color: #EF0000;
 }
 
 .email-form input {
-  margin: 10px 0;
+  margin: 8px 0;
 }
 
 .email-form .email {
@@ -6363,8 +6494,13 @@ ul.submit-options li:last-of-type {
   display: none;
 }
 
+.sign-up-node-operator .navbar-header {
+	width: 100%;
+}
+
 .signup-node-container {
 	background: #F4F6F9;
+	min-height: 820px;
 }
 
 .sign-up-node-operator .form-container {
@@ -6373,12 +6509,17 @@ ul.submit-options li:last-of-type {
 
 .requirement-form-container {
 	position: absolute;
-	left: 20px;
+	left: 0;
+	max-width: 600px;
 }
 
 .email-form-container {
 	max-width: 440px;
 	margin: 16px auto;
+}
+
+.email-form-container .btn {
+	margin-top: 8px;
 }
 
 .complete-form-container {
@@ -6445,22 +6586,12 @@ ul.submit-options li:last-of-type {
     height: 1000px;
   }
 
-  .requirement-form-container {
-    height: 84%;
-  }
-
   .addHeight .requirement-form-container {
     height: 100%;
   }
 
-  .signup-node-form {
-    width: 100%;
-    float: none;
-    margin: 0 auto;
-  }
-
-	.form-container {
-		margin: 16px auto;
+	.sign-up-node-operator .form-container {
+		margin: 16px 0;
 	}
 
   .complete-form-container .sign-up-success-image {
@@ -6483,13 +6614,22 @@ ul.submit-options li:last-of-type {
 }
 
 @media only screen and (max-width: 560px){
+	.complete-form-container .btn {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 560px){
 	.sno-ad-message {
     font-size: 10px;
+		margin: 24px auto;
 	}
-	.form {
-    padding: 20px 32px;
+	.signup-node-container .form {
+    padding: 8px 28px;
 	}
-
+	.requirement-form .lead {
+		font-size: 15px;
+	}
   .ml-77 {
       margin-left: 13%;
   }
@@ -6511,9 +6651,18 @@ ul.submit-options li:last-of-type {
   }
 
   .requirement-form h2 {
-    font-size: 18px;
+		font-size: 17px;
     line-height: 26px;
+    margin-top: 16px;
   }
+
+	.email-form-container h2 {
+		font-size: 24px;
+	}
+
+	.requirement-form .lead {
+    font-size: 14px;
+	}
 
   .ml-295 {
     margin-left: 163px;
@@ -6533,6 +6682,23 @@ ul.submit-options li:last-of-type {
 	}
 	.sign-up-node-operator .footer .navbar-right {
 		margin-right: 0;
+	}
+	.sign-up-node-operator .form-container {
+		position: relative;
+	}
+	.sign-up-node-operator .complete-form-container {
+    right: 0;
+	}
+	.sign-up-node-operator .checkbox-container p {
+		font-size: 12px;
+		left: 36px;
+	}
+	.requirement-form .signup-node-form-error-msg {
+    font-size: 12px;
+		padding: 8px 16px;
+	}
+	.signup-node-container .form {
+    padding: 8px 24px;
 	}
 
 }
@@ -6554,6 +6720,15 @@ ul.submit-options li:last-of-type {
     padding: 20px;
 	}
 
+	.sign-up-node-operator .form-container {
+		margin: 16px 0;
+		width: 100%;
+	}
+
+	.signup-node-container {
+    min-height: 820px;
+	}
+
 }
 
 
@@ -6562,13 +6737,33 @@ ul.submit-options li:last-of-type {
     margin-left: 135px;
   }
 	.banner-left{
-	font-size: 7px;
+		font-size: 7px;
 	}
 	.banner-right{
-	font-size: 7px;
+		font-size: 7px;
+	}
+	.requirement-form h2 {
+    font-size: 16px;
+	}
+	.requirement-form .lead {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+	.sign-up-node-operator .checkbox-container p {
+		font-size: 11px;
+	}
+	.sign-up-node-submit {
+    margin-top: 0;
+	}
+	.sign-up-node-operator .form {
+		padding: 0 20px;
+	}
+	.sign-up-node-operator .navbar-brand {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 	}
 }
-
 
 
 @media only screen and (max-width: 340px) {
@@ -6578,8 +6773,13 @@ ul.submit-options li:last-of-type {
 }
 
 
-
 @media only screen and (max-width: 320px){
+
+	.sno-ad-message {
+    font-size: 9px;
+		margin-top: 16px;
+	}
+
   .ml-77 {
     margin-left: 21px;
   }
@@ -6592,8 +6792,21 @@ ul.submit-options li:last-of-type {
     margin-left: 213px;
   }
 
-  .addHeight .requirement-form-container {
-    height: 884px;
+	.sign-up-node-operator .form {
+    padding: 0 16px;
+	}
+
+	.requirement-form h2 {
+	    font-size: 15px;
+	}
+
+	.sign-up-node-operator .checkbox-container p {
+		font-size: 10px;
+		left: 36px;
+	}
+
+	.requirement-form .lead {
+    font-size: 12px;
 	}
 
 	.sign-up-node-operator .footer .logo {
