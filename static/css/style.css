@@ -6191,6 +6191,11 @@ Sign Up Node Operator
 	margin-bottom: 24px;
 }
 
+.signup-node-container .btn:hover {
+	background: #2582FF;
+	border-color: #2582FF;
+}
+
 .sign-up-success-image {
 	margin-top: 20px;
 	margin-bottom: 10px;
