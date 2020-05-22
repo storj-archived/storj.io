@@ -5192,7 +5192,7 @@ color: #000000;
   height:50%;
   font-size: 12px;
   font-family: 'Poppins';
-  background:#2582FF;
+  background: #2582FF;
   border: 1px solid #2582FF;
   border-radius: 0px 0px 10px 10px;
   font-style: normal;
@@ -5204,6 +5204,10 @@ color: #000000;
   color: #FFFFFF;
   margin-top:-25px;
   max-width: 320px;
+}
+.footer-sub:hover {
+	background-color: #0059D0;
+	border-color: #0059D0;
 }
 
 .footer-em-input{
