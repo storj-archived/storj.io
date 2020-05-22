@@ -63,11 +63,11 @@ table, th, td {
 	vertical-align: top;
 }
 .link {
-	border-bottom: 1px solid #2683ff;
+	border-bottom: 1px solid #0059D0;
 }
 .link:hover, .link:focus {
 	text-decoration: none;
-	border-color: #173AE8;
+	border-color: #133E9C;
 }
 
 .legal p {
