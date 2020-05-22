@@ -4433,11 +4433,7 @@ color: #FFFFFF;
 }
 
 .diskSpace-button {
-  background: #0055C6;
-  color: #fff;
-  width: 25%;
-  margin: 10px auto;
-  padding: 10px;
+	background: #0055C6;
   border-radius: 5px;
   font-weight: 700;
   font-size: 14px;
