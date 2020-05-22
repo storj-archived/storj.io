@@ -55,7 +55,7 @@ a {
     transition: all 0.15s ease-in-out;
 }
 a:hover {
-	color: #173AE8;
+	color: #133E9C;
 }
 
 table, th, td {
@@ -63,11 +63,11 @@ table, th, td {
 	vertical-align: top;
 }
 .link {
-	border-bottom: 1px solid #2683ff;
+	border-bottom: 1px solid #0059D0;
 }
 .link:hover, .link:focus {
 	text-decoration: none;
-	border-color: #173AE8;
+	border-color: #133E9C;
 }
 
 .legal p {
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 800;
-	color: #2683FF;
+	color: #000;
 	margin-bottom: 0.6em;
 }
 .title {
@@ -187,12 +187,12 @@ Buttons
 
 .btn {
 	font-weight: 800;
-	background: #2683FF;
+	background: #0059D0;
 	color: #FFF;
-  font-size: 16px;
+  font-size: 14px;
   font-family : 'Poppins';
 	padding: 14px 50px;
-	border-radius: 4px;
+	border-radius: 5px;
 	z-index: 2;
 	outline: 0;
 	-webkit-backface-visibility: hidden;
@@ -220,7 +220,7 @@ Buttons
 }
 .btn:hover, .btn:focus {
 	color: #fff;
-	background: #173AE8;
+	background: #133E9C;
 	outline: 0;
 }
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
@@ -238,8 +238,8 @@ Buttons
 	border-color: #555;
 }
 .btn-transparent:focus {
-    color: #2683ff;
-    border-color: #2683ff;
+    color: #0059D0;
+    border-color: #0059D0;
     background: #fff;
 }
 
@@ -915,7 +915,6 @@ canvas {
 
 .header {
 	min-height: 600px;
-	user-select: none;
 	position: relative;
   overflow: hidden;
 }
@@ -1080,26 +1079,12 @@ canvas {
   background: #fff;
   height: 100%;
   padding: 60px;
-	cursor: pointer;
-}
-
-.hero-host:hover {
-	box-shadow: 0px 0px 54px rgba(0, 0, 0, 0.25);
-	cursor: pointer;
-	z-index: 10;
 }
 
 .hero-cs {
   height: 100%;
   padding: 60px;
 	z-index: 5;
-	cursor: pointer;
-}
-
-.hero-cs:hover {
-	box-shadow: 0px 0px 54px rgba(0, 0, 0, 0.25);
-	cursor: pointer;
-	z-index: 10;
 }
 
 .hero-sections {
@@ -1137,7 +1122,6 @@ canvas {
   font-weight: bold;
   font-size: 16px;
   font-family: 'Poppins';
-  display: inline;
 	background: #0055C6;
 	padding: 12px 32px;
 	border-radius: 5px;
@@ -1809,7 +1793,7 @@ Footer
 
 footer {
 	padding: 25px 0;
-	background: linear-gradient(0deg, #1743A2, #1743A2), #2582FF;
+	background: #133E9C;
 	text-align: left;
 }
 .footer-logo:hover, .footer-logo:focus {
@@ -2210,6 +2194,8 @@ twitterwidget {
   line-height: 24px;
   text-align: center;
   color: #000000;
+	max-width: 480px;
+  margin: 0 auto;
 }
 
 .community-cta-link{
@@ -2218,7 +2204,6 @@ twitterwidget {
   font-weight: 800;
   font-size: 18px;
   line-height: 18px;
-  color: #2582FF;
 }
 
 .community-event-name{
@@ -4449,11 +4434,7 @@ color: #FFFFFF;
 }
 
 .diskSpace-button {
-  background: #0055C6;
-  color: #fff;
-  width: 25%;
-  margin: 10px auto;
-  padding: 10px;
+	background: #0055C6;
   border-radius: 5px;
   font-weight: 700;
   font-size: 14px;
@@ -5085,11 +5066,7 @@ color: #FFFFFF;
 .ospTrans-button {
   background: #0055C6;
   color: #fff;
-  width: 50%;
-  margin: 10px auto;
-  padding: 10px;
   border-radius: 5px;
-  font-weight: 700;
   font-size: 14px;
 }
 
@@ -5215,7 +5192,7 @@ color: #000000;
   height:50%;
   font-size: 12px;
   font-family: 'Poppins';
-  background:#2582FF;
+  background: #2582FF;
   border: 1px solid #2582FF;
   border-radius: 0px 0px 10px 10px;
   font-style: normal;
@@ -5227,6 +5204,10 @@ color: #000000;
   color: #FFFFFF;
   margin-top:-25px;
   max-width: 320px;
+}
+.footer-sub:hover {
+	background-color: #0059D0;
+	border-color: #0059D0;
 }
 
 .footer-em-input{
@@ -5785,6 +5766,7 @@ color: #FFFFFF;
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
+	color: #fff;
 }
 
 .sno-hero-sub-heading {
