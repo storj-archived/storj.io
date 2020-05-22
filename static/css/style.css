@@ -1793,7 +1793,7 @@ Footer
 
 footer {
 	padding: 25px 0;
-	background: linear-gradient(0deg, #1743A2, #1743A2), #2582FF;
+	background: #133E9C;
 	text-align: left;
 }
 .footer-logo:hover, .footer-logo:focus {
@@ -2204,7 +2204,6 @@ twitterwidget {
   font-weight: 800;
   font-size: 18px;
   line-height: 18px;
-  color: #2582FF;
 }
 
 .community-event-name{
