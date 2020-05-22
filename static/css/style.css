@@ -2194,6 +2194,8 @@ twitterwidget {
   line-height: 24px;
   text-align: center;
   color: #000000;
+	max-width: 480px;
+  margin: 0 auto;
 }
 
 .community-cta-link{
