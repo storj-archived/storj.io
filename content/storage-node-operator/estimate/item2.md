@@ -1,6 +1,6 @@
 ---
 title: "item 2"
-heading: "Repair Bandwidth"
+heading: "Repair Egress Bandwidth"
 description: "$10/TB"
 class: "estimate"
 ---
