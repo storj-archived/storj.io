@@ -5402,6 +5402,34 @@ color: #FFFFFF;
   font-style: normal;
 }
 
+.careers-position-table {
+	width: 100%;
+	border-radius: 5px;
+	border-collapse: separate !important;
+	border: 1px solid rgba(147, 161, 175, 0.6);
+	border-top: none;
+	border-right: none;
+}
+
+.careers-position-column {
+	font-family: 'Roboto';
+	font-size: 14px;
+	color: #000;
+	border: none;
+	border-top: 1px solid rgba(147, 161, 175, 0.6);
+	border-right: 1px solid rgba(147, 161, 175, 0.6);
+	line-height: 6px;
+}
+
+.careers-position-title {
+	font-weight: bold;
+}
+
+.careers-position-link {
+	color: #000;
+}
+
+
 .location-card{
   width:520px;
   margin:30px;
