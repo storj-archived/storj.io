@@ -3,7 +3,7 @@
       <div class="row text-center">
       {{ range where .Site.Pages ".Params.class" "communityBox" }}
         <div class="col-xs-12 col-sm-12 col-md-6">
-            <img src="{{.Params.img}}" width="70" height="70">
+            <img src="{{.Params.img}}" alt="{{.Params.alt}}" width="70" height="70">
             <div class="spacer20"></div>
             <p class="community-heading">{{.Params.heading}}</p>
             <p class="community-desc">{{.Description}}</p>
@@ -19,4 +19,3 @@
     </div>
   </div>
 </div>
-

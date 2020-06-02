@@ -6,25 +6,22 @@
   <body class="sign-up-node-operator requirements">
     {{partial "googletag" .}}
     <!-- nav -->
-    {{ partial "sign-up-node-operator-form/nav" .}}
+    {{ partial "sign-up-node-operator/nav" .}}
     <!-- form -->
-    <div class="signup-node-bg container-fluid signup-node-container">
-      <div class="row">
-        <div class="col-xs-12 storj-ecosystem-bg">
-          <div class="signup-node-form">
-            <div class="spacer50"></div>
+    <div class="signup-node-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 signup-node-form">
             {{ partial "sign-up-node-operator-form/progress-bar" .}}
-            <div class="arrow-up ml-77"></div>
             <div class="form-container requirement-form-container">
                 {{ partial "sign-up-node-operator-form/form" .}}
-                <div class="spacer50"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    {{ partial "sign-up-node-operator-form/footer" .}}
-  {{partial "scripts" .}}
+    {{ partial "sign-up-node-operator/footer" .}}
+    {{partial "scripts" .}}
   </body>
 </html>
 
@@ -58,6 +55,7 @@
             result[input.name] = input.value == "on";
         }
         errElm.setAttribute("class", "row invisible");
+        analytics.identify(analytics.user().anonymousId(), {sno_register_page_visited: true});
         window.location.href = "https://storj.io/sign-up-node-operator-email";
-    }
+      }
 </script>

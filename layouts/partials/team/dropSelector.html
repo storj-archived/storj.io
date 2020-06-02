@@ -1,36 +1,37 @@
 <div class="container hidden-sm hidden-md hidden-lg hidden-xl">
   <div class="row">
-    <div class="col-md-10 col-md-offset-1 breadcrumb area-to-hover" style="max-height:70px;">
-    <div class="dropdown-toggle breadcrumb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <div class="col-xs-10" style="text-align: left;">
-        <span id="group" style="font-weight: 600">Our People (All)</span>
-      </div>
-      <div class="col-xs-2" style="text-align:right;">
-        <span style="font-size:15px;color:#2683FF;" ><i class="arrow down"></i></span>
-      </div>
-    </div>
-    <div class="dropdown-menu" style="width:100%;">
-        <ul class="nav nav-pills nav-justified text-center" style="padding:0px;">
-            <p class="active" ><a id="val1" href="#value1" data-toggle="tab" onclick="setGroup(this)">All</a></p>
-            <p><a onclick="setGroup(this)" id="val2" href="#value2" data-toggle="tab">Leadership & Advisors</a></p>
-            <p><a onclick="setGroup(this)" id="val3" href="#value3" data-toggle="tab">DevOps, UX & Product</a></p>
-            <p><a onclick="setGroup(this)" id="val4" href="#value4" data-toggle="tab">Engineering</a></p>
-            <p><a onclick="setGroup(this)" id="val5" href="#value5" data-toggle="tab">Data&nbspScience</a></p>
-            <p><a onclick="setGroup(this)" id="val6" href="#value6" data-toggle="tab">Strategy</a></p>
-            <p><a onclick="setGroup(this)" id="val7" href="#value7" data-toggle="tab">Marketing, Sales & Community</a></p>
-            <p><a onclick="setGroup(this)" id="val8" href="#value8" data-toggle="tab">People, Finance & Operations</a></p>
-         </ul>
+    <div class="col-xs-12 col-md-10 col-md-offset-1 breadcrumb area-to-hover">
+      <div class="dropdown-toggle breadcrumb" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <div class="row">
+          <div class="col-xs-10" class="text-left">
+            <h5 id="group">Our People (All)</h5>
+          </div>
+          <div class="col-xs-2" class="text-right">
+            <span><i class="arrow down"></i></span>
+          </div>
         </div>
+      </div>
+      <div class="dropdown-menu selector-dropdown-menu">
+        <ul class="nav text-center">
+            <li class="active" ><a id="val1" href="#value1" data-toggle="tab" onclick="setGroup(this)">All</a></li>
+            <li><a onclick="setGroup(this)" id="val2" href="#value2" data-toggle="tab">Leadership & Advisors</a></li>
+            <li><a onclick="setGroup(this)" id="val3" href="#value3" data-toggle="tab">DevOps, UX & Product</a></li>
+            <li><a onclick="setGroup(this)" id="val4" href="#value4" data-toggle="tab">Engineering</a></li>
+            <li><a onclick="setGroup(this)" id="val5" href="#value5" data-toggle="tab">Data&nbspScience</a></li>
+            <li><a onclick="setGroup(this)" id="val6" href="#value6" data-toggle="tab">Strategy</a></li>
+            <li><a onclick="setGroup(this)" id="val7" href="#value7" data-toggle="tab">Marketing, Sales & Community</a></li>
+            <li><a onclick="setGroup(this)" id="val8" href="#value8" data-toggle="tab">People, Finance & Operations</a></li>
+         </ul>
+       </div>
     </div>
 
     <div id="wrapper-mar" style="display:none;">
-      <div id="helpe-mar" class="breadcrumb hidden-sm hidden-md hidden-lg" style="height:50px;margin-top:-20px;"></div>
+      <div id="helpe-mar" class="breadcrumb hidden-sm hidden-md hidden-lg"></div>
     </div>
 
     <div id="wrapper-hr" style="display:none;">
-        <div id="helper-hr" class="breadcrumb hidden-sm hidden-md hidden-lg" style="height:35px;margin-top:-20px;"></div>
+        <div id="helper-hr" class="breadcrumb hidden-sm hidden-md hidden-lg"></div>
     </div>
 
   </div>
 </div>
-

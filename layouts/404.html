@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      {{partial "head" .}}
-    </head>
+  <head>
+    {{partial "head" .}}
+  </head>
+
   <body class="page">
-  {{partial "googletag" .}}
-  {{partial "home/Banner" .}}
-  {{partial "partners/heroNav" .}}
-    <section class="section" style="height:480px">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
-            <h3 class="title">Sorry, Not Found</h3>
-            <a href="/" class="btn btn-yellow">Back to the Homepage</a>
+      {{partial "googletag" .}}
+      {{partial "home/Banner" .}}
+
+      <div class="navbar-blue">
+        {{partial "navbar" .}}
+      </div>
+
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-10 col-xs-push-1 col-md-8 col-md-push-2 text-center">
+              <h1 class="title text-black">Oops! That's not a Thing...</h1>
+              <p>The page you're trying to access is either broken, or doesn't exist.</p>
+              <div class="spacer20"></div>
+              <a href="/" class="btn"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+Back to Storj.io</a>
+              <div class="spacer40"></div>
+            </div>
           </div>
         </div>
       </div>
-    </section>
+
   {{partial "footer" .}}
   {{partial "scripts" .}}
   </body>

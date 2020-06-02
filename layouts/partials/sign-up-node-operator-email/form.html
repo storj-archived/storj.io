@@ -1,31 +1,30 @@
 <div class="form email-form">
-        <div class="spacer25"></div>
-        <div class="row">
-            <div class="form-header col-xs-12">
-                    <h1 class="black-text"> Get Your Auth Token</h1>
-                    <p class="email-msg">Your auth token usually arrives shortly, but can take a few days to a week if demand on the network is high.</p>
-            </div>
+  <div class="row">
+    <div class="form-header col-xs-12">
+        <h2 class="black-text"> Get Your Auth Token</h2>
+        <p class="email-msg text-muted">Your auth token usually arrives shortly, but can take a few days to a week if demand on the network is high.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="sub-header col-xs-12">
+        <p class="lead">What’s your email?</p>
+    </div>
+  </div>
+  <div class="row invisible" id="signup-node-form-err-msg-container">
+    <div class="signup-node-form-error-msg col-xs-6">
+        <span>*Please enter a valid email address</span>
+    </div>
+  </div>
+  <form onsubmit="onsubmit">
+    <div class="row">
+        <div class="col-xs-12">
+            <input type="text" name="email" class="email form-control" placeholder="example@email.com">
         </div>
-        <div class="row">
-            <div class="sub-header col-xs-12">
-                    <h2 class="light-black">What’s your email?</h2>
-            </div>
-        </div>
-        <div class="row invisible" id="signup-node-form-err-msg-container">
-            <div class="signup-node-form-error-msg col-xs-6">
-                    <span>*Please enter a valid email address</span>
-            </div>
-        </div>
-        <form onsubmit="onsubmit">
-            <div class="row">
-                <div class="col-xs-12">
-                    <input type="text" name="email" class="email" placeholder="example@email.com">
-                </div>
-            </div>
-            <div class="sign-up-node-submit">
-                <input type="submit" value="Continue" />
-            </div>
-        </form>
+    </div>
+    <div class="sign-up-node-submit">
+        <input type="submit" value="Continue" class="btn btn-primary"/>
+    </div>
+  </form>
 </div>
 
 <script type="text/javascript">
@@ -47,6 +46,7 @@
             email = input.value
         }
         analytics.identify(email, {email: email, authToken: "unknown"});
+        analytics.identify(analytics.user().anonymousId(), {email: email, sno_register_email_page_visited: true});
         window.location.href = "https://storj.io/sign-up-node-operator-complete";
     }
 </script>

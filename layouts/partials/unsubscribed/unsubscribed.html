@@ -1,0 +1,21 @@
+{{ $message := .message }}
+<div class="unsubscribed">
+    <div class="container">
+        <div class="unsubscribed-content-wrapper">
+            <div class="unsubscribed-content">
+                <h2 class="unsubscribed-header">You're Unsubscribed</h2>
+                <p class="unsubscribed-txt">{{ $message }}</p>
+                <a class="unsubscribed-cta" href="/">
+                    Visit Storj.io
+                    <img class="unsubscribed-cta-arrow" src="/img/arrow-right.svg" height="13" width="13" alt="arrow image"/>
+                </a>
+                <div class="unsubscribed-btm-wrapper">
+                    <p class="unsubscribed-btm-txt">Want to resubscribe?</p>
+                    <a class="unsubscribed-btm-txt link" target="_blank" href="https://support.storj.io/hc/en-us">
+                        Contact our support team
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

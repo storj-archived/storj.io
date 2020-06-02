@@ -1,34 +1,28 @@
-<section class="section" style="padding:0px;">
-<div class="container-" style="	background-color: #F2F4F6;	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.09);">
-        <div class="container" style="padding:15px;">
-          <div class="row">
-            <div class="col-xs-10 col-xs-offset-1  col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center" style="padding:0px;">
-                <div class="spacer45"></div>
-              <h1 style="font-size: 30px;	font-weight: 800;	line-height: 40px;	text-align: center;color:black;">Get Involved</h1>
-              <div class="spacer45"></div>
-            </div>
-          </div>
+<section class="section whitepaper-ctas">
+    <div class="container">
 
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1  col-sm-8 col-sm-offset-2 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2 text-center">
+          <h1>Get Involved</h1>
+        </div>
+      </div>
 
-<div class="row">
-    {{range where .Site.Pages ".Params.class" "wpbox"}}
+      <div class="row">
+        {{range where .Site.Pages ".Params.class" "wpbox"}}
         <div class="col-xs-12 col-sm-12 col-md-4">
-          <div class="panel panel-card text-center" style="height:500px;">
+          <div class="panel panel-card text-center">
             <div class="spacer15"></div>
-            <img src="{{.Params.icon}}" style="height: 70px;	width: 86px;"/>
+            <img class="whitepaper-cta-icon" src="{{.Params.icon}}"/>
             <div class="spacer15"></div>
-            <h2 style="color:black;font-size: 24px;	font-weight: 800;line-height: 34px;">{{.Params.heading}}</h2>
-            <div class="spacer10"></div>
-                <div style="height:150px;">
-                    {{ .Content}}
-                </div>  
-            <a href="{{.Params.ctaLink}}"><button class="btn btn-primary" style="background-color:white;color:#2683FF;border: 3px solid #0082FF;	border-radius: 4px;font-size: 14px;	font-weight: 800;	line-height: 18px;">{{.Params.ctaText}}</button></a>
+            <h2 class="whitepaper-cta-heading">{{.Params.heading}}</h2>
+            <div class="whitepaper-cta-content">
+                {{ .Content}}
+            </div>
+            <a href="{{.Params.ctaLink}}"><button class="btn btn-primary btn-block whitepaper-cta-btn">{{.Params.ctaText}}</button></a>
           </div>
         </div>
         {{end}}
       </div>
 
-      <div class="spacer45"></div>
     </div>
-  </div>
 </section>

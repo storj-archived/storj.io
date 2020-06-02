@@ -1,6 +1,6 @@
 ---
-link : "/storj-share-terms"
+link : "/storj-operator-terms"
 weight : 3
-title : "Terms of Service"
+title : "Storage Node Operator Terms and Conditions"
 class : "firstcolfooter"
 ---

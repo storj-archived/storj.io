@@ -1,15 +1,18 @@
-{{with .Site.GetPage "subheading1.md"}}
-<div class="row">
-  <div class="col-md-12 text-center">
-    <h3 class="title">{{.Params.heading}}</h3>
-    <p>{{.Params.subText}}</p>
-  </div>
-</div>
-{{end}}
+<div class="container section">
 
-<div class="row">
-{{ range where .Site.Pages ".Params.class" "press-kit-logo"}}
-<div class="col-md-6">
+  {{with .Site.GetPage "subheading1.md"}}
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="title">{{.Params.heading}}</h3>
+      <p>{{.Params.subText}}</p>
+    </div>
+  </div>
+  {{end}}
+
+  <div class="row">
+
+  {{ range where .Site.Pages ".Params.class" "press-kit-logo"}}
+  <div class="col-md-6">
     <div class="presskit-logo {{ .Params.bkgrndColor }}">
       <img src="{{.Params.logoImg}}" alt="">
       <div class="row">
@@ -26,3 +29,7 @@
     </div>
   </div>
   {{end}}
+
+  </div>
+
+</div>

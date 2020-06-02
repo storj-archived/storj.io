@@ -1,0 +1,48 @@
+Storj Labs Inc. Warrant Canary
+
+Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide for secret warrants,
+searches and seizures of data, such as library records.
+
+Some such laws provide for criminal penalties for revealing the warrant, search or seizure, disallowing the
+disclosure of events that would materially affect the users of a service such as Storj Labs Inc.
+
+Storj Labs Inc. and its principals and employees will in fact comply with such warrants and their provisions
+for secrecy.
+
+Storj Labs Inc. will also make available, monthly, a "warrant canary" in the form of a cryptographically signed
+message containing the following:
+
+- a declaration that, up to that point, no warrants have been served, nor have any searches or seizures
+  taken place
+
+- a cut and paste headline from a major news source, establishing date
+
+Special note should be taken if these messages ever cease being updated, or are removed from this page.
+
+The current message is here:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+As of 05/04/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+ Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
+ seek to let the public know it existed.
+ 
+- - Before pandemic, Trump’s stockpile chief put focus on biodefense. An old client benefited.
+- - Trump says it’s safe to reopen as states grapple with restrictions
+- - Historic financial decline hits doctors, dentists and hospitals — threatening overall economy
+- - J. Crew files for bankruptcy, becoming first national retail casualty of pandemic
+- - Forget what you’ve heard. Here are the new rules for post-pandemic retirement.
+-----BEGIN PGP SIGNATURE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+wsBcBAABCgAGBQJesC9ZAAoJEPQrujgXjffwInoIAKiHIT1/xfbCiYjf45MhuMcE
+TwAlX/miz82VBKrCjTl1luIC6K/34bgfwP2kdLT/s3NkVq90H44rU4FVvNL3IA4e
+I9GZvADI+xJevyCGYsAvkxlIdzJ/4EMMo4Ajn3fkH5ZKY5gxUk+PYGrvLGWL0na1
+G3TEx0UnqAdlhCUCXFAlQWxXjHITlmd7vMCB8SESA48Qb8UvmpKFAyQz2ov6uGJ8
+UfqdCU8fFe6/is/97gTciIJGWSTuT3aGPnuQow92JWWBSd/Qs0gT51sN8KiPrSBY
+EuJrzuSKq9ZL0fdi/+UN3s6K/0TmWB+1c82ooLlk01Org1PUC6Ld6scATT+WD+s=
+=Ve2d
+-----END PGP SIGNATURE-----
+

@@ -10,7 +10,7 @@
     <div class="row text-center">
     {{ range where .Site.Pages ".Params.class" "snoBox" }}
       <div class="col-md-4 col-xs-12">
-          <img src="{{.Params.img}}" width="50" height="50">
+          <img alt="{{.Params.alt}}" src="{{.Params.img}}" width="50" height="50">
           <div class="spacer20"></div>
           <p class="sno-start-sharing-heading">{{.Params.heading}}</p>
           <p class="sno-desc">{{.Description}}</p>
