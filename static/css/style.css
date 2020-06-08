@@ -935,7 +935,7 @@ canvas {
 }
 
 .header-bg {
-	background: rgb(2,5,13);
+	background: #133E9C;
 	background: linear-gradient(141deg, rgba(2,5,13,1) 0%, rgba(19,62,156,1) 100%);
 }
 
