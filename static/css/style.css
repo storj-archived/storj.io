@@ -935,10 +935,8 @@ canvas {
 }
 
 .header-bg {
-  background-size: cover;
-  background-image: url("../img/storj-bg.svg");
-  background-repeat: repeat-y;
-  background-position: center center;
+	background: rgb(2,5,13);
+	background: linear-gradient(141deg, rgba(2,5,13,1) 0%, rgba(19,62,156,1) 100%);
 }
 
 .globe-background {
