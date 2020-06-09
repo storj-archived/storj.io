@@ -5166,13 +5166,15 @@ color: #000000;
 }
 
 .footer-link{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  font-size: 13px;
-  line-height: 28px;
-  color: #FFFFFF;
-  opacity: 0.6;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+	color: #FFFFFF;
+	opacity: 0.6;
+	margin-bottom: 5px;
+	display: inline-block;
 }
 
 .footer-link:hover{
@@ -5180,7 +5182,6 @@ color: #000000;
   font-style: normal;
   font-weight: 300;
   font-size: 13px;
-  line-height: 28px;
   color: #FFFFFF;
   opacity: 1.0;
   text-decoration:none;
