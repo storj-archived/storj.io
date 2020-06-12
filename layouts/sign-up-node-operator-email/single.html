@@ -6,24 +6,21 @@
   <body class="sign-up-node-operator email-form">
     {{partial "googletag" .}}
     <!-- nav -->
-    {{ partial "sign-up-node-operator-email/nav" .}}
+    {{ partial "sign-up-node-operator/nav" .}}
     <!-- form -->
-    <div class="signup-node-bg container-fluid signup-node-container">
-      <div class="row">
-        <div class="col-xs-12 storj-ecosystem-bg">
-          <div class="col-md-6 col-md-offset-4 col-lg-6 col-lg-offset-6 signup-node-form">
-            <div class="spacer50"></div>
+    <div class="signup-node-container">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 signup-node-form">
             {{ partial "sign-up-node-operator-email/progress-bar" .}}
-            <div class="arrow-up ml-295"></div>
             <div class="form-container email-form-container">
                 {{ partial "sign-up-node-operator-email/form" .}}
-                <div class="spacer50"></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    {{ partial "sign-up-node-operator-email/footer" .}}
-  {{partial "scripts" .}}
+    {{ partial "sign-up-node-operator/footer" .}}
+    {{partial "scripts" .}}
   </body>
 </html>
