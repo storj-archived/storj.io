@@ -2246,7 +2246,38 @@ TEAM
   margin: 20px auto;
   display: block;
   float: left;
+	transition-duration: 1s;
+	position: relative;
+	cursor: pointer;
 }
+
+.team-member:hover {
+	background: #0059D0;
+	color: #fff;
+}
+
+.team-member .team-member-info {
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	background: #0059D0;
+	visibility: hidden;
+	transition-duration: .5s;
+	margin-top: -5px;
+	padding: 10px;
+	color: #fff;
+}
+
+.team-member:hover .team-member-info {
+	visibility: visible;
+	margin-top: 0;
+}
+
+.team-member:hover .team-member-name {
+	color: #fff;
+}
+
+
 .team-member-image {
   align-self: center;
 	border-radius: 50%;
