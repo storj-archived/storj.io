@@ -132,7 +132,7 @@ All information and instructions given within The Forum and The Community are to
 <p>Situations which appear imminently dangerous may be reported to legal authorities.</p>
 <p>1st Offense:</p>
 <ul>
-	<li><p>Removal of content from the The Community</li></p>
+	<li><p>Removal of content from The Community</li></p>
 	<li><p>Membership is forfeited</li></p>
 </ul>
 
