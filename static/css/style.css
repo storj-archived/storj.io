@@ -5288,6 +5288,15 @@ color: #000000;
   color: #FFFFFF;
 }
 
+.careers-heading-cta-wrapper, .careers-sec-heading-wrapper  {
+	text-decoration: none !important;
+}
+
+.positions.section {
+	padding: 4em 0 3em;
+}
+
+
 .careers-subheading{
 font-family: 'Roboto';
 font-style: normal;
