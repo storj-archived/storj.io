@@ -2,17 +2,22 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-8 col-md-push-2 text-center">
-            <a name="open-positions">
-                <h1 class="careers-sec-heading">Open Positions</h1>
-            </a>
+            <h1 class="careers-sec-heading">Open Positions</h1>
         </div>
     </div>
 </div>
 </div>
 <div class="container">
-<div class="row row-centered">
-    <div class="col-xs-12 col-md-6 col-centered panel panel-defaut">
-    <div id="grnhse_app"></div>
-    </div>
-</div>
+	<div class="row row-centered">
+			<table class="careers-position-table">
+				{{range where .Site.Pages ".Params.class" "position"}}
+					<tr>
+						<td class="careers-position-column careers-position-title">{{.Params.title}}</td>
+						<td class="careers-position-column">{{.Params.location}}</td>
+						<td class="careers-position-column">{{.Params.postDate}}</td>
+						<td class="careers-position-column"><a class="careers-position-link" target="_blank" href="{{.Params.link}}">Learn More</a></td>
+					</tr>
+	      {{end}}
+			</table>
+	</div>
 </div>
