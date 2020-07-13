@@ -2281,6 +2281,21 @@ TEAM
   margin-right: 10px;
 }
 
+.team-member-contractor {
+	text-transform: uppercase;
+  font-family: 'Poppins';
+  background: #dbe2eb;
+  color: #7c8b9e;
+  font-size: 14px;
+  width: 120px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  border-radius: 10px;
+  letter-spacing: .5px;
+  padding: 2px 0;
+}
+
 .team-page .breadcrumb {
 	margin-bottom: 0;
 }
