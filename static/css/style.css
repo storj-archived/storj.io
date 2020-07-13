@@ -2262,7 +2262,6 @@ TEAM
 	font-weight: 800;
 }
 .team-member-title {
-  height: 40px;
   font-size: 15px;
   margin-bottom: 0;
 }
@@ -2286,8 +2285,8 @@ TEAM
   font-family: 'Poppins';
   background: #dbe2eb;
   color: #7c8b9e;
-  font-size: 14px;
-  width: 120px;
+  font-size: 12px;
+  width: 110px;
   margin: 0 auto;
   text-align: center;
   margin-top: 15px;

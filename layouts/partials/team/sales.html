@@ -4,6 +4,9 @@
             <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
             <h4 class="team-member-name" >{{.Params.name}}</h4>
             <p class="team-member-title">{{.Params.title}}</p>
+						{{ if eq .Params.contractor true }}
+							<p class="team-member-contractor">Contractor</p>
+						{{ end }}
         </div>
     {{end}}
     </div>
