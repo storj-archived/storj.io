@@ -3843,10 +3843,6 @@ left: 43px;
   background-size: 900px;
 }
 
-.estimator-link:hover {
-text-decoration: none;
-}
-
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
