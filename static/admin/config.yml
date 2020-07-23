@@ -636,13 +636,6 @@ collections:
      - {label: "subHeading", name : "subHeading", widget: "string"}
      - {label: "subHeadingText", name : "subHeadingText", widget: "string"}
      - {label: "Draft", name: "draft", widget: "boolean", default: false}
-  - name : "storage-node-estimator"
-    label: "storage-node-estimator-heading"
-    folder: "content/press-kit/mainheading"
-    fields:
-     - {label: "Title", name: "Title", widget: "string"}
-     - {label: "Body", name: "body", widget: "markdown"}
-     - {label: "Draft", name: "draft", widget: "boolean", default: false}
   - name : "storage-sla"
     label: "storage-sla"
     folder: "content/storage-sla"
