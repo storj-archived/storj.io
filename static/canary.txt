@@ -24,24 +24,24 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 06/01/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 07/29/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Mayhem continues as police, protesters clash
-- - Thousands arrested nationwide during weekend of turmoil
-- - Night of destruction across D.C. after police, protesters clash outside the White House
-- - Royce White towers above the Minneapolis protests, and thousands are looking up to him
-- - Poll: Most Americans still favor controlling outbreak over restarting economy
+- - Lawmakers question Big Tech CEOs at antitrust hearing
+- - Who should get a coronavirus vaccine first?
+- - Ridiculed and alone, Rudy Gobert was the face of coronavirus in sports. Now he’s ready to return
+- - California lawmakers weigh a $600 weekly unemployment benefit
+- - On Richmond’s evolving Monument Avenue, myth and ugly lies run deep
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJe1QCbAAoJEPQrujgXjffwovIIALCMDHfl9nZSVsP9P2/+A3VS
-gm6tBSiKwQCOCRPcV8jCadMzHU05j5D/YILsd5KZ+LAi6rLGwp+DEXbsZk4La5DM
-GHQsVYrXM9lge6gjD0OYmozxRqnH0OHQpm31gXdCpbPbBMcTvXsCvmCEjt5fwkYt
-dsslEvoe09IZzUnsk6XgUxLj2JfJRPOzGXeOnCz1AAzoq+LRCT7YbvlEzWEz5245
-E0XYdD5EzWgVWdKTqpVY2XWj76wDZ8GI7tfOQYHZ5hAhYw92wkhoIvmsOjXJQM7j
-KWlRVBHx0grbbdPOQOox+iOxES0qfXOYoBzlzsLDn14kHZ7TkwV9ZeRbULycCUk=
-=sFyW
+wsBcBAABCgAGBQJfIa4uAAoJEPQrujgXjffwnOsIAJVSsH2f4y214SJsQibg7xIF
+eZVSqNG7CUouoA+rYII7Fiy8WGtYXQtoAip9uUCHsYVuzQ24T1v6xC0PbAMAzWXB
+BvzWt5d0C6TZWftfeBvKo/nTR38NuQ2VZjB7g+QWt++Zfq+oo+WEi++kLWQbR1K2
+/3ROQMszMzp12U3YpvcQkylOpGqP7o3EhH+IiCdyNy8HACmxvZJzJ0hiq5oXPKte
+7h4m5pb6djWi2qT6rB/ZFYqftgO2CabSV0uL0IscS+CP6SXwDeiexeMjS8O0094c
+rfXqQI0rF6WDxXtSAAInKlF+9N5iPOZyUDHbF4eJVNnEm3XyNz6gPvaIABbCPOI=
+=rqUU
 -----END PGP SIGNATURE-----
