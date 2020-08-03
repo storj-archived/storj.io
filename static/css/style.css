@@ -5423,7 +5423,6 @@ color: #FFFFFF;
 	border-collapse: separate !important;
 	border: 1px solid rgba(147, 161, 175, 0.6);
 	border-top: none;
-	border-right: none;
 }
 
 .careers-position-column {
@@ -5432,7 +5431,6 @@ color: #FFFFFF;
 	color: #000;
 	border: none;
 	border-top: 1px solid rgba(147, 161, 175, 0.6);
-	border-right: 1px solid rgba(147, 161, 175, 0.6);
 	line-height: 6px;
 }
 

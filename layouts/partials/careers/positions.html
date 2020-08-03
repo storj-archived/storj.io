@@ -14,10 +14,9 @@
 			<table class="careers-position-table">
 				{{range where .Site.Pages ".Params.class" "position"}}
 					<tr>
-						<td class="careers-position-column careers-position-title">{{.Params.title}}</td>
+						<td class="careers-position-column careers-position-title"><a class="careers-position-link" target="_blank" href="{{.Params.link}}">{{.Params.title}}</a></td>
 						<td class="careers-position-column">{{.Params.location}}</td>
 						<td class="careers-position-column">{{.Params.postDate}}</td>
-						<td class="careers-position-column"><a class="careers-position-link" target="_blank" href="{{.Params.link}}">Learn More</a></td>
 					</tr>
 	      {{end}}
 			</table>
