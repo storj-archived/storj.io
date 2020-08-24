@@ -5469,19 +5469,23 @@ color: #FFFFFF;
   }
 }
 
-.diversity-img{
-  background-image: url(../img/diversity.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 800px;
+.diversity-img-wrapper{
+	margin-top: 50px;
 }
 
-@media only screen and (max-width: 500px){
-  .diversity-img{
-    margin-right:-140px;
-  }
+@media only screen and (max-width: 991px){
+	.diversity-img-wrapper{
+		margin: 0 auto;
+		text-align: center;
+	}
 }
+
+@media only screen and (max-width: 768px){
+	.careers-diversity-img{
+		width: 50%;
+	}
+}
+
 
 .margin-less{
   margin:0px;
