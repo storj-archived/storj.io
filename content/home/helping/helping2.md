@@ -5,5 +5,5 @@ desc : Encrypted files are split into smaller fragments and distributed to optim
 class : "whytardigrade"
 h : 110
 w : 110
-alt : "Split Files & Distribute"
+alt : "files being split into pieces"
 ---

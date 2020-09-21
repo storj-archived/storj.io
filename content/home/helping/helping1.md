@@ -5,5 +5,5 @@ desc : Files are encrypted client-side before being uploaded to our network, ens
 class : "whytardigrade"
 h : 110
 w : 110
-alt : "Encrypt & Upload Files"
+alt : "decentralized storage encryption"
 ---
