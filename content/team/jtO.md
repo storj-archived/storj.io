@@ -1,6 +1,6 @@
 ---
 name : JT Olio
-title : VP of Engineering
+title : Chief Technology Officer
 headshot : /img/team/jt.jpg
 class : leadership
 all : true
