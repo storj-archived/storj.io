@@ -1,6 +1,6 @@
 ---
 name : Ethan Adams
-title : Software Engineer
+title : Senior Software Engineer
 headshot : /img/team/ethan-adams.jpg
 class : engineering
 all : true
