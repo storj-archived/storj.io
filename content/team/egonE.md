@@ -1,6 +1,6 @@
 ---
 name : Egon Elbre
-title : Software Engineer, Principal
+title : Principal Software Engineer
 headshot : /img/team/egon.jpg
 class : engineering
 all : true
