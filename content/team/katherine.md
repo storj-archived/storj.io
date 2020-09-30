@@ -1,6 +1,6 @@
 ---
 name : Katherine Johnson
-title : General Counsel, VP of Compliance & HR
+title : CLO, Head of Compliance & People Ops
 headshot : /img/team/katherine.jpg
 class : leadership
 all : true
