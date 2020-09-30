@@ -1,6 +1,6 @@
 ---
 name : Isaac Hess
-title : Software Engineer
+title : Senior Software Engineer
 headshot : /img/team/isaac.jpg
 class : engineering
 all : true
