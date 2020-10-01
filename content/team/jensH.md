@@ -1,6 +1,6 @@
 ---
 name : Jens Heimbürge
-title : Software Engineer
+title : Senior Test Engineer
 headshot : /img/team/jens.jpg
 class : engineering
 all : true

@@ -1,6 +1,6 @@
 ---
 name : Brandon Iglesias
-title : Product Manager
+title : Director of Product
 headshot : /img/team/brandon.jpg
 class : product
 all : true

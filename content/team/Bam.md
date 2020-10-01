@@ -1,6 +1,6 @@
 ---
 name : Ben Mikell
-title : Technical Recruiter
+title : HR Specialist, Talent Acquisition and Development
 headshot : /img/team/bam.jpg
 class : hr
 all : true
