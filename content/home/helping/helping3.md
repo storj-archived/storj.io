@@ -5,5 +5,5 @@ desc : We pay Hosts to run Storage Nodes where file fragments are privately stor
 class : "whytardigrade"
 h : 110
 w : 110
-alt : "Store & Retrieve File Pieces"
+alt : "node storing data and getting paid"
 ---

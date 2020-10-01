@@ -24,24 +24,25 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 06/01/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 09/02/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Mayhem continues as police, protesters clash
-- - Thousands arrested nationwide during weekend of turmoil
-- - Night of destruction across D.C. after police, protesters clash outside the White House
-- - Royce White towers above the Minneapolis protests, and thousands are looking up to him
-- - Poll: Most Americans still favor controlling outbreak over restarting economy
+- - Biden adjusts strategy in key Midwest battleground
+- - How turnout and swing voters could get Trump or Biden to 270
+- - Portland killing renews focus on tactics of far-right group Patriot Prayer
+- - Tulsa Race Massacre survivors file lawsuit, seeking ‘repair’ for 1921 attack
+- - First coronavirus death traced to Sturgis Motorcyle Rally that drew 400,000 people
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJe1QCbAAoJEPQrujgXjffwovIIALCMDHfl9nZSVsP9P2/+A3VS
-gm6tBSiKwQCOCRPcV8jCadMzHU05j5D/YILsd5KZ+LAi6rLGwp+DEXbsZk4La5DM
-GHQsVYrXM9lge6gjD0OYmozxRqnH0OHQpm31gXdCpbPbBMcTvXsCvmCEjt5fwkYt
-dsslEvoe09IZzUnsk6XgUxLj2JfJRPOzGXeOnCz1AAzoq+LRCT7YbvlEzWEz5245
-E0XYdD5EzWgVWdKTqpVY2XWj76wDZ8GI7tfOQYHZ5hAhYw92wkhoIvmsOjXJQM7j
-KWlRVBHx0grbbdPOQOox+iOxES0qfXOYoBzlzsLDn14kHZ7TkwV9ZeRbULycCUk=
-=sFyW
+wsBcBAABCgAGBQJfT9STAAoJEPQrujgXjffwX74IAMke2Yq5S7JrsAzftcq7z6eM
+wTIqn4y+9xGBqadA3gvsHAtJxd7TdVttoc1n1jzqbBf2fd+OxLDkZEHbnXnGJkx+
+9ItTJgEqc6bizGxEP6wzvIItJm9CGbK1omTr69rAEpiAeIkjAGuAP6G4a/bqWdAj
+Vxzlih6PDf2oVecv4nn3m1BlJ1iAXXEVUs2ihYtmhhM2jgd2uuCD9idJn/nBuYAi
+z3+XvIn+u7wNLZZOubi7XEhijjVdK9+1BzdTuAZfkK/OHZ1ThYjjT2XXPEpq7D3Q
+kney7+CztAdAUTARwDcqbb0sPGhk9gwt14JZANShaWHX5Zc2yTWyK7NgE+WfJxQ=
+=wXh2
 -----END PGP SIGNATURE-----
+

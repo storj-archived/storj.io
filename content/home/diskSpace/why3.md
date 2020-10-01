@@ -5,5 +5,5 @@ desc : Operating a Node doesn’t require extra hardware or power-hungry CPUs. A
 class : "diskSpace"
 h : 34
 w : 54
-alt : "Use Existing Hardware"
+alt : "Icon depicting Node Operators being paid in Storj Token"
 ---
