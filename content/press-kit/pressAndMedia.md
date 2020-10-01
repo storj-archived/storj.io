@@ -1,7 +1,0 @@
----
-Title : 'Press & Media'
-ctaLink : '/press-kit/presskit.zip'
-ctaText : 'Get Full Press Kit'
----
-
- <p class="description">For any press inquiries, please contact us at <a href="mailto:hello@storj.io" class="link">hello@storj.io</a>.</p>
