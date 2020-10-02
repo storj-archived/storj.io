@@ -1,6 +1,6 @@
 ---
-title: Blogg
-link: 'https://storj.io/blog'
+title: Blog
+link: 'https://storj.io/blogg'
 draft: true
 ---
 
