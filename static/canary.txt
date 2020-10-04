@@ -24,25 +24,24 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 09/02/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 10/03/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Biden adjusts strategy in key Midwest battleground
-- - How turnout and swing voters could get Trump or Biden to 270
-- - Portland killing renews focus on tactics of far-right group Patriot Prayer
-- - Tulsa Race Massacre survivors file lawsuit, seeking ‘repair’ for 1921 attack
-- - First coronavirus death traced to Sturgis Motorcyle Rally that drew 400,000 people
+- - Trump says he is doing well, after chief of staff says next 48 hours ‘critical’
+- - White House shows little effort in contact tracing for hundreds potentially exposed to Trump
+- - President urges stimulus deal, but obstacles remain
+- - In an era of failed governance, the NFL has a chance to show what leadership looks like in how it handles its covid-19 crisis 
+ - U.S. faces shortage of up to 8 billion meals in next 12 months, leading food bank says
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJfT9STAAoJEPQrujgXjffwX74IAMke2Yq5S7JrsAzftcq7z6eM
-wTIqn4y+9xGBqadA3gvsHAtJxd7TdVttoc1n1jzqbBf2fd+OxLDkZEHbnXnGJkx+
-9ItTJgEqc6bizGxEP6wzvIItJm9CGbK1omTr69rAEpiAeIkjAGuAP6G4a/bqWdAj
-Vxzlih6PDf2oVecv4nn3m1BlJ1iAXXEVUs2ihYtmhhM2jgd2uuCD9idJn/nBuYAi
-z3+XvIn+u7wNLZZOubi7XEhijjVdK9+1BzdTuAZfkK/OHZ1ThYjjT2XXPEpq7D3Q
-kney7+CztAdAUTARwDcqbb0sPGhk9gwt14JZANShaWHX5Zc2yTWyK7NgE+WfJxQ=
-=wXh2
+wsBcBAABCgAGBQJfeS35AAoJEPQrujgXjffwYekIAILMjvE2ObBMiD6jXWM6piuk
+fKN62wKhQgnY98yIGTnvBrupDjRDcYsM99rq/d/2u28KSBGknrKU5ltEps2/rABI
+G3mlsN/DuizMhVbc4XtKoC1NpMB4CLS6XFyts2lPrUVdnWJCaKYlv5kyytF4W97Q
+QolFeUgpZyPFe5HeNte6YUwDO/3Ygt1NBfxVOfI0bIDaOQl24UBKoGEkUImCtjgW
+nXyyoQYiQslTVgOQ9b7JrgWDP17kvlydf03HISWKTbfHZPXLsOqcaB8JTYvKTZla
+kA2loODgXO0vy/Er2z9vVqYij2xK5B/2HGEcxTxXXMALwFSfzoBqQ95fxhKkA0w=
+=t+VM
 -----END PGP SIGNATURE-----
-
