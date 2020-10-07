@@ -1,5 +1,5 @@
 ---
-title: "DevOps Engineer"
+title: "DevOps / System Engineer"
 location: "Remote - US or International"
 postDate: "10/05/20"
 link: "https://storj.bamboohr.com/jobs/view.php?id=29"
