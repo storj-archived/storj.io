@@ -1,6 +1,16 @@
 <div class="row">
     {{with .Site.GetPage "johnG"}}
-    <div class="team-member">
+        <div class="team-member">
+            <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+            <h4 class="team-member-name" >{{.Params.name}}</h4>
+            <p class="team-member-title">{{.Params.title}}</p>
+						{{ if eq .Params.contractor true }}
+							<p class="team-member-contractor">Contractor</p>
+						{{ end }}
+        </div>
+    {{end}}
+    {{with .Site.GetPage "katherine"}}
+        <div class="team-member">
             <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
             <h4 class="team-member-name" >{{.Params.name}}</h4>
             <p class="team-member-title">{{.Params.title}}</p>
@@ -10,7 +20,7 @@
         </div>
     {{end}}
     {{with .Site.GetPage "matthewM"}}
-    <div class="team-member">
+        <div class="team-member">
             <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
             <h4 class="team-member-name" >{{.Params.name}}</h4>
             <p class="team-member-title">{{.Params.title}}</p>
@@ -20,7 +30,7 @@
         </div>
     {{end}}
     {{with .Site.GetPage "dorrie"}}
-    <div class="team-member">
+        <div class="team-member">
             <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
             <h4 class="team-member-name" >{{.Params.name}}</h4>
             <p class="team-member-title">{{.Params.title}}</p>
@@ -37,6 +47,6 @@
 						{{ if eq .Params.contractor true }}
 							<p class="team-member-contractor">Contractor</p>
 						{{ end }}
-        </div>
+          </div>
     {{end}}
 </div>
