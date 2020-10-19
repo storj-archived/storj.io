@@ -1,15 +1,15 @@
-<div class="header dei-bg">
-
+<div class="header dei-hero-bg">
   <section>
   {{with .Site.GetPage "page" "deiHero"}}
     {{partial "navbar" .}}
   </section>
-
   <div class="container text-center">
     <div class="row">
-      <div class="col-12 white-txt">
+			<div class="spacer80"></div>
+      <div class="col-12 white-txt dei-hero-content">
         <h4 class="dei-hero-heading white-txt">{{.Params.heading}}</h4>
-				<h4 class="dei-hero-subheading white-txt">{{.Params.subheading}}</h4>
+				<p class="dei-hero-subheading white-txt">{{.Params.subheading}}</p>
+				<div class="spacer25"></div>
 				<a href={{.Params.ctaLink}}><button class="btn dei-hero-btn">{{.Params.cta}}</button></a>
       </div>
 		</div>

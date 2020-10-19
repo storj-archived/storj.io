@@ -6850,9 +6850,15 @@ ul.submit-options li:last-of-type {
 
 }
 
-.dei-bg {
+.dei-hero-bg {
 	background: #0054C4;
 }
+
+.dei-hero-content {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
 
 .dei-hero-heading {
 	font-family: Poppins;
@@ -6905,6 +6911,11 @@ ul.submit-options li:last-of-type {
 
 .dei-blm {
 	background: #000;
+}
+
+.dei-blm-content {
+	max-width: 650px;
+	margin: 0 auto;
 }
 
 .dei-blm-heading {
@@ -6990,6 +7001,12 @@ ul.submit-options li:last-of-type {
 .dei-principle-col {
 	background: #F4F6F9;
 	text-align: left;
+	padding: 0 30px 30px;
+  height: 392px;
+}
+
+.dei-principle-img {
+	margin: 30px 0 10px 0;
 }
 
 .dei-principle-title {
@@ -7029,7 +7046,8 @@ ul.submit-options li:last-of-type {
 .dei-values-col {
 	background: #fff;
 	height: 201px;
-	max-width: 299px;
+	margin-bottom: 30px;
+	padding: 20px;
 }
 
 .dei-values-title {
@@ -7050,4 +7068,28 @@ ul.submit-options li:last-of-type {
 	line-height: 25px;
 	letter-spacing: 0px;
 	text-align: left;
+}
+
+.dei-work-heading {
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-work-subheading {
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-work-btn {
+	float: left;
 }

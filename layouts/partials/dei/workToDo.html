@@ -1,13 +1,15 @@
-<div class="container">
+<div class="container dei-work">
 	{{with .Site.GetPage "page" "workToDo"}}
-
+		<div class="spacer125"></div>
     <div class="row text-center">
 			<div class="col-lg-6"><img src="{{.Params.image}}" /></div>
 			<div class="col-lg-6">
-				<h4>{{.Params.heading}}</h4>
-				<p>{{.Params.subheading}}</p>
-				<a href="{{.Params.ctaLink}}"><button>{{.Params.cta}}</button></a>
+				<h4 class="dei-work-heading">{{.Params.heading}}</h4>
+				<p class="dei-work-subheading">{{.Params.subheading}}</p>
+				<div class="spacer25"></div>
+				<a href="{{.Params.ctaLink}}"><button class="btn dei-work-btn">{{.Params.cta}}</button></a>
 			</div>
     </div>
 		{{end}}
+		<div class="spacer125"></div>
 </div>
