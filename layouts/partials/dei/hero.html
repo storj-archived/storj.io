@@ -1,16 +1,16 @@
 <div class="header dei-bg">
 
   <section>
-  {{with .Site.GetPage "page" "communityHeroNav"}}
+  {{with .Site.GetPage "page" "deiHero"}}
     {{partial "navbar" .}}
   </section>
 
   <div class="container text-center">
     <div class="row">
-      <div class="col-12 text-white">
-        <h4 class="dei-hero-heading text-white">{{.Params.heading}}</h4>
-				<h4 class="dei-hero-subheading">{{.Params.subheading}}</h4>
-				<a href={{.Params.ctaLink}}><button class="btn btn-light">{{.Params.cta}}</button></a>
+      <div class="col-12 white-txt">
+        <h4 class="dei-hero-heading white-txt">{{.Params.heading}}</h4>
+				<h4 class="dei-hero-subheading white-txt">{{.Params.subheading}}</h4>
+				<a href={{.Params.ctaLink}}><button class="btn dei-hero-btn">{{.Params.cta}}</button></a>
       </div>
 		</div>
   </div>

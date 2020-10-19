@@ -6853,3 +6853,201 @@ ul.submit-options li:last-of-type {
 .dei-bg {
 	background: #0054C4;
 }
+
+.dei-hero-heading {
+	font-family: Poppins;
+	font-size: 42px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 50px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-hero-subheading {
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-hero-btn {
+	background: #fff;
+	color: #0055C6;
+}
+
+.dei-at-storj-heading {
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-at-storj-subheading {
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-at-storj-btn {
+	float: left;
+}
+
+.dei-blm {
+	background: #000;
+}
+
+.dei-blm-heading {
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-blm-subheading {
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 21px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-blm-btn {
+	color: #000;
+	background: #fff;
+}
+
+.dei-commitment {
+	background: #F4F6F9;
+}
+
+.dei-commitment-heading {
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-commitment-title {
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-commitment-content {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 20px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-commitment-link {
+	font-family: Poppins;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	letter-spacing: 0px;
+	float: left;
+	color: #0055C6;
+}
+
+.dei-principle-heading {
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-principle-col {
+	background: #F4F6F9;
+	text-align: left;
+}
+
+.dei-principle-title {
+	font-family: Poppins;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-principle-content {
+	font-family: Roboto;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 24px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-values {
+	background: #0055C6;
+}
+
+.dei-values-heading {
+	font-family: Poppins;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: center;
+}
+
+.dei-values-col {
+	background: #fff;
+	height: 201px;
+	max-width: 299px;
+}
+
+.dei-values-title {
+	font-family: Poppins;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 41px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+
+.dei-values-content {
+	font-family: Roboto;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 0px;
+	text-align: left;
+}

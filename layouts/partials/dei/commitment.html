@@ -1,0 +1,17 @@
+<div class="dei-commitment">
+	<div class="container">
+	{{with .Site.GetPage "page" "commitment"}}
+	<h4 class="dei-commitment-heading">{{.Params.heading}}</h4>
+	{{end}}
+    <div class="row text-center">
+		{{range where .Site.Pages ".Params.class" "commitment"}}
+			<div class="col-lg-4">
+				<h4 class="dei-commitment-title">{{.Params.title}}</h4>
+				<p class="dei-commitment-content">{{.Params.content}}</p>
+				<a class="dei-commitment-link" href={{.Params.ctaLink}}>Read More</a>
+			</div>
+			{{end}}
+
+    </div>
+	</div>
+</div>

@@ -1,0 +1,15 @@
+<div class="dei-values">
+	<div class="container">
+	{{with .Site.GetPage "page" "values"}}
+		<h4 class="dei-values-heading">{{.Params.heading}}</h4>
+	{{end}}
+    <div class="row text-center">
+		{{range where .Site.Pages ".Params.class" "value"}}
+			<div class="col-lg-4 dei-values-col">
+				<h4 class="dei-values-title">{{.Params.title}}</h4>
+				<p class="dei-values-content">{{.Params.content}}</p>
+			</div>
+		{{end}}
+    </div>
+	</div>
+</div>

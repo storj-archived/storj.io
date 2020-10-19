@@ -1,0 +1,13 @@
+<div class="container">
+	{{with .Site.GetPage "page" "workToDo"}}
+
+    <div class="row text-center">
+			<div class="col-lg-6"><img src="{{.Params.image}}" /></div>
+			<div class="col-lg-6">
+				<h4>{{.Params.heading}}</h4>
+				<p>{{.Params.subheading}}</p>
+				<a href="{{.Params.ctaLink}}"><button>{{.Params.cta}}</button></a>
+			</div>
+    </div>
+		{{end}}
+</div>
