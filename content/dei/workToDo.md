@@ -4,4 +4,5 @@ subheading: "We know there’s more work to be done before we can have meaningfu
 cta: "Join the Storj Labs Team"
 ctaLink: "#"
 img: "/img/split-arrow.svg"
+imgSm: "/img/split-arrow-sm.svg"
 ---

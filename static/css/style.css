@@ -6916,6 +6916,7 @@ ul.submit-options li:last-of-type {
 	line-height: 41px;
 	letter-spacing: 0px;
 	text-align: left;
+	margin-bottom: 0;
 }
 
 .dei-at-storj-subheading {
@@ -6934,18 +6935,14 @@ ul.submit-options li:last-of-type {
 
 .dei-blm {
 	background: #000;
+	margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 991px) {
 	.dei-blm {
 		width: 95%;
 		margin: 0 auto;
-	}
-}
-
-@media only screen and (max-width: 767px) {
-	.dei-blm {
-		margin-bottom: 30px;
+		margin-top: 30px;
 	}
 }
 
@@ -6968,6 +6965,7 @@ ul.submit-options li:last-of-type {
 	line-height: 41px;
 	letter-spacing: 0px;
 	text-align: center;
+	margin-bottom: 0;
 }
 
 .dei-blm-subheading {
@@ -7007,6 +7005,7 @@ ul.submit-options li:last-of-type {
 	line-height: 25px;
 	letter-spacing: 0px;
 	text-align: left;
+	min-height: 50px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -7043,6 +7042,12 @@ ul.submit-options li:last-of-type {
 	color: #0055C6;
 }
 
+.dei-commitment-carrot {
+  position: relative;
+  left: 3px;
+	bottom: 1px;
+}
+
 .dei-principle-heading {
 	font-family: Poppins;
 	font-size: 28px;
@@ -7056,7 +7061,7 @@ ul.submit-options li:last-of-type {
 .dei-principle-col {
 	background: #F4F6F9;
 	text-align: left;
-	padding: 0 30px 30px;
+	padding: 10px 30px 30px;
   height: 392px;
 }
 
@@ -7069,6 +7074,7 @@ ul.submit-options li:last-of-type {
 
 .dei-principle-img {
 	margin: 30px 0 10px 0;
+	height: 30px;
 }
 
 .dei-principle-title {
@@ -7093,12 +7099,14 @@ ul.submit-options li:last-of-type {
 
 .dei-values {
 	background: #0055C6;
+	margin-top: 30px;
 }
 
 @media only screen and (max-width: 767px) {
 	.dei-values {
 		width: 95%;
 		margin: 0 auto;
+		margin-top: 30px;
 	}
 }
 
@@ -7149,6 +7157,37 @@ ul.submit-options li:last-of-type {
 
 .dei-work {
 	background: #F4F6F9;
+	position: relative;
+}
+
+.dei-work-img-wrapper {
+	position: inherit;
+}
+
+.dei-work-img {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+
+@media only screen and (max-width: 991px) {
+	.dei-work-content {
+		display: flex;
+		flex-direction: column;
+	}
+	.dei-work-text-wrapper {
+		order: 1;
+	}
+	.dei-work-img-wrapper {
+		order: 2;
+		margin-top: 300px;
+	}
+	.dei-work-img {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
 }
 
 .dei-work-heading {
@@ -7159,6 +7198,7 @@ ul.submit-options li:last-of-type {
 	line-height: 41px;
 	letter-spacing: 0px;
 	text-align: left;
+	margin-bottom: 0;
 }
 
 .dei-work-subheading {
