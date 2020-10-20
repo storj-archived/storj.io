@@ -6892,6 +6892,11 @@ ul.submit-options li:last-of-type {
 	color: #0055C6;
 }
 
+.dei-hero-btn:hover {
+	background: #0055C6;
+	color: #fff;
+}
+
 
 
 @media only screen and (max-width: 991px) {
@@ -6981,6 +6986,11 @@ ul.submit-options li:last-of-type {
 .dei-blm-btn {
 	color: #000;
 	background: #fff;
+}
+
+.dei-blm-btn:hover {
+	background: #eee;
+	color: #000;
 }
 
 .dei-commitment {
