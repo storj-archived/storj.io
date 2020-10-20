@@ -1,9 +1,9 @@
 <div class="container dei-work">
 	{{with .Site.GetPage "page" "workToDo"}}
 		<div class="spacer125"></div>
-    <div class="row text-center">
-			<div class="col-lg-6"><img src="{{.Params.image}}" /></div>
-			<div class="col-lg-6">
+    <div class="row text-center dei-work-content">
+			<div class="col-lg-6 dei-work-img-wrapper"><img src="{{.Params.image}}" /></div>
+			<div class="col-lg-6 dei-work-text-wrapper">
 				<h4 class="dei-work-heading">{{.Params.heading}}</h4>
 				<p class="dei-work-subheading">{{.Params.subheading}}</p>
 				<div class="spacer25"></div>

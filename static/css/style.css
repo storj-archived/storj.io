@@ -6857,6 +6857,13 @@ ul.submit-options li:last-of-type {
 .dei-hero-content {
 	max-width: 600px;
 	margin: 0 auto;
+
+}
+
+@media only screen and (max-width: 767px) {
+	.dei-hero-content {
+		width: 70%;
+	}
 }
 
 
@@ -6883,6 +6890,22 @@ ul.submit-options li:last-of-type {
 .dei-hero-btn {
 	background: #fff;
 	color: #0055C6;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+	.dei-at-storj-content {
+		display: flex;
+		flex-direction: column;
+	}
+	.dei-at-storj-text-wrapper {
+		order: 2;
+	}
+	.dei-at-storj-img-wrapper {
+		order: 1;
+		margin-bottom: 90px;
+	}
 }
 
 .dei-at-storj-heading {
@@ -6913,9 +6936,28 @@ ul.submit-options li:last-of-type {
 	background: #000;
 }
 
+@media only screen and (max-width: 991px) {
+	.dei-blm {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.dei-blm {
+		margin-bottom: 30px;
+	}
+}
+
 .dei-blm-content {
 	max-width: 650px;
 	margin: 0 auto;
+}
+
+@media only screen and (max-width: 991px) {
+	.dei-blm-content {
+		width: 80%;
+	}
 }
 
 .dei-blm-heading {
@@ -6967,6 +7009,19 @@ ul.submit-options li:last-of-type {
 	text-align: left;
 }
 
+@media only screen and (max-width: 991px) {
+	.dei-commitment-col {
+		margin-bottom: 50px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.dei-commitment-col {
+		margin-bottom: 90px;
+	}
+}
+
+
 .dei-commitment-content {
 	font-family: Roboto;
 	font-size: 14px;
@@ -7005,6 +7060,13 @@ ul.submit-options li:last-of-type {
   height: 392px;
 }
 
+@media only screen and (max-width: 991px) {
+	.dei-principle-col {
+		margin-bottom: 30px;
+		height: auto;
+	}
+}
+
 .dei-principle-img {
 	margin: 30px 0 10px 0;
 }
@@ -7033,6 +7095,13 @@ ul.submit-options li:last-of-type {
 	background: #0055C6;
 }
 
+@media only screen and (max-width: 767px) {
+	.dei-values {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
+
 .dei-values-heading {
 	font-family: Poppins;
 	font-size: 28px;
@@ -7048,6 +7117,14 @@ ul.submit-options li:last-of-type {
 	height: 201px;
 	margin-bottom: 30px;
 	padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.dei-values-col {
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
 }
 
 .dei-values-title {
@@ -7068,6 +7145,10 @@ ul.submit-options li:last-of-type {
 	line-height: 25px;
 	letter-spacing: 0px;
 	text-align: left;
+}
+
+.dei-work {
+	background: #F4F6F9;
 }
 
 .dei-work-heading {
