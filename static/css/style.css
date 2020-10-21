@@ -6892,12 +6892,6 @@ ul.submit-options li:last-of-type {
 	color: #0055C6;
 }
 
-.dei-hero-btn:hover {
-	background: #0055C6;
-	color: #fff;
-}
-
-
 
 @media only screen and (max-width: 991px) {
 	.dei-at-storj-content {
@@ -6940,15 +6934,7 @@ ul.submit-options li:last-of-type {
 
 .dei-blm {
 	background: #000;
-	margin-bottom: 30px;
-}
-
-@media only screen and (max-width: 991px) {
-	.dei-blm {
-		width: 95%;
-		margin: 0 auto;
-		margin-top: 30px;
-	}
+	margin: 20px;
 }
 
 .dei-blm-content {
@@ -7138,9 +7124,9 @@ ul.submit-options li:last-of-type {
 
 .dei-values-col {
 	background: #fff;
-	height: 201px;
+	min-height: 201px;
 	margin-bottom: 30px;
-	padding: 20px;
+	padding: 20px 30px;
 }
 
 @media only screen and (max-width: 767px) {
