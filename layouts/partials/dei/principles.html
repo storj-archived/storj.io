@@ -1,0 +1,19 @@
+<div class="container dei-principle">
+	<div class="spacer90"></div>
+	{{with .Site.GetPage "page" "principles"}}
+	<h4 class="dei-principle-heading">{{.Params.heading}}</h4>
+	<div class="spacer40"></div>
+	{{end}}
+    <div class="row text-center">
+			{{range where .Site.Pages ".Params.class" "principle"}}
+			<div class="col-md-4 col-lg-4" >
+				<div class="dei-principle-col">
+					<img class="dei-principle-img" src={{.Params.image}} />
+					<h4 class="dei-principle-title">{{.Params.title}}</h4>
+					<p class="dei-principle-content">{{.Params.content}}</p>
+				</div>
+			</div>
+			{{end}}
+    </div>
+		<div class="spacer90"></div>
+</div>

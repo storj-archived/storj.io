@@ -1,7 +1,7 @@
 ---
 name : Dorrie Chung
-title : Controller
+title : Senior Director of Finance
 headshot : /img/team/dorrie.jpg
-class : hr
+class : leadership
 all : true
 ---

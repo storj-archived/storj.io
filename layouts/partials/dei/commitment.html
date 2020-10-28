@@ -1,0 +1,20 @@
+<div class="dei-commitment">
+	<div class="container">
+	<div class="spacer90"></div>
+	{{with .Site.GetPage "page" "commitment"}}
+	<h4 class="dei-commitment-heading">{{.Params.heading}}</h4>
+	<div class="spacer40"></div>
+
+	{{end}}
+    <div class="row text-center">
+		{{range where .Site.Pages ".Params.class" "commitment"}}
+			<div class="col-sm-12 col-md-4 col-lg-4 dei-commitment-col">
+				<h4 class="dei-commitment-title">{{.Params.title}}</h4>
+				<p class="dei-commitment-content">{{.Params.content}}</p>
+				<a class="dei-commitment-link" href={{.Params.ctaLink}}>Read More<img class="dei-commitment-carrot"  alt="carrot right" src="/img/carrot-right.svg" /></a>
+			</div>
+			{{end}}
+    </div>
+	</div>
+	<div class="spacer90"></div>
+</div>

@@ -1,6 +1,6 @@
 ---
-link : "https://storj.io/blog"
-title : "Blog"
-weight : 5
-class : "secondcolfooter"
+title: Blog
+link: 'https://storj.io/blog'
+draft: true
 ---
+

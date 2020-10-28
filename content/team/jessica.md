@@ -1,6 +1,6 @@
 ---
 name : Jessica Grebenschikov
-title : Software Engineer
+title : Senior Software Engineer
 headshot : /img/team/jessicaG.jpg
 class : engineering
 all : true

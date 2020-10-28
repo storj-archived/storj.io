@@ -1,16 +1,12 @@
 <div class="row">
-    {{with .Site.GetPage "philipH"}}
-    <div class="team-member">
-        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
-        <h4 class="team-member-name" >{{.Params.name}}</h4>
-        <p class="team-member-title">{{.Params.title}}</p>
-    </div>
-    {{end}}
     {{with .Site.GetPage "jtO"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
         <p class="team-member-title">{{.Params.title}}</p>
+				{{ if eq .Params.contractor true }}
+					<p class="team-member-contractor">Contractor</p>
+				{{ end }}
     </div>
     {{end}}
     {{ range where .Site.Pages ".Params.class" "engineering"}}
@@ -18,6 +14,29 @@
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
         <h4 class="team-member-name" >{{.Params.name}}</h4>
         <p class="team-member-title">{{.Params.title}}</p>
+				{{ if eq .Params.contractor true }}
+					<p class="team-member-contractor">Contractor</p>
+				{{ end }}
+    </div>
+    {{end}}
+    {{with .Site.GetPage "monty"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+				{{ if eq .Params.contractor true }}
+					<p class="team-member-contractor">Contractor</p>
+				{{ end }}
+    </div>
+    {{end}}
+    {{with .Site.GetPage "stefanB"}}
+    <div class="team-member">
+        <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
+        <h4 class="team-member-name" >{{.Params.name}}</h4>
+        <p class="team-member-title">{{.Params.title}}</p>
+				{{ if eq .Params.contractor true }}
+					<p class="team-member-contractor">Contractor</p>
+				{{ end }}
     </div>
     {{end}}
 </div>
