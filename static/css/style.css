@@ -5460,7 +5460,13 @@ color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 500px;
+  height: 700px;
+}
+
+@media only screen and (max-width:1650px){
+  .about-us-img{
+    height: 500px;
+  }
 }
 
 @media only screen and (max-width: 500px){
