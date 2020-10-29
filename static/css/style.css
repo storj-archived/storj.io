@@ -5455,6 +5455,16 @@ color: #FFFFFF;
 	}
 }
 
+.about-us-content {
+	margin-top: 100px;
+}
+
+@media only screen and (max-width:1650px){
+	.about-us-content {
+		margin-top: 0;
+	}
+}
+
 .about-us-img{
   background-image: url(../img/aboutus.png);
   background-size: cover;
@@ -5463,9 +5473,21 @@ color: #FFFFFF;
   height: 900px;
 }
 
+@media only screen and (max-width:2300px){
+  .about-us-img{
+    height: 700px;
+  }
+}
+
 @media only screen and (max-width:1650px){
   .about-us-img{
     height: 500px;
+  }
+}
+
+@media only screen and (max-width:991px){
+  .about-us-img{
+    height: 700px;
   }
 }
 
