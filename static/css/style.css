@@ -5455,7 +5455,7 @@ color: #FFFFFF;
 	}
 }
 
-.about-us-content {
+/* .about-us-content {
 	margin-top: 100px;
 }
 
@@ -5463,17 +5463,28 @@ color: #FFFFFF;
 	.about-us-content {
 		margin-top: 0;
 	}
+} */
+
+.about-us-img-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.about-us-content-sm {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .about-us-img{
-  background-image: url(../img/aboutus.png);
+  /* background-image: url(../img/aboutus.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 900px;
+  height: 900px; */
+	width: 100%;
 }
 
-@media only screen and (max-width:2300px){
+/* @media only screen and (max-width:2300px){
   .about-us-img{
     height: 700px;
   }
@@ -5495,7 +5506,7 @@ color: #FFFFFF;
   .about-us-img{
     margin-left:-140px;
   }
-}
+} */
 
 .diversity-img-wrapper{
 	margin-top: 50px;
