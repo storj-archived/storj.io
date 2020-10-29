@@ -5455,19 +5455,21 @@ color: #FFFFFF;
 	}
 }
 
-.about-us-img{
-  background-image: url(../img/aboutus.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 500px;
+
+.about-us-img-wrapper {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-@media only screen and (max-width: 500px){
-  .about-us-img{
-    margin-left:-140px;
-  }
+.about-us-content-sm {
+	padding-left: 15px;
+	padding-right: 15px;
 }
+
+.about-us-img{
+	width: 100%;
+}
+
 
 .diversity-img-wrapper{
 	margin-top: 50px;
