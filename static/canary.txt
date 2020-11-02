@@ -20,28 +20,27 @@ message containing the following:
 Special note should be taken if these messages ever cease being updated, or are removed from this page.
 
 The current message is here:
-
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 10/03/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 11/02/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Trump says he is doing well, after chief of staff says next 48 hours ‘critical’
-- - White House shows little effort in contact tracing for hundreds potentially exposed to Trump
-- - President urges stimulus deal, but obstacles remain
-- - In an era of failed governance, the NFL has a chance to show what leadership looks like in how it handles its covid-19 crisis 
- - U.S. faces shortage of up to 8 billion meals in next 12 months, leading food bank says
+- - Economy faces big strains just as Washington could be paralyzed after election
+- - Federal judge allows Texas’s Harris County to count ballots cast via drive-through voting
+- - In a sea of Biden signs, these Trump supporters went looking for the ‘silent majority’
+- - Where the race stands, one day before Election Day
+- - Boarded-up windows and extra security: Retailers brace for the worst ahead of Election Day
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJfeS35AAoJEPQrujgXjffwYekIAILMjvE2ObBMiD6jXWM6piuk
-fKN62wKhQgnY98yIGTnvBrupDjRDcYsM99rq/d/2u28KSBGknrKU5ltEps2/rABI
-G3mlsN/DuizMhVbc4XtKoC1NpMB4CLS6XFyts2lPrUVdnWJCaKYlv5kyytF4W97Q
-QolFeUgpZyPFe5HeNte6YUwDO/3Ygt1NBfxVOfI0bIDaOQl24UBKoGEkUImCtjgW
-nXyyoQYiQslTVgOQ9b7JrgWDP17kvlydf03HISWKTbfHZPXLsOqcaB8JTYvKTZla
-kA2loODgXO0vy/Er2z9vVqYij2xK5B/2HGEcxTxXXMALwFSfzoBqQ95fxhKkA0w=
-=t+VM
+wsBcBAABCgAGBQJfoJZLAAoJEPQrujgXjffwpusH/3iE+7xowiDEpptkO58UVx9A
+4951u+5I2ua0GflE6Isk9xMkWZ9f81I+oaPjk40zfaiXGc4wDyiixbm9jC8ETlfQ
+xTUWdga3reZEJUyUdQtgH9EZnksZa/S6PZGyiFikpM2UMUJF5o1XBizYlmt9Ia2G
+SvL02GTcFsEHV/YPYqfXRryj72cNiuF2LtKSMfXwiWHaXmrdD6jbuJirO/91ll5i
+hYEu7dKimsm7VQeQthd4tZ8Rgpx/d3DNbNDvyXLD5T2Y+QQNM3vVhVbQqBUQ77/J
+yuGPOGmLvgG/ZtXeT1fK4a8hAuF4xvGy37XXebX0SLJ149siqOTB99E2Gl/v9pg=
+=+Nq5
 -----END PGP SIGNATURE-----
