@@ -5075,18 +5075,6 @@ color: #FFFFFF;
   font-size: 14px;
 }
 
-@media (max-width: 738px) {
-  .ospTrans-button  {
-    width: 60%;
-  }
-}
-
-@media (max-width: 400px) {
-  .ospTrans-button  {
-    width: 80%;
-  }
-}
-
 
 .transparency-heading{
 font-family: 'Poppins';
