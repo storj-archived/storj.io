@@ -20,27 +20,28 @@ message containing the following:
 Special note should be taken if these messages ever cease being updated, or are removed from this page.
 
 The current message is here:
+
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 11/02/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 12/01/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Economy faces big strains just as Washington could be paralyzed after election
-- - Federal judge allows Texas’s Harris County to count ballots cast via drive-through voting
-- - In a sea of Biden signs, these Trump supporters went looking for the ‘silent majority’
-- - Where the race stands, one day before Election Day
-- - Boarded-up windows and extra security: Retailers brace for the worst ahead of Election Day
+- - Bipartisan group in Senate unveils $908 billion stimulus plan
+- - In Siberian coal country, signs of Russia’s shrinking population are everywhere, despite Putin’s efforts
+- - Biden’s economic team poised to challenge GOP’s renewed debt worries
+- - What you need to know about the AstraZeneca, Moderna and Pfizer vaccines
+- - Trump administration launches rewards program targeting North Korea and China
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJfoJZLAAoJEPQrujgXjffwpusH/3iE+7xowiDEpptkO58UVx9A
-4951u+5I2ua0GflE6Isk9xMkWZ9f81I+oaPjk40zfaiXGc4wDyiixbm9jC8ETlfQ
-xTUWdga3reZEJUyUdQtgH9EZnksZa/S6PZGyiFikpM2UMUJF5o1XBizYlmt9Ia2G
-SvL02GTcFsEHV/YPYqfXRryj72cNiuF2LtKSMfXwiWHaXmrdD6jbuJirO/91ll5i
-hYEu7dKimsm7VQeQthd4tZ8Rgpx/d3DNbNDvyXLD5T2Y+QQNM3vVhVbQqBUQ77/J
-yuGPOGmLvgG/ZtXeT1fK4a8hAuF4xvGy37XXebX0SLJ149siqOTB99E2Gl/v9pg=
-=+Nq5
+wsBcBAABCgAGBQJfxoAqAAoJEPQrujgXjffwNkMIAL1OjF7X+OmT5cWl990iPBka
+qW9tmrP7rl7Vbh3D+3yM38OJoY2xwKOiHL2kzvi4jv6bmCQKIP7g60VdTxGnMm26
+2jf+bwGlv3gxgP2plt06pDwsEXtQh/lksbI/ptWUfjb7fljGXybcpJDsSR4Ez7df
+BREqI/nGaj3Dk7NGt9SMFdMWPZlqzGFsAnali/QXIYq3aXwTybrq3dIXr6FufYO7
+euicShNuzvYRYQsl7tBxTBLcY/va8CC6edPz5iCH/WdzCIeWtaBnRlhEgXU/nofJ
+aTeUp+Bgwof686i8/7lPPAgWbqxq6Mp2FMszXHRKcjBXHegPGdXfb2XJ/gjbCNs=
+=5a2f
 -----END PGP SIGNATURE-----
