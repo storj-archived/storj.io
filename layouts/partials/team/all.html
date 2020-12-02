@@ -1,4 +1,4 @@
-<div style="display:flex;flex-wrap: wrap;">
+<div>
     {{ range where .Site.Pages ".Params.class" "leadership"}}
     <div class="team-member">
         <img src="{{.Params.headshot}}" alt="{{.Params.name}}" class="team-member-image">
