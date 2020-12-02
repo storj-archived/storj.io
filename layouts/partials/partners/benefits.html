@@ -2,27 +2,31 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h1 style="font-size:30px;text-align: center;">Why Your End-Users Will Love Us:</h1>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+        <h1>Why Your End-Users Will Love Us:</h1>
       </div>
     </div>
 
     <div class="row">
        {{ range where .Site.Pages ".Params.class" "1stSetBenefits"}}
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12  text-center" style="padding:50px;">
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center partner-benefits">
           <img src="{{.Params.img}}" alt="Open-Source Software" class="icon-opensource">
-          <h4 class="team-member-name" style="color:#333333;">{{.Params.heading}}</h4>
-          <p class="team-member-title" style="font-size: 14px;">{{.Description}}</p>
+          <div class="spacer10">
+          </div>
+          <h4 class="team-member-name">{{.Params.heading}}</h4>
+          <p class="team-member-title">{{.Description}}</p>
         </div>
         {{end}}
     </div>
 
     <div class="row">
       {{ range where .Site.Pages ".Params.class" "2ndSetBenefits"}}
-        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center" style="padding:50px;">
+        <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12 text-center partner-benefits">
             <img src="{{.Params.img}}" alt="Open-Source Software" class="icon-opensource">
-            <h4 class="team-member-name" style="color:#333333;">{{.Params.heading}}</h4>
-            <p class="team-member-title" style="font-size: 14px;">{{.Description}}</p>
+            <div class="spacer10">
+            </div>
+            <h4 class="team-member-name">{{.Params.heading}}</h4>
+            <p class="team-member-title">{{.Description}}</p>
         </div>
       {{end}}
     </div>

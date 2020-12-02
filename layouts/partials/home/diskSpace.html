@@ -7,7 +7,7 @@
           <p class="diskSpace-subheader">Node Operators get paid for their extra disk space, sort of like ride-sharing for the cloud.</p>
           <div class="spacer60"></div>
       </div>
-      <div class="diskSpace-content row mt-5" style="margin-top:100px;">
+      <div class="diskSpace-content row mt-5">
         {{range where .Site.Pages ".Params.class" "diskSpace" | first 4}}
           <div class="diskSpace-section col-xs-12 col-lg-4 mt-5 p-3 text-xs-center">
             <div class="diskSpace-icon">
