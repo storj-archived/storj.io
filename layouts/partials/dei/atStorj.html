@@ -1,0 +1,16 @@
+<div class="container dei-at-storj">
+	{{with .Site.GetPage "page" "atStorj"}}
+		<div class="spacer90"></div>
+    <div class="row text-center dei-at-storj-content">
+			<div class="col-md-7 col-lg-7 dei-at-storj-text-wrapper">
+				<h4 class="dei-at-storj-heading">{{.Params.heading}}</h4>
+				<div class="spacer25"></div>
+				<p class="dei-at-storj-subheading">{{.Params.subheading}}</p>
+				<div class="spacer25"></div>
+				<a href="{{.Params.ctaLink}}"><button class="btn dei-at-storj-btn">{{.Params.cta}}</button></a>
+			</div>
+			<div class="col-md-5 col-lg-5 dei-at-storj-img-wrapper"><img src="{{.Params.image}}" /></div>
+    </div>
+		{{end}}
+		<div class="spacer90"></div>
+</div>

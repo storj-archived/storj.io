@@ -1,0 +1,17 @@
+<div class="dei-blm">
+	<div class="container">
+		{{with .Site.GetPage "page" "blm"}}
+		<div class="spacer90"></div>
+	    <div class="row text-center">
+				<div class="col-12 dei-blm-content">
+					<h4 class="dei-blm-heading txt-white">{{.Params.heading}}</h4>
+					<div class="spacer30"></div>
+					<p class="dei-blm-subheading txt-white">{{.Params.subheading}}</p>
+					<div class="spacer30"></div>
+					<a target="_blank" href="{{.Params.ctaLink}}"><button class="btn dei-blm-btn">{{.Params.cta}}</button></a>
+				</div>
+	    </div>
+			{{end}}
+	</div>
+	<div class="spacer90"></div>
+</div>
