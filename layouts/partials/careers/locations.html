@@ -14,7 +14,7 @@
         <div class="row">
         {{range where .Site.Pages ".Params.class" "location"}}
             <div class="col-xs-12 col-md-6 location-card white">
-                <div class="row careers-header-bg" style="height:237px">
+                <div class="row careers-header-bg">
                     <img src="{{.Params.img}}" height="250" width="520"/>
                 </div>
                 <h1 class="office-location">{{.Params.location}}</h1>

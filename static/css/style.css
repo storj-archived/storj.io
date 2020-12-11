@@ -1835,6 +1835,13 @@ footer .list-unstyled {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
+footer address {
+	 font-family: Roboto;
+	 font-weight: 300;
+	 font-size: 13px;
+	 line-height: 28px;
+	 color: rgba(255, 255, 255, 0.4);
+}
 .social-link {
     height: 22px;
     width: 22px;
@@ -2425,6 +2432,15 @@ FAQ
 	color: #333;
 }
 
+/* --------------------------------
+
+Partners
+
+-------------------------------- */
+
+.partner-benefits {
+	padding: 50px;
+}
 
 
 /* --------------------------------
@@ -5075,18 +5091,6 @@ color: #FFFFFF;
   font-size: 14px;
 }
 
-@media (max-width: 738px) {
-  .ospTrans-button  {
-    width: 60%;
-  }
-}
-
-@media (max-width: 400px) {
-  .ospTrans-button  {
-    width: 80%;
-  }
-}
-
 
 .transparency-heading{
 font-family: 'Poppins';
@@ -5455,19 +5459,21 @@ color: #FFFFFF;
 	}
 }
 
-.about-us-img{
-  background-image: url(../img/aboutus.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 500px;
+
+.about-us-img-wrapper {
+	padding-left: 0;
+	padding-right: 0;
 }
 
-@media only screen and (max-width: 500px){
-  .about-us-img{
-    margin-left:-140px;
-  }
+.about-us-content-sm {
+	padding-left: 15px;
+	padding-right: 15px;
 }
+
+.about-us-img{
+	width: 100%;
+}
+
 
 .diversity-img-wrapper{
 	margin-top: 50px;
@@ -6523,6 +6529,7 @@ ul.submit-options li:last-of-type {
   line-height: 1.5;
   font-weight: 800;
   text-transform: uppercase;
+	display: none;
 }
 
 .sign-up-node-operator .invisible {

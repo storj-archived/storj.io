@@ -24,24 +24,24 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 10/03/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 12/01/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Trump says he is doing well, after chief of staff says next 48 hours ‘critical’
-- - White House shows little effort in contact tracing for hundreds potentially exposed to Trump
-- - President urges stimulus deal, but obstacles remain
-- - In an era of failed governance, the NFL has a chance to show what leadership looks like in how it handles its covid-19 crisis 
- - U.S. faces shortage of up to 8 billion meals in next 12 months, leading food bank says
+- - Bipartisan group in Senate unveils $908 billion stimulus plan
+- - In Siberian coal country, signs of Russia’s shrinking population are everywhere, despite Putin’s efforts
+- - Biden’s economic team poised to challenge GOP’s renewed debt worries
+- - What you need to know about the AstraZeneca, Moderna and Pfizer vaccines
+- - Trump administration launches rewards program targeting North Korea and China
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJfeS35AAoJEPQrujgXjffwYekIAILMjvE2ObBMiD6jXWM6piuk
-fKN62wKhQgnY98yIGTnvBrupDjRDcYsM99rq/d/2u28KSBGknrKU5ltEps2/rABI
-G3mlsN/DuizMhVbc4XtKoC1NpMB4CLS6XFyts2lPrUVdnWJCaKYlv5kyytF4W97Q
-QolFeUgpZyPFe5HeNte6YUwDO/3Ygt1NBfxVOfI0bIDaOQl24UBKoGEkUImCtjgW
-nXyyoQYiQslTVgOQ9b7JrgWDP17kvlydf03HISWKTbfHZPXLsOqcaB8JTYvKTZla
-kA2loODgXO0vy/Er2z9vVqYij2xK5B/2HGEcxTxXXMALwFSfzoBqQ95fxhKkA0w=
-=t+VM
+wsBcBAABCgAGBQJfxoAqAAoJEPQrujgXjffwNkMIAL1OjF7X+OmT5cWl990iPBka
+qW9tmrP7rl7Vbh3D+3yM38OJoY2xwKOiHL2kzvi4jv6bmCQKIP7g60VdTxGnMm26
+2jf+bwGlv3gxgP2plt06pDwsEXtQh/lksbI/ptWUfjb7fljGXybcpJDsSR4Ez7df
+BREqI/nGaj3Dk7NGt9SMFdMWPZlqzGFsAnali/QXIYq3aXwTybrq3dIXr6FufYO7
+euicShNuzvYRYQsl7tBxTBLcY/va8CC6edPz5iCH/WdzCIeWtaBnRlhEgXU/nofJ
+aTeUp+Bgwof686i8/7lPPAgWbqxq6Mp2FMszXHRKcjBXHegPGdXfb2XJ/gjbCNs=
+=5a2f
 -----END PGP SIGNATURE-----
