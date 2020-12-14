@@ -1,5 +1,5 @@
 ---
-name : Bree Harts
+name : Bree Hart
 title : Community Lead
 headshot : /img/team/bree.jpg
 class : community

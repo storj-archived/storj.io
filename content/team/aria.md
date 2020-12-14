@@ -1,6 +1,6 @@
 ---
 name : Aria Souder
-title : Project Manager
+title : Engagement Marketing Manager
 headshot : /img/team/aria.jpg
 class : product
 all : true

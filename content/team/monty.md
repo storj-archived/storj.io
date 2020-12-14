@@ -1,6 +1,6 @@
 ---
 name : Monty Anderson
-title : Strategy Engineer
+title : Software Engineer
 headshot : /img/team/monty.jpg
 class : strategy
 all : true
