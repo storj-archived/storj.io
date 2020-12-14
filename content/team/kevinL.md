@@ -1,6 +1,6 @@
 ---
 name : Kevin Leffew
-title : Business Development
+title : Partner Sales Mgr/Presales SA
 headshot : /img/team/kevin.jpg
 class : sales
 all : true

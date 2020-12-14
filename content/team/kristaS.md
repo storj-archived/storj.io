@@ -1,6 +1,6 @@
 ---
 name : Krista Spriggs
-title : DevOps Engineer
+title : SW Engineering Manager
 headshot : /img/team/krista.jpg
 class : ops
 all : true

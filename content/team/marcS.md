@@ -1,6 +1,6 @@
 ---
 name : Marc Schubert
-title : QA Engineer
+title : Test Engineer
 headshot : /img/team/marc_schubert.jpg
 class : product
 all : true
