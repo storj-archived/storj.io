@@ -24,24 +24,25 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 12/01/2020, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 01/04/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Bipartisan group in Senate unveils $908 billion stimulus plan
-- - In Siberian coal country, signs of Russia’s shrinking population are everywhere, despite Putin’s efforts
-- - Biden’s economic team poised to challenge GOP’s renewed debt worries
-- - What you need to know about the AstraZeneca, Moderna and Pfizer vaccines
-- - Trump administration launches rewards program targeting North Korea and China
+- - Trump pressures GOP official in Ga. to ‘find’ votes
+- - Loeffler and Perdue try to avoid GOP infighting as Ga. runoff races draw to a close
+- - What it’s like to learn online from inside a homeless shelter
+- - Over 1 million Americans still waiting for unemployment aid
+- - Experts suggest delaying second vaccine in order to inoculate more people
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJfxoAqAAoJEPQrujgXjffwNkMIAL1OjF7X+OmT5cWl990iPBka
-qW9tmrP7rl7Vbh3D+3yM38OJoY2xwKOiHL2kzvi4jv6bmCQKIP7g60VdTxGnMm26
-2jf+bwGlv3gxgP2plt06pDwsEXtQh/lksbI/ptWUfjb7fljGXybcpJDsSR4Ez7df
-BREqI/nGaj3Dk7NGt9SMFdMWPZlqzGFsAnali/QXIYq3aXwTybrq3dIXr6FufYO7
-euicShNuzvYRYQsl7tBxTBLcY/va8CC6edPz5iCH/WdzCIeWtaBnRlhEgXU/nofJ
-aTeUp+Bgwof686i8/7lPPAgWbqxq6Mp2FMszXHRKcjBXHegPGdXfb2XJ/gjbCNs=
-=5a2f
+wsBcBAABCgAGBQJf80oCAAoJEPQrujgXjffw/ccH/0SGaj6wNssQEiIRw1ki0cYQ
+IgE+LU0ZPi1og5wK7r8/BkDmDM2O1+xj+HwLOxBRyFbcMa3vEsqcBtI9B9UXdoYc
+HKBWq16/T3gSwOtj3LNadcDYjIxV4sC3T+6BBLqkzMqjJH0BgddGvnf/D/zo0VJI
+qXAPVS9Bv0Uu4gDu4yfxczEsuTy6W00hk7kE8XPmxTQMRScz2AqXCcXBtCZHV4wz
+ntZU9ZgFVhthhuy23E7/4LLMvtC5Ugrtp2HLcA3vwi7AuDNEsee5bw+Ud2XdVQgZ
+22JYmFWXGqxgCE+qk0McGooKI6ag/cyjbKa4GbrqH4SsAC46OLS2FUh0pO6S8aw=
+=WrmU
 -----END PGP SIGNATURE-----
+
