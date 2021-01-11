@@ -1,6 +1,6 @@
 ---
 name : Brian Lillie
-title : Advisory Board
+title : Independent Director
 headshot : /img/team/brianL.jpg
 class : board
 all : true
