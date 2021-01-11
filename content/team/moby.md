@@ -1,6 +1,6 @@
 ---
 name : Maximillian von Briesen
-title : Software Engineer
+title : Senior Full Stack Web Engineer
 headshot : /img/team/moby.jpg
 class : engineering
 all : true
