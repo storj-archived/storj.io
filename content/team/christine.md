@@ -2,6 +2,6 @@
 name : Christine Ackley
 title : Director of Product Marketing
 headshot : /img/team/christine.jpg
-class : sales
+class : marketing
 all : true
 ---

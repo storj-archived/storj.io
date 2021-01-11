@@ -2,6 +2,6 @@
 name : Jocelyn Matthews
 title : Community Manager
 headshot : /img/team/jocelyn-matthews.jpg
-class : marketing
+class : community
 all : true
 ---
