@@ -32,7 +32,6 @@ window.onload = function() {
         );
 
         function setDisplayAttribute(element, classAdding, classRemoving) {
-            console.log("HIT")
             if (element) {
                 element.classList.add(classAdding);
                 element.classList.remove(classRemoving);
