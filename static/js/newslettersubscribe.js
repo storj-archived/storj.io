@@ -8,7 +8,7 @@ window.onload = function() {
     button.onclick = function (event) {
         event.preventDefault();
 
-        var inputValue = document.getElementById("mce-EMAIL-newsletter").value;
+        var inputValue = document.getElementById("mce-EMAIL-newsletter").value.toLowerCase().trim();
         var errElm = document.getElementById("mce-error-response-newsletter");
         var succElm = document.getElementById("mce-success-response-newsletter");
 
