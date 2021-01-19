@@ -1904,6 +1904,14 @@ footer address {
    flex-direction: column;
 }
 
+.d-block {
+    display: block !important;
+}
+
+.none {
+    display: none !important;
+}
+
 /* --------------------------------
 
 Buckets
