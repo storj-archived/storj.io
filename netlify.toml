@@ -15,4 +15,4 @@
   [headers.values]
     X-Frame-Options = "deny"
     Strict-Transport-Security = "max-age=300; includeSubDomains"
-    Content-Security-Policy = "default-src 'none'; script-src 'self' www.google-analytics.com ajax.googleapis.com www.googletagmanager.com *.segment.com *.pingdom.net identity.netlify.com unpkg.com static.addtoany.com; connect-src 'self' *.segment.io *.pingdom.net; img-src 'self'; style-src 'self' fonts.googleapis.com; base-uri 'self'; form-action 'self'; font-src 'self' fonts.gstatic.com; child-src 'self' www.googletagmanager.com www.youtube.com;"
+    Content-Security-Policy = "default-src 'none'; script-src 'self' www.google-analytics.com ajax.googleapis.com www.googletagmanager.com cdn.segment.com rum-static.pingdom.net identity.netlify.com unpkg.com static.addtoany.com; connect-src 'self'; img-src 'self'; style-src 'self' fonts.googleapis.com; base-uri 'self'; form-action 'self'; font-src 'self' fonts.gstatic.com; child-src 'self' www.googletagmanager.com www.youtube.com;"
