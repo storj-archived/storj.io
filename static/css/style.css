@@ -5459,6 +5459,7 @@ color: #FFFFFF;
   border:1px solid #dcdcdc;
   border-radius:4px;
   box-shadow: 2px 2px 10px #dcdcdc;
+  padding-bottom: 32px;
 }
 
 @media only screen and (max-width: 500px){
