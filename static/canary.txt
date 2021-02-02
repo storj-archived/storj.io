@@ -24,25 +24,24 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 01/04/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 02/02/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Trump pressures GOP official in Ga. to ‘find’ votes
-- - Loeffler and Perdue try to avoid GOP infighting as Ga. runoff races draw to a close
-- - What it’s like to learn online from inside a homeless shelter
-- - Over 1 million Americans still waiting for unemployment aid
-- - Experts suggest delaying second vaccine in order to inoculate more people
+- - Impeachment managers say Trump ‘singularly responsible’ for Capitol riot
+- - Amazon’s anti-union blitz follows Alabama warehouse workers everywhere, even the bathroom
+- - Russian vaccine is over 91% effective, peer-reviewed test results show
+- - Poor handling of virus cost Trump his reelection, campaign’s report finds
+- - Rep. Liz Cheney’s vote to impeach Trump prompts a voter rebellion in her home state
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJf80oCAAoJEPQrujgXjffw/ccH/0SGaj6wNssQEiIRw1ki0cYQ
-IgE+LU0ZPi1og5wK7r8/BkDmDM2O1+xj+HwLOxBRyFbcMa3vEsqcBtI9B9UXdoYc
-HKBWq16/T3gSwOtj3LNadcDYjIxV4sC3T+6BBLqkzMqjJH0BgddGvnf/D/zo0VJI
-qXAPVS9Bv0Uu4gDu4yfxczEsuTy6W00hk7kE8XPmxTQMRScz2AqXCcXBtCZHV4wz
-ntZU9ZgFVhthhuy23E7/4LLMvtC5Ugrtp2HLcA3vwi7AuDNEsee5bw+Ud2XdVQgZ
-22JYmFWXGqxgCE+qk0McGooKI6ag/cyjbKa4GbrqH4SsAC46OLS2FUh0pO6S8aw=
-=WrmU
+wsBcBAABCgAGBQJgGXl+AAoJEPQrujgXjffwjMMH/1xU5vJPgRM8v565XG3y3JEZ
+8tiiLKODKFuCNmToHwBFJm6tAut6b69Fx8o07YWFP/XufnAYw1LPSbHU7mw+xkcW
+hhhRLEFb1iYuIdsKyo6ijMqRJQCwRniHrfJYzEsu4R8b2E9eoTKipzQ0eR4322vd
+6sK0smpjNsd8FFlJp5/90yiLk0ukGFJ2jCiwPqP/xhsChK17/cPCtGfkMBQcLws4
+j3JgEaYFKBBvh2tIOenDXbyi/rsRdHoitjSnSU3pYlvHZctbMVh8hzCI+k3NHK7j
+02OB/LXVdcU/VTmejpdXg+ekoZ7u4FWxqjt9GIs/hh9ivUM6lAM/QB7hWdkZEJY=
+=9PCW
 -----END PGP SIGNATURE-----
-
