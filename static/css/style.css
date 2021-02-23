@@ -5366,7 +5366,8 @@ color: #FFFFFF;
   line-height: 24px;
 }
 
-.careers-about-us-cta{
+.careers-about-us-cta,
+.careers-diversity-cta{
   font-family: 'Poppins';
   font-style: normal;
   font-weight: bold;
