@@ -24,24 +24,25 @@ The current message is here:
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 02/02/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 03/08/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Impeachment managers say Trump ‘singularly responsible’ for Capitol riot
-- - Amazon’s anti-union blitz follows Alabama warehouse workers everywhere, even the bathroom
-- - Russian vaccine is over 91% effective, peer-reviewed test results show
-- - Poor handling of virus cost Trump his reelection, campaign’s report finds
-- - Rep. Liz Cheney’s vote to impeach Trump prompts a voter rebellion in her home state
+- - GOP voters may decide whether U.S. reaches herd immunity
+- - Boarded up and lined with barbed wire, Minneapolis braces for murder trial in George Floyd’s death
+- - Meghan reveals suicidal thoughts, Prince Harry discloses rift with his father during TV interview
+- - U.S. proposes power-sharing plan to Afghan and Taliban leaders
+- - As relief bill nears passage, Biden to visit veterans center administering shots
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJgGXl+AAoJEPQrujgXjffwjMMH/1xU5vJPgRM8v565XG3y3JEZ
-8tiiLKODKFuCNmToHwBFJm6tAut6b69Fx8o07YWFP/XufnAYw1LPSbHU7mw+xkcW
-hhhRLEFb1iYuIdsKyo6ijMqRJQCwRniHrfJYzEsu4R8b2E9eoTKipzQ0eR4322vd
-6sK0smpjNsd8FFlJp5/90yiLk0ukGFJ2jCiwPqP/xhsChK17/cPCtGfkMBQcLws4
-j3JgEaYFKBBvh2tIOenDXbyi/rsRdHoitjSnSU3pYlvHZctbMVh8hzCI+k3NHK7j
-02OB/LXVdcU/VTmejpdXg+ekoZ7u4FWxqjt9GIs/hh9ivUM6lAM/QB7hWdkZEJY=
-=9PCW
+wsBcBAABCgAGBQJgRjQsAAoJEPQrujgXjffwIUoIAMiEKW1vk+3K997exVBIqw1N
+ZujhUkEUry5xMaVLJJRkRzqKlpdIVf9+R1+IWuDyKX5DbH7BX2dHc30edA0VW4kA
+UucBldAMfcouhU20eyDy4qnzqgRp8I+wPCa3FmsFG1+4FEcpCE3RwTQENeC23pFk
+kPTvsyMbj1uV7iUa/bSoPpm62mH4dH/sbkIPvjhCamhSWf5oEskn25iexpKIc9SZ
+FHAvibqMnUdsIZalwzVfGyFmg6nH5VTxok0MEcFjj6CEhcxv0VNclIToUm5pXyOS
+Cs0UWWlw8o01XFPDKD3AgXIBc3JVfUMq2xXNUSusxq0p4VSpBNJc/tG0YuCmvW0=
+=1UII
 -----END PGP SIGNATURE-----
+
