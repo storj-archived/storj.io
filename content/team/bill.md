@@ -1,6 +1,6 @@
 ---
 name : Bill Thorpe
-title : Senior Software Engineer
+title : Team Lead
 headshot : /img/team/bill.jpg
 class : engineering
 all : true

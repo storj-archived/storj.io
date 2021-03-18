@@ -1,6 +1,6 @@
 ---
 name : Jennifer Johnson
-title : Software Engineering Manager
+title : Senior Manager
 headshot : /img/team/jennifer.jpg
 class : engineering
 all : true
