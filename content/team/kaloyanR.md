@@ -1,6 +1,6 @@
 ---
 name : Kaloyan Raev
-title : Principal Software Engineer, Engineering Manager
+title : Engineering Director
 headshot : /img/team/kaloyan.jpg
 class : engineering
 all : true

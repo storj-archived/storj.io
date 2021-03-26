@@ -1,6 +1,6 @@
 ---
 name : Michał Niewrzał
-title : Senior Software Engineer
+title : Supervisor
 headshot : /img/team/michal.jpg
 class : engineering
 all : true
