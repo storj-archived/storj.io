@@ -20,28 +20,27 @@ message containing the following:
 Special note should be taken if these messages ever cease being updated, or are removed from this page.
 
 The current message is here:
-
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA512
 
-As of 04/02/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
+As of 05/03/2021, Storj Labs Inc. has never received a National Security Letter, an order under the Foreign Intelligence
  Surveillance Act, or any other classified request for user information. If we ever receive such a request, we would
  seek to let the public know it existed.
  
-- - Border crossings in March jumped to highest level in 15 years, data shows
-- - What is Brood X? When do cicadas come out in 2021? Answering your buggiest questions.
-- - How nation’s surveillance networks helped FBI catch Capitol mob suspects
-- - Senior officer rejects ‘totally unnecessary’ use of force against George Floyd
-- - Fully vaccinated people may travel, CDC says
+- - The battle for 1042 Cutler Street
+- - Fla. Republicans rushed to curb mail voting. Now some fear it may hurt GOP.
+- - EPA will propose a sharp cut in hydrofluorocarbons, powerful greenhouse gases used for refrigeration
+- - Justice Dept. inquiries prompt hopes for police reform, fears of delays
+- - India’s vaccine shortage to last months, warns top manufacturer
 -----BEGIN PGP SIGNATURE-----
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-wsBcBAABCgAGBQJgZ1LHAAoJEPQrujgXjffwb3QH/39EW7BwfOKvB+btJ83UU6Re
-9AZ8D5UFEXihma1G+l7s1pr/DBIEXiCxM441YCHFQrpTYvyl3+PWc88wFGwnT2DF
-1J0XM5dcWcuxSHOeyp/HfcDVdU5KW6JvLZM2eh4IBWiGw3ll7hCKAIMKUiWPa0+S
-xMAM6ugsssgHk7mvAV44XkOsZkcRR0GYbANiVgVTxF1yuatW8KIpNho2nezCoeLN
-KLZ8/Q5ZpsslB+0svlXGSCGmbEVNc5mGMRJwl1ykTR3xuCQQkFs1Z6giFb1MCBoB
-PnqJf/pvsBJrU7HaDfC9LIDPSIiOg5nHrKmxrlc+HgKuQOW/kll12yeB6JkCp/Q=
-=vz1F
+wsBcBAABCgAGBQJgj/Z3AAoJEPQrujgXjffwDTgIAKZODpOUYny/jOMU9j/ZkA89
+uBwQYde9A9glzbdhLIWXOCfkQdyDt0vSJHW+Fd3kvIaiieLOO/4ufGIBfbz1y7Dg
+0Y2+BfI0tdkCxVIxAu5mWMK8/SLDS/vWgh6a95TLxRHn8lJ8j7U5ILB4Wkt7DssE
+nqGg6HE714eeSYBNEaEAwpbUV6NDcG73FaKMP6y8aHX6Te2iNKfxeZBCibUI3yKH
+tcUHJ9c1d9JHyS24UzKvSZHbEb4IZYhemueRXmKhI8YBPlsHCqrqmC7qBpqgZTU9
+DbWNTrT4tWpYuKgA/fCgVFjlHd8/PE1Ofnlay0WoaIwhL5lPuUZdCodCl+LCoHg=
+=DCrz
 -----END PGP SIGNATURE-----
